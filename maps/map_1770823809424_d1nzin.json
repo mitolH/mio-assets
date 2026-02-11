@@ -211,6 +211,16 @@
           "componentId": "comp_1770823932014_26q4pk",
           "tileX": 3,
           "tileY": 9
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 9,
+          "tileY": 20
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 15,
+          "tileY": 20
         }
       ],
       "id": "layer_0"
@@ -245,6 +255,6 @@
   ],
   "districts": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1770825560318,
-  "version": 20
+  "updatedAt": 1770842339842,
+  "version": 21
 }
