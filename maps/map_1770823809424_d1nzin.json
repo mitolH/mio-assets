@@ -1,0 +1,250 @@
+{
+  "id": "map_1770823809424_d1nzin",
+  "name": "Demo",
+  "description": "",
+  "widthInTiles": 32,
+  "heightInTiles": 32,
+  "layers": [
+    {
+      "name": "Ground",
+      "type": "ground",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 10,
+          "tileY": 6
+        },
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 12,
+          "tileY": 6
+        },
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 15,
+          "tileY": 11
+        },
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 6,
+          "tileY": 15
+        },
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 9,
+          "tileY": 20
+        },
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 15,
+          "tileY": 20
+        },
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 22,
+          "tileY": 17
+        },
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 23,
+          "tileY": 14
+        },
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 22,
+          "tileY": 11
+        },
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 20,
+          "tileY": 9
+        },
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 23,
+          "tileY": 7
+        },
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 27,
+          "tileY": 6
+        },
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 26,
+          "tileY": 5
+        },
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 24,
+          "tileY": 4
+        },
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 23,
+          "tileY": 7
+        },
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 24,
+          "tileY": 7
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 6,
+          "tileY": 11
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 7,
+          "tileY": 10
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 6,
+          "tileY": 10
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 7,
+          "tileY": 11
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 5,
+          "tileY": 11
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 4,
+          "tileY": 10
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 4,
+          "tileY": 11
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 5,
+          "tileY": 10
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 4,
+          "tileY": 12
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 5,
+          "tileY": 12
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 6,
+          "tileY": 12
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 7,
+          "tileY": 12
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 7,
+          "tileY": 13
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 8,
+          "tileY": 13
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 8,
+          "tileY": 12
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 8,
+          "tileY": 13
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 6,
+          "tileY": 13
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 9,
+          "tileY": 14
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 9,
+          "tileY": 13
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 9,
+          "tileY": 12
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 9,
+          "tileY": 11
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 5,
+          "tileY": 9
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 4,
+          "tileY": 9
+        },
+        {
+          "componentId": "comp_1770823932014_26q4pk",
+          "tileX": 3,
+          "tileY": 9
+        }
+      ],
+      "id": "layer_0"
+    },
+    {
+      "name": "Object",
+      "type": "object",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [],
+      "id": "layer_1"
+    },
+    {
+      "name": "Decoration",
+      "type": "decoration",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [],
+      "id": "layer_2"
+    },
+    {
+      "name": "Collision",
+      "type": "collision",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.3,
+      "components": [],
+      "id": "layer_3"
+    }
+  ],
+  "districts": [],
+  "createdAt": 1770823809424,
+  "updatedAt": 1770825556893,
+  "version": 18
+}
