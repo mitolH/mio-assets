@@ -1,0 +1,55 @@
+{
+  "id": "map_1770823850313_c1slmg",
+  "name": "Demo2",
+  "description": "",
+  "widthInTiles": 32,
+  "heightInTiles": 32,
+  "layers": [
+    {
+      "name": "Ground",
+      "type": "ground",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "componentId": "comp_1770797242019_8ctkpd",
+          "tileX": 119,
+          "tileY": 23
+        }
+      ],
+      "id": "layer_0"
+    },
+    {
+      "name": "Object",
+      "type": "object",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [],
+      "id": "layer_1"
+    },
+    {
+      "name": "Decoration",
+      "type": "decoration",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [],
+      "id": "layer_2"
+    },
+    {
+      "name": "Collision",
+      "type": "collision",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.3,
+      "components": [],
+      "id": "layer_3"
+    }
+  ],
+  "districts": [],
+  "createdAt": 1770823850313,
+  "updatedAt": 1770825556166,
+  "version": 8
+}
