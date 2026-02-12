@@ -221,6 +221,161 @@
           "componentId": "comp_1770823932014_26q4pk",
           "tileX": 15,
           "tileY": 20
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 24,
+          "tileY": 24
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 23,
+          "tileY": 24
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 23,
+          "tileY": 23
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 25,
+          "tileY": 23
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 23,
+          "tileY": 21
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 22,
+          "tileY": 22
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 21,
+          "tileY": 24
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 20,
+          "tileY": 25
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 19,
+          "tileY": 26
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 18,
+          "tileY": 24
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 18,
+          "tileY": 23
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 21,
+          "tileY": 22
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 22,
+          "tileY": 26
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 23,
+          "tileY": 27
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 25,
+          "tileY": 27
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 27,
+          "tileY": 26
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 27,
+          "tileY": 22
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 22,
+          "tileY": 22
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 15,
+          "tileY": 27
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 15,
+          "tileY": 29
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 16,
+          "tileY": 25
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 16,
+          "tileY": 25
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 17,
+          "tileY": 28
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 19,
+          "tileY": 28
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 20,
+          "tileY": 28
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 18,
+          "tileY": 28
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 25,
+          "tileY": 29
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 26,
+          "tileY": 28
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 27,
+          "tileY": 28
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 28,
+          "tileY": 27
+        },
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 29,
+          "tileY": 26
         }
       ],
       "id": "layer_0"
@@ -255,6 +410,6 @@
   ],
   "districts": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1770842339842,
-  "version": 21
+  "updatedAt": 1770900870353,
+  "version": 23
 }
