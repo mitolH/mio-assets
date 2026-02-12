@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1770842342491,
+  "updatedAt": 1770900854232,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -24,6 +24,17 @@
       "height": 16,
       "version": 4,
       "updatedAt": 1770825619503
+    },
+    {
+      "id": "comp_1770900850720_5oopur",
+      "name": "大草坪",
+      "category": "terrain",
+      "path": "components/terrain/comp_1770900850720_5oopur.json",
+      "tags": [],
+      "width": 48,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1770900850720
     }
   ],
   "maps": [
