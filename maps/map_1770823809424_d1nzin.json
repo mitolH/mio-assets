@@ -261,7 +261,7 @@
               {
                 "id": "inter_kj1jkt",
                 "name": "新交互",
-                "description": "await api.dialog.show(\"hello word！\");\nawait new Promise((resolve) => setTimeout(resolve, 1000));\n  api.map.hideObject(\"obj_kezxa1\");",
+                "description": "await api.dialog.show(\"hello word！\");\nawait new Promise((resolve) => setTimeout(resolve, 1000));\napi.map.hideObject(\"obj_kezxa1\");",
                 "type": "activate",
                 "conditions": [],
                 "effects": [],
@@ -468,6 +468,6 @@
   "itemDefs": [],
   "teleports": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1770965355438,
-  "version": 32
+  "updatedAt": 1770967829869,
+  "version": 34
 }
