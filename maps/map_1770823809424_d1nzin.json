@@ -25,7 +25,23 @@
         {
           "componentId": "comp_1770797242019_8ctkpd",
           "tileX": 15,
-          "tileY": 11
+          "tileY": 11,
+          "interaction": {
+            "interactions": [
+              {
+                "id": "inter_kcxpnt",
+                "name": "新交互",
+                "description": "",
+                "type": "custom",
+                "conditions": [],
+                "effects": [],
+                "weight": 1
+              }
+            ],
+            "interactionRange": 1,
+            "indicatorType": "none"
+          },
+          "refId": "obj_kezxa1"
         },
         {
           "componentId": "comp_1770797242019_8ctkpd",
@@ -220,7 +236,13 @@
         {
           "componentId": "comp_1770823932014_26q4pk",
           "tileX": 15,
-          "tileY": 20
+          "tileY": 20,
+          "interaction": {
+            "interactions": [],
+            "interactionRange": 1,
+            "indicatorType": "none"
+          },
+          "refId": "obj_kimdte"
         },
         {
           "componentId": "comp_1770900850720_5oopur",
@@ -275,7 +297,12 @@
         {
           "componentId": "comp_1770900850720_5oopur",
           "tileX": 18,
-          "tileY": 23
+          "tileY": 23,
+          "interaction": {
+            "interactions": [],
+            "interactionRange": 1,
+            "indicatorType": "none"
+          }
         },
         {
           "componentId": "comp_1770900850720_5oopur",
@@ -409,7 +436,9 @@
     }
   ],
   "districts": [],
+  "itemDefs": [],
+  "teleports": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1770900870353,
-  "version": 23
+  "updatedAt": 1770964648847,
+  "version": 25
 }
