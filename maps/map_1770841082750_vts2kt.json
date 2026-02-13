@@ -11,7 +11,18 @@
       "visible": true,
       "locked": false,
       "opacity": 1,
-      "components": [],
+      "components": [
+        {
+          "componentId": "comp_1770900850720_5oopur",
+          "tileX": 13,
+          "tileY": 21,
+          "interaction": {
+            "interactions": [],
+            "interactionRange": 1,
+            "indicatorType": "none"
+          }
+        }
+      ],
       "id": "layer_0"
     },
     {
@@ -43,7 +54,9 @@
     }
   ],
   "districts": [],
+  "itemDefs": [],
+  "teleports": [],
   "createdAt": 1770841082750,
-  "updatedAt": 1770900854312,
-  "version": 3
+  "updatedAt": 1770955063220,
+  "version": 4
 }
