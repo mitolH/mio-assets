@@ -39,7 +39,8 @@
               }
             ],
             "interactionRange": 1,
-            "indicatorType": "none"
+            "indicatorType": "none",
+            "hideAfterInteract": false
           },
           "refId": "obj_kezxa1"
         },
@@ -439,6 +440,6 @@
   "itemDefs": [],
   "teleports": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1770964648847,
-  "version": 25
+  "updatedAt": 1770964818212,
+  "version": 26
 }
