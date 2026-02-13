@@ -318,6 +318,11 @@
   ],
   "variants": {},
   "createdAt": 1770823932014,
-  "updatedAt": 1770825619503,
-  "version": 4
+  "updatedAt": 1770997233937,
+  "version": 5,
+  "collisionMask": [
+    [
+      false
+    ]
+  ]
 }
