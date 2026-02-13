@@ -261,11 +261,15 @@
               {
                 "id": "inter_kj1jkt",
                 "name": "新交互",
-                "description": "await api.dialog.show(\"hello word！\");\nawait new Promise((resolve) => setTimeout(resolve, 1000));\napi.map.hideObject(\"obj_kezxa1\");",
+                "description": "隐藏其他弹窗",
                 "type": "activate",
                 "conditions": [],
                 "effects": [],
-                "weight": 1
+                "weight": 1,
+                "script": {
+                  "source": "await api.dialog.show(\"hello word！\");\nawait new Promise((resolve) => setTimeout(resolve, 1000));\napi.map.hideObject(\"obj_kezxa1\");",
+                  "version": 9
+                }
               }
             ],
             "interactionRange": 1,
@@ -468,6 +472,6 @@
   "itemDefs": [],
   "teleports": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1770972057245,
-  "version": 39
+  "updatedAt": 1770974622501,
+  "version": 41
 }
