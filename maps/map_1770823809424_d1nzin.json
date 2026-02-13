@@ -31,8 +31,26 @@
               {
                 "id": "inter_kcxpnt",
                 "name": "新交互",
-                "description": "await api.dialog.show(\"hello word！\");\nawait new Promise((resolve) => setTimeout(resolve, 1000));\n  api.map.hideObject(\"obj_kezxa1\");",
-                "type": "activate",
+                "description": "阿斯顿",
+                "type": "talk",
+                "conditions": [],
+                "effects": [],
+                "weight": 1
+              },
+              {
+                "id": "inter_kj10wl",
+                "name": "新交互",
+                "description": "",
+                "type": "custom",
+                "conditions": [],
+                "effects": [],
+                "weight": 1
+              },
+              {
+                "id": "inter_kj124n",
+                "name": "新交互",
+                "description": "",
+                "type": "custom",
                 "conditions": [],
                 "effects": [],
                 "weight": 1
@@ -239,7 +257,17 @@
           "tileX": 15,
           "tileY": 20,
           "interaction": {
-            "interactions": [],
+            "interactions": [
+              {
+                "id": "inter_kj1jkt",
+                "name": "新交互",
+                "description": "await api.dialog.show(\"hello word！\");\nawait new Promise((resolve) => setTimeout(resolve, 1000));\n  api.map.hideObject(\"obj_kezxa1\");",
+                "type": "activate",
+                "conditions": [],
+                "effects": [],
+                "weight": 1
+              }
+            ],
             "interactionRange": 1,
             "indicatorType": "none"
           },
@@ -440,6 +468,6 @@
   "itemDefs": [],
   "teleports": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1770965263884,
-  "version": 30
+  "updatedAt": 1770965355438,
+  "version": 32
 }
