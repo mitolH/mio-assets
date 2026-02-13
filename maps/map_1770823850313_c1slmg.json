@@ -49,7 +49,9 @@
     }
   ],
   "districts": [],
+  "itemDefs": [],
+  "teleports": [],
   "createdAt": 1770823850313,
-  "updatedAt": 1770842341229,
-  "version": 15
+  "updatedAt": 1770996303921,
+  "version": 17
 }
