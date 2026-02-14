@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771041847019,
+  "updatedAt": 1771041849333,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -55,15 +55,6 @@
       "heightInTiles": 32,
       "version": 20,
       "updatedAt": 1771041161989
-    },
-    {
-      "id": "map_1771041109457_08zebu",
-      "name": "New Map",
-      "path": "maps/map_1771041109457_08zebu.json",
-      "widthInTiles": 32,
-      "heightInTiles": 32,
-      "version": 3,
-      "updatedAt": 1771041472545
     }
   ]
 }
