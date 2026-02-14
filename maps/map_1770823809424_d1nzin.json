@@ -436,6 +436,11 @@
           "componentId": "comp_1770900850720_5oopur",
           "tileX": 29,
           "tileY": 26
+        },
+        {
+          "componentId": "char_liangshanbo_student_casual_36",
+          "tileX": 13,
+          "tileY": 24
         }
       ],
       "id": "layer_0"
@@ -472,6 +477,6 @@
   "itemDefs": [],
   "teleports": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1771041162606,
-  "version": 55
+  "updatedAt": 1771047472419,
+  "version": 56
 }
