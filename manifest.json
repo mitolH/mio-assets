@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771042291597,
+  "updatedAt": 1771044214550,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -35,6 +35,56 @@
       "height": 48,
       "version": 3,
       "updatedAt": 1771040857632
+    },
+    {
+      "id": "char_liangshanbo_student_casual_36",
+      "name": "liang",
+      "category": "character",
+      "path": "components/character/char_liangshanbo_student_casual_36.json",
+      "tags": [
+        "角色",
+        "梁山伯",
+        "求学",
+        "常服",
+        "古风"
+      ],
+      "width": 36,
+      "height": 36,
+      "version": 1,
+      "updatedAt": 1771044208048
+    },
+    {
+      "id": "char_zhuyingtai_student_casual_36",
+      "name": "zhu",
+      "category": "character",
+      "path": "components/character/char_zhuyingtai_student_casual_36.json",
+      "tags": [
+        "角色",
+        "祝英台",
+        "求学",
+        "常服",
+        "古风"
+      ],
+      "width": 36,
+      "height": 36,
+      "version": 1,
+      "updatedAt": 1771044208048
+    },
+    {
+      "id": "char_mawencai_casual_36",
+      "name": "ma",
+      "category": "character",
+      "path": "components/character/char_mawencai_casual_36.json",
+      "tags": [
+        "角色",
+        "马文才",
+        "常服",
+        "古风"
+      ],
+      "width": 36,
+      "height": 36,
+      "version": 1,
+      "updatedAt": 1771044208048
     }
   ],
   "maps": [
