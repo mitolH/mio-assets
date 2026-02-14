@@ -1,0 +1,51 @@
+{
+  "id": "map_1771041109457_08zebu",
+  "name": "New Map",
+  "description": "",
+  "widthInTiles": 32,
+  "heightInTiles": 32,
+  "layers": [
+    {
+      "name": "Ground",
+      "type": "ground",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [],
+      "id": "layer_0"
+    },
+    {
+      "name": "Object",
+      "type": "object",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [],
+      "id": "layer_1"
+    },
+    {
+      "name": "Decoration",
+      "type": "decoration",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [],
+      "id": "layer_2"
+    },
+    {
+      "name": "Collision",
+      "type": "collision",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.3,
+      "components": [],
+      "id": "layer_3"
+    }
+  ],
+  "districts": [],
+  "itemDefs": [],
+  "teleports": [],
+  "createdAt": 1771041109457,
+  "updatedAt": 1771041110777,
+  "version": 1
+}
