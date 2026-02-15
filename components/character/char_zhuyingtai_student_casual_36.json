@@ -12,8 +12,8 @@
   ],
   "width": 12,
   "height": 12,
-  "tileWidth": 3,
-  "tileHeight": 3,
+  "tileWidth": 1,
+  "tileHeight": 1,
   "palette": [
     "transparent",
     "#1b1b1f",
@@ -221,6 +221,6 @@
     ]
   ],
   "createdAt": 1771044208048,
-  "updatedAt": 1771125217596,
-  "version": 3
+  "updatedAt": 1771135087528,
+  "version": 4
 }
