@@ -75,7 +75,12 @@
         {
           "componentId": "comp_1770797242019_8ctkpd",
           "tileX": 15,
-          "tileY": 20
+          "tileY": 20,
+          "interaction": {
+            "interactions": [],
+            "interactionRange": 1,
+            "indicatorType": "none"
+          }
         },
         {
           "componentId": "comp_1770797242019_8ctkpd",
@@ -251,31 +256,6 @@
           "componentId": "comp_1770823932014_26q4pk",
           "tileX": 9,
           "tileY": 20
-        },
-        {
-          "componentId": "comp_1770823932014_26q4pk",
-          "tileX": 15,
-          "tileY": 20,
-          "interaction": {
-            "interactions": [
-              {
-                "id": "inter_kj1jkt",
-                "name": "给我消失！",
-                "description": "隐藏其他弹窗",
-                "type": "activate",
-                "conditions": [],
-                "effects": [],
-                "weight": 1,
-                "script": {
-                  "source": "await api.dialog.show(\"hello word！\");\nawait new Promise((resolve) => setTimeout(resolve, 1000));\napi.map.hideObject(\"obj_kezxa1\");",
-                  "version": 9
-                }
-              }
-            ],
-            "interactionRange": 1,
-            "indicatorType": "none"
-          },
-          "refId": "obj_kimdte"
         },
         {
           "componentId": "comp_1770900850720_5oopur",
@@ -472,6 +452,6 @@
   "itemDefs": [],
   "teleports": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1771135920305,
-  "version": 60
+  "updatedAt": 1771136333917,
+  "version": 61
 }
