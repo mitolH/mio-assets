@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771168639142,
+  "updatedAt": 1771168644815,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -101,22 +101,6 @@
       "height": 48,
       "version": 4,
       "updatedAt": 1771168598225
-    },
-    {
-      "id": "comp_zh_zyt_48x48_v1",
-      "name": "祝英台（48x48）",
-      "category": "character",
-      "path": "components/character/comp_zh_zyt_48x48_v1.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "48x48"
-      ],
-      "width": 48,
-      "height": 48,
-      "version": 1,
-      "updatedAt": 1771148282142
     },
     {
       "id": "comp_zh_lyb_64x64_v1",
