@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771148792489,
+  "updatedAt": 1771150578410,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -117,6 +117,38 @@
       "height": 48,
       "version": 1,
       "updatedAt": 1771148282142
+    },
+    {
+      "id": "comp_zh_lyb_64x64_v1",
+      "name": "梁山伯（64x64）",
+      "category": "character",
+      "path": "components/character/comp_zh_lyb_64x64_v1.json",
+      "tags": [
+        "liangshanbo",
+        "梁山伯",
+        "character",
+        "64x64"
+      ],
+      "width": 64,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1771150558693
+    },
+    {
+      "id": "comp_zh_zyt_96x96_v1",
+      "name": "祝英台（96x96）",
+      "category": "character",
+      "path": "components/character/comp_zh_zyt_96x96_v1.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "96x96"
+      ],
+      "width": 96,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1771150558693
     }
   ],
   "maps": [
