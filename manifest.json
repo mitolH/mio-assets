@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771135088208,
+  "updatedAt": 1771135109613,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -65,10 +65,10 @@
         "常服",
         "古风"
       ],
-      "width": 36,
-      "height": 36,
-      "version": 1,
-      "updatedAt": 1771044208048
+      "width": 12,
+      "height": 12,
+      "version": 5,
+      "updatedAt": 1771135108891
     },
     {
       "id": "char_mawencai_casual_36",
