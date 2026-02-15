@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771068649987,
+  "updatedAt": 1771123518265,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -20,10 +20,10 @@
       "category": "terrain",
       "path": "components/terrain/comp_1770823932014_26q4pk.json",
       "tags": [],
-      "width": 16,
-      "height": 16,
-      "version": 6,
-      "updatedAt": 1771040854584
+      "width": 4,
+      "height": 4,
+      "version": 7,
+      "updatedAt": 1771123517026
     },
     {
       "id": "comp_1770900850720_5oopur",
