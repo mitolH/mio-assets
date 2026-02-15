@@ -2438,7 +2438,7 @@
   "collisionMask": [
     [
       false,
-      true,
+      false,
       false
     ],
     [
@@ -2448,11 +2448,11 @@
     ],
     [
       false,
-      false,
+      true,
       false
     ]
   ],
   "createdAt": 1771148282142,
-  "updatedAt": 1771169307669,
-  "version": 6
+  "updatedAt": 1771169327160,
+  "version": 7
 }
