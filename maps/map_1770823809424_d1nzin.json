@@ -416,6 +416,11 @@
           "componentId": "comp_1770900850720_5oopur",
           "tileX": 29,
           "tileY": 26
+        },
+        {
+          "componentId": "comp_zh_lyb_48x48_v1",
+          "tileX": 5,
+          "tileY": 22
         }
       ],
       "id": "layer_0"
@@ -452,6 +457,6 @@
   "itemDefs": [],
   "teleports": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1771168494899,
-  "version": 63
+  "updatedAt": 1771168620223,
+  "version": 64
 }
