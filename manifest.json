@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771135922617,
+  "updatedAt": 1771136171572,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -48,10 +48,10 @@
         "常服",
         "古风"
       ],
-      "width": 36,
-      "height": 36,
-      "version": 1,
-      "updatedAt": 1771044208048
+      "width": 48,
+      "height": 48,
+      "version": 4,
+      "updatedAt": 1771136170500
     },
     {
       "id": "char_zhuyingtai_student_casual_36",
