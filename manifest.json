@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771230073562,
+  "updatedAt": 1771230242160,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -50,8 +50,8 @@
       ],
       "width": 48,
       "height": 48,
-      "version": 18,
-      "updatedAt": 1771229404640
+      "version": 23,
+      "updatedAt": 1771230241132
     },
     {
       "id": "char_zhuyingtai_student_casual_36",
