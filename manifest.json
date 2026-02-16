@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771245409413,
+  "updatedAt": 1771245426898,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -67,8 +67,8 @@
       ],
       "width": 12,
       "height": 12,
-      "version": 9,
-      "updatedAt": 1771148355184
+      "version": 14,
+      "updatedAt": 1771245426175
     },
     {
       "id": "char_mawencai_casual_36",
