@@ -431,6 +431,11 @@
           "componentId": "comp_1771230301263_6ddojn",
           "tileX": 11,
           "tileY": 24
+        },
+        {
+          "componentId": "comp_1771230301263_6ddojn",
+          "tileX": 16,
+          "tileY": 14
         }
       ],
       "id": "layer_0"
@@ -467,6 +472,6 @@
   "itemDefs": [],
   "teleports": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1771306776587,
-  "version": 68
+  "updatedAt": 1771320557501,
+  "version": 69
 }
