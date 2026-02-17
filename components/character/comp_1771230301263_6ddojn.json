@@ -28,7 +28,13 @@
     "#8B3555",
     "#DA6E94",
     "#7E595F",
-    "#FFFFFF"
+    "#FFFFFF",
+    "#E0B88E",
+    "#E8E0C0",
+    "#F4F0D8",
+    "#E0C891",
+    "#F0E0B0",
+    "#F8F0D0"
   ],
   "pixels": [
     [
@@ -4866,6 +4872,6 @@
     ]
   ],
   "createdAt": 1771230301263,
-  "updatedAt": 1771332609664,
-  "version": 55
+  "updatedAt": 1771332823843,
+  "version": 56
 }
