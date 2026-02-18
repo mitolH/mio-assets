@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771384586618,
+  "updatedAt": 1771384589839,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -52,22 +52,6 @@
       "height": 12,
       "version": 15,
       "updatedAt": 1771260923216
-    },
-    {
-      "id": "char_mawencai_casual_36",
-      "name": "ma",
-      "category": "character",
-      "path": "components/character/char_mawencai_casual_36.json",
-      "tags": [
-        "角色",
-        "马文才",
-        "常服",
-        "古风"
-      ],
-      "width": 12,
-      "height": 12,
-      "version": 8,
-      "updatedAt": 1771260507375
     },
     {
       "id": "comp_zh_lyb_48x48_v1",
