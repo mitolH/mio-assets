@@ -360,7 +360,12 @@
         {
           "componentId": "comp_1770900850720_5oopur",
           "tileX": 15,
-          "tileY": 29
+          "tileY": 29,
+          "interaction": {
+            "interactions": [],
+            "interactionRange": 1,
+            "indicatorType": "none"
+          }
         },
         {
           "componentId": "comp_1770900850720_5oopur",
@@ -482,6 +487,6 @@
   "itemDefs": [],
   "teleports": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1771375193362,
-  "version": 73
+  "updatedAt": 1771384575909,
+  "version": 74
 }
