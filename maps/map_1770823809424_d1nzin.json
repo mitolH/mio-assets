@@ -430,12 +430,22 @@
         {
           "componentId": "comp_1771230301263_6ddojn",
           "tileX": 11,
-          "tileY": 24
+          "tileY": 24,
+          "interaction": {
+            "interactions": [],
+            "interactionRange": 1,
+            "indicatorType": "none"
+          }
         },
         {
           "componentId": "comp_1771230301263_6ddojn",
           "tileX": 16,
-          "tileY": 14
+          "tileY": 14,
+          "interaction": {
+            "interactions": [],
+            "interactionRange": 1,
+            "indicatorType": "none"
+          }
         }
       ],
       "id": "layer_0"
@@ -472,6 +482,6 @@
   "itemDefs": [],
   "teleports": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1771346732357,
-  "version": 70
+  "updatedAt": 1771375120657,
+  "version": 71
 }
