@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771384583705,
+  "updatedAt": 1771384586618,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -35,23 +35,6 @@
       "height": 12,
       "version": 28,
       "updatedAt": 1771383348771
-    },
-    {
-      "id": "char_liangshanbo_student_casual_36",
-      "name": "liang",
-      "category": "character",
-      "path": "components/character/char_liangshanbo_student_casual_36.json",
-      "tags": [
-        "角色",
-        "梁山伯",
-        "求学",
-        "常服",
-        "古风"
-      ],
-      "width": 48,
-      "height": 48,
-      "version": 32,
-      "updatedAt": 1771347146840
     },
     {
       "id": "char_zhuyingtai_student_casual_36",
