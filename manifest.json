@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771384581015,
+  "updatedAt": 1771384583705,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -117,24 +117,6 @@
       "height": 96,
       "version": 18,
       "updatedAt": 1771375548406
-    },
-    {
-      "id": "comp_zhu_yingtai_casual_001",
-      "name": "祝英台_女常服",
-      "category": "character",
-      "path": "components/character/comp_zhu_yingtai_casual_001.json",
-      "tags": [
-        "character",
-        "祝英台",
-        "女装",
-        "粉色",
-        "绿色",
-        "折扇"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 10,
-      "updatedAt": 1771347208716
     },
     {
       "id": "comp_1771230301263_6ddojn",
