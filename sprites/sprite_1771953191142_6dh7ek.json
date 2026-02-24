@@ -22,8 +22,8 @@
       "name": "layer_1",
       "defaultComponentId": "comp_1771230301263_6ddojn",
       "zOrder": 0,
-      "defaultOffsetX": -8,
-      "defaultOffsetY": -32,
+      "defaultOffsetX": 0,
+      "defaultOffsetY": 0,
       "visible": true
     }
   ],
@@ -40,8 +40,8 @@
           "layerStates": [
             {
               "layerId": "layer_1771953243872_dpkt",
-              "offsetX": -15,
-              "offsetY": -1
+              "offsetX": -27,
+              "offsetY": -48
             }
           ]
         }
@@ -50,6 +50,6 @@
   ],
   "defaultAnimationId": "idle",
   "createdAt": 1771953191142,
-  "updatedAt": 1771953294991,
-  "version": 5
+  "updatedAt": 1771953616464,
+  "version": 6
 }
