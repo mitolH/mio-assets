@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771945983906,
+  "updatedAt": 1771945985304,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -50,8 +50,8 @@
       ],
       "width": 12,
       "height": 12,
-      "version": 42,
-      "updatedAt": 1771945981848
+      "version": 40,
+      "updatedAt": 1771945409779
     },
     {
       "id": "comp_1771230301263_6ddojn",
@@ -61,8 +61,8 @@
       "tags": [],
       "width": 48,
       "height": 96,
-      "version": 133,
-      "updatedAt": 1771945887979
+      "version": 137,
+      "updatedAt": 1771945981848
     }
   ],
   "maps": [
