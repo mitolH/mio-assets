@@ -30,10 +30,27 @@
           "layerStates": []
         }
       ]
+    },
+    {
+      "id": "clip_2",
+      "name": "clip_2",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 0,
+      "frames": [
+        {
+          "duration": 150,
+          "layerStates": []
+        },
+        {
+          "duration": 150,
+          "layerStates": []
+        }
+      ]
     }
   ],
   "defaultAnimationId": "idle",
   "createdAt": 1771948930326,
-  "updatedAt": 1771948930326,
-  "version": 1
+  "updatedAt": 1771949072462,
+  "version": 2
 }
