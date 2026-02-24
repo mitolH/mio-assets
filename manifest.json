@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771949715355,
+  "updatedAt": 1771951388317,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -85,5 +85,19 @@
       "updatedAt": 1771949014791
     }
   ],
-  "sprites": []
+  "sprites": [
+    {
+      "id": "sprite_1771951383312_jzivm9",
+      "name": "New Sprite",
+      "category": "character",
+      "path": "sprites/sprite_1771951383312_jzivm9.json",
+      "tags": [],
+      "width": 48,
+      "height": 48,
+      "layerCount": 0,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1771951383312
+    }
+  ]
 }
