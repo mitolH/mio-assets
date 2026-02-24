@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771951462284,
+  "updatedAt": 1771951734551,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -98,6 +98,19 @@
       "animationCount": 1,
       "version": 1,
       "updatedAt": 1771951383312
+    },
+    {
+      "id": "sprite_1771951730535_p63ren",
+      "name": "New Sprite",
+      "category": "character",
+      "path": "sprites/sprite_1771951730535_p63ren.json",
+      "tags": [],
+      "width": 48,
+      "height": 48,
+      "layerCount": 0,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1771951730535
     }
   ]
 }
