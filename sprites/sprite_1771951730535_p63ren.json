@@ -1,6 +1,6 @@
 {
   "id": "sprite_1771951730535_p63ren",
-  "name": "New Sprite",
+  "name": "Demo1",
   "category": "character",
   "description": "",
   "tags": [],
@@ -34,6 +34,6 @@
   ],
   "defaultAnimationId": "idle",
   "createdAt": 1771951730535,
-  "updatedAt": 1771951730535,
-  "version": 1
+  "updatedAt": 1771951761306,
+  "version": 2
 }
