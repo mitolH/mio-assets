@@ -46,10 +46,29 @@
           ]
         }
       ]
+    },
+    {
+      "id": "move_left",
+      "name": "move left",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 0,
+      "frames": [
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_1771953243872_dpkt",
+              "offsetX": 0,
+              "offsetY": 0
+            }
+          ]
+        }
+      ]
     }
   ],
   "defaultAnimationId": "idle",
   "createdAt": 1771953191142,
-  "updatedAt": 1771953637155,
-  "version": 7
+  "updatedAt": 1771953685896,
+  "version": 8
 }
