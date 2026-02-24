@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1771949128078,
+  "updatedAt": 1771949382932,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -85,19 +85,5 @@
       "updatedAt": 1771949014791
     }
   ],
-  "sprites": [
-    {
-      "id": "sprite_1771948930326_fmgy3a",
-      "name": "New Sprite",
-      "category": "character",
-      "path": "sprites/sprite_1771948930326_fmgy3a.json",
-      "tags": [],
-      "width": 48,
-      "height": 96,
-      "layerCount": 0,
-      "animationCount": 2,
-      "version": 5,
-      "updatedAt": 1771949125844
-    }
-  ]
+  "sprites": []
 }
