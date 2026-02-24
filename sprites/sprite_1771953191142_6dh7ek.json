@@ -1,13 +1,13 @@
 {
   "id": "sprite_1771953191142_6dh7ek",
-  "name": "New Sprite",
+  "name": "ZYT",
   "category": "character",
   "description": "",
   "tags": [],
   "width": 48,
-  "height": 48,
+  "height": 96,
   "tileWidth": 3,
-  "tileHeight": 3,
+  "tileHeight": 6,
   "anchorX": 24,
   "anchorY": 48,
   "footprint": {
@@ -16,7 +16,17 @@
     "offsetTileX": 0,
     "offsetTileY": 0
   },
-  "layers": [],
+  "layers": [
+    {
+      "id": "layer_1771953243872_dpkt",
+      "name": "layer_1",
+      "defaultComponentId": "comp_1771230301263_6ddojn",
+      "zOrder": 0,
+      "defaultOffsetX": -8,
+      "defaultOffsetY": -32,
+      "visible": true
+    }
+  ],
   "animations": [
     {
       "id": "idle",
@@ -27,13 +37,19 @@
       "frames": [
         {
           "duration": 150,
-          "layerStates": []
+          "layerStates": [
+            {
+              "layerId": "layer_1771953243872_dpkt",
+              "offsetX": -15,
+              "offsetY": -1
+            }
+          ]
         }
       ]
     }
   ],
   "defaultAnimationId": "idle",
   "createdAt": 1771953191142,
-  "updatedAt": 1771953191142,
-  "version": 1
+  "updatedAt": 1771953294991,
+  "version": 5
 }
