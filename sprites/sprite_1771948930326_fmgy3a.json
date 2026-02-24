@@ -5,9 +5,9 @@
   "description": "",
   "tags": [],
   "width": 48,
-  "height": 48,
+  "height": 96,
   "tileWidth": 3,
-  "tileHeight": 3,
+  "tileHeight": 6,
   "anchorX": 24,
   "anchorY": 48,
   "footprint": {
@@ -55,6 +55,6 @@
   ],
   "defaultAnimationId": "idle",
   "createdAt": 1771948930326,
-  "updatedAt": 1771949077780,
-  "version": 3
+  "updatedAt": 1771949125844,
+  "version": 5
 }
