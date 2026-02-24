@@ -40,8 +40,8 @@
           "layerStates": [
             {
               "layerId": "layer_1771953243872_dpkt",
-              "offsetX": -27,
-              "offsetY": -48
+              "offsetX": -25,
+              "offsetY": -47
             }
           ]
         }
@@ -50,6 +50,6 @@
   ],
   "defaultAnimationId": "idle",
   "createdAt": 1771953191142,
-  "updatedAt": 1771953616464,
-  "version": 6
+  "updatedAt": 1771953637155,
+  "version": 7
 }
