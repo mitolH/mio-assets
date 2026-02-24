@@ -63,12 +63,23 @@
               "offsetY": 0
             }
           ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_1771953243872_dpkt",
+              "offsetX": -8,
+              "offsetY": -17,
+              "componentId": "comp_1770797242019_8ctkpd"
+            }
+          ]
         }
       ]
     }
   ],
   "defaultAnimationId": "idle",
   "createdAt": 1771953191142,
-  "updatedAt": 1771953685896,
-  "version": 8
+  "updatedAt": 1771953730857,
+  "version": 9
 }
