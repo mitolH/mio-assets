@@ -4846,12 +4846,12 @@
   "collisionMask": [
     [
       false,
-      false,
+      true,
       false
     ],
     [
       false,
-      false,
+      true,
       false
     ],
     [
@@ -4876,6 +4876,6 @@
     ]
   ],
   "createdAt": 1771230301263,
-  "updatedAt": 1772016642118,
-  "version": 180
+  "updatedAt": 1772016665753,
+  "version": 181
 }
