@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772033027012,
+  "updatedAt": 1772033031215,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -61,8 +61,8 @@
       "tags": [],
       "width": 48,
       "height": 96,
-      "version": 187,
-      "updatedAt": 1772030657444
+      "version": 188,
+      "updatedAt": 1772033012236
     },
     {
       "id": "zyt_body_idle_down_001",
