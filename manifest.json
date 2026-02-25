@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772034321439,
+  "updatedAt": 1772036469217,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -105,6 +105,16 @@
       "height": 64,
       "version": null,
       "updatedAt": 1772033909576
+    },
+    {
+      "id": "zyt_body_v1_front",
+      "name": "祝英台_身体_基础层",
+      "path": "components/undefined/zyt_body_v1_front.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": null,
+      "updatedAt": 1772036464128
     }
   ],
   "maps": [
