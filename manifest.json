@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772033031215,
+  "updatedAt": 1772033035441,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -76,8 +76,8 @@
       ],
       "width": 32,
       "height": 64,
-      "version": 13,
-      "updatedAt": 1772030657445
+      "version": 14,
+      "updatedAt": 1772033012236
     },
     {
       "id": "zyt_outfit_casual_down_001",
