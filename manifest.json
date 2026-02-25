@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772031536020,
+  "updatedAt": 1772032647446,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -100,6 +100,16 @@
       "height": 64,
       "version": 7,
       "updatedAt": 1772030657445
+    },
+    {
+      "id": "zyt_body_v2_down_full",
+      "name": "祝英台_基底_精修面部",
+      "path": "components/undefined/zyt_body_v2_down_full.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": null,
+      "updatedAt": 1772032643339
     }
   ],
   "maps": [
