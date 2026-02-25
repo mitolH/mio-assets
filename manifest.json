@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772037324236,
+  "updatedAt": 1772037329567,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -89,6 +89,16 @@
       "id": "zyt_body_v1_front",
       "name": "祝英台_身体_基础层",
       "path": "components/undefined/zyt_body_v1_front.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": null,
+      "updatedAt": 1772037319565
+    },
+    {
+      "id": "zyt_hair_v2_front",
+      "name": "祝英台_头发_正面版",
+      "path": "components/undefined/zyt_hair_v2_front.json",
       "tags": [],
       "width": 32,
       "height": 64,
