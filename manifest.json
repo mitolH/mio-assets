@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772000519840,
+  "updatedAt": 1772001471750,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -63,6 +63,21 @@
       "height": 96,
       "version": 177,
       "updatedAt": 1772000516612
+    },
+    {
+      "id": "zyt_body_idle_down_001",
+      "name": "祝英台_基底_下站",
+      "category": "character_body",
+      "path": "components/character_body/zyt_body_idle_down_001.json",
+      "tags": [
+        "zyt",
+        "body",
+        "idle"
+      ],
+      "width": 32,
+      "height": 64,
+      "version": 2,
+      "updatedAt": 1772001467903
     }
   ],
   "maps": [
