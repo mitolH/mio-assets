@@ -29,8 +29,8 @@
   ],
   "animations": [
     {
-      "id": "idle",
-      "name": "Idle",
+      "id": "stand_down",
+      "name": "Stand down",
       "loop": true,
       "interruptPolicy": "interruptible",
       "priority": 0,
@@ -80,6 +80,6 @@
   ],
   "defaultAnimationId": "idle",
   "createdAt": 1771953191142,
-  "updatedAt": 1771953730857,
-  "version": 9
+  "updatedAt": 1772027705614,
+  "version": 10
 }
