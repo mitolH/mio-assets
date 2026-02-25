@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772030990456,
+  "updatedAt": 1772031468460,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -138,12 +138,12 @@
       "category": "character",
       "path": "sprites/sprite_1771953191142_6dh7ek.json",
       "tags": [],
-      "width": 48,
-      "height": 96,
-      "layerCount": 1,
+      "width": 32,
+      "height": 64,
+      "layerCount": 3,
       "animationCount": 2,
-      "version": 11,
-      "updatedAt": 1772027804991
+      "version": 12,
+      "updatedAt": 1772031465494
     }
   ]
 }
