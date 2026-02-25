@@ -18,28 +18,10 @@
   },
   "layers": [
     {
-      "id": "layer_1772027765843_d5w3",
+      "id": "layer_1772033928154_w8me",
       "name": "layer_1",
       "zOrder": 0,
-      "defaultComponentId": "zyt_body_idle_down_001",
-      "defaultOffsetX": -8,
-      "defaultOffsetY": -8,
-      "visible": true
-    },
-    {
-      "id": "layer_1772031262077_8qkv",
-      "name": "layer_2",
-      "zOrder": 1,
-      "defaultComponentId": "zyt_outfit_casual_down_001",
-      "defaultOffsetX": -8,
-      "defaultOffsetY": -8,
-      "visible": true
-    },
-    {
-      "id": "layer_1772031395263_8nd1",
-      "name": "layer_3",
-      "zOrder": 2,
-      "defaultComponentId": "zyt_hair_classic_down_001",
+      "defaultComponentId": "zyt_body_fixed_down",
       "defaultOffsetX": -8,
       "defaultOffsetY": -8,
       "visible": true
@@ -57,19 +39,9 @@
           "duration": 150,
           "layerStates": [
             {
-              "layerId": "layer_1772027765843_d5w3",
+              "layerId": "layer_1772033928154_w8me",
               "offsetX": -8,
-              "offsetY": -23
-            },
-            {
-              "layerId": "layer_1772031262077_8qkv",
-              "offsetX": -8,
-              "offsetY": -23
-            },
-            {
-              "layerId": "layer_1772031395263_8nd1",
-              "offsetX": -7,
-              "offsetY": -29
+              "offsetY": -17
             }
           ]
         }
@@ -86,17 +58,7 @@
           "duration": 150,
           "layerStates": [
             {
-              "layerId": "layer_1772027765843_d5w3",
-              "offsetX": 0,
-              "offsetY": 0
-            },
-            {
-              "layerId": "layer_1772031262077_8qkv",
-              "offsetX": 0,
-              "offsetY": 0
-            },
-            {
-              "layerId": "layer_1772031395263_8nd1",
+              "layerId": "layer_1772033928154_w8me",
               "offsetX": 0,
               "offsetY": 0
             }
@@ -106,17 +68,7 @@
           "duration": 150,
           "layerStates": [
             {
-              "layerId": "layer_1772027765843_d5w3",
-              "offsetX": 0,
-              "offsetY": 0
-            },
-            {
-              "layerId": "layer_1772031262077_8qkv",
-              "offsetX": 0,
-              "offsetY": 0
-            },
-            {
-              "layerId": "layer_1772031395263_8nd1",
+              "layerId": "layer_1772033928154_w8me",
               "offsetX": 0,
               "offsetY": 0
             }
@@ -127,6 +79,6 @@
   ],
   "defaultAnimationId": "stand_down",
   "createdAt": 1771953191142,
-  "updatedAt": 1772031517022,
-  "version": 13
+  "updatedAt": 1772034277296,
+  "version": 14
 }
