@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772033490692,
+  "updatedAt": 1772033602105,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -74,17 +74,6 @@
       "height": 64,
       "version": 11,
       "updatedAt": 1772033012237
-    },
-    {
-      "id": "zyt_hair_classic_down_001",
-      "name": "祝英台_发型_下站",
-      "category": "character_hair",
-      "path": "components/character_hair/zyt_hair_classic_down_001.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": null,
-      "updatedAt": 1772033487899
     },
     {
       "id": "comp_1772033163377_if64lf",
