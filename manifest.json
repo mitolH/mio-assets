@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772001471750,
+  "updatedAt": 1772001550457,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -78,6 +78,16 @@
       "height": 64,
       "version": 2,
       "updatedAt": 1772001467903
+    },
+    {
+      "id": "zyt_outfit_casual_down_001",
+      "name": "祝英台_常服_下站",
+      "category": "character_outfit",
+      "path": "components/character_outfit/zyt_outfit_casual_down_001.json",
+      "width": 32,
+      "height": 64,
+      "version": null,
+      "updatedAt": 1772001547447
     }
   ],
   "maps": [
