@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772037275328,
+  "updatedAt": 1772037273085,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -76,17 +76,6 @@
       "updatedAt": 1772033163377
     },
     {
-      "id": "zyt_hair_classic_down_001",
-      "name": "祝英台_发型_下站",
-      "category": "character_hair",
-      "path": "components/character_hair/zyt_hair_classic_down_001.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": null,
-      "updatedAt": 1772033606166
-    },
-    {
       "id": "zyt_outfit_v2_refined_down",
       "name": "祝英台_精修常服_下站",
       "path": "components/undefined/zyt_outfit_v2_refined_down.json",
@@ -95,6 +84,16 @@
       "height": 64,
       "version": null,
       "updatedAt": 1772033909576
+    },
+    {
+      "id": "zyt_body_v1_front",
+      "name": "祝英台_身体_基础层",
+      "path": "components/undefined/zyt_body_v1_front.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": null,
+      "updatedAt": 1772036464128
     }
   ],
   "maps": [
