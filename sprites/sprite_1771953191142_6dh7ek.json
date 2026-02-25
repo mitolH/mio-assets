@@ -18,12 +18,12 @@
   },
   "layers": [
     {
-      "id": "layer_1771953243872_dpkt",
+      "id": "layer_1772027765843_d5w3",
       "name": "layer_1",
-      "defaultComponentId": "comp_1771230301263_6ddojn",
+      "defaultComponentId": "zyt_body_idle_down_001",
       "zOrder": 0,
-      "defaultOffsetX": 0,
-      "defaultOffsetY": 0,
+      "defaultOffsetX": -8,
+      "defaultOffsetY": -8,
       "visible": true
     }
   ],
@@ -39,9 +39,9 @@
           "duration": 150,
           "layerStates": [
             {
-              "layerId": "layer_1771953243872_dpkt",
-              "offsetX": -25,
-              "offsetY": -47
+              "layerId": "layer_1772027765843_d5w3",
+              "offsetX": -2,
+              "offsetY": 0
             }
           ]
         }
@@ -58,7 +58,7 @@
           "duration": 150,
           "layerStates": [
             {
-              "layerId": "layer_1771953243872_dpkt",
+              "layerId": "layer_1772027765843_d5w3",
               "offsetX": 0,
               "offsetY": 0
             }
@@ -68,10 +68,9 @@
           "duration": 150,
           "layerStates": [
             {
-              "layerId": "layer_1771953243872_dpkt",
-              "offsetX": -8,
-              "offsetY": -17,
-              "componentId": "comp_1770797242019_8ctkpd"
+              "layerId": "layer_1772027765843_d5w3",
+              "offsetX": 0,
+              "offsetY": 0
             }
           ]
         }
@@ -80,6 +79,6 @@
   ],
   "defaultAnimationId": "idle",
   "createdAt": 1771953191142,
-  "updatedAt": 1772027705614,
-  "version": 10
+  "updatedAt": 1772027804991,
+  "version": 11
 }
