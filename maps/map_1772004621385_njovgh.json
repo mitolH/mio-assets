@@ -1,0 +1,58 @@
+{
+  "id": "map_1772004621385_njovgh",
+  "name": "New Map",
+  "description": "",
+  "widthInTiles": 32,
+  "heightInTiles": 32,
+  "layers": [
+    {
+      "name": "Ground",
+      "type": "ground",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_1771953191142_6dh7ek",
+          "tileX": 13,
+          "tileY": 16
+        }
+      ],
+      "id": "layer_0"
+    },
+    {
+      "name": "Object",
+      "type": "object",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [],
+      "id": "layer_1"
+    },
+    {
+      "name": "Decoration",
+      "type": "decoration",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [],
+      "id": "layer_2"
+    },
+    {
+      "name": "Collision",
+      "type": "collision",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.3,
+      "components": [],
+      "id": "layer_3"
+    }
+  ],
+  "districts": [],
+  "itemDefs": [],
+  "teleports": [],
+  "createdAt": 1772004621385,
+  "updatedAt": 1772025848156,
+  "version": 1
+}
