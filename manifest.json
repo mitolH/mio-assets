@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772033035441,
+  "updatedAt": 1772033039708,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -87,8 +87,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 10,
-      "updatedAt": 1772030657445
+      "version": 11,
+      "updatedAt": 1772033012237
     },
     {
       "id": "zyt_hair_classic_down_001",
