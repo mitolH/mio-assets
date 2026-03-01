@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772375340262,
+  "updatedAt": 1772375495199,
   "components": [
     {
       "id": "comp_1771230301263_6ddojn",
@@ -11,8 +11,8 @@
       "tags": [],
       "width": 48,
       "height": 96,
-      "version": 210,
-      "updatedAt": 1772375339255
+      "version": 212,
+      "updatedAt": 1772375494624
     },
     {
       "id": "comp_zh_zyt_96x96_v1",
@@ -27,8 +27,8 @@
       ],
       "width": 96,
       "height": 96,
-      "version": 39,
-      "updatedAt": 1772375339254
+      "version": 41,
+      "updatedAt": 1772375494625
     },
     {
       "id": "comp_1770823932014_26q4pk",
@@ -38,8 +38,8 @@
       "tags": [],
       "width": 16,
       "height": 16,
-      "version": 96,
-      "updatedAt": 1772375339254
+      "version": 98,
+      "updatedAt": 1772375494625
     },
     {
       "id": "comp_1770900850720_5oopur",
@@ -49,8 +49,8 @@
       "tags": [],
       "width": 12,
       "height": 12,
-      "version": 102,
-      "updatedAt": 1772375339254
+      "version": 103,
+      "updatedAt": 1772375463654
     },
     {
       "id": "comp_1771230301263_6ddojn",
@@ -71,8 +71,8 @@
       "tags": [],
       "width": 16,
       "height": 16,
-      "version": 116,
-      "updatedAt": 1772375339255
+      "version": 117,
+      "updatedAt": 1772375463654
     }
   ],
   "maps": [
