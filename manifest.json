@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772370694063,
+  "updatedAt": 1772370757371,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -63,17 +63,6 @@
       "height": 96,
       "version": 189,
       "updatedAt": 1772370653111
-    },
-    {
-      "id": "comp_1772033163377_if64lf",
-      "name": "Untitled",
-      "category": "terrain",
-      "path": "components/terrain/comp_1772033163377_if64lf.json",
-      "tags": [],
-      "width": 48,
-      "height": 48,
-      "version": 2,
-      "updatedAt": 1772370653112
     },
     {
       "id": "zyt_outfit_v2_refined_down",
