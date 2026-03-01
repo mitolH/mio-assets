@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772370684742,
+  "updatedAt": 1772370688978,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -102,8 +102,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": null,
-      "updatedAt": 1772037319565
+      "version": 1,
+      "updatedAt": 1772370653113
     },
     {
       "id": "zyt_clothes_v1_front",
