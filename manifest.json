@@ -1,45 +1,8 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772372940719,
+  "updatedAt": 1772373094985,
   "components": [
-    {
-      "id": "zyt_body_idle_down_001",
-      "name": "祝英台_基底_下站",
-      "category": "other",
-      "path": "components/character_body/zyt_body_idle_down_001.json",
-      "tags": [
-        "zyt",
-        "body",
-        "idle"
-      ],
-      "width": 32,
-      "height": 64,
-      "version": 14,
-      "updatedAt": 1772033012236
-    },
-    {
-      "id": "zyt_hair_classic_down_001",
-      "name": "祝英台_发型_下站",
-      "category": "other",
-      "path": "components/character_hair/zyt_hair_classic_down_001.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 1,
-      "updatedAt": 1772033911071
-    },
-    {
-      "id": "zyt_outfit_casual_down_001",
-      "name": "祝英台_常服_下站",
-      "category": "other",
-      "path": "components/character_outfit/zyt_outfit_casual_down_001.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 11,
-      "updatedAt": 1772033012237
-    },
     {
       "id": "char_liangshanbo_student_casual_36",
       "name": "liang",
@@ -54,8 +17,8 @@
       ],
       "width": 48,
       "height": 48,
-      "version": 34,
-      "updatedAt": 1771384473314
+      "version": 35,
+      "updatedAt": 1772373089454
     },
     {
       "id": "char_mawencai_casual_36",
@@ -70,8 +33,8 @@
       ],
       "width": 12,
       "height": 12,
-      "version": 11,
-      "updatedAt": 1771384500304
+      "version": 12,
+      "updatedAt": 1772373089454
     },
     {
       "id": "char_zhuyingtai_student_casual_36",
@@ -87,8 +50,8 @@
       ],
       "width": 12,
       "height": 12,
-      "version": 71,
-      "updatedAt": 1772370653111
+      "version": 72,
+      "updatedAt": 1772373089454
     },
     {
       "id": "comp_1771230301263_6ddojn",
@@ -98,8 +61,8 @@
       "tags": [],
       "width": 48,
       "height": 96,
-      "version": 191,
-      "updatedAt": 1772371858124
+      "version": 192,
+      "updatedAt": 1772373089457
     },
     {
       "id": "comp_zh_lyb_48x48_v1",
@@ -114,8 +77,8 @@
       ],
       "width": 48,
       "height": 48,
-      "version": 23,
-      "updatedAt": 1771383364397
+      "version": 24,
+      "updatedAt": 1772373089455
     },
     {
       "id": "comp_zh_lyb_64x64_v1",
@@ -130,8 +93,8 @@
       ],
       "width": 64,
       "height": 64,
-      "version": 19,
-      "updatedAt": 1771384473316
+      "version": 20,
+      "updatedAt": 1772373089455
     },
     {
       "id": "comp_zh_zyt_48x48_v1",
@@ -146,8 +109,8 @@
       ],
       "width": 48,
       "height": 48,
-      "version": 2,
-      "updatedAt": 1771168416666
+      "version": 3,
+      "updatedAt": 1772373089455
     },
     {
       "id": "comp_zh_zyt_96x96_v1",
@@ -162,8 +125,8 @@
       ],
       "width": 96,
       "height": 96,
-      "version": 20,
-      "updatedAt": 1771383364398
+      "version": 21,
+      "updatedAt": 1772373089456
     },
     {
       "id": "comp_zhu_yingtai_casual_001",
@@ -180,8 +143,45 @@
       ],
       "width": 48,
       "height": 96,
+      "version": 13,
+      "updatedAt": 1772373089457
+    },
+    {
+      "id": "zyt_body_idle_down_001",
+      "name": "祝英台_基底_下站",
+      "category": "other",
+      "path": "components/character_body/zyt_body_idle_down_001.json",
+      "tags": [
+        "zyt",
+        "body",
+        "idle"
+      ],
+      "width": 32,
+      "height": 64,
+      "version": 15,
+      "updatedAt": 1772373089453
+    },
+    {
+      "id": "zyt_hair_classic_down_001",
+      "name": "祝英台_发型_下站",
+      "category": "other",
+      "path": "components/character_hair/zyt_hair_classic_down_001.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1772373089453
+    },
+    {
+      "id": "zyt_outfit_casual_down_001",
+      "name": "祝英台_常服_下站",
+      "category": "other",
+      "path": "components/character_outfit/zyt_outfit_casual_down_001.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
       "version": 12,
-      "updatedAt": 1771383364399
+      "updatedAt": 1772373089454
     },
     {
       "id": "comp_1770823932014_26q4pk",
@@ -191,8 +191,8 @@
       "tags": [],
       "width": 16,
       "height": 16,
-      "version": 77,
-      "updatedAt": 1772371858123
+      "version": 78,
+      "updatedAt": 1772373089457
     },
     {
       "id": "comp_1770900850720_5oopur",
@@ -202,8 +202,8 @@
       "tags": [],
       "width": 12,
       "height": 12,
-      "version": 83,
-      "updatedAt": 1772371858123
+      "version": 84,
+      "updatedAt": 1772373089457
     },
     {
       "id": "comp_1771230301263_6ddojn",
@@ -224,8 +224,8 @@
       "tags": [],
       "width": 48,
       "height": 48,
-      "version": 2,
-      "updatedAt": 1772370653112
+      "version": 3,
+      "updatedAt": 1772373089457
     },
     {
       "id": "comp_1772370974373_e6n9yy",
@@ -235,8 +235,8 @@
       "tags": [],
       "width": 48,
       "height": 48,
-      "version": 2,
-      "updatedAt": 1772371858124
+      "version": 3,
+      "updatedAt": 1772373089457
     },
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -246,8 +246,8 @@
       "tags": [],
       "width": 16,
       "height": 16,
-      "version": 97,
-      "updatedAt": 1772371858123
+      "version": 98,
+      "updatedAt": 1772373089458
     },
     {
       "id": "zyt_body_fixed_down",
@@ -258,7 +258,7 @@
       "width": 32,
       "height": 64,
       "version": 1,
-      "updatedAt": 1772033259042
+      "updatedAt": 1772373089458
     },
     {
       "id": "zyt_body_v1_front",
@@ -268,8 +268,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 1,
-      "updatedAt": 1772370653112
+      "version": 2,
+      "updatedAt": 1772373089458
     },
     {
       "id": "zyt_body_v2_down_full",
@@ -280,7 +280,7 @@
       "width": 32,
       "height": 64,
       "version": 1,
-      "updatedAt": 1772032643339
+      "updatedAt": 1772373089458
     },
     {
       "id": "zyt_clothes_v1_front",
@@ -290,8 +290,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 3,
-      "updatedAt": 1772371858124
+      "version": 4,
+      "updatedAt": 1772373089458
     },
     {
       "id": "zyt_hair_v2_front",
@@ -301,8 +301,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 3,
-      "updatedAt": 1772371858124
+      "version": 4,
+      "updatedAt": 1772373089458
     },
     {
       "id": "zyt_outfit_v2_refined_down",
@@ -312,8 +312,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 2,
-      "updatedAt": 1772370950654
+      "version": 3,
+      "updatedAt": 1772373089459
     }
   ],
   "maps": [
