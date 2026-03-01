@@ -1,0 +1,272 @@
+{
+  "id": "sprite_1772376768826_t0eo44",
+  "name": "ChatGPT_Image_2026年3月1日_15_41_00",
+  "category": "character",
+  "description": "Imported from spritesheet",
+  "tags": [
+    "spritesheet"
+  ],
+  "width": 152,
+  "height": 160,
+  "tileWidth": 10,
+  "tileHeight": 10,
+  "anchorX": 76,
+  "anchorY": 160,
+  "footprint": {
+    "tileWidth": 1,
+    "tileHeight": 1,
+    "offsetTileX": 0,
+    "offsetTileY": 0
+  },
+  "layers": [
+    {
+      "id": "layer_body",
+      "name": "body",
+      "zOrder": 0,
+      "defaultComponentId": "comp_chatgpt_image_2026_3_1__15_41_00_body_f1_1772376768774_xdco07",
+      "defaultOffsetX": -76,
+      "defaultOffsetY": -160,
+      "visible": true
+    },
+    {
+      "id": "layer_hair",
+      "name": "hair",
+      "zOrder": 1,
+      "defaultComponentId": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f1_1772376768796_23z0z7",
+      "defaultOffsetX": -76,
+      "defaultOffsetY": -160,
+      "visible": true
+    },
+    {
+      "id": "layer_clothes",
+      "name": "clothes",
+      "zOrder": 2,
+      "defaultComponentId": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f1_1772376768812_v6lv5o",
+      "defaultOffsetX": -76,
+      "defaultOffsetY": -160,
+      "visible": true
+    }
+  ],
+  "animations": [
+    {
+      "id": "idle",
+      "name": "Idle",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 0,
+      "frames": [
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_body_f1_1772376768774_xdco07"
+            },
+            {
+              "layerId": "layer_hair",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f1_1772376768796_23z0z7"
+            },
+            {
+              "layerId": "layer_clothes",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f1_1772376768812_v6lv5o"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_body_f2_1772376768777_v4espf"
+            },
+            {
+              "layerId": "layer_hair",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f2_1772376768798_h5v43z"
+            },
+            {
+              "layerId": "layer_clothes",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f2_1772376768814_9rvwo7"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_body_f3_1772376768779_tt0qfp"
+            },
+            {
+              "layerId": "layer_hair",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f3_1772376768799_xfmqhi"
+            },
+            {
+              "layerId": "layer_clothes",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f3_1772376768815_4gd7r9"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_body_f4_1772376768782_lpxgl1"
+            },
+            {
+              "layerId": "layer_hair",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f4_1772376768801_se1eeb"
+            },
+            {
+              "layerId": "layer_clothes",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f4_1772376768817_egbz4i"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_body_f5_1772376768784_zle0ab"
+            },
+            {
+              "layerId": "layer_hair",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f5_1772376768803_zhbfgr"
+            },
+            {
+              "layerId": "layer_clothes",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f5_1772376768819_782ldd"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_body_f6_1772376768787_utnrbs"
+            },
+            {
+              "layerId": "layer_hair",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f6_1772376768805_lcvrtv"
+            },
+            {
+              "layerId": "layer_clothes",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f6_1772376768821_90aovj"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_body_f7_1772376768789_8qlfj0"
+            },
+            {
+              "layerId": "layer_hair",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f7_1772376768806_p5d8py"
+            },
+            {
+              "layerId": "layer_clothes",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f7_1772376768822_hem01q"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_body_f8_1772376768792_c31iiu"
+            },
+            {
+              "layerId": "layer_hair",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f8_1772376768808_32jyzs"
+            },
+            {
+              "layerId": "layer_clothes",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f8_1772376768824_9zs2a7"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_body_f9_1772376768794_9y6sqk"
+            },
+            {
+              "layerId": "layer_hair",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f9_1772376768810_0zrwmd"
+            },
+            {
+              "layerId": "layer_clothes",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f9_1772376768826_gfwtjj"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "defaultAnimationId": "idle",
+  "createdAt": 1772376768826,
+  "updatedAt": 1772376780638,
+  "version": 2
+}

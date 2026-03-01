@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772376540724,
+  "updatedAt": 1772376782748,
   "components": [
     {
       "id": "comp_1771230301263_6ddojn",
@@ -11,8 +11,8 @@
       "tags": [],
       "width": 48,
       "height": 96,
-      "version": 217,
-      "updatedAt": 1772376539587
+      "version": 218,
+      "updatedAt": 1772376729812
     },
     {
       "id": "comp_zh_zyt_96x96_v1",
@@ -27,8 +27,8 @@
       ],
       "width": 96,
       "height": 96,
-      "version": 46,
-      "updatedAt": 1772376539587
+      "version": 47,
+      "updatedAt": 1772376729812
     },
     {
       "id": "comp_1770823932014_26q4pk",
@@ -38,8 +38,8 @@
       "tags": [],
       "width": 16,
       "height": 16,
-      "version": 103,
-      "updatedAt": 1772376539587
+      "version": 104,
+      "updatedAt": 1772376729812
     },
     {
       "id": "comp_1770900850720_5oopur",
@@ -49,8 +49,8 @@
       "tags": [],
       "width": 12,
       "height": 12,
-      "version": 109,
-      "updatedAt": 1772376539587
+      "version": 110,
+      "updatedAt": 1772376729812
     },
     {
       "id": "comp_1771230301263_6ddojn",
@@ -71,8 +71,386 @@
       "tags": [],
       "width": 16,
       "height": 16,
-      "version": 123,
-      "updatedAt": 1772376539587
+      "version": 124,
+      "updatedAt": 1772376729812
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f1_1772376768774_xdco07",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_body_f1",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_body_f1_1772376768774_xdco07.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_body"
+      ],
+      "width": 152,
+      "height": 160,
+      "version": 2,
+      "updatedAt": 1772376768827
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f2_1772376768777_v4espf",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_body_f2",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_body_f2_1772376768777_v4espf.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_body"
+      ],
+      "width": 152,
+      "height": 160,
+      "version": 2,
+      "updatedAt": 1772376768827
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f3_1772376768779_tt0qfp",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_body_f3",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_body_f3_1772376768779_tt0qfp.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_body"
+      ],
+      "width": 152,
+      "height": 160,
+      "version": 2,
+      "updatedAt": 1772376768828
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f4_1772376768782_lpxgl1",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_body_f4",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_body_f4_1772376768782_lpxgl1.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_body"
+      ],
+      "width": 152,
+      "height": 160,
+      "version": 2,
+      "updatedAt": 1772376768828
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f5_1772376768784_zle0ab",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_body_f5",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_body_f5_1772376768784_zle0ab.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_body"
+      ],
+      "width": 152,
+      "height": 160,
+      "version": 2,
+      "updatedAt": 1772376768829
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f6_1772376768787_utnrbs",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_body_f6",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_body_f6_1772376768787_utnrbs.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_body"
+      ],
+      "width": 152,
+      "height": 160,
+      "version": 2,
+      "updatedAt": 1772376768829
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f7_1772376768789_8qlfj0",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_body_f7",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_body_f7_1772376768789_8qlfj0.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_body"
+      ],
+      "width": 152,
+      "height": 160,
+      "version": 2,
+      "updatedAt": 1772376768830
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f8_1772376768792_c31iiu",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_body_f8",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_body_f8_1772376768792_c31iiu.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_body"
+      ],
+      "width": 152,
+      "height": 160,
+      "version": 2,
+      "updatedAt": 1772376768830
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f9_1772376768794_9y6sqk",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_body_f9",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_body_f9_1772376768794_9y6sqk.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_body"
+      ],
+      "width": 152,
+      "height": 160,
+      "version": 2,
+      "updatedAt": 1772376768831
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f1_1772376768796_23z0z7",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_hair_f1",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_hair_f1_1772376768796_23z0z7.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_hair"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768831
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f2_1772376768798_h5v43z",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_hair_f2",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_hair_f2_1772376768798_h5v43z.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_hair"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768831
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f3_1772376768799_xfmqhi",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_hair_f3",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_hair_f3_1772376768799_xfmqhi.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_hair"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768832
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f4_1772376768801_se1eeb",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_hair_f4",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_hair_f4_1772376768801_se1eeb.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_hair"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768832
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f5_1772376768803_zhbfgr",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_hair_f5",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_hair_f5_1772376768803_zhbfgr.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_hair"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768832
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f6_1772376768805_lcvrtv",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_hair_f6",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_hair_f6_1772376768805_lcvrtv.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_hair"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768832
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f7_1772376768806_p5d8py",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_hair_f7",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_hair_f7_1772376768806_p5d8py.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_hair"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768833
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f8_1772376768808_32jyzs",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_hair_f8",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_hair_f8_1772376768808_32jyzs.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_hair"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768833
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f9_1772376768810_0zrwmd",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_hair_f9",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_hair_f9_1772376768810_0zrwmd.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_hair"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768833
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f1_1772376768812_v6lv5o",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f1",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f1_1772376768812_v6lv5o.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768834
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f2_1772376768814_9rvwo7",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f2",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f2_1772376768814_9rvwo7.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768834
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f3_1772376768815_4gd7r9",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f3",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f3_1772376768815_4gd7r9.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768834
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f4_1772376768817_egbz4i",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f4",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f4_1772376768817_egbz4i.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768835
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f5_1772376768819_782ldd",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f5",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f5_1772376768819_782ldd.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768835
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f6_1772376768821_90aovj",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f6",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f6_1772376768821_90aovj.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768835
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f7_1772376768822_hem01q",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f7",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f7_1772376768822_hem01q.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768836
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f8_1772376768824_9zs2a7",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f8",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f8_1772376768824_9zs2a7.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768836
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f9_1772376768826_gfwtjj",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f9",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f9_1772376768826_gfwtjj.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768836
     }
   ],
   "maps": [
@@ -100,8 +478,8 @@
       "path": "maps/map_1772004621385_njovgh.json",
       "widthInTiles": 32,
       "heightInTiles": 32,
-      "version": 9,
-      "updatedAt": 1772373188160
+      "version": 10,
+      "updatedAt": 1772376782515
     }
   ],
   "sprites": [
@@ -117,6 +495,21 @@
       "animationCount": 2,
       "version": 15,
       "updatedAt": 1772034315128
+    },
+    {
+      "id": "sprite_1772376768826_t0eo44",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00",
+      "category": "character",
+      "path": "sprites/sprite_1772376768826_t0eo44.json",
+      "tags": [
+        "spritesheet"
+      ],
+      "width": 152,
+      "height": 160,
+      "layerCount": 3,
+      "animationCount": 1,
+      "version": 2,
+      "updatedAt": 1772376780638
     }
   ]
 }
