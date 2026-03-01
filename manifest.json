@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772370760621,
+  "updatedAt": 1772370762064,
   "components": [
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -65,9 +65,9 @@
       "updatedAt": 1772370653111
     },
     {
-      "id": "zyt_body_v1_front",
-      "name": "祝英台_身体_基础层",
-      "path": "components/undefined/zyt_body_v1_front.json",
+      "id": "zyt_outfit_v2_refined_down",
+      "name": "祝英台_精修常服_下站",
+      "path": "components/undefined/zyt_outfit_v2_refined_down.json",
       "tags": [],
       "width": 32,
       "height": 64,
