@@ -1,8 +1,58 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772855580807,
+  "updatedAt": 1772881462807,
   "components": [
+    {
+      "id": "char_liangshanbo_student_casual_36",
+      "name": "liang",
+      "category": "character",
+      "path": "components/character/char_liangshanbo_student_casual_36.json",
+      "tags": [
+        "角色",
+        "梁山伯",
+        "求学",
+        "常服",
+        "古风"
+      ],
+      "width": 48,
+      "height": 48,
+      "version": 35,
+      "updatedAt": 1772373089454
+    },
+    {
+      "id": "char_mawencai_casual_36",
+      "name": "ma",
+      "category": "character",
+      "path": "components/character/char_mawencai_casual_36.json",
+      "tags": [
+        "角色",
+        "马文才",
+        "常服",
+        "古风"
+      ],
+      "width": 12,
+      "height": 12,
+      "version": 12,
+      "updatedAt": 1772373089454
+    },
+    {
+      "id": "char_zhuyingtai_student_casual_36",
+      "name": "zhu",
+      "category": "character",
+      "path": "components/character/char_zhuyingtai_student_casual_36.json",
+      "tags": [
+        "角色",
+        "祝英台",
+        "求学",
+        "常服",
+        "古风"
+      ],
+      "width": 12,
+      "height": 12,
+      "version": 72,
+      "updatedAt": 1772373089454
+    },
     {
       "id": "comp_1771230301263_6ddojn",
       "name": "zyt",
@@ -12,66 +62,6 @@
       "width": 48,
       "height": 96,
       "version": 219,
-      "updatedAt": 1772855572328
-    },
-    {
-      "id": "comp_zh_zyt_96x96_v1",
-      "name": "祝英台（96x96）",
-      "category": "character",
-      "path": "components/character/comp_zh_zyt_96x96_v1.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "96x96"
-      ],
-      "width": 96,
-      "height": 96,
-      "version": 48,
-      "updatedAt": 1772855572328
-    },
-    {
-      "id": "comp_1770823932014_26q4pk",
-      "name": "草坪",
-      "category": "terrain",
-      "path": "components/terrain/comp_1770823932014_26q4pk.json",
-      "tags": [],
-      "width": 16,
-      "height": 16,
-      "version": 105,
-      "updatedAt": 1772855572328
-    },
-    {
-      "id": "comp_1770900850720_5oopur",
-      "name": "大草坪",
-      "category": "terrain",
-      "path": "components/terrain/comp_1770900850720_5oopur.json",
-      "tags": [],
-      "width": 12,
-      "height": 12,
-      "version": 111,
-      "updatedAt": 1772855572328
-    },
-    {
-      "id": "comp_1771230301263_6ddojn",
-      "name": "zyt",
-      "category": "terrain",
-      "path": "components/terrain/comp_1771230301263_6ddojn.json",
-      "tags": [],
-      "width": 48,
-      "height": 96,
-      "version": 24,
-      "updatedAt": 1771260507380
-    },
-    {
-      "id": "comp_1770797242019_8ctkpd",
-      "name": "🌲",
-      "category": "tree",
-      "path": "components/tree/comp_1770797242019_8ctkpd.json",
-      "tags": [],
-      "width": 16,
-      "height": 16,
-      "version": 125,
       "updatedAt": 1772855572328
     },
     {
@@ -201,6 +191,132 @@
       "updatedAt": 1772855572336
     },
     {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f1_1772376768812_v6lv5o",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f1",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f1_1772376768812_v6lv5o.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 3,
+      "updatedAt": 1772855572341
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f2_1772376768814_9rvwo7",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f2",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f2_1772376768814_9rvwo7.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 3,
+      "updatedAt": 1772855572342
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f3_1772376768815_4gd7r9",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f3",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f3_1772376768815_4gd7r9.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768834
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f4_1772376768817_egbz4i",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f4",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f4_1772376768817_egbz4i.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768835
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f5_1772376768819_782ldd",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f5",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f5_1772376768819_782ldd.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768835
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f6_1772376768821_90aovj",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f6",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f6_1772376768821_90aovj.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768835
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f7_1772376768822_hem01q",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f7",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f7_1772376768822_hem01q.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768836
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f8_1772376768824_9zs2a7",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f8",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f8_1772376768824_9zs2a7.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768836
+    },
+    {
+      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f9_1772376768826_gfwtjj",
+      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f9",
+      "category": "character",
+      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f9_1772376768826_gfwtjj.json",
+      "tags": [
+        "spritesheet",
+        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+      ],
+      "width": 152,
+      "height": 108,
+      "version": 2,
+      "updatedAt": 1772376768836
+    },
+    {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f1_1772376768796_23z0z7",
       "name": "ChatGPT_Image_2026年3月1日_15_41_00_hair_f1",
       "category": "character",
@@ -327,130 +443,255 @@
       "updatedAt": 1772855572341
     },
     {
-      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f1_1772376768812_v6lv5o",
-      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f1",
+      "id": "comp_zh_lyb_48x48_v1",
+      "name": "梁山伯（48x48）",
       "category": "character",
-      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f1_1772376768812_v6lv5o.json",
+      "path": "components/character/comp_zh_lyb_48x48_v1.json",
       "tags": [
-        "spritesheet",
-        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+        "liangshanbo",
+        "梁山伯",
+        "character",
+        "48x48"
       ],
-      "width": 152,
-      "height": 108,
+      "width": 48,
+      "height": 48,
+      "version": 24,
+      "updatedAt": 1772373089455
+    },
+    {
+      "id": "comp_zh_lyb_64x64_v1",
+      "name": "梁山伯（64x64）",
+      "category": "character",
+      "path": "components/character/comp_zh_lyb_64x64_v1.json",
+      "tags": [
+        "liangshanbo",
+        "梁山伯",
+        "character",
+        "64x64"
+      ],
+      "width": 64,
+      "height": 64,
+      "version": 20,
+      "updatedAt": 1772373089455
+    },
+    {
+      "id": "comp_zh_zyt_48x48_v1",
+      "name": "祝英台（48x48）",
+      "category": "character",
+      "path": "components/character/comp_zh_zyt_48x48_v1.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "48x48"
+      ],
+      "width": 48,
+      "height": 48,
       "version": 3,
-      "updatedAt": 1772855572341
+      "updatedAt": 1772373089455
     },
     {
-      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f2_1772376768814_9rvwo7",
-      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f2",
+      "id": "comp_zh_zyt_96x96_v1",
+      "name": "祝英台（96x96）",
       "category": "character",
-      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f2_1772376768814_9rvwo7.json",
+      "path": "components/character/comp_zh_zyt_96x96_v1.json",
       "tags": [
-        "spritesheet",
-        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "96x96"
       ],
-      "width": 152,
-      "height": 108,
-      "version": 2,
-      "updatedAt": 1772376768834
+      "width": 96,
+      "height": 96,
+      "version": 48,
+      "updatedAt": 1772855572328
     },
     {
-      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f3_1772376768815_4gd7r9",
-      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f3",
+      "id": "comp_zhu_yingtai_casual_001",
+      "name": "祝英台_女常服",
       "category": "character",
-      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f3_1772376768815_4gd7r9.json",
+      "path": "components/character/comp_zhu_yingtai_casual_001.json",
       "tags": [
-        "spritesheet",
-        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+        "character",
+        "祝英台",
+        "女装",
+        "粉色",
+        "绿色",
+        "折扇"
       ],
-      "width": 152,
-      "height": 108,
-      "version": 2,
-      "updatedAt": 1772376768834
+      "width": 48,
+      "height": 96,
+      "version": 13,
+      "updatedAt": 1772373089457
     },
     {
-      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f4_1772376768817_egbz4i",
-      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f4",
-      "category": "character",
-      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f4_1772376768817_egbz4i.json",
+      "id": "zyt_body_idle_down_001",
+      "name": "祝英台_基底_下站",
+      "category": "other",
+      "path": "components/character_body/zyt_body_idle_down_001.json",
       "tags": [
-        "spritesheet",
-        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
+        "zyt",
+        "body",
+        "idle"
       ],
-      "width": 152,
-      "height": 108,
-      "version": 2,
-      "updatedAt": 1772376768835
+      "width": 32,
+      "height": 64,
+      "version": 15,
+      "updatedAt": 1772373089453
     },
     {
-      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f5_1772376768819_782ldd",
-      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f5",
-      "category": "character",
-      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f5_1772376768819_782ldd.json",
-      "tags": [
-        "spritesheet",
-        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
-      ],
-      "width": 152,
-      "height": 108,
-      "version": 2,
-      "updatedAt": 1772376768835
+      "id": "zyt_hair_classic_down_001",
+      "name": "祝英台_发型_下站",
+      "category": "other",
+      "path": "components/character_hair/zyt_hair_classic_down_001.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1772373089453
     },
     {
-      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f6_1772376768821_90aovj",
-      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f6",
-      "category": "character",
-      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f6_1772376768821_90aovj.json",
-      "tags": [
-        "spritesheet",
-        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
-      ],
-      "width": 152,
-      "height": 108,
-      "version": 2,
-      "updatedAt": 1772376768835
+      "id": "zyt_outfit_casual_down_001",
+      "name": "祝英台_常服_下站",
+      "category": "other",
+      "path": "components/character_outfit/zyt_outfit_casual_down_001.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": 12,
+      "updatedAt": 1772373089454
     },
     {
-      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f7_1772376768822_hem01q",
-      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f7",
-      "category": "character",
-      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f7_1772376768822_hem01q.json",
-      "tags": [
-        "spritesheet",
-        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
-      ],
-      "width": 152,
-      "height": 108,
-      "version": 2,
-      "updatedAt": 1772376768836
+      "id": "comp_1770823932014_26q4pk",
+      "name": "草坪",
+      "category": "terrain",
+      "path": "components/terrain/comp_1770823932014_26q4pk.json",
+      "tags": [],
+      "width": 16,
+      "height": 16,
+      "version": 105,
+      "updatedAt": 1772855572328
     },
     {
-      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f8_1772376768824_9zs2a7",
-      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f8",
-      "category": "character",
-      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f8_1772376768824_9zs2a7.json",
-      "tags": [
-        "spritesheet",
-        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
-      ],
-      "width": 152,
-      "height": 108,
-      "version": 2,
-      "updatedAt": 1772376768836
+      "id": "comp_1770900850720_5oopur",
+      "name": "大草坪",
+      "category": "terrain",
+      "path": "components/terrain/comp_1770900850720_5oopur.json",
+      "tags": [],
+      "width": 12,
+      "height": 12,
+      "version": 111,
+      "updatedAt": 1772855572328
     },
     {
-      "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f9_1772376768826_gfwtjj",
-      "name": "ChatGPT_Image_2026年3月1日_15_41_00_clothes_f9",
-      "category": "character",
-      "path": "components/character/comp_chatgpt_image_2026_3_1__15_41_00_clothes_f9_1772376768826_gfwtjj.json",
-      "tags": [
-        "spritesheet",
-        "ChatGPT_Image_2026年3月1日_15_41_00_clothes"
-      ],
-      "width": 152,
-      "height": 108,
+      "id": "comp_1771230301263_6ddojn",
+      "name": "zyt",
+      "category": "terrain",
+      "path": "components/terrain/comp_1771230301263_6ddojn.json",
+      "tags": [],
+      "width": 48,
+      "height": 96,
+      "version": 24,
+      "updatedAt": 1771260507380
+    },
+    {
+      "id": "comp_1772033163377_if64lf",
+      "name": "Untitled",
+      "category": "terrain",
+      "path": "components/terrain/comp_1772033163377_if64lf.json",
+      "tags": [],
+      "width": 48,
+      "height": 48,
+      "version": 3,
+      "updatedAt": 1772373089457
+    },
+    {
+      "id": "comp_1772370974373_e6n9yy",
+      "name": "Untitled",
+      "category": "terrain",
+      "path": "components/terrain/comp_1772370974373_e6n9yy.json",
+      "tags": [],
+      "width": 48,
+      "height": 48,
+      "version": 3,
+      "updatedAt": 1772373089457
+    },
+    {
+      "id": "comp_1770797242019_8ctkpd",
+      "name": "🌲",
+      "category": "tree",
+      "path": "components/tree/comp_1770797242019_8ctkpd.json",
+      "tags": [],
+      "width": 16,
+      "height": 16,
+      "version": 125,
+      "updatedAt": 1772855572328
+    },
+    {
+      "id": "zyt_body_fixed_down",
+      "name": "祝英台_基底_修正版",
+      "category": "other",
+      "path": "components/undefined/zyt_body_fixed_down.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1772373089458
+    },
+    {
+      "id": "zyt_body_v1_front",
+      "name": "祝英台_身体_基础层",
+      "category": "other",
+      "path": "components/undefined/zyt_body_v1_front.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
       "version": 2,
-      "updatedAt": 1772376768836
+      "updatedAt": 1772373089458
+    },
+    {
+      "id": "zyt_body_v2_down_full",
+      "name": "祝英台_基底_精修面部",
+      "category": "other",
+      "path": "components/undefined/zyt_body_v2_down_full.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1772373089458
+    },
+    {
+      "id": "zyt_clothes_v1_front",
+      "name": "祝英台_衣服_正面版",
+      "category": "other",
+      "path": "components/undefined/zyt_clothes_v1_front.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": 4,
+      "updatedAt": 1772373089458
+    },
+    {
+      "id": "zyt_hair_v2_front",
+      "name": "祝英台_头发_正面版",
+      "category": "other",
+      "path": "components/undefined/zyt_hair_v2_front.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": 4,
+      "updatedAt": 1772373089458
+    },
+    {
+      "id": "zyt_outfit_v2_refined_down",
+      "name": "祝英台_精修常服_下站",
+      "category": "other",
+      "path": "components/undefined/zyt_outfit_v2_refined_down.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": 3,
+      "updatedAt": 1772373089459
     }
   ],
   "maps": [
@@ -473,6 +714,42 @@
       "updatedAt": 1772373188714
     },
     {
+      "id": "map_1770841082750_vts2kt",
+      "name": "New Map",
+      "path": "maps/map_1770841082750_vts2kt.json",
+      "widthInTiles": 32,
+      "heightInTiles": 32,
+      "version": 13,
+      "updatedAt": 1771041114624
+    },
+    {
+      "id": "map_1771040841420_4ou8h1",
+      "name": "New Map",
+      "path": "maps/map_1771040841420_4ou8h1.json",
+      "widthInTiles": 32,
+      "heightInTiles": 32,
+      "version": 17,
+      "updatedAt": 1771041129207
+    },
+    {
+      "id": "map_1771041109457_08zebu",
+      "name": "New Map",
+      "path": "maps/map_1771041109457_08zebu.json",
+      "widthInTiles": 32,
+      "heightInTiles": 32,
+      "version": 3,
+      "updatedAt": 1771041472545
+    },
+    {
+      "id": "map_1771041836181_w4e5o6",
+      "name": "New Map",
+      "path": "maps/map_1771041836181_w4e5o6.json",
+      "widthInTiles": 32,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1771041837184
+    },
+    {
       "id": "map_1772004621385_njovgh",
       "name": "New Map",
       "path": "maps/map_1772004621385_njovgh.json",
@@ -483,6 +760,45 @@
     }
   ],
   "sprites": [
+    {
+      "id": "sprite_1771948930326_fmgy3a",
+      "name": "New Sprite",
+      "category": "character",
+      "path": "sprites/sprite_1771948930326_fmgy3a.json",
+      "tags": [],
+      "width": 48,
+      "height": 96,
+      "layerCount": 0,
+      "animationCount": 2,
+      "version": 5,
+      "updatedAt": 1771949125844
+    },
+    {
+      "id": "sprite_1771951383312_jzivm9",
+      "name": "New Sprite",
+      "category": "character",
+      "path": "sprites/sprite_1771951383312_jzivm9.json",
+      "tags": [],
+      "width": 48,
+      "height": 48,
+      "layerCount": 0,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1771951383312
+    },
+    {
+      "id": "sprite_1771951730535_p63ren",
+      "name": "Demo1",
+      "category": "character",
+      "path": "sprites/sprite_1771951730535_p63ren.json",
+      "tags": [],
+      "width": 48,
+      "height": 48,
+      "layerCount": 0,
+      "animationCount": 1,
+      "version": 2,
+      "updatedAt": 1771951761306
+    },
     {
       "id": "sprite_1771953191142_6dh7ek",
       "name": "ZYT",
