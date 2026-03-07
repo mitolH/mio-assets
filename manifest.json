@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772891394266,
+  "updatedAt": 1772893307048,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -75,8 +75,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 6,
-      "updatedAt": 1772891393981
+      "version": 7,
+      "updatedAt": 1772893306462
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f2_1772376768777_v4espf",
