@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772881462807,
+  "updatedAt": 1772881562751,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -17,8 +17,8 @@
       ],
       "width": 48,
       "height": 48,
-      "version": 35,
-      "updatedAt": 1772373089454
+      "version": 36,
+      "updatedAt": 1772881477992
     },
     {
       "id": "char_mawencai_casual_36",
@@ -33,8 +33,8 @@
       ],
       "width": 12,
       "height": 12,
-      "version": 12,
-      "updatedAt": 1772373089454
+      "version": 13,
+      "updatedAt": 1772881477992
     },
     {
       "id": "char_zhuyingtai_student_casual_36",
@@ -50,8 +50,8 @@
       ],
       "width": 12,
       "height": 12,
-      "version": 72,
-      "updatedAt": 1772373089454
+      "version": 73,
+      "updatedAt": 1772881477992
     },
     {
       "id": "comp_1771230301263_6ddojn",
@@ -61,8 +61,8 @@
       "tags": [],
       "width": 48,
       "height": 96,
-      "version": 219,
-      "updatedAt": 1772855572328
+      "version": 220,
+      "updatedAt": 1772881478003
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f1_1772376768774_xdco07",
@@ -75,8 +75,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 3,
-      "updatedAt": 1772855572330
+      "version": 4,
+      "updatedAt": 1772881477992
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f2_1772376768777_v4espf",
@@ -89,8 +89,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 3,
-      "updatedAt": 1772855572330
+      "version": 4,
+      "updatedAt": 1772881477993
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f3_1772376768779_tt0qfp",
@@ -103,8 +103,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 3,
-      "updatedAt": 1772855572331
+      "version": 4,
+      "updatedAt": 1772881477994
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f4_1772376768782_lpxgl1",
@@ -117,8 +117,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 3,
-      "updatedAt": 1772855572332
+      "version": 4,
+      "updatedAt": 1772881477994
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f5_1772376768784_zle0ab",
@@ -131,8 +131,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 3,
-      "updatedAt": 1772855572333
+      "version": 4,
+      "updatedAt": 1772881477995
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f6_1772376768787_utnrbs",
@@ -145,8 +145,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 3,
-      "updatedAt": 1772855572334
+      "version": 4,
+      "updatedAt": 1772881477995
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f7_1772376768789_8qlfj0",
@@ -159,8 +159,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 3,
-      "updatedAt": 1772855572335
+      "version": 4,
+      "updatedAt": 1772881477996
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f8_1772376768792_c31iiu",
@@ -173,8 +173,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 3,
-      "updatedAt": 1772855572335
+      "version": 4,
+      "updatedAt": 1772881477996
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f9_1772376768794_9y6sqk",
@@ -187,8 +187,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 3,
-      "updatedAt": 1772855572336
+      "version": 4,
+      "updatedAt": 1772881477996
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f1_1772376768812_v6lv5o",
@@ -201,8 +201,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 3,
-      "updatedAt": 1772855572341
+      "version": 4,
+      "updatedAt": 1772881477997
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f2_1772376768814_9rvwo7",
@@ -215,8 +215,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 3,
-      "updatedAt": 1772855572342
+      "version": 4,
+      "updatedAt": 1772881477997
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f3_1772376768815_4gd7r9",
@@ -229,8 +229,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 2,
-      "updatedAt": 1772376768834
+      "version": 3,
+      "updatedAt": 1772881477998
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f4_1772376768817_egbz4i",
@@ -243,8 +243,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 2,
-      "updatedAt": 1772376768835
+      "version": 3,
+      "updatedAt": 1772881477998
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f5_1772376768819_782ldd",
@@ -257,8 +257,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 2,
-      "updatedAt": 1772376768835
+      "version": 3,
+      "updatedAt": 1772881477998
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f6_1772376768821_90aovj",
@@ -271,8 +271,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 2,
-      "updatedAt": 1772376768835
+      "version": 3,
+      "updatedAt": 1772881477999
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f7_1772376768822_hem01q",
@@ -285,8 +285,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 2,
-      "updatedAt": 1772376768836
+      "version": 3,
+      "updatedAt": 1772881477999
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f8_1772376768824_9zs2a7",
@@ -299,8 +299,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 2,
-      "updatedAt": 1772376768836
+      "version": 3,
+      "updatedAt": 1772881477999
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f9_1772376768826_gfwtjj",
@@ -313,8 +313,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 2,
-      "updatedAt": 1772376768836
+      "version": 3,
+      "updatedAt": 1772881477999
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f1_1772376768796_23z0z7",
@@ -327,8 +327,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 3,
-      "updatedAt": 1772855572336
+      "version": 4,
+      "updatedAt": 1772881478000
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f2_1772376768798_h5v43z",
@@ -341,8 +341,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 3,
-      "updatedAt": 1772855572337
+      "version": 4,
+      "updatedAt": 1772881478000
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f3_1772376768799_xfmqhi",
@@ -355,8 +355,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 3,
-      "updatedAt": 1772855572337
+      "version": 4,
+      "updatedAt": 1772881478000
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f4_1772376768801_se1eeb",
@@ -369,8 +369,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 3,
-      "updatedAt": 1772855572338
+      "version": 4,
+      "updatedAt": 1772881478001
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f5_1772376768803_zhbfgr",
@@ -383,8 +383,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 3,
-      "updatedAt": 1772855572339
+      "version": 4,
+      "updatedAt": 1772881478001
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f6_1772376768805_lcvrtv",
@@ -397,8 +397,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 3,
-      "updatedAt": 1772855572339
+      "version": 4,
+      "updatedAt": 1772881478001
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f7_1772376768806_p5d8py",
@@ -411,8 +411,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 3,
-      "updatedAt": 1772855572340
+      "version": 4,
+      "updatedAt": 1772881478002
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f8_1772376768808_32jyzs",
@@ -425,8 +425,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 3,
-      "updatedAt": 1772855572340
+      "version": 4,
+      "updatedAt": 1772881478002
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f9_1772376768810_0zrwmd",
@@ -439,8 +439,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 3,
-      "updatedAt": 1772855572341
+      "version": 4,
+      "updatedAt": 1772881478002
     },
     {
       "id": "comp_zh_lyb_48x48_v1",
@@ -455,8 +455,8 @@
       ],
       "width": 48,
       "height": 48,
-      "version": 24,
-      "updatedAt": 1772373089455
+      "version": 25,
+      "updatedAt": 1772881478002
     },
     {
       "id": "comp_zh_lyb_64x64_v1",
@@ -471,8 +471,8 @@
       ],
       "width": 64,
       "height": 64,
-      "version": 20,
-      "updatedAt": 1772373089455
+      "version": 21,
+      "updatedAt": 1772881478003
     },
     {
       "id": "comp_zh_zyt_48x48_v1",
@@ -487,8 +487,8 @@
       ],
       "width": 48,
       "height": 48,
-      "version": 3,
-      "updatedAt": 1772373089455
+      "version": 4,
+      "updatedAt": 1772881478003
     },
     {
       "id": "comp_zh_zyt_96x96_v1",
@@ -503,8 +503,8 @@
       ],
       "width": 96,
       "height": 96,
-      "version": 48,
-      "updatedAt": 1772855572328
+      "version": 49,
+      "updatedAt": 1772881478003
     },
     {
       "id": "comp_zhu_yingtai_casual_001",
@@ -521,13 +521,13 @@
       ],
       "width": 48,
       "height": 96,
-      "version": 13,
-      "updatedAt": 1772373089457
+      "version": 14,
+      "updatedAt": 1772881478003
     },
     {
       "id": "zyt_body_idle_down_001",
       "name": "祝英台_基底_下站",
-      "category": "other",
+      "category": "character_body",
       "path": "components/character_body/zyt_body_idle_down_001.json",
       "tags": [
         "zyt",
@@ -536,30 +536,30 @@
       ],
       "width": 32,
       "height": 64,
-      "version": 15,
-      "updatedAt": 1772373089453
+      "version": 16,
+      "updatedAt": 1772881478003
     },
     {
       "id": "zyt_hair_classic_down_001",
       "name": "祝英台_发型_下站",
-      "category": "other",
+      "category": "character_hair",
       "path": "components/character_hair/zyt_hair_classic_down_001.json",
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 1,
-      "updatedAt": 1772373089453
+      "version": 2,
+      "updatedAt": 1772881478003
     },
     {
       "id": "zyt_outfit_casual_down_001",
       "name": "祝英台_常服_下站",
-      "category": "other",
+      "category": "character_outfit",
       "path": "components/character_outfit/zyt_outfit_casual_down_001.json",
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 12,
-      "updatedAt": 1772373089454
+      "version": 13,
+      "updatedAt": 1772881478003
     },
     {
       "id": "comp_1770823932014_26q4pk",
@@ -569,8 +569,8 @@
       "tags": [],
       "width": 16,
       "height": 16,
-      "version": 105,
-      "updatedAt": 1772855572328
+      "version": 106,
+      "updatedAt": 1772881478003
     },
     {
       "id": "comp_1770900850720_5oopur",
@@ -580,8 +580,8 @@
       "tags": [],
       "width": 12,
       "height": 12,
-      "version": 111,
-      "updatedAt": 1772855572328
+      "version": 112,
+      "updatedAt": 1772881478003
     },
     {
       "id": "comp_1771230301263_6ddojn",
@@ -602,8 +602,8 @@
       "tags": [],
       "width": 48,
       "height": 48,
-      "version": 3,
-      "updatedAt": 1772373089457
+      "version": 4,
+      "updatedAt": 1772881478003
     },
     {
       "id": "comp_1772370974373_e6n9yy",
@@ -613,8 +613,8 @@
       "tags": [],
       "width": 48,
       "height": 48,
-      "version": 3,
-      "updatedAt": 1772373089457
+      "version": 4,
+      "updatedAt": 1772881478003
     },
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -624,74 +624,68 @@
       "tags": [],
       "width": 16,
       "height": 16,
-      "version": 125,
-      "updatedAt": 1772855572328
+      "version": 126,
+      "updatedAt": 1772881478003
     },
     {
       "id": "zyt_body_fixed_down",
       "name": "祝英台_基底_修正版",
-      "category": "other",
       "path": "components/undefined/zyt_body_fixed_down.json",
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 1,
-      "updatedAt": 1772373089458
+      "version": 2,
+      "updatedAt": 1772881478003
     },
     {
       "id": "zyt_body_v1_front",
       "name": "祝英台_身体_基础层",
-      "category": "other",
       "path": "components/undefined/zyt_body_v1_front.json",
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 2,
-      "updatedAt": 1772373089458
+      "version": 3,
+      "updatedAt": 1772881478003
     },
     {
       "id": "zyt_body_v2_down_full",
       "name": "祝英台_基底_精修面部",
-      "category": "other",
       "path": "components/undefined/zyt_body_v2_down_full.json",
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 1,
-      "updatedAt": 1772373089458
+      "version": 2,
+      "updatedAt": 1772881478003
     },
     {
       "id": "zyt_clothes_v1_front",
       "name": "祝英台_衣服_正面版",
-      "category": "other",
       "path": "components/undefined/zyt_clothes_v1_front.json",
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 4,
-      "updatedAt": 1772373089458
+      "version": 5,
+      "updatedAt": 1772881478003
     },
     {
       "id": "zyt_hair_v2_front",
       "name": "祝英台_头发_正面版",
-      "category": "other",
       "path": "components/undefined/zyt_hair_v2_front.json",
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 4,
-      "updatedAt": 1772373089458
+      "version": 5,
+      "updatedAt": 1772881478004
     },
     {
       "id": "zyt_outfit_v2_refined_down",
       "name": "祝英台_精修常服_下站",
-      "category": "other",
       "path": "components/undefined/zyt_outfit_v2_refined_down.json",
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 3,
-      "updatedAt": 1772373089459
+      "version": 4,
+      "updatedAt": 1772881478004
     }
   ],
   "maps": [
@@ -760,58 +754,6 @@
     }
   ],
   "sprites": [
-    {
-      "id": "sprite_1771948930326_fmgy3a",
-      "name": "New Sprite",
-      "category": "character",
-      "path": "sprites/sprite_1771948930326_fmgy3a.json",
-      "tags": [],
-      "width": 48,
-      "height": 96,
-      "layerCount": 0,
-      "animationCount": 2,
-      "version": 5,
-      "updatedAt": 1771949125844
-    },
-    {
-      "id": "sprite_1771951383312_jzivm9",
-      "name": "New Sprite",
-      "category": "character",
-      "path": "sprites/sprite_1771951383312_jzivm9.json",
-      "tags": [],
-      "width": 48,
-      "height": 48,
-      "layerCount": 0,
-      "animationCount": 1,
-      "version": 1,
-      "updatedAt": 1771951383312
-    },
-    {
-      "id": "sprite_1771951730535_p63ren",
-      "name": "Demo1",
-      "category": "character",
-      "path": "sprites/sprite_1771951730535_p63ren.json",
-      "tags": [],
-      "width": 48,
-      "height": 48,
-      "layerCount": 0,
-      "animationCount": 1,
-      "version": 2,
-      "updatedAt": 1771951761306
-    },
-    {
-      "id": "sprite_1771953191142_6dh7ek",
-      "name": "ZYT",
-      "category": "character",
-      "path": "sprites/sprite_1771953191142_6dh7ek.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "layerCount": 2,
-      "animationCount": 2,
-      "version": 15,
-      "updatedAt": 1772034315128
-    },
     {
       "id": "sprite_1772376768826_t0eo44",
       "name": "ChatGPT_Image_2026年3月1日_15_41_00",
