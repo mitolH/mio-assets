@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772985343247,
+  "updatedAt": 1772985588214,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -1497,21 +1497,6 @@
       "animationCount": 1,
       "version": 1,
       "updatedAt": 1772982246837
-    },
-    {
-      "id": "sprite_1772983342734_qphyed",
-      "name": "女子右移",
-      "category": "character",
-      "path": "sprites/sprite_1772983342734_qphyed.json",
-      "tags": [
-        "spritesheet"
-      ],
-      "width": 32,
-      "height": 28,
-      "layerCount": 1,
-      "animationCount": 1,
-      "version": 1,
-      "updatedAt": 1772983342734
     }
   ]
 }
