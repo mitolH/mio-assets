@@ -1,0 +1,146 @@
+{
+  "id": "sprite_1772956303279_ljv649",
+  "name": "女子右移",
+  "category": "character",
+  "description": "Imported from spritesheet",
+  "tags": [
+    "spritesheet"
+  ],
+  "width": 164,
+  "height": 224,
+  "tileWidth": 11,
+  "tileHeight": 14,
+  "anchorX": 82,
+  "anchorY": 224,
+  "footprint": {
+    "tileWidth": 1,
+    "tileHeight": 1,
+    "offsetTileX": 0,
+    "offsetTileY": 0
+  },
+  "layers": [
+    {
+      "id": "layer_girl_move_right",
+      "name": "girl_move_right",
+      "zOrder": 0,
+      "defaultComponentId": "comp_chatgpt_image_2026_3_8__15_41_31_0_f1_1772956303233_0m5deq",
+      "defaultOffsetX": -82,
+      "defaultOffsetY": -224,
+      "visible": true
+    }
+  ],
+  "animations": [
+    {
+      "id": "idle",
+      "name": "Idle",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 0,
+      "frames": [
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__15_41_31_0_f1_1772956303233_0m5deq"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__15_41_31_0_f2_1772956303244_vctxnt"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__15_41_31_0_f3_1772956303250_tj4le9"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__15_41_31_0_f4_1772956303255_qivit7"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__15_41_31_0_f5_1772956303260_5enmzs"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__15_41_31_0_f6_1772956303265_p7w9dq"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__15_41_31_0_f7_1772956303269_6v31u4"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__15_41_31_0_f8_1772956303274_icamyp"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__15_41_31_0_f9_1772956303279_t4noy5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "defaultAnimationId": "idle",
+  "createdAt": 1772956303279,
+  "updatedAt": 1772956303279,
+  "version": 1
+}
