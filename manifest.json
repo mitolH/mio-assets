@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772981915466,
+  "updatedAt": 1772982264704,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -1176,6 +1176,132 @@
       "height": 188,
       "version": 3,
       "updatedAt": 1772981905043
+    },
+    {
+      "id": "comp_0_f1_1772982246796_k542wv",
+      "name": "女右移_0_f1",
+      "category": "character",
+      "path": "components/character/comp_0_f1_1772982246796_k542wv.json",
+      "tags": [
+        "spritesheet",
+        "女右移_0"
+      ],
+      "width": 32,
+      "height": 40,
+      "version": 2,
+      "updatedAt": 1772982246838
+    },
+    {
+      "id": "comp_0_f2_1772982246800_rldpws",
+      "name": "女右移_0_f2",
+      "category": "character",
+      "path": "components/character/comp_0_f2_1772982246800_rldpws.json",
+      "tags": [
+        "spritesheet",
+        "女右移_0"
+      ],
+      "width": 32,
+      "height": 40,
+      "version": 2,
+      "updatedAt": 1772982246838
+    },
+    {
+      "id": "comp_0_f3_1772982246804_ib7k4b",
+      "name": "女右移_0_f3",
+      "category": "character",
+      "path": "components/character/comp_0_f3_1772982246804_ib7k4b.json",
+      "tags": [
+        "spritesheet",
+        "女右移_0"
+      ],
+      "width": 32,
+      "height": 40,
+      "version": 2,
+      "updatedAt": 1772982246838
+    },
+    {
+      "id": "comp_0_f4_1772982246807_m24403",
+      "name": "女右移_0_f4",
+      "category": "character",
+      "path": "components/character/comp_0_f4_1772982246807_m24403.json",
+      "tags": [
+        "spritesheet",
+        "女右移_0"
+      ],
+      "width": 32,
+      "height": 40,
+      "version": 2,
+      "updatedAt": 1772982246838
+    },
+    {
+      "id": "comp_0_f5_1772982246816_8xa7nf",
+      "name": "女右移_0_f5",
+      "category": "character",
+      "path": "components/character/comp_0_f5_1772982246816_8xa7nf.json",
+      "tags": [
+        "spritesheet",
+        "女右移_0"
+      ],
+      "width": 32,
+      "height": 40,
+      "version": 2,
+      "updatedAt": 1772982246838
+    },
+    {
+      "id": "comp_0_f6_1772982246819_qaj5nj",
+      "name": "女右移_0_f6",
+      "category": "character",
+      "path": "components/character/comp_0_f6_1772982246819_qaj5nj.json",
+      "tags": [
+        "spritesheet",
+        "女右移_0"
+      ],
+      "width": 32,
+      "height": 40,
+      "version": 2,
+      "updatedAt": 1772982246838
+    },
+    {
+      "id": "comp_0_f7_1772982246822_u2a0ba",
+      "name": "女右移_0_f7",
+      "category": "character",
+      "path": "components/character/comp_0_f7_1772982246822_u2a0ba.json",
+      "tags": [
+        "spritesheet",
+        "女右移_0"
+      ],
+      "width": 32,
+      "height": 40,
+      "version": 2,
+      "updatedAt": 1772982246838
+    },
+    {
+      "id": "comp_0_f8_1772982246825_m7vrwy",
+      "name": "女右移_0_f8",
+      "category": "character",
+      "path": "components/character/comp_0_f8_1772982246825_m7vrwy.json",
+      "tags": [
+        "spritesheet",
+        "女右移_0"
+      ],
+      "width": 32,
+      "height": 40,
+      "version": 2,
+      "updatedAt": 1772982246838
+    },
+    {
+      "id": "comp_0_f9_1772982246829_hsp1af",
+      "name": "女右移_0_f9",
+      "category": "character",
+      "path": "components/character/comp_0_f9_1772982246829_hsp1af.json",
+      "tags": [
+        "spritesheet",
+        "女右移_0"
+      ],
+      "width": 32,
+      "height": 40,
+      "version": 2,
+      "updatedAt": 1772982246838
     }
   ],
   "maps": [
@@ -1239,8 +1365,8 @@
       "path": "maps/map_1772004621385_njovgh.json",
       "widthInTiles": 32,
       "heightInTiles": 32,
-      "version": 13,
-      "updatedAt": 1772958014841
+      "version": 14,
+      "updatedAt": 1772982264506
     }
   ],
   "sprites": [
@@ -1258,6 +1384,21 @@
       "animationCount": 1,
       "version": 2,
       "updatedAt": 1772958003624
+    },
+    {
+      "id": "sprite_1772982246837_g9umfx",
+      "name": "女右移",
+      "category": "character",
+      "path": "sprites/sprite_1772982246837_g9umfx.json",
+      "tags": [
+        "spritesheet"
+      ],
+      "width": 32,
+      "height": 40,
+      "layerCount": 1,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1772982246837
     }
   ]
 }

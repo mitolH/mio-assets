@@ -1,0 +1,146 @@
+{
+  "id": "sprite_1772982246837_g9umfx",
+  "name": "女右移",
+  "category": "character",
+  "description": "Imported from spritesheet",
+  "tags": [
+    "spritesheet"
+  ],
+  "width": 32,
+  "height": 40,
+  "tileWidth": 2,
+  "tileHeight": 3,
+  "anchorX": 16,
+  "anchorY": 40,
+  "footprint": {
+    "tileWidth": 1,
+    "tileHeight": 1,
+    "offsetTileX": 0,
+    "offsetTileY": 0
+  },
+  "layers": [
+    {
+      "id": "layer_girl_move_right",
+      "name": "girl_move_right",
+      "zOrder": 0,
+      "defaultComponentId": "comp_0_f1_1772982246796_k542wv",
+      "defaultOffsetX": -16,
+      "defaultOffsetY": -40,
+      "visible": true
+    }
+  ],
+  "animations": [
+    {
+      "id": "idle",
+      "name": "Idle",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 0,
+      "frames": [
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f1_1772982246796_k542wv"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f2_1772982246800_rldpws"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f3_1772982246804_ib7k4b"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f4_1772982246807_m24403"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f5_1772982246816_8xa7nf"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f6_1772982246819_qaj5nj"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f7_1772982246822_u2a0ba"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f8_1772982246825_m7vrwy"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_girl_move_right",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f9_1772982246829_hsp1af"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "defaultAnimationId": "idle",
+  "createdAt": 1772982246837,
+  "updatedAt": 1772982246837,
+  "version": 1
+}
