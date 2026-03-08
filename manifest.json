@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772955761119,
+  "updatedAt": 1772956181222,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -17,8 +17,8 @@
       ],
       "width": 48,
       "height": 48,
-      "version": 37,
-      "updatedAt": 1772882850365
+      "version": 40,
+      "updatedAt": 1772956172891
     },
     {
       "id": "char_mawencai_casual_36",
@@ -33,8 +33,8 @@
       ],
       "width": 12,
       "height": 12,
-      "version": 14,
-      "updatedAt": 1772882850365
+      "version": 17,
+      "updatedAt": 1772956172891
     },
     {
       "id": "char_zhuyingtai_student_casual_36",
@@ -50,8 +50,8 @@
       ],
       "width": 12,
       "height": 12,
-      "version": 74,
-      "updatedAt": 1772882850365
+      "version": 77,
+      "updatedAt": 1772956172892
     },
     {
       "id": "comp_1771230301263_6ddojn",
@@ -61,8 +61,8 @@
       "tags": [],
       "width": 48,
       "height": 96,
-      "version": 221,
-      "updatedAt": 1772882850376
+      "version": 224,
+      "updatedAt": 1772956172903
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f2_1772376768777_v4espf",
@@ -75,8 +75,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 5,
-      "updatedAt": 1772882850367
+      "version": 8,
+      "updatedAt": 1772956172892
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f3_1772376768779_tt0qfp",
@@ -89,8 +89,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 5,
-      "updatedAt": 1772882850367
+      "version": 8,
+      "updatedAt": 1772956172893
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f4_1772376768782_lpxgl1",
@@ -103,8 +103,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 5,
-      "updatedAt": 1772882850367
+      "version": 8,
+      "updatedAt": 1772956172893
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f5_1772376768784_zle0ab",
@@ -117,8 +117,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 5,
-      "updatedAt": 1772882850368
+      "version": 8,
+      "updatedAt": 1772956172894
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f6_1772376768787_utnrbs",
@@ -131,8 +131,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 5,
-      "updatedAt": 1772882850368
+      "version": 8,
+      "updatedAt": 1772956172894
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f7_1772376768789_8qlfj0",
@@ -145,8 +145,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 5,
-      "updatedAt": 1772882850369
+      "version": 8,
+      "updatedAt": 1772956172895
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f8_1772376768792_c31iiu",
@@ -159,8 +159,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 5,
-      "updatedAt": 1772882850369
+      "version": 8,
+      "updatedAt": 1772956172895
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f9_1772376768794_9y6sqk",
@@ -173,8 +173,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 5,
-      "updatedAt": 1772882850370
+      "version": 8,
+      "updatedAt": 1772956172896
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f1_1772376768812_v6lv5o",
@@ -187,8 +187,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 5,
-      "updatedAt": 1772882850370
+      "version": 8,
+      "updatedAt": 1772956172896
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f2_1772376768814_9rvwo7",
@@ -201,8 +201,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 5,
-      "updatedAt": 1772882850370
+      "version": 8,
+      "updatedAt": 1772956172896
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f3_1772376768815_4gd7r9",
@@ -215,8 +215,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 4,
-      "updatedAt": 1772882850371
+      "version": 7,
+      "updatedAt": 1772956172897
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f4_1772376768817_egbz4i",
@@ -229,8 +229,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 4,
-      "updatedAt": 1772882850371
+      "version": 7,
+      "updatedAt": 1772956172897
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f5_1772376768819_782ldd",
@@ -243,8 +243,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 4,
-      "updatedAt": 1772882850371
+      "version": 7,
+      "updatedAt": 1772956172897
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f6_1772376768821_90aovj",
@@ -257,8 +257,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 4,
-      "updatedAt": 1772882850372
+      "version": 7,
+      "updatedAt": 1772956172898
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f7_1772376768822_hem01q",
@@ -271,8 +271,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 4,
-      "updatedAt": 1772882850372
+      "version": 7,
+      "updatedAt": 1772956172898
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f8_1772376768824_9zs2a7",
@@ -285,8 +285,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 4,
-      "updatedAt": 1772882850372
+      "version": 7,
+      "updatedAt": 1772956172898
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f9_1772376768826_gfwtjj",
@@ -299,8 +299,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 4,
-      "updatedAt": 1772882850373
+      "version": 7,
+      "updatedAt": 1772956172899
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f1_1772376768796_23z0z7",
@@ -313,8 +313,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 5,
-      "updatedAt": 1772882850373
+      "version": 8,
+      "updatedAt": 1772956172899
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f2_1772376768798_h5v43z",
@@ -327,8 +327,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 5,
-      "updatedAt": 1772882850373
+      "version": 8,
+      "updatedAt": 1772956172899
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f3_1772376768799_xfmqhi",
@@ -341,8 +341,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 5,
-      "updatedAt": 1772882850374
+      "version": 8,
+      "updatedAt": 1772956172900
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f4_1772376768801_se1eeb",
@@ -355,8 +355,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 5,
-      "updatedAt": 1772882850374
+      "version": 8,
+      "updatedAt": 1772956172900
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f5_1772376768803_zhbfgr",
@@ -369,8 +369,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 5,
-      "updatedAt": 1772882850374
+      "version": 8,
+      "updatedAt": 1772956172900
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f6_1772376768805_lcvrtv",
@@ -383,8 +383,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 5,
-      "updatedAt": 1772882850374
+      "version": 8,
+      "updatedAt": 1772956172901
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f7_1772376768806_p5d8py",
@@ -397,8 +397,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 5,
-      "updatedAt": 1772882850375
+      "version": 8,
+      "updatedAt": 1772956172901
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f8_1772376768808_32jyzs",
@@ -411,8 +411,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 5,
-      "updatedAt": 1772882850375
+      "version": 8,
+      "updatedAt": 1772956172901
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f9_1772376768810_0zrwmd",
@@ -425,8 +425,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 5,
-      "updatedAt": 1772882850375
+      "version": 8,
+      "updatedAt": 1772956172902
     },
     {
       "id": "comp_zh_lyb_48x48_v1",
@@ -441,8 +441,8 @@
       ],
       "width": 48,
       "height": 48,
-      "version": 26,
-      "updatedAt": 1772882850375
+      "version": 29,
+      "updatedAt": 1772956172902
     },
     {
       "id": "comp_zh_lyb_64x64_v1",
@@ -457,8 +457,8 @@
       ],
       "width": 64,
       "height": 64,
-      "version": 22,
-      "updatedAt": 1772882850376
+      "version": 25,
+      "updatedAt": 1772956172902
     },
     {
       "id": "comp_zh_zyt_48x48_v1",
@@ -473,8 +473,8 @@
       ],
       "width": 48,
       "height": 48,
-      "version": 5,
-      "updatedAt": 1772882850376
+      "version": 8,
+      "updatedAt": 1772956172902
     },
     {
       "id": "comp_zh_zyt_96x96_v1",
@@ -489,8 +489,8 @@
       ],
       "width": 96,
       "height": 96,
-      "version": 50,
-      "updatedAt": 1772882850376
+      "version": 53,
+      "updatedAt": 1772956172902
     },
     {
       "id": "comp_zhu_yingtai_casual_001",
@@ -507,8 +507,8 @@
       ],
       "width": 48,
       "height": 96,
-      "version": 15,
-      "updatedAt": 1772882850376
+      "version": 18,
+      "updatedAt": 1772956172902
     },
     {
       "id": "zyt_body_idle_down_001",
@@ -522,8 +522,8 @@
       ],
       "width": 32,
       "height": 64,
-      "version": 17,
-      "updatedAt": 1772882850376
+      "version": 20,
+      "updatedAt": 1772956172902
     },
     {
       "id": "zyt_hair_classic_down_001",
@@ -533,8 +533,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 3,
-      "updatedAt": 1772882850376
+      "version": 6,
+      "updatedAt": 1772956172902
     },
     {
       "id": "zyt_outfit_casual_down_001",
@@ -544,8 +544,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 14,
-      "updatedAt": 1772882850376
+      "version": 17,
+      "updatedAt": 1772956172903
     },
     {
       "id": "comp_1770823932014_26q4pk",
@@ -555,8 +555,8 @@
       "tags": [],
       "width": 16,
       "height": 16,
-      "version": 107,
-      "updatedAt": 1772882850376
+      "version": 110,
+      "updatedAt": 1772956172903
     },
     {
       "id": "comp_1770900850720_5oopur",
@@ -566,8 +566,8 @@
       "tags": [],
       "width": 12,
       "height": 12,
-      "version": 113,
-      "updatedAt": 1772882850376
+      "version": 116,
+      "updatedAt": 1772956172903
     },
     {
       "id": "comp_1771230301263_6ddojn",
@@ -588,8 +588,8 @@
       "tags": [],
       "width": 48,
       "height": 48,
-      "version": 5,
-      "updatedAt": 1772882850376
+      "version": 8,
+      "updatedAt": 1772956172903
     },
     {
       "id": "comp_1772370974373_e6n9yy",
@@ -599,8 +599,8 @@
       "tags": [],
       "width": 48,
       "height": 48,
-      "version": 5,
-      "updatedAt": 1772882850376
+      "version": 8,
+      "updatedAt": 1772956172903
     },
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -610,8 +610,8 @@
       "tags": [],
       "width": 16,
       "height": 16,
-      "version": 127,
-      "updatedAt": 1772882850376
+      "version": 130,
+      "updatedAt": 1772956172903
     },
     {
       "id": "zyt_body_fixed_down",
@@ -620,8 +620,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 3,
-      "updatedAt": 1772882850376
+      "version": 6,
+      "updatedAt": 1772956172903
     },
     {
       "id": "zyt_body_v1_front",
@@ -630,8 +630,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 4,
-      "updatedAt": 1772882850376
+      "version": 7,
+      "updatedAt": 1772956172903
     },
     {
       "id": "zyt_body_v2_down_full",
@@ -640,8 +640,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 3,
-      "updatedAt": 1772882850376
+      "version": 6,
+      "updatedAt": 1772956172903
     },
     {
       "id": "zyt_clothes_v1_front",
@@ -650,8 +650,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 6,
-      "updatedAt": 1772882850377
+      "version": 9,
+      "updatedAt": 1772956172903
     },
     {
       "id": "zyt_hair_v2_front",
@@ -660,8 +660,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 6,
-      "updatedAt": 1772882850377
+      "version": 9,
+      "updatedAt": 1772956172903
     },
     {
       "id": "zyt_outfit_v2_refined_down",
@@ -670,8 +670,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 5,
-      "updatedAt": 1772882850377
+      "version": 8,
+      "updatedAt": 1772956172903
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f1_1772889983375_uyd8bm",
@@ -684,8 +684,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 2,
-      "updatedAt": 1772889983439
+      "version": 5,
+      "updatedAt": 1772956172904
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f2_1772889983379_bl6ewe",
@@ -698,8 +698,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 2,
-      "updatedAt": 1772889983440
+      "version": 5,
+      "updatedAt": 1772956172904
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f3_1772889983382_8rdej6",
@@ -712,8 +712,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 2,
-      "updatedAt": 1772889983440
+      "version": 5,
+      "updatedAt": 1772956172905
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f4_1772889983385_2v14de",
@@ -726,8 +726,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 2,
-      "updatedAt": 1772889983441
+      "version": 5,
+      "updatedAt": 1772956172905
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f5_1772889983387_h2anyo",
@@ -740,8 +740,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 2,
-      "updatedAt": 1772889983441
+      "version": 5,
+      "updatedAt": 1772956172906
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f6_1772889983390_sktgdb",
@@ -754,8 +754,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 2,
-      "updatedAt": 1772889983442
+      "version": 5,
+      "updatedAt": 1772956172906
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f7_1772889983393_cwrvc1",
@@ -768,8 +768,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 2,
-      "updatedAt": 1772889983442
+      "version": 5,
+      "updatedAt": 1772956172907
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f8_1772889983396_ncwbea",
@@ -782,8 +782,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 2,
-      "updatedAt": 1772889983442
+      "version": 5,
+      "updatedAt": 1772956172907
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f9_1772889983398_u78eyf",
@@ -796,8 +796,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 2,
-      "updatedAt": 1772889983443
+      "version": 5,
+      "updatedAt": 1772956172907
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f1_1772889983400_9pto65",
@@ -810,8 +810,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983443
+      "version": 5,
+      "updatedAt": 1772956172908
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f2_1772889983402_fk9xrt",
@@ -824,8 +824,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983444
+      "version": 5,
+      "updatedAt": 1772956172908
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f3_1772889983404_bclrpm",
@@ -838,8 +838,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983444
+      "version": 5,
+      "updatedAt": 1772956172908
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f4_1772889983406_4kpy88",
@@ -852,8 +852,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983444
+      "version": 5,
+      "updatedAt": 1772956172909
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f5_1772889983408_31wxwt",
@@ -866,8 +866,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983445
+      "version": 5,
+      "updatedAt": 1772956172909
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f6_1772889983411_4hww3t",
@@ -880,8 +880,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983445
+      "version": 5,
+      "updatedAt": 1772956172909
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f7_1772889983413_6lziw5",
@@ -894,8 +894,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983445
+      "version": 5,
+      "updatedAt": 1772956172910
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f8_1772889983415_vhusya",
@@ -908,8 +908,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983445
+      "version": 5,
+      "updatedAt": 1772956172910
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f9_1772889983417_lootbn",
@@ -922,8 +922,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983446
+      "version": 5,
+      "updatedAt": 1772956172910
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f1_1772889983419_mmtaex",
@@ -936,8 +936,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983446
+      "version": 5,
+      "updatedAt": 1772956172911
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f2_1772889983422_x1qyv0",
@@ -950,8 +950,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983446
+      "version": 5,
+      "updatedAt": 1772956172911
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f3_1772889983424_n6g80c",
@@ -964,8 +964,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983447
+      "version": 5,
+      "updatedAt": 1772956172911
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f4_1772889983426_s4kmjl",
@@ -978,8 +978,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983447
+      "version": 5,
+      "updatedAt": 1772956172912
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f5_1772889983428_hst4nk",
@@ -992,8 +992,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983448
+      "version": 5,
+      "updatedAt": 1772956172912
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f6_1772889983431_86kqhi",
@@ -1006,8 +1006,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983448
+      "version": 5,
+      "updatedAt": 1772956172912
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f7_1772889983433_odzeyo",
@@ -1020,8 +1020,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983448
+      "version": 5,
+      "updatedAt": 1772956172912
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f8_1772889983436_2nmep5",
@@ -1034,8 +1034,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983449
+      "version": 5,
+      "updatedAt": 1772956172913
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f9_1772889983438_ev7hxj",
@@ -1048,8 +1048,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 2,
-      "updatedAt": 1772889983449
+      "version": 5,
+      "updatedAt": 1772956172913
     }
   ],
   "maps": [
