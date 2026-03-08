@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772982274591,
+  "updatedAt": 1772983343701,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -1302,6 +1302,104 @@
       "height": 40,
       "version": 2,
       "updatedAt": 1772982246838
+    },
+    {
+      "id": "comp_girl_move_right_f1_1772983342693_ddhqdi",
+      "name": "girl_move_right_f1",
+      "category": "character",
+      "path": "components/character/comp_girl_move_right_f1_1772983342693_ddhqdi.json",
+      "tags": [
+        "spritesheet",
+        "girl_move_right"
+      ],
+      "width": 32,
+      "height": 28,
+      "version": 2,
+      "updatedAt": 1772983342735
+    },
+    {
+      "id": "comp_girl_move_right_f2_1772983342698_wqjsxv",
+      "name": "girl_move_right_f2",
+      "category": "character",
+      "path": "components/character/comp_girl_move_right_f2_1772983342698_wqjsxv.json",
+      "tags": [
+        "spritesheet",
+        "girl_move_right"
+      ],
+      "width": 32,
+      "height": 28,
+      "version": 2,
+      "updatedAt": 1772983342735
+    },
+    {
+      "id": "comp_girl_move_right_f3_1772983342703_e2cs4q",
+      "name": "girl_move_right_f3",
+      "category": "character",
+      "path": "components/character/comp_girl_move_right_f3_1772983342703_e2cs4q.json",
+      "tags": [
+        "spritesheet",
+        "girl_move_right"
+      ],
+      "width": 32,
+      "height": 28,
+      "version": 2,
+      "updatedAt": 1772983342735
+    },
+    {
+      "id": "comp_girl_move_right_f4_1772983342712_yek05d",
+      "name": "girl_move_right_f4",
+      "category": "character",
+      "path": "components/character/comp_girl_move_right_f4_1772983342712_yek05d.json",
+      "tags": [
+        "spritesheet",
+        "girl_move_right"
+      ],
+      "width": 32,
+      "height": 28,
+      "version": 2,
+      "updatedAt": 1772983342735
+    },
+    {
+      "id": "comp_girl_move_right_f5_1772983342717_nmr0dt",
+      "name": "girl_move_right_f5",
+      "category": "character",
+      "path": "components/character/comp_girl_move_right_f5_1772983342717_nmr0dt.json",
+      "tags": [
+        "spritesheet",
+        "girl_move_right"
+      ],
+      "width": 32,
+      "height": 28,
+      "version": 2,
+      "updatedAt": 1772983342735
+    },
+    {
+      "id": "comp_girl_move_right_f6_1772983342720_1onuyr",
+      "name": "girl_move_right_f6",
+      "category": "character",
+      "path": "components/character/comp_girl_move_right_f6_1772983342720_1onuyr.json",
+      "tags": [
+        "spritesheet",
+        "girl_move_right"
+      ],
+      "width": 32,
+      "height": 28,
+      "version": 2,
+      "updatedAt": 1772983342735
+    },
+    {
+      "id": "comp_girl_move_right_f7_1772983342724_j1yh28",
+      "name": "girl_move_right_f7",
+      "category": "character",
+      "path": "components/character/comp_girl_move_right_f7_1772983342724_j1yh28.json",
+      "tags": [
+        "spritesheet",
+        "girl_move_right"
+      ],
+      "width": 32,
+      "height": 28,
+      "version": 2,
+      "updatedAt": 1772983342735
     }
   ],
   "maps": [
@@ -1311,8 +1409,8 @@
       "path": "maps/map_1770823809424_d1nzin.json",
       "widthInTiles": 32,
       "heightInTiles": 32,
-      "version": 84,
-      "updatedAt": 1772982274471
+      "version": 85,
+      "updatedAt": 1772983264066
     },
     {
       "id": "map_1770823850313_c1slmg",
@@ -1399,6 +1497,21 @@
       "animationCount": 1,
       "version": 1,
       "updatedAt": 1772982246837
+    },
+    {
+      "id": "sprite_1772983342734_qphyed",
+      "name": "女子右移",
+      "category": "character",
+      "path": "sprites/sprite_1772983342734_qphyed.json",
+      "tags": [
+        "spritesheet"
+      ],
+      "width": 32,
+      "height": 28,
+      "layerCount": 1,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1772983342734
     }
   ]
 }
