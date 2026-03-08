@@ -457,6 +457,12 @@
           "spriteId": "sprite_1772957987042_vk59vi",
           "tileX": 5,
           "tileY": 20
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_1772982246837_g9umfx",
+          "tileX": 11,
+          "tileY": 9
         }
       ],
       "id": "layer_0"
@@ -493,6 +499,6 @@
   "itemDefs": [],
   "teleports": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1772958034284,
-  "version": 83
+  "updatedAt": 1772982274471,
+  "version": 84
 }
