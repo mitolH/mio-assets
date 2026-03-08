@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772955712983,
+  "updatedAt": 1772955761119,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -1059,8 +1059,8 @@
       "path": "maps/map_1770823809424_d1nzin.json",
       "widthInTiles": 32,
       "heightInTiles": 32,
-      "version": 81,
-      "updatedAt": 1772373192043
+      "version": 82,
+      "updatedAt": 1772955761011
     },
     {
       "id": "map_1770823850313_c1slmg",
@@ -1113,8 +1113,8 @@
       "path": "maps/map_1772004621385_njovgh.json",
       "widthInTiles": 32,
       "heightInTiles": 32,
-      "version": 10,
-      "updatedAt": 1772376782515
+      "version": 11,
+      "updatedAt": 1772955758576
     }
   ],
   "sprites": []
