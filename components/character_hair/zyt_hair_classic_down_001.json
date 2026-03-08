@@ -2195,8 +2195,8 @@
   "variants": {},
   "tileWidth": 2,
   "tileHeight": 4,
-  "updatedAt": 1772957512445,
-  "version": 15,
+  "updatedAt": 1772957556369,
+  "version": 17,
   "collisionMask": [
     [
       false,
