@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1772985830434,
+  "updatedAt": 1772985965574,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -1498,6 +1498,104 @@
       "height": 28,
       "version": 3,
       "updatedAt": 1772985818462
+    },
+    {
+      "id": "comp_0_f1_1772985964573_a8ekw5",
+      "name": "女子右移_0_f1",
+      "category": "character",
+      "path": "components/character/comp_0_f1_1772985964573_a8ekw5.json",
+      "tags": [
+        "spritesheet",
+        "女子右移_0"
+      ],
+      "width": 32,
+      "height": 28,
+      "version": 2,
+      "updatedAt": 1772985964614
+    },
+    {
+      "id": "comp_0_f2_1772985964578_3a3ixt",
+      "name": "女子右移_0_f2",
+      "category": "character",
+      "path": "components/character/comp_0_f2_1772985964578_3a3ixt.json",
+      "tags": [
+        "spritesheet",
+        "女子右移_0"
+      ],
+      "width": 32,
+      "height": 28,
+      "version": 2,
+      "updatedAt": 1772985964614
+    },
+    {
+      "id": "comp_0_f3_1772985964583_6n4ime",
+      "name": "女子右移_0_f3",
+      "category": "character",
+      "path": "components/character/comp_0_f3_1772985964583_6n4ime.json",
+      "tags": [
+        "spritesheet",
+        "女子右移_0"
+      ],
+      "width": 32,
+      "height": 28,
+      "version": 2,
+      "updatedAt": 1772985964615
+    },
+    {
+      "id": "comp_0_f4_1772985964587_35yvzo",
+      "name": "女子右移_0_f4",
+      "category": "character",
+      "path": "components/character/comp_0_f4_1772985964587_35yvzo.json",
+      "tags": [
+        "spritesheet",
+        "女子右移_0"
+      ],
+      "width": 32,
+      "height": 28,
+      "version": 2,
+      "updatedAt": 1772985964615
+    },
+    {
+      "id": "comp_0_f5_1772985964596_8s86qb",
+      "name": "女子右移_0_f5",
+      "category": "character",
+      "path": "components/character/comp_0_f5_1772985964596_8s86qb.json",
+      "tags": [
+        "spritesheet",
+        "女子右移_0"
+      ],
+      "width": 32,
+      "height": 28,
+      "version": 2,
+      "updatedAt": 1772985964615
+    },
+    {
+      "id": "comp_0_f6_1772985964600_7wuo2a",
+      "name": "女子右移_0_f6",
+      "category": "character",
+      "path": "components/character/comp_0_f6_1772985964600_7wuo2a.json",
+      "tags": [
+        "spritesheet",
+        "女子右移_0"
+      ],
+      "width": 32,
+      "height": 28,
+      "version": 2,
+      "updatedAt": 1772985964615
+    },
+    {
+      "id": "comp_0_f7_1772985964603_7bhmsi",
+      "name": "女子右移_0_f7",
+      "category": "character",
+      "path": "components/character/comp_0_f7_1772985964603_7bhmsi.json",
+      "tags": [
+        "spritesheet",
+        "女子右移_0"
+      ],
+      "width": 32,
+      "height": 28,
+      "version": 2,
+      "updatedAt": 1772985964615
     }
   ],
   "maps": [
@@ -1595,6 +1693,21 @@
       "animationCount": 1,
       "version": 1,
       "updatedAt": 1772982246837
+    },
+    {
+      "id": "sprite_1772985964614_wcs0rw",
+      "name": "女子右移",
+      "category": "character",
+      "path": "sprites/sprite_1772985964614_wcs0rw.json",
+      "tags": [
+        "spritesheet"
+      ],
+      "width": 32,
+      "height": 28,
+      "layerCount": 1,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1772985964614
     }
   ]
 }
