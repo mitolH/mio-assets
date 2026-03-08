@@ -451,6 +451,12 @@
             "interactionRange": 1,
             "indicatorType": "none"
           }
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_1772957987042_vk59vi",
+          "tileX": 5,
+          "tileY": 20
         }
       ],
       "id": "layer_0"
@@ -487,6 +493,6 @@
   "itemDefs": [],
   "teleports": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1772955761011,
-  "version": 82
+  "updatedAt": 1772958034284,
+  "version": 83
 }
