@@ -1,0 +1,146 @@
+{
+  "id": "sprite_1772986267868_g8vidd",
+  "name": "ChatGPT_Image_2026年3月8日_23_20_56",
+  "category": "character",
+  "description": "Imported from spritesheet",
+  "tags": [
+    "spritesheet"
+  ],
+  "width": 32,
+  "height": 36,
+  "tileWidth": 2,
+  "tileHeight": 3,
+  "anchorX": 16,
+  "anchorY": 36,
+  "footprint": {
+    "tileWidth": 1,
+    "tileHeight": 1,
+    "offsetTileX": 0,
+    "offsetTileY": 0
+  },
+  "layers": [
+    {
+      "id": "layer_layer_1",
+      "name": "layer_1",
+      "zOrder": 0,
+      "defaultComponentId": "comp_chatgpt_image_2026_3_8__23_20_56_0_f1_1772986267823_sk5y9n",
+      "defaultOffsetX": -16,
+      "defaultOffsetY": -36,
+      "visible": true
+    }
+  ],
+  "animations": [
+    {
+      "id": "idle",
+      "name": "Idle",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 0,
+      "frames": [
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__23_20_56_0_f1_1772986267823_sk5y9n"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__23_20_56_0_f2_1772986267827_6vfq99"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__23_20_56_0_f3_1772986267830_ss3olc"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__23_20_56_0_f4_1772986267834_3gtor7"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__23_20_56_0_f5_1772986267838_mcet7s"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__23_20_56_0_f6_1772986267841_l42wgv"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__23_20_56_0_f7_1772986267844_noydxd"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__23_20_56_0_f8_1772986267847_0g72or"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_chatgpt_image_2026_3_8__23_20_56_0_f9_1772986267850_57hzip"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "defaultAnimationId": "idle",
+  "createdAt": 1772986267868,
+  "updatedAt": 1772986267868,
+  "version": 1
+}
