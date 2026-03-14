@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1773502334420,
+  "updatedAt": 1773502437826,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -2092,8 +2092,8 @@
       "path": "maps/map_1770823809424_d1nzin.json",
       "widthInTiles": 32,
       "heightInTiles": 32,
-      "version": 85,
-      "updatedAt": 1772983264066
+      "version": 87,
+      "updatedAt": 1773502437374
     },
     {
       "id": "map_1770823850313_c1slmg",
@@ -2105,49 +2105,13 @@
       "updatedAt": 1772373188714
     },
     {
-      "id": "map_1770841082750_vts2kt",
-      "name": "New Map",
-      "path": "maps/map_1770841082750_vts2kt.json",
-      "widthInTiles": 32,
-      "heightInTiles": 32,
-      "version": 13,
-      "updatedAt": 1771041114624
-    },
-    {
-      "id": "map_1771040841420_4ou8h1",
-      "name": "New Map",
-      "path": "maps/map_1771040841420_4ou8h1.json",
-      "widthInTiles": 32,
-      "heightInTiles": 32,
-      "version": 17,
-      "updatedAt": 1771041129207
-    },
-    {
-      "id": "map_1771041109457_08zebu",
-      "name": "New Map",
-      "path": "maps/map_1771041109457_08zebu.json",
-      "widthInTiles": 32,
-      "heightInTiles": 32,
-      "version": 3,
-      "updatedAt": 1771041472545
-    },
-    {
-      "id": "map_1771041836181_w4e5o6",
-      "name": "New Map",
-      "path": "maps/map_1771041836181_w4e5o6.json",
-      "widthInTiles": 32,
-      "heightInTiles": 32,
-      "version": 1,
-      "updatedAt": 1771041837184
-    },
-    {
       "id": "map_1772004621385_njovgh",
       "name": "New Map",
       "path": "maps/map_1772004621385_njovgh.json",
       "widthInTiles": 32,
       "heightInTiles": 32,
-      "version": 15,
-      "updatedAt": 1773499006578
+      "version": 14,
+      "updatedAt": 1773502347357
     }
   ],
   "sprites": [

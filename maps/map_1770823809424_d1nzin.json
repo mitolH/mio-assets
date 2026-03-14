@@ -463,6 +463,12 @@
           "spriteId": "sprite_1772982246837_g9umfx",
           "tileX": 11,
           "tileY": 9
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_1773502191382_milshs",
+          "tileX": 9,
+          "tileY": 19
         }
       ],
       "id": "layer_0"
@@ -499,6 +505,6 @@
   "itemDefs": [],
   "teleports": [],
   "createdAt": 1770823809424,
-  "updatedAt": 1772983264066,
-  "version": 85
+  "updatedAt": 1773502437374,
+  "version": 87
 }
