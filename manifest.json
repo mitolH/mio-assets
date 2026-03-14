@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1773504870272,
+  "updatedAt": 1773505045263,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -1717,22 +1717,6 @@
       "updatedAt": 1773504349532
     },
     {
-      "id": "comp_zh_lyb_48x48_v1",
-      "name": "梁山伯（48x48）",
-      "category": "character",
-      "path": "components/character/comp_zh_lyb_48x48_v1.json",
-      "tags": [
-        "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x48"
-      ],
-      "width": 48,
-      "height": 48,
-      "version": 53,
-      "updatedAt": 1773504349532
-    },
-    {
       "id": "comp_1770823932014_26q4pk",
       "name": "草坪",
       "category": "terrain",
@@ -1774,16 +1758,6 @@
       "width": 16,
       "height": 16,
       "version": 154,
-      "updatedAt": 1773504349533
-    },
-    {
-      "id": "zyt_body_fixed_down",
-      "name": "祝英台_基底_修正版",
-      "path": "components/undefined/zyt_body_fixed_down.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 30,
       "updatedAt": 1773504349533
     },
     {
@@ -1897,118 +1871,6 @@
       "height": 68,
       "version": 6,
       "updatedAt": 1773504349534
-    },
-    {
-      "id": "comp_0_f1_1773504868992_t1fkek",
-      "name": "祝英台右移_0_f1",
-      "category": "character",
-      "path": "components/character/comp_0_f1_1773504868992_t1fkek.json",
-      "tags": [
-        "spritesheet",
-        "祝英台右移_0"
-      ],
-      "width": 32,
-      "height": 68,
-      "version": 2,
-      "updatedAt": 1773504869083
-    },
-    {
-      "id": "comp_0_f2_1773504869001_n8gaog",
-      "name": "祝英台右移_0_f2",
-      "category": "character",
-      "path": "components/character/comp_0_f2_1773504869001_n8gaog.json",
-      "tags": [
-        "spritesheet",
-        "祝英台右移_0"
-      ],
-      "width": 32,
-      "height": 68,
-      "version": 2,
-      "updatedAt": 1773504869083
-    },
-    {
-      "id": "comp_0_f3_1773504869010_2xkps7",
-      "name": "祝英台右移_0_f3",
-      "category": "character",
-      "path": "components/character/comp_0_f3_1773504869010_2xkps7.json",
-      "tags": [
-        "spritesheet",
-        "祝英台右移_0"
-      ],
-      "width": 32,
-      "height": 68,
-      "version": 2,
-      "updatedAt": 1773504869083
-    },
-    {
-      "id": "comp_0_f4_1773504869018_ix1poa",
-      "name": "祝英台右移_0_f4",
-      "category": "character",
-      "path": "components/character/comp_0_f4_1773504869018_ix1poa.json",
-      "tags": [
-        "spritesheet",
-        "祝英台右移_0"
-      ],
-      "width": 32,
-      "height": 68,
-      "version": 2,
-      "updatedAt": 1773504869083
-    },
-    {
-      "id": "comp_0_f5_1773504869026_uskxrj",
-      "name": "祝英台右移_0_f5",
-      "category": "character",
-      "path": "components/character/comp_0_f5_1773504869026_uskxrj.json",
-      "tags": [
-        "spritesheet",
-        "祝英台右移_0"
-      ],
-      "width": 32,
-      "height": 68,
-      "version": 2,
-      "updatedAt": 1773504869083
-    },
-    {
-      "id": "comp_0_f6_1773504869034_l8qozu",
-      "name": "祝英台右移_0_f6",
-      "category": "character",
-      "path": "components/character/comp_0_f6_1773504869034_l8qozu.json",
-      "tags": [
-        "spritesheet",
-        "祝英台右移_0"
-      ],
-      "width": 32,
-      "height": 68,
-      "version": 2,
-      "updatedAt": 1773504869083
-    },
-    {
-      "id": "comp_0_f7_1773504869043_6k7kd3",
-      "name": "祝英台右移_0_f7",
-      "category": "character",
-      "path": "components/character/comp_0_f7_1773504869043_6k7kd3.json",
-      "tags": [
-        "spritesheet",
-        "祝英台右移_0"
-      ],
-      "width": 32,
-      "height": 68,
-      "version": 2,
-      "updatedAt": 1773504869083
-    },
-    {
-      "id": "comp_0_f8_1773504869053_shj3vv",
-      "name": "祝英台右移_0_f8",
-      "category": "character",
-      "path": "components/character/comp_0_f8_1773504869053_shj3vv.json",
-      "tags": [
-        "spritesheet",
-        "祝英台右移_0"
-      ],
-      "width": 32,
-      "height": 68,
-      "version": 2,
-      "updatedAt": 1773504869083
     }
   ],
   "maps": [
@@ -2018,8 +1880,8 @@
       "path": "maps/map_1770823809424_d1nzin.json",
       "widthInTiles": 32,
       "heightInTiles": 32,
-      "version": 87,
-      "updatedAt": 1773502437374
+      "version": 89,
+      "updatedAt": 1773505033565
     },
     {
       "id": "map_1770823850313_c1slmg",
@@ -2036,8 +1898,8 @@
       "path": "maps/map_1772004621385_njovgh.json",
       "widthInTiles": 32,
       "heightInTiles": 32,
-      "version": 14,
-      "updatedAt": 1773502347357
+      "version": 16,
+      "updatedAt": 1773505022473
     }
   ],
   "sprites": [
@@ -2055,21 +1917,6 @@
       "animationCount": 1,
       "version": 3,
       "updatedAt": 1773502334300
-    },
-    {
-      "id": "sprite_1773504869083_wwv6mb",
-      "name": "祝英台右移",
-      "category": "character",
-      "path": "sprites/sprite_1773504869083_wwv6mb.json",
-      "tags": [
-        "spritesheet"
-      ],
-      "width": 32,
-      "height": 68,
-      "layerCount": 1,
-      "animationCount": 1,
-      "version": 1,
-      "updatedAt": 1773504869083
     }
   ]
 }
