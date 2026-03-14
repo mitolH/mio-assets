@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1773504365474,
+  "updatedAt": 1773504734788,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -1733,109 +1733,6 @@
       "updatedAt": 1773504349532
     },
     {
-      "id": "comp_zh_lyb_64x64_v1",
-      "name": "梁山伯（64x64）",
-      "category": "character",
-      "path": "components/character/comp_zh_lyb_64x64_v1.json",
-      "tags": [
-        "liangshanbo",
-        "梁山伯",
-        "character",
-        "64x64"
-      ],
-      "width": 64,
-      "height": 64,
-      "version": 49,
-      "updatedAt": 1773504349532
-    },
-    {
-      "id": "comp_zh_zyt_48x48_v1",
-      "name": "祝英台（48x48）",
-      "category": "character",
-      "path": "components/character/comp_zh_zyt_48x48_v1.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "48x48"
-      ],
-      "width": 48,
-      "height": 48,
-      "version": 32,
-      "updatedAt": 1773504349532
-    },
-    {
-      "id": "comp_zh_zyt_96x96_v1",
-      "name": "祝英台（96x96）",
-      "category": "character",
-      "path": "components/character/comp_zh_zyt_96x96_v1.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "96x96"
-      ],
-      "width": 96,
-      "height": 96,
-      "version": 77,
-      "updatedAt": 1773504349532
-    },
-    {
-      "id": "comp_zhu_yingtai_casual_001",
-      "name": "祝英台_女常服",
-      "category": "character",
-      "path": "components/character/comp_zhu_yingtai_casual_001.json",
-      "tags": [
-        "character",
-        "祝英台",
-        "女装",
-        "粉色",
-        "绿色",
-        "折扇"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 42,
-      "updatedAt": 1773504349532
-    },
-    {
-      "id": "zyt_body_idle_down_001",
-      "name": "祝英台_基底_下站",
-      "category": "character_body",
-      "path": "components/character_body/zyt_body_idle_down_001.json",
-      "tags": [
-        "zyt",
-        "body",
-        "idle"
-      ],
-      "width": 32,
-      "height": 64,
-      "version": 44,
-      "updatedAt": 1773504349533
-    },
-    {
-      "id": "zyt_hair_classic_down_001",
-      "name": "祝英台_发型_下站",
-      "category": "character_hair",
-      "path": "components/character_hair/zyt_hair_classic_down_001.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 30,
-      "updatedAt": 1773504349533
-    },
-    {
-      "id": "zyt_outfit_casual_down_001",
-      "name": "祝英台_常服_下站",
-      "category": "character_outfit",
-      "path": "components/character_outfit/zyt_outfit_casual_down_001.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 41,
-      "updatedAt": 1773504349533
-    },
-    {
       "id": "comp_1770823932014_26q4pk",
       "name": "草坪",
       "category": "terrain",
@@ -1869,39 +1766,6 @@
       "updatedAt": 1771260507380
     },
     {
-      "id": "comp_1772033163377_if64lf",
-      "name": "Untitled",
-      "category": "terrain",
-      "path": "components/terrain/comp_1772033163377_if64lf.json",
-      "tags": [],
-      "width": 48,
-      "height": 48,
-      "version": 32,
-      "updatedAt": 1773504349533
-    },
-    {
-      "id": "comp_1772370974373_e6n9yy",
-      "name": "Untitled",
-      "category": "terrain",
-      "path": "components/terrain/comp_1772370974373_e6n9yy.json",
-      "tags": [],
-      "width": 48,
-      "height": 48,
-      "version": 32,
-      "updatedAt": 1773504349533
-    },
-    {
-      "id": "comp_1772957928017_k4ihbd",
-      "name": "Untitled",
-      "category": "terrain",
-      "path": "components/terrain/comp_1772957928017_k4ihbd.json",
-      "tags": [],
-      "width": 48,
-      "height": 48,
-      "version": 5,
-      "updatedAt": 1773504349533
-    },
-    {
       "id": "comp_1770797242019_8ctkpd",
       "name": "🌲",
       "category": "tree",
@@ -1923,56 +1787,6 @@
       "updatedAt": 1773504349533
     },
     {
-      "id": "zyt_body_v1_front",
-      "name": "祝英台_身体_基础层",
-      "path": "components/undefined/zyt_body_v1_front.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 31,
-      "updatedAt": 1773504349533
-    },
-    {
-      "id": "zyt_body_v2_down_full",
-      "name": "祝英台_基底_精修面部",
-      "path": "components/undefined/zyt_body_v2_down_full.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 30,
-      "updatedAt": 1773504349533
-    },
-    {
-      "id": "zyt_clothes_v1_front",
-      "name": "祝英台_衣服_正面版",
-      "path": "components/undefined/zyt_clothes_v1_front.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 33,
-      "updatedAt": 1773504349533
-    },
-    {
-      "id": "zyt_hair_v2_front",
-      "name": "祝英台_头发_正面版",
-      "path": "components/undefined/zyt_hair_v2_front.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 33,
-      "updatedAt": 1773504349533
-    },
-    {
-      "id": "zyt_outfit_v2_refined_down",
-      "name": "祝英台_精修常服_下站",
-      "path": "components/undefined/zyt_outfit_v2_refined_down.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 31,
-      "updatedAt": 1773504349533
-    },
-    {
       "id": "comp_0_f1_1773502191284_qujukp",
       "name": "祝英台游移_0_f1",
       "category": "character",
@@ -1983,8 +1797,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 6,
-      "updatedAt": 1773504349533
+      "version": 7,
+      "updatedAt": 1773504709955
     },
     {
       "id": "comp_0_f2_1773502191294_g154n2",
@@ -1997,8 +1811,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 6,
-      "updatedAt": 1773504349533
+      "version": 7,
+      "updatedAt": 1773504715550
     },
     {
       "id": "comp_0_f3_1773502191303_4glptn",
@@ -2011,8 +1825,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 6,
-      "updatedAt": 1773504349534
+      "version": 7,
+      "updatedAt": 1773504721189
     },
     {
       "id": "comp_0_f4_1773502191311_x3l2dj",
@@ -2025,8 +1839,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 6,
-      "updatedAt": 1773504349534
+      "version": 7,
+      "updatedAt": 1773504725283
     },
     {
       "id": "comp_0_f5_1773502191319_ekxxjm",
@@ -2039,8 +1853,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 6,
-      "updatedAt": 1773504349534
+      "version": 7,
+      "updatedAt": 1773504729859
     },
     {
       "id": "comp_0_f6_1773502191327_extccm",
@@ -2053,8 +1867,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 9,
-      "updatedAt": 1773504349534
+      "version": 10,
+      "updatedAt": 1773504734359
     },
     {
       "id": "comp_0_f7_1773502191335_6fl1hd",
