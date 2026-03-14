@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1773502192589,
+  "updatedAt": 1773502334420,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -2152,208 +2152,6 @@
   ],
   "sprites": [
     {
-      "id": "sprite_1771948930326_fmgy3a",
-      "name": "New Sprite",
-      "category": "character",
-      "path": "sprites/sprite_1771948930326_fmgy3a.json",
-      "tags": [],
-      "width": 48,
-      "height": 96,
-      "layerCount": 0,
-      "animationCount": 2,
-      "version": 5,
-      "updatedAt": 1771949125844
-    },
-    {
-      "id": "sprite_1771951383312_jzivm9",
-      "name": "New Sprite",
-      "category": "character",
-      "path": "sprites/sprite_1771951383312_jzivm9.json",
-      "tags": [],
-      "width": 48,
-      "height": 48,
-      "layerCount": 0,
-      "animationCount": 1,
-      "version": 1,
-      "updatedAt": 1771951383312
-    },
-    {
-      "id": "sprite_1771951730535_p63ren",
-      "name": "Demo1",
-      "category": "character",
-      "path": "sprites/sprite_1771951730535_p63ren.json",
-      "tags": [],
-      "width": 48,
-      "height": 48,
-      "layerCount": 0,
-      "animationCount": 1,
-      "version": 2,
-      "updatedAt": 1771951761306
-    },
-    {
-      "id": "sprite_1771953191142_6dh7ek",
-      "name": "ZYT",
-      "category": "character",
-      "path": "sprites/sprite_1771953191142_6dh7ek.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "layerCount": 2,
-      "animationCount": 2,
-      "version": 15,
-      "updatedAt": 1772034315128
-    },
-    {
-      "id": "sprite_1772376768826_t0eo44",
-      "name": "ChatGPT_Image_2026年3月1日_15_41_00",
-      "category": "character",
-      "path": "sprites/sprite_1772376768826_t0eo44.json",
-      "tags": [
-        "spritesheet"
-      ],
-      "width": 152,
-      "height": 160,
-      "layerCount": 3,
-      "animationCount": 1,
-      "version": 2,
-      "updatedAt": 1772376780638
-    },
-    {
-      "id": "sprite_1772889983438_c1l56r",
-      "name": "ChatGPT_Image_2026年3月7日_19_42_00",
-      "category": "character",
-      "path": "sprites/sprite_1772889983438_c1l56r.json",
-      "tags": [
-        "spritesheet"
-      ],
-      "width": 152,
-      "height": 152,
-      "layerCount": 3,
-      "animationCount": 1,
-      "version": 1,
-      "updatedAt": 1772889983438
-    },
-    {
-      "id": "sprite_1772956303279_ljv649",
-      "name": "女子右移",
-      "category": "character",
-      "path": "sprites/sprite_1772956303279_ljv649.json",
-      "tags": [
-        "spritesheet"
-      ],
-      "width": 164,
-      "height": 224,
-      "layerCount": 1,
-      "animationCount": 1,
-      "version": 1,
-      "updatedAt": 1772956303279
-    },
-    {
-      "id": "sprite_1772957987042_vk59vi",
-      "name": "女-右移",
-      "category": "character",
-      "path": "sprites/sprite_1772957987042_vk59vi.json",
-      "tags": [
-        "spritesheet"
-      ],
-      "width": 160,
-      "height": 188,
-      "layerCount": 1,
-      "animationCount": 1,
-      "version": 2,
-      "updatedAt": 1772958003624
-    },
-    {
-      "id": "sprite_1772982246837_g9umfx",
-      "name": "女右移",
-      "category": "character",
-      "path": "sprites/sprite_1772982246837_g9umfx.json",
-      "tags": [
-        "spritesheet"
-      ],
-      "width": 32,
-      "height": 40,
-      "layerCount": 1,
-      "animationCount": 1,
-      "version": 1,
-      "updatedAt": 1772982246837
-    },
-    {
-      "id": "sprite_1772983342734_qphyed",
-      "name": "女子右移",
-      "category": "character",
-      "path": "sprites/sprite_1772983342734_qphyed.json",
-      "tags": [
-        "spritesheet"
-      ],
-      "width": 32,
-      "height": 28,
-      "layerCount": 1,
-      "animationCount": 1,
-      "version": 1,
-      "updatedAt": 1772983342734
-    },
-    {
-      "id": "sprite_1772985658231_igfw9q",
-      "name": "女子右移",
-      "category": "character",
-      "path": "sprites/sprite_1772985658231_igfw9q.json",
-      "tags": [
-        "spritesheet"
-      ],
-      "width": 32,
-      "height": 28,
-      "layerCount": 1,
-      "animationCount": 1,
-      "version": 1,
-      "updatedAt": 1772985658231
-    },
-    {
-      "id": "sprite_1772985964614_wcs0rw",
-      "name": "女子右移",
-      "category": "character",
-      "path": "sprites/sprite_1772985964614_wcs0rw.json",
-      "tags": [
-        "spritesheet"
-      ],
-      "width": 32,
-      "height": 28,
-      "layerCount": 1,
-      "animationCount": 1,
-      "version": 1,
-      "updatedAt": 1772985964614
-    },
-    {
-      "id": "sprite_1772986267868_g8vidd",
-      "name": "ChatGPT_Image_2026年3月8日_23_20_56",
-      "category": "character",
-      "path": "sprites/sprite_1772986267868_g8vidd.json",
-      "tags": [
-        "spritesheet"
-      ],
-      "width": 32,
-      "height": 36,
-      "layerCount": 1,
-      "animationCount": 1,
-      "version": 1,
-      "updatedAt": 1772986267868
-    },
-    {
-      "id": "sprite_1772987432398_yr2pgu",
-      "name": "女右移",
-      "category": "character",
-      "path": "sprites/sprite_1772987432398_yr2pgu.json",
-      "tags": [
-        "spritesheet"
-      ],
-      "width": 32,
-      "height": 52,
-      "layerCount": 1,
-      "animationCount": 1,
-      "version": 1,
-      "updatedAt": 1772987432398
-    },
-    {
       "id": "sprite_1773502191382_milshs",
       "name": "祝英台游移",
       "category": "character",
@@ -2365,8 +2163,8 @@
       "height": 68,
       "layerCount": 1,
       "animationCount": 1,
-      "version": 1,
-      "updatedAt": 1773502191382
+      "version": 3,
+      "updatedAt": 1773502334300
     }
   ]
 }
