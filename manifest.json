@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1773499020577,
+  "updatedAt": 1773502192589,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -1971,6 +1971,118 @@
       "height": 64,
       "version": 28,
       "updatedAt": 1773499001593
+    },
+    {
+      "id": "comp_0_f1_1773502191284_qujukp",
+      "name": "祝英台游移_0_f1",
+      "category": "character",
+      "path": "components/character/comp_0_f1_1773502191284_qujukp.json",
+      "tags": [
+        "spritesheet",
+        "祝英台游移_0"
+      ],
+      "width": 32,
+      "height": 68,
+      "version": 2,
+      "updatedAt": 1773502191382
+    },
+    {
+      "id": "comp_0_f2_1773502191294_g154n2",
+      "name": "祝英台游移_0_f2",
+      "category": "character",
+      "path": "components/character/comp_0_f2_1773502191294_g154n2.json",
+      "tags": [
+        "spritesheet",
+        "祝英台游移_0"
+      ],
+      "width": 32,
+      "height": 68,
+      "version": 2,
+      "updatedAt": 1773502191382
+    },
+    {
+      "id": "comp_0_f3_1773502191303_4glptn",
+      "name": "祝英台游移_0_f3",
+      "category": "character",
+      "path": "components/character/comp_0_f3_1773502191303_4glptn.json",
+      "tags": [
+        "spritesheet",
+        "祝英台游移_0"
+      ],
+      "width": 32,
+      "height": 68,
+      "version": 2,
+      "updatedAt": 1773502191382
+    },
+    {
+      "id": "comp_0_f4_1773502191311_x3l2dj",
+      "name": "祝英台游移_0_f4",
+      "category": "character",
+      "path": "components/character/comp_0_f4_1773502191311_x3l2dj.json",
+      "tags": [
+        "spritesheet",
+        "祝英台游移_0"
+      ],
+      "width": 32,
+      "height": 68,
+      "version": 2,
+      "updatedAt": 1773502191382
+    },
+    {
+      "id": "comp_0_f5_1773502191319_ekxxjm",
+      "name": "祝英台游移_0_f5",
+      "category": "character",
+      "path": "components/character/comp_0_f5_1773502191319_ekxxjm.json",
+      "tags": [
+        "spritesheet",
+        "祝英台游移_0"
+      ],
+      "width": 32,
+      "height": 68,
+      "version": 2,
+      "updatedAt": 1773502191382
+    },
+    {
+      "id": "comp_0_f6_1773502191327_extccm",
+      "name": "祝英台游移_0_f6",
+      "category": "character",
+      "path": "components/character/comp_0_f6_1773502191327_extccm.json",
+      "tags": [
+        "spritesheet",
+        "祝英台游移_0"
+      ],
+      "width": 32,
+      "height": 68,
+      "version": 2,
+      "updatedAt": 1773502191382
+    },
+    {
+      "id": "comp_0_f7_1773502191335_6fl1hd",
+      "name": "祝英台游移_0_f7",
+      "category": "character",
+      "path": "components/character/comp_0_f7_1773502191335_6fl1hd.json",
+      "tags": [
+        "spritesheet",
+        "祝英台游移_0"
+      ],
+      "width": 32,
+      "height": 68,
+      "version": 2,
+      "updatedAt": 1773502191382
+    },
+    {
+      "id": "comp_0_f8_1773502191345_vs2c6o",
+      "name": "祝英台游移_0_f8",
+      "category": "character",
+      "path": "components/character/comp_0_f8_1773502191345_vs2c6o.json",
+      "tags": [
+        "spritesheet",
+        "祝英台游移_0"
+      ],
+      "width": 32,
+      "height": 68,
+      "version": 2,
+      "updatedAt": 1773502191383
     }
   ],
   "maps": [
@@ -2240,6 +2352,21 @@
       "animationCount": 1,
       "version": 1,
       "updatedAt": 1772987432398
+    },
+    {
+      "id": "sprite_1773502191382_milshs",
+      "name": "祝英台游移",
+      "category": "character",
+      "path": "sprites/sprite_1773502191382_milshs.json",
+      "tags": [
+        "spritesheet"
+      ],
+      "width": 32,
+      "height": 68,
+      "layerCount": 1,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1773502191382
     }
   ]
 }
