@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1773502926609,
+  "updatedAt": 1773503734625,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -2067,8 +2067,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 2,
-      "updatedAt": 1773502191382
+      "version": 3,
+      "updatedAt": 1773503734138
     },
     {
       "id": "comp_0_f8_1773502191345_vs2c6o",
