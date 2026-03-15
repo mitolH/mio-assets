@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1773552328309,
+  "updatedAt": 1773552885447,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -1880,8 +1880,8 @@
       "path": "maps/map_1770823809424_d1nzin.json",
       "widthInTiles": 32,
       "heightInTiles": 32,
-      "version": 91,
-      "updatedAt": 1773552328195
+      "version": 92,
+      "updatedAt": 1773552885299
     },
     {
       "id": "map_1770823850313_c1slmg",
