@@ -126,10 +126,107 @@
           ]
         }
       ]
+    },
+    {
+      "id": "idel",
+      "name": "ChatGPT_Image_2026年3月15日_23_44_43",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 0,
+      "frames": [
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f1_1773589631789_kf866p"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f2_1773589631799_t4cli3"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f3_1773589631806_evpxxa"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f4_1773589631814_sii5lv"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f5_1773589631821_9x699o"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f6_1773589631828_p93wm0"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f7_1773589631844_tmdguq"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "layerStates": [
+            {
+              "layerId": "layer_layer_1",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_0_f8_1773589631851_85cbem"
+            }
+          ]
+        }
+      ]
     }
   ],
   "defaultAnimationId": "idle",
   "createdAt": 1773502191382,
-  "updatedAt": 1773502334300,
-  "version": 3
+  "updatedAt": 1773589631864,
+  "version": 4
 }
