@@ -1,58 +1,398 @@
 {
   "name": "mio-world-assets",
   "version": "1.0.0",
-  "updatedAt": 1782321749763,
+  "updatedAt": 1782325200000,
   "components": [
     {
-      "id": "comp_academy_corridor_v1",
-      "name": "书院 回廊 v1",
+      "id": "comp_lz_academy_courtyard_focus_story_v1",
+      "name": "书院前庭 主场景组件",
       "category": "building",
-      "path": "components/building/comp_academy_corridor_v1.json",
+      "path": "components/building/comp_lz_academy_courtyard_focus_story_v1.json",
       "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "corridor",
-        "building"
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "academy_courtyard",
+        "academy"
       ],
       "width": 256,
-      "height": 96,
-      "version": 1,
-      "updatedAt": 1782321800000
-    },
-    {
-      "id": "comp_academy_front_gate_v1",
-      "name": "书院 牌坊院门 v1",
-      "category": "building",
-      "path": "components/building/comp_academy_front_gate_v1.json",
-      "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "gate",
-        "building"
-      ],
-      "width": 320,
       "height": 128,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_academy_study_hall_v1",
-      "name": "书院 讲堂外观 v1",
+      "id": "comp_lz_academy_gate_focus_story_v1",
+      "name": "书院门前 主场景组件",
       "category": "building",
-      "path": "components/building/comp_academy_study_hall_v1.json",
+      "path": "components/building/comp_lz_academy_gate_focus_story_v1.json",
       "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "study-hall",
-        "building"
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "academy_gate",
+        "academy_gate"
       ],
-      "width": 384,
-      "height": 160,
+      "width": 256,
+      "height": 128,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_academy_gate_focus_story_v1",
+      "name": "书院山门 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_academy_gate_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "academy_gate",
+        "academy_gate"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_bamboo_path_focus_story_v1",
+      "name": "竹林小径 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_bamboo_path_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "bamboo_path",
+        "bamboo"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_betrothal_hall_focus_story_v1",
+      "name": "县衙媒聘场景 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_betrothal_hall_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "betrothal_hall",
+        "betrothal"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_boudoir_focus_story_v1",
+      "name": "后院闺房 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_boudoir_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "boudoir",
+        "boudoir"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_butterfly_end_focus_story_v1",
+      "name": "化蝶终景 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_butterfly_end_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "butterfly_end",
+        "butterfly"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_classroom_focus_story_v1",
+      "name": "讲堂 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_classroom_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "classroom",
+        "classroom"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_creek_bridge_focus_story_v1",
+      "name": "溪桥 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_creek_bridge_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "creek_bridge",
+        "bridge"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_dorm_corridor_focus_story_v1",
+      "name": "宿舍廊下 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_dorm_corridor_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "dorm_corridor",
+        "corridor"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_fork_road_focus_story_v1",
+      "name": "分岔官道 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_fork_road_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "fork_road",
+        "road_sign"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_grave_focus_story_v1",
+      "name": "坟前 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_grave_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "grave",
+        "grave"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_library_focus_story_v1",
+      "name": "藏书楼 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_library_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "library",
+        "library"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_long_pavilion_focus_story_v1",
+      "name": "长亭 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_long_pavilion_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "long_pavilion",
+        "long_pavilion"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_ma_courtyard_focus_story_v1",
+      "name": "马府外院 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_ma_courtyard_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "ma_courtyard",
+        "ma_gate"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_mountain_pavilion_focus_story_v1",
+      "name": "山路驿亭 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_mountain_pavilion_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mountain_pavilion",
+        "pavilion"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_mulberry_path_focus_story_v1",
+      "name": "桑田小路 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_mulberry_path_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mulberry_path",
+        "mulberry"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_river_ferry_focus_story_v1",
+      "name": "渡口 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_river_ferry_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "river_ferry",
+        "ferry"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_sickroom_focus_story_v1",
+      "name": "梁山伯病榻 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_sickroom_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "sickroom",
+        "sickroom"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_tower_focus_story_v1",
+      "name": "楼台 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_tower_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tower",
+        "tower"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_wedding_road_focus_story_v1",
+      "name": "祝英台出嫁路 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_wedding_road_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "wedding_road",
+        "wedding"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_zhufu_courtyard_focus_story_v1",
+      "name": "祝英台家 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_zhufu_courtyard_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhufu_courtyard",
+        "zhufu"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_zhufu_hall_focus_story_v1",
+      "name": "祝府正厅 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_lz_zhufu_hall_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhufu_hall",
+        "zhufu_hall"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_home_front_gate_wall_v1",
@@ -121,364 +461,724 @@
       "updatedAt": 1782314654465
     },
     {
-      "id": "comp_liangshanbo_idle-down_f1_64c_v1",
-      "name": "梁山伯 idle-down f1",
+      "id": "comp_liangshanbo_idle_down_f1_story_v2",
+      "name": "梁山伯 48x96 story v2 idle-down 1",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_idle-down_f1_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_idle_down_f1_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "idle-down",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_idle-down_f2_64c_v1",
-      "name": "梁山伯 idle-down f2",
+      "id": "comp_liangshanbo_idle_down_f2_story_v2",
+      "name": "梁山伯 48x96 story v2 idle-down 2",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_idle-down_f2_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_idle_down_f2_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "idle-down",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_idle-down_f3_64c_v1",
-      "name": "梁山伯 idle-down f3",
+      "id": "comp_liangshanbo_idle_down_f3_story_v2",
+      "name": "梁山伯 48x96 story v2 idle-down 3",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_idle-down_f3_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_idle_down_f3_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "idle-down",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_idle-down_f4_64c_v1",
-      "name": "梁山伯 idle-down f4",
+      "id": "comp_liangshanbo_idle_down_f4_story_v2",
+      "name": "梁山伯 48x96 story v2 idle-down 4",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_idle-down_f4_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_idle_down_f4_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "idle-down",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-down_f1_64c_v1",
-      "name": "梁山伯 walk-down f1",
+      "id": "comp_liangshanbo_walk_down_f1_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-down 1",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-down_f1_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_down_f1_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-down",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-down_f2_64c_v1",
-      "name": "梁山伯 walk-down f2",
+      "id": "comp_liangshanbo_walk_down_f2_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-down 2",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-down_f2_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_down_f2_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-down",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-down_f3_64c_v1",
-      "name": "梁山伯 walk-down f3",
+      "id": "comp_liangshanbo_walk_down_f3_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-down 3",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-down_f3_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_down_f3_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-down",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-down_f4_64c_v1",
-      "name": "梁山伯 walk-down f4",
+      "id": "comp_liangshanbo_walk_down_f4_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-down 4",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-down_f4_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_down_f4_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-down",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-left_f1_64c_v1",
-      "name": "梁山伯 walk-left f1",
+      "id": "comp_liangshanbo_walk_left_f1_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-left 1",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-left_f1_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_left_f1_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-left",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-left_f2_64c_v1",
-      "name": "梁山伯 walk-left f2",
+      "id": "comp_liangshanbo_walk_left_f2_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-left 2",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-left_f2_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_left_f2_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-left",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-left_f3_64c_v1",
-      "name": "梁山伯 walk-left f3",
+      "id": "comp_liangshanbo_walk_left_f3_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-left 3",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-left_f3_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_left_f3_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-left",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-left_f4_64c_v1",
-      "name": "梁山伯 walk-left f4",
+      "id": "comp_liangshanbo_walk_left_f4_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-left 4",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-left_f4_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_left_f4_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-left",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-right_f1_64c_v1",
-      "name": "梁山伯 walk-right f1",
+      "id": "comp_liangshanbo_walk_right_f1_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-right 1",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-right_f1_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_right_f1_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-right",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-right_f2_64c_v1",
-      "name": "梁山伯 walk-right f2",
+      "id": "comp_liangshanbo_walk_right_f2_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-right 2",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-right_f2_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_right_f2_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-right",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-right_f3_64c_v1",
-      "name": "梁山伯 walk-right f3",
+      "id": "comp_liangshanbo_walk_right_f3_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-right 3",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-right_f3_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_right_f3_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-right",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-right_f4_64c_v1",
-      "name": "梁山伯 walk-right f4",
+      "id": "comp_liangshanbo_walk_right_f4_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-right 4",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-right_f4_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_right_f4_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-right",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-up_f1_64c_v1",
-      "name": "梁山伯 walk-up f1",
+      "id": "comp_liangshanbo_walk_up_f1_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-up 1",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-up_f1_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_up_f1_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-up",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-up_f2_64c_v1",
-      "name": "梁山伯 walk-up f2",
+      "id": "comp_liangshanbo_walk_up_f2_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-up 2",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-up_f2_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_up_f2_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-up",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-up_f3_64c_v1",
-      "name": "梁山伯 walk-up f3",
+      "id": "comp_liangshanbo_walk_up_f3_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-up 3",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-up_f3_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_up_f3_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-up",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_liangshanbo_walk-up_f4_64c_v1",
-      "name": "梁山伯 walk-up f4",
+      "id": "comp_liangshanbo_walk_up_f4_story_v2",
+      "name": "梁山伯 48x96 story v2 walk-up 4",
       "category": "character",
-      "path": "components/character/comp_liangshanbo_walk-up_f4_64c_v1.json",
+      "path": "components/character/comp_liangshanbo_walk_up_f4_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "walk-up",
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_idle_down_f1_story_v1",
+      "name": "马文才 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_mawencai_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_idle_down_f2_story_v1",
+      "name": "马文才 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_mawencai_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_idle_down_f3_story_v1",
+      "name": "马文才 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_mawencai_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_idle_down_f4_story_v1",
+      "name": "马文才 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_mawencai_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_down_f1_story_v1",
+      "name": "马文才 48x96 story v1 walk-down 1",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_down_f2_story_v1",
+      "name": "马文才 48x96 story v1 walk-down 2",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_down_f3_story_v1",
+      "name": "马文才 48x96 story v1 walk-down 3",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_down_f4_story_v1",
+      "name": "马文才 48x96 story v1 walk-down 4",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_left_f1_story_v1",
+      "name": "马文才 48x96 story v1 walk-left 1",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_left_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-left",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_left_f2_story_v1",
+      "name": "马文才 48x96 story v1 walk-left 2",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_left_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-left",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_left_f3_story_v1",
+      "name": "马文才 48x96 story v1 walk-left 3",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_left_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-left",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_left_f4_story_v1",
+      "name": "马文才 48x96 story v1 walk-left 4",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_left_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-left",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_right_f1_story_v1",
+      "name": "马文才 48x96 story v1 walk-right 1",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_right_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-right",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_right_f2_story_v1",
+      "name": "马文才 48x96 story v1 walk-right 2",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_right_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-right",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_right_f3_story_v1",
+      "name": "马文才 48x96 story v1 walk-right 3",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_right_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-right",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_right_f4_story_v1",
+      "name": "马文才 48x96 story v1 walk-right 4",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_right_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-right",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_up_f1_story_v1",
+      "name": "马文才 48x96 story v1 walk-up 1",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_up_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-up",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_up_f2_story_v1",
+      "name": "马文才 48x96 story v1 walk-up 2",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_up_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-up",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_up_f3_story_v1",
+      "name": "马文才 48x96 story v1 walk-up 3",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_up_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-up",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_mawencai_walk_up_f4_story_v1",
+      "name": "马文才 48x96 story v1 walk-up 4",
+      "category": "character",
+      "path": "components/character/comp_mawencai_walk_up_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "mawencai",
+        "walk-up",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_idle_down_f1_64c_v2",
@@ -500,6 +1200,24 @@
       "updatedAt": 1782312289637
     },
     {
+      "id": "comp_zhuyingtai_idle_down_f1_story_v1",
+      "name": "祝英台 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_zhuyingtai_idle_down_f2_64c_v2",
       "name": "祝英台 idle-down f2",
       "category": "character",
@@ -517,6 +1235,24 @@
       "height": 96,
       "version": 8,
       "updatedAt": 1782312289637
+    },
+    {
+      "id": "comp_zhuyingtai_idle_down_f2_story_v1",
+      "name": "祝英台 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_idle_down_f3_64c_v2",
@@ -538,6 +1274,24 @@
       "updatedAt": 1782312289637
     },
     {
+      "id": "comp_zhuyingtai_idle_down_f3_story_v1",
+      "name": "祝英台 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_zhuyingtai_idle_down_f4_64c_v2",
       "name": "祝英台 idle-down f4",
       "category": "character",
@@ -555,6 +1309,24 @@
       "height": 96,
       "version": 8,
       "updatedAt": 1782312289638
+    },
+    {
+      "id": "comp_zhuyingtai_idle_down_f4_story_v1",
+      "name": "祝英台 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_walk_down_f1_64c_v2",
@@ -576,6 +1348,24 @@
       "updatedAt": 1782312289638
     },
     {
+      "id": "comp_zhuyingtai_walk_down_f1_story_v1",
+      "name": "祝英台 48x96 story v1 walk-down 1",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_zhuyingtai_walk_down_f2_64c_v2",
       "name": "祝英台 walk-down f2",
       "category": "character",
@@ -593,6 +1383,24 @@
       "height": 96,
       "version": 8,
       "updatedAt": 1782312289639
+    },
+    {
+      "id": "comp_zhuyingtai_walk_down_f2_story_v1",
+      "name": "祝英台 48x96 story v1 walk-down 2",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_walk_down_f3_64c_v2",
@@ -614,6 +1422,24 @@
       "updatedAt": 1782312289639
     },
     {
+      "id": "comp_zhuyingtai_walk_down_f3_story_v1",
+      "name": "祝英台 48x96 story v1 walk-down 3",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_zhuyingtai_walk_down_f4_64c_v2",
       "name": "祝英台 walk-down f4",
       "category": "character",
@@ -631,6 +1457,24 @@
       "height": 96,
       "version": 8,
       "updatedAt": 1782312289640
+    },
+    {
+      "id": "comp_zhuyingtai_walk_down_f4_story_v1",
+      "name": "祝英台 48x96 story v1 walk-down 4",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_walk_left_f1_64c_v2",
@@ -652,6 +1496,24 @@
       "updatedAt": 1782312289640
     },
     {
+      "id": "comp_zhuyingtai_walk_left_f1_story_v1",
+      "name": "祝英台 48x96 story v1 walk-left 1",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_left_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-left",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_zhuyingtai_walk_left_f2_64c_v2",
       "name": "祝英台 walk-left f2",
       "category": "character",
@@ -669,6 +1531,24 @@
       "height": 96,
       "version": 8,
       "updatedAt": 1782312289640
+    },
+    {
+      "id": "comp_zhuyingtai_walk_left_f2_story_v1",
+      "name": "祝英台 48x96 story v1 walk-left 2",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_left_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-left",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_walk_left_f3_64c_v2",
@@ -690,6 +1570,24 @@
       "updatedAt": 1782312289641
     },
     {
+      "id": "comp_zhuyingtai_walk_left_f3_story_v1",
+      "name": "祝英台 48x96 story v1 walk-left 3",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_left_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-left",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_zhuyingtai_walk_left_f4_64c_v2",
       "name": "祝英台 walk-left f4",
       "category": "character",
@@ -707,6 +1605,24 @@
       "height": 96,
       "version": 8,
       "updatedAt": 1782312289641
+    },
+    {
+      "id": "comp_zhuyingtai_walk_left_f4_story_v1",
+      "name": "祝英台 48x96 story v1 walk-left 4",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_left_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-left",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_walk_right_f1_64c_v2",
@@ -728,6 +1644,24 @@
       "updatedAt": 1782312289642
     },
     {
+      "id": "comp_zhuyingtai_walk_right_f1_story_v1",
+      "name": "祝英台 48x96 story v1 walk-right 1",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_right_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-right",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_zhuyingtai_walk_right_f2_64c_v2",
       "name": "祝英台 walk-right f2",
       "category": "character",
@@ -745,6 +1679,24 @@
       "height": 96,
       "version": 8,
       "updatedAt": 1782312289642
+    },
+    {
+      "id": "comp_zhuyingtai_walk_right_f2_story_v1",
+      "name": "祝英台 48x96 story v1 walk-right 2",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_right_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-right",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_walk_right_f3_64c_v2",
@@ -766,6 +1718,24 @@
       "updatedAt": 1782312289643
     },
     {
+      "id": "comp_zhuyingtai_walk_right_f3_story_v1",
+      "name": "祝英台 48x96 story v1 walk-right 3",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_right_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-right",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_zhuyingtai_walk_right_f4_64c_v2",
       "name": "祝英台 walk-right f4",
       "category": "character",
@@ -783,6 +1753,24 @@
       "height": 96,
       "version": 8,
       "updatedAt": 1782312289643
+    },
+    {
+      "id": "comp_zhuyingtai_walk_right_f4_story_v1",
+      "name": "祝英台 48x96 story v1 walk-right 4",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_right_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-right",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_walk_up_f1_64c_v2",
@@ -804,6 +1792,24 @@
       "updatedAt": 1782312289643
     },
     {
+      "id": "comp_zhuyingtai_walk_up_f1_story_v1",
+      "name": "祝英台 48x96 story v1 walk-up 1",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_up_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-up",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_zhuyingtai_walk_up_f2_64c_v2",
       "name": "祝英台 walk-up f2",
       "category": "character",
@@ -821,6 +1827,24 @@
       "height": 96,
       "version": 8,
       "updatedAt": 1782312289644
+    },
+    {
+      "id": "comp_zhuyingtai_walk_up_f2_story_v1",
+      "name": "祝英台 48x96 story v1 walk-up 2",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_up_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-up",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_walk_up_f3_64c_v2",
@@ -842,6 +1866,24 @@
       "updatedAt": 1782312289644
     },
     {
+      "id": "comp_zhuyingtai_walk_up_f3_story_v1",
+      "name": "祝英台 48x96 story v1 walk-up 3",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_up_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-up",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_zhuyingtai_walk_up_f4_64c_v2",
       "name": "祝英台 walk-up f4",
       "category": "character",
@@ -861,122 +1903,103 @@
       "updatedAt": 1782312289645
     },
     {
-      "id": "comp_academy_bookshelf_v1",
-      "name": "书院 书架 v1",
-      "category": "decoration",
-      "path": "components/decoration/comp_academy_bookshelf_v1.json",
+      "id": "comp_zhuyingtai_walk_up_f4_story_v1",
+      "name": "祝英台 48x96 story v1 walk-up 4",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_up_f4_story_v1.json",
       "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "bookshelf",
-        "book"
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "zhuyingtai",
+        "walk-up",
+        "48x96"
       ],
-      "width": 96,
+      "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_academy_bridge_v1",
-      "name": "书院 小桥 v1",
+      "id": "comp_lz_prop_bookcase_story_v1",
+      "name": "书箱",
       "category": "decoration",
-      "path": "components/decoration/comp_academy_bridge_v1.json",
+      "path": "components/decoration/comp_lz_prop_bookcase_story_v1.json",
       "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "bridge",
-        "water"
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "bookcase"
       ],
-      "width": 128,
-      "height": 48,
+      "width": 48,
+      "height": 32,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_academy_desk_cluster_v1",
-      "name": "书院 课桌书案 v1",
+      "id": "comp_lz_prop_books_story_v1",
+      "name": "书卷讲义",
       "category": "decoration",
-      "path": "components/decoration/comp_academy_desk_cluster_v1.json",
+      "path": "components/decoration/comp_lz_prop_books_story_v1.json",
       "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "desk",
-        "book"
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "books"
       ],
-      "width": 128,
-      "height": 64,
+      "width": 48,
+      "height": 32,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_academy_floor_cushions_v1",
-      "name": "书院 蒲团坐垫 v1",
+      "id": "comp_lz_prop_fan_jade_story_v1",
+      "name": "折扇玉佩",
       "category": "decoration",
-      "path": "components/decoration/comp_academy_floor_cushions_v1.json",
+      "path": "components/decoration/comp_lz_prop_fan_jade_story_v1.json",
       "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "cushion"
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "fan",
+        "jade"
       ],
-      "width": 96,
-      "height": 48,
+      "width": 48,
+      "height": 32,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_academy_lecture_screen_v1",
-      "name": "书院 讲席屏风 v1",
+      "id": "comp_lz_prop_marriage_doc_story_v1",
+      "name": "婚书县印",
       "category": "decoration",
-      "path": "components/decoration/comp_academy_lecture_screen_v1.json",
+      "path": "components/decoration/comp_lz_prop_marriage_doc_story_v1.json",
       "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "lecture",
-        "screen"
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "marriage"
       ],
-      "width": 112,
-      "height": 80,
+      "width": 56,
+      "height": 40,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_academy_notice_board_v1",
-      "name": "书院 告示牌 v1",
+      "id": "comp_lz_prop_red_veil_story_v1",
+      "name": "红盖头",
       "category": "decoration",
-      "path": "components/decoration/comp_academy_notice_board_v1.json",
+      "path": "components/decoration/comp_lz_prop_red_veil_story_v1.json",
       "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "notice",
-        "board"
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "veil"
       ],
-      "width": 64,
-      "height": 80,
+      "width": 48,
+      "height": 32,
       "version": 1,
-      "updatedAt": 1782321800000
-    },
-    {
-      "id": "comp_academy_stone_table_books_v1",
-      "name": "书院 石桌书卷 v1",
-      "category": "decoration",
-      "path": "components/decoration/comp_academy_stone_table_books_v1.json",
-      "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "stone-table",
-        "book"
-      ],
-      "width": 96,
-      "height": 64,
-      "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_home_flower_bed_v1",
@@ -1062,72 +2085,116 @@
       "updatedAt": 1782314654465
     },
     {
-      "id": "comp_academy_door_marker_v1",
-      "name": "书院 门口标记 v1",
-      "category": "other",
-      "path": "components/other/comp_academy_door_marker_v1.json",
+      "id": "comp_lz_prop_butterflies_story_v1",
+      "name": "双蝶光影",
+      "category": "effect",
+      "path": "components/effect/comp_lz_prop_butterflies_story_v1.json",
       "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "door",
-        "teleport"
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "butterfly"
       ],
-      "width": 32,
-      "height": 16,
+      "width": 64,
+      "height": 48,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_academy_dirt_path_v1",
-      "name": "书院 土石小径 v1",
+      "id": "comp_lz_ground_dirt_story_v1",
+      "name": "泥土官道",
       "category": "terrain",
-      "path": "components/terrain/comp_academy_dirt_path_v1.json",
+      "path": "components/terrain/comp_lz_ground_dirt_story_v1.json",
       "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "path",
-        "terrain"
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "ground"
       ],
       "width": 64,
       "height": 64,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_academy_grass_tile_v1",
-      "name": "书院 草地地块 v1",
+      "id": "comp_lz_ground_grass_story_v1",
+      "name": "草地田埂",
       "category": "terrain",
-      "path": "components/terrain/comp_academy_grass_tile_v1.json",
+      "path": "components/terrain/comp_lz_ground_grass_story_v1.json",
       "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "grass",
-        "terrain"
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "ground"
       ],
       "width": 64,
       "height": 64,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "comp_academy_stone_floor_v1",
-      "name": "书院 石板地面 v1",
+      "id": "comp_lz_ground_grave_story_v1",
+      "name": "墓前湿土",
       "category": "terrain",
-      "path": "components/terrain/comp_academy_stone_floor_v1.json",
+      "path": "components/terrain/comp_lz_ground_grave_story_v1.json",
       "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "stone",
-        "terrain"
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "ground"
       ],
       "width": 64,
       "height": 64,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_ground_stone_story_v1",
+      "name": "青石地面",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ground_stone_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "ground"
+      ],
+      "width": 64,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_ground_water_story_v1",
+      "name": "水岸地面",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ground_water_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "ground"
+      ],
+      "width": 64,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_ground_wood_story_v1",
+      "name": "木地板",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ground_wood_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "ground"
+      ],
+      "width": 64,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_home_stone_courtyard_v1",
@@ -1145,40 +2212,6 @@
       "height": 64,
       "version": 1,
       "updatedAt": 1782314654465
-    },
-    {
-      "id": "comp_academy_bamboo_grove_v1",
-      "name": "书院 竹丛 v1",
-      "category": "tree",
-      "path": "components/tree/comp_academy_bamboo_grove_v1.json",
-      "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "bamboo",
-        "tree"
-      ],
-      "width": 80,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782321800000
-    },
-    {
-      "id": "comp_academy_plum_tree_v1",
-      "name": "书院 梅树 v1",
-      "category": "tree",
-      "path": "components/tree/comp_academy_plum_tree_v1.json",
-      "tags": [
-        "liangzhu-academy",
-        "梁祝书院",
-        "v1",
-        "plum",
-        "tree"
-      ],
-      "width": 96,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782321800000
     },
     {
       "id": "comp_zhuyingtai_home_bamboo_left_v1",
@@ -1215,22 +2248,211 @@
   ],
   "maps": [
     {
-      "id": "map_liangzhu_academy_courtyard_v1",
-      "name": "梁祝书院前庭 v1",
-      "path": "maps/map_liangzhu_academy_courtyard_v1.json",
+      "id": "map_lz_ch01_academy_gate_v1",
+      "name": "书院门前 v1",
+      "path": "maps/map_lz_ch01_academy_gate_v1.json",
       "widthInTiles": 44,
       "heightInTiles": 32,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
     },
     {
-      "id": "map_liangzhu_academy_study_v1",
-      "name": "梁祝书院讲堂 v1",
-      "path": "maps/map_liangzhu_academy_study_v1.json",
+      "id": "map_lz_ch01_mountain_pavilion_v1",
+      "name": "山路驿亭 v1",
+      "path": "maps/map_lz_ch01_mountain_pavilion_v1.json",
       "widthInTiles": 44,
       "heightInTiles": 32,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch01_river_ferry_v1",
+      "name": "渡口 v1",
+      "path": "maps/map_lz_ch01_river_ferry_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch01_zhufu_courtyard_v1",
+      "name": "祝英台家 v1",
+      "path": "maps/map_lz_ch01_zhufu_courtyard_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch02_academy_courtyard_v1",
+      "name": "书院前庭 v1",
+      "path": "maps/map_lz_ch02_academy_courtyard_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch02_bamboo_path_v1",
+      "name": "竹林小径 v1",
+      "path": "maps/map_lz_ch02_bamboo_path_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch02_classroom_v1",
+      "name": "讲堂 v1",
+      "path": "maps/map_lz_ch02_classroom_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch02_dorm_corridor_v1",
+      "name": "宿舍廊下 v1",
+      "path": "maps/map_lz_ch02_dorm_corridor_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch02_library_v1",
+      "name": "藏书楼 v1",
+      "path": "maps/map_lz_ch02_library_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch03_academy_gate_v1",
+      "name": "书院山门 v1",
+      "path": "maps/map_lz_ch03_academy_gate_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch03_creek_bridge_v1",
+      "name": "溪桥 v1",
+      "path": "maps/map_lz_ch03_creek_bridge_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch03_fork_road_v1",
+      "name": "分岔官道 v1",
+      "path": "maps/map_lz_ch03_fork_road_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch03_long_pavilion_v1",
+      "name": "长亭 v1",
+      "path": "maps/map_lz_ch03_long_pavilion_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch03_mulberry_path_v1",
+      "name": "桑田小路 v1",
+      "path": "maps/map_lz_ch03_mulberry_path_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch04_betrothal_hall_v1",
+      "name": "县衙媒聘场景 v1",
+      "path": "maps/map_lz_ch04_betrothal_hall_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch04_boudoir_v1",
+      "name": "后院闺房 v1",
+      "path": "maps/map_lz_ch04_boudoir_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch04_ma_courtyard_v1",
+      "name": "马府外院 v1",
+      "path": "maps/map_lz_ch04_ma_courtyard_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch04_zhufu_hall_v1",
+      "name": "祝府正厅 v1",
+      "path": "maps/map_lz_ch04_zhufu_hall_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch05_butterfly_end_v1",
+      "name": "化蝶终景 v1",
+      "path": "maps/map_lz_ch05_butterfly_end_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch05_grave_v1",
+      "name": "坟前 v1",
+      "path": "maps/map_lz_ch05_grave_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch05_sickroom_v1",
+      "name": "梁山伯病榻 v1",
+      "path": "maps/map_lz_ch05_sickroom_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch05_tower_v1",
+      "name": "楼台 v1",
+      "path": "maps/map_lz_ch05_tower_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "map_lz_ch05_wedding_road_v1",
+      "name": "祝英台出嫁路 v1",
+      "path": "maps/map_lz_ch05_wedding_road_v1.json",
+      "widthInTiles": 44,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
     },
     {
       "id": "map_zhuyingtai_home_courtyard_v1",
@@ -1244,24 +2466,40 @@
   ],
   "sprites": [
     {
-      "id": "sprite_liangshanbo_48x96_64c_v1",
-      "name": "梁山伯 48x96 64c v1",
+      "id": "sprite_liangshanbo_48x96_story_v2",
+      "name": "梁山伯 48x96 story v2",
       "category": "character",
-      "path": "sprites/sprite_liangshanbo_48x96_64c_v1.json",
+      "path": "sprites/sprite_liangshanbo_48x96_story_v2.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
         "liangshanbo",
-        "梁山伯",
-        "character",
-        "48x96",
-        "64c",
-        "v1"
+        "48x96"
       ],
       "width": 48,
       "height": 96,
       "layerCount": 1,
       "animationCount": 5,
       "version": 1,
-      "updatedAt": 1782321800000
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "sprite_mawencai_48x96_story_v1",
+      "name": "马文才 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_mawencai_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "mawencai",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 5,
+      "version": 1,
+      "updatedAt": 1782325200000
     },
     {
       "id": "sprite_zhuyingtai_48x96_64c_v2",
@@ -1282,6 +2520,24 @@
       "animationCount": 5,
       "version": 1,
       "updatedAt": 1782300674285
+    },
+    {
+      "id": "sprite_zhuyingtai_48x96_story_v1",
+      "name": "祝英台 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_zhuyingtai_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhuyingtai",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 5,
+      "version": 1,
+      "updatedAt": 1782325200000
     }
   ]
 }

@@ -1,0 +1,752 @@
+{
+  "id": "map_lz_ch03_long_pavilion_v1",
+  "name": "长亭 v1",
+  "description": "长亭，梁祝五章第一版统一风格可玩地图。",
+  "widthInTiles": 44,
+  "heightInTiles": 32,
+  "layers": [
+    {
+      "id": "map_lz_ch03_long_pavilion_v1_ground",
+      "name": "Ground",
+      "type": "ground",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 0,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 4,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 8,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 12,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 16,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 20,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 24,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 28,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 32,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 36,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 40,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 0,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 4,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 8,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 12,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 16,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 20,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 24,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 28,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 32,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 36,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 40,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 0,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 4,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 8,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 12,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 16,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 20,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 24,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 28,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 32,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 36,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 40,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 0,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 4,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 8,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 12,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 16,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 20,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 24,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 28,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 32,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 36,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 40,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 0,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 4,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 8,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 12,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 16,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 20,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 24,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 28,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 32,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 36,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 40,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 0,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 4,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 8,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 12,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 16,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 20,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 24,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 28,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 32,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 36,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 40,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 0,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 4,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 8,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 12,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 16,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 20,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 24,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 28,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 32,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 36,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 40,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 0,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 4,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 8,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 12,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 16,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 20,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 24,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 28,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 32,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 36,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 40,
+          "tileY": 28
+        }
+      ]
+    },
+    {
+      "id": "map_lz_ch03_long_pavilion_v1_objects",
+      "name": "Objects",
+      "type": "object",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_long_pavilion_focus_story_v1",
+          "tileX": 14,
+          "tileY": 3,
+          "refId": "map_lz_ch03_long_pavilion_v1_focus"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_prop_red_veil_story_v1",
+          "tileX": 10,
+          "tileY": 20,
+          "refId": "map_lz_ch03_long_pavilion_v1_story_a",
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "sparkle",
+            "interactions": [
+              {
+                "id": "map_lz_ch03_long_pavilion_v1_story_a_inspect",
+                "name": "查看长亭线索",
+                "description": "长亭线索承载着当前章节的关键线索。",
+                "type": "examine",
+                "conditions": [],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "长亭线索承载着当前章节的关键线索。"
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "mood",
+                    "value": 1
+                  }
+                ],
+                "weight": 1
+              },
+              {
+                "id": "map_lz_ch03_long_pavilion_v1_story_a_choice",
+                "name": "处理长亭线索",
+                "description": "你围绕长亭线索做出的选择，让剧情变量发生变化。",
+                "type": "examine",
+                "conditions": [],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "你围绕长亭线索做出的选择，让剧情变量发生变化。"
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "maRestraint",
+                    "value": 1
+                  }
+                ],
+                "weight": 1
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_prop_bookcase_story_v1",
+          "tileX": 30,
+          "tileY": 20,
+          "refId": "map_lz_ch03_long_pavilion_v1_story_b",
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "sparkle",
+            "interactions": [
+              {
+                "id": "map_lz_ch03_long_pavilion_v1_story_b_inspect",
+                "name": "查看长亭抉择",
+                "description": "长亭抉择承载着当前章节的关键线索。",
+                "type": "examine",
+                "conditions": [],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "长亭抉择承载着当前章节的关键线索。"
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "mood",
+                    "value": 1
+                  }
+                ],
+                "weight": 1
+              },
+              {
+                "id": "map_lz_ch03_long_pavilion_v1_story_b_choice",
+                "name": "处理长亭抉择",
+                "description": "你围绕长亭抉择做出的选择，让剧情变量发生变化。",
+                "type": "examine",
+                "conditions": [],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "你围绕长亭抉择做出的选择，让剧情变量发生变化。"
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "tragedyWeight",
+                    "value": 1
+                  }
+                ],
+                "weight": 1
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_zhuyingtai_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 20,
+          "tileY": 22,
+          "refId": "map_lz_ch03_long_pavilion_v1_npc_zhuyingtai"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_liangshanbo_48x96_story_v2",
+          "animationId": "idle-down",
+          "tileX": 24,
+          "tileY": 22,
+          "refId": "map_lz_ch03_long_pavilion_v1_npc_liangshanbo"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_mawencai_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 28,
+          "tileY": 22,
+          "refId": "map_lz_ch03_long_pavilion_v1_npc_mawencai"
+        }
+      ]
+    },
+    {
+      "id": "map_lz_ch03_long_pavilion_v1_decor",
+      "name": "Decoration",
+      "type": "decoration",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 1,
+          "tileY": 1
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 39,
+          "tileY": 1
+        }
+      ]
+    }
+  ],
+  "districts": [
+    {
+      "districtId": "map_lz_ch03_long_pavilion_v1_district",
+      "name": "长亭",
+      "x": 0,
+      "y": 0,
+      "width": 44,
+      "height": 32,
+      "terrainTags": [
+        "forest"
+      ],
+      "locations": [
+        {
+          "id": "map_lz_ch03_long_pavilion_v1_start",
+          "name": "长亭入口",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 1,
+          "offsetX": 22,
+          "offsetY": 24
+        }
+      ],
+      "defaultEventDensity": 1
+    }
+  ],
+  "itemDefs": [],
+  "teleports": [],
+  "createdAt": 1782325200000,
+  "updatedAt": 1782325200000,
+  "version": 1,
+  "story": {
+    "storyId": "liangzhu",
+    "chapterId": "ch03",
+    "sceneId": "long_pavilion"
+  }
+}
