@@ -16,7 +16,11 @@
     "long-sleeve-cuffs",
     "cloth-book-roll",
     "plain-scholar-silhouette",
-    "single-book-roll"
+    "single-book-roll",
+    "liangshanbo-detail-v3",
+    "refined-scholar-face-v3",
+    "woven-book-strap-v3",
+    "layered-collar-v3"
   ],
   "styleProfile": {
     "storyId": "liangzhu",
@@ -32,7 +36,10 @@
       "long scholar sleeves",
       "stitched cloth book roll",
       "narrow plain scholar silhouette",
-      "single stitched book roll"
+      "single stitched book roll",
+      "refined reserved scholar face",
+      "woven diagonal book strap",
+      "pale layered collar and sleeve rim"
     ]
   },
   "width": 48,
