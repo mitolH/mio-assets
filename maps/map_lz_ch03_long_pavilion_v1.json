@@ -560,6 +560,34 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_farewell_long_pavilion_v1",
+          "tileX": 17,
+          "tileY": 5,
+          "refId": "map_lz_ch03_long_pavilion_v1_farewell_reference_long_pavilion"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_farewell_willow_tree_v1",
+          "tileX": 3,
+          "tileY": 8,
+          "refId": "map_lz_ch03_long_pavilion_v1_farewell_reference_willow_tree"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_farewell_tea_table_v1",
+          "tileX": 14,
+          "tileY": 19,
+          "refId": "map_lz_ch03_long_pavilion_v1_farewell_reference_tea_table"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_farewell_farewell_stone_v1",
+          "tileX": 33,
+          "tileY": 18,
+          "refId": "map_lz_ch03_long_pavilion_v1_farewell_reference_farewell_stone"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch03_long_pavilion_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,

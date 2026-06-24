@@ -73,6 +73,48 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_farewell_creek_bridge_v1",
+      "name": "送别溪桥",
+      "category": "building",
+      "path": "components/building/comp_farewell_creek_bridge_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "farewell",
+        "creek_bridge",
+        "eighteen-mile-reference-v1",
+        "story-farewell-component",
+        "farewell-creek_bridge"
+      ],
+      "width": 144,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_farewell_long_pavilion_v1",
+      "name": "十八相送长亭",
+      "category": "building",
+      "path": "components/building/comp_farewell_long_pavilion_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "farewell",
+        "long_pavilion",
+        "eighteen-mile-reference-v1",
+        "story-farewell-component",
+        "farewell-long_pavilion"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch01_academy_gate_v1_focus_story_v1",
       "name": "书院门前 主场景组件",
       "category": "building",
@@ -4432,6 +4474,132 @@
       ],
       "width": 96,
       "height": 64,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_farewell_farewell_stone_v1",
+      "name": "送别题石",
+      "category": "decoration",
+      "path": "components/decoration/comp_farewell_farewell_stone_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "farewell",
+        "farewell_stone",
+        "eighteen-mile-reference-v1",
+        "story-farewell-component",
+        "farewell-farewell_stone"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_farewell_fork_road_sign_v1",
+      "name": "分岔官道路牌",
+      "category": "decoration",
+      "path": "components/decoration/comp_farewell_fork_road_sign_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "farewell",
+        "fork_road_sign",
+        "eighteen-mile-reference-v1",
+        "story-farewell-component",
+        "farewell-fork_road_sign"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_farewell_stepping_stones_v1",
+      "name": "溪中踏石",
+      "category": "decoration",
+      "path": "components/decoration/comp_farewell_stepping_stones_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "farewell",
+        "stepping_stones",
+        "eighteen-mile-reference-v1",
+        "story-farewell-component",
+        "farewell-stepping_stones"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_farewell_tea_table_v1",
+      "name": "长亭茶桌",
+      "category": "decoration",
+      "path": "components/decoration/comp_farewell_tea_table_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "farewell",
+        "tea_table",
+        "eighteen-mile-reference-v1",
+        "story-farewell-component",
+        "farewell-tea_table"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_farewell_travel_bundle_v1",
+      "name": "书箱行囊",
+      "category": "decoration",
+      "path": "components/decoration/comp_farewell_travel_bundle_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "farewell",
+        "travel_bundle",
+        "eighteen-mile-reference-v1",
+        "story-farewell-component",
+        "farewell-travel_bundle"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_farewell_wildflowers_v1",
+      "name": "送别野花",
+      "category": "decoration",
+      "path": "components/decoration/comp_farewell_wildflowers_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "farewell",
+        "wildflowers",
+        "eighteen-mile-reference-v1",
+        "story-farewell-component",
+        "farewell-wildflowers"
+      ],
+      "width": 96,
+      "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -9262,6 +9430,48 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_farewell_field_ridge_v1",
+      "name": "桑田田埂",
+      "category": "terrain",
+      "path": "components/terrain/comp_farewell_field_ridge_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "farewell",
+        "field_ridge",
+        "eighteen-mile-reference-v1",
+        "story-farewell-component",
+        "farewell-field_ridge"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_farewell_stream_bank_v1",
+      "name": "溪岸水纹",
+      "category": "terrain",
+      "path": "components/terrain/comp_farewell_stream_bank_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "farewell",
+        "stream_bank",
+        "eighteen-mile-reference-v1",
+        "story-farewell-component",
+        "farewell-stream_bank"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_lz_ground_dirt_story_v1",
       "name": "泥土官道",
       "category": "terrain",
@@ -9441,6 +9651,48 @@
       ],
       "width": 96,
       "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_farewell_mulberry_tree_v1",
+      "name": "桑田桑树",
+      "category": "tree",
+      "path": "components/tree/comp_farewell_mulberry_tree_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "farewell",
+        "mulberry_tree",
+        "eighteen-mile-reference-v1",
+        "story-farewell-component",
+        "farewell-mulberry_tree"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_farewell_willow_tree_v1",
+      "name": "送别柳树",
+      "category": "tree",
+      "path": "components/tree/comp_farewell_willow_tree_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "farewell",
+        "willow_tree",
+        "eighteen-mile-reference-v1",
+        "story-farewell-component",
+        "farewell-willow_tree"
+      ],
+      "width": 128,
+      "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
     },

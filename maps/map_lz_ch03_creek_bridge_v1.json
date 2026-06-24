@@ -560,6 +560,34 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_farewell_creek_bridge_v1",
+          "tileX": 15,
+          "tileY": 10,
+          "refId": "map_lz_ch03_creek_bridge_v1_farewell_reference_creek_bridge"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_farewell_stream_bank_v1",
+          "tileX": 0,
+          "tileY": 16,
+          "refId": "map_lz_ch03_creek_bridge_v1_farewell_reference_stream_bank"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_farewell_willow_tree_v1",
+          "tileX": 34,
+          "tileY": 7,
+          "refId": "map_lz_ch03_creek_bridge_v1_farewell_reference_willow_tree"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_farewell_stepping_stones_v1",
+          "tileX": 20,
+          "tileY": 18,
+          "refId": "map_lz_ch03_creek_bridge_v1_farewell_reference_stepping_stones"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch03_creek_bridge_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,

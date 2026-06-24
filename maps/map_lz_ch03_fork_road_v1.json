@@ -560,6 +560,34 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_farewell_fork_road_sign_v1",
+          "tileX": 28,
+          "tileY": 12,
+          "refId": "map_lz_ch03_fork_road_v1_farewell_reference_fork_road_sign"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_farewell_field_ridge_v1",
+          "tileX": 2,
+          "tileY": 17,
+          "refId": "map_lz_ch03_fork_road_v1_farewell_reference_field_ridge"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_farewell_travel_bundle_v1",
+          "tileX": 14,
+          "tileY": 21,
+          "refId": "map_lz_ch03_fork_road_v1_farewell_reference_travel_bundle"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_farewell_farewell_stone_v1",
+          "tileX": 35,
+          "tileY": 19,
+          "refId": "map_lz_ch03_fork_road_v1_farewell_reference_farewell_stone"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch03_fork_road_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,
