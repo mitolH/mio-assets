@@ -11,6 +11,7 @@
     "tier-s",
     "zhuyingtai",
     "wedding-stage",
+    "stage-full-animation-v1",
     "red-wedding-robe-v1",
     "grave-oath-stage-v1",
     "jade-under-red-silk-v1"
@@ -101,6 +102,218 @@
               "offsetX": 0,
               "offsetY": 0,
               "componentId": "comp_zhuyingtai_wedding_idle_down_f4_story_v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "walk-down",
+      "name": "walk-down",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 1,
+      "frames": [
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_down_f1_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_down_f2_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_down_f3_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_down_f4_story_v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "walk-left",
+      "name": "walk-left",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 1,
+      "frames": [
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_left_f1_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_left_f2_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_left_f3_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_left_f4_story_v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "walk-right",
+      "name": "walk-right",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 1,
+      "frames": [
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_right_f1_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_right_f2_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_right_f3_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_right_f4_story_v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "walk-up",
+      "name": "walk-up",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 1,
+      "frames": [
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_up_f1_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_up_f2_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_up_f3_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_wedding_walk_up_f4_story_v1"
             }
           ]
         }

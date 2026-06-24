@@ -619,10 +619,17 @@
       "components": [
         {
           "assetType": "component",
-          "componentId": "comp_zhuyingtai_home_main_hall_v1",
+          "componentId": "comp_map_lz_ch01_zhufu_courtyard_v1_focus_story_v1",
           "tileX": 8,
           "tileY": 1,
           "refId": "map_lz_ch01_zhufu_courtyard_v1_focus"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_main_hall_v1",
+          "tileX": 8,
+          "tileY": 1,
+          "refId": "map_lz_ch01_zhufu_courtyard_v1_home_main_hall"
         },
         {
           "assetType": "component",
