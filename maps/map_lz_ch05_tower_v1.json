@@ -560,6 +560,34 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_finale_tower_railing_v1",
+          "tileX": 12,
+          "tileY": 5,
+          "refId": "map_lz_ch05_tower_v1_finale_reference_tower_railing"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_night_lantern_v1",
+          "tileX": 3,
+          "tileY": 12,
+          "refId": "map_lz_ch05_tower_v1_finale_reference_night_lantern"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_rain_curtain_v1",
+          "tileX": 34,
+          "tileY": 9,
+          "refId": "map_lz_ch05_tower_v1_finale_reference_rain_curtain"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_last_letter_v1",
+          "tileX": 19,
+          "tileY": 18,
+          "refId": "map_lz_ch05_tower_v1_finale_reference_last_letter"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch05_tower_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,

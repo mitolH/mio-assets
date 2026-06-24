@@ -560,6 +560,34 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_finale_gravestone_v1",
+          "tileX": 17,
+          "tileY": 6,
+          "refId": "map_lz_ch05_grave_v1_finale_reference_gravestone"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_grave_crack_v1",
+          "tileX": 14,
+          "tileY": 16,
+          "refId": "map_lz_ch05_grave_v1_finale_reference_grave_crack"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_red_veil_oath_v1",
+          "tileX": 30,
+          "tileY": 15,
+          "refId": "map_lz_ch05_grave_v1_finale_reference_red_veil_oath"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_butterfly_wings_v1",
+          "tileX": 2,
+          "tileY": 8,
+          "refId": "map_lz_ch05_grave_v1_finale_reference_butterfly_wings"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch05_grave_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,

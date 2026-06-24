@@ -560,6 +560,34 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_finale_sickbed_v1",
+          "tileX": 13,
+          "tileY": 7,
+          "refId": "map_lz_ch05_sickroom_v1_finale_reference_sickbed"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_medicine_bowl_table_v1",
+          "tileX": 3,
+          "tileY": 18,
+          "refId": "map_lz_ch05_sickroom_v1_finale_reference_medicine_bowl_table"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_last_letter_v1",
+          "tileX": 29,
+          "tileY": 17,
+          "refId": "map_lz_ch05_sickroom_v1_finale_reference_last_letter"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_rain_curtain_v1",
+          "tileX": 35,
+          "tileY": 8,
+          "refId": "map_lz_ch05_sickroom_v1_finale_reference_rain_curtain"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch05_sickroom_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,

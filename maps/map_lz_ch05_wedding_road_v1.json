@@ -560,6 +560,34 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_finale_red_sedan_v1",
+          "tileX": 12,
+          "tileY": 5,
+          "refId": "map_lz_ch05_wedding_road_v1_finale_reference_red_sedan"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_roadside_tomb_sign_v1",
+          "tileX": 32,
+          "tileY": 13,
+          "refId": "map_lz_ch05_wedding_road_v1_finale_reference_roadside_tomb_sign"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_messenger_rain_v1",
+          "tileX": 3,
+          "tileY": 14,
+          "refId": "map_lz_ch05_wedding_road_v1_finale_reference_messenger_rain"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_rain_curtain_v1",
+          "tileX": 20,
+          "tileY": 11,
+          "refId": "map_lz_ch05_wedding_road_v1_finale_reference_rain_curtain"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch05_wedding_road_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,

@@ -115,6 +115,69 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_finale_gravestone_v1",
+      "name": "梁山伯墓碑",
+      "category": "building",
+      "path": "components/building/comp_finale_gravestone_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "finale",
+        "gravestone",
+        "finale-reference-v1",
+        "story-finale-component",
+        "finale-gravestone"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_finale_red_sedan_v1",
+      "name": "出嫁红轿",
+      "category": "building",
+      "path": "components/building/comp_finale_red_sedan_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "finale",
+        "red_sedan",
+        "finale-reference-v1",
+        "story-finale-component",
+        "finale-red_sedan"
+      ],
+      "width": 144,
+      "height": 112,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_finale_tower_railing_v1",
+      "name": "楼台雨夜栏杆",
+      "category": "building",
+      "path": "components/building/comp_finale_tower_railing_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "finale",
+        "tower_railing",
+        "finale-reference-v1",
+        "story-finale-component",
+        "finale-tower_railing"
+      ],
+      "width": 144,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch01_academy_gate_v1_focus_story_v1",
       "name": "书院门前 主场景组件",
       "category": "building",
@@ -4625,6 +4688,153 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_finale_last_letter_v1",
+      "name": "未寄出的遗信",
+      "category": "decoration",
+      "path": "components/decoration/comp_finale_last_letter_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "finale",
+        "last_letter",
+        "finale-reference-v1",
+        "story-finale-component",
+        "finale-last_letter"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_finale_medicine_bowl_table_v1",
+      "name": "药碗小案",
+      "category": "decoration",
+      "path": "components/decoration/comp_finale_medicine_bowl_table_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "finale",
+        "medicine_bowl_table",
+        "finale-reference-v1",
+        "story-finale-component",
+        "finale-medicine_bowl_table"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_finale_messenger_rain_v1",
+      "name": "雨中信使",
+      "category": "decoration",
+      "path": "components/decoration/comp_finale_messenger_rain_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "finale",
+        "messenger_rain",
+        "finale-reference-v1",
+        "story-finale-component",
+        "finale-messenger_rain"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_finale_night_lantern_v1",
+      "name": "楼台夜灯",
+      "category": "decoration",
+      "path": "components/decoration/comp_finale_night_lantern_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "finale",
+        "night_lantern",
+        "finale-reference-v1",
+        "story-finale-component",
+        "finale-night_lantern"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_finale_red_veil_oath_v1",
+      "name": "红盖头坟前誓言",
+      "category": "decoration",
+      "path": "components/decoration/comp_finale_red_veil_oath_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "finale",
+        "red_veil_oath",
+        "finale-reference-v1",
+        "story-finale-component",
+        "finale-red_veil_oath"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_finale_roadside_tomb_sign_v1",
+      "name": "路旁坟前碑记",
+      "category": "decoration",
+      "path": "components/decoration/comp_finale_roadside_tomb_sign_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "finale",
+        "roadside_tomb_sign",
+        "finale-reference-v1",
+        "story-finale-component",
+        "finale-roadside_tomb_sign"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_finale_sickbed_v1",
+      "name": "梁山伯病榻",
+      "category": "decoration",
+      "path": "components/decoration/comp_finale_sickbed_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "finale",
+        "sickbed",
+        "finale-reference-v1",
+        "story-finale-component",
+        "finale-sickbed"
+      ],
+      "width": 144,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_lz_prop_betrothal_chest_story_v1",
       "name": "聘礼箱",
       "category": "decoration",
@@ -9072,6 +9282,69 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_finale_butterfly_wings_v1",
+      "name": "化蝶双翼光影",
+      "category": "effect",
+      "path": "components/effect/comp_finale_butterfly_wings_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "finale",
+        "butterfly_wings",
+        "finale-reference-v1",
+        "story-finale-component",
+        "finale-butterfly_wings"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_finale_memory_silhouettes_v1",
+      "name": "旧景低影剪影",
+      "category": "effect",
+      "path": "components/effect/comp_finale_memory_silhouettes_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "finale",
+        "memory_silhouettes",
+        "finale-reference-v1",
+        "story-finale-component",
+        "finale-memory_silhouettes"
+      ],
+      "width": 144,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_finale_rain_curtain_v1",
+      "name": "终章雨帘",
+      "category": "effect",
+      "path": "components/effect/comp_finale_rain_curtain_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "finale",
+        "rain_curtain",
+        "finale-reference-v1",
+        "story-finale-component",
+        "finale-rain_curtain"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_lz_prop_butterflies_story_v1",
       "name": "双蝶光影",
       "category": "effect",
@@ -9717,6 +9990,27 @@
         "eighteen-mile-reference-v1",
         "story-farewell-component",
         "farewell-stream_bank"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_finale_grave_crack_v1",
+      "name": "裂开的坟土",
+      "category": "terrain",
+      "path": "components/terrain/comp_finale_grave_crack_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "finale",
+        "grave_crack",
+        "finale-reference-v1",
+        "story-finale-component",
+        "finale-grave_crack"
       ],
       "width": 128,
       "height": 96,
