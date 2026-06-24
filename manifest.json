@@ -1199,6 +1199,27 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_pressure_ma_gate_v1",
+      "name": "马府黑瓦门楼",
+      "category": "building",
+      "path": "components/building/comp_pressure_ma_gate_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "pressure",
+        "ma_gate",
+        "forced-marriage-reference-v1",
+        "story-pressure-component",
+        "pressure-ma_gate"
+      ],
+      "width": 144,
+      "height": 112,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_zhuyingtai_home_front_gate_wall_v1",
       "name": "祝英台家 前门院墙 v1",
       "category": "building",
@@ -8728,6 +8749,216 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_pressure_ancestor_tablet_v1",
+      "name": "祝府祖先牌位",
+      "category": "decoration",
+      "path": "components/decoration/comp_pressure_ancestor_tablet_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "pressure",
+        "ancestor_tablet",
+        "forced-marriage-reference-v1",
+        "story-pressure-component",
+        "pressure-ancestor_tablet"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_pressure_betrothal_chest_stack_v1",
+      "name": "聘礼箱堆",
+      "category": "decoration",
+      "path": "components/decoration/comp_pressure_betrothal_chest_stack_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "pressure",
+        "betrothal_chest_stack",
+        "forced-marriage-reference-v1",
+        "story-pressure-component",
+        "pressure-betrothal_chest_stack"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_pressure_boudoir_vanity_v1",
+      "name": "闺房妆台",
+      "category": "decoration",
+      "path": "components/decoration/comp_pressure_boudoir_vanity_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "pressure",
+        "boudoir_vanity",
+        "forced-marriage-reference-v1",
+        "story-pressure-component",
+        "pressure-boudoir_vanity"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_pressure_ceremony_screen_v1",
+      "name": "礼法屏风",
+      "category": "decoration",
+      "path": "components/decoration/comp_pressure_ceremony_screen_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "pressure",
+        "ceremony_screen",
+        "forced-marriage-reference-v1",
+        "story-pressure-component",
+        "pressure-ceremony_screen"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_pressure_county_seal_desk_v1",
+      "name": "县印婚书案",
+      "category": "decoration",
+      "path": "components/decoration/comp_pressure_county_seal_desk_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "pressure",
+        "county_seal_desk",
+        "forced-marriage-reference-v1",
+        "story-pressure-component",
+        "pressure-county_seal_desk"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_pressure_guard_rack_v1",
+      "name": "马府兵仆器架",
+      "category": "decoration",
+      "path": "components/decoration/comp_pressure_guard_rack_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "pressure",
+        "guard_rack",
+        "forced-marriage-reference-v1",
+        "story-pressure-component",
+        "pressure-guard_rack"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_pressure_marriage_desk_v1",
+      "name": "婚书礼案",
+      "category": "decoration",
+      "path": "components/decoration/comp_pressure_marriage_desk_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "pressure",
+        "marriage_desk",
+        "forced-marriage-reference-v1",
+        "story-pressure-component",
+        "pressure-marriage_desk"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_pressure_old_book_chest_v1",
+      "name": "旧书箱与折扇",
+      "category": "decoration",
+      "path": "components/decoration/comp_pressure_old_book_chest_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "pressure",
+        "old_book_chest",
+        "forced-marriage-reference-v1",
+        "story-pressure-component",
+        "pressure-old_book_chest"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_pressure_red_candles_v1",
+      "name": "红烛压迫光",
+      "category": "decoration",
+      "path": "components/decoration/comp_pressure_red_candles_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "pressure",
+        "red_candles",
+        "forced-marriage-reference-v1",
+        "story-pressure-component",
+        "pressure-red_candles"
+      ],
+      "width": 96,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_pressure_window_bamboo_shadow_v1",
+      "name": "窗格竹影",
+      "category": "decoration",
+      "path": "components/decoration/comp_pressure_window_bamboo_shadow_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "pressure",
+        "window_bamboo_shadow",
+        "forced-marriage-reference-v1",
+        "story-pressure-component",
+        "pressure-window_bamboo_shadow"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_zhuyingtai_home_flower_bed_v1",
       "name": "祝英台家 花圃 v1",
       "category": "decoration",
@@ -9334,6 +9565,27 @@
       ],
       "width": 384,
       "height": 192,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_pressure_cold_door_rain_v1",
+      "name": "冷雨门外",
+      "category": "effect",
+      "path": "components/effect/comp_pressure_cold_door_rain_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "pressure",
+        "cold_door_rain",
+        "forced-marriage-reference-v1",
+        "story-pressure-component",
+        "pressure-cold_door_rain"
+      ],
+      "width": 112,
+      "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
     },

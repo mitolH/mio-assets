@@ -560,6 +560,34 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_pressure_ma_gate_v1",
+          "tileX": 13,
+          "tileY": 3,
+          "refId": "map_lz_ch04_ma_courtyard_v1_pressure_reference_ma_gate"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_pressure_betrothal_chest_stack_v1",
+          "tileX": 3,
+          "tileY": 18,
+          "refId": "map_lz_ch04_ma_courtyard_v1_pressure_reference_betrothal_chest_stack"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_pressure_guard_rack_v1",
+          "tileX": 32,
+          "tileY": 17,
+          "refId": "map_lz_ch04_ma_courtyard_v1_pressure_reference_guard_rack"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_pressure_cold_door_rain_v1",
+          "tileX": 22,
+          "tileY": 18,
+          "refId": "map_lz_ch04_ma_courtyard_v1_pressure_reference_cold_door_rain"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch04_ma_courtyard_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,

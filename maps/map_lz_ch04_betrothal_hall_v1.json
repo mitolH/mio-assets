@@ -560,6 +560,34 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_pressure_county_seal_desk_v1",
+          "tileX": 15,
+          "tileY": 16,
+          "refId": "map_lz_ch04_betrothal_hall_v1_pressure_reference_county_seal_desk"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_pressure_red_candles_v1",
+          "tileX": 4,
+          "tileY": 18,
+          "refId": "map_lz_ch04_betrothal_hall_v1_pressure_reference_red_candles"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_pressure_ceremony_screen_v1",
+          "tileX": 29,
+          "tileY": 8,
+          "refId": "map_lz_ch04_betrothal_hall_v1_pressure_reference_ceremony_screen"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_pressure_marriage_desk_v1",
+          "tileX": 30,
+          "tileY": 17,
+          "refId": "map_lz_ch04_betrothal_hall_v1_pressure_reference_marriage_desk"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch04_betrothal_hall_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,

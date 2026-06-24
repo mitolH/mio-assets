@@ -560,6 +560,34 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_pressure_boudoir_vanity_v1",
+          "tileX": 4,
+          "tileY": 9,
+          "refId": "map_lz_ch04_boudoir_v1_pressure_reference_boudoir_vanity"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_pressure_old_book_chest_v1",
+          "tileX": 17,
+          "tileY": 18,
+          "refId": "map_lz_ch04_boudoir_v1_pressure_reference_old_book_chest"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_pressure_window_bamboo_shadow_v1",
+          "tileX": 29,
+          "tileY": 8,
+          "refId": "map_lz_ch04_boudoir_v1_pressure_reference_window_bamboo_shadow"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_pressure_cold_door_rain_v1",
+          "tileX": 34,
+          "tileY": 17,
+          "refId": "map_lz_ch04_boudoir_v1_pressure_reference_cold_door_rain"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch04_boudoir_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,
