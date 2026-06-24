@@ -560,6 +560,34 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_academy_bookshelf_v1",
+          "tileX": 4,
+          "tileY": 5,
+          "refId": "map_lz_ch02_library_v1_academy_reference_bookshelf_left"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_bookshelf_v1",
+          "tileX": 34,
+          "tileY": 5,
+          "refId": "map_lz_ch02_library_v1_academy_reference_bookshelf_right"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_desk_cluster_v1",
+          "tileX": 15,
+          "tileY": 18,
+          "refId": "map_lz_ch02_library_v1_academy_reference_desk_cluster"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_lecture_screen_v1",
+          "tileX": 19,
+          "tileY": 4,
+          "refId": "map_lz_ch02_library_v1_academy_reference_lecture_screen"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch02_library_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,

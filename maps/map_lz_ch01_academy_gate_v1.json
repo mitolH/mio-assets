@@ -560,6 +560,27 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_academy_front_gate_v1",
+          "tileX": 11,
+          "tileY": 2,
+          "refId": "map_lz_ch01_academy_gate_v1_academy_reference_front_gate"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_notice_board_v1",
+          "tileX": 4,
+          "tileY": 15,
+          "refId": "map_lz_ch01_academy_gate_v1_academy_reference_notice_board"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_plum_tree_v1",
+          "tileX": 35,
+          "tileY": 9,
+          "refId": "map_lz_ch01_academy_gate_v1_academy_reference_plum_tree"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch01_academy_gate_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,
