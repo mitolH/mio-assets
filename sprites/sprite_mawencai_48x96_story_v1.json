@@ -12,7 +12,12 @@
     "mawencai-detail-v2",
     "red-gold-power-robe-v2",
     "stern-brow-face-v2",
-    "jade-command-pendant-v2"
+    "jade-command-pendant-v2",
+    "mawencai-detail-v3",
+    "protagonist-antagonist-silhouette-v3",
+    "embroidered-gold-sash-v3",
+    "green-jade-command-pendant-v3",
+    "stable-noble-animation-baseline-v3"
   ],
   "styleProfile": {
     "storyId": "liangzhu",
@@ -24,7 +29,11 @@
       "stern noble face",
       "red gold power robe",
       "embroidered pressure sash",
-      "jade command pendant"
+      "jade command pendant",
+      "protagonist-grade antagonist silhouette",
+      "layered red robe with gold embroidery",
+      "green jade command pendant on right side",
+      "stable noble stance across all clips"
     ]
   },
   "width": 48,
