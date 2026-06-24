@@ -1,7 +1,7 @@
 {
   "name": "mio-world-assets",
   "version": "1.0.0",
-  "updatedAt": 1782325200000,
+  "updatedAt": 1782326458033,
   "components": [
     {
       "id": "comp_lz_academy_courtyard_focus_story_v1",
@@ -2460,8 +2460,8 @@
       "path": "maps/map_zhuyingtai_home_courtyard_v1.json",
       "widthInTiles": 40,
       "heightInTiles": 34,
-      "version": 10,
-      "updatedAt": 1782321749717
+      "version": 11,
+      "updatedAt": 1782326457977
     }
   ],
   "sprites": [
