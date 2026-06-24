@@ -1,0 +1,950 @@
+{
+  "id": "map_liangzhu_academy_courtyard_v1",
+  "name": "梁祝书院前庭 v1",
+  "description": "梁山伯与祝英台同窗求学时期的书院前庭，小型可玩场景。",
+  "widthInTiles": 44,
+  "heightInTiles": 32,
+  "layers": [
+    {
+      "id": "layer_ground",
+      "name": "Ground",
+      "type": "ground",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 0,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 4,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 8,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 12,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 16,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 20,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 24,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 28,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 32,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 36,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 40,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 0,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 4,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 8,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 12,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 16,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 20,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 24,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 28,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 32,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 36,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 40,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 0,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 4,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 8,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 12,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 16,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 20,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 24,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 28,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 32,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 36,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 40,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 0,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 4,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 8,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 12,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 16,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 20,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 24,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 28,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 32,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 36,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 40,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 0,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 4,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 8,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 12,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 16,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 20,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 24,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 28,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 32,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 36,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 40,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 0,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 4,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 8,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 12,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 16,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 20,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 24,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 28,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 32,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 36,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 40,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 0,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 4,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 8,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 12,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 16,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 20,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 24,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 28,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 32,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 36,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 40,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 0,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 4,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 8,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 12,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 16,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 20,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 24,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 28,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 32,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 36,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_grass_tile_v1",
+          "tileX": 40,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 16,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 20,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 24,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 16,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 20,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 24,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 16,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 20,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 24,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 16,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 20,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 24,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 16,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 20,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 24,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_dirt_path_v1",
+          "tileX": 8,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_dirt_path_v1",
+          "tileX": 12,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_dirt_path_v1",
+          "tileX": 16,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_dirt_path_v1",
+          "tileX": 20,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_dirt_path_v1",
+          "tileX": 24,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_dirt_path_v1",
+          "tileX": 28,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_dirt_path_v1",
+          "tileX": 32,
+          "tileY": 24
+        }
+      ]
+    },
+    {
+      "id": "layer_object",
+      "name": "Object",
+      "type": "object",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_study_hall_v1",
+          "tileX": 10,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_corridor_v1",
+          "tileX": 0,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_corridor_v1",
+          "tileX": 28,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_bamboo_grove_v1",
+          "tileX": 2,
+          "tileY": 10
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_bamboo_grove_v1",
+          "tileX": 37,
+          "tileY": 9
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_plum_tree_v1",
+          "tileX": 32,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_stone_table_books_v1",
+          "tileX": 14,
+          "tileY": 21,
+          "refId": "academy_courtyard_books",
+          "interaction": {
+            "interactionRange": 4,
+            "indicatorType": "sparkle",
+            "interactions": [
+              {
+                "id": "read_courtyard_books",
+                "name": "翻看石桌书卷",
+                "description": "石桌上摊着半卷《诗经》。朱英台把句读标在旁边，梁山伯在页角写下自己的疑问。",
+                "type": "examine",
+                "conditions": [],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "石桌上摊着半卷《诗经》。朱英台把句读标在旁边，梁山伯在页角写下自己的疑问。"
+                  }
+                ],
+                "weight": 1
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_notice_board_v1",
+          "tileX": 29,
+          "tileY": 18,
+          "refId": "academy_notice_board",
+          "interaction": {
+            "interactionRange": 4,
+            "indicatorType": "exclamation",
+            "interactions": [
+              {
+                "id": "read_notice_board",
+                "name": "查看书院告示",
+                "description": "告示写着今日课业：晨读、论诗、暮鼓前归斋。旁边新添一行小字：同窗互校，不可敷衍。",
+                "type": "examine",
+                "conditions": [],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "告示写着今日课业：晨读、论诗、暮鼓前归斋。旁边新添一行小字：同窗互校，不可敷衍。"
+                  }
+                ],
+                "weight": 1
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_bridge_v1",
+          "tileX": 5,
+          "tileY": 25
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_academy_door_marker_v1",
+          "tileX": 21,
+          "tileY": 11
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_zhuyingtai_48x96_64c_v2",
+          "animationId": "idle-down",
+          "tileX": 18,
+          "tileY": 23,
+          "refId": "npc_zhuyingtai_classmate",
+          "interaction": {
+            "interactionRange": 5,
+            "indicatorType": "question",
+            "interactions": [
+              {
+                "id": "talk_zhuyingtai_courtyard",
+                "name": "与祝英台谈课业",
+                "description": "祝英台：先生今日讲“求同存异”。若有疑处，我们不妨各写一解，晚些再互看。",
+                "type": "talk",
+                "conditions": [],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "祝英台：先生今日讲“求同存异”。若有疑处，我们不妨各写一解，晚些再互看。"
+                  },
+                  {
+                    "type": "play_animation",
+                    "target": "npc_zhuyingtai_classmate",
+                    "value": "idle-down"
+                  }
+                ],
+                "weight": 1
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_liangshanbo_48x96_64c_v1",
+          "animationId": "idle-down",
+          "tileX": 25,
+          "tileY": 23,
+          "refId": "npc_liangshanbo_classmate",
+          "interaction": {
+            "interactionRange": 5,
+            "indicatorType": "question",
+            "interactions": [
+              {
+                "id": "talk_liangshanbo_courtyard",
+                "name": "与梁山伯谈课业",
+                "description": "梁山伯：方才那段我想了两种解法。英台兄若不嫌，我把书案让出来，我们一处推敲。",
+                "type": "talk",
+                "conditions": [],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "梁山伯：方才那段我想了两种解法。英台兄若不嫌，我把书案让出来，我们一处推敲。"
+                  },
+                  {
+                    "type": "play_animation",
+                    "target": "npc_liangshanbo_classmate",
+                    "value": "idle-down"
+                  }
+                ],
+                "weight": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer_decoration",
+      "name": "Decoration",
+      "type": "decoration",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": []
+    },
+    {
+      "id": "layer_collision",
+      "name": "Collision",
+      "type": "collision",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": []
+    }
+  ],
+  "districts": [
+    {
+      "districtId": "academy_courtyard",
+      "name": "书院前庭",
+      "x": 0,
+      "y": 8,
+      "width": 44,
+      "height": 24,
+      "terrainTags": [
+        "urban",
+        "road"
+      ],
+      "adjacentDistrictIds": [],
+      "defaultEventDensity": 0.2,
+      "locations": [
+        {
+          "id": "academy_courtyard_start",
+          "name": "前庭石径",
+          "terrainTags": [
+            "urban",
+            "road"
+          ],
+          "eventDensity": 0.1,
+          "offsetX": 22,
+          "offsetY": 18
+        },
+        {
+          "id": "academy_courtyard_table",
+          "name": "石桌旁",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 0.15,
+          "offsetX": 16,
+          "offsetY": 16
+        },
+        {
+          "id": "academy_courtyard_study_door",
+          "name": "讲堂门前",
+          "terrainTags": [
+            "urban",
+            "road"
+          ],
+          "eventDensity": 0.1,
+          "offsetX": 22,
+          "offsetY": 3
+        }
+      ]
+    }
+  ],
+  "itemDefs": [],
+  "teleports": [
+    {
+      "id": "tp_academy_courtyard_to_study",
+      "name": "进入讲堂",
+      "sourceTileX": 22,
+      "sourceTileY": 11,
+      "target": {
+        "mapId": "map_liangzhu_academy_study_v1",
+        "tileX": 22,
+        "tileY": 29,
+        "locationId": "academy_study_exit"
+      },
+      "bidirectional": true,
+      "conditions": [],
+      "visualType": "door"
+    }
+  ],
+  "createdAt": 1782321800000,
+  "updatedAt": 1782321800000,
+  "version": 1
+}

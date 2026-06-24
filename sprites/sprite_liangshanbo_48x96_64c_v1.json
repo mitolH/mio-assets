@@ -1,15 +1,15 @@
 {
-  "id": "sprite_zhuyingtai_48x96_64c_v2",
-  "name": "祝英台 48x96 64c v2",
+  "id": "sprite_liangshanbo_48x96_64c_v1",
+  "name": "梁山伯 48x96 64c v1",
   "category": "character",
-  "description": "祝英台 48x96 单层五动画草稿，64色量化版本",
+  "description": "梁山伯 48x96 单层五动画，蓝袍书生像素漫画风版本。",
   "tags": [
-    "zhuyingtai",
-    "祝英台",
+    "liangshanbo",
+    "梁山伯",
     "character",
     "48x96",
     "64c",
-    "v2"
+    "v1"
   ],
   "width": 48,
   "height": 96,
@@ -23,12 +23,17 @@
     "offsetTileX": 0,
     "offsetTileY": 0
   },
+  "collisionMask": [
+    [
+      true
+    ]
+  ],
   "layers": [
     {
       "id": "layer_full",
       "name": "full",
       "zOrder": 0,
-      "defaultComponentId": "comp_zhuyingtai_idle_down_f1_64c_v2",
+      "defaultComponentId": "comp_liangshanbo_idle-down_f1_64c_v1",
       "defaultOffsetX": -24,
       "defaultOffsetY": -96,
       "visible": true
@@ -43,46 +48,46 @@
       "priority": 0,
       "frames": [
         {
-          "duration": 320,
+          "duration": 220,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_idle_down_f1_64c_v2"
+              "componentId": "comp_liangshanbo_idle-down_f1_64c_v1"
             }
           ]
         },
         {
-          "duration": 320,
+          "duration": 220,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_idle_down_f2_64c_v2"
+              "componentId": "comp_liangshanbo_idle-down_f2_64c_v1"
             }
           ]
         },
         {
-          "duration": 320,
+          "duration": 220,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_idle_down_f3_64c_v2"
+              "componentId": "comp_liangshanbo_idle-down_f3_64c_v1"
             }
           ]
         },
         {
-          "duration": 320,
+          "duration": 220,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_idle_down_f4_64c_v2"
+              "componentId": "comp_liangshanbo_idle-down_f4_64c_v1"
             }
           ]
         }
@@ -90,52 +95,52 @@
     },
     {
       "id": "walk-down",
-      "name": "Walk Down",
+      "name": "walk down",
       "loop": true,
       "interruptPolicy": "interruptible",
       "priority": 1,
       "frames": [
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_down_f1_64c_v2"
+              "componentId": "comp_liangshanbo_walk-down_f1_64c_v1"
             }
           ]
         },
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_down_f2_64c_v2"
+              "componentId": "comp_liangshanbo_walk-down_f2_64c_v1"
             }
           ]
         },
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_down_f3_64c_v2"
+              "componentId": "comp_liangshanbo_walk-down_f3_64c_v1"
             }
           ]
         },
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_down_f4_64c_v2"
+              "componentId": "comp_liangshanbo_walk-down_f4_64c_v1"
             }
           ]
         }
@@ -143,52 +148,52 @@
     },
     {
       "id": "walk-left",
-      "name": "Walk Left",
+      "name": "walk left",
       "loop": true,
       "interruptPolicy": "interruptible",
       "priority": 1,
       "frames": [
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_left_f1_64c_v2"
+              "componentId": "comp_liangshanbo_walk-left_f1_64c_v1"
             }
           ]
         },
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_left_f2_64c_v2"
+              "componentId": "comp_liangshanbo_walk-left_f2_64c_v1"
             }
           ]
         },
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_left_f3_64c_v2"
+              "componentId": "comp_liangshanbo_walk-left_f3_64c_v1"
             }
           ]
         },
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_left_f4_64c_v2"
+              "componentId": "comp_liangshanbo_walk-left_f4_64c_v1"
             }
           ]
         }
@@ -196,52 +201,52 @@
     },
     {
       "id": "walk-right",
-      "name": "Walk Right",
+      "name": "walk right",
       "loop": true,
       "interruptPolicy": "interruptible",
       "priority": 1,
       "frames": [
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_right_f1_64c_v2"
+              "componentId": "comp_liangshanbo_walk-right_f1_64c_v1"
             }
           ]
         },
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_right_f2_64c_v2"
+              "componentId": "comp_liangshanbo_walk-right_f2_64c_v1"
             }
           ]
         },
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_right_f3_64c_v2"
+              "componentId": "comp_liangshanbo_walk-right_f3_64c_v1"
             }
           ]
         },
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_right_f4_64c_v2"
+              "componentId": "comp_liangshanbo_walk-right_f4_64c_v1"
             }
           ]
         }
@@ -249,52 +254,52 @@
     },
     {
       "id": "walk-up",
-      "name": "Walk Up",
+      "name": "walk up",
       "loop": true,
       "interruptPolicy": "interruptible",
       "priority": 1,
       "frames": [
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_up_f1_64c_v2"
+              "componentId": "comp_liangshanbo_walk-up_f1_64c_v1"
             }
           ]
         },
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_up_f2_64c_v2"
+              "componentId": "comp_liangshanbo_walk-up_f2_64c_v1"
             }
           ]
         },
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_up_f3_64c_v2"
+              "componentId": "comp_liangshanbo_walk-up_f3_64c_v1"
             }
           ]
         },
         {
-          "duration": 150,
+          "duration": 130,
           "layerStates": [
             {
               "layerId": "layer_full",
               "offsetX": 0,
               "offsetY": 0,
-              "componentId": "comp_zhuyingtai_walk_up_f4_64c_v2"
+              "componentId": "comp_liangshanbo_walk-up_f4_64c_v1"
             }
           ]
         }
@@ -302,7 +307,7 @@
     }
   ],
   "defaultAnimationId": "idle-down",
-  "createdAt": 1782300674285,
-  "updatedAt": 1782300674285,
+  "createdAt": 1782321800000,
+  "updatedAt": 1782321800000,
   "version": 1
 }

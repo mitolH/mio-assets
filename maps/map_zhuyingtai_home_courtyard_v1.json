@@ -704,24 +704,8 @@
     }
   ],
   "itemDefs": [],
-  "teleports": [
-    {
-      "id": "tp_zhuyingtai_home_gate_to_outside",
-      "name": "离开祝家小院",
-      "sourceTileX": 20,
-      "sourceTileY": 32,
-      "target": {
-        "mapId": "map_zhuyingtai_home_outside_placeholder",
-        "tileX": 20,
-        "tileY": 2,
-        "locationId": "loc_zhuyingtai_home_outside_gate"
-      },
-      "bidirectional": true,
-      "conditions": [],
-      "visualType": "door"
-    }
-  ],
+  "teleports": [],
   "createdAt": 1782314654465,
-  "updatedAt": 1782319801424,
-  "version": 6
+  "updatedAt": 1782321800000,
+  "version": 7
 }
