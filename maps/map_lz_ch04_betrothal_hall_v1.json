@@ -828,6 +828,13 @@
       "components": [
         {
           "assetType": "component",
+          "componentId": "comp_map_lz_ch04_betrothal_hall_v1_story_composition_v4",
+          "tileX": 10,
+          "tileY": 13,
+          "refId": "map_lz_ch04_betrothal_hall_v1_story_composition"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch04_betrothal_hall_v1_story_tableau_v3",
           "tileX": 2,
           "tileY": 12,
