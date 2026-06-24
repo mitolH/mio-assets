@@ -14,7 +14,12 @@
         "梁祝",
         "tier-s",
         "academy_gate",
-        "academy_gate"
+        "academy_gate",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-academy_gate",
+        "focus-academy-first-gate",
+        "academy-roof-depth"
       ],
       "width": 256,
       "height": 128,
@@ -53,7 +58,11 @@
         "梁祝",
         "tier-a",
         "mountain_pavilion",
-        "pavilion"
+        "pavilion",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-pavilion",
+        "focus-pavilion-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -92,7 +101,11 @@
         "梁祝",
         "tier-a",
         "river_ferry",
-        "ferry"
+        "ferry",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-ferry",
+        "focus-ferry-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -131,7 +144,11 @@
         "梁祝",
         "tier-s",
         "zhufu_courtyard",
-        "zhufu"
+        "zhufu",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-zhufu",
+        "focus-zhufu-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -149,7 +166,11 @@
         "梁祝",
         "tier-a",
         "academy_courtyard",
-        "academy"
+        "academy",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-academy",
+        "focus-academy-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -188,7 +209,11 @@
         "梁祝",
         "tier-a",
         "bamboo_path",
-        "bamboo"
+        "bamboo",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-bamboo",
+        "focus-bamboo-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -227,7 +252,11 @@
         "梁祝",
         "tier-a",
         "classroom",
-        "classroom"
+        "classroom",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-classroom",
+        "focus-classroom-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -266,7 +295,11 @@
         "梁祝",
         "tier-a",
         "dorm_corridor",
-        "corridor"
+        "corridor",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-corridor",
+        "focus-corridor-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -305,7 +338,11 @@
         "梁祝",
         "tier-a",
         "library",
-        "library"
+        "library",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-library",
+        "focus-library-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -344,7 +381,11 @@
         "梁祝",
         "tier-s",
         "academy_gate",
-        "academy_gate"
+        "academy_gate",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-academy_gate",
+        "focus-academy_gate-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -383,7 +424,11 @@
         "梁祝",
         "tier-s",
         "creek_bridge",
-        "bridge"
+        "bridge",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-bridge",
+        "focus-bridge-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -422,7 +467,11 @@
         "梁祝",
         "tier-a",
         "fork_road",
-        "road_sign"
+        "road_sign",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-road_sign",
+        "focus-road_sign-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -461,7 +510,12 @@
         "梁祝",
         "tier-s",
         "long_pavilion",
-        "long_pavilion"
+        "long_pavilion",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-long_pavilion",
+        "focus-eighteen-mile-pavilion",
+        "farewell-pavilion-woodwork"
       ],
       "width": 256,
       "height": 128,
@@ -500,7 +554,11 @@
         "梁祝",
         "tier-a",
         "mulberry_path",
-        "mulberry"
+        "mulberry",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-mulberry",
+        "focus-mulberry-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -539,7 +597,11 @@
         "梁祝",
         "tier-s",
         "betrothal_hall",
-        "betrothal"
+        "betrothal",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-betrothal",
+        "focus-betrothal-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -578,7 +640,11 @@
         "梁祝",
         "tier-s",
         "boudoir",
-        "boudoir"
+        "boudoir",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-boudoir",
+        "focus-boudoir-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -617,7 +683,12 @@
         "梁祝",
         "tier-s",
         "ma_courtyard",
-        "ma_gate"
+        "ma_gate",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-ma_gate",
+        "focus-ma-family-power",
+        "red-gold-power-gate"
       ],
       "width": 256,
       "height": 128,
@@ -656,7 +727,11 @@
         "梁祝",
         "tier-s",
         "zhufu_hall",
-        "zhufu_hall"
+        "zhufu_hall",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-zhufu_hall",
+        "focus-zhufu_hall-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -695,7 +770,12 @@
         "梁祝",
         "tier-s",
         "butterfly_end",
-        "butterfly"
+        "butterfly",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-butterfly",
+        "focus-butterfly-tomb-release",
+        "butterfly-light-release"
       ],
       "width": 256,
       "height": 128,
@@ -734,7 +814,12 @@
         "梁祝",
         "tier-s",
         "grave",
-        "grave"
+        "grave",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-grave",
+        "focus-grave-stone-rain",
+        "storm-wet-tomb"
       ],
       "width": 256,
       "height": 128,
@@ -773,7 +858,12 @@
         "梁祝",
         "tier-s",
         "sickroom",
-        "sickroom"
+        "sickroom",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-sickroom",
+        "focus-sickroom-bed-curtain",
+        "cold-bed-light"
       ],
       "width": 256,
       "height": 128,
@@ -812,7 +902,11 @@
         "梁祝",
         "tier-s",
         "tower",
-        "tower"
+        "tower",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-tower",
+        "focus-tower-architecture"
       ],
       "width": 256,
       "height": 128,
@@ -851,7 +945,11 @@
         "梁祝",
         "tier-s",
         "wedding_road",
-        "wedding"
+        "wedding",
+        "focus-architecture-v8",
+        "core-scene-focus-v8",
+        "focus-wedding",
+        "focus-wedding-architecture"
       ],
       "width": 256,
       "height": 128,
