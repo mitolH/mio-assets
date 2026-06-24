@@ -691,12 +691,22 @@
                   },
                   {
                     "type": "modify_attribute",
-                    "target": "social",
-                    "value": -4
+                    "target": "health",
+                    "value": -1
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "mood",
+                    "value": -3
                   },
                   {
                     "type": "modify_story_variable",
                     "target": "tragedyWeight",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "liangTrust",
                     "value": 1
                   },
                   {
@@ -731,12 +741,27 @@
                   },
                   {
                     "type": "modify_attribute",
+                    "target": "mood",
+                    "value": -3
+                  },
+                  {
+                    "type": "modify_attribute",
                     "target": "social",
-                    "value": -2
+                    "value": -1
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "wealth",
+                    "value": 1
                   },
                   {
                     "type": "modify_story_variable",
                     "target": "maRestraint",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "maPressure",
                     "value": 1
                   },
                   {

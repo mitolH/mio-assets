@@ -642,11 +642,21 @@
                   {
                     "type": "modify_attribute",
                     "target": "mood",
+                    "value": 2
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "wealth",
                     "value": -1
                   },
                   {
                     "type": "modify_story_variable",
                     "target": "identityRisk",
+                    "value": -1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "liangTrust",
                     "value": 1
                   },
                   {
@@ -682,7 +692,12 @@
                   {
                     "type": "modify_attribute",
                     "target": "social",
-                    "value": 2
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "mood",
+                    "value": 1
                   },
                   {
                     "type": "modify_story_variable",
@@ -722,6 +737,11 @@
                   {
                     "type": "modify_attribute",
                     "target": "social",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "wealth",
                     "value": 1
                   },
                   {

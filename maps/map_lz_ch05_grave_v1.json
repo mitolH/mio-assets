@@ -645,8 +645,23 @@
                     "value": -5
                   },
                   {
+                    "type": "modify_attribute",
+                    "target": "social",
+                    "value": -3
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "health",
+                    "value": -2
+                  },
+                  {
                     "type": "modify_story_variable",
                     "target": "tragedyWeight",
+                    "value": 2
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "liangTrust",
                     "value": 1
                   },
                   {
@@ -681,8 +696,18 @@
                   },
                   {
                     "type": "modify_attribute",
+                    "target": "mood",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_attribute",
                     "target": "social",
-                    "value": -4
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "liangTrust",
+                    "value": 1
                   },
                   {
                     "type": "modify_story_variable",
@@ -721,12 +746,27 @@
                   },
                   {
                     "type": "modify_attribute",
+                    "target": "mood",
+                    "value": -4
+                  },
+                  {
+                    "type": "modify_attribute",
                     "target": "social",
-                    "value": -2
+                    "value": -3
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "health",
+                    "value": -1
                   },
                   {
                     "type": "modify_story_variable",
                     "target": "maRestraint",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "tragedyWeight",
                     "value": 1
                   },
                   {

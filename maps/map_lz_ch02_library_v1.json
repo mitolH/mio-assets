@@ -642,7 +642,17 @@
                   {
                     "type": "modify_attribute",
                     "target": "mood",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "health",
                     "value": -1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "liangTrust",
+                    "value": 1
                   },
                   {
                     "type": "modify_story_variable",
@@ -681,12 +691,22 @@
                   },
                   {
                     "type": "modify_attribute",
+                    "target": "mood",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_attribute",
                     "target": "social",
-                    "value": 2
+                    "value": 1
                   },
                   {
                     "type": "modify_story_variable",
                     "target": "liangTrust",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "promiseClarity",
                     "value": 1
                   },
                   {
@@ -725,8 +745,18 @@
                     "value": 1
                   },
                   {
+                    "type": "modify_attribute",
+                    "target": "mood",
+                    "value": -1
+                  },
+                  {
                     "type": "modify_story_variable",
                     "target": "maRestraint",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "maPressure",
                     "value": 1
                   },
                   {
