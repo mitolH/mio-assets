@@ -2,12 +2,18 @@
   "id": "comp_zhuyingtai_home_water_jar_v1",
   "name": "祝英台家 陶罐水缸 v1",
   "category": "decoration",
-  "description": "院落边角水缸和陶罐组件。",
+  "description": "祝英台家 陶罐水缸 v1，已纳入梁祝主线的祝英台家小院高精度参考资产。",
   "tags": [
+    "liangzhu-story-v1",
+    "liangzhu",
+    "梁祝",
+    "tier-a",
     "zhuyingtai-home",
     "jar",
     "decoration",
-    "v1"
+    "v1",
+    "zhufu-home-reference-v2",
+    "approved-courtyard-reference"
   ],
   "width": 48,
   "height": 64,
@@ -3305,6 +3311,23 @@
     ]
   ],
   "createdAt": 1782314654465,
-  "updatedAt": 1782314654465,
-  "version": 1
+  "updatedAt": 1782325200000,
+  "version": 1,
+  "styleProfile": {
+    "storyId": "liangzhu",
+    "visualStyle": "semi-realistic pixel comic",
+    "baseTileSize": 16,
+    "characterScale": "48x96",
+    "detailTier": "A",
+    "sceneFamily": "zhufu",
+    "chapterPalette": "warm-zhufu-river-academy",
+    "detailPass": "zhufu-home-reference-v2",
+    "narrativeMotifs": [
+      "home-departure",
+      "hidden-identity",
+      "approved-courtyard-reference"
+    ],
+    "material": "zhufu-home-decoration",
+    "sourceQuality": "approved-courtyard-reference"
+  }
 }

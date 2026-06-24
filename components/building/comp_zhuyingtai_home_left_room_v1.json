@@ -2,12 +2,18 @@
   "id": "comp_zhuyingtai_home_left_room_v1",
   "name": "祝英台家 左侧厢房 v1",
   "category": "building",
-  "description": "左侧厢房和边角植被组件。",
+  "description": "祝英台家 左侧厢房 v1，已纳入梁祝主线的祝英台家小院高精度参考资产。",
   "tags": [
+    "liangzhu-story-v1",
+    "liangzhu",
+    "梁祝",
+    "tier-s",
     "zhuyingtai-home",
     "side-room",
     "building",
-    "v1"
+    "v1",
+    "zhufu-home-reference-v2",
+    "approved-courtyard-reference"
   ],
   "width": 128,
   "height": 192,
@@ -25165,6 +25171,23 @@
     ]
   ],
   "createdAt": 1782314654465,
-  "updatedAt": 1782314654465,
-  "version": 1
+  "updatedAt": 1782325200000,
+  "version": 1,
+  "styleProfile": {
+    "storyId": "liangzhu",
+    "visualStyle": "semi-realistic pixel comic",
+    "baseTileSize": 16,
+    "characterScale": "48x96",
+    "detailTier": "S",
+    "sceneFamily": "zhufu",
+    "chapterPalette": "warm-zhufu-river-academy",
+    "detailPass": "zhufu-home-reference-v2",
+    "narrativeMotifs": [
+      "home-departure",
+      "hidden-identity",
+      "approved-courtyard-reference"
+    ],
+    "material": "zhufu-home-building",
+    "sourceQuality": "approved-courtyard-reference"
+  }
 }

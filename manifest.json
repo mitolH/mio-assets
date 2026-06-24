@@ -1093,16 +1093,22 @@
       "category": "building",
       "path": "components/building/comp_zhuyingtai_home_front_gate_wall_v1.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
         "zhuyingtai-home",
         "gate",
         "wall",
         "building",
-        "v1"
+        "v1",
+        "zhufu-home-reference-v2",
+        "approved-courtyard-reference"
       ],
       "width": 640,
       "height": 112,
       "version": 1,
-      "updatedAt": 1782314654465
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_home_left_room_v1",
@@ -1110,15 +1116,21 @@
       "category": "building",
       "path": "components/building/comp_zhuyingtai_home_left_room_v1.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
         "zhuyingtai-home",
         "side-room",
         "building",
-        "v1"
+        "v1",
+        "zhufu-home-reference-v2",
+        "approved-courtyard-reference"
       ],
       "width": 128,
       "height": 192,
       "version": 1,
-      "updatedAt": 1782314654465
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_home_main_hall_v1",
@@ -1126,16 +1138,23 @@
       "category": "building",
       "path": "components/building/comp_zhuyingtai_home_main_hall_v1.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
         "zhuyingtai-home",
         "main-hall",
         "building",
         "jiangnan",
-        "v1"
+        "v1",
+        "zhufu-home-reference-v2",
+        "approved-courtyard-reference",
+        "focus-zhufu-home-main-hall"
       ],
       "width": 384,
       "height": 176,
       "version": 1,
-      "updatedAt": 1782314654465
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_home_right_wall_room_v1",
@@ -1143,15 +1162,21 @@
       "category": "building",
       "path": "components/building/comp_zhuyingtai_home_right_wall_room_v1.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
         "zhuyingtai-home",
         "side-wall",
         "building",
-        "v1"
+        "v1",
+        "zhufu-home-reference-v2",
+        "approved-courtyard-reference"
       ],
       "width": 128,
       "height": 176,
       "version": 1,
-      "updatedAt": 1782314654465
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_county_clerk_idle_down_f1_story_v1",
@@ -7123,15 +7148,21 @@
       "category": "decoration",
       "path": "components/decoration/comp_zhuyingtai_home_flower_bed_v1.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
         "zhuyingtai-home",
         "flower-bed",
         "decoration",
-        "v1"
+        "v1",
+        "zhufu-home-reference-v2",
+        "approved-courtyard-reference"
       ],
       "width": 112,
       "height": 80,
       "version": 1,
-      "updatedAt": 1782314654465
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_home_flower_planter_v1",
@@ -7139,16 +7170,22 @@
       "category": "decoration",
       "path": "components/decoration/comp_zhuyingtai_home_flower_planter_v1.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
         "zhuyingtai-home",
         "planter",
         "flower",
         "decoration",
-        "v1"
+        "v1",
+        "zhufu-home-reference-v2",
+        "approved-courtyard-reference"
       ],
       "width": 64,
       "height": 64,
       "version": 1,
-      "updatedAt": 1782314654465
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_home_lotus_pond_v1",
@@ -7156,16 +7193,22 @@
       "category": "decoration",
       "path": "components/decoration/comp_zhuyingtai_home_lotus_pond_v1.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
         "zhuyingtai-home",
         "pond",
         "water",
         "lotus",
-        "v1"
+        "v1",
+        "zhufu-home-reference-v2",
+        "approved-courtyard-reference"
       ],
       "width": 128,
       "height": 80,
       "version": 1,
-      "updatedAt": 1782314654465
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_home_shelf_jars_v1",
@@ -7173,16 +7216,22 @@
       "category": "decoration",
       "path": "components/decoration/comp_zhuyingtai_home_shelf_jars_v1.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
         "zhuyingtai-home",
         "shelf",
         "jars",
         "decoration",
-        "v1"
+        "v1",
+        "zhufu-home-reference-v2",
+        "approved-courtyard-reference"
       ],
       "width": 96,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782314654465
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_home_water_jar_v1",
@@ -7190,15 +7239,21 @@
       "category": "decoration",
       "path": "components/decoration/comp_zhuyingtai_home_water_jar_v1.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
         "zhuyingtai-home",
         "jar",
         "decoration",
-        "v1"
+        "v1",
+        "zhufu-home-reference-v2",
+        "approved-courtyard-reference"
       ],
       "width": 48,
       "height": 64,
       "version": 1,
-      "updatedAt": 1782314654465
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_lz_prop_butterflies_story_v1",
@@ -7817,16 +7872,22 @@
       "category": "terrain",
       "path": "components/terrain/comp_zhuyingtai_home_stone_courtyard_v1.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-c",
         "zhuyingtai-home",
         "courtyard",
         "stone",
         "ground",
-        "v1"
+        "v1",
+        "zhufu-home-reference-v2",
+        "approved-courtyard-reference"
       ],
       "width": 64,
       "height": 64,
       "version": 1,
-      "updatedAt": 1782314654465
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_home_bamboo_left_v1",
@@ -7834,15 +7895,21 @@
       "category": "tree",
       "path": "components/tree/comp_zhuyingtai_home_bamboo_left_v1.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
         "zhuyingtai-home",
         "bamboo",
         "tree",
-        "v1"
+        "v1",
+        "zhufu-home-reference-v2",
+        "approved-courtyard-reference"
       ],
       "width": 64,
       "height": 176,
       "version": 1,
-      "updatedAt": 1782314654465
+      "updatedAt": 1782325200000
     },
     {
       "id": "comp_zhuyingtai_home_bamboo_right_v1",
@@ -7850,15 +7917,21 @@
       "category": "tree",
       "path": "components/tree/comp_zhuyingtai_home_bamboo_right_v1.json",
       "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
         "zhuyingtai-home",
         "bamboo",
         "tree",
-        "v1"
+        "v1",
+        "zhufu-home-reference-v2",
+        "approved-courtyard-reference"
       ],
       "width": 64,
       "height": 176,
       "version": 1,
-      "updatedAt": 1782314654465
+      "updatedAt": 1782325200000
     }
   ],
   "maps": [
@@ -7894,7 +7967,7 @@
       "name": "祝英台家 v1",
       "path": "maps/map_lz_ch01_zhufu_courtyard_v1.json",
       "widthInTiles": 44,
-      "heightInTiles": 32,
+      "heightInTiles": 34,
       "version": 1,
       "updatedAt": 1782325200000
     },
