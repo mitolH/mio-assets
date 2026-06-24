@@ -624,7 +624,7 @@
           "tileY": 5,
           "refId": "academy_study_bookshelf_left",
           "interaction": {
-            "interactionRange": 4,
+            "interactionRange": 10,
             "indicatorType": "sparkle",
             "interactions": [
               {
@@ -652,7 +652,7 @@
           "tileY": 5,
           "refId": "academy_study_bookshelf_right",
           "interaction": {
-            "interactionRange": 4,
+            "interactionRange": 10,
             "indicatorType": "sparkle",
             "interactions": [
               {
@@ -680,7 +680,7 @@
           "tileY": 3,
           "refId": "academy_lecture_screen",
           "interaction": {
-            "interactionRange": 4,
+            "interactionRange": 10,
             "indicatorType": "exclamation",
             "interactions": [
               {
@@ -708,7 +708,7 @@
           "tileY": 13,
           "refId": "academy_front_desks",
           "interaction": {
-            "interactionRange": 4,
+            "interactionRange": 10,
             "indicatorType": "sparkle",
             "interactions": [
               {
@@ -767,7 +767,7 @@
           "tileY": 24,
           "refId": "npc_zhuyingtai_study",
           "interaction": {
-            "interactionRange": 5,
+            "interactionRange": 7,
             "indicatorType": "question",
             "interactions": [
               {
@@ -801,7 +801,7 @@
           "tileY": 24,
           "refId": "npc_liangshanbo_study",
           "interaction": {
-            "interactionRange": 5,
+            "interactionRange": 7,
             "indicatorType": "question",
             "interactions": [
               {

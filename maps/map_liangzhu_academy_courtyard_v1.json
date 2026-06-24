@@ -726,7 +726,7 @@
           "tileY": 21,
           "refId": "academy_courtyard_books",
           "interaction": {
-            "interactionRange": 4,
+            "interactionRange": 10,
             "indicatorType": "sparkle",
             "interactions": [
               {
@@ -754,7 +754,7 @@
           "tileY": 18,
           "refId": "academy_notice_board",
           "interaction": {
-            "interactionRange": 4,
+            "interactionRange": 10,
             "indicatorType": "exclamation",
             "interactions": [
               {
@@ -795,7 +795,7 @@
           "tileY": 23,
           "refId": "npc_zhuyingtai_classmate",
           "interaction": {
-            "interactionRange": 5,
+            "interactionRange": 7,
             "indicatorType": "question",
             "interactions": [
               {
@@ -829,7 +829,7 @@
           "tileY": 23,
           "refId": "npc_liangshanbo_classmate",
           "interaction": {
-            "interactionRange": 5,
+            "interactionRange": 7,
             "indicatorType": "question",
             "interactions": [
               {
