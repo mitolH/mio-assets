@@ -8,14 +8,24 @@
     "liangzhu",
     "mawencai",
     "48x96",
-    "tier-s"
+    "tier-s",
+    "mawencai-detail-v2",
+    "red-gold-power-robe-v2",
+    "stern-brow-face-v2",
+    "jade-command-pendant-v2"
   ],
   "styleProfile": {
     "storyId": "liangzhu",
     "visualStyle": "semi-realistic pixel comic",
     "baseTileSize": 16,
     "characterScale": "48x96",
-    "detailTier": "S"
+    "detailTier": "S",
+    "characterMotifs": [
+      "stern noble face",
+      "red gold power robe",
+      "embroidered pressure sash",
+      "jade command pendant"
+    ]
   },
   "width": 48,
   "height": 96,
