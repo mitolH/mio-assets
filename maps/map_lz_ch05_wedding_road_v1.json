@@ -788,6 +788,34 @@
       "components": [
         {
           "assetType": "component",
+          "componentId": "comp_map_lz_ch05_wedding_road_v1_left_scene_detail_v2",
+          "tileX": 4,
+          "tileY": 23,
+          "refId": "map_lz_ch05_wedding_road_v1_scene_detail_left"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch05_wedding_road_v1_right_scene_detail_v2",
+          "tileX": 36,
+          "tileY": 22,
+          "refId": "map_lz_ch05_wedding_road_v1_scene_detail_right"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch05_wedding_road_v1_path_scene_detail_v2",
+          "tileX": 20,
+          "tileY": 25,
+          "refId": "map_lz_ch05_wedding_road_v1_scene_detail_path"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch05_wedding_road_v1_ambient_scene_detail_v2",
+          "tileX": 8,
+          "tileY": 8,
+          "refId": "map_lz_ch05_wedding_road_v1_scene_detail_ambient"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_lz_ground_grass_story_v1",
           "tileX": 1,
           "tileY": 1
@@ -865,7 +893,8 @@
       "sceneFamily": "wedding",
       "chapterPalette": "cold-rain-white-red-butterfly",
       "mood": "tragedy and transcendence",
-      "focusTier": "S"
+      "focusTier": "S",
+      "detailPass": "second-pass-v2"
     }
   }
 }
