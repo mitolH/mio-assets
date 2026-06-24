@@ -1,7 +1,7 @@
 {
   "name": "mio-world-assets",
   "version": "1.0.0",
-  "updatedAt": 1782321103065,
+  "updatedAt": 1782321186437,
   "components": [
     {
       "id": "comp_academy_corridor_v1",
@@ -1238,8 +1238,8 @@
       "path": "maps/map_zhuyingtai_home_courtyard_v1.json",
       "widthInTiles": 40,
       "heightInTiles": 34,
-      "version": 7,
-      "updatedAt": 1782321800000
+      "version": 8,
+      "updatedAt": 1782321186363
     }
   ],
   "sprites": [
