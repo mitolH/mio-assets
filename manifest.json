@@ -1,8 +1,74 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1782314655015,
+  "updatedAt": 1782315230723,
   "components": [
+    {
+      "id": "comp_zhuyingtai_home_front_gate_wall_v1",
+      "name": "祝英台家 前门院墙 v1",
+      "category": "building",
+      "path": "components/building/comp_zhuyingtai_home_front_gate_wall_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "gate",
+        "wall",
+        "building",
+        "v1"
+      ],
+      "width": 640,
+      "height": 112,
+      "version": 1,
+      "updatedAt": 1782314654465
+    },
+    {
+      "id": "comp_zhuyingtai_home_left_room_v1",
+      "name": "祝英台家 左侧厢房 v1",
+      "category": "building",
+      "path": "components/building/comp_zhuyingtai_home_left_room_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "side-room",
+        "building",
+        "v1"
+      ],
+      "width": 128,
+      "height": 192,
+      "version": 1,
+      "updatedAt": 1782314654465
+    },
+    {
+      "id": "comp_zhuyingtai_home_main_hall_v1",
+      "name": "祝英台家 主屋 v1",
+      "category": "building",
+      "path": "components/building/comp_zhuyingtai_home_main_hall_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "main-hall",
+        "building",
+        "jiangnan",
+        "v1"
+      ],
+      "width": 384,
+      "height": 176,
+      "version": 1,
+      "updatedAt": 1782314654465
+    },
+    {
+      "id": "comp_zhuyingtai_home_right_wall_room_v1",
+      "name": "祝英台家 右侧墙角 v1",
+      "category": "building",
+      "path": "components/building/comp_zhuyingtai_home_right_wall_room_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "side-wall",
+        "building",
+        "v1"
+      ],
+      "width": 128,
+      "height": 176,
+      "version": 1,
+      "updatedAt": 1782314654465
+    },
     {
       "id": "char_liangshanbo_student_casual_36",
       "name": "liang",
@@ -2517,7 +2583,7 @@
     {
       "id": "zyt_body_idle_down_001",
       "name": "祝英台_基底_下站",
-      "category": "character_body",
+      "category": "other",
       "path": "components/character_body/zyt_body_idle_down_001.json",
       "tags": [
         "zyt",
@@ -2532,7 +2598,7 @@
     {
       "id": "zyt_hair_classic_down_001",
       "name": "祝英台_发型_下站",
-      "category": "character_hair",
+      "category": "other",
       "path": "components/character_hair/zyt_hair_classic_down_001.json",
       "tags": [],
       "width": 32,
@@ -2543,13 +2609,96 @@
     {
       "id": "zyt_outfit_casual_down_001",
       "name": "祝英台_常服_下站",
-      "category": "character_outfit",
+      "category": "other",
       "path": "components/character_outfit/zyt_outfit_casual_down_001.json",
       "tags": [],
       "width": 32,
       "height": 64,
       "version": 51,
       "updatedAt": 1782312289646
+    },
+    {
+      "id": "comp_zhuyingtai_home_flower_bed_v1",
+      "name": "祝英台家 花圃 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_zhuyingtai_home_flower_bed_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "flower-bed",
+        "decoration",
+        "v1"
+      ],
+      "width": 112,
+      "height": 80,
+      "version": 1,
+      "updatedAt": 1782314654465
+    },
+    {
+      "id": "comp_zhuyingtai_home_flower_planter_v1",
+      "name": "祝英台家 石阶花盆 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_zhuyingtai_home_flower_planter_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "planter",
+        "flower",
+        "decoration",
+        "v1"
+      ],
+      "width": 64,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1782314654465
+    },
+    {
+      "id": "comp_zhuyingtai_home_lotus_pond_v1",
+      "name": "祝英台家 荷花水池 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_zhuyingtai_home_lotus_pond_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "pond",
+        "water",
+        "lotus",
+        "v1"
+      ],
+      "width": 128,
+      "height": 80,
+      "version": 1,
+      "updatedAt": 1782314654465
+    },
+    {
+      "id": "comp_zhuyingtai_home_shelf_jars_v1",
+      "name": "祝英台家 杂物架 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_zhuyingtai_home_shelf_jars_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "shelf",
+        "jars",
+        "decoration",
+        "v1"
+      ],
+      "width": 96,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782314654465
+    },
+    {
+      "id": "comp_zhuyingtai_home_water_jar_v1",
+      "name": "祝英台家 陶罐水缸 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_zhuyingtai_home_water_jar_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "jar",
+        "decoration",
+        "v1"
+      ],
+      "width": 48,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1782314654465
     },
     {
       "id": "comp_1770823932014_26q4pk",
@@ -2618,77 +2767,6 @@
       "updatedAt": 1782312289648
     },
     {
-      "id": "comp_1770797242019_8ctkpd",
-      "name": "🌲",
-      "category": "tree",
-      "path": "components/tree/comp_1770797242019_8ctkpd.json",
-      "tags": [],
-      "width": 16,
-      "height": 16,
-      "version": 195,
-      "updatedAt": 1782312289648
-    },
-    {
-      "id": "zyt_body_fixed_down",
-      "name": "祝英台_基底_修正版",
-      "path": "components/undefined/zyt_body_fixed_down.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 40,
-      "updatedAt": 1782312289648
-    },
-    {
-      "id": "zyt_body_v1_front",
-      "name": "祝英台_身体_基础层",
-      "path": "components/undefined/zyt_body_v1_front.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 41,
-      "updatedAt": 1782312289648
-    },
-    {
-      "id": "zyt_body_v2_down_full",
-      "name": "祝英台_基底_精修面部",
-      "path": "components/undefined/zyt_body_v2_down_full.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 40,
-      "updatedAt": 1782312289649
-    },
-    {
-      "id": "zyt_clothes_v1_front",
-      "name": "祝英台_衣服_正面版",
-      "path": "components/undefined/zyt_clothes_v1_front.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 43,
-      "updatedAt": 1782312289649
-    },
-    {
-      "id": "zyt_hair_v2_front",
-      "name": "祝英台_头发_正面版",
-      "path": "components/undefined/zyt_hair_v2_front.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 43,
-      "updatedAt": 1782312289649
-    },
-    {
-      "id": "zyt_outfit_v2_refined_down",
-      "name": "祝英台_精修常服_下站",
-      "path": "components/undefined/zyt_outfit_v2_refined_down.json",
-      "tags": [],
-      "width": 32,
-      "height": 64,
-      "version": 41,
-      "updatedAt": 1782312289650
-    },
-    {
       "id": "comp_zhuyingtai_home_stone_courtyard_v1",
       "name": "祝英台家 石板院地 v1",
       "category": "terrain",
@@ -2706,103 +2784,15 @@
       "updatedAt": 1782314654465
     },
     {
-      "id": "comp_zhuyingtai_home_main_hall_v1",
-      "name": "祝英台家 主屋 v1",
-      "category": "building",
-      "path": "components/building/comp_zhuyingtai_home_main_hall_v1.json",
-      "tags": [
-        "zhuyingtai-home",
-        "main-hall",
-        "building",
-        "jiangnan",
-        "v1"
-      ],
-      "width": 384,
-      "height": 176,
-      "version": 1,
-      "updatedAt": 1782314654465
-    },
-    {
-      "id": "comp_zhuyingtai_home_left_room_v1",
-      "name": "祝英台家 左侧厢房 v1",
-      "category": "building",
-      "path": "components/building/comp_zhuyingtai_home_left_room_v1.json",
-      "tags": [
-        "zhuyingtai-home",
-        "side-room",
-        "building",
-        "v1"
-      ],
-      "width": 128,
-      "height": 192,
-      "version": 1,
-      "updatedAt": 1782314654465
-    },
-    {
-      "id": "comp_zhuyingtai_home_right_wall_room_v1",
-      "name": "祝英台家 右侧墙角 v1",
-      "category": "building",
-      "path": "components/building/comp_zhuyingtai_home_right_wall_room_v1.json",
-      "tags": [
-        "zhuyingtai-home",
-        "side-wall",
-        "building",
-        "v1"
-      ],
-      "width": 128,
-      "height": 176,
-      "version": 1,
-      "updatedAt": 1782314654465
-    },
-    {
-      "id": "comp_zhuyingtai_home_front_gate_wall_v1",
-      "name": "祝英台家 前门院墙 v1",
-      "category": "building",
-      "path": "components/building/comp_zhuyingtai_home_front_gate_wall_v1.json",
-      "tags": [
-        "zhuyingtai-home",
-        "gate",
-        "wall",
-        "building",
-        "v1"
-      ],
-      "width": 640,
-      "height": 112,
-      "version": 1,
-      "updatedAt": 1782314654465
-    },
-    {
-      "id": "comp_zhuyingtai_home_lotus_pond_v1",
-      "name": "祝英台家 荷花水池 v1",
-      "category": "decoration",
-      "path": "components/decoration/comp_zhuyingtai_home_lotus_pond_v1.json",
-      "tags": [
-        "zhuyingtai-home",
-        "pond",
-        "water",
-        "lotus",
-        "v1"
-      ],
-      "width": 128,
-      "height": 80,
-      "version": 1,
-      "updatedAt": 1782314654465
-    },
-    {
-      "id": "comp_zhuyingtai_home_flower_bed_v1",
-      "name": "祝英台家 花圃 v1",
-      "category": "decoration",
-      "path": "components/decoration/comp_zhuyingtai_home_flower_bed_v1.json",
-      "tags": [
-        "zhuyingtai-home",
-        "flower-bed",
-        "decoration",
-        "v1"
-      ],
-      "width": 112,
-      "height": 80,
-      "version": 1,
-      "updatedAt": 1782314654465
+      "id": "comp_1770797242019_8ctkpd",
+      "name": "🌲",
+      "category": "tree",
+      "path": "components/tree/comp_1770797242019_8ctkpd.json",
+      "tags": [],
+      "width": 16,
+      "height": 16,
+      "version": 195,
+      "updatedAt": 1782312289648
     },
     {
       "id": "comp_zhuyingtai_home_bamboo_left_v1",
@@ -2837,54 +2827,70 @@
       "updatedAt": 1782314654465
     },
     {
-      "id": "comp_zhuyingtai_home_shelf_jars_v1",
-      "name": "祝英台家 杂物架 v1",
-      "category": "decoration",
-      "path": "components/decoration/comp_zhuyingtai_home_shelf_jars_v1.json",
-      "tags": [
-        "zhuyingtai-home",
-        "shelf",
-        "jars",
-        "decoration",
-        "v1"
-      ],
-      "width": 96,
-      "height": 96,
-      "version": 1,
-      "updatedAt": 1782314654465
+      "id": "zyt_body_fixed_down",
+      "name": "祝英台_基底_修正版",
+      "category": "other",
+      "path": "components/undefined/zyt_body_fixed_down.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": 40,
+      "updatedAt": 1782312289648
     },
     {
-      "id": "comp_zhuyingtai_home_flower_planter_v1",
-      "name": "祝英台家 石阶花盆 v1",
-      "category": "decoration",
-      "path": "components/decoration/comp_zhuyingtai_home_flower_planter_v1.json",
-      "tags": [
-        "zhuyingtai-home",
-        "planter",
-        "flower",
-        "decoration",
-        "v1"
-      ],
-      "width": 64,
+      "id": "zyt_body_v1_front",
+      "name": "祝英台_身体_基础层",
+      "category": "other",
+      "path": "components/undefined/zyt_body_v1_front.json",
+      "tags": [],
+      "width": 32,
       "height": 64,
-      "version": 1,
-      "updatedAt": 1782314654465
+      "version": 41,
+      "updatedAt": 1782312289648
     },
     {
-      "id": "comp_zhuyingtai_home_water_jar_v1",
-      "name": "祝英台家 陶罐水缸 v1",
-      "category": "decoration",
-      "path": "components/decoration/comp_zhuyingtai_home_water_jar_v1.json",
-      "tags": [
-        "zhuyingtai-home",
-        "jar",
-        "decoration",
-        "v1"
-      ],
-      "width": 48,
+      "id": "zyt_body_v2_down_full",
+      "name": "祝英台_基底_精修面部",
+      "category": "other",
+      "path": "components/undefined/zyt_body_v2_down_full.json",
+      "tags": [],
+      "width": 32,
       "height": 64,
-      "version": 1,
-      "updatedAt": 1782314654465
+      "version": 40,
+      "updatedAt": 1782312289649
+    },
+    {
+      "id": "zyt_clothes_v1_front",
+      "name": "祝英台_衣服_正面版",
+      "category": "other",
+      "path": "components/undefined/zyt_clothes_v1_front.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": 43,
+      "updatedAt": 1782312289649
+    },
+    {
+      "id": "zyt_hair_v2_front",
+      "name": "祝英台_头发_正面版",
+      "category": "other",
+      "path": "components/undefined/zyt_hair_v2_front.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": 43,
+      "updatedAt": 1782312289649
+    },
+    {
+      "id": "zyt_outfit_v2_refined_down",
+      "name": "祝英台_精修常服_下站",
+      "category": "other",
+      "path": "components/undefined/zyt_outfit_v2_refined_down.json",
+      "tags": [],
+      "width": 32,
+      "height": 64,
+      "version": 41,
+      "updatedAt": 1782312289650
     }
   ],
   "maps": [
@@ -2914,6 +2920,33 @@
       "heightInTiles": 32,
       "version": 18,
       "updatedAt": 1782312443125
+    },
+    {
+      "id": "map_1771040841420_4ou8h1",
+      "name": "New Map",
+      "path": "maps/map_1771040841420_4ou8h1.json",
+      "widthInTiles": 32,
+      "heightInTiles": 32,
+      "version": 17,
+      "updatedAt": 1771041129207
+    },
+    {
+      "id": "map_1771041109457_08zebu",
+      "name": "New Map",
+      "path": "maps/map_1771041109457_08zebu.json",
+      "widthInTiles": 32,
+      "heightInTiles": 32,
+      "version": 3,
+      "updatedAt": 1771041472545
+    },
+    {
+      "id": "map_1771041836181_w4e5o6",
+      "name": "New Map",
+      "path": "maps/map_1771041836181_w4e5o6.json",
+      "widthInTiles": 32,
+      "heightInTiles": 32,
+      "version": 1,
+      "updatedAt": 1771041837184
     },
     {
       "id": "map_1772004621385_njovgh",
