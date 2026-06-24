@@ -622,41 +622,121 @@
             "indicatorType": "sparkle",
             "interactions": [
               {
-                "id": "map_lz_ch04_zhufu_hall_v1_story_b_inspect",
-                "name": "查看祝府正厅抉择",
-                "description": "祝府正厅抉择承载着当前章节的关键线索。",
+                "id": "map_lz_ch04_zhufu_hall_v1_story_b_zhuyingtai",
+                "name": "祝英台：处理祝府正厅抉择",
+                "description": "祝英台围绕祝府正厅抉择做出选择，推动当前章节继续前进。",
                 "type": "examine",
-                "conditions": [],
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_zhuyingtai"
+                  }
+                ],
                 "effects": [
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "祝府正厅抉择承载着当前章节的关键线索。"
+                    "value": "祝英台围绕祝府正厅抉择做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
                     "target": "mood",
+                    "value": -1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "familyPressure",
                     "value": 1
+                  },
+                  {
+                    "type": "advance_story_scene",
+                    "target": "liangzhu",
+                    "value": {
+                      "chapterId": "ch04_ma_family_forces_marriage",
+                      "sceneId": "ch04_scene_02_boudoir",
+                      "mapId": "map_lz_ch04_boudoir_v1"
+                    }
                   }
                 ],
                 "weight": 1
               },
               {
-                "id": "map_lz_ch04_zhufu_hall_v1_story_b_choice",
-                "name": "处理祝府正厅抉择",
-                "description": "你围绕祝府正厅抉择做出的选择，让剧情变量发生变化。",
+                "id": "map_lz_ch04_zhufu_hall_v1_story_b_liangshanbo",
+                "name": "梁山伯：处理祝府正厅抉择",
+                "description": "梁山伯围绕祝府正厅抉择做出选择，推动当前章节继续前进。",
                 "type": "examine",
-                "conditions": [],
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_liangshanbo"
+                  }
+                ],
                 "effects": [
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "你围绕祝府正厅抉择做出的选择，让剧情变量发生变化。"
+                    "value": "梁山伯围绕祝府正厅抉择做出选择，推动当前章节继续前进。"
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "social",
+                    "value": 2
                   },
                   {
                     "type": "modify_story_variable",
-                    "target": "maRestraint",
+                    "target": "familyPressure",
                     "value": 1
+                  },
+                  {
+                    "type": "advance_story_scene",
+                    "target": "liangzhu",
+                    "value": {
+                      "chapterId": "ch04_ma_family_forces_marriage",
+                      "sceneId": "ch04_scene_02_boudoir",
+                      "mapId": "map_lz_ch04_boudoir_v1"
+                    }
+                  }
+                ],
+                "weight": 1
+              },
+              {
+                "id": "map_lz_ch04_zhufu_hall_v1_story_b_mawencai",
+                "name": "马文才：处理祝府正厅抉择",
+                "description": "马文才围绕祝府正厅抉择做出选择，推动当前章节继续前进。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_mawencai"
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才围绕祝府正厅抉择做出选择，推动当前章节继续前进。"
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "wealth",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "maPressure",
+                    "value": 1
+                  },
+                  {
+                    "type": "advance_story_scene",
+                    "target": "liangzhu",
+                    "value": {
+                      "chapterId": "ch04_ma_family_forces_marriage",
+                      "sceneId": "ch04_scene_02_boudoir",
+                      "mapId": "map_lz_ch04_boudoir_v1"
+                    }
                   }
                 ],
                 "weight": 1

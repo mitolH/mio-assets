@@ -622,41 +622,121 @@
             "indicatorType": "sparkle",
             "interactions": [
               {
-                "id": "map_lz_ch02_bamboo_path_v1_story_b_inspect",
-                "name": "查看竹林小径抉择",
-                "description": "竹林小径抉择承载着当前章节的关键线索。",
+                "id": "map_lz_ch02_bamboo_path_v1_story_b_zhuyingtai",
+                "name": "祝英台：处理竹林小径抉择",
+                "description": "祝英台围绕竹林小径抉择做出选择，推动当前章节继续前进。",
                 "type": "examine",
-                "conditions": [],
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_zhuyingtai"
+                  }
+                ],
                 "effects": [
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "竹林小径抉择承载着当前章节的关键线索。"
+                    "value": "祝英台围绕竹林小径抉择做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
                     "target": "mood",
+                    "value": -1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "identityRisk",
                     "value": 1
+                  },
+                  {
+                    "type": "advance_story_scene",
+                    "target": "liangzhu",
+                    "value": {
+                      "chapterId": "ch02_classmates_three_years",
+                      "sceneId": "ch02_scene_05_dorm_corridor",
+                      "mapId": "map_lz_ch02_dorm_corridor_v1"
+                    }
                   }
                 ],
                 "weight": 1
               },
               {
-                "id": "map_lz_ch02_bamboo_path_v1_story_b_choice",
-                "name": "处理竹林小径抉择",
-                "description": "你围绕竹林小径抉择做出的选择，让剧情变量发生变化。",
+                "id": "map_lz_ch02_bamboo_path_v1_story_b_liangshanbo",
+                "name": "梁山伯：处理竹林小径抉择",
+                "description": "梁山伯围绕竹林小径抉择做出选择，推动当前章节继续前进。",
                 "type": "examine",
-                "conditions": [],
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_liangshanbo"
+                  }
+                ],
                 "effects": [
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "你围绕竹林小径抉择做出的选择，让剧情变量发生变化。"
+                    "value": "梁山伯围绕竹林小径抉择做出选择，推动当前章节继续前进。"
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "social",
+                    "value": 2
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "liangTrust",
+                    "value": 1
+                  },
+                  {
+                    "type": "advance_story_scene",
+                    "target": "liangzhu",
+                    "value": {
+                      "chapterId": "ch02_classmates_three_years",
+                      "sceneId": "ch02_scene_05_dorm_corridor",
+                      "mapId": "map_lz_ch02_dorm_corridor_v1"
+                    }
+                  }
+                ],
+                "weight": 1
+              },
+              {
+                "id": "map_lz_ch02_bamboo_path_v1_story_b_mawencai",
+                "name": "马文才：处理竹林小径抉择",
+                "description": "马文才围绕竹林小径抉择做出选择，推动当前章节继续前进。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_mawencai"
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才围绕竹林小径抉择做出选择，推动当前章节继续前进。"
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "social",
+                    "value": 1
                   },
                   {
                     "type": "modify_story_variable",
                     "target": "maRestraint",
                     "value": 1
+                  },
+                  {
+                    "type": "advance_story_scene",
+                    "target": "liangzhu",
+                    "value": {
+                      "chapterId": "ch02_classmates_three_years",
+                      "sceneId": "ch02_scene_05_dorm_corridor",
+                      "mapId": "map_lz_ch02_dorm_corridor_v1"
+                    }
                   }
                 ],
                 "weight": 1

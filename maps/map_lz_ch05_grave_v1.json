@@ -622,41 +622,121 @@
             "indicatorType": "sparkle",
             "interactions": [
               {
-                "id": "map_lz_ch05_grave_v1_story_b_inspect",
-                "name": "查看坟前抉择",
-                "description": "坟前抉择承载着当前章节的关键线索。",
+                "id": "map_lz_ch05_grave_v1_story_b_zhuyingtai",
+                "name": "祝英台：处理坟前抉择",
+                "description": "祝英台围绕坟前抉择做出选择，推动当前章节继续前进。",
                 "type": "examine",
-                "conditions": [],
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_zhuyingtai"
+                  }
+                ],
                 "effects": [
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "坟前抉择承载着当前章节的关键线索。"
+                    "value": "祝英台围绕坟前抉择做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
                     "target": "mood",
+                    "value": -5
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "tragedyWeight",
                     "value": 1
+                  },
+                  {
+                    "type": "advance_story_scene",
+                    "target": "liangzhu",
+                    "value": {
+                      "chapterId": "ch05_tower_and_butterflies",
+                      "sceneId": "ch05_scene_05_butterfly_end",
+                      "mapId": "map_lz_ch05_butterfly_end_v1"
+                    }
                   }
                 ],
                 "weight": 1
               },
               {
-                "id": "map_lz_ch05_grave_v1_story_b_choice",
-                "name": "处理坟前抉择",
-                "description": "你围绕坟前抉择做出的选择，让剧情变量发生变化。",
+                "id": "map_lz_ch05_grave_v1_story_b_liangshanbo",
+                "name": "梁山伯：处理坟前抉择",
+                "description": "梁山伯围绕坟前抉择做出选择，推动当前章节继续前进。",
                 "type": "examine",
-                "conditions": [],
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_liangshanbo"
+                  }
+                ],
                 "effects": [
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "你围绕坟前抉择做出的选择，让剧情变量发生变化。"
+                    "value": "梁山伯围绕坟前抉择做出选择，推动当前章节继续前进。"
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "social",
+                    "value": -4
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "tragedyWeight",
+                    "value": 1
+                  },
+                  {
+                    "type": "advance_story_scene",
+                    "target": "liangzhu",
+                    "value": {
+                      "chapterId": "ch05_tower_and_butterflies",
+                      "sceneId": "ch05_scene_05_butterfly_end",
+                      "mapId": "map_lz_ch05_butterfly_end_v1"
+                    }
+                  }
+                ],
+                "weight": 1
+              },
+              {
+                "id": "map_lz_ch05_grave_v1_story_b_mawencai",
+                "name": "马文才：处理坟前抉择",
+                "description": "马文才围绕坟前抉择做出选择，推动当前章节继续前进。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_mawencai"
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才围绕坟前抉择做出选择，推动当前章节继续前进。"
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "social",
+                    "value": -2
                   },
                   {
                     "type": "modify_story_variable",
                     "target": "maRestraint",
                     "value": 1
+                  },
+                  {
+                    "type": "advance_story_scene",
+                    "target": "liangzhu",
+                    "value": {
+                      "chapterId": "ch05_tower_and_butterflies",
+                      "sceneId": "ch05_scene_05_butterfly_end",
+                      "mapId": "map_lz_ch05_butterfly_end_v1"
+                    }
                   }
                 ],
                 "weight": 1
