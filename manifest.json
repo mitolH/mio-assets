@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1782312443730,
+  "updatedAt": 1782314539219,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -2687,6 +2687,204 @@
       "height": 64,
       "version": 41,
       "updatedAt": 1782312289650
+    },
+    {
+      "id": "comp_zhuyingtai_home_stone_courtyard_v1",
+      "name": "祝英台家 石板院地 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_zhuyingtai_home_stone_courtyard_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "courtyard",
+        "stone",
+        "ground",
+        "v1"
+      ],
+      "width": 64,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1782314538663
+    },
+    {
+      "id": "comp_zhuyingtai_home_main_hall_v1",
+      "name": "祝英台家 主屋 v1",
+      "category": "building",
+      "path": "components/building/comp_zhuyingtai_home_main_hall_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "main-hall",
+        "building",
+        "jiangnan",
+        "v1"
+      ],
+      "width": 384,
+      "height": 176,
+      "version": 1,
+      "updatedAt": 1782314538663
+    },
+    {
+      "id": "comp_zhuyingtai_home_left_room_v1",
+      "name": "祝英台家 左侧厢房 v1",
+      "category": "building",
+      "path": "components/building/comp_zhuyingtai_home_left_room_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "side-room",
+        "building",
+        "v1"
+      ],
+      "width": 128,
+      "height": 192,
+      "version": 1,
+      "updatedAt": 1782314538663
+    },
+    {
+      "id": "comp_zhuyingtai_home_right_wall_room_v1",
+      "name": "祝英台家 右侧墙角 v1",
+      "category": "building",
+      "path": "components/building/comp_zhuyingtai_home_right_wall_room_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "side-wall",
+        "building",
+        "v1"
+      ],
+      "width": 128,
+      "height": 176,
+      "version": 1,
+      "updatedAt": 1782314538663
+    },
+    {
+      "id": "comp_zhuyingtai_home_front_gate_wall_v1",
+      "name": "祝英台家 前门院墙 v1",
+      "category": "building",
+      "path": "components/building/comp_zhuyingtai_home_front_gate_wall_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "gate",
+        "wall",
+        "building",
+        "v1"
+      ],
+      "width": 640,
+      "height": 112,
+      "version": 1,
+      "updatedAt": 1782314538663
+    },
+    {
+      "id": "comp_zhuyingtai_home_lotus_pond_v1",
+      "name": "祝英台家 荷花水池 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_zhuyingtai_home_lotus_pond_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "pond",
+        "water",
+        "lotus",
+        "v1"
+      ],
+      "width": 128,
+      "height": 80,
+      "version": 1,
+      "updatedAt": 1782314538663
+    },
+    {
+      "id": "comp_zhuyingtai_home_flower_bed_v1",
+      "name": "祝英台家 花圃 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_zhuyingtai_home_flower_bed_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "flower-bed",
+        "decoration",
+        "v1"
+      ],
+      "width": 112,
+      "height": 80,
+      "version": 1,
+      "updatedAt": 1782314538663
+    },
+    {
+      "id": "comp_zhuyingtai_home_bamboo_left_v1",
+      "name": "祝英台家 左侧竹丛 v1",
+      "category": "tree",
+      "path": "components/tree/comp_zhuyingtai_home_bamboo_left_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "bamboo",
+        "tree",
+        "v1"
+      ],
+      "width": 64,
+      "height": 176,
+      "version": 1,
+      "updatedAt": 1782314538663
+    },
+    {
+      "id": "comp_zhuyingtai_home_bamboo_right_v1",
+      "name": "祝英台家 右侧竹丛 v1",
+      "category": "tree",
+      "path": "components/tree/comp_zhuyingtai_home_bamboo_right_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "bamboo",
+        "tree",
+        "v1"
+      ],
+      "width": 64,
+      "height": 176,
+      "version": 1,
+      "updatedAt": 1782314538663
+    },
+    {
+      "id": "comp_zhuyingtai_home_shelf_jars_v1",
+      "name": "祝英台家 杂物架 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_zhuyingtai_home_shelf_jars_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "shelf",
+        "jars",
+        "decoration",
+        "v1"
+      ],
+      "width": 96,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782314538663
+    },
+    {
+      "id": "comp_zhuyingtai_home_flower_planter_v1",
+      "name": "祝英台家 石阶花盆 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_zhuyingtai_home_flower_planter_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "planter",
+        "flower",
+        "decoration",
+        "v1"
+      ],
+      "width": 64,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1782314538663
+    },
+    {
+      "id": "comp_zhuyingtai_home_water_jar_v1",
+      "name": "祝英台家 陶罐水缸 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_zhuyingtai_home_water_jar_v1.json",
+      "tags": [
+        "zhuyingtai-home",
+        "jar",
+        "decoration",
+        "v1"
+      ],
+      "width": 48,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1782314538663
     }
   ],
   "maps": [
@@ -2725,6 +2923,15 @@
       "heightInTiles": 32,
       "version": 21,
       "updatedAt": 1782312441358
+    },
+    {
+      "id": "map_zhuyingtai_home_courtyard_v1",
+      "name": "祝英台家小院 v1",
+      "path": "maps/map_zhuyingtai_home_courtyard_v1.json",
+      "widthInTiles": 40,
+      "heightInTiles": 34,
+      "version": 1,
+      "updatedAt": 1782314538663
     }
   ],
   "sprites": [
