@@ -21,6 +21,18 @@
             "interactionRange": 1,
             "indicatorType": "none"
           }
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_zhuyingtai_48x96_64c_v2",
+          "tileX": 8,
+          "tileY": 16
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_zhuyingtai_48x96_64c_v2",
+          "tileX": 12,
+          "tileY": 16
         }
       ],
       "id": "layer_0"
@@ -57,6 +69,6 @@
   "itemDefs": [],
   "teleports": [],
   "createdAt": 1770841082750,
-  "updatedAt": 1771041114624,
-  "version": 13
+  "updatedAt": 1782312443125,
+  "version": 18
 }
