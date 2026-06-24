@@ -851,6 +851,20 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_map_lz_ch04_zhufu_hall_v1_left_scene_fixture_v1",
+          "tileX": 4,
+          "tileY": 16,
+          "refId": "map_lz_ch04_zhufu_hall_v1_scene_fixture_left"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch04_zhufu_hall_v1_right_scene_fixture_v1",
+          "tileX": 30,
+          "tileY": 16,
+          "refId": "map_lz_ch04_zhufu_hall_v1_scene_fixture_right"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch04_zhufu_hall_v1_left_scene_detail_v2",
           "tileX": 4,
           "tileY": 23,

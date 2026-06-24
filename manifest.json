@@ -4264,6 +4264,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch01_academy_gate_v1_left_scene_fixture_v1",
+      "name": "书院门前 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch01_academy_gate_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "academy_gate",
+        "academy_gate",
+        "left",
+        "fixture-academy_gate",
+        "scene-fixture-v1",
+        "fixture-academy_gate",
+        "fixture-academy-first-arrival"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch01_academy_gate_v1_path_scene_detail_v2",
       "name": "书院门前 path 场景细节",
       "category": "decoration",
@@ -4302,6 +4325,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch01_academy_gate_v1_right_scene_fixture_v1",
+      "name": "书院门前 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch01_academy_gate_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "academy_gate",
+        "academy_gate",
+        "right",
+        "fixture-academy_gate",
+        "scene-fixture-v1",
+        "fixture-academy_gate",
+        "fixture-academy-first-arrival"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -4391,6 +4437,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch01_mountain_pavilion_v1_left_scene_fixture_v1",
+      "name": "山路驿亭 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch01_mountain_pavilion_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "mountain_pavilion",
+        "pavilion",
+        "left",
+        "fixture-pavilion",
+        "scene-fixture-v1",
+        "fixture-pavilion",
+        "fixture-pavilion-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch01_mountain_pavilion_v1_path_scene_detail_v2",
       "name": "山路驿亭 path 场景细节",
       "category": "decoration",
@@ -4429,6 +4498,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch01_mountain_pavilion_v1_right_scene_fixture_v1",
+      "name": "山路驿亭 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch01_mountain_pavilion_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "mountain_pavilion",
+        "pavilion",
+        "right",
+        "fixture-pavilion",
+        "scene-fixture-v1",
+        "fixture-pavilion",
+        "fixture-pavilion-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -4518,6 +4610,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch01_river_ferry_v1_left_scene_fixture_v1",
+      "name": "渡口 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch01_river_ferry_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "river_ferry",
+        "ferry",
+        "left",
+        "fixture-ferry",
+        "scene-fixture-v1",
+        "fixture-ferry",
+        "fixture-river-ferry-boat-willow"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch01_river_ferry_v1_path_scene_detail_v2",
       "name": "渡口 path 场景细节",
       "category": "decoration",
@@ -4556,6 +4671,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch01_river_ferry_v1_right_scene_fixture_v1",
+      "name": "渡口 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch01_river_ferry_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "river_ferry",
+        "ferry",
+        "right",
+        "fixture-ferry",
+        "scene-fixture-v1",
+        "fixture-ferry",
+        "fixture-river-ferry-boat-willow"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -4772,6 +4910,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch02_academy_courtyard_v1_left_scene_fixture_v1",
+      "name": "书院前庭 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch02_academy_courtyard_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "academy_courtyard",
+        "academy",
+        "left",
+        "fixture-academy",
+        "scene-fixture-v1",
+        "fixture-academy",
+        "fixture-academy-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch02_academy_courtyard_v1_path_scene_detail_v2",
       "name": "书院前庭 path 场景细节",
       "category": "decoration",
@@ -4810,6 +4971,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch02_academy_courtyard_v1_right_scene_fixture_v1",
+      "name": "书院前庭 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch02_academy_courtyard_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "academy_courtyard",
+        "academy",
+        "right",
+        "fixture-academy",
+        "scene-fixture-v1",
+        "fixture-academy",
+        "fixture-academy-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -4899,6 +5083,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch02_bamboo_path_v1_left_scene_fixture_v1",
+      "name": "竹林小径 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch02_bamboo_path_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "bamboo_path",
+        "bamboo",
+        "left",
+        "fixture-bamboo",
+        "scene-fixture-v1",
+        "fixture-bamboo",
+        "fixture-bamboo-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch02_bamboo_path_v1_path_scene_detail_v2",
       "name": "竹林小径 path 场景细节",
       "category": "decoration",
@@ -4937,6 +5144,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch02_bamboo_path_v1_right_scene_fixture_v1",
+      "name": "竹林小径 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch02_bamboo_path_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "bamboo_path",
+        "bamboo",
+        "right",
+        "fixture-bamboo",
+        "scene-fixture-v1",
+        "fixture-bamboo",
+        "fixture-bamboo-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -5026,6 +5256,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch02_classroom_v1_left_scene_fixture_v1",
+      "name": "讲堂 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch02_classroom_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "classroom",
+        "classroom",
+        "left",
+        "fixture-classroom",
+        "scene-fixture-v1",
+        "fixture-classroom",
+        "fixture-classroom-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch02_classroom_v1_path_scene_detail_v2",
       "name": "讲堂 path 场景细节",
       "category": "decoration",
@@ -5064,6 +5317,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch02_classroom_v1_right_scene_fixture_v1",
+      "name": "讲堂 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch02_classroom_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "classroom",
+        "classroom",
+        "right",
+        "fixture-classroom",
+        "scene-fixture-v1",
+        "fixture-classroom",
+        "fixture-classroom-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -5153,6 +5429,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch02_dorm_corridor_v1_left_scene_fixture_v1",
+      "name": "宿舍廊下 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch02_dorm_corridor_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "dorm_corridor",
+        "corridor",
+        "left",
+        "fixture-corridor",
+        "scene-fixture-v1",
+        "fixture-corridor",
+        "fixture-corridor-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch02_dorm_corridor_v1_path_scene_detail_v2",
       "name": "宿舍廊下 path 场景细节",
       "category": "decoration",
@@ -5191,6 +5490,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch02_dorm_corridor_v1_right_scene_fixture_v1",
+      "name": "宿舍廊下 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch02_dorm_corridor_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "dorm_corridor",
+        "corridor",
+        "right",
+        "fixture-corridor",
+        "scene-fixture-v1",
+        "fixture-corridor",
+        "fixture-corridor-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -5280,6 +5602,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch02_library_v1_left_scene_fixture_v1",
+      "name": "藏书楼 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch02_library_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "library",
+        "library",
+        "left",
+        "fixture-library",
+        "scene-fixture-v1",
+        "fixture-library",
+        "fixture-library-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch02_library_v1_path_scene_detail_v2",
       "name": "藏书楼 path 场景细节",
       "category": "decoration",
@@ -5318,6 +5663,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch02_library_v1_right_scene_fixture_v1",
+      "name": "藏书楼 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch02_library_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "library",
+        "library",
+        "right",
+        "fixture-library",
+        "scene-fixture-v1",
+        "fixture-library",
+        "fixture-library-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -5407,6 +5775,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch03_academy_gate_v1_left_scene_fixture_v1",
+      "name": "书院山门 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch03_academy_gate_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "academy_gate",
+        "academy_gate",
+        "left",
+        "fixture-academy_gate",
+        "scene-fixture-v1",
+        "fixture-academy_gate",
+        "fixture-academy_gate-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch03_academy_gate_v1_path_scene_detail_v2",
       "name": "书院山门 path 场景细节",
       "category": "decoration",
@@ -5445,6 +5836,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch03_academy_gate_v1_right_scene_fixture_v1",
+      "name": "书院山门 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch03_academy_gate_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "academy_gate",
+        "academy_gate",
+        "right",
+        "fixture-academy_gate",
+        "scene-fixture-v1",
+        "fixture-academy_gate",
+        "fixture-academy_gate-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -5534,6 +5948,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch03_creek_bridge_v1_left_scene_fixture_v1",
+      "name": "溪桥 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch03_creek_bridge_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "creek_bridge",
+        "bridge",
+        "left",
+        "fixture-bridge",
+        "scene-fixture-v1",
+        "fixture-bridge",
+        "fixture-bridge-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch03_creek_bridge_v1_path_scene_detail_v2",
       "name": "溪桥 path 场景细节",
       "category": "decoration",
@@ -5572,6 +6009,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch03_creek_bridge_v1_right_scene_fixture_v1",
+      "name": "溪桥 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch03_creek_bridge_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "creek_bridge",
+        "bridge",
+        "right",
+        "fixture-bridge",
+        "scene-fixture-v1",
+        "fixture-bridge",
+        "fixture-bridge-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -5661,6 +6121,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch03_fork_road_v1_left_scene_fixture_v1",
+      "name": "分岔官道 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch03_fork_road_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "fork_road",
+        "road_sign",
+        "left",
+        "fixture-road_sign",
+        "scene-fixture-v1",
+        "fixture-road_sign",
+        "fixture-road_sign-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch03_fork_road_v1_path_scene_detail_v2",
       "name": "分岔官道 path 场景细节",
       "category": "decoration",
@@ -5699,6 +6182,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch03_fork_road_v1_right_scene_fixture_v1",
+      "name": "分岔官道 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch03_fork_road_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "fork_road",
+        "road_sign",
+        "right",
+        "fixture-road_sign",
+        "scene-fixture-v1",
+        "fixture-road_sign",
+        "fixture-road_sign-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -5788,6 +6294,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch03_long_pavilion_v1_left_scene_fixture_v1",
+      "name": "长亭 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch03_long_pavilion_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "long_pavilion",
+        "long_pavilion",
+        "left",
+        "fixture-long_pavilion",
+        "scene-fixture-v1",
+        "fixture-long_pavilion",
+        "fixture-eighteen-mile-pavilion"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch03_long_pavilion_v1_path_scene_detail_v2",
       "name": "长亭 path 场景细节",
       "category": "decoration",
@@ -5826,6 +6355,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch03_long_pavilion_v1_right_scene_fixture_v1",
+      "name": "长亭 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch03_long_pavilion_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "long_pavilion",
+        "long_pavilion",
+        "right",
+        "fixture-long_pavilion",
+        "scene-fixture-v1",
+        "fixture-long_pavilion",
+        "fixture-eighteen-mile-pavilion"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -5915,6 +6467,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch03_mulberry_path_v1_left_scene_fixture_v1",
+      "name": "桑田小路 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch03_mulberry_path_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "mulberry_path",
+        "mulberry",
+        "left",
+        "fixture-mulberry",
+        "scene-fixture-v1",
+        "fixture-mulberry",
+        "fixture-mulberry-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch03_mulberry_path_v1_path_scene_detail_v2",
       "name": "桑田小路 path 场景细节",
       "category": "decoration",
@@ -5953,6 +6528,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch03_mulberry_path_v1_right_scene_fixture_v1",
+      "name": "桑田小路 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch03_mulberry_path_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "mulberry_path",
+        "mulberry",
+        "right",
+        "fixture-mulberry",
+        "scene-fixture-v1",
+        "fixture-mulberry",
+        "fixture-mulberry-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -6042,6 +6640,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch04_betrothal_hall_v1_left_scene_fixture_v1",
+      "name": "县衙媒聘场景 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch04_betrothal_hall_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "betrothal_hall",
+        "betrothal",
+        "left",
+        "fixture-betrothal",
+        "scene-fixture-v1",
+        "fixture-betrothal",
+        "fixture-betrothal-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch04_betrothal_hall_v1_path_scene_detail_v2",
       "name": "县衙媒聘场景 path 场景细节",
       "category": "decoration",
@@ -6080,6 +6701,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch04_betrothal_hall_v1_right_scene_fixture_v1",
+      "name": "县衙媒聘场景 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch04_betrothal_hall_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "betrothal_hall",
+        "betrothal",
+        "right",
+        "fixture-betrothal",
+        "scene-fixture-v1",
+        "fixture-betrothal",
+        "fixture-betrothal-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -6169,6 +6813,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch04_boudoir_v1_left_scene_fixture_v1",
+      "name": "后院闺房 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch04_boudoir_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "boudoir",
+        "boudoir",
+        "left",
+        "fixture-boudoir",
+        "scene-fixture-v1",
+        "fixture-boudoir",
+        "fixture-boudoir-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch04_boudoir_v1_path_scene_detail_v2",
       "name": "后院闺房 path 场景细节",
       "category": "decoration",
@@ -6207,6 +6874,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch04_boudoir_v1_right_scene_fixture_v1",
+      "name": "后院闺房 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch04_boudoir_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "boudoir",
+        "boudoir",
+        "right",
+        "fixture-boudoir",
+        "scene-fixture-v1",
+        "fixture-boudoir",
+        "fixture-boudoir-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -6296,6 +6986,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch04_ma_courtyard_v1_left_scene_fixture_v1",
+      "name": "马府外院 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch04_ma_courtyard_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "ma_courtyard",
+        "ma_gate",
+        "left",
+        "fixture-ma_gate",
+        "scene-fixture-v1",
+        "fixture-ma_gate",
+        "fixture-ma-family-gate-pressure"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch04_ma_courtyard_v1_path_scene_detail_v2",
       "name": "马府外院 path 场景细节",
       "category": "decoration",
@@ -6334,6 +7047,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch04_ma_courtyard_v1_right_scene_fixture_v1",
+      "name": "马府外院 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch04_ma_courtyard_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "ma_courtyard",
+        "ma_gate",
+        "right",
+        "fixture-ma_gate",
+        "scene-fixture-v1",
+        "fixture-ma_gate",
+        "fixture-ma-family-gate-pressure"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -6423,6 +7159,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch04_zhufu_hall_v1_left_scene_fixture_v1",
+      "name": "祝府正厅 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch04_zhufu_hall_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "zhufu_hall",
+        "zhufu_hall",
+        "left",
+        "fixture-zhufu_hall",
+        "scene-fixture-v1",
+        "fixture-zhufu_hall",
+        "fixture-zhufu_hall-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch04_zhufu_hall_v1_path_scene_detail_v2",
       "name": "祝府正厅 path 场景细节",
       "category": "decoration",
@@ -6461,6 +7220,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch04_zhufu_hall_v1_right_scene_fixture_v1",
+      "name": "祝府正厅 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch04_zhufu_hall_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "zhufu_hall",
+        "zhufu_hall",
+        "right",
+        "fixture-zhufu_hall",
+        "scene-fixture-v1",
+        "fixture-zhufu_hall",
+        "fixture-zhufu_hall-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -6550,6 +7332,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch05_butterfly_end_v1_left_scene_fixture_v1",
+      "name": "化蝶终景 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch05_butterfly_end_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "butterfly_end",
+        "butterfly",
+        "left",
+        "fixture-butterfly",
+        "scene-fixture-v1",
+        "fixture-butterfly",
+        "fixture-butterfly-release-light"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch05_butterfly_end_v1_path_scene_detail_v2",
       "name": "化蝶终景 path 场景细节",
       "category": "decoration",
@@ -6588,6 +7393,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch05_butterfly_end_v1_right_scene_fixture_v1",
+      "name": "化蝶终景 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch05_butterfly_end_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "butterfly_end",
+        "butterfly",
+        "right",
+        "fixture-butterfly",
+        "scene-fixture-v1",
+        "fixture-butterfly",
+        "fixture-butterfly-release-light"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -6677,6 +7505,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch05_grave_v1_left_scene_fixture_v1",
+      "name": "坟前 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch05_grave_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "grave",
+        "grave",
+        "left",
+        "fixture-grave",
+        "scene-fixture-v1",
+        "fixture-grave",
+        "fixture-grave-storm-oath"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch05_grave_v1_path_scene_detail_v2",
       "name": "坟前 path 场景细节",
       "category": "decoration",
@@ -6715,6 +7566,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch05_grave_v1_right_scene_fixture_v1",
+      "name": "坟前 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch05_grave_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "grave",
+        "grave",
+        "right",
+        "fixture-grave",
+        "scene-fixture-v1",
+        "fixture-grave",
+        "fixture-grave-storm-oath"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -6804,6 +7678,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch05_sickroom_v1_left_scene_fixture_v1",
+      "name": "梁山伯病榻 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch05_sickroom_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "sickroom",
+        "sickroom",
+        "left",
+        "fixture-sickroom",
+        "scene-fixture-v1",
+        "fixture-sickroom",
+        "fixture-sickroom-medicine-bed"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch05_sickroom_v1_path_scene_detail_v2",
       "name": "梁山伯病榻 path 场景细节",
       "category": "decoration",
@@ -6842,6 +7739,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch05_sickroom_v1_right_scene_fixture_v1",
+      "name": "梁山伯病榻 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch05_sickroom_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "sickroom",
+        "sickroom",
+        "right",
+        "fixture-sickroom",
+        "scene-fixture-v1",
+        "fixture-sickroom",
+        "fixture-sickroom-medicine-bed"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -6931,6 +7851,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch05_tower_v1_left_scene_fixture_v1",
+      "name": "楼台 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch05_tower_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "tower",
+        "tower",
+        "left",
+        "fixture-tower",
+        "scene-fixture-v1",
+        "fixture-tower",
+        "fixture-tower-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch05_tower_v1_path_scene_detail_v2",
       "name": "楼台 path 场景细节",
       "category": "decoration",
@@ -6969,6 +7912,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch05_tower_v1_right_scene_fixture_v1",
+      "name": "楼台 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch05_tower_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "tower",
+        "tower",
+        "right",
+        "fixture-tower",
+        "scene-fixture-v1",
+        "fixture-tower",
+        "fixture-tower-story-beat"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -7058,6 +8024,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch05_wedding_road_v1_left_scene_fixture_v1",
+      "name": "祝英台出嫁路 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch05_wedding_road_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "wedding_road",
+        "wedding",
+        "left",
+        "fixture-wedding",
+        "scene-fixture-v1",
+        "fixture-wedding",
+        "fixture-wedding-procession-red-rain"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch05_wedding_road_v1_path_scene_detail_v2",
       "name": "祝英台出嫁路 path 场景细节",
       "category": "decoration",
@@ -7096,6 +8085,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch05_wedding_road_v1_right_scene_fixture_v1",
+      "name": "祝英台出嫁路 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch05_wedding_road_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "wedding_road",
+        "wedding",
+        "right",
+        "fixture-wedding",
+        "scene-fixture-v1",
+        "fixture-wedding",
+        "fixture-wedding-procession-red-rain"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
