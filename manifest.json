@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1782308460774,
+  "updatedAt": 1782308522688,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -93,7 +93,7 @@
       "width": 32,
       "height": 28,
       "version": 94,
-      "updatedAt": 1782308449980
+      "updatedAt": 1782308451353
     },
     {
       "id": "comp_0_f1_1772987432333_1m7iyn",
@@ -191,7 +191,7 @@
       "width": 32,
       "height": 28,
       "version": 93,
-      "updatedAt": 1782308449981
+      "updatedAt": 1782308451354
     },
     {
       "id": "comp_0_f2_1772987432348_2sx0ut",
@@ -513,7 +513,7 @@
       "width": 32,
       "height": 68,
       "version": 44,
-      "updatedAt": 1782308449981
+      "updatedAt": 1782308451357
     },
     {
       "id": "comp_0_f5_1773504869026_uskxrj",
@@ -611,7 +611,7 @@
       "width": 32,
       "height": 68,
       "version": 47,
-      "updatedAt": 1782308449982
+      "updatedAt": 1782308451359
     },
     {
       "id": "comp_0_f6_1773504869034_l8qozu",
@@ -639,7 +639,7 @@
       "width": 32,
       "height": 48,
       "version": 11,
-      "updatedAt": 1782308449982
+      "updatedAt": 1782308451360
     },
     {
       "id": "comp_0_f7_1772982246822_u2a0ba",
@@ -751,7 +751,7 @@
       "width": 32,
       "height": 40,
       "version": 87,
-      "updatedAt": 1782308449982
+      "updatedAt": 1782308451361
     },
     {
       "id": "comp_0_f8_1773502191345_vs2c6o",
@@ -1140,7 +1140,7 @@
       "width": 152,
       "height": 108,
       "version": 94,
-      "updatedAt": 1782308449991
+      "updatedAt": 1782308451409
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f6_1772376768805_lcvrtv",
@@ -1308,7 +1308,7 @@
       "width": 152,
       "height": 152,
       "version": 82,
-      "updatedAt": 1782308449997
+      "updatedAt": 1782308451437
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f9_1772889983398_u78eyf",
@@ -2517,7 +2517,7 @@
     {
       "id": "zyt_body_idle_down_001",
       "name": "祝英台_基底_下站",
-      "category": "character_body",
+      "category": "other",
       "path": "components/character_body/zyt_body_idle_down_001.json",
       "tags": [
         "zyt",
@@ -2532,7 +2532,7 @@
     {
       "id": "zyt_hair_classic_down_001",
       "name": "祝英台_发型_下站",
-      "category": "character_hair",
+      "category": "other",
       "path": "components/character_hair/zyt_hair_classic_down_001.json",
       "tags": [],
       "width": 32,
@@ -2543,7 +2543,7 @@
     {
       "id": "zyt_outfit_casual_down_001",
       "name": "祝英台_常服_下站",
-      "category": "character_outfit",
+      "category": "other",
       "path": "components/character_outfit/zyt_outfit_casual_down_001.json",
       "tags": [],
       "width": 32,
@@ -2631,6 +2631,7 @@
     {
       "id": "zyt_body_fixed_down",
       "name": "祝英台_基底_修正版",
+      "category": "other",
       "path": "components/undefined/zyt_body_fixed_down.json",
       "tags": [],
       "width": 32,
@@ -2641,6 +2642,7 @@
     {
       "id": "zyt_body_v1_front",
       "name": "祝英台_身体_基础层",
+      "category": "other",
       "path": "components/undefined/zyt_body_v1_front.json",
       "tags": [],
       "width": 32,
@@ -2651,6 +2653,7 @@
     {
       "id": "zyt_body_v2_down_full",
       "name": "祝英台_基底_精修面部",
+      "category": "other",
       "path": "components/undefined/zyt_body_v2_down_full.json",
       "tags": [],
       "width": 32,
@@ -2661,6 +2664,7 @@
     {
       "id": "zyt_clothes_v1_front",
       "name": "祝英台_衣服_正面版",
+      "category": "other",
       "path": "components/undefined/zyt_clothes_v1_front.json",
       "tags": [],
       "width": 32,
@@ -2671,6 +2675,7 @@
     {
       "id": "zyt_hair_v2_front",
       "name": "祝英台_头发_正面版",
+      "category": "other",
       "path": "components/undefined/zyt_hair_v2_front.json",
       "tags": [],
       "width": 32,
@@ -2681,6 +2686,7 @@
     {
       "id": "zyt_outfit_v2_refined_down",
       "name": "祝英台_精修常服_下站",
+      "category": "other",
       "path": "components/undefined/zyt_outfit_v2_refined_down.json",
       "tags": [],
       "width": 32,
