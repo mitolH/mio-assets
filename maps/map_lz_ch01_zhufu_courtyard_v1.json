@@ -754,8 +754,8 @@
   "version": 1,
   "story": {
     "storyId": "liangzhu",
-    "chapterId": "ch01",
-    "sceneId": "zhufu_courtyard",
+    "chapterId": "ch01_yingtai_leaves_home",
+    "sceneId": "ch01_scene_01_zhufu_home",
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

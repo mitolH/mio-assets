@@ -762,8 +762,8 @@
   "version": 1,
   "story": {
     "storyId": "liangzhu",
-    "chapterId": "ch01",
-    "sceneId": "academy_gate",
+    "chapterId": "ch01_yingtai_leaves_home",
+    "sceneId": "ch01_scene_04_academy_gate",
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

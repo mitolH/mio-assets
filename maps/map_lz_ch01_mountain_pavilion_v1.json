@@ -754,8 +754,8 @@
   "version": 1,
   "story": {
     "storyId": "liangzhu",
-    "chapterId": "ch01",
-    "sceneId": "mountain_pavilion",
+    "chapterId": "ch01_yingtai_leaves_home",
+    "sceneId": "ch01_scene_03_mountain_pavilion",
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

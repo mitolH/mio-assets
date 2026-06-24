@@ -746,8 +746,8 @@
   "version": 1,
   "story": {
     "storyId": "liangzhu",
-    "chapterId": "ch05",
-    "sceneId": "butterfly_end",
+    "chapterId": "ch05_tower_and_butterflies",
+    "sceneId": "ch05_scene_05_butterfly_end",
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

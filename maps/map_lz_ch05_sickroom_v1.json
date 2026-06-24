@@ -746,8 +746,8 @@
   "version": 1,
   "story": {
     "storyId": "liangzhu",
-    "chapterId": "ch05",
-    "sceneId": "sickroom",
+    "chapterId": "ch05_tower_and_butterflies",
+    "sceneId": "ch05_scene_02_sickroom",
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

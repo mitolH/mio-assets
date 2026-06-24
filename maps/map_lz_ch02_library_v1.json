@@ -754,8 +754,8 @@
   "version": 1,
   "story": {
     "storyId": "liangzhu",
-    "chapterId": "ch02",
-    "sceneId": "library",
+    "chapterId": "ch02_classmates_three_years",
+    "sceneId": "ch02_scene_03_library",
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

@@ -754,8 +754,8 @@
   "version": 1,
   "story": {
     "storyId": "liangzhu",
-    "chapterId": "ch01",
-    "sceneId": "river_ferry",
+    "chapterId": "ch01_yingtai_leaves_home",
+    "sceneId": "ch01_scene_02_river_ferry",
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

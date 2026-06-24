@@ -746,8 +746,8 @@
   "version": 1,
   "story": {
     "storyId": "liangzhu",
-    "chapterId": "ch03",
-    "sceneId": "fork_road",
+    "chapterId": "ch03_eighteen_mile_farewell",
+    "sceneId": "ch03_scene_05_fork_road",
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

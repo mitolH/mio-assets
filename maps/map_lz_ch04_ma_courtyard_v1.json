@@ -754,8 +754,8 @@
   "version": 1,
   "story": {
     "storyId": "liangzhu",
-    "chapterId": "ch04",
-    "sceneId": "ma_courtyard",
+    "chapterId": "ch04_ma_family_forces_marriage",
+    "sceneId": "ch04_scene_03_ma_courtyard",
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

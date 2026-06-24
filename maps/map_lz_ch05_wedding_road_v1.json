@@ -754,8 +754,8 @@
   "version": 1,
   "story": {
     "storyId": "liangzhu",
-    "chapterId": "ch05",
-    "sceneId": "wedding_road",
+    "chapterId": "ch05_tower_and_butterflies",
+    "sceneId": "ch05_scene_03_wedding_road",
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",
