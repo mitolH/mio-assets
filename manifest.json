@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1782314539219,
+  "updatedAt": 1782314587800,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -2703,7 +2703,7 @@
       "width": 64,
       "height": 64,
       "version": 1,
-      "updatedAt": 1782314538663
+      "updatedAt": 1782314587253
     },
     {
       "id": "comp_zhuyingtai_home_main_hall_v1",
@@ -2720,7 +2720,7 @@
       "width": 384,
       "height": 176,
       "version": 1,
-      "updatedAt": 1782314538663
+      "updatedAt": 1782314587253
     },
     {
       "id": "comp_zhuyingtai_home_left_room_v1",
@@ -2736,7 +2736,7 @@
       "width": 128,
       "height": 192,
       "version": 1,
-      "updatedAt": 1782314538663
+      "updatedAt": 1782314587253
     },
     {
       "id": "comp_zhuyingtai_home_right_wall_room_v1",
@@ -2752,7 +2752,7 @@
       "width": 128,
       "height": 176,
       "version": 1,
-      "updatedAt": 1782314538663
+      "updatedAt": 1782314587253
     },
     {
       "id": "comp_zhuyingtai_home_front_gate_wall_v1",
@@ -2769,7 +2769,7 @@
       "width": 640,
       "height": 112,
       "version": 1,
-      "updatedAt": 1782314538663
+      "updatedAt": 1782314587253
     },
     {
       "id": "comp_zhuyingtai_home_lotus_pond_v1",
@@ -2786,7 +2786,7 @@
       "width": 128,
       "height": 80,
       "version": 1,
-      "updatedAt": 1782314538663
+      "updatedAt": 1782314587253
     },
     {
       "id": "comp_zhuyingtai_home_flower_bed_v1",
@@ -2802,7 +2802,7 @@
       "width": 112,
       "height": 80,
       "version": 1,
-      "updatedAt": 1782314538663
+      "updatedAt": 1782314587253
     },
     {
       "id": "comp_zhuyingtai_home_bamboo_left_v1",
@@ -2818,7 +2818,7 @@
       "width": 64,
       "height": 176,
       "version": 1,
-      "updatedAt": 1782314538663
+      "updatedAt": 1782314587253
     },
     {
       "id": "comp_zhuyingtai_home_bamboo_right_v1",
@@ -2834,7 +2834,7 @@
       "width": 64,
       "height": 176,
       "version": 1,
-      "updatedAt": 1782314538663
+      "updatedAt": 1782314587253
     },
     {
       "id": "comp_zhuyingtai_home_shelf_jars_v1",
@@ -2851,7 +2851,7 @@
       "width": 96,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782314538663
+      "updatedAt": 1782314587253
     },
     {
       "id": "comp_zhuyingtai_home_flower_planter_v1",
@@ -2868,7 +2868,7 @@
       "width": 64,
       "height": 64,
       "version": 1,
-      "updatedAt": 1782314538663
+      "updatedAt": 1782314587253
     },
     {
       "id": "comp_zhuyingtai_home_water_jar_v1",
@@ -2884,7 +2884,7 @@
       "width": 48,
       "height": 64,
       "version": 1,
-      "updatedAt": 1782314538663
+      "updatedAt": 1782314587253
     }
   ],
   "maps": [
@@ -2931,7 +2931,7 @@
       "widthInTiles": 40,
       "heightInTiles": 34,
       "version": 1,
-      "updatedAt": 1782314538663
+      "updatedAt": 1782314587253
     }
   ],
   "sprites": [

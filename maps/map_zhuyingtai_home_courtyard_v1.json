@@ -492,66 +492,6 @@
           "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
           "tileX": 36,
           "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
-          "tileX": 0,
-          "tileY": 32
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
-          "tileX": 4,
-          "tileY": 32
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
-          "tileX": 8,
-          "tileY": 32
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
-          "tileX": 12,
-          "tileY": 32
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
-          "tileX": 16,
-          "tileY": 32
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
-          "tileX": 20,
-          "tileY": 32
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
-          "tileX": 24,
-          "tileY": 32
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
-          "tileX": 28,
-          "tileY": 32
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
-          "tileX": 32,
-          "tileY": 32
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
-          "tileX": 36,
-          "tileY": 32
         }
       ]
     },
@@ -781,7 +721,7 @@
       "visualType": "door"
     }
   ],
-  "createdAt": 1782314538663,
-  "updatedAt": 1782314538663,
+  "createdAt": 1782314587253,
+  "updatedAt": 1782314587253,
   "version": 1
 }
