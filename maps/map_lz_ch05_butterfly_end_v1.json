@@ -567,6 +567,13 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_map_lz_ch05_butterfly_end_v1_story_atmosphere_v6",
+          "tileX": 10,
+          "tileY": 2,
+          "refId": "map_lz_ch05_butterfly_end_v1_story_atmosphere"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_lz_prop_butterflies_story_v1",
           "tileX": 10,
           "tileY": 20,
