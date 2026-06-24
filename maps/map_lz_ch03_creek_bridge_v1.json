@@ -814,6 +814,26 @@
           "eventDensity": 1,
           "offsetX": 22,
           "offsetY": 24
+        },
+        {
+          "id": "map_lz_ch03_creek_bridge_v1_clue",
+          "name": "溪桥线索点",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 1,
+          "offsetX": 10,
+          "offsetY": 20
+        },
+        {
+          "id": "map_lz_ch03_creek_bridge_v1_choice",
+          "name": "溪桥抉择点",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 1,
+          "offsetX": 30,
+          "offsetY": 20
         }
       ],
       "defaultEventDensity": 1

@@ -822,6 +822,26 @@
           "eventDensity": 1,
           "offsetX": 22,
           "offsetY": 24
+        },
+        {
+          "id": "map_lz_ch01_river_ferry_v1_clue",
+          "name": "渡口线索点",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 1,
+          "offsetX": 10,
+          "offsetY": 20
+        },
+        {
+          "id": "map_lz_ch01_river_ferry_v1_choice",
+          "name": "渡口抉择点",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 1,
+          "offsetX": 30,
+          "offsetY": 20
         }
       ],
       "defaultEventDensity": 1

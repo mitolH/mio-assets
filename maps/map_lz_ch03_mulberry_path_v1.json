@@ -814,6 +814,26 @@
           "eventDensity": 1,
           "offsetX": 22,
           "offsetY": 24
+        },
+        {
+          "id": "map_lz_ch03_mulberry_path_v1_clue",
+          "name": "桑田小路线索点",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 1,
+          "offsetX": 10,
+          "offsetY": 20
+        },
+        {
+          "id": "map_lz_ch03_mulberry_path_v1_choice",
+          "name": "桑田小路抉择点",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 1,
+          "offsetX": 30,
+          "offsetY": 20
         }
       ],
       "defaultEventDensity": 1
