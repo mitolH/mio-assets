@@ -14,7 +14,9 @@
     "blue-white-layered-robe",
     "pale-scholar-face",
     "long-sleeve-cuffs",
-    "cloth-book-roll"
+    "cloth-book-roll",
+    "plain-scholar-silhouette",
+    "single-book-roll"
   ],
   "styleProfile": {
     "storyId": "liangzhu",
@@ -28,7 +30,9 @@
       "plain blue-white layered robe",
       "pale reserved face",
       "long scholar sleeves",
-      "stitched cloth book roll"
+      "stitched cloth book roll",
+      "narrow plain scholar silhouette",
+      "single stitched book roll"
     ]
   },
   "width": 48,
