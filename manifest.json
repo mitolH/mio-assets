@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1782319648945,
+  "updatedAt": 1782319801998,
   "components": [
     {
       "id": "comp_zhuyingtai_home_front_gate_wall_v1",
@@ -2913,58 +2913,13 @@
       "updatedAt": 1782312415378
     },
     {
-      "id": "map_1770841082750_vts2kt",
-      "name": "New Map",
-      "path": "maps/map_1770841082750_vts2kt.json",
-      "widthInTiles": 32,
-      "heightInTiles": 32,
-      "version": 18,
-      "updatedAt": 1782312443125
-    },
-    {
-      "id": "map_1771040841420_4ou8h1",
-      "name": "New Map",
-      "path": "maps/map_1771040841420_4ou8h1.json",
-      "widthInTiles": 32,
-      "heightInTiles": 32,
-      "version": 17,
-      "updatedAt": 1771041129207
-    },
-    {
-      "id": "map_1771041109457_08zebu",
-      "name": "New Map",
-      "path": "maps/map_1771041109457_08zebu.json",
-      "widthInTiles": 32,
-      "heightInTiles": 32,
-      "version": 3,
-      "updatedAt": 1771041472545
-    },
-    {
-      "id": "map_1771041836181_w4e5o6",
-      "name": "New Map",
-      "path": "maps/map_1771041836181_w4e5o6.json",
-      "widthInTiles": 32,
-      "heightInTiles": 32,
-      "version": 1,
-      "updatedAt": 1771041837184
-    },
-    {
-      "id": "map_1772004621385_njovgh",
-      "name": "New Map",
-      "path": "maps/map_1772004621385_njovgh.json",
-      "widthInTiles": 32,
-      "heightInTiles": 32,
-      "version": 21,
-      "updatedAt": 1782312441358
-    },
-    {
       "id": "map_zhuyingtai_home_courtyard_v1",
       "name": "祝英台家小院 v1",
       "path": "maps/map_zhuyingtai_home_courtyard_v1.json",
       "widthInTiles": 40,
       "heightInTiles": 34,
-      "version": 2,
-      "updatedAt": 1782319648651
+      "version": 6,
+      "updatedAt": 1782319801424
     }
   ],
   "sprites": [
