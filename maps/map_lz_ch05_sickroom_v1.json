@@ -682,11 +682,26 @@
                   {
                     "type": "modify_attribute",
                     "target": "health",
-                    "value": -4
+                    "value": -8
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "mood",
+                    "value": -3
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "social",
+                    "value": 1
                   },
                   {
                     "type": "modify_story_variable",
                     "target": "tragedyWeight",
+                    "value": 2
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "promiseClarity",
                     "value": 1
                   },
                   {

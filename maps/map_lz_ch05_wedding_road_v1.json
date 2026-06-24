@@ -642,11 +642,21 @@
                   {
                     "type": "modify_attribute",
                     "target": "mood",
-                    "value": -5
+                    "value": -7
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "social",
+                    "value": -2
                   },
                   {
                     "type": "modify_story_variable",
                     "target": "tragedyWeight",
+                    "value": 2
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "familyPressure",
                     "value": 1
                   },
                   {

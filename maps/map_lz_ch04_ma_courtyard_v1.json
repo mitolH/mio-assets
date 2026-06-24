@@ -722,11 +722,26 @@
                   {
                     "type": "modify_attribute",
                     "target": "wealth",
-                    "value": 1
+                    "value": 4
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "social",
+                    "value": 2
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "mood",
+                    "value": -2
                   },
                   {
                     "type": "modify_story_variable",
                     "target": "maPressure",
+                    "value": 2
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "tragedyWeight",
                     "value": 1
                   },
                   {
