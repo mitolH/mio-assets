@@ -780,6 +780,13 @@
           }
         },
         {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch04_zhufu_hall_v1_story_composition_v4",
+          "tileX": 10,
+          "tileY": 13,
+          "refId": "map_lz_ch04_zhufu_hall_v1_story_composition"
+        },
+        {
           "assetType": "sprite",
           "spriteId": "sprite_zhuyingtai_48x96_story_v1",
           "animationId": "idle-down",
@@ -821,13 +828,6 @@
       "locked": false,
       "opacity": 1,
       "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_zhufu_hall_v1_story_composition_v4",
-          "tileX": 10,
-          "tileY": 13,
-          "refId": "map_lz_ch04_zhufu_hall_v1_story_composition"
-        },
         {
           "assetType": "component",
           "componentId": "comp_map_lz_ch04_zhufu_hall_v1_story_tableau_v3",
