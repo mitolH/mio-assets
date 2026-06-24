@@ -20,7 +20,11 @@
     "liangshanbo-detail-v3",
     "refined-scholar-face-v3",
     "woven-book-strap-v3",
-    "layered-collar-v3"
+    "layered-collar-v3",
+    "liangshanbo-detail-v4",
+    "humble-scholar-silhouette-v4",
+    "stitched-satchel-book-roll-v4",
+    "stable-five-animation-baseline-v4"
   ],
   "styleProfile": {
     "storyId": "liangzhu",
@@ -39,7 +43,10 @@
       "single stitched book roll",
       "refined reserved scholar face",
       "woven diagonal book strap",
-      "pale layered collar and sleeve rim"
+      "pale layered collar and sleeve rim",
+      "humble cold-blue scholar silhouette",
+      "stitched satchel and single cloth book roll",
+      "stable feet and centered head across all clips"
     ]
   },
   "width": 48,
