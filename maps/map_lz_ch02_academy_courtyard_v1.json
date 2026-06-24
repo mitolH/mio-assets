@@ -560,7 +560,7 @@
         },
         {
           "assetType": "component",
-          "componentId": "comp_lz_prop_red_veil_story_v1",
+          "componentId": "comp_lz_prop_books_story_v1",
           "tileX": 10,
           "tileY": 20,
           "refId": "map_lz_ch02_academy_courtyard_v1_story_a",
@@ -613,7 +613,7 @@
         },
         {
           "assetType": "component",
-          "componentId": "comp_lz_prop_bookcase_story_v1",
+          "componentId": "comp_lz_prop_stone_table_story_v1",
           "tileX": 30,
           "tileY": 20,
           "refId": "map_lz_ch02_academy_courtyard_v1_story_b",
@@ -668,25 +668,41 @@
           "assetType": "sprite",
           "spriteId": "sprite_zhuyingtai_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 20,
+          "tileX": 18,
           "tileY": 22,
-          "refId": "map_lz_ch02_academy_courtyard_v1_npc_zhuyingtai"
+          "refId": "map_lz_ch02_academy_courtyard_v1_actor_zhuyingtai_1"
         },
         {
           "assetType": "sprite",
           "spriteId": "sprite_liangshanbo_48x96_story_v2",
           "animationId": "idle-down",
-          "tileX": 24,
+          "tileX": 22,
           "tileY": 22,
-          "refId": "map_lz_ch02_academy_courtyard_v1_npc_liangshanbo"
+          "refId": "map_lz_ch02_academy_courtyard_v1_actor_liangshanbo_2"
         },
         {
           "assetType": "sprite",
           "spriteId": "sprite_mawencai_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 28,
+          "tileX": 29,
+          "tileY": 21,
+          "refId": "map_lz_ch02_academy_courtyard_v1_actor_mawencai_3"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_student_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 13,
           "tileY": 22,
-          "refId": "map_lz_ch02_academy_courtyard_v1_npc_mawencai"
+          "refId": "map_lz_ch02_academy_courtyard_v1_actor_student_4"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_teacher_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 24,
+          "tileY": 19,
+          "refId": "map_lz_ch02_academy_courtyard_v1_actor_teacher_5"
         }
       ]
     },
@@ -747,6 +763,17 @@
   "story": {
     "storyId": "liangzhu",
     "chapterId": "ch02",
-    "sceneId": "academy_courtyard"
+    "sceneId": "academy_courtyard",
+    "artStyle": {
+      "storyId": "liangzhu",
+      "visualStyle": "semi-realistic pixel comic",
+      "baseTileSize": 16,
+      "characterScale": "48x96",
+      "detailTier": "A",
+      "sceneFamily": "academy",
+      "chapterPalette": "clear-academy-bamboo-paper",
+      "mood": "restrained study and suspicion",
+      "focusTier": "A"
+    }
   }
 }

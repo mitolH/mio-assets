@@ -7,8 +7,16 @@
     "liangzhu-story-v1",
     "liangzhu",
     "zhuyingtai",
-    "48x96"
+    "48x96",
+    "tier-s"
   ],
+  "styleProfile": {
+    "storyId": "liangzhu",
+    "visualStyle": "semi-realistic pixel comic",
+    "baseTileSize": 16,
+    "characterScale": "48x96",
+    "detailTier": "S"
+  },
   "width": 48,
   "height": 96,
   "tileWidth": 3,

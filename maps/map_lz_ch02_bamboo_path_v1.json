@@ -613,7 +613,7 @@
         },
         {
           "assetType": "component",
-          "componentId": "comp_lz_prop_marriage_doc_story_v1",
+          "componentId": "comp_lz_prop_willow_branch_story_v1",
           "tileX": 30,
           "tileY": 20,
           "refId": "map_lz_ch02_bamboo_path_v1_story_b",
@@ -668,25 +668,33 @@
           "assetType": "sprite",
           "spriteId": "sprite_zhuyingtai_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 20,
+          "tileX": 18,
           "tileY": 22,
-          "refId": "map_lz_ch02_bamboo_path_v1_npc_zhuyingtai"
+          "refId": "map_lz_ch02_bamboo_path_v1_actor_zhuyingtai_1"
         },
         {
           "assetType": "sprite",
           "spriteId": "sprite_liangshanbo_48x96_story_v2",
           "animationId": "idle-down",
-          "tileX": 24,
+          "tileX": 23,
           "tileY": 22,
-          "refId": "map_lz_ch02_bamboo_path_v1_npc_liangshanbo"
+          "refId": "map_lz_ch02_bamboo_path_v1_actor_liangshanbo_2"
         },
         {
           "assetType": "sprite",
           "spriteId": "sprite_mawencai_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 28,
+          "tileX": 31,
+          "tileY": 21,
+          "refId": "map_lz_ch02_bamboo_path_v1_actor_mawencai_3"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_student_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 12,
           "tileY": 22,
-          "refId": "map_lz_ch02_bamboo_path_v1_npc_mawencai"
+          "refId": "map_lz_ch02_bamboo_path_v1_actor_student_4"
         }
       ]
     },
@@ -747,6 +755,17 @@
   "story": {
     "storyId": "liangzhu",
     "chapterId": "ch02",
-    "sceneId": "bamboo_path"
+    "sceneId": "bamboo_path",
+    "artStyle": {
+      "storyId": "liangzhu",
+      "visualStyle": "semi-realistic pixel comic",
+      "baseTileSize": 16,
+      "characterScale": "48x96",
+      "detailTier": "A",
+      "sceneFamily": "bamboo",
+      "chapterPalette": "clear-academy-bamboo-paper",
+      "mood": "restrained study and suspicion",
+      "focusTier": "A"
+    }
   }
 }

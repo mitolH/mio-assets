@@ -7,8 +7,17 @@
     "liangzhu-story-v1",
     "liangzhu",
     "梁祝",
+    "tier-c",
     "ground"
   ],
+  "styleProfile": {
+    "storyId": "liangzhu",
+    "visualStyle": "semi-realistic pixel comic",
+    "baseTileSize": 16,
+    "characterScale": "48x96",
+    "detailTier": "C",
+    "material": "墓前湿土"
+  },
   "width": 64,
   "height": 64,
   "tileWidth": 4,

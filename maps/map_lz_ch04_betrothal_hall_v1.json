@@ -560,7 +560,7 @@
         },
         {
           "assetType": "component",
-          "componentId": "comp_lz_prop_butterflies_story_v1",
+          "componentId": "comp_lz_prop_marriage_doc_story_v1",
           "tileX": 10,
           "tileY": 20,
           "refId": "map_lz_ch04_betrothal_hall_v1_story_a",
@@ -613,7 +613,7 @@
         },
         {
           "assetType": "component",
-          "componentId": "comp_lz_prop_fan_jade_story_v1",
+          "componentId": "comp_lz_prop_betrothal_chest_story_v1",
           "tileX": 30,
           "tileY": 20,
           "refId": "map_lz_ch04_betrothal_hall_v1_story_b",
@@ -666,27 +666,35 @@
         },
         {
           "assetType": "sprite",
-          "spriteId": "sprite_zhuyingtai_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 20,
-          "tileY": 22,
-          "refId": "map_lz_ch04_betrothal_hall_v1_npc_zhuyingtai"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_liangshanbo_48x96_story_v2",
-          "animationId": "idle-down",
-          "tileX": 24,
-          "tileY": 22,
-          "refId": "map_lz_ch04_betrothal_hall_v1_npc_liangshanbo"
-        },
-        {
-          "assetType": "sprite",
           "spriteId": "sprite_mawencai_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 28,
+          "tileX": 18,
           "tileY": 22,
-          "refId": "map_lz_ch04_betrothal_hall_v1_npc_mawencai"
+          "refId": "map_lz_ch04_betrothal_hall_v1_actor_mawencai_1"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_matchmaker_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 23,
+          "tileY": 22,
+          "refId": "map_lz_ch04_betrothal_hall_v1_actor_matchmaker_2"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_county_clerk_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 28,
+          "tileY": 21,
+          "refId": "map_lz_ch04_betrothal_hall_v1_actor_county_clerk_3"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_zhufu_father_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 32,
+          "tileY": 21,
+          "refId": "map_lz_ch04_betrothal_hall_v1_actor_zhufu_father_4"
         }
       ]
     },
@@ -747,6 +755,17 @@
   "story": {
     "storyId": "liangzhu",
     "chapterId": "ch04",
-    "sceneId": "betrothal_hall"
+    "sceneId": "betrothal_hall",
+    "artStyle": {
+      "storyId": "liangzhu",
+      "visualStyle": "semi-realistic pixel comic",
+      "baseTileSize": 16,
+      "characterScale": "48x96",
+      "detailTier": "S",
+      "sceneFamily": "betrothal",
+      "chapterPalette": "dark-wood-red-gold-law",
+      "mood": "family pressure and forced betrothal",
+      "focusTier": "S"
+    }
   }
 }

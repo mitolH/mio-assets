@@ -7,9 +7,18 @@
     "liangzhu-story-v1",
     "liangzhu",
     "梁祝",
+    "tier-s",
     "fan",
     "jade"
   ],
+  "styleProfile": {
+    "storyId": "liangzhu",
+    "visualStyle": "semi-realistic pixel comic",
+    "baseTileSize": 16,
+    "characterScale": "48x96",
+    "detailTier": "S",
+    "material": "paper-jade"
+  },
   "width": 48,
   "height": 32,
   "tileWidth": 3,

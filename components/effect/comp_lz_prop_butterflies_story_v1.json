@@ -7,8 +7,17 @@
     "liangzhu-story-v1",
     "liangzhu",
     "梁祝",
+    "tier-s",
     "butterfly"
   ],
+  "styleProfile": {
+    "storyId": "liangzhu",
+    "visualStyle": "semi-realistic pixel comic",
+    "baseTileSize": 16,
+    "characterScale": "48x96",
+    "detailTier": "S",
+    "material": "light-effect"
+  },
   "width": 64,
   "height": 48,
   "tileWidth": 4,

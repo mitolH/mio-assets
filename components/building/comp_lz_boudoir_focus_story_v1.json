@@ -7,9 +7,19 @@
     "liangzhu-story-v1",
     "liangzhu",
     "梁祝",
+    "tier-s",
     "boudoir",
     "boudoir"
   ],
+  "styleProfile": {
+    "storyId": "liangzhu",
+    "visualStyle": "semi-realistic pixel comic",
+    "baseTileSize": 16,
+    "characterScale": "48x96",
+    "detailTier": "S",
+    "sceneFamily": "boudoir",
+    "chapterPalette": "dark-wood-red-gold-law"
+  },
   "width": 256,
   "height": 128,
   "tileWidth": 16,

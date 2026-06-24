@@ -560,7 +560,7 @@
         },
         {
           "assetType": "component",
-          "componentId": "comp_lz_prop_butterflies_story_v1",
+          "componentId": "comp_lz_prop_books_story_v1",
           "tileX": 10,
           "tileY": 20,
           "refId": "map_lz_ch02_classroom_v1_story_a",
@@ -668,25 +668,41 @@
           "assetType": "sprite",
           "spriteId": "sprite_zhuyingtai_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 20,
-          "tileY": 22,
-          "refId": "map_lz_ch02_classroom_v1_npc_zhuyingtai"
+          "tileX": 18,
+          "tileY": 23,
+          "refId": "map_lz_ch02_classroom_v1_actor_zhuyingtai_1"
         },
         {
           "assetType": "sprite",
           "spriteId": "sprite_liangshanbo_48x96_story_v2",
           "animationId": "idle-down",
-          "tileX": 24,
-          "tileY": 22,
-          "refId": "map_lz_ch02_classroom_v1_npc_liangshanbo"
+          "tileX": 22,
+          "tileY": 23,
+          "refId": "map_lz_ch02_classroom_v1_actor_liangshanbo_2"
         },
         {
           "assetType": "sprite",
           "spriteId": "sprite_mawencai_48x96_story_v1",
           "animationId": "idle-down",
           "tileX": 28,
-          "tileY": 22,
-          "refId": "map_lz_ch02_classroom_v1_npc_mawencai"
+          "tileY": 23,
+          "refId": "map_lz_ch02_classroom_v1_actor_mawencai_3"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_teacher_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 23,
+          "tileY": 18,
+          "refId": "map_lz_ch02_classroom_v1_actor_teacher_4"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_student_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 31,
+          "tileY": 23,
+          "refId": "map_lz_ch02_classroom_v1_actor_student_5"
         }
       ]
     },
@@ -747,6 +763,17 @@
   "story": {
     "storyId": "liangzhu",
     "chapterId": "ch02",
-    "sceneId": "classroom"
+    "sceneId": "classroom",
+    "artStyle": {
+      "storyId": "liangzhu",
+      "visualStyle": "semi-realistic pixel comic",
+      "baseTileSize": 16,
+      "characterScale": "48x96",
+      "detailTier": "A",
+      "sceneFamily": "classroom",
+      "chapterPalette": "clear-academy-bamboo-paper",
+      "mood": "restrained study and suspicion",
+      "focusTier": "A"
+    }
   }
 }

@@ -7,9 +7,19 @@
     "liangzhu-story-v1",
     "liangzhu",
     "梁祝",
+    "tier-s",
     "long_pavilion",
     "long_pavilion"
   ],
+  "styleProfile": {
+    "storyId": "liangzhu",
+    "visualStyle": "semi-realistic pixel comic",
+    "baseTileSize": 16,
+    "characterScale": "48x96",
+    "detailTier": "S",
+    "sceneFamily": "long_pavilion",
+    "chapterPalette": "sunset-road-willow-water"
+  },
   "width": 256,
   "height": 128,
   "tileWidth": 16,

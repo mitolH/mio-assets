@@ -560,7 +560,7 @@
         },
         {
           "assetType": "component",
-          "componentId": "comp_lz_prop_books_story_v1",
+          "componentId": "comp_lz_prop_marriage_doc_story_v1",
           "tileX": 10,
           "tileY": 20,
           "refId": "map_lz_ch04_zhufu_hall_v1_story_a",
@@ -668,25 +668,33 @@
           "assetType": "sprite",
           "spriteId": "sprite_zhuyingtai_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 20,
-          "tileY": 22,
-          "refId": "map_lz_ch04_zhufu_hall_v1_npc_zhuyingtai"
+          "tileX": 18,
+          "tileY": 23,
+          "refId": "map_lz_ch04_zhufu_hall_v1_actor_zhuyingtai_1"
         },
         {
           "assetType": "sprite",
-          "spriteId": "sprite_liangshanbo_48x96_story_v2",
+          "spriteId": "sprite_zhufu_father_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 24,
-          "tileY": 22,
-          "refId": "map_lz_ch04_zhufu_hall_v1_npc_liangshanbo"
+          "tileX": 23,
+          "tileY": 21,
+          "refId": "map_lz_ch04_zhufu_hall_v1_actor_zhufu_father_2"
         },
         {
           "assetType": "sprite",
-          "spriteId": "sprite_mawencai_48x96_story_v1",
+          "spriteId": "sprite_zhufu_mother_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 28,
+          "tileX": 27,
+          "tileY": 21,
+          "refId": "map_lz_ch04_zhufu_hall_v1_actor_zhufu_mother_3"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_matchmaker_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 31,
           "tileY": 22,
-          "refId": "map_lz_ch04_zhufu_hall_v1_npc_mawencai"
+          "refId": "map_lz_ch04_zhufu_hall_v1_actor_matchmaker_4"
         }
       ]
     },
@@ -747,6 +755,17 @@
   "story": {
     "storyId": "liangzhu",
     "chapterId": "ch04",
-    "sceneId": "zhufu_hall"
+    "sceneId": "zhufu_hall",
+    "artStyle": {
+      "storyId": "liangzhu",
+      "visualStyle": "semi-realistic pixel comic",
+      "baseTileSize": 16,
+      "characterScale": "48x96",
+      "detailTier": "S",
+      "sceneFamily": "zhufu_hall",
+      "chapterPalette": "dark-wood-red-gold-law",
+      "mood": "family pressure and forced betrothal",
+      "focusTier": "S"
+    }
   }
 }

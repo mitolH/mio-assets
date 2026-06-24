@@ -1,0 +1,102 @@
+{
+  "id": "sprite_ma_guard_48x96_story_v1",
+  "name": "马府随从 48x96 story v1",
+  "category": "character",
+  "description": "马府随从 48x96 story v1，统一 48x96 写实比例像素漫画风主角。",
+  "tags": [
+    "liangzhu-story-v1",
+    "liangzhu",
+    "ma_guard",
+    "48x96",
+    "tier-b"
+  ],
+  "styleProfile": {
+    "storyId": "liangzhu",
+    "visualStyle": "semi-realistic pixel comic",
+    "baseTileSize": 16,
+    "characterScale": "48x96",
+    "detailTier": "B"
+  },
+  "width": 48,
+  "height": 96,
+  "tileWidth": 3,
+  "tileHeight": 6,
+  "anchorX": 24,
+  "anchorY": 96,
+  "footprint": {
+    "tileWidth": 1,
+    "tileHeight": 1,
+    "offsetTileX": 1,
+    "offsetTileY": 5
+  },
+  "layers": [
+    {
+      "id": "body",
+      "name": "Body",
+      "zOrder": 0,
+      "defaultComponentId": "comp_ma_guard_idle_down_f1_story_v1",
+      "defaultOffsetX": 0,
+      "defaultOffsetY": 0,
+      "visible": true
+    }
+  ],
+  "animations": [
+    {
+      "id": "idle-down",
+      "name": "idle-down",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 0,
+      "frames": [
+        {
+          "duration": 180,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_idle_down_f1_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 180,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_idle_down_f2_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 180,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_idle_down_f3_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 180,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_idle_down_f4_story_v1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "defaultAnimationId": "idle-down",
+  "createdAt": 1782325200000,
+  "updatedAt": 1782325200000,
+  "version": 1
+}

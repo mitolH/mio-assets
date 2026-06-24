@@ -7,8 +7,17 @@
     "liangzhu-story-v1",
     "liangzhu",
     "梁祝",
+    "tier-a",
     "books"
   ],
+  "styleProfile": {
+    "storyId": "liangzhu",
+    "visualStyle": "semi-realistic pixel comic",
+    "baseTileSize": 16,
+    "characterScale": "48x96",
+    "detailTier": "A",
+    "material": "paper-ink"
+  },
   "width": 48,
   "height": 32,
   "tileWidth": 3,

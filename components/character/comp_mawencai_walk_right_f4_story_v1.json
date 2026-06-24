@@ -7,10 +7,18 @@
     "liangzhu-story-v1",
     "liangzhu",
     "梁祝",
+    "tier-s",
     "mawencai",
     "walk-right",
     "48x96"
   ],
+  "styleProfile": {
+    "storyId": "liangzhu",
+    "visualStyle": "semi-realistic pixel comic",
+    "baseTileSize": 16,
+    "characterScale": "48x96",
+    "detailTier": "S"
+  },
   "width": 48,
   "height": 96,
   "tileWidth": 3,

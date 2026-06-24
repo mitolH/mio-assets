@@ -1,7 +1,7 @@
 {
   "name": "mio-world-assets",
   "version": "1.0.0",
-  "updatedAt": 1782326458033,
+  "updatedAt": 1782325200000,
   "components": [
     {
       "id": "comp_lz_academy_courtyard_focus_story_v1",
@@ -12,6 +12,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-a",
         "academy_courtyard",
         "academy"
       ],
@@ -29,6 +30,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "academy_gate",
         "academy_gate"
       ],
@@ -46,6 +48,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "academy_gate",
         "academy_gate"
       ],
@@ -63,6 +66,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-a",
         "bamboo_path",
         "bamboo"
       ],
@@ -80,6 +84,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "betrothal_hall",
         "betrothal"
       ],
@@ -97,6 +102,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "boudoir",
         "boudoir"
       ],
@@ -114,6 +120,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "butterfly_end",
         "butterfly"
       ],
@@ -131,6 +138,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-a",
         "classroom",
         "classroom"
       ],
@@ -148,6 +156,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "creek_bridge",
         "bridge"
       ],
@@ -165,6 +174,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-a",
         "dorm_corridor",
         "corridor"
       ],
@@ -182,6 +192,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-a",
         "fork_road",
         "road_sign"
       ],
@@ -199,6 +210,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "grave",
         "grave"
       ],
@@ -216,6 +228,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-a",
         "library",
         "library"
       ],
@@ -233,6 +246,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "long_pavilion",
         "long_pavilion"
       ],
@@ -250,6 +264,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "ma_courtyard",
         "ma_gate"
       ],
@@ -267,6 +282,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-a",
         "mountain_pavilion",
         "pavilion"
       ],
@@ -284,6 +300,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-a",
         "mulberry_path",
         "mulberry"
       ],
@@ -301,6 +318,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-a",
         "river_ferry",
         "ferry"
       ],
@@ -318,6 +336,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "sickroom",
         "sickroom"
       ],
@@ -335,6 +354,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "tower",
         "tower"
       ],
@@ -352,6 +372,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "wedding_road",
         "wedding"
       ],
@@ -369,6 +390,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhufu_courtyard",
         "zhufu"
       ],
@@ -386,6 +408,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhufu_hall",
         "zhufu_hall"
       ],
@@ -461,6 +484,82 @@
       "updatedAt": 1782314654465
     },
     {
+      "id": "comp_county_clerk_idle_down_f1_story_v1",
+      "name": "县吏 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_county_clerk_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "county_clerk",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_county_clerk_idle_down_f2_story_v1",
+      "name": "县吏 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_county_clerk_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "county_clerk",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_county_clerk_idle_down_f3_story_v1",
+      "name": "县吏 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_county_clerk_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "county_clerk",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_county_clerk_idle_down_f4_story_v1",
+      "name": "县吏 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_county_clerk_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "county_clerk",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_liangshanbo_idle_down_f1_story_v2",
       "name": "梁山伯 48x96 story v2 idle-down 1",
       "category": "character",
@@ -469,6 +568,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "idle-down",
         "48x96"
@@ -487,6 +587,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "idle-down",
         "48x96"
@@ -505,6 +606,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "idle-down",
         "48x96"
@@ -523,6 +625,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "idle-down",
         "48x96"
@@ -541,6 +644,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-down",
         "48x96"
@@ -559,6 +663,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-down",
         "48x96"
@@ -577,6 +682,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-down",
         "48x96"
@@ -595,6 +701,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-down",
         "48x96"
@@ -613,6 +720,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-left",
         "48x96"
@@ -631,6 +739,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-left",
         "48x96"
@@ -649,6 +758,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-left",
         "48x96"
@@ -667,6 +777,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-left",
         "48x96"
@@ -685,6 +796,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-right",
         "48x96"
@@ -703,6 +815,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-right",
         "48x96"
@@ -721,6 +834,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-right",
         "48x96"
@@ -739,6 +853,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-right",
         "48x96"
@@ -757,6 +872,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-up",
         "48x96"
@@ -775,6 +891,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-up",
         "48x96"
@@ -793,6 +910,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-up",
         "48x96"
@@ -811,8 +929,237 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "liangshanbo",
         "walk-up",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_ma_guard_idle_down_f1_story_v1",
+      "name": "马府随从 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_ma_guard_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "ma_guard",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_ma_guard_idle_down_f2_story_v1",
+      "name": "马府随从 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_ma_guard_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "ma_guard",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_ma_guard_idle_down_f3_story_v1",
+      "name": "马府随从 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_ma_guard_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "ma_guard",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_ma_guard_idle_down_f4_story_v1",
+      "name": "马府随从 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_ma_guard_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "ma_guard",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_ma_steward_idle_down_f1_story_v1",
+      "name": "马府管家 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_ma_steward_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "ma_steward",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_ma_steward_idle_down_f2_story_v1",
+      "name": "马府管家 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_ma_steward_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "ma_steward",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_ma_steward_idle_down_f3_story_v1",
+      "name": "马府管家 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_ma_steward_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "ma_steward",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_ma_steward_idle_down_f4_story_v1",
+      "name": "马府管家 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_ma_steward_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "ma_steward",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_matchmaker_idle_down_f1_story_v1",
+      "name": "媒人 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_matchmaker_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "matchmaker",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_matchmaker_idle_down_f2_story_v1",
+      "name": "媒人 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_matchmaker_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "matchmaker",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_matchmaker_idle_down_f3_story_v1",
+      "name": "媒人 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_matchmaker_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "matchmaker",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_matchmaker_idle_down_f4_story_v1",
+      "name": "媒人 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_matchmaker_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "matchmaker",
+        "idle-down",
         "48x96"
       ],
       "width": 48,
@@ -829,6 +1176,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "idle-down",
         "48x96"
@@ -847,6 +1195,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "idle-down",
         "48x96"
@@ -865,6 +1214,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "idle-down",
         "48x96"
@@ -883,6 +1233,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "idle-down",
         "48x96"
@@ -901,6 +1252,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-down",
         "48x96"
@@ -919,6 +1271,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-down",
         "48x96"
@@ -937,6 +1290,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-down",
         "48x96"
@@ -955,6 +1309,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-down",
         "48x96"
@@ -973,6 +1328,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-left",
         "48x96"
@@ -991,6 +1347,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-left",
         "48x96"
@@ -1009,6 +1366,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-left",
         "48x96"
@@ -1027,6 +1385,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-left",
         "48x96"
@@ -1045,6 +1404,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-right",
         "48x96"
@@ -1063,6 +1423,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-right",
         "48x96"
@@ -1081,6 +1442,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-right",
         "48x96"
@@ -1099,6 +1461,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-right",
         "48x96"
@@ -1117,6 +1480,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-up",
         "48x96"
@@ -1135,6 +1499,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-up",
         "48x96"
@@ -1153,6 +1518,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-up",
         "48x96"
@@ -1171,8 +1537,541 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "mawencai",
         "walk-up",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_servant_idle_down_f1_story_v1",
+      "name": "家仆书童 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_servant_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "servant",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_servant_idle_down_f2_story_v1",
+      "name": "家仆书童 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_servant_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "servant",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_servant_idle_down_f3_story_v1",
+      "name": "家仆书童 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_servant_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "servant",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_servant_idle_down_f4_story_v1",
+      "name": "家仆书童 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_servant_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "servant",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_student_idle_down_f1_story_v1",
+      "name": "普通书生 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_student_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "student",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_student_idle_down_f2_story_v1",
+      "name": "普通书生 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_student_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "student",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_student_idle_down_f3_story_v1",
+      "name": "普通书生 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_student_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "student",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_student_idle_down_f4_story_v1",
+      "name": "普通书生 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_student_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "student",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_teacher_idle_down_f1_story_v1",
+      "name": "书院先生 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_teacher_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "teacher",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_teacher_idle_down_f2_story_v1",
+      "name": "书院先生 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_teacher_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "teacher",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_teacher_idle_down_f3_story_v1",
+      "name": "书院先生 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_teacher_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "teacher",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_teacher_idle_down_f4_story_v1",
+      "name": "书院先生 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_teacher_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "teacher",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_villager_idle_down_f1_story_v1",
+      "name": "村民路人 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_villager_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "villager",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_villager_idle_down_f2_story_v1",
+      "name": "村民路人 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_villager_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "villager",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_villager_idle_down_f3_story_v1",
+      "name": "村民路人 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_villager_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "villager",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_villager_idle_down_f4_story_v1",
+      "name": "村民路人 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_villager_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "villager",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_wedding_bearer_idle_down_f1_story_v1",
+      "name": "送亲轿夫 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_wedding_bearer_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "wedding_bearer",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_wedding_bearer_idle_down_f2_story_v1",
+      "name": "送亲轿夫 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_wedding_bearer_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "wedding_bearer",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_wedding_bearer_idle_down_f3_story_v1",
+      "name": "送亲轿夫 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_wedding_bearer_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "wedding_bearer",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_wedding_bearer_idle_down_f4_story_v1",
+      "name": "送亲轿夫 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_wedding_bearer_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-b",
+        "wedding_bearer",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_zhufu_father_idle_down_f1_story_v1",
+      "name": "祝父 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_zhufu_father_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "zhufu_father",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_zhufu_father_idle_down_f2_story_v1",
+      "name": "祝父 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_zhufu_father_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "zhufu_father",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_zhufu_father_idle_down_f3_story_v1",
+      "name": "祝父 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_zhufu_father_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "zhufu_father",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_zhufu_father_idle_down_f4_story_v1",
+      "name": "祝父 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_zhufu_father_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "zhufu_father",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_zhufu_mother_idle_down_f1_story_v1",
+      "name": "祝母 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_zhufu_mother_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "zhufu_mother",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_zhufu_mother_idle_down_f2_story_v1",
+      "name": "祝母 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_zhufu_mother_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "zhufu_mother",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_zhufu_mother_idle_down_f3_story_v1",
+      "name": "祝母 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_zhufu_mother_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "zhufu_mother",
+        "idle-down",
+        "48x96"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_zhufu_mother_idle_down_f4_story_v1",
+      "name": "祝母 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_zhufu_mother_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "zhufu_mother",
+        "idle-down",
         "48x96"
       ],
       "width": 48,
@@ -1208,6 +2107,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "idle-down",
         "48x96"
@@ -1245,6 +2145,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "idle-down",
         "48x96"
@@ -1282,6 +2183,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "idle-down",
         "48x96"
@@ -1319,6 +2221,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "idle-down",
         "48x96"
@@ -1356,6 +2259,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-down",
         "48x96"
@@ -1393,6 +2297,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-down",
         "48x96"
@@ -1430,6 +2335,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-down",
         "48x96"
@@ -1467,6 +2373,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-down",
         "48x96"
@@ -1504,6 +2411,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-left",
         "48x96"
@@ -1541,6 +2449,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-left",
         "48x96"
@@ -1578,6 +2487,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-left",
         "48x96"
@@ -1615,6 +2525,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-left",
         "48x96"
@@ -1652,6 +2563,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-right",
         "48x96"
@@ -1689,6 +2601,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-right",
         "48x96"
@@ -1726,6 +2639,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-right",
         "48x96"
@@ -1763,6 +2677,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-right",
         "48x96"
@@ -1800,6 +2715,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-up",
         "48x96"
@@ -1837,6 +2753,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-up",
         "48x96"
@@ -1874,6 +2791,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-up",
         "48x96"
@@ -1911,12 +2829,31 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "zhuyingtai",
         "walk-up",
         "48x96"
       ],
       "width": 48,
       "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_prop_betrothal_chest_story_v1",
+      "name": "聘礼箱",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_betrothal_chest_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "betrothal",
+        "chest"
+      ],
+      "width": 64,
+      "height": 40,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -1929,6 +2866,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "bookcase"
       ],
       "width": 48,
@@ -1945,6 +2883,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-a",
         "books"
       ],
       "width": 48,
@@ -1961,8 +2900,26 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "fan",
         "jade"
+      ],
+      "width": 48,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_prop_last_letter_story_v1",
+      "name": "遗信",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_last_letter_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "letter"
       ],
       "width": 48,
       "height": 32,
@@ -1978,10 +2935,46 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "marriage"
       ],
       "width": 56,
       "height": 40,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_prop_medicine_bowl_story_v1",
+      "name": "药碗",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_medicine_bowl_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "medicine"
+      ],
+      "width": 48,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_prop_red_sedan_story_v1",
+      "name": "红轿",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_red_sedan_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "sedan",
+        "wedding"
+      ],
+      "width": 80,
+      "height": 56,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -1994,7 +2987,43 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "veil"
+      ],
+      "width": 48,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_prop_stone_table_story_v1",
+      "name": "石桌茶盏",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_stone_table_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "tea",
+        "stone"
+      ],
+      "width": 56,
+      "height": 40,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_prop_willow_branch_story_v1",
+      "name": "折柳枝",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_willow_branch_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "willow"
       ],
       "width": 48,
       "height": 32,
@@ -2093,10 +3122,29 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-s",
         "butterfly"
       ],
       "width": 64,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_prop_lantern_rain_story_v1",
+      "name": "雨灯",
+      "category": "effect",
+      "path": "components/effect/comp_lz_prop_lantern_rain_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "rain",
+        "lantern"
+      ],
+      "width": 48,
+      "height": 40,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -2109,6 +3157,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-c",
         "ground"
       ],
       "width": 64,
@@ -2125,6 +3174,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-c",
         "ground"
       ],
       "width": 64,
@@ -2141,6 +3191,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-c",
         "ground"
       ],
       "width": 64,
@@ -2157,6 +3208,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-c",
         "ground"
       ],
       "width": 64,
@@ -2173,6 +3225,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-c",
         "ground"
       ],
       "width": 64,
@@ -2189,6 +3242,7 @@
         "liangzhu-story-v1",
         "liangzhu",
         "梁祝",
+        "tier-c",
         "ground"
       ],
       "width": 64,
@@ -2466,6 +3520,25 @@
   ],
   "sprites": [
     {
+      "id": "sprite_county_clerk_48x96_story_v1",
+      "name": "县吏 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_county_clerk_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "county_clerk",
+        "48x96",
+        "tier-a"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "sprite_liangshanbo_48x96_story_v2",
       "name": "梁山伯 48x96 story v2",
       "category": "character",
@@ -2474,12 +3547,70 @@
         "liangzhu-story-v1",
         "liangzhu",
         "liangshanbo",
-        "48x96"
+        "48x96",
+        "tier-s"
       ],
       "width": 48,
       "height": 96,
       "layerCount": 1,
       "animationCount": 5,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "sprite_ma_guard_48x96_story_v1",
+      "name": "马府随从 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_ma_guard_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "ma_guard",
+        "48x96",
+        "tier-b"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "sprite_ma_steward_48x96_story_v1",
+      "name": "马府管家 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_ma_steward_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "ma_steward",
+        "48x96",
+        "tier-a"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "sprite_matchmaker_48x96_story_v1",
+      "name": "媒人 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_matchmaker_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "matchmaker",
+        "48x96",
+        "tier-a"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 1,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -2492,12 +3623,146 @@
         "liangzhu-story-v1",
         "liangzhu",
         "mawencai",
-        "48x96"
+        "48x96",
+        "tier-s"
       ],
       "width": 48,
       "height": 96,
       "layerCount": 1,
       "animationCount": 5,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "sprite_servant_48x96_story_v1",
+      "name": "家仆书童 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_servant_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "servant",
+        "48x96",
+        "tier-b"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "sprite_student_48x96_story_v1",
+      "name": "普通书生 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_student_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "student",
+        "48x96",
+        "tier-b"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "sprite_teacher_48x96_story_v1",
+      "name": "书院先生 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_teacher_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "teacher",
+        "48x96",
+        "tier-a"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "sprite_villager_48x96_story_v1",
+      "name": "村民路人 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_villager_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "villager",
+        "48x96",
+        "tier-b"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "sprite_wedding_bearer_48x96_story_v1",
+      "name": "送亲轿夫 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_wedding_bearer_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "wedding_bearer",
+        "48x96",
+        "tier-b"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "sprite_zhufu_father_48x96_story_v1",
+      "name": "祝父 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_zhufu_father_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_father",
+        "48x96",
+        "tier-a"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 1,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "sprite_zhufu_mother_48x96_story_v1",
+      "name": "祝母 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_zhufu_mother_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_mother",
+        "48x96",
+        "tier-a"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 1,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -2530,7 +3795,8 @@
         "liangzhu-story-v1",
         "liangzhu",
         "zhuyingtai",
-        "48x96"
+        "48x96",
+        "tier-s"
       ],
       "width": 48,
       "height": 96,

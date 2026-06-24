@@ -7,9 +7,19 @@
     "liangzhu-story-v1",
     "liangzhu",
     "梁祝",
+    "tier-s",
     "wedding_road",
     "wedding"
   ],
+  "styleProfile": {
+    "storyId": "liangzhu",
+    "visualStyle": "semi-realistic pixel comic",
+    "baseTileSize": 16,
+    "characterScale": "48x96",
+    "detailTier": "S",
+    "sceneFamily": "wedding",
+    "chapterPalette": "cold-rain-white-red-butterfly"
+  },
   "width": 256,
   "height": 128,
   "tileWidth": 16,
