@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1782315230723,
+  "updatedAt": 1782319648945,
   "components": [
     {
       "id": "comp_zhuyingtai_home_front_gate_wall_v1",
@@ -2963,8 +2963,8 @@
       "path": "maps/map_zhuyingtai_home_courtyard_v1.json",
       "widthInTiles": 40,
       "heightInTiles": 34,
-      "version": 1,
-      "updatedAt": 1782314654465
+      "version": 2,
+      "updatedAt": 1782319648651
     }
   ],
   "sprites": [
