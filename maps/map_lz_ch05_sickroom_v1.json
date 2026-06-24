@@ -795,6 +795,13 @@
       "components": [
         {
           "assetType": "component",
+          "componentId": "comp_map_lz_ch05_sickroom_v1_story_tableau_v3",
+          "tileX": 2,
+          "tileY": 12,
+          "refId": "map_lz_ch05_sickroom_v1_story_tableau"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch05_sickroom_v1_left_scene_detail_v2",
           "tileX": 4,
           "tileY": 23,

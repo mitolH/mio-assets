@@ -3175,6 +3175,28 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch01_academy_gate_v1_story_tableau_v3",
+      "name": "书院门前 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch01_academy_gate_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "academy_gate",
+        "academy_gate",
+        "tableau-academy_gate",
+        "story-tableau-v3",
+        "first-meeting",
+        "academy-arrival"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch01_mountain_pavilion_v1_ambient_scene_detail_v2",
       "name": "山路驿亭 ambient 场景细节",
       "category": "decoration",
@@ -3255,6 +3277,28 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch01_mountain_pavilion_v1_story_tableau_v3",
+      "name": "山路驿亭 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch01_mountain_pavilion_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "mountain_pavilion",
+        "pavilion",
+        "tableau-pavilion",
+        "story-tableau-v3",
+        "roadside-shelter",
+        "shared-journey"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -3343,6 +3387,28 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch01_river_ferry_v1_story_tableau_v3",
+      "name": "渡口 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch01_river_ferry_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "river_ferry",
+        "ferry",
+        "tableau-ferry",
+        "story-tableau-v3",
+        "river-oath",
+        "first-travel"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch01_zhufu_courtyard_v1_ambient_scene_detail_v2",
       "name": "祝英台家 ambient 场景细节",
       "category": "decoration",
@@ -3423,6 +3489,28 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch01_zhufu_courtyard_v1_story_tableau_v3",
+      "name": "祝英台家 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch01_zhufu_courtyard_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "zhufu_courtyard",
+        "zhufu",
+        "tableau-zhufu",
+        "story-tableau-v3",
+        "home-departure",
+        "hidden-identity"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -3511,6 +3599,28 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch02_academy_courtyard_v1_story_tableau_v3",
+      "name": "书院前庭 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch02_academy_courtyard_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "academy_courtyard",
+        "academy",
+        "tableau-academy",
+        "story-tableau-v3",
+        "three-year-study",
+        "classmate-bond"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch02_bamboo_path_v1_ambient_scene_detail_v2",
       "name": "竹林小径 ambient 场景细节",
       "category": "decoration",
@@ -3591,6 +3701,28 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch02_bamboo_path_v1_story_tableau_v3",
+      "name": "竹林小径 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch02_bamboo_path_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "bamboo_path",
+        "bamboo",
+        "tableau-bamboo",
+        "story-tableau-v3",
+        "bamboo-confession",
+        "missed-clue"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -3679,6 +3811,28 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch02_classroom_v1_story_tableau_v3",
+      "name": "讲堂 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch02_classroom_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "classroom",
+        "classroom",
+        "tableau-classroom",
+        "story-tableau-v3",
+        "study-hall",
+        "hidden-identity"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch02_dorm_corridor_v1_ambient_scene_detail_v2",
       "name": "宿舍廊下 ambient 场景细节",
       "category": "decoration",
@@ -3759,6 +3913,28 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch02_dorm_corridor_v1_story_tableau_v3",
+      "name": "宿舍廊下 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch02_dorm_corridor_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "dorm_corridor",
+        "corridor",
+        "tableau-corridor",
+        "story-tableau-v3",
+        "night-corridor",
+        "identity-risk"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -3847,6 +4023,28 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch02_library_v1_story_tableau_v3",
+      "name": "藏书楼 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch02_library_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "library",
+        "library",
+        "tableau-library",
+        "story-tableau-v3",
+        "library-trust",
+        "shared-reading"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch03_academy_gate_v1_ambient_scene_detail_v2",
       "name": "书院山门 ambient 场景细节",
       "category": "decoration",
@@ -3927,6 +4125,28 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch03_academy_gate_v1_story_tableau_v3",
+      "name": "书院山门 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch03_academy_gate_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "academy_gate",
+        "academy_gate",
+        "tableau-academy_gate",
+        "story-tableau-v3",
+        "departure-from-academy",
+        "farewell-begins"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -4015,6 +4235,28 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch03_creek_bridge_v1_story_tableau_v3",
+      "name": "溪桥 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch03_creek_bridge_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "creek_bridge",
+        "bridge",
+        "tableau-bridge",
+        "story-tableau-v3",
+        "bridge-hint",
+        "missed-truth"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch03_fork_road_v1_ambient_scene_detail_v2",
       "name": "分岔官道 ambient 场景细节",
       "category": "decoration",
@@ -4095,6 +4337,28 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch03_fork_road_v1_story_tableau_v3",
+      "name": "分岔官道 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch03_fork_road_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "fork_road",
+        "road_sign",
+        "tableau-road_sign",
+        "story-tableau-v3",
+        "forked-road",
+        "separation"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -4183,6 +4447,28 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch03_long_pavilion_v1_story_tableau_v3",
+      "name": "长亭 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch03_long_pavilion_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "long_pavilion",
+        "long_pavilion",
+        "tableau-long_pavilion",
+        "story-tableau-v3",
+        "eighteen-mile-farewell",
+        "long-pavilion-oath"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch03_mulberry_path_v1_ambient_scene_detail_v2",
       "name": "桑田小路 ambient 场景细节",
       "category": "decoration",
@@ -4263,6 +4549,28 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch03_mulberry_path_v1_story_tableau_v3",
+      "name": "桑田小路 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch03_mulberry_path_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "mulberry_path",
+        "mulberry",
+        "tableau-mulberry",
+        "story-tableau-v3",
+        "mulberry-metaphor",
+        "promise-delay"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -4351,6 +4659,28 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch04_betrothal_hall_v1_story_tableau_v3",
+      "name": "县衙媒聘场景 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch04_betrothal_hall_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "betrothal_hall",
+        "betrothal",
+        "tableau-betrothal",
+        "story-tableau-v3",
+        "betrothal-contract",
+        "county-pressure"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch04_boudoir_v1_ambient_scene_detail_v2",
       "name": "后院闺房 ambient 场景细节",
       "category": "decoration",
@@ -4431,6 +4761,28 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch04_boudoir_v1_story_tableau_v3",
+      "name": "后院闺房 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch04_boudoir_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "boudoir",
+        "boudoir",
+        "tableau-boudoir",
+        "story-tableau-v3",
+        "boudoir-resistance",
+        "red-veil-pressure"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -4519,6 +4871,28 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch04_ma_courtyard_v1_story_tableau_v3",
+      "name": "马府外院 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch04_ma_courtyard_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "ma_courtyard",
+        "ma_gate",
+        "tableau-ma_gate",
+        "story-tableau-v3",
+        "ma-family-pressure",
+        "wealth-display"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch04_zhufu_hall_v1_ambient_scene_detail_v2",
       "name": "祝府正厅 ambient 场景细节",
       "category": "decoration",
@@ -4599,6 +4973,28 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch04_zhufu_hall_v1_story_tableau_v3",
+      "name": "祝府正厅 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch04_zhufu_hall_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "zhufu_hall",
+        "zhufu_hall",
+        "tableau-zhufu_hall",
+        "story-tableau-v3",
+        "family-pressure",
+        "forced-marriage"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -4687,6 +5083,28 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch05_butterfly_end_v1_story_tableau_v3",
+      "name": "化蝶终景 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch05_butterfly_end_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "butterfly_end",
+        "butterfly",
+        "tableau-butterfly",
+        "story-tableau-v3",
+        "butterfly-transcendence",
+        "shared-release"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch05_grave_v1_ambient_scene_detail_v2",
       "name": "坟前 ambient 场景细节",
       "category": "decoration",
@@ -4767,6 +5185,28 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch05_grave_v1_story_tableau_v3",
+      "name": "坟前 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch05_grave_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "grave",
+        "grave",
+        "tableau-grave",
+        "story-tableau-v3",
+        "grave-oath",
+        "storm-before-butterfly"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -4855,6 +5295,28 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch05_sickroom_v1_story_tableau_v3",
+      "name": "梁山伯病榻 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch05_sickroom_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "sickroom",
+        "sickroom",
+        "tableau-sickroom",
+        "story-tableau-v3",
+        "last-letter-bed",
+        "failing-health"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch05_tower_v1_ambient_scene_detail_v2",
       "name": "楼台 ambient 场景细节",
       "category": "decoration",
@@ -4939,6 +5401,28 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch05_tower_v1_story_tableau_v3",
+      "name": "楼台 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch05_tower_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "tower",
+        "tower",
+        "tableau-tower",
+        "story-tableau-v3",
+        "tower-reunion",
+        "truth-revealed"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch05_wedding_road_v1_ambient_scene_detail_v2",
       "name": "祝英台出嫁路 ambient 场景细节",
       "category": "decoration",
@@ -5019,6 +5503,28 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch05_wedding_road_v1_story_tableau_v3",
+      "name": "祝英台出嫁路 剧情叙事锚点",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch05_wedding_road_v1_story_tableau_v3.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "wedding_road",
+        "wedding",
+        "tableau-wedding",
+        "story-tableau-v3",
+        "red-wedding-procession",
+        "forced-procession"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
