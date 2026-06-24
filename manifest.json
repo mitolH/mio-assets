@@ -27,10 +27,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch01_academy_gate_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch01_academy_gate_v1_story_scene_plate_v10",
       "name": "书院门前 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch01_academy_gate_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch01_academy_gate_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -39,8 +39,10 @@
         "academy_gate",
         "academy_gate",
         "plate-academy_gate",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-academy_gate",
         "depth-academy_gate",
         "plate-academy_gate-story",
         "depth-academy-arrival-stage"
@@ -73,10 +75,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch01_mountain_pavilion_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch01_mountain_pavilion_v1_story_scene_plate_v10",
       "name": "山路驿亭 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch01_mountain_pavilion_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch01_mountain_pavilion_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -85,8 +87,10 @@
         "mountain_pavilion",
         "pavilion",
         "plate-pavilion",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-pavilion",
         "depth-pavilion",
         "plate-pavilion-story",
         "depth-pavilion-stage"
@@ -119,10 +123,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch01_river_ferry_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch01_river_ferry_v1_story_scene_plate_v10",
       "name": "渡口 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch01_river_ferry_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch01_river_ferry_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -131,8 +135,10 @@
         "river_ferry",
         "ferry",
         "plate-ferry",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-ferry",
         "depth-ferry",
         "plate-ferry-story",
         "depth-ferry-stage"
@@ -187,10 +193,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch02_academy_courtyard_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch02_academy_courtyard_v1_story_scene_plate_v10",
       "name": "书院前庭 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch02_academy_courtyard_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch02_academy_courtyard_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -199,8 +205,10 @@
         "academy_courtyard",
         "academy",
         "plate-academy",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-academy",
         "depth-academy",
         "plate-academy-story",
         "depth-academy-stage"
@@ -233,10 +241,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch02_bamboo_path_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch02_bamboo_path_v1_story_scene_plate_v10",
       "name": "竹林小径 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch02_bamboo_path_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch02_bamboo_path_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -245,8 +253,10 @@
         "bamboo_path",
         "bamboo",
         "plate-bamboo",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-bamboo",
         "depth-bamboo",
         "plate-bamboo-story",
         "depth-bamboo-stage"
@@ -279,10 +289,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch02_classroom_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch02_classroom_v1_story_scene_plate_v10",
       "name": "讲堂 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch02_classroom_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch02_classroom_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -291,8 +301,10 @@
         "classroom",
         "classroom",
         "plate-classroom",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-classroom",
         "depth-classroom",
         "plate-classroom-story",
         "depth-classroom-stage"
@@ -325,10 +337,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch02_dorm_corridor_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch02_dorm_corridor_v1_story_scene_plate_v10",
       "name": "宿舍廊下 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch02_dorm_corridor_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch02_dorm_corridor_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -337,8 +349,10 @@
         "dorm_corridor",
         "corridor",
         "plate-corridor",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-corridor",
         "depth-corridor",
         "plate-corridor-story",
         "depth-corridor-stage"
@@ -371,10 +385,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch02_library_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch02_library_v1_story_scene_plate_v10",
       "name": "藏书楼 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch02_library_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch02_library_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -383,8 +397,10 @@
         "library",
         "library",
         "plate-library",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-library",
         "depth-library",
         "plate-library-story",
         "depth-library-stage"
@@ -417,10 +433,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch03_academy_gate_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch03_academy_gate_v1_story_scene_plate_v10",
       "name": "书院山门 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch03_academy_gate_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch03_academy_gate_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -429,8 +445,10 @@
         "academy_gate",
         "academy_gate",
         "plate-academy_gate",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-academy_gate",
         "depth-academy_gate",
         "plate-academy_gate-story",
         "depth-academy_gate-stage"
@@ -463,10 +481,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch03_creek_bridge_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch03_creek_bridge_v1_story_scene_plate_v10",
       "name": "溪桥 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch03_creek_bridge_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch03_creek_bridge_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -475,8 +493,10 @@
         "creek_bridge",
         "bridge",
         "plate-bridge",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-bridge",
         "depth-bridge",
         "plate-bridge-story",
         "depth-bridge-stage"
@@ -509,10 +529,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch03_fork_road_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch03_fork_road_v1_story_scene_plate_v10",
       "name": "分岔官道 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch03_fork_road_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch03_fork_road_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -521,8 +541,10 @@
         "fork_road",
         "road_sign",
         "plate-road_sign",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-road_sign",
         "depth-road_sign",
         "plate-road_sign-story",
         "depth-road_sign-stage"
@@ -556,10 +578,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch03_long_pavilion_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch03_long_pavilion_v1_story_scene_plate_v10",
       "name": "长亭 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch03_long_pavilion_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch03_long_pavilion_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -568,8 +590,10 @@
         "long_pavilion",
         "long_pavilion",
         "plate-long_pavilion",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-long_pavilion",
         "depth-long_pavilion",
         "plate-eighteen-mile-farewell",
         "depth-long-pavilion-farewell-stage"
@@ -602,10 +626,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch03_mulberry_path_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch03_mulberry_path_v1_story_scene_plate_v10",
       "name": "桑田小路 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch03_mulberry_path_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch03_mulberry_path_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -614,8 +638,10 @@
         "mulberry_path",
         "mulberry",
         "plate-mulberry",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-mulberry",
         "depth-mulberry",
         "plate-mulberry-story",
         "depth-mulberry-stage"
@@ -648,10 +674,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch04_betrothal_hall_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch04_betrothal_hall_v1_story_scene_plate_v10",
       "name": "县衙媒聘场景 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch04_betrothal_hall_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch04_betrothal_hall_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -660,8 +686,10 @@
         "betrothal_hall",
         "betrothal",
         "plate-betrothal",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-betrothal",
         "depth-betrothal",
         "plate-betrothal-story",
         "depth-betrothal-stage"
@@ -694,10 +722,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch04_boudoir_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch04_boudoir_v1_story_scene_plate_v10",
       "name": "后院闺房 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch04_boudoir_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch04_boudoir_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -706,8 +734,10 @@
         "boudoir",
         "boudoir",
         "plate-boudoir",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-boudoir",
         "depth-boudoir",
         "plate-boudoir-story",
         "depth-boudoir-stage"
@@ -741,10 +771,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch04_ma_courtyard_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch04_ma_courtyard_v1_story_scene_plate_v10",
       "name": "马府外院 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch04_ma_courtyard_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch04_ma_courtyard_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -753,8 +783,10 @@
         "ma_courtyard",
         "ma_gate",
         "plate-ma_gate",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-ma_gate",
         "depth-ma_gate",
         "plate-ma-family-pressure",
         "depth-ma-family-pressure-stage"
@@ -787,10 +819,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch04_zhufu_hall_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch04_zhufu_hall_v1_story_scene_plate_v10",
       "name": "祝府正厅 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch04_zhufu_hall_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch04_zhufu_hall_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -799,8 +831,10 @@
         "zhufu_hall",
         "zhufu_hall",
         "plate-zhufu_hall",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-zhufu_hall",
         "depth-zhufu_hall",
         "plate-zhufu_hall-story",
         "depth-zhufu_hall-stage"
@@ -834,10 +868,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch05_butterfly_end_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch05_butterfly_end_v1_story_scene_plate_v10",
       "name": "化蝶终景 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch05_butterfly_end_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch05_butterfly_end_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -846,8 +880,10 @@
         "butterfly_end",
         "butterfly",
         "plate-butterfly",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-butterfly",
         "depth-butterfly",
         "plate-butterfly-release",
         "depth-butterfly-release-stage"
@@ -881,10 +917,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch05_grave_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch05_grave_v1_story_scene_plate_v10",
       "name": "坟前 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch05_grave_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch05_grave_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -893,8 +929,10 @@
         "grave",
         "grave",
         "plate-grave",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-grave",
         "depth-grave",
         "plate-grave-crack-veil",
         "depth-grave-storm-stage"
@@ -928,10 +966,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch05_sickroom_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch05_sickroom_v1_story_scene_plate_v10",
       "name": "梁山伯病榻 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch05_sickroom_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch05_sickroom_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -940,8 +978,10 @@
         "sickroom",
         "sickroom",
         "plate-sickroom",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-sickroom",
         "depth-sickroom",
         "plate-sickbed-last-letter",
         "depth-sickroom-last-letter-stage"
@@ -974,10 +1014,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch05_tower_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch05_tower_v1_story_scene_plate_v10",
       "name": "楼台 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch05_tower_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch05_tower_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -986,8 +1026,10 @@
         "tower",
         "tower",
         "plate-tower",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-tower",
         "depth-tower",
         "plate-tower-story",
         "depth-tower-stage"
@@ -1020,10 +1062,10 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_map_lz_ch05_wedding_road_v1_story_scene_plate_v9",
+      "id": "comp_map_lz_ch05_wedding_road_v1_story_scene_plate_v10",
       "name": "祝英台出嫁路 深度剧情场景板",
       "category": "building",
-      "path": "components/building/comp_map_lz_ch05_wedding_road_v1_story_scene_plate_v9.json",
+      "path": "components/building/comp_map_lz_ch05_wedding_road_v1_story_scene_plate_v10.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -1032,8 +1074,10 @@
         "wedding_road",
         "wedding",
         "plate-wedding",
-        "story-scene-depth-v9",
-        "walkable-stage-v9",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-wedding",
         "depth-wedding",
         "plate-red-procession-rain",
         "depth-wedding-stage"
