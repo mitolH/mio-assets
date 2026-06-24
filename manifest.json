@@ -4031,6 +4031,102 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_zhuyingtai_wedding_idle_down_f1_story_v1",
+      "name": "祝英台出嫁阶段 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_wedding_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "zhuyingtai_wedding",
+        "idle-down",
+        "48x96",
+        "zhuyingtai",
+        "wedding-stage",
+        "red-wedding-robe-v1",
+        "grave-oath-stage-v1",
+        "jade-under-red-silk-v1"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_zhuyingtai_wedding_idle_down_f2_story_v1",
+      "name": "祝英台出嫁阶段 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_wedding_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "zhuyingtai_wedding",
+        "idle-down",
+        "48x96",
+        "zhuyingtai",
+        "wedding-stage",
+        "red-wedding-robe-v1",
+        "grave-oath-stage-v1",
+        "jade-under-red-silk-v1"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_zhuyingtai_wedding_idle_down_f3_story_v1",
+      "name": "祝英台出嫁阶段 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_wedding_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "zhuyingtai_wedding",
+        "idle-down",
+        "48x96",
+        "zhuyingtai",
+        "wedding-stage",
+        "red-wedding-robe-v1",
+        "grave-oath-stage-v1",
+        "jade-under-red-silk-v1"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_zhuyingtai_wedding_idle_down_f4_story_v1",
+      "name": "祝英台出嫁阶段 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_wedding_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "zhuyingtai_wedding",
+        "idle-down",
+        "48x96",
+        "zhuyingtai",
+        "wedding-stage",
+        "red-wedding-robe-v1",
+        "grave-oath-stage-v1",
+        "jade-under-red-silk-v1"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_lz_prop_betrothal_chest_story_v1",
       "name": "聘礼箱",
       "category": "decoration",
@@ -9492,6 +9588,30 @@
       "height": 96,
       "layerCount": 1,
       "animationCount": 5,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "sprite_zhuyingtai_wedding_48x96_story_v1",
+      "name": "祝英台出嫁阶段 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_zhuyingtai_wedding_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhuyingtai_wedding",
+        "48x96",
+        "tier-s",
+        "zhuyingtai",
+        "wedding-stage",
+        "red-wedding-robe-v1",
+        "grave-oath-stage-v1",
+        "jade-under-red-silk-v1"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 1,
       "version": 1,
       "updatedAt": 1782325200000
     }
