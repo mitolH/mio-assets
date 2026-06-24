@@ -8,14 +8,25 @@
     "liangzhu",
     "zhuyingtai",
     "48x96",
-    "tier-s"
+    "tier-s",
+    "zhuyingtai-detail-v2",
+    "64c-reference-v2",
+    "scholar-disguise-v2",
+    "fan-jade-identity-v2"
   ],
   "styleProfile": {
     "storyId": "liangzhu",
     "visualStyle": "semi-realistic pixel comic",
     "baseTileSize": 16,
     "characterScale": "48x96",
-    "detailTier": "S"
+    "detailTier": "S",
+    "characterMotifs": [
+      "scholar disguise collar",
+      "soft green sleeve trim",
+      "folding fan and jade pendant",
+      "reserved bright face",
+      "hidden hairpin under scholar cap"
+    ]
   },
   "width": 48,
   "height": 96,
