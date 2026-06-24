@@ -553,7 +553,7 @@
       "components": [
         {
           "assetType": "component",
-          "componentId": "comp_lz_ma_courtyard_focus_story_v1",
+          "componentId": "comp_map_lz_ch04_ma_courtyard_v1_focus_story_v1",
           "tileX": 14,
           "tileY": 3,
           "refId": "map_lz_ch04_ma_courtyard_v1_focus"

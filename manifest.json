@@ -4,28 +4,10 @@
   "updatedAt": 1782325200000,
   "components": [
     {
-      "id": "comp_lz_academy_courtyard_focus_story_v1",
-      "name": "书院前庭 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_academy_courtyard_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-a",
-        "academy_courtyard",
-        "academy"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_academy_gate_focus_story_v1",
+      "id": "comp_map_lz_ch01_academy_gate_v1_focus_story_v1",
       "name": "书院门前 主场景组件",
       "category": "building",
-      "path": "components/building/comp_lz_academy_gate_focus_story_v1.json",
+      "path": "components/building/comp_map_lz_ch01_academy_gate_v1_focus_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
@@ -33,384 +15,6 @@
         "tier-s",
         "academy_gate",
         "academy_gate"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_academy_gate_focus_story_v1",
-      "name": "书院山门 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_academy_gate_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-s",
-        "academy_gate",
-        "academy_gate"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_bamboo_path_focus_story_v1",
-      "name": "竹林小径 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_bamboo_path_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-a",
-        "bamboo_path",
-        "bamboo"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_betrothal_hall_focus_story_v1",
-      "name": "县衙媒聘场景 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_betrothal_hall_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-s",
-        "betrothal_hall",
-        "betrothal"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_boudoir_focus_story_v1",
-      "name": "后院闺房 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_boudoir_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-s",
-        "boudoir",
-        "boudoir"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_butterfly_end_focus_story_v1",
-      "name": "化蝶终景 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_butterfly_end_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-s",
-        "butterfly_end",
-        "butterfly"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_classroom_focus_story_v1",
-      "name": "讲堂 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_classroom_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-a",
-        "classroom",
-        "classroom"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_creek_bridge_focus_story_v1",
-      "name": "溪桥 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_creek_bridge_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-s",
-        "creek_bridge",
-        "bridge"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_dorm_corridor_focus_story_v1",
-      "name": "宿舍廊下 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_dorm_corridor_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-a",
-        "dorm_corridor",
-        "corridor"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_fork_road_focus_story_v1",
-      "name": "分岔官道 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_fork_road_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-a",
-        "fork_road",
-        "road_sign"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_grave_focus_story_v1",
-      "name": "坟前 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_grave_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-s",
-        "grave",
-        "grave"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_library_focus_story_v1",
-      "name": "藏书楼 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_library_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-a",
-        "library",
-        "library"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_long_pavilion_focus_story_v1",
-      "name": "长亭 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_long_pavilion_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-s",
-        "long_pavilion",
-        "long_pavilion"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_ma_courtyard_focus_story_v1",
-      "name": "马府外院 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_ma_courtyard_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-s",
-        "ma_courtyard",
-        "ma_gate"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_mountain_pavilion_focus_story_v1",
-      "name": "山路驿亭 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_mountain_pavilion_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-a",
-        "mountain_pavilion",
-        "pavilion"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_mulberry_path_focus_story_v1",
-      "name": "桑田小路 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_mulberry_path_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-a",
-        "mulberry_path",
-        "mulberry"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_river_ferry_focus_story_v1",
-      "name": "渡口 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_river_ferry_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-a",
-        "river_ferry",
-        "ferry"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_sickroom_focus_story_v1",
-      "name": "梁山伯病榻 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_sickroom_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-s",
-        "sickroom",
-        "sickroom"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_tower_focus_story_v1",
-      "name": "楼台 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_tower_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-s",
-        "tower",
-        "tower"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_wedding_road_focus_story_v1",
-      "name": "祝英台出嫁路 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_wedding_road_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-s",
-        "wedding_road",
-        "wedding"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_zhufu_courtyard_focus_story_v1",
-      "name": "祝英台家 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_zhufu_courtyard_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-s",
-        "zhufu_courtyard",
-        "zhufu"
-      ],
-      "width": 256,
-      "height": 128,
-      "version": 1,
-      "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_lz_zhufu_hall_focus_story_v1",
-      "name": "祝府正厅 主场景组件",
-      "category": "building",
-      "path": "components/building/comp_lz_zhufu_hall_focus_story_v1.json",
-      "tags": [
-        "liangzhu-story-v1",
-        "liangzhu",
-        "梁祝",
-        "tier-s",
-        "zhufu_hall",
-        "zhufu_hall"
       ],
       "width": 256,
       "height": 128,
@@ -439,6 +43,24 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch01_mountain_pavilion_v1_focus_story_v1",
+      "name": "山路驿亭 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch01_mountain_pavilion_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "mountain_pavilion",
+        "pavilion"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch01_mountain_pavilion_v1_story_scene_plate_v5",
       "name": "山路驿亭 高密度剧情场景板",
       "category": "building",
@@ -456,6 +78,24 @@
       ],
       "width": 384,
       "height": 192,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch01_river_ferry_v1_focus_story_v1",
+      "name": "渡口 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch01_river_ferry_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "river_ferry",
+        "ferry"
+      ],
+      "width": 256,
+      "height": 128,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -481,6 +121,42 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch01_zhufu_courtyard_v1_focus_story_v1",
+      "name": "祝英台家 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch01_zhufu_courtyard_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "zhufu_courtyard",
+        "zhufu"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch02_academy_courtyard_v1_focus_story_v1",
+      "name": "书院前庭 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch02_academy_courtyard_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "academy_courtyard",
+        "academy"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch02_academy_courtyard_v1_story_scene_plate_v5",
       "name": "书院前庭 高密度剧情场景板",
       "category": "building",
@@ -498,6 +174,24 @@
       ],
       "width": 384,
       "height": 192,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch02_bamboo_path_v1_focus_story_v1",
+      "name": "竹林小径 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch02_bamboo_path_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "bamboo_path",
+        "bamboo"
+      ],
+      "width": 256,
+      "height": 128,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -523,6 +217,24 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch02_classroom_v1_focus_story_v1",
+      "name": "讲堂 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch02_classroom_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "classroom",
+        "classroom"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch02_classroom_v1_story_scene_plate_v5",
       "name": "讲堂 高密度剧情场景板",
       "category": "building",
@@ -540,6 +252,24 @@
       ],
       "width": 384,
       "height": 192,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch02_dorm_corridor_v1_focus_story_v1",
+      "name": "宿舍廊下 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch02_dorm_corridor_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "dorm_corridor",
+        "corridor"
+      ],
+      "width": 256,
+      "height": 128,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -565,6 +295,24 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch02_library_v1_focus_story_v1",
+      "name": "藏书楼 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch02_library_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "library",
+        "library"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch02_library_v1_story_scene_plate_v5",
       "name": "藏书楼 高密度剧情场景板",
       "category": "building",
@@ -582,6 +330,24 @@
       ],
       "width": 384,
       "height": 192,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch03_academy_gate_v1_focus_story_v1",
+      "name": "书院山门 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch03_academy_gate_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "academy_gate",
+        "academy_gate"
+      ],
+      "width": 256,
+      "height": 128,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -607,6 +373,24 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch03_creek_bridge_v1_focus_story_v1",
+      "name": "溪桥 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch03_creek_bridge_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "creek_bridge",
+        "bridge"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch03_creek_bridge_v1_story_scene_plate_v5",
       "name": "溪桥 高密度剧情场景板",
       "category": "building",
@@ -624,6 +408,24 @@
       ],
       "width": 384,
       "height": 192,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch03_fork_road_v1_focus_story_v1",
+      "name": "分岔官道 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch03_fork_road_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "fork_road",
+        "road_sign"
+      ],
+      "width": 256,
+      "height": 128,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -649,6 +451,24 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch03_long_pavilion_v1_focus_story_v1",
+      "name": "长亭 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch03_long_pavilion_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "long_pavilion",
+        "long_pavilion"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch03_long_pavilion_v1_story_scene_plate_v5",
       "name": "长亭 高密度剧情场景板",
       "category": "building",
@@ -666,6 +486,24 @@
       ],
       "width": 384,
       "height": 192,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch03_mulberry_path_v1_focus_story_v1",
+      "name": "桑田小路 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch03_mulberry_path_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "mulberry_path",
+        "mulberry"
+      ],
+      "width": 256,
+      "height": 128,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -691,6 +529,24 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch04_betrothal_hall_v1_focus_story_v1",
+      "name": "县衙媒聘场景 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch04_betrothal_hall_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "betrothal_hall",
+        "betrothal"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch04_betrothal_hall_v1_story_scene_plate_v5",
       "name": "县衙媒聘场景 高密度剧情场景板",
       "category": "building",
@@ -708,6 +564,24 @@
       ],
       "width": 384,
       "height": 192,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch04_boudoir_v1_focus_story_v1",
+      "name": "后院闺房 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch04_boudoir_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "boudoir",
+        "boudoir"
+      ],
+      "width": 256,
+      "height": 128,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -733,6 +607,24 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch04_ma_courtyard_v1_focus_story_v1",
+      "name": "马府外院 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch04_ma_courtyard_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "ma_courtyard",
+        "ma_gate"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch04_ma_courtyard_v1_story_scene_plate_v5",
       "name": "马府外院 高密度剧情场景板",
       "category": "building",
@@ -750,6 +642,24 @@
       ],
       "width": 384,
       "height": 192,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch04_zhufu_hall_v1_focus_story_v1",
+      "name": "祝府正厅 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch04_zhufu_hall_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "zhufu_hall",
+        "zhufu_hall"
+      ],
+      "width": 256,
+      "height": 128,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -775,6 +685,24 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch05_butterfly_end_v1_focus_story_v1",
+      "name": "化蝶终景 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch05_butterfly_end_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "butterfly_end",
+        "butterfly"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch05_butterfly_end_v1_story_scene_plate_v5",
       "name": "化蝶终景 高密度剧情场景板",
       "category": "building",
@@ -792,6 +720,24 @@
       ],
       "width": 384,
       "height": 192,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch05_grave_v1_focus_story_v1",
+      "name": "坟前 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch05_grave_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "grave",
+        "grave"
+      ],
+      "width": 256,
+      "height": 128,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -817,6 +763,24 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch05_sickroom_v1_focus_story_v1",
+      "name": "梁山伯病榻 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch05_sickroom_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "sickroom",
+        "sickroom"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch05_sickroom_v1_story_scene_plate_v5",
       "name": "梁山伯病榻 高密度剧情场景板",
       "category": "building",
@@ -838,6 +802,24 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch05_tower_v1_focus_story_v1",
+      "name": "楼台 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch05_tower_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "tower",
+        "tower"
+      ],
+      "width": 256,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch05_tower_v1_story_scene_plate_v5",
       "name": "楼台 高密度剧情场景板",
       "category": "building",
@@ -855,6 +837,24 @@
       ],
       "width": 384,
       "height": 192,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch05_wedding_road_v1_focus_story_v1",
+      "name": "祝英台出嫁路 主场景组件",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch05_wedding_road_v1_focus_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "wedding_road",
+        "wedding"
+      ],
+      "width": 256,
+      "height": 128,
       "version": 1,
       "updatedAt": 1782325200000
     },

@@ -553,7 +553,7 @@
       "components": [
         {
           "assetType": "component",
-          "componentId": "comp_lz_boudoir_focus_story_v1",
+          "componentId": "comp_map_lz_ch04_boudoir_v1_focus_story_v1",
           "tileX": 14,
           "tileY": 3,
           "refId": "map_lz_ch04_boudoir_v1_focus"
