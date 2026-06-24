@@ -8,14 +8,28 @@
     "liangzhu",
     "liangshanbo",
     "48x96",
-    "tier-s"
+    "tier-s",
+    "liangshanbo-refined",
+    "scholar-satchel",
+    "blue-white-layered-robe",
+    "pale-scholar-face",
+    "long-sleeve-cuffs",
+    "cloth-book-roll"
   ],
   "styleProfile": {
     "storyId": "liangzhu",
     "visualStyle": "semi-realistic pixel comic",
     "baseTileSize": 16,
     "characterScale": "48x96",
-    "detailTier": "S"
+    "detailTier": "S",
+    "characterMotifs": [
+      "soft scholar cap",
+      "diagonal book strap",
+      "plain blue-white layered robe",
+      "pale reserved face",
+      "long scholar sleeves",
+      "stitched cloth book roll"
+    ]
   },
   "width": 48,
   "height": 96,
