@@ -1,7 +1,7 @@
 {
   "name": "mio-assets",
   "version": "1.0.0",
-  "updatedAt": 1782305296969,
+  "updatedAt": 1782305402693,
   "components": [
     {
       "id": "char_liangshanbo_student_casual_36",
@@ -17,8 +17,8 @@
       ],
       "width": 48,
       "height": 48,
-      "version": 147,
-      "updatedAt": 1782305296662
+      "version": 149,
+      "updatedAt": 1782305373896
     },
     {
       "id": "char_mawencai_casual_36",
@@ -33,8 +33,8 @@
       ],
       "width": 12,
       "height": 12,
-      "version": 120,
-      "updatedAt": 1782305296662
+      "version": 122,
+      "updatedAt": 1782305373896
     },
     {
       "id": "char_zhuyingtai_student_casual_36",
@@ -50,8 +50,8 @@
       ],
       "width": 12,
       "height": 12,
-      "version": 180,
-      "updatedAt": 1782305296662
+      "version": 182,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f1_1772982246796_k542wv",
@@ -64,8 +64,8 @@
       ],
       "width": 32,
       "height": 40,
-      "version": 90,
-      "updatedAt": 1782305268365
+      "version": 93,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f1_1772985658189_n1338p",
@@ -78,8 +78,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 87,
-      "updatedAt": 1782305268365
+      "version": 90,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f1_1772985964573_a8ekw5",
@@ -92,8 +92,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 86,
-      "updatedAt": 1782305268365
+      "version": 89,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f1_1772987432333_1m7iyn",
@@ -106,8 +106,8 @@
       ],
       "width": 32,
       "height": 52,
-      "version": 83,
-      "updatedAt": 1782305268365
+      "version": 86,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f1_1773502191284_qujukp",
@@ -120,8 +120,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 39,
-      "updatedAt": 1782305268366
+      "version": 42,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f1_1773504868992_t1fkek",
@@ -134,8 +134,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 3,
-      "updatedAt": 1782305268366
+      "version": 6,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f1_1773589631789_kf866p",
@@ -148,8 +148,8 @@
       ],
       "width": 32,
       "height": 48,
-      "version": 3,
-      "updatedAt": 1782305268367
+      "version": 6,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f2_1772982246800_rldpws",
@@ -162,8 +162,8 @@
       ],
       "width": 32,
       "height": 40,
-      "version": 90,
-      "updatedAt": 1782305268367
+      "version": 93,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f2_1772985658194_ale9dc",
@@ -176,8 +176,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 87,
-      "updatedAt": 1782305268367
+      "version": 90,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f2_1772985964578_3a3ixt",
@@ -190,8 +190,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 85,
-      "updatedAt": 1782305268367
+      "version": 88,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f2_1772987432348_2sx0ut",
@@ -204,8 +204,8 @@
       ],
       "width": 32,
       "height": 52,
-      "version": 82,
-      "updatedAt": 1782305268367
+      "version": 85,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f2_1773502191294_g154n2",
@@ -218,8 +218,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 38,
-      "updatedAt": 1782305268367
+      "version": 41,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f2_1773504869001_n8gaog",
@@ -232,8 +232,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 3,
-      "updatedAt": 1782305268368
+      "version": 6,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f2_1773589631799_t4cli3",
@@ -246,8 +246,8 @@
       ],
       "width": 32,
       "height": 48,
-      "version": 3,
-      "updatedAt": 1782305268368
+      "version": 6,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f3_1772982246804_ib7k4b",
@@ -260,8 +260,8 @@
       ],
       "width": 32,
       "height": 40,
-      "version": 88,
-      "updatedAt": 1782305268368
+      "version": 91,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f3_1772985658198_nt2bld",
@@ -274,8 +274,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 84,
-      "updatedAt": 1782305268368
+      "version": 87,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f3_1772985964583_6n4ime",
@@ -288,8 +288,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 83,
-      "updatedAt": 1782305268368
+      "version": 86,
+      "updatedAt": 1782305373896
     },
     {
       "id": "comp_0_f3_1772987432355_gazqvt",
@@ -302,8 +302,8 @@
       ],
       "width": 32,
       "height": 52,
-      "version": 80,
-      "updatedAt": 1782305268368
+      "version": 83,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f3_1773502191303_4glptn",
@@ -316,8 +316,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 37,
-      "updatedAt": 1782305268368
+      "version": 40,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f3_1773504869010_2xkps7",
@@ -330,8 +330,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 3,
-      "updatedAt": 1782305268368
+      "version": 6,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f3_1773589631806_evpxxa",
@@ -344,8 +344,8 @@
       ],
       "width": 32,
       "height": 48,
-      "version": 3,
-      "updatedAt": 1782305268368
+      "version": 6,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f4_1772982246807_m24403",
@@ -358,8 +358,8 @@
       ],
       "width": 32,
       "height": 40,
-      "version": 87,
-      "updatedAt": 1782305268368
+      "version": 90,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f4_1772985658203_40t54c",
@@ -372,8 +372,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 84,
-      "updatedAt": 1782305268368
+      "version": 87,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f4_1772985964587_35yvzo",
@@ -386,8 +386,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 83,
-      "updatedAt": 1782305268369
+      "version": 86,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f4_1772987432362_eq7bzs",
@@ -400,8 +400,8 @@
       ],
       "width": 32,
       "height": 52,
-      "version": 76,
-      "updatedAt": 1782305268369
+      "version": 79,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f4_1773502191311_x3l2dj",
@@ -414,8 +414,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 36,
-      "updatedAt": 1782305268369
+      "version": 39,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f4_1773504869018_ix1poa",
@@ -428,8 +428,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 3,
-      "updatedAt": 1782305268369
+      "version": 6,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f4_1773589631814_sii5lv",
@@ -442,8 +442,8 @@
       ],
       "width": 32,
       "height": 48,
-      "version": 3,
-      "updatedAt": 1782305268050
+      "version": 6,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f5_1772982246816_8xa7nf",
@@ -456,8 +456,8 @@
       ],
       "width": 32,
       "height": 40,
-      "version": 82,
-      "updatedAt": 1773589496213
+      "version": 86,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f5_1772985658212_s6fx88",
@@ -470,8 +470,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 80,
-      "updatedAt": 1782305268370
+      "version": 83,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f5_1772985964596_8s86qb",
@@ -484,8 +484,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 79,
-      "updatedAt": 1782305268370
+      "version": 82,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f5_1772987432368_5x8ljf",
@@ -498,8 +498,8 @@
       ],
       "width": 32,
       "height": 52,
-      "version": 76,
-      "updatedAt": 1782305268370
+      "version": 79,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f5_1773502191319_ekxxjm",
@@ -512,8 +512,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 36,
-      "updatedAt": 1782305268370
+      "version": 39,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f5_1773504869026_uskxrj",
@@ -526,8 +526,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 3,
-      "updatedAt": 1782305268370
+      "version": 6,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f5_1773589631821_9x699o",
@@ -540,8 +540,8 @@
       ],
       "width": 32,
       "height": 48,
-      "version": 3,
-      "updatedAt": 1782305268371
+      "version": 6,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f6_1772982246819_qaj5nj",
@@ -554,8 +554,8 @@
       ],
       "width": 32,
       "height": 40,
-      "version": 83,
-      "updatedAt": 1782305268371
+      "version": 86,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f6_1772985658216_6mqhoc",
@@ -568,8 +568,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 80,
-      "updatedAt": 1782305268371
+      "version": 83,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f6_1772985964600_7wuo2a",
@@ -582,8 +582,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 78,
-      "updatedAt": 1782305268052
+      "version": 81,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f6_1772987432374_cjnuq5",
@@ -596,8 +596,8 @@
       ],
       "width": 32,
       "height": 52,
-      "version": 73,
-      "updatedAt": 1782305268052
+      "version": 76,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f6_1773502191327_extccm",
@@ -610,8 +610,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 39,
-      "updatedAt": 1782305268052
+      "version": 42,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f6_1773504869034_l8qozu",
@@ -624,8 +624,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 3,
-      "updatedAt": 1782305268052
+      "version": 6,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f6_1773589631828_p93wm0",
@@ -638,8 +638,8 @@
       ],
       "width": 32,
       "height": 48,
-      "version": 3,
-      "updatedAt": 1782305268052
+      "version": 6,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f7_1772982246822_u2a0ba",
@@ -652,8 +652,8 @@
       ],
       "width": 32,
       "height": 40,
-      "version": 80,
-      "updatedAt": 1782305268374
+      "version": 83,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f7_1772985658219_mteu4w",
@@ -666,8 +666,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 77,
-      "updatedAt": 1782305268374
+      "version": 80,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f7_1772985964603_7bhmsi",
@@ -680,8 +680,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 76,
-      "updatedAt": 1782305268374
+      "version": 79,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f7_1772987432380_zpc4ya",
@@ -694,8 +694,8 @@
       ],
       "width": 32,
       "height": 52,
-      "version": 73,
-      "updatedAt": 1782305268374
+      "version": 76,
+      "updatedAt": 1782305373897
     },
     {
       "id": "comp_0_f7_1773502191335_6fl1hd",
@@ -708,8 +708,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 35,
-      "updatedAt": 1782305268374
+      "version": 38,
+      "updatedAt": 1782305373898
     },
     {
       "id": "comp_0_f7_1773504869043_6k7kd3",
@@ -722,8 +722,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 3,
-      "updatedAt": 1782305268374
+      "version": 6,
+      "updatedAt": 1782305373898
     },
     {
       "id": "comp_0_f7_1773589631844_tmdguq",
@@ -736,8 +736,8 @@
       ],
       "width": 32,
       "height": 48,
-      "version": 3,
-      "updatedAt": 1782305268053
+      "version": 6,
+      "updatedAt": 1782305373898
     },
     {
       "id": "comp_0_f8_1772982246825_m7vrwy",
@@ -750,8 +750,8 @@
       ],
       "width": 32,
       "height": 40,
-      "version": 79,
-      "updatedAt": 1782305268053
+      "version": 82,
+      "updatedAt": 1782305373898
     },
     {
       "id": "comp_0_f8_1773502191345_vs2c6o",
@@ -764,8 +764,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 35,
-      "updatedAt": 1782305268053
+      "version": 38,
+      "updatedAt": 1782305373898
     },
     {
       "id": "comp_0_f8_1773504869053_shj3vv",
@@ -778,8 +778,8 @@
       ],
       "width": 32,
       "height": 68,
-      "version": 3,
-      "updatedAt": 1782305268053
+      "version": 6,
+      "updatedAt": 1782305373898
     },
     {
       "id": "comp_0_f8_1773589631851_85cbem",
@@ -792,8 +792,8 @@
       ],
       "width": 32,
       "height": 48,
-      "version": 3,
-      "updatedAt": 1782305268053
+      "version": 6,
+      "updatedAt": 1782305373898
     },
     {
       "id": "comp_0_f9_1772982246829_hsp1af",
@@ -806,8 +806,8 @@
       ],
       "width": 32,
       "height": 40,
-      "version": 78,
-      "updatedAt": 1782305268053
+      "version": 81,
+      "updatedAt": 1782305373898
     },
     {
       "id": "comp_1771230301263_6ddojn",
@@ -817,8 +817,8 @@
       "tags": [],
       "width": 48,
       "height": 96,
-      "version": 313,
-      "updatedAt": 1782305268193
+      "version": 316,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f1_1772376768774_xdco07",
@@ -831,8 +831,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 75,
-      "updatedAt": 1782305268055
+      "version": 78,
+      "updatedAt": 1782305373898
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f2_1772376768777_v4espf",
@@ -845,8 +845,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 96,
-      "updatedAt": 1782305268058
+      "version": 99,
+      "updatedAt": 1782305373899
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f3_1772376768779_tt0qfp",
@@ -859,8 +859,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 96,
-      "updatedAt": 1782305268060
+      "version": 99,
+      "updatedAt": 1782305373899
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f4_1772376768782_lpxgl1",
@@ -873,8 +873,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 94,
-      "updatedAt": 1782305268062
+      "version": 97,
+      "updatedAt": 1782305373900
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f5_1772376768784_zle0ab",
@@ -887,8 +887,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 94,
-      "updatedAt": 1782305268064
+      "version": 97,
+      "updatedAt": 1782305373900
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f6_1772376768787_utnrbs",
@@ -901,8 +901,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 94,
-      "updatedAt": 1782305268065
+      "version": 97,
+      "updatedAt": 1782305373901
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f7_1772376768789_8qlfj0",
@@ -915,8 +915,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 92,
-      "updatedAt": 1782305268066
+      "version": 95,
+      "updatedAt": 1782305373901
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f8_1772376768792_c31iiu",
@@ -929,8 +929,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 92,
-      "updatedAt": 1782305268069
+      "version": 95,
+      "updatedAt": 1782305373902
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_body_f9_1772376768794_9y6sqk",
@@ -943,8 +943,8 @@
       ],
       "width": 152,
       "height": 160,
-      "version": 92,
-      "updatedAt": 1782305268070
+      "version": 95,
+      "updatedAt": 1782305373902
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f1_1772376768812_v6lv5o",
@@ -957,8 +957,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 90,
-      "updatedAt": 1773589496220
+      "version": 94,
+      "updatedAt": 1782305373902
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f2_1772376768814_9rvwo7",
@@ -971,8 +971,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 90,
-      "updatedAt": 1782305268073
+      "version": 93,
+      "updatedAt": 1782305373903
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f3_1772376768815_4gd7r9",
@@ -985,8 +985,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 89,
-      "updatedAt": 1782305268074
+      "version": 92,
+      "updatedAt": 1782305373903
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f4_1772376768817_egbz4i",
@@ -999,8 +999,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 87,
-      "updatedAt": 1782305268075
+      "version": 90,
+      "updatedAt": 1782305373903
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f5_1772376768819_782ldd",
@@ -1013,8 +1013,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 87,
-      "updatedAt": 1782305268076
+      "version": 90,
+      "updatedAt": 1782305373904
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f6_1772376768821_90aovj",
@@ -1027,8 +1027,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 87,
-      "updatedAt": 1782305268078
+      "version": 90,
+      "updatedAt": 1782305373904
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f7_1772376768822_hem01q",
@@ -1041,8 +1041,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 87,
-      "updatedAt": 1782305268405
+      "version": 90,
+      "updatedAt": 1782305373904
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f8_1772376768824_9zs2a7",
@@ -1055,8 +1055,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 87,
-      "updatedAt": 1782305268407
+      "version": 90,
+      "updatedAt": 1782305373905
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_clothes_f9_1772376768826_gfwtjj",
@@ -1069,8 +1069,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 86,
-      "updatedAt": 1782305268082
+      "version": 89,
+      "updatedAt": 1782305373905
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f1_1772376768796_23z0z7",
@@ -1083,8 +1083,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 87,
-      "updatedAt": 1782305268084
+      "version": 90,
+      "updatedAt": 1782305373905
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f2_1772376768798_h5v43z",
@@ -1097,8 +1097,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 87,
-      "updatedAt": 1782305268085
+      "version": 90,
+      "updatedAt": 1782305373905
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f3_1772376768799_xfmqhi",
@@ -1111,8 +1111,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 86,
-      "updatedAt": 1782305268086
+      "version": 89,
+      "updatedAt": 1782305373906
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f4_1772376768801_se1eeb",
@@ -1125,8 +1125,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 86,
-      "updatedAt": 1782305268087
+      "version": 89,
+      "updatedAt": 1782305373906
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f5_1772376768803_zhbfgr",
@@ -1139,8 +1139,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 86,
-      "updatedAt": 1782305268088
+      "version": 89,
+      "updatedAt": 1782305373906
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f6_1772376768805_lcvrtv",
@@ -1153,8 +1153,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 85,
-      "updatedAt": 1782305268089
+      "version": 88,
+      "updatedAt": 1782305373907
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f7_1772376768806_p5d8py",
@@ -1167,8 +1167,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 85,
-      "updatedAt": 1782305268090
+      "version": 88,
+      "updatedAt": 1782305373907
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f8_1772376768808_32jyzs",
@@ -1181,8 +1181,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 85,
-      "updatedAt": 1782305268091
+      "version": 88,
+      "updatedAt": 1782305373907
     },
     {
       "id": "comp_chatgpt_image_2026_3_1__15_41_00_hair_f9_1772376768810_0zrwmd",
@@ -1195,8 +1195,8 @@
       ],
       "width": 152,
       "height": 108,
-      "version": 82,
-      "updatedAt": 1782305268092
+      "version": 85,
+      "updatedAt": 1782305373908
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f1_1772889983375_uyd8bm",
@@ -1209,8 +1209,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 78,
-      "updatedAt": 1782305268093
+      "version": 81,
+      "updatedAt": 1782305373908
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f2_1772889983379_bl6ewe",
@@ -1223,8 +1223,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 77,
-      "updatedAt": 1782305268095
+      "version": 80,
+      "updatedAt": 1782305373909
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f3_1772889983382_8rdej6",
@@ -1237,8 +1237,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 77,
-      "updatedAt": 1782305268096
+      "version": 80,
+      "updatedAt": 1782305373909
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f4_1772889983385_2v14de",
@@ -1251,8 +1251,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 76,
-      "updatedAt": 1782305268098
+      "version": 79,
+      "updatedAt": 1782305373909
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f5_1772889983387_h2anyo",
@@ -1265,8 +1265,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 76,
-      "updatedAt": 1782305268100
+      "version": 79,
+      "updatedAt": 1782305373910
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f6_1772889983390_sktgdb",
@@ -1279,8 +1279,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 76,
-      "updatedAt": 1782305268102
+      "version": 79,
+      "updatedAt": 1782305373910
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f7_1772889983393_cwrvc1",
@@ -1293,8 +1293,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 75,
-      "updatedAt": 1782305268103
+      "version": 78,
+      "updatedAt": 1782305373911
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f8_1772889983396_ncwbea",
@@ -1307,8 +1307,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 73,
-      "updatedAt": 1773589496232
+      "version": 77,
+      "updatedAt": 1782305373911
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_3_f9_1772889983398_u78eyf",
@@ -1321,8 +1321,8 @@
       ],
       "width": 152,
       "height": 152,
-      "version": 74,
-      "updatedAt": 1782305268107
+      "version": 77,
+      "updatedAt": 1782305373912
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f1_1772889983400_9pto65",
@@ -1335,8 +1335,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 74,
-      "updatedAt": 1782305268108
+      "version": 77,
+      "updatedAt": 1782305373912
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f2_1772889983402_fk9xrt",
@@ -1349,8 +1349,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 74,
-      "updatedAt": 1782305268109
+      "version": 77,
+      "updatedAt": 1782305373912
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f3_1772889983404_bclrpm",
@@ -1363,8 +1363,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 74,
-      "updatedAt": 1782305268110
+      "version": 77,
+      "updatedAt": 1782305373913
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f4_1772889983406_4kpy88",
@@ -1377,8 +1377,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 72,
-      "updatedAt": 1782305268111
+      "version": 75,
+      "updatedAt": 1782305373913
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f5_1772889983408_31wxwt",
@@ -1391,8 +1391,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 72,
-      "updatedAt": 1782305268112
+      "version": 75,
+      "updatedAt": 1782305373913
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f6_1772889983411_4hww3t",
@@ -1405,8 +1405,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 72,
-      "updatedAt": 1782305268113
+      "version": 75,
+      "updatedAt": 1782305373913
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f7_1772889983413_6lziw5",
@@ -1419,8 +1419,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 72,
-      "updatedAt": 1782305268114
+      "version": 75,
+      "updatedAt": 1782305373914
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f8_1772889983415_vhusya",
@@ -1433,8 +1433,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 72,
-      "updatedAt": 1782305268116
+      "version": 75,
+      "updatedAt": 1782305373914
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_2_f9_1772889983417_lootbn",
@@ -1447,8 +1447,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 72,
-      "updatedAt": 1782305268117
+      "version": 75,
+      "updatedAt": 1782305373914
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f1_1772889983419_mmtaex",
@@ -1461,8 +1461,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 70,
-      "updatedAt": 1782305268452
+      "version": 73,
+      "updatedAt": 1782305373915
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f2_1772889983422_x1qyv0",
@@ -1475,8 +1475,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 69,
-      "updatedAt": 1782305268454
+      "version": 72,
+      "updatedAt": 1782305373915
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f3_1772889983424_n6g80c",
@@ -1489,8 +1489,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 68,
-      "updatedAt": 1782305268120
+      "version": 71,
+      "updatedAt": 1782305373915
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f4_1772889983426_s4kmjl",
@@ -1503,8 +1503,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 67,
-      "updatedAt": 1782305268121
+      "version": 70,
+      "updatedAt": 1782305373915
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f5_1772889983428_hst4nk",
@@ -1517,8 +1517,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 66,
-      "updatedAt": 1782305268121
+      "version": 69,
+      "updatedAt": 1782305373916
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f6_1772889983431_86kqhi",
@@ -1531,8 +1531,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 66,
-      "updatedAt": 1782305268459
+      "version": 69,
+      "updatedAt": 1782305373916
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f7_1772889983433_odzeyo",
@@ -1545,8 +1545,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 66,
-      "updatedAt": 1782305268128
+      "version": 69,
+      "updatedAt": 1782305373916
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f8_1772889983436_2nmep5",
@@ -1559,8 +1559,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 66,
-      "updatedAt": 1782305268130
+      "version": 69,
+      "updatedAt": 1782305373917
     },
     {
       "id": "comp_chatgpt_image_2026_3_7__19_42_00_layer_3_f9_1772889983438_ev7hxj",
@@ -1573,8 +1573,8 @@
       ],
       "width": 152,
       "height": 100,
-      "version": 66,
-      "updatedAt": 1782305268131
+      "version": 69,
+      "updatedAt": 1782305373917
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__15_41_31_0_f1_1772956303233_0m5deq",
@@ -1587,8 +1587,8 @@
       ],
       "width": 164,
       "height": 224,
-      "version": 45,
-      "updatedAt": 1782305268133
+      "version": 48,
+      "updatedAt": 1782305373918
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__15_41_31_0_f2_1772956303244_vctxnt",
@@ -1601,8 +1601,8 @@
       ],
       "width": 164,
       "height": 224,
-      "version": 53,
-      "updatedAt": 1782305268138
+      "version": 56,
+      "updatedAt": 1782305373918
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__15_41_31_0_f3_1772956303250_tj4le9",
@@ -1615,8 +1615,8 @@
       ],
       "width": 164,
       "height": 224,
-      "version": 53,
-      "updatedAt": 1782305268474
+      "version": 56,
+      "updatedAt": 1782305373919
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__15_41_31_0_f4_1772956303255_qivit7",
@@ -1629,8 +1629,8 @@
       ],
       "width": 164,
       "height": 224,
-      "version": 53,
-      "updatedAt": 1782305268145
+      "version": 56,
+      "updatedAt": 1782305373920
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__15_41_31_0_f5_1772956303260_5enmzs",
@@ -1643,8 +1643,8 @@
       ],
       "width": 164,
       "height": 224,
-      "version": 53,
-      "updatedAt": 1782305268147
+      "version": 56,
+      "updatedAt": 1782305373920
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__15_41_31_0_f6_1772956303265_p7w9dq",
@@ -1657,8 +1657,8 @@
       ],
       "width": 164,
       "height": 224,
-      "version": 53,
-      "updatedAt": 1782305268151
+      "version": 56,
+      "updatedAt": 1782305373921
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__15_41_31_0_f7_1772956303269_6v31u4",
@@ -1671,8 +1671,8 @@
       ],
       "width": 164,
       "height": 224,
-      "version": 53,
-      "updatedAt": 1782305268153
+      "version": 56,
+      "updatedAt": 1782305373922
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__15_41_31_0_f8_1772956303274_icamyp",
@@ -1685,8 +1685,8 @@
       ],
       "width": 164,
       "height": 224,
-      "version": 53,
-      "updatedAt": 1782305268161
+      "version": 56,
+      "updatedAt": 1782305373923
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__15_41_31_0_f9_1772956303279_t4noy5",
@@ -1699,8 +1699,8 @@
       ],
       "width": 164,
       "height": 224,
-      "version": 53,
-      "updatedAt": 1782305268164
+      "version": 56,
+      "updatedAt": 1782305373923
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__16_01_20_0_f1_1772957987012_ka22j7",
@@ -1713,8 +1713,8 @@
       ],
       "width": 156,
       "height": 188,
-      "version": 52,
-      "updatedAt": 1782305268166
+      "version": 55,
+      "updatedAt": 1782305373924
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__16_01_20_0_f2_1772957987016_88y0ok",
@@ -1727,8 +1727,8 @@
       ],
       "width": 160,
       "height": 188,
-      "version": 52,
-      "updatedAt": 1782305268168
+      "version": 55,
+      "updatedAt": 1782305373924
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__16_01_20_0_f3_1772957987019_mhdiog",
@@ -1741,8 +1741,8 @@
       ],
       "width": 156,
       "height": 188,
-      "version": 49,
-      "updatedAt": 1782305268503
+      "version": 52,
+      "updatedAt": 1782305373925
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__16_01_20_0_f4_1772957987023_emi0sq",
@@ -1755,8 +1755,8 @@
       ],
       "width": 160,
       "height": 188,
-      "version": 49,
-      "updatedAt": 1782305268174
+      "version": 52,
+      "updatedAt": 1782305373925
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__16_01_20_0_f5_1772957987031_fbvumk",
@@ -1769,8 +1769,8 @@
       ],
       "width": 156,
       "height": 188,
-      "version": 49,
-      "updatedAt": 1782305268176
+      "version": 52,
+      "updatedAt": 1782305373926
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__16_01_20_0_f6_1772957987035_z2zw5i",
@@ -1783,8 +1783,8 @@
       ],
       "width": 160,
       "height": 188,
-      "version": 48,
-      "updatedAt": 1782305268178
+      "version": 51,
+      "updatedAt": 1782305373927
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__16_01_20_0_f7_1772957987037_i9yxl7",
@@ -1797,8 +1797,8 @@
       ],
       "width": 156,
       "height": 188,
-      "version": 48,
-      "updatedAt": 1782305268515
+      "version": 51,
+      "updatedAt": 1782305373927
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__16_01_20_0_f8_1772957987040_ua7kq5",
@@ -1811,8 +1811,8 @@
       ],
       "width": 160,
       "height": 188,
-      "version": 48,
-      "updatedAt": 1782305268184
+      "version": 51,
+      "updatedAt": 1782305373928
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__16_01_20_0_f9_1772957987042_elfpi5",
@@ -1825,8 +1825,8 @@
       ],
       "width": 156,
       "height": 188,
-      "version": 48,
-      "updatedAt": 1782305268186
+      "version": 51,
+      "updatedAt": 1782305373928
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__23_20_56_0_f1_1772986267823_sk5y9n",
@@ -1839,8 +1839,8 @@
       ],
       "width": 32,
       "height": 36,
-      "version": 42,
-      "updatedAt": 1782305268187
+      "version": 45,
+      "updatedAt": 1782305373928
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__23_20_56_0_f2_1772986267827_6vfq99",
@@ -1853,8 +1853,8 @@
       ],
       "width": 32,
       "height": 36,
-      "version": 43,
-      "updatedAt": 1782305268187
+      "version": 46,
+      "updatedAt": 1782305373928
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__23_20_56_0_f3_1772986267830_ss3olc",
@@ -1867,8 +1867,8 @@
       ],
       "width": 32,
       "height": 36,
-      "version": 43,
-      "updatedAt": 1782305268187
+      "version": 46,
+      "updatedAt": 1782305373928
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__23_20_56_0_f4_1772986267834_3gtor7",
@@ -1881,8 +1881,8 @@
       ],
       "width": 32,
       "height": 36,
-      "version": 43,
-      "updatedAt": 1782305268187
+      "version": 46,
+      "updatedAt": 1782305373928
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__23_20_56_0_f5_1772986267838_mcet7s",
@@ -1895,8 +1895,8 @@
       ],
       "width": 32,
       "height": 36,
-      "version": 43,
-      "updatedAt": 1782305268187
+      "version": 46,
+      "updatedAt": 1782305373928
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__23_20_56_0_f6_1772986267841_l42wgv",
@@ -1909,8 +1909,8 @@
       ],
       "width": 32,
       "height": 36,
-      "version": 43,
-      "updatedAt": 1782305268187
+      "version": 46,
+      "updatedAt": 1782305373928
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__23_20_56_0_f7_1772986267844_noydxd",
@@ -1923,8 +1923,8 @@
       ],
       "width": 32,
       "height": 36,
-      "version": 43,
-      "updatedAt": 1782305268187
+      "version": 46,
+      "updatedAt": 1782305373928
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__23_20_56_0_f8_1772986267847_0g72or",
@@ -1937,8 +1937,8 @@
       ],
       "width": 32,
       "height": 36,
-      "version": 43,
-      "updatedAt": 1782305268188
+      "version": 46,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_chatgpt_image_2026_3_8__23_20_56_0_f9_1772986267850_57hzip",
@@ -1951,8 +1951,8 @@
       ],
       "width": 32,
       "height": 36,
-      "version": 43,
-      "updatedAt": 1782305268188
+      "version": 46,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_girl_move_right_f1_1772983342693_ddhqdi",
@@ -1965,8 +1965,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 47,
-      "updatedAt": 1782305268188
+      "version": 50,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_girl_move_right_f2_1772983342698_wqjsxv",
@@ -1979,8 +1979,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 46,
-      "updatedAt": 1782305268188
+      "version": 49,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_girl_move_right_f3_1772983342703_e2cs4q",
@@ -1993,8 +1993,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 46,
-      "updatedAt": 1782305268188
+      "version": 49,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_girl_move_right_f4_1772983342712_yek05d",
@@ -2007,8 +2007,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 46,
-      "updatedAt": 1782305268188
+      "version": 49,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_girl_move_right_f5_1772983342717_nmr0dt",
@@ -2021,8 +2021,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 46,
-      "updatedAt": 1782305268188
+      "version": 49,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_girl_move_right_f6_1772983342720_1onuyr",
@@ -2035,8 +2035,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 46,
-      "updatedAt": 1782305268188
+      "version": 49,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_girl_move_right_f7_1772983342724_j1yh28",
@@ -2049,8 +2049,8 @@
       ],
       "width": 32,
       "height": 28,
-      "version": 45,
-      "updatedAt": 1782305268189
+      "version": 48,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_zh_lyb_48x48_v1",
@@ -2065,8 +2065,8 @@
       ],
       "width": 48,
       "height": 48,
-      "version": 54,
-      "updatedAt": 1782305268189
+      "version": 57,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_zh_lyb_64x64_v1",
@@ -2081,8 +2081,8 @@
       ],
       "width": 64,
       "height": 64,
-      "version": 50,
-      "updatedAt": 1782305268190
+      "version": 53,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_zh_zyt_48x48_v1",
@@ -2097,8 +2097,8 @@
       ],
       "width": 48,
       "height": 48,
-      "version": 32,
-      "updatedAt": 1773504349532
+      "version": 36,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_zh_zyt_96x96_v1",
@@ -2113,8 +2113,8 @@
       ],
       "width": 96,
       "height": 96,
-      "version": 78,
-      "updatedAt": 1782305268192
+      "version": 81,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_zhu_yingtai_casual_001",
@@ -2131,8 +2131,8 @@
       ],
       "width": 48,
       "height": 96,
-      "version": 43,
-      "updatedAt": 1782305268192
+      "version": 46,
+      "updatedAt": 1782305373929
     },
     {
       "id": "zyt_body_idle_down_001",
@@ -2146,8 +2146,8 @@
       ],
       "width": 32,
       "height": 64,
-      "version": 45,
-      "updatedAt": 1782305268192
+      "version": 48,
+      "updatedAt": 1782305373929
     },
     {
       "id": "zyt_hair_classic_down_001",
@@ -2157,8 +2157,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 31,
-      "updatedAt": 1782305268193
+      "version": 34,
+      "updatedAt": 1782305373929
     },
     {
       "id": "zyt_outfit_casual_down_001",
@@ -2168,8 +2168,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 42,
-      "updatedAt": 1782305268193
+      "version": 45,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_1770823932014_26q4pk",
@@ -2179,8 +2179,8 @@
       "tags": [],
       "width": 16,
       "height": 16,
-      "version": 166,
-      "updatedAt": 1782305268193
+      "version": 169,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_1770900850720_5oopur",
@@ -2190,8 +2190,8 @@
       "tags": [],
       "width": 12,
       "height": 12,
-      "version": 172,
-      "updatedAt": 1782305268193
+      "version": 175,
+      "updatedAt": 1782305373929
     },
     {
       "id": "comp_1771230301263_6ddojn",
@@ -2212,8 +2212,8 @@
       "tags": [],
       "width": 48,
       "height": 48,
-      "version": 33,
-      "updatedAt": 1782305268194
+      "version": 36,
+      "updatedAt": 1782305373930
     },
     {
       "id": "comp_1772370974373_e6n9yy",
@@ -2223,8 +2223,8 @@
       "tags": [],
       "width": 48,
       "height": 48,
-      "version": 33,
-      "updatedAt": 1782305268194
+      "version": 36,
+      "updatedAt": 1782305373930
     },
     {
       "id": "comp_1772957928017_k4ihbd",
@@ -2234,8 +2234,8 @@
       "tags": [],
       "width": 48,
       "height": 48,
-      "version": 6,
-      "updatedAt": 1782305268195
+      "version": 9,
+      "updatedAt": 1782305373930
     },
     {
       "id": "comp_1770797242019_8ctkpd",
@@ -2245,8 +2245,8 @@
       "tags": [],
       "width": 16,
       "height": 16,
-      "version": 186,
-      "updatedAt": 1782305268195
+      "version": 189,
+      "updatedAt": 1782305373930
     },
     {
       "id": "zyt_body_fixed_down",
@@ -2255,8 +2255,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 31,
-      "updatedAt": 1782305268195
+      "version": 34,
+      "updatedAt": 1782305373930
     },
     {
       "id": "zyt_body_v1_front",
@@ -2265,8 +2265,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 32,
-      "updatedAt": 1782305268195
+      "version": 35,
+      "updatedAt": 1782305373930
     },
     {
       "id": "zyt_body_v2_down_full",
@@ -2275,8 +2275,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 31,
-      "updatedAt": 1782305268195
+      "version": 34,
+      "updatedAt": 1782305373930
     },
     {
       "id": "zyt_clothes_v1_front",
@@ -2285,8 +2285,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 34,
-      "updatedAt": 1782305268195
+      "version": 37,
+      "updatedAt": 1782305373930
     },
     {
       "id": "zyt_hair_v2_front",
@@ -2295,8 +2295,8 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 34,
-      "updatedAt": 1782305268195
+      "version": 37,
+      "updatedAt": 1782305373930
     },
     {
       "id": "zyt_outfit_v2_refined_down",
@@ -2305,8 +2305,388 @@
       "tags": [],
       "width": 32,
       "height": 64,
-      "version": 32,
-      "updatedAt": 1782305268196
+      "version": 35,
+      "updatedAt": 1782305373930
+    },
+    {
+      "id": "comp_zhuyingtai_idle_down_f1_64c_v2",
+      "name": "祝英台 idle-down f1",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_idle_down_f1_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "idle-down",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401004
+    },
+    {
+      "id": "comp_zhuyingtai_idle_down_f2_64c_v2",
+      "name": "祝英台 idle-down f2",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_idle_down_f2_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "idle-down",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401004
+    },
+    {
+      "id": "comp_zhuyingtai_idle_down_f3_64c_v2",
+      "name": "祝英台 idle-down f3",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_idle_down_f3_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "idle-down",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401004
+    },
+    {
+      "id": "comp_zhuyingtai_idle_down_f4_64c_v2",
+      "name": "祝英台 idle-down f4",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_idle_down_f4_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "idle-down",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401004
+    },
+    {
+      "id": "comp_zhuyingtai_walk_down_f1_64c_v2",
+      "name": "祝英台 walk-down f1",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_down_f1_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-down",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401005
+    },
+    {
+      "id": "comp_zhuyingtai_walk_down_f2_64c_v2",
+      "name": "祝英台 walk-down f2",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_down_f2_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-down",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401005
+    },
+    {
+      "id": "comp_zhuyingtai_walk_down_f3_64c_v2",
+      "name": "祝英台 walk-down f3",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_down_f3_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-down",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401005
+    },
+    {
+      "id": "comp_zhuyingtai_walk_down_f4_64c_v2",
+      "name": "祝英台 walk-down f4",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_down_f4_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-down",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401005
+    },
+    {
+      "id": "comp_zhuyingtai_walk_left_f1_64c_v2",
+      "name": "祝英台 walk-left f1",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_left_f1_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-left",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401005
+    },
+    {
+      "id": "comp_zhuyingtai_walk_left_f2_64c_v2",
+      "name": "祝英台 walk-left f2",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_left_f2_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-left",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401005
+    },
+    {
+      "id": "comp_zhuyingtai_walk_left_f3_64c_v2",
+      "name": "祝英台 walk-left f3",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_left_f3_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-left",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401005
+    },
+    {
+      "id": "comp_zhuyingtai_walk_left_f4_64c_v2",
+      "name": "祝英台 walk-left f4",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_left_f4_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-left",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401005
+    },
+    {
+      "id": "comp_zhuyingtai_walk_right_f1_64c_v2",
+      "name": "祝英台 walk-right f1",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_right_f1_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-right",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401005
+    },
+    {
+      "id": "comp_zhuyingtai_walk_right_f2_64c_v2",
+      "name": "祝英台 walk-right f2",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_right_f2_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-right",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401005
+    },
+    {
+      "id": "comp_zhuyingtai_walk_right_f3_64c_v2",
+      "name": "祝英台 walk-right f3",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_right_f3_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-right",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401006
+    },
+    {
+      "id": "comp_zhuyingtai_walk_right_f4_64c_v2",
+      "name": "祝英台 walk-right f4",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_right_f4_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-right",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401006
+    },
+    {
+      "id": "comp_zhuyingtai_walk_up_f1_64c_v2",
+      "name": "祝英台 walk-up f1",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_up_f1_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-up",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401006
+    },
+    {
+      "id": "comp_zhuyingtai_walk_up_f2_64c_v2",
+      "name": "祝英台 walk-up f2",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_up_f2_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-up",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401006
+    },
+    {
+      "id": "comp_zhuyingtai_walk_up_f3_64c_v2",
+      "name": "祝英台 walk-up f3",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_up_f3_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-up",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401006
+    },
+    {
+      "id": "comp_zhuyingtai_walk_up_f4_64c_v2",
+      "name": "祝英台 walk-up f4",
+      "category": "character",
+      "path": "components/character/comp_zhuyingtai_walk_up_f4_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "walk-up",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1782305401006
     }
   ],
   "maps": [
@@ -2606,6 +2986,26 @@
       "animationCount": 1,
       "version": 1,
       "updatedAt": 1773504869083
+    },
+    {
+      "id": "sprite_zhuyingtai_48x96_64c_v2",
+      "name": "祝英台 48x96 64c v2",
+      "category": "character",
+      "path": "sprites/sprite_zhuyingtai_48x96_64c_v2.json",
+      "tags": [
+        "zhuyingtai",
+        "祝英台",
+        "character",
+        "48x96",
+        "64c",
+        "v2"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 5,
+      "version": 1,
+      "updatedAt": 1782300674285
     }
   ]
 }
