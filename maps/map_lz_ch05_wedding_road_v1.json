@@ -560,6 +560,13 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_map_lz_ch05_wedding_road_v1_story_scene_plate_v5",
+          "tileX": 10,
+          "tileY": 2,
+          "refId": "map_lz_ch05_wedding_road_v1_story_scene_plate"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_lz_prop_red_sedan_story_v1",
           "tileX": 10,
           "tileY": 20,
