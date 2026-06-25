@@ -6659,7 +6659,10 @@
         "academy_gate",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "first-meeting",
+        "academy-arrival",
+        "detail-ambient-academy_gate"
       ],
       "width": 48,
       "height": 48,
@@ -6680,7 +6683,10 @@
         "academy_gate",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "first-meeting",
+        "academy-arrival",
+        "detail-left-academy_gate"
       ],
       "width": 48,
       "height": 48,
@@ -6724,7 +6730,10 @@
         "academy_gate",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "first-meeting",
+        "academy-arrival",
+        "detail-path-academy_gate"
       ],
       "width": 48,
       "height": 48,
@@ -6745,7 +6754,10 @@
         "academy_gate",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "first-meeting",
+        "academy-arrival",
+        "detail-right-academy_gate"
       ],
       "width": 48,
       "height": 48,
@@ -6832,7 +6844,10 @@
         "pavilion",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "roadside-shelter",
+        "shared-journey",
+        "detail-ambient-pavilion"
       ],
       "width": 48,
       "height": 48,
@@ -6853,7 +6868,10 @@
         "pavilion",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "roadside-shelter",
+        "shared-journey",
+        "detail-left-pavilion"
       ],
       "width": 48,
       "height": 48,
@@ -6897,7 +6915,10 @@
         "pavilion",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "roadside-shelter",
+        "shared-journey",
+        "detail-path-pavilion"
       ],
       "width": 48,
       "height": 48,
@@ -6918,7 +6939,10 @@
         "pavilion",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "roadside-shelter",
+        "shared-journey",
+        "detail-right-pavilion"
       ],
       "width": 48,
       "height": 48,
@@ -7005,7 +7029,10 @@
         "ferry",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "river-oath",
+        "first-travel",
+        "detail-ambient-ferry"
       ],
       "width": 48,
       "height": 48,
@@ -7026,7 +7053,10 @@
         "ferry",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "river-oath",
+        "first-travel",
+        "detail-left-ferry"
       ],
       "width": 48,
       "height": 48,
@@ -7070,7 +7100,10 @@
         "ferry",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "river-oath",
+        "first-travel",
+        "detail-path-ferry"
       ],
       "width": 48,
       "height": 48,
@@ -7091,7 +7124,10 @@
         "ferry",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "river-oath",
+        "first-travel",
+        "detail-right-ferry"
       ],
       "width": 48,
       "height": 48,
@@ -7178,7 +7214,10 @@
         "zhufu",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "home-departure",
+        "hidden-identity",
+        "detail-ambient-zhufu"
       ],
       "width": 48,
       "height": 48,
@@ -7199,7 +7238,10 @@
         "zhufu",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "home-departure",
+        "hidden-identity",
+        "detail-left-zhufu"
       ],
       "width": 48,
       "height": 48,
@@ -7243,7 +7285,10 @@
         "zhufu",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "home-departure",
+        "hidden-identity",
+        "detail-path-zhufu"
       ],
       "width": 48,
       "height": 48,
@@ -7264,7 +7309,10 @@
         "zhufu",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "home-departure",
+        "hidden-identity",
+        "detail-right-zhufu"
       ],
       "width": 48,
       "height": 48,
@@ -7351,7 +7399,10 @@
         "academy",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "three-year-study",
+        "classmate-bond",
+        "detail-ambient-academy"
       ],
       "width": 48,
       "height": 48,
@@ -7372,7 +7423,10 @@
         "academy",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "three-year-study",
+        "classmate-bond",
+        "detail-left-academy"
       ],
       "width": 48,
       "height": 48,
@@ -7416,7 +7470,10 @@
         "academy",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "three-year-study",
+        "classmate-bond",
+        "detail-path-academy"
       ],
       "width": 48,
       "height": 48,
@@ -7437,7 +7494,10 @@
         "academy",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "three-year-study",
+        "classmate-bond",
+        "detail-right-academy"
       ],
       "width": 48,
       "height": 48,
@@ -7524,7 +7584,10 @@
         "bamboo",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "bamboo-confession",
+        "missed-clue",
+        "detail-ambient-bamboo"
       ],
       "width": 48,
       "height": 48,
@@ -7545,7 +7608,10 @@
         "bamboo",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "bamboo-confession",
+        "missed-clue",
+        "detail-left-bamboo"
       ],
       "width": 48,
       "height": 48,
@@ -7589,7 +7655,10 @@
         "bamboo",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "bamboo-confession",
+        "missed-clue",
+        "detail-path-bamboo"
       ],
       "width": 48,
       "height": 48,
@@ -7610,7 +7679,10 @@
         "bamboo",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "bamboo-confession",
+        "missed-clue",
+        "detail-right-bamboo"
       ],
       "width": 48,
       "height": 48,
@@ -7697,7 +7769,10 @@
         "classroom",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "study-hall",
+        "hidden-identity",
+        "detail-ambient-classroom"
       ],
       "width": 48,
       "height": 48,
@@ -7718,7 +7793,10 @@
         "classroom",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "study-hall",
+        "hidden-identity",
+        "detail-left-classroom"
       ],
       "width": 48,
       "height": 48,
@@ -7762,7 +7840,10 @@
         "classroom",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "study-hall",
+        "hidden-identity",
+        "detail-path-classroom"
       ],
       "width": 48,
       "height": 48,
@@ -7783,7 +7864,10 @@
         "classroom",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "study-hall",
+        "hidden-identity",
+        "detail-right-classroom"
       ],
       "width": 48,
       "height": 48,
@@ -7870,7 +7954,10 @@
         "corridor",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "night-corridor",
+        "identity-risk",
+        "detail-ambient-corridor"
       ],
       "width": 48,
       "height": 48,
@@ -7891,7 +7978,10 @@
         "corridor",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "night-corridor",
+        "identity-risk",
+        "detail-left-corridor"
       ],
       "width": 48,
       "height": 48,
@@ -7935,7 +8025,10 @@
         "corridor",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "night-corridor",
+        "identity-risk",
+        "detail-path-corridor"
       ],
       "width": 48,
       "height": 48,
@@ -7956,7 +8049,10 @@
         "corridor",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "night-corridor",
+        "identity-risk",
+        "detail-right-corridor"
       ],
       "width": 48,
       "height": 48,
@@ -8043,7 +8139,10 @@
         "library",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "library-trust",
+        "shared-reading",
+        "detail-ambient-library"
       ],
       "width": 48,
       "height": 48,
@@ -8064,7 +8163,10 @@
         "library",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "library-trust",
+        "shared-reading",
+        "detail-left-library"
       ],
       "width": 48,
       "height": 48,
@@ -8108,7 +8210,10 @@
         "library",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "library-trust",
+        "shared-reading",
+        "detail-path-library"
       ],
       "width": 48,
       "height": 48,
@@ -8129,7 +8234,10 @@
         "library",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "library-trust",
+        "shared-reading",
+        "detail-right-library"
       ],
       "width": 48,
       "height": 48,
@@ -8216,7 +8324,10 @@
         "academy_gate",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "departure-from-academy",
+        "farewell-begins",
+        "detail-ambient-academy_gate"
       ],
       "width": 48,
       "height": 48,
@@ -8237,7 +8348,10 @@
         "academy_gate",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "departure-from-academy",
+        "farewell-begins",
+        "detail-left-academy_gate"
       ],
       "width": 48,
       "height": 48,
@@ -8281,7 +8395,10 @@
         "academy_gate",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "departure-from-academy",
+        "farewell-begins",
+        "detail-path-academy_gate"
       ],
       "width": 48,
       "height": 48,
@@ -8302,7 +8419,10 @@
         "academy_gate",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "departure-from-academy",
+        "farewell-begins",
+        "detail-right-academy_gate"
       ],
       "width": 48,
       "height": 48,
@@ -8389,7 +8509,10 @@
         "bridge",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "bridge-hint",
+        "missed-truth",
+        "detail-ambient-bridge"
       ],
       "width": 48,
       "height": 48,
@@ -8410,7 +8533,10 @@
         "bridge",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "bridge-hint",
+        "missed-truth",
+        "detail-left-bridge"
       ],
       "width": 48,
       "height": 48,
@@ -8454,7 +8580,10 @@
         "bridge",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "bridge-hint",
+        "missed-truth",
+        "detail-path-bridge"
       ],
       "width": 48,
       "height": 48,
@@ -8475,7 +8604,10 @@
         "bridge",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "bridge-hint",
+        "missed-truth",
+        "detail-right-bridge"
       ],
       "width": 48,
       "height": 48,
@@ -8562,7 +8694,10 @@
         "road_sign",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "forked-road",
+        "separation",
+        "detail-ambient-road_sign"
       ],
       "width": 48,
       "height": 48,
@@ -8583,7 +8718,10 @@
         "road_sign",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "forked-road",
+        "separation",
+        "detail-left-road_sign"
       ],
       "width": 48,
       "height": 48,
@@ -8627,7 +8765,10 @@
         "road_sign",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "forked-road",
+        "separation",
+        "detail-path-road_sign"
       ],
       "width": 48,
       "height": 48,
@@ -8648,7 +8789,10 @@
         "road_sign",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "forked-road",
+        "separation",
+        "detail-right-road_sign"
       ],
       "width": 48,
       "height": 48,
@@ -8735,7 +8879,10 @@
         "long_pavilion",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "eighteen-mile-farewell",
+        "long-pavilion-oath",
+        "detail-ambient-long_pavilion"
       ],
       "width": 48,
       "height": 48,
@@ -8756,7 +8903,10 @@
         "long_pavilion",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "eighteen-mile-farewell",
+        "long-pavilion-oath",
+        "detail-left-long_pavilion"
       ],
       "width": 48,
       "height": 48,
@@ -8800,7 +8950,10 @@
         "long_pavilion",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "eighteen-mile-farewell",
+        "long-pavilion-oath",
+        "detail-path-long_pavilion"
       ],
       "width": 48,
       "height": 48,
@@ -8821,7 +8974,10 @@
         "long_pavilion",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "eighteen-mile-farewell",
+        "long-pavilion-oath",
+        "detail-right-long_pavilion"
       ],
       "width": 48,
       "height": 48,
@@ -8908,7 +9064,10 @@
         "mulberry",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "mulberry-metaphor",
+        "promise-delay",
+        "detail-ambient-mulberry"
       ],
       "width": 48,
       "height": 48,
@@ -8929,7 +9088,10 @@
         "mulberry",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "mulberry-metaphor",
+        "promise-delay",
+        "detail-left-mulberry"
       ],
       "width": 48,
       "height": 48,
@@ -8973,7 +9135,10 @@
         "mulberry",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "mulberry-metaphor",
+        "promise-delay",
+        "detail-path-mulberry"
       ],
       "width": 48,
       "height": 48,
@@ -8994,7 +9159,10 @@
         "mulberry",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "mulberry-metaphor",
+        "promise-delay",
+        "detail-right-mulberry"
       ],
       "width": 48,
       "height": 48,
@@ -9081,7 +9249,10 @@
         "betrothal",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "betrothal-contract",
+        "county-pressure",
+        "detail-ambient-betrothal"
       ],
       "width": 48,
       "height": 48,
@@ -9102,7 +9273,10 @@
         "betrothal",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "betrothal-contract",
+        "county-pressure",
+        "detail-left-betrothal"
       ],
       "width": 48,
       "height": 48,
@@ -9146,7 +9320,10 @@
         "betrothal",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "betrothal-contract",
+        "county-pressure",
+        "detail-path-betrothal"
       ],
       "width": 48,
       "height": 48,
@@ -9167,7 +9344,10 @@
         "betrothal",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "betrothal-contract",
+        "county-pressure",
+        "detail-right-betrothal"
       ],
       "width": 48,
       "height": 48,
@@ -9254,7 +9434,10 @@
         "boudoir",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "boudoir-resistance",
+        "red-veil-pressure",
+        "detail-ambient-boudoir"
       ],
       "width": 48,
       "height": 48,
@@ -9275,7 +9458,10 @@
         "boudoir",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "boudoir-resistance",
+        "red-veil-pressure",
+        "detail-left-boudoir"
       ],
       "width": 48,
       "height": 48,
@@ -9319,7 +9505,10 @@
         "boudoir",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "boudoir-resistance",
+        "red-veil-pressure",
+        "detail-path-boudoir"
       ],
       "width": 48,
       "height": 48,
@@ -9340,7 +9529,10 @@
         "boudoir",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "boudoir-resistance",
+        "red-veil-pressure",
+        "detail-right-boudoir"
       ],
       "width": 48,
       "height": 48,
@@ -9427,7 +9619,10 @@
         "ma_gate",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "ma-family-pressure",
+        "wealth-display",
+        "detail-ambient-ma_gate"
       ],
       "width": 48,
       "height": 48,
@@ -9448,7 +9643,10 @@
         "ma_gate",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "ma-family-pressure",
+        "wealth-display",
+        "detail-left-ma_gate"
       ],
       "width": 48,
       "height": 48,
@@ -9492,7 +9690,10 @@
         "ma_gate",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "ma-family-pressure",
+        "wealth-display",
+        "detail-path-ma_gate"
       ],
       "width": 48,
       "height": 48,
@@ -9513,7 +9714,10 @@
         "ma_gate",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "ma-family-pressure",
+        "wealth-display",
+        "detail-right-ma_gate"
       ],
       "width": 48,
       "height": 48,
@@ -9600,7 +9804,10 @@
         "zhufu_hall",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "family-pressure",
+        "forced-marriage",
+        "detail-ambient-zhufu_hall"
       ],
       "width": 48,
       "height": 48,
@@ -9621,7 +9828,10 @@
         "zhufu_hall",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "family-pressure",
+        "forced-marriage",
+        "detail-left-zhufu_hall"
       ],
       "width": 48,
       "height": 48,
@@ -9665,7 +9875,10 @@
         "zhufu_hall",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "family-pressure",
+        "forced-marriage",
+        "detail-path-zhufu_hall"
       ],
       "width": 48,
       "height": 48,
@@ -9686,7 +9899,10 @@
         "zhufu_hall",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "family-pressure",
+        "forced-marriage",
+        "detail-right-zhufu_hall"
       ],
       "width": 48,
       "height": 48,
@@ -9773,7 +9989,10 @@
         "butterfly",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "butterfly-transcendence",
+        "shared-release",
+        "detail-ambient-butterfly"
       ],
       "width": 48,
       "height": 48,
@@ -9794,7 +10013,10 @@
         "butterfly",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "butterfly-transcendence",
+        "shared-release",
+        "detail-left-butterfly"
       ],
       "width": 48,
       "height": 48,
@@ -9838,7 +10060,10 @@
         "butterfly",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "butterfly-transcendence",
+        "shared-release",
+        "detail-path-butterfly"
       ],
       "width": 48,
       "height": 48,
@@ -9859,7 +10084,10 @@
         "butterfly",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "butterfly-transcendence",
+        "shared-release",
+        "detail-right-butterfly"
       ],
       "width": 48,
       "height": 48,
@@ -9946,7 +10174,10 @@
         "grave",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "grave-oath",
+        "storm-before-butterfly",
+        "detail-ambient-grave"
       ],
       "width": 48,
       "height": 48,
@@ -9967,7 +10198,10 @@
         "grave",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "grave-oath",
+        "storm-before-butterfly",
+        "detail-left-grave"
       ],
       "width": 48,
       "height": 48,
@@ -10011,7 +10245,10 @@
         "grave",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "grave-oath",
+        "storm-before-butterfly",
+        "detail-path-grave"
       ],
       "width": 48,
       "height": 48,
@@ -10032,7 +10269,10 @@
         "grave",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "grave-oath",
+        "storm-before-butterfly",
+        "detail-right-grave"
       ],
       "width": 48,
       "height": 48,
@@ -10119,7 +10359,10 @@
         "sickroom",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "last-letter-bed",
+        "failing-health",
+        "detail-ambient-sickroom"
       ],
       "width": 48,
       "height": 48,
@@ -10140,7 +10383,10 @@
         "sickroom",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "last-letter-bed",
+        "failing-health",
+        "detail-left-sickroom"
       ],
       "width": 48,
       "height": 48,
@@ -10184,7 +10430,10 @@
         "sickroom",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "last-letter-bed",
+        "failing-health",
+        "detail-path-sickroom"
       ],
       "width": 48,
       "height": 48,
@@ -10205,7 +10454,10 @@
         "sickroom",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "last-letter-bed",
+        "failing-health",
+        "detail-right-sickroom"
       ],
       "width": 48,
       "height": 48,
@@ -10292,7 +10544,10 @@
         "tower",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "tower-reunion",
+        "truth-revealed",
+        "detail-ambient-tower"
       ],
       "width": 48,
       "height": 48,
@@ -10313,7 +10568,10 @@
         "tower",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "tower-reunion",
+        "truth-revealed",
+        "detail-left-tower"
       ],
       "width": 48,
       "height": 48,
@@ -10357,7 +10615,10 @@
         "tower",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "tower-reunion",
+        "truth-revealed",
+        "detail-path-tower"
       ],
       "width": 48,
       "height": 48,
@@ -10378,7 +10639,10 @@
         "tower",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "tower-reunion",
+        "truth-revealed",
+        "detail-right-tower"
       ],
       "width": 48,
       "height": 48,
@@ -10465,7 +10729,10 @@
         "wedding",
         "ambient",
         "scene-detail-v2",
-        "detail-ambient"
+        "detail-ambient",
+        "red-wedding-procession",
+        "forced-procession",
+        "detail-ambient-wedding"
       ],
       "width": 48,
       "height": 48,
@@ -10486,7 +10753,10 @@
         "wedding",
         "left",
         "scene-detail-v2",
-        "detail-left"
+        "detail-left",
+        "red-wedding-procession",
+        "forced-procession",
+        "detail-left-wedding"
       ],
       "width": 48,
       "height": 48,
@@ -10530,7 +10800,10 @@
         "wedding",
         "path",
         "scene-detail-v2",
-        "detail-path"
+        "detail-path",
+        "red-wedding-procession",
+        "forced-procession",
+        "detail-path-wedding"
       ],
       "width": 48,
       "height": 48,
@@ -10551,7 +10824,10 @@
         "wedding",
         "right",
         "scene-detail-v2",
-        "detail-right"
+        "detail-right",
+        "red-wedding-procession",
+        "forced-procession",
+        "detail-right-wedding"
       ],
       "width": 48,
       "height": 48,
