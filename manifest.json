@@ -351,6 +351,32 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch01_zhufu_courtyard_v1_story_scene_plate_v10",
+      "name": "祝英台家 深度剧情场景板",
+      "category": "building",
+      "path": "components/building/comp_map_lz_ch01_zhufu_courtyard_v1_story_scene_plate_v10.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "zhufu_courtyard",
+        "zhufu",
+        "plate-zhufu",
+        "story-scene-paint-v10",
+        "broad-surface-paint-v10",
+        "walkable-stage-v10",
+        "paint-zhufu",
+        "depth-zhufu",
+        "plate-zhufu-home-departure",
+        "depth-zhufu-home-departure-stage"
+      ],
+      "width": 384,
+      "height": 192,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch02_academy_courtyard_v1_focus_story_v1",
       "name": "书院前庭 主场景组件",
       "category": "building",
@@ -10350,6 +10376,27 @@
         "atmosphere-ferry",
         "story-atmosphere-v6",
         "atmosphere-ferry-story"
+      ],
+      "width": 384,
+      "height": 192,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch01_zhufu_courtyard_v1_story_atmosphere_v6",
+      "name": "祝英台家 剧情氛围层",
+      "category": "effect",
+      "path": "components/effect/comp_map_lz_ch01_zhufu_courtyard_v1_story_atmosphere_v6.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "zhufu_courtyard",
+        "zhufu",
+        "atmosphere-zhufu",
+        "story-atmosphere-v6",
+        "atmosphere-zhufu-home-departure"
       ],
       "width": 384,
       "height": 192,
