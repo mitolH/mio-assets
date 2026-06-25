@@ -683,7 +683,13 @@
                     }
                   }
                 ],
-                "weight": 1
+                "weight": 1,
+                "authoredRoleState": {
+                  "mapId": "map_lz_ch02_dorm_corridor_v1",
+                  "role": "zhuyingtai",
+                  "source": "sceneRoleStateEffects"
+                },
+                "rolePresence": "present"
               },
               {
                 "id": "map_lz_ch02_dorm_corridor_v1_story_b_liangshanbo",
@@ -733,7 +739,13 @@
                     }
                   }
                 ],
-                "weight": 1
+                "weight": 1,
+                "authoredRoleState": {
+                  "mapId": "map_lz_ch02_dorm_corridor_v1",
+                  "role": "liangshanbo",
+                  "source": "sceneRoleStateEffects"
+                },
+                "rolePresence": "present"
               },
               {
                 "id": "map_lz_ch02_dorm_corridor_v1_story_b_mawencai",
@@ -783,7 +795,13 @@
                     }
                   }
                 ],
-                "weight": 1
+                "weight": 1,
+                "authoredRoleState": {
+                  "mapId": "map_lz_ch02_dorm_corridor_v1",
+                  "role": "mawencai",
+                  "source": "sceneRoleStateEffects"
+                },
+                "rolePresence": "present"
               }
             ]
           }
