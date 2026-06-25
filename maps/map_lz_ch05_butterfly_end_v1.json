@@ -818,19 +818,19 @@
         },
         {
           "assetType": "sprite",
-          "spriteId": "sprite_zhuyingtai_48x96_story_v1",
+          "spriteId": "sprite_zhuyingtai_butterfly_48x96_story_v1",
           "animationId": "idle-down",
           "tileX": 18,
-          "tileY": 22,
-          "refId": "map_lz_ch05_butterfly_end_v1_actor_zhuyingtai_1"
+          "tileY": 21,
+          "refId": "map_lz_ch05_butterfly_end_v1_actor_zhuyingtai_butterfly_1"
         },
         {
           "assetType": "sprite",
-          "spriteId": "sprite_liangshanbo_48x96_story_v2",
+          "spriteId": "sprite_liangshanbo_butterfly_48x96_story_v1",
           "animationId": "idle-down",
           "tileX": 23,
-          "tileY": 22,
-          "refId": "map_lz_ch05_butterfly_end_v1_actor_liangshanbo_2"
+          "tileY": 21,
+          "refId": "map_lz_ch05_butterfly_end_v1_actor_liangshanbo_butterfly_2"
         },
         {
           "assetType": "sprite",
