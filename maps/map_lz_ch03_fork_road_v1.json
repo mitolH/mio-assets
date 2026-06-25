@@ -981,11 +981,11 @@
       "visualStyle": "semi-realistic pixel comic",
       "baseTileSize": 16,
       "characterScale": "48x96",
-      "detailTier": "A",
+      "detailTier": "S",
       "sceneFamily": "road_sign",
       "chapterPalette": "sunset-road-willow-water",
       "mood": "farewell hints and missed truth",
-      "focusTier": "A",
+      "focusTier": "S",
       "detailPass": "second-pass-v2"
     }
   }

@@ -997,11 +997,11 @@
       "visualStyle": "semi-realistic pixel comic",
       "baseTileSize": 16,
       "characterScale": "48x96",
-      "detailTier": "A",
+      "detailTier": "S",
       "sceneFamily": "academy",
       "chapterPalette": "clear-academy-bamboo-paper",
       "mood": "restrained study and suspicion",
-      "focusTier": "A",
+      "focusTier": "S",
       "detailPass": "second-pass-v2"
     }
   }

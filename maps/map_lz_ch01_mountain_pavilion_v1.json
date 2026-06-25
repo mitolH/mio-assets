@@ -961,11 +961,11 @@
       "visualStyle": "semi-realistic pixel comic",
       "baseTileSize": 16,
       "characterScale": "48x96",
-      "detailTier": "A",
+      "detailTier": "S",
       "sceneFamily": "pavilion",
       "chapterPalette": "warm-zhufu-river-academy",
       "mood": "warm departure and first pressure",
-      "focusTier": "A",
+      "focusTier": "S",
       "detailPass": "second-pass-v2"
     }
   }
