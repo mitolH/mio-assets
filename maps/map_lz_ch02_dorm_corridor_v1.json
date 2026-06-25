@@ -560,6 +560,34 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_study_dorm_rain_corridor_v1",
+          "tileX": 8,
+          "tileY": 4,
+          "refId": "map_lz_ch02_dorm_corridor_v1_scene_reference_dorm_rain_corridor"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_study_privacy_screen_v1",
+          "tileX": 2,
+          "tileY": 17,
+          "refId": "map_lz_ch02_dorm_corridor_v1_scene_reference_privacy_screen"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_study_night_lantern_line_v1",
+          "tileX": 29,
+          "tileY": 8,
+          "refId": "map_lz_ch02_dorm_corridor_v1_scene_reference_night_lantern_line"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_study_wet_books_chest_v1",
+          "tileX": 31,
+          "tileY": 19,
+          "refId": "map_lz_ch02_dorm_corridor_v1_scene_reference_wet_books_chest"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch02_dorm_corridor_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,

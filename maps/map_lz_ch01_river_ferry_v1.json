@@ -560,6 +560,34 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_departure_ferry_boat_v1",
+          "tileX": 12,
+          "tileY": 7,
+          "refId": "map_lz_ch01_river_ferry_v1_scene_reference_ferry_boat"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_departure_river_pier_v1",
+          "tileX": 0,
+          "tileY": 15,
+          "refId": "map_lz_ch01_river_ferry_v1_scene_reference_river_pier"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_departure_reed_bank_v1",
+          "tileX": 32,
+          "tileY": 13,
+          "refId": "map_lz_ch01_river_ferry_v1_scene_reference_reed_bank"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_departure_book_chest_v1",
+          "tileX": 18,
+          "tileY": 20,
+          "refId": "map_lz_ch01_river_ferry_v1_scene_reference_book_chest"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch01_river_ferry_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,

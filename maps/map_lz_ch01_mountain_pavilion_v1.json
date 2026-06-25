@@ -560,6 +560,34 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_departure_roadside_pavilion_v1",
+          "tileX": 13,
+          "tileY": 5,
+          "refId": "map_lz_ch01_mountain_pavilion_v1_scene_reference_roadside_pavilion"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_departure_tea_stall_v1",
+          "tileX": 3,
+          "tileY": 17,
+          "refId": "map_lz_ch01_mountain_pavilion_v1_scene_reference_tea_stall"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_departure_mountain_pack_v1",
+          "tileX": 28,
+          "tileY": 12,
+          "refId": "map_lz_ch01_mountain_pavilion_v1_scene_reference_mountain_pack"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_departure_warning_sign_v1",
+          "tileX": 34,
+          "tileY": 19,
+          "refId": "map_lz_ch01_mountain_pavilion_v1_scene_reference_warning_sign"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch01_mountain_pavilion_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,

@@ -864,11 +864,11 @@
         },
         {
           "assetType": "sprite",
-          "spriteId": "sprite_mawencai_48x96_story_v1",
+          "spriteId": "sprite_ma_steward_48x96_story_v1",
           "animationId": "idle-down",
           "tileX": 31,
           "tileY": 21,
-          "refId": "map_lz_ch05_tower_v1_actor_mawencai_3"
+          "refId": "map_lz_ch05_tower_v1_actor_ma_steward_3"
         }
       ]
     },

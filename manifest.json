@@ -73,6 +73,50 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_departure_river_pier_v1",
+      "name": "渡口木栈桥",
+      "category": "building",
+      "path": "components/building/comp_departure_river_pier_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "scene-reference",
+        "ferry",
+        "river_pier",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-river_pier"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_departure_roadside_pavilion_v1",
+      "name": "山路驿亭",
+      "category": "building",
+      "path": "components/building/comp_departure_roadside_pavilion_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "scene-reference",
+        "pavilion",
+        "roadside_pavilion",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-roadside_pavilion"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_farewell_creek_bridge_v1",
       "name": "送别溪桥",
       "category": "building",
@@ -1311,6 +1355,28 @@
       ],
       "width": 144,
       "height": 112,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_study_dorm_rain_corridor_v1",
+      "name": "夜雨宿舍廊",
+      "category": "building",
+      "path": "components/building/comp_study_dorm_rain_corridor_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "scene-reference",
+        "corridor",
+        "dorm_rain_corridor",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-dorm_rain_corridor"
+      ],
+      "width": 128,
+      "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -6178,6 +6244,116 @@
       ],
       "width": 96,
       "height": 64,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_departure_book_chest_v1",
+      "name": "渡口书箱",
+      "category": "decoration",
+      "path": "components/decoration/comp_departure_book_chest_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "scene-reference",
+        "ferry",
+        "book_chest",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-book_chest"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_departure_ferry_boat_v1",
+      "name": "渡口乌篷船",
+      "category": "decoration",
+      "path": "components/decoration/comp_departure_ferry_boat_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "scene-reference",
+        "ferry",
+        "ferry_boat",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-ferry_boat"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_departure_mountain_pack_v1",
+      "name": "山路行囊",
+      "category": "decoration",
+      "path": "components/decoration/comp_departure_mountain_pack_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "scene-reference",
+        "pavilion",
+        "mountain_pack",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-mountain_pack"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_departure_tea_stall_v1",
+      "name": "山路茶摊",
+      "category": "decoration",
+      "path": "components/decoration/comp_departure_tea_stall_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "scene-reference",
+        "pavilion",
+        "tea_stall",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-tea_stall"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_departure_warning_sign_v1",
+      "name": "山路告示牌",
+      "category": "decoration",
+      "path": "components/decoration/comp_departure_warning_sign_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "scene-reference",
+        "pavilion",
+        "warning_sign",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-warning_sign"
+      ],
+      "width": 112,
+      "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
     },
@@ -11111,6 +11287,138 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_study_bamboo_fence_v1",
+      "name": "竹林围篱",
+      "category": "decoration",
+      "path": "components/decoration/comp_study_bamboo_fence_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "scene-reference",
+        "bamboo",
+        "bamboo_fence",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-bamboo_fence"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_study_hidden_fan_marker_v1",
+      "name": "折扇玉佩暗记",
+      "category": "decoration",
+      "path": "components/decoration/comp_study_hidden_fan_marker_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "scene-reference",
+        "bamboo",
+        "hidden_fan_marker",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-hidden_fan_marker"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_study_night_lantern_line_v1",
+      "name": "夜廊灯线",
+      "category": "decoration",
+      "path": "components/decoration/comp_study_night_lantern_line_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "scene-reference",
+        "corridor",
+        "night_lantern_line",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-night_lantern_line"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_study_privacy_screen_v1",
+      "name": "同宿屏风",
+      "category": "decoration",
+      "path": "components/decoration/comp_study_privacy_screen_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "scene-reference",
+        "corridor",
+        "privacy_screen",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-privacy_screen"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_study_question_stone_v1",
+      "name": "设问题石",
+      "category": "decoration",
+      "path": "components/decoration/comp_study_question_stone_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "scene-reference",
+        "bamboo",
+        "question_stone",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-question_stone"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_study_wet_books_chest_v1",
+      "name": "雨夜湿书箱",
+      "category": "decoration",
+      "path": "components/decoration/comp_study_wet_books_chest_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "scene-reference",
+        "corridor",
+        "wet_books_chest",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-wet_books_chest"
+      ],
+      "width": 112,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_zhuyingtai_home_flower_bed_v1",
       "name": "祝英台家 花圃 v1",
       "category": "decoration",
@@ -12164,6 +12472,28 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_departure_reed_bank_v1",
+      "name": "渡口芦苇岸",
+      "category": "tree",
+      "path": "components/tree/comp_departure_reed_bank_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-a",
+        "scene-reference",
+        "ferry",
+        "reed_bank",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-reed_bank"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_farewell_mulberry_tree_v1",
       "name": "桑田桑树",
       "category": "tree",
@@ -12199,6 +12529,28 @@
         "eighteen-mile-reference-v1",
         "story-farewell-component",
         "farewell-willow_tree"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_study_bamboo_shadow_path_v1",
+      "name": "竹影小径",
+      "category": "tree",
+      "path": "components/tree/comp_study_bamboo_shadow_path_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "scene-reference",
+        "bamboo",
+        "bamboo_shadow_path",
+        "scene-reference-v1",
+        "scene-specific-reference-component",
+        "scene-ref-bamboo_shadow_path"
       ],
       "width": 128,
       "height": 96,

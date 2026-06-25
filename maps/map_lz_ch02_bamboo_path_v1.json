@@ -560,6 +560,34 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_study_bamboo_shadow_path_v1",
+          "tileX": 13,
+          "tileY": 5,
+          "refId": "map_lz_ch02_bamboo_path_v1_scene_reference_bamboo_shadow_path"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_study_bamboo_fence_v1",
+          "tileX": 0,
+          "tileY": 13,
+          "refId": "map_lz_ch02_bamboo_path_v1_scene_reference_bamboo_fence"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_study_hidden_fan_marker_v1",
+          "tileX": 18,
+          "tileY": 19,
+          "refId": "map_lz_ch02_bamboo_path_v1_scene_reference_hidden_fan_marker"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_study_question_stone_v1",
+          "tileX": 33,
+          "tileY": 17,
+          "refId": "map_lz_ch02_bamboo_path_v1_scene_reference_question_stone"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch02_bamboo_path_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,
