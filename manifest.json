@@ -6527,6 +6527,29 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_map_lz_ch01_zhufu_courtyard_v1_left_scene_fixture_v1",
+      "name": "祝英台家 left 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch01_zhufu_courtyard_v1_left_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "zhufu_courtyard",
+        "zhufu",
+        "left",
+        "fixture-zhufu",
+        "scene-fixture-v1",
+        "fixture-zhufu",
+        "fixture-zhufu-home-courtyard"
+      ],
+      "width": 112,
+      "height": 88,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
       "id": "comp_map_lz_ch01_zhufu_courtyard_v1_path_scene_detail_v2",
       "name": "祝英台家 path 场景细节",
       "category": "decoration",
@@ -6565,6 +6588,29 @@
       ],
       "width": 48,
       "height": 48,
+      "version": 1,
+      "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_map_lz_ch01_zhufu_courtyard_v1_right_scene_fixture_v1",
+      "name": "祝英台家 right 场景专属夹具",
+      "category": "decoration",
+      "path": "components/decoration/comp_map_lz_ch01_zhufu_courtyard_v1_right_scene_fixture_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "梁祝",
+        "tier-s",
+        "zhufu_courtyard",
+        "zhufu",
+        "right",
+        "fixture-zhufu",
+        "scene-fixture-v1",
+        "fixture-zhufu",
+        "fixture-zhufu-home-courtyard"
+      ],
+      "width": 112,
+      "height": 88,
       "version": 1,
       "updatedAt": 1782325200000
     },
