@@ -8,14 +8,24 @@
     "liangzhu",
     "ma_guard",
     "48x96",
-    "tier-b"
+    "tier-a",
+    "supporting-cast-v2",
+    "pressure-supporting-cast-v2",
+    "ma-guard-red-black-v2"
   ],
   "styleProfile": {
     "storyId": "liangzhu",
     "visualStyle": "semi-realistic pixel comic",
     "baseTileSize": 16,
     "characterScale": "48x96",
-    "detailTier": "B"
+    "detailTier": "A",
+    "characterMotifs": [
+      "red-black guard robe with shoulder plates",
+      "staff and belt authority details",
+      "pressure-scene supporting actor depth"
+    ],
+    "detailPass": "supporting-cast-v2",
+    "sourceQuality": "animated-pressure-supporting-cast-v2"
   },
   "width": 48,
   "height": 96,
@@ -89,6 +99,218 @@
               "offsetX": 0,
               "offsetY": 0,
               "componentId": "comp_ma_guard_idle_down_f4_story_v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "walk-down",
+      "name": "walk-down",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 1,
+      "frames": [
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_down_f1_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_down_f2_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_down_f3_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_down_f4_story_v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "walk-left",
+      "name": "walk-left",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 1,
+      "frames": [
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_left_f1_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_left_f2_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_left_f3_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_left_f4_story_v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "walk-right",
+      "name": "walk-right",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 1,
+      "frames": [
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_right_f1_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_right_f2_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_right_f3_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_right_f4_story_v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "walk-up",
+      "name": "walk-up",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 1,
+      "frames": [
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_up_f1_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_up_f2_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_up_f3_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_ma_guard_walk_up_f4_story_v1"
             }
           ]
         }
