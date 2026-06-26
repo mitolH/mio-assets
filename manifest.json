@@ -6721,7 +6721,8 @@
         "梁祝",
         "tier-s",
         "betrothal",
-        "chest"
+        "chest",
+        "story-prop-v2"
       ],
       "width": 64,
       "height": 40,
@@ -6738,7 +6739,8 @@
         "liangzhu",
         "梁祝",
         "tier-s",
-        "bookcase"
+        "bookcase",
+        "story-prop-v2"
       ],
       "width": 48,
       "height": 32,
@@ -6755,7 +6757,8 @@
         "liangzhu",
         "梁祝",
         "tier-a",
-        "books"
+        "books",
+        "story-prop-v2"
       ],
       "width": 48,
       "height": 32,
@@ -6773,7 +6776,8 @@
         "梁祝",
         "tier-s",
         "fan",
-        "jade"
+        "jade",
+        "story-prop-v2"
       ],
       "width": 48,
       "height": 32,
@@ -6790,7 +6794,8 @@
         "liangzhu",
         "梁祝",
         "tier-s",
-        "letter"
+        "letter",
+        "story-prop-v2"
       ],
       "width": 48,
       "height": 32,
@@ -6807,7 +6812,8 @@
         "liangzhu",
         "梁祝",
         "tier-s",
-        "marriage"
+        "marriage",
+        "story-prop-v2"
       ],
       "width": 56,
       "height": 40,
@@ -6824,7 +6830,8 @@
         "liangzhu",
         "梁祝",
         "tier-s",
-        "medicine"
+        "medicine",
+        "story-prop-v2"
       ],
       "width": 48,
       "height": 32,
@@ -6842,7 +6849,8 @@
         "梁祝",
         "tier-s",
         "sedan",
-        "wedding"
+        "wedding",
+        "story-prop-v2"
       ],
       "width": 80,
       "height": 56,
@@ -6859,7 +6867,8 @@
         "liangzhu",
         "梁祝",
         "tier-s",
-        "veil"
+        "veil",
+        "story-prop-v2"
       ],
       "width": 48,
       "height": 32,
@@ -6877,7 +6886,8 @@
         "梁祝",
         "tier-a",
         "tea",
-        "stone"
+        "stone",
+        "story-prop-v2"
       ],
       "width": 56,
       "height": 40,
@@ -6894,7 +6904,8 @@
         "liangzhu",
         "梁祝",
         "tier-s",
-        "willow"
+        "willow",
+        "story-prop-v2"
       ],
       "width": 48,
       "height": 32,
@@ -11684,7 +11695,8 @@
         "liangzhu",
         "梁祝",
         "tier-s",
-        "butterfly"
+        "butterfly",
+        "story-prop-v2"
       ],
       "width": 64,
       "height": 48,
@@ -11702,7 +11714,8 @@
         "梁祝",
         "tier-a",
         "rain",
-        "lantern"
+        "lantern",
+        "story-prop-v2"
       ],
       "width": 48,
       "height": 40,
