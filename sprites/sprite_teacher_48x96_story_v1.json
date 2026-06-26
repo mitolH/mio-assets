@@ -8,14 +8,24 @@
     "liangzhu",
     "teacher",
     "48x96",
-    "tier-a"
+    "tier-a",
+    "supporting-cast-v3",
+    "general-supporting-cast-v3",
+    "teacher-scroll-sleeve-v3"
   ],
   "styleProfile": {
     "storyId": "liangzhu",
     "visualStyle": "semi-realistic pixel comic",
     "baseTileSize": 16,
     "characterScale": "48x96",
-    "detailTier": "A"
+    "detailTier": "A",
+    "characterMotifs": [
+      "gray-robed academy teacher",
+      "rolled lesson scroll and wide sleeve",
+      "general supporting actor depth"
+    ],
+    "detailPass": "supporting-cast-v3",
+    "sourceQuality": "animated-general-supporting-cast-v3"
   },
   "width": 48,
   "height": 96,
@@ -89,6 +99,218 @@
               "offsetX": 0,
               "offsetY": 0,
               "componentId": "comp_teacher_idle_down_f4_story_v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "walk-down",
+      "name": "walk-down",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 1,
+      "frames": [
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_down_f1_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_down_f2_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_down_f3_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_down_f4_story_v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "walk-left",
+      "name": "walk-left",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 1,
+      "frames": [
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_left_f1_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_left_f2_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_left_f3_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_left_f4_story_v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "walk-right",
+      "name": "walk-right",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 1,
+      "frames": [
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_right_f1_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_right_f2_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_right_f3_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_right_f4_story_v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "walk-up",
+      "name": "walk-up",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 1,
+      "frames": [
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_up_f1_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_up_f2_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_up_f3_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 140,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_teacher_walk_up_f4_story_v1"
             }
           ]
         }
