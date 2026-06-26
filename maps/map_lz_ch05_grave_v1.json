@@ -820,6 +820,11 @@
                     "value": -1
                   },
                   {
+                    "type": "modify_attribute",
+                    "target": "wealth",
+                    "value": -2
+                  },
+                  {
                     "type": "modify_story_variable",
                     "target": "maRestraint",
                     "value": 1
