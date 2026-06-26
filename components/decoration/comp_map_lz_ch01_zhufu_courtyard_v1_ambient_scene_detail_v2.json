@@ -31,7 +31,8 @@
       "home-departure",
       "hidden-identity",
       "detail-ambient-zhufu"
-    ]
+    ],
+    "sourceQuality": "scene-detail-component-v2"
   },
   "width": 48,
   "height": 48,

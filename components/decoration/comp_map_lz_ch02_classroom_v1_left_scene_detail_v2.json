@@ -31,7 +31,8 @@
       "study-hall",
       "hidden-identity",
       "detail-left-classroom"
-    ]
+    ],
+    "sourceQuality": "scene-detail-component-v2"
   },
   "width": 48,
   "height": 48,

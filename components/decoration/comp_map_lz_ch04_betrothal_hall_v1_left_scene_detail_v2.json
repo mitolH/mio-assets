@@ -31,7 +31,8 @@
       "betrothal-contract",
       "county-pressure",
       "detail-left-betrothal"
-    ]
+    ],
+    "sourceQuality": "scene-detail-component-v2"
   },
   "width": 48,
   "height": 48,

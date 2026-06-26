@@ -31,7 +31,8 @@
       "river-oath",
       "first-travel",
       "detail-ambient-ferry"
-    ]
+    ],
+    "sourceQuality": "scene-detail-component-v2"
   },
   "width": 48,
   "height": 48,

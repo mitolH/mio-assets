@@ -31,7 +31,8 @@
       "grave-oath",
       "storm-before-butterfly",
       "detail-ambient-grave"
-    ]
+    ],
+    "sourceQuality": "scene-detail-component-v2"
   },
   "width": 48,
   "height": 48,

@@ -31,7 +31,8 @@
       "departure-from-academy",
       "farewell-begins",
       "detail-left-academy_gate"
-    ]
+    ],
+    "sourceQuality": "scene-detail-component-v2"
   },
   "width": 48,
   "height": 48,

@@ -31,7 +31,8 @@
       "bridge-hint",
       "missed-truth",
       "detail-ambient-bridge"
-    ]
+    ],
+    "sourceQuality": "scene-detail-component-v2"
   },
   "width": 48,
   "height": 48,

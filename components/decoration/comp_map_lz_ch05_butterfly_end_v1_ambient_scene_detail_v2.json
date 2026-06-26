@@ -31,7 +31,8 @@
       "butterfly-transcendence",
       "shared-release",
       "detail-ambient-butterfly"
-    ]
+    ],
+    "sourceQuality": "scene-detail-component-v2"
   },
   "width": 48,
   "height": 48,
