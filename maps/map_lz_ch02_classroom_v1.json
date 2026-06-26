@@ -588,6 +588,13 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_academy_stone_floor_v1",
+          "tileX": 7,
+          "tileY": 24,
+          "refId": "map_lz_ch02_classroom_v1_academy_reference_stone_floor"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch02_classroom_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,
