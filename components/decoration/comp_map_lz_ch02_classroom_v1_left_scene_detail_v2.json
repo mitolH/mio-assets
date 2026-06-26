@@ -15,6 +15,7 @@
     "detail-left",
     "study-hall",
     "hidden-identity",
+    "desk-screen-inkwork",
     "detail-left-classroom"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "study-hall",
       "hidden-identity",
+      "desk-screen-inkwork",
       "detail-left-classroom"
     ],
     "sourceQuality": "scene-detail-component-v2"

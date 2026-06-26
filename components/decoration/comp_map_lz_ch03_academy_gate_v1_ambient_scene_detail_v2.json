@@ -15,6 +15,7 @@
     "detail-ambient",
     "departure-from-academy",
     "farewell-begins",
+    "return-gate-bittersweet",
     "detail-ambient-academy_gate"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "departure-from-academy",
       "farewell-begins",
+      "return-gate-bittersweet",
       "detail-ambient-academy_gate"
     ],
     "sourceQuality": "scene-detail-component-v2"

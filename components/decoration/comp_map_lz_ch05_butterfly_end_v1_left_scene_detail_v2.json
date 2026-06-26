@@ -15,6 +15,7 @@
     "detail-left",
     "butterfly-transcendence",
     "shared-release",
+    "luminous-butterfly-release-light",
     "detail-left-butterfly"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "butterfly-transcendence",
       "shared-release",
+      "luminous-butterfly-release-light",
       "detail-left-butterfly"
     ],
     "sourceQuality": "scene-detail-component-v2"

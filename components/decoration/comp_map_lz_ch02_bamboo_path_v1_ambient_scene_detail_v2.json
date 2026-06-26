@@ -15,6 +15,7 @@
     "detail-ambient",
     "bamboo-confession",
     "missed-clue",
+    "bamboo-shadow-secret",
     "detail-ambient-bamboo"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "bamboo-confession",
       "missed-clue",
+      "bamboo-shadow-secret",
       "detail-ambient-bamboo"
     ],
     "sourceQuality": "scene-detail-component-v2"

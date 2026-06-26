@@ -15,6 +15,7 @@
     "detail-left",
     "tower-reunion",
     "truth-revealed",
+    "high-window-regret",
     "detail-left-tower"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "tower-reunion",
       "truth-revealed",
+      "high-window-regret",
       "detail-left-tower"
     ],
     "sourceQuality": "scene-detail-component-v2"

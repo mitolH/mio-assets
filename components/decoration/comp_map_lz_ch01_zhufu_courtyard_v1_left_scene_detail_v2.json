@@ -15,6 +15,7 @@
     "detail-left",
     "home-departure",
     "hidden-identity",
+    "courtyard-family-threshold",
     "detail-left-zhufu"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "home-departure",
       "hidden-identity",
+      "courtyard-family-threshold",
       "detail-left-zhufu"
     ],
     "sourceQuality": "scene-detail-component-v2"

@@ -15,6 +15,7 @@
     "detail-ambient",
     "mulberry-metaphor",
     "promise-delay",
+    "leaf-shadow-vow",
     "detail-ambient-mulberry"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "mulberry-metaphor",
       "promise-delay",
+      "leaf-shadow-vow",
       "detail-ambient-mulberry"
     ],
     "sourceQuality": "scene-detail-component-v2"

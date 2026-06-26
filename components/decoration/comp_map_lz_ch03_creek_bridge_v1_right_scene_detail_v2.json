@@ -15,6 +15,7 @@
     "detail-right",
     "bridge-hint",
     "missed-truth",
+    "water-reflection-clue",
     "detail-right-bridge"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "bridge-hint",
       "missed-truth",
+      "water-reflection-clue",
       "detail-right-bridge"
     ],
     "sourceQuality": "scene-detail-component-v2"

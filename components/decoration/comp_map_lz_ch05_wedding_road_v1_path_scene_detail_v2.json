@@ -15,6 +15,7 @@
     "detail-path",
     "red-wedding-procession",
     "forced-procession",
+    "rain-red-sedan",
     "detail-path-wedding"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "red-wedding-procession",
       "forced-procession",
+      "rain-red-sedan",
       "detail-path-wedding"
     ],
     "sourceQuality": "scene-detail-component-v2"

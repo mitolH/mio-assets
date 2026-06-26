@@ -15,6 +15,7 @@
     "detail-ambient",
     "grave-oath",
     "storm-before-butterfly",
+    "tomb-rain-veil",
     "detail-ambient-grave"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "grave-oath",
       "storm-before-butterfly",
+      "tomb-rain-veil",
       "detail-ambient-grave"
     ],
     "sourceQuality": "scene-detail-component-v2"

@@ -15,6 +15,7 @@
     "detail-right",
     "night-corridor",
     "identity-risk",
+    "rain-cold-light-wet-wood",
     "detail-right-corridor"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "night-corridor",
       "identity-risk",
+      "rain-cold-light-wet-wood",
       "detail-right-corridor"
     ],
     "sourceQuality": "scene-detail-component-v2"

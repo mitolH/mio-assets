@@ -15,6 +15,7 @@
     "detail-ambient",
     "betrothal-contract",
     "county-pressure",
+    "official-seal-pressure",
     "detail-ambient-betrothal"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "betrothal-contract",
       "county-pressure",
+      "official-seal-pressure",
       "detail-ambient-betrothal"
     ],
     "sourceQuality": "scene-detail-component-v2"

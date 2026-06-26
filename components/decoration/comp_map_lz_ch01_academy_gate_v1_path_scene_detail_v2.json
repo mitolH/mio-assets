@@ -15,6 +15,7 @@
     "detail-path",
     "first-meeting",
     "academy-arrival",
+    "gate-registration-token",
     "detail-path-academy_gate"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "first-meeting",
       "academy-arrival",
+      "gate-registration-token",
       "detail-path-academy_gate"
     ],
     "sourceQuality": "scene-detail-component-v2"

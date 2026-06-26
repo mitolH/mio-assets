@@ -15,6 +15,7 @@
     "detail-path",
     "library-trust",
     "shared-reading",
+    "paper-dust-lamplight",
     "detail-path-library"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "library-trust",
       "shared-reading",
+      "paper-dust-lamplight",
       "detail-path-library"
     ],
     "sourceQuality": "scene-detail-component-v2"

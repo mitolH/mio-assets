@@ -15,6 +15,7 @@
     "detail-right",
     "eighteen-mile-farewell",
     "long-pavilion-oath",
+    "sunset-willow-token",
     "detail-right-long_pavilion"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "eighteen-mile-farewell",
       "long-pavilion-oath",
+      "sunset-willow-token",
       "detail-right-long_pavilion"
     ],
     "sourceQuality": "scene-detail-component-v2"

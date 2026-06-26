@@ -15,6 +15,7 @@
     "detail-right",
     "ma-family-pressure",
     "wealth-display",
+    "red-gold-command-yard",
     "detail-right-ma_gate"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "ma-family-pressure",
       "wealth-display",
+      "red-gold-command-yard",
       "detail-right-ma_gate"
     ],
     "sourceQuality": "scene-detail-component-v2"

@@ -15,6 +15,7 @@
     "detail-left",
     "boudoir-resistance",
     "red-veil-pressure",
+    "mirror-cold-window",
     "detail-left-boudoir"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "boudoir-resistance",
       "red-veil-pressure",
+      "mirror-cold-window",
       "detail-left-boudoir"
     ],
     "sourceQuality": "scene-detail-component-v2"

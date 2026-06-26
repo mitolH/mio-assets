@@ -15,6 +15,7 @@
     "detail-left",
     "forked-road",
     "separation",
+    "dust-road-choice",
     "detail-left-road_sign"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "forked-road",
       "separation",
+      "dust-road-choice",
       "detail-left-road_sign"
     ],
     "sourceQuality": "scene-detail-component-v2"

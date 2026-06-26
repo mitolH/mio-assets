@@ -15,6 +15,7 @@
     "detail-ambient",
     "river-oath",
     "first-travel",
+    "boat-river-crossing",
     "detail-ambient-ferry"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "river-oath",
       "first-travel",
+      "boat-river-crossing",
       "detail-ambient-ferry"
     ],
     "sourceQuality": "scene-detail-component-v2"

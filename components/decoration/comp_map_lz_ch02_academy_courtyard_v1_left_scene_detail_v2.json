@@ -15,6 +15,7 @@
     "detail-left",
     "three-year-study",
     "classmate-bond",
+    "courtyard-classmate-circle",
     "detail-left-academy"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "three-year-study",
       "classmate-bond",
+      "courtyard-classmate-circle",
       "detail-left-academy"
     ],
     "sourceQuality": "scene-detail-component-v2"

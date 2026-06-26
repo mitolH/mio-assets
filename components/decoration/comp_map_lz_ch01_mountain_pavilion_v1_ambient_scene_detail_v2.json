@@ -15,6 +15,7 @@
     "detail-ambient",
     "roadside-shelter",
     "shared-journey",
+    "wood-stone-mountain-stop",
     "detail-ambient-pavilion"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "roadside-shelter",
       "shared-journey",
+      "wood-stone-mountain-stop",
       "detail-ambient-pavilion"
     ],
     "sourceQuality": "scene-detail-component-v2"

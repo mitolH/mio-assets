@@ -15,6 +15,7 @@
     "detail-ambient",
     "library-trust",
     "shared-reading",
+    "paper-dust-lamplight",
     "detail-ambient-library"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "library-trust",
       "shared-reading",
+      "paper-dust-lamplight",
       "detail-ambient-library"
     ],
     "sourceQuality": "scene-detail-component-v2"

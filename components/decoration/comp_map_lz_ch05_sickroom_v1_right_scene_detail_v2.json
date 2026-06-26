@@ -15,6 +15,7 @@
     "detail-right",
     "last-letter-bed",
     "failing-health",
+    "medicine-cloth-shadow",
     "detail-right-sickroom"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "last-letter-bed",
       "failing-health",
+      "medicine-cloth-shadow",
       "detail-right-sickroom"
     ],
     "sourceQuality": "scene-detail-component-v2"

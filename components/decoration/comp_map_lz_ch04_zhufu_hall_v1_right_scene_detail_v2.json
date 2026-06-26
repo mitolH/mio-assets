@@ -15,6 +15,7 @@
     "detail-right",
     "family-pressure",
     "forced-marriage",
+    "clan-hall-contract",
     "detail-right-zhufu_hall"
   ],
   "styleProfile": {
@@ -30,6 +31,7 @@
     "narrativeMotifs": [
       "family-pressure",
       "forced-marriage",
+      "clan-hall-contract",
       "detail-right-zhufu_hall"
     ],
     "sourceQuality": "scene-detail-component-v2"
