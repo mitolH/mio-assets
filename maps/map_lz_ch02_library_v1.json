@@ -751,6 +751,11 @@
                     "value": 1
                   },
                   {
+                    "type": "modify_attribute",
+                    "target": "wealth",
+                    "value": -1
+                  },
+                  {
                     "type": "modify_story_variable",
                     "target": "liangTrust",
                     "value": 1

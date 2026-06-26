@@ -820,6 +820,11 @@
                     "value": -2
                   },
                   {
+                    "type": "modify_attribute",
+                    "target": "health",
+                    "value": -1
+                  },
+                  {
                     "type": "modify_story_variable",
                     "target": "maPressure",
                     "value": 2

@@ -807,6 +807,11 @@
                     "value": -1
                   },
                   {
+                    "type": "modify_attribute",
+                    "target": "health",
+                    "value": -1
+                  },
+                  {
                     "type": "modify_story_variable",
                     "target": "maRestraint",
                     "value": 1
