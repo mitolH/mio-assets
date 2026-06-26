@@ -581,6 +581,13 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_academy_study_hall_v1",
+          "tileX": 22,
+          "tileY": 4,
+          "refId": "map_lz_ch01_academy_gate_v1_academy_reference_study_hall"
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch01_academy_gate_v1_story_scene_plate_v10",
           "tileX": 10,
           "tileY": 2,
