@@ -711,9 +711,12 @@
                 "authoredRoleState": {
                   "mapId": "map_lz_ch05_butterfly_end_v1",
                   "role": "zhuyingtai",
+                  "presence": "soul",
+                  "impactScope": "transcendent",
                   "source": "sceneRoleStateEffects"
                 },
-                "rolePresence": "soul"
+                "rolePresence": "soul",
+                "stateImpactScope": "transcendent"
               },
               {
                 "id": "map_lz_ch05_butterfly_end_v1_story_b_liangshanbo",
@@ -763,9 +766,12 @@
                 "authoredRoleState": {
                   "mapId": "map_lz_ch05_butterfly_end_v1",
                   "role": "liangshanbo",
+                  "presence": "soul",
+                  "impactScope": "transcendent",
                   "source": "sceneRoleStateEffects"
                 },
-                "rolePresence": "soul"
+                "rolePresence": "soul",
+                "stateImpactScope": "transcendent"
               },
               {
                 "id": "map_lz_ch05_butterfly_end_v1_story_b_mawencai",
@@ -820,9 +826,12 @@
                 "authoredRoleState": {
                   "mapId": "map_lz_ch05_butterfly_end_v1",
                   "role": "mawencai",
+                  "presence": "witness",
+                  "impactScope": "witness",
                   "source": "sceneRoleStateEffects"
                 },
-                "rolePresence": "witness"
+                "rolePresence": "witness",
+                "stateImpactScope": "witness"
               }
             ]
           }

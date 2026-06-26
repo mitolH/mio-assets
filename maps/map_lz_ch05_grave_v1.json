@@ -720,9 +720,12 @@
                 "authoredRoleState": {
                   "mapId": "map_lz_ch05_grave_v1",
                   "role": "zhuyingtai",
+                  "presence": "present",
+                  "impactScope": "physical",
                   "source": "sceneRoleStateEffects"
                 },
-                "rolePresence": "present"
+                "rolePresence": "present",
+                "stateImpactScope": "physical"
               },
               {
                 "id": "map_lz_ch05_grave_v1_story_b_liangshanbo",
@@ -776,9 +779,12 @@
                 "authoredRoleState": {
                   "mapId": "map_lz_ch05_grave_v1",
                   "role": "liangshanbo",
+                  "presence": "echo",
+                  "impactScope": "indirect",
                   "source": "sceneRoleStateEffects"
                 },
-                "rolePresence": "echo"
+                "rolePresence": "echo",
+                "stateImpactScope": "indirect"
               },
               {
                 "id": "map_lz_ch05_grave_v1_story_b_mawencai",
@@ -837,9 +843,12 @@
                 "authoredRoleState": {
                   "mapId": "map_lz_ch05_grave_v1",
                   "role": "mawencai",
+                  "presence": "present",
+                  "impactScope": "physical",
                   "source": "sceneRoleStateEffects"
                 },
-                "rolePresence": "present"
+                "rolePresence": "present",
+                "stateImpactScope": "physical"
               }
             ]
           }

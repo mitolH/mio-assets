@@ -715,9 +715,12 @@
                 "authoredRoleState": {
                   "mapId": "map_lz_ch01_river_ferry_v1",
                   "role": "zhuyingtai",
+                  "presence": "present",
+                  "impactScope": "physical",
                   "source": "sceneRoleStateEffects"
                 },
-                "rolePresence": "present"
+                "rolePresence": "present",
+                "stateImpactScope": "physical"
               },
               {
                 "id": "map_lz_ch01_river_ferry_v1_story_b_liangshanbo",
@@ -771,9 +774,12 @@
                 "authoredRoleState": {
                   "mapId": "map_lz_ch01_river_ferry_v1",
                   "role": "liangshanbo",
+                  "presence": "present",
+                  "impactScope": "physical",
                   "source": "sceneRoleStateEffects"
                 },
-                "rolePresence": "present"
+                "rolePresence": "present",
+                "stateImpactScope": "physical"
               },
               {
                 "id": "map_lz_ch01_river_ferry_v1_story_b_mawencai",
@@ -822,9 +828,12 @@
                 "authoredRoleState": {
                   "mapId": "map_lz_ch01_river_ferry_v1",
                   "role": "mawencai",
+                  "presence": "reported",
+                  "impactScope": "indirect",
                   "source": "sceneRoleStateEffects"
                 },
-                "rolePresence": "reported"
+                "rolePresence": "reported",
+                "stateImpactScope": "indirect"
               }
             ]
           }

@@ -708,9 +708,12 @@
                 "authoredRoleState": {
                   "mapId": "map_lz_ch01_academy_gate_v1",
                   "role": "zhuyingtai",
+                  "presence": "present",
+                  "impactScope": "physical",
                   "source": "sceneRoleStateEffects"
                 },
-                "rolePresence": "present"
+                "rolePresence": "present",
+                "stateImpactScope": "physical"
               },
               {
                 "id": "map_lz_ch01_academy_gate_v1_story_b_liangshanbo",
@@ -759,9 +762,12 @@
                 "authoredRoleState": {
                   "mapId": "map_lz_ch01_academy_gate_v1",
                   "role": "liangshanbo",
+                  "presence": "present",
+                  "impactScope": "physical",
                   "source": "sceneRoleStateEffects"
                 },
-                "rolePresence": "present"
+                "rolePresence": "present",
+                "stateImpactScope": "physical"
               },
               {
                 "id": "map_lz_ch01_academy_gate_v1_story_b_mawencai",
@@ -820,9 +826,12 @@
                 "authoredRoleState": {
                   "mapId": "map_lz_ch01_academy_gate_v1",
                   "role": "mawencai",
+                  "presence": "present",
+                  "impactScope": "physical",
                   "source": "sceneRoleStateEffects"
                 },
-                "rolePresence": "present"
+                "rolePresence": "present",
+                "stateImpactScope": "physical"
               }
             ]
           }
