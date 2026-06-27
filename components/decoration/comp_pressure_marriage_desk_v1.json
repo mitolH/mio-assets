@@ -12,7 +12,8 @@
     "marriage_desk",
     "forced-marriage-reference-v1",
     "story-pressure-component",
-    "pressure-marriage_desk"
+    "pressure-marriage_desk",
+    "cross-scene-reference"
   ],
   "styleProfile": {
     "storyId": "liangzhu",
@@ -29,7 +30,17 @@
       "family-pressure",
       "red-gold-law"
     ],
-    "sourceQuality": "forced-marriage-reference-component"
+    "sourceQuality": "forced-marriage-reference-component",
+    "sourceSceneFamily": "ma_family_pressure",
+    "reuseScope": "cross-scene-reference",
+    "compatibleSceneFamilies": [
+      "betrothal",
+      "zhufu_hall"
+    ],
+    "compatibleMapIds": [
+      "map_lz_ch04_betrothal_hall_v1",
+      "map_lz_ch04_zhufu_hall_v1"
+    ]
   },
   "width": 128,
   "height": 96,

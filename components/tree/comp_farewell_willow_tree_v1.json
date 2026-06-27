@@ -12,7 +12,8 @@
     "willow_tree",
     "eighteen-mile-reference-v1",
     "story-farewell-component",
-    "farewell-willow_tree"
+    "farewell-willow_tree",
+    "cross-scene-reference"
   ],
   "styleProfile": {
     "storyId": "liangzhu",
@@ -29,7 +30,17 @@
       "long-road-hints",
       "willow-water-sunset"
     ],
-    "sourceQuality": "eighteen-mile-reference-component"
+    "sourceQuality": "eighteen-mile-reference-component",
+    "sourceSceneFamily": "eighteen_mile_farewell",
+    "reuseScope": "cross-scene-reference",
+    "compatibleSceneFamilies": [
+      "bridge",
+      "long_pavilion"
+    ],
+    "compatibleMapIds": [
+      "map_lz_ch03_creek_bridge_v1",
+      "map_lz_ch03_long_pavilion_v1"
+    ]
   },
   "width": 128,
   "height": 96,

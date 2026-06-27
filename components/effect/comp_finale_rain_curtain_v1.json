@@ -12,7 +12,8 @@
     "rain_curtain",
     "finale-reference-v1",
     "story-finale-component",
-    "finale-rain_curtain"
+    "finale-rain_curtain",
+    "cross-scene-reference"
   ],
   "styleProfile": {
     "storyId": "liangzhu",
@@ -31,7 +32,19 @@
       "grave-oath",
       "butterfly-release"
     ],
-    "sourceQuality": "finale-reference-component"
+    "sourceQuality": "finale-reference-component",
+    "sourceSceneFamily": "tower_and_butterflies",
+    "reuseScope": "cross-scene-reference",
+    "compatibleSceneFamilies": [
+      "sickroom",
+      "tower",
+      "wedding"
+    ],
+    "compatibleMapIds": [
+      "map_lz_ch05_sickroom_v1",
+      "map_lz_ch05_tower_v1",
+      "map_lz_ch05_wedding_road_v1"
+    ]
   },
   "width": 112,
   "height": 96,

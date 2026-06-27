@@ -19,7 +19,8 @@
         "corridor",
         "building",
         "academy-reference-v1",
-        "story-academy-component"
+        "story-academy-component",
+        "cross-scene-reference"
       ],
       "width": 256,
       "height": 96,
@@ -65,7 +66,8 @@
         "study-hall",
         "building",
         "academy-reference-v1",
-        "story-academy-component"
+        "story-academy-component",
+        "cross-scene-reference"
       ],
       "width": 384,
       "height": 160,
@@ -172,7 +174,8 @@
         "gravestone",
         "finale-reference-v1",
         "story-finale-component",
-        "finale-gravestone"
+        "finale-gravestone",
+        "cross-scene-reference"
       ],
       "width": 128,
       "height": 96,
@@ -10187,7 +10190,8 @@
         "bookshelf",
         "book",
         "academy-reference-v1",
-        "story-academy-component"
+        "story-academy-component",
+        "cross-scene-reference"
       ],
       "width": 96,
       "height": 96,
@@ -10233,7 +10237,8 @@
         "desk",
         "book",
         "academy-reference-v1",
-        "story-academy-component"
+        "story-academy-component",
+        "cross-scene-reference"
       ],
       "width": 128,
       "height": 64,
@@ -10278,7 +10283,8 @@
         "lecture",
         "screen",
         "academy-reference-v1",
-        "story-academy-component"
+        "story-academy-component",
+        "cross-scene-reference"
       ],
       "width": 112,
       "height": 80,
@@ -10455,7 +10461,8 @@
         "farewell_stone",
         "eighteen-mile-reference-v1",
         "story-farewell-component",
-        "farewell-farewell_stone"
+        "farewell-farewell_stone",
+        "cross-scene-reference"
       ],
       "width": 112,
       "height": 96,
@@ -10539,7 +10546,8 @@
         "travel_bundle",
         "eighteen-mile-reference-v1",
         "story-farewell-component",
-        "farewell-travel_bundle"
+        "farewell-travel_bundle",
+        "cross-scene-reference"
       ],
       "width": 112,
       "height": 96,
@@ -10581,7 +10589,8 @@
         "last_letter",
         "finale-reference-v1",
         "story-finale-component",
-        "finale-last_letter"
+        "finale-last_letter",
+        "cross-scene-reference"
       ],
       "width": 112,
       "height": 96,
@@ -15368,7 +15377,8 @@
         "ceremony_screen",
         "forced-marriage-reference-v1",
         "story-pressure-component",
-        "pressure-ceremony_screen"
+        "pressure-ceremony_screen",
+        "cross-scene-reference"
       ],
       "width": 128,
       "height": 96,
@@ -15431,7 +15441,8 @@
         "marriage_desk",
         "forced-marriage-reference-v1",
         "story-pressure-component",
-        "pressure-marriage_desk"
+        "pressure-marriage_desk",
+        "cross-scene-reference"
       ],
       "width": 128,
       "height": 96,
@@ -15473,7 +15484,8 @@
         "red_candles",
         "forced-marriage-reference-v1",
         "story-pressure-component",
-        "pressure-red_candles"
+        "pressure-red_candles",
+        "cross-scene-reference"
       ],
       "width": 96,
       "height": 96,
@@ -15760,7 +15772,8 @@
         "butterfly_wings",
         "finale-reference-v1",
         "story-finale-component",
-        "finale-butterfly_wings"
+        "finale-butterfly_wings",
+        "cross-scene-reference"
       ],
       "width": 128,
       "height": 96,
@@ -15802,7 +15815,8 @@
         "rain_curtain",
         "finale-reference-v1",
         "story-finale-component",
-        "finale-rain_curtain"
+        "finale-rain_curtain",
+        "cross-scene-reference"
       ],
       "width": 112,
       "height": 96,
@@ -16343,7 +16357,8 @@
         "cold_door_rain",
         "forced-marriage-reference-v1",
         "story-pressure-component",
-        "pressure-cold_door_rain"
+        "pressure-cold_door_rain",
+        "cross-scene-reference"
       ],
       "width": 112,
       "height": 96,
@@ -16456,7 +16471,8 @@
         "field_ridge",
         "eighteen-mile-reference-v1",
         "story-farewell-component",
-        "farewell-field_ridge"
+        "farewell-field_ridge",
+        "cross-scene-reference"
       ],
       "width": 128,
       "height": 96,
@@ -16498,7 +16514,8 @@
         "grave_crack",
         "finale-reference-v1",
         "story-finale-component",
-        "finale-grave_crack"
+        "finale-grave_crack",
+        "cross-scene-reference"
       ],
       "width": 128,
       "height": 96,
@@ -16745,7 +16762,8 @@
         "willow_tree",
         "eighteen-mile-reference-v1",
         "story-farewell-component",
-        "farewell-willow_tree"
+        "farewell-willow_tree",
+        "cross-scene-reference"
       ],
       "width": 128,
       "height": 96,

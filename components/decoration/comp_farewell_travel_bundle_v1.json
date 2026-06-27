@@ -12,7 +12,8 @@
     "travel_bundle",
     "eighteen-mile-reference-v1",
     "story-farewell-component",
-    "farewell-travel_bundle"
+    "farewell-travel_bundle",
+    "cross-scene-reference"
   ],
   "styleProfile": {
     "storyId": "liangzhu",
@@ -29,7 +30,17 @@
       "long-road-hints",
       "willow-water-sunset"
     ],
-    "sourceQuality": "eighteen-mile-reference-component"
+    "sourceQuality": "eighteen-mile-reference-component",
+    "sourceSceneFamily": "eighteen_mile_farewell",
+    "reuseScope": "cross-scene-reference",
+    "compatibleSceneFamilies": [
+      "mulberry",
+      "road_sign"
+    ],
+    "compatibleMapIds": [
+      "map_lz_ch03_fork_road_v1",
+      "map_lz_ch03_mulberry_path_v1"
+    ]
   },
   "width": 112,
   "height": 96,

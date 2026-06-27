@@ -14,7 +14,8 @@
     "desk",
     "book",
     "academy-reference-v1",
-    "story-academy-component"
+    "story-academy-component",
+    "cross-scene-reference"
   ],
   "width": 128,
   "height": 64,
@@ -8450,6 +8451,16 @@
       "hidden-identity-study"
     ],
     "material": "academy-decoration",
-    "sourceQuality": "academy-reference-component"
+    "sourceQuality": "academy-reference-component",
+    "sourceSceneFamily": "academy",
+    "reuseScope": "cross-scene-reference",
+    "compatibleSceneFamilies": [
+      "classroom",
+      "library"
+    ],
+    "compatibleMapIds": [
+      "map_lz_ch02_classroom_v1",
+      "map_lz_ch02_library_v1"
+    ]
   }
 }

@@ -14,7 +14,8 @@
     "study-hall",
     "building",
     "academy-reference-v1",
-    "story-academy-component"
+    "story-academy-component",
+    "cross-scene-reference"
   ],
   "width": 384,
   "height": 160,
@@ -61848,6 +61849,16 @@
       "hidden-identity-study"
     ],
     "material": "academy-building",
-    "sourceQuality": "academy-reference-component"
+    "sourceQuality": "academy-reference-component",
+    "sourceSceneFamily": "academy",
+    "reuseScope": "cross-scene-reference",
+    "compatibleSceneFamilies": [
+      "academy",
+      "academy_gate"
+    ],
+    "compatibleMapIds": [
+      "map_lz_ch01_academy_gate_v1",
+      "map_lz_ch02_academy_courtyard_v1"
+    ]
   }
 }

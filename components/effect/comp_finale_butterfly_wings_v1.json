@@ -12,7 +12,8 @@
     "butterfly_wings",
     "finale-reference-v1",
     "story-finale-component",
-    "finale-butterfly_wings"
+    "finale-butterfly_wings",
+    "cross-scene-reference"
   ],
   "styleProfile": {
     "storyId": "liangzhu",
@@ -31,7 +32,17 @@
       "grave-oath",
       "butterfly-release"
     ],
-    "sourceQuality": "finale-reference-component"
+    "sourceQuality": "finale-reference-component",
+    "sourceSceneFamily": "tower_and_butterflies",
+    "reuseScope": "cross-scene-reference",
+    "compatibleSceneFamilies": [
+      "butterfly",
+      "grave"
+    ],
+    "compatibleMapIds": [
+      "map_lz_ch05_butterfly_end_v1",
+      "map_lz_ch05_grave_v1"
+    ]
   },
   "width": 128,
   "height": 96,
