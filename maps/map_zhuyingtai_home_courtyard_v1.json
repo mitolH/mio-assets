@@ -1,0 +1,711 @@
+{
+  "id": "map_zhuyingtai_home_courtyard_v1",
+  "name": "祝英台家小院 v1",
+  "description": "基于祝英台家近景概念图拆分组件后拼装的小院地图，含祝英台 48x96 角色比例参考。",
+  "widthInTiles": 40,
+  "heightInTiles": 34,
+  "layers": [
+    {
+      "id": "layer_ground",
+      "name": "Ground",
+      "type": "ground",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 0,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 4,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 8,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 12,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 16,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 20,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 24,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 28,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 32,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 36,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 0,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 4,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 8,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 12,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 16,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 20,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 24,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 28,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 32,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 36,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 0,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 4,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 8,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 12,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 16,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 20,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 24,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 28,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 32,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 36,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 0,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 4,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 8,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 12,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 16,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 20,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 24,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 28,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 32,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 36,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 0,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 4,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 8,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 12,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 16,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 20,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 24,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 28,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 32,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 36,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 0,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 4,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 8,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 12,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 16,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 20,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 24,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 28,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 32,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 36,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 0,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 4,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 8,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 12,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 16,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 20,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 24,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 28,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 32,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 36,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 0,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 4,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 8,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 12,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 16,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 20,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 24,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 28,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 32,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_stone_courtyard_v1",
+          "tileX": 36,
+          "tileY": 28
+        }
+      ]
+    },
+    {
+      "id": "layer_object",
+      "name": "Object",
+      "type": "object",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_main_hall_v1",
+          "tileX": 8,
+          "tileY": 1
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_left_room_v1",
+          "tileX": 1,
+          "tileY": 6
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_right_wall_room_v1",
+          "tileX": 31,
+          "tileY": 6
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_lotus_pond_v1",
+          "tileX": 4,
+          "tileY": 23
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_flower_bed_v1",
+          "tileX": 28,
+          "tileY": 23
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_bamboo_left_v1",
+          "tileX": 0,
+          "tileY": 18
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_bamboo_right_v1",
+          "tileX": 36,
+          "tileY": 15
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_shelf_jars_v1",
+          "tileX": 32,
+          "tileY": 18
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_flower_planter_v1",
+          "tileX": 9,
+          "tileY": 10
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_flower_planter_v1",
+          "tileX": 27,
+          "tileY": 10,
+          "flipX": true
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_water_jar_v1",
+          "tileX": 13,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_zhuyingtai_home_front_gate_wall_v1",
+          "tileX": 0,
+          "tileY": 27
+        }
+      ]
+    },
+    {
+      "id": "layer_decoration",
+      "name": "Decoration",
+      "type": "decoration",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_zhuyingtai_48x96_64c_v2",
+          "animationId": "idle-down",
+          "tileX": 20,
+          "tileY": 24,
+          "refId": "ref_zhuyingtai_scale_v1"
+        }
+      ]
+    },
+    {
+      "id": "layer_collision",
+      "name": "Collision",
+      "type": "collision",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.3,
+      "components": []
+    }
+  ],
+  "districts": [
+    {
+      "districtId": "district_zhuyingtai_home_courtyard",
+      "name": "祝英台家前院",
+      "x": 8,
+      "y": 12,
+      "width": 24,
+      "height": 15,
+      "terrainTags": [
+        "urban",
+        "road"
+      ],
+      "adjacentDistrictIds": [
+        "district_zhuyingtai_home_main_hall",
+        "district_zhuyingtai_home_gate"
+      ],
+      "defaultEventDensity": 0.45,
+      "locations": [
+        {
+          "id": "loc_zhuyingtai_home_courtyard_center",
+          "name": "院中",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 0.5,
+          "offsetX": 12,
+          "offsetY": 11
+        },
+        {
+          "id": "loc_zhuyingtai_home_pond",
+          "name": "荷花水池",
+          "terrainTags": [
+            "water"
+          ],
+          "eventDensity": 0.3,
+          "offsetX": 0,
+          "offsetY": 12
+        }
+      ]
+    },
+    {
+      "districtId": "district_zhuyingtai_home_main_hall",
+      "name": "祝家主屋",
+      "x": 13,
+      "y": 5,
+      "width": 14,
+      "height": 7,
+      "terrainTags": [
+        "indoor",
+        "urban"
+      ],
+      "adjacentDistrictIds": [
+        "district_zhuyingtai_home_courtyard"
+      ],
+      "defaultEventDensity": 0.55,
+      "locations": [
+        {
+          "id": "loc_zhuyingtai_home_main_hall_door",
+          "name": "主屋门前",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 0.45,
+          "offsetX": 7,
+          "offsetY": 6
+        }
+      ]
+    },
+    {
+      "districtId": "district_zhuyingtai_home_gate",
+      "name": "祝家院门",
+      "x": 15,
+      "y": 29,
+      "width": 10,
+      "height": 5,
+      "terrainTags": [
+        "urban",
+        "road"
+      ],
+      "adjacentDistrictIds": [
+        "district_zhuyingtai_home_courtyard"
+      ],
+      "defaultEventDensity": 0.25,
+      "locations": [
+        {
+          "id": "loc_zhuyingtai_home_gate",
+          "name": "院门",
+          "terrainTags": [
+            "road"
+          ],
+          "eventDensity": 0.25,
+          "offsetX": 5,
+          "offsetY": 3
+        }
+      ]
+    }
+  ],
+  "itemDefs": [],
+  "teleports": [],
+  "createdAt": 1782314654465,
+  "updatedAt": 1782326457977,
+  "version": 11
+}
