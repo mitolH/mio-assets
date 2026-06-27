@@ -1033,6 +1033,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch01_yingtai_leaves_home",
     "sceneId": "ch01_scene_04_academy_gate",
+    "scriptReference": {
+      "chapterFile": "chapter-01-yingtai-leaves-home.md",
+      "sceneHeading": "场景四：书院门前",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "登记",
+          "进入书院"
+        ],
+        "liangshanbo": [
+          "担保",
+          "冲突"
+        ],
+        "mawencai": [
+          "观察新生",
+          "克制"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

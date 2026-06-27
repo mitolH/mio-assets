@@ -1011,6 +1011,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch03_eighteen_mile_farewell",
     "sceneId": "ch03_scene_01_academy_gate",
+    "scriptReference": {
+      "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+      "sceneHeading": "场景一：书院山门",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "离院",
+          "相送"
+        ],
+        "liangshanbo": [
+          "相送",
+          "行囊"
+        ],
+        "mawencai": [
+          "登记册",
+          "离院"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

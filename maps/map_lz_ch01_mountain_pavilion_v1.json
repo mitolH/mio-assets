@@ -1011,6 +1011,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch01_yingtai_leaves_home",
     "sceneId": "ch01_scene_03_mountain_pavilion",
+    "scriptReference": {
+      "chapterFile": "chapter-01-yingtai-leaves-home.md",
+      "sceneHeading": "场景三：山路驿亭",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "疲惫",
+          "伪装"
+        ],
+        "liangshanbo": [
+          "茶摊",
+          "解围"
+        ],
+        "mawencai": [
+          "随从",
+          "新生"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

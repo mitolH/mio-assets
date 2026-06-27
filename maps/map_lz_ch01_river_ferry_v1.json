@@ -1006,6 +1006,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch01_yingtai_leaves_home",
     "sceneId": "ch01_scene_02_river_ferry",
+    "scriptReference": {
+      "chapterFile": "chapter-01-yingtai-leaves-home.md",
+      "sceneHeading": "场景二：渡口",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "登船",
+          "过河"
+        ],
+        "liangshanbo": [
+          "搬书箱",
+          "信任"
+        ],
+        "mawencai": [
+          "随从",
+          "新生同行"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

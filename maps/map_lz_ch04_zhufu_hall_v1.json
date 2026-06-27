@@ -1021,6 +1021,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch04_ma_family_forces_marriage",
     "sceneId": "ch04_scene_01_zhufu_hall",
+    "scriptReference": {
+      "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+      "sceneHeading": "场景一：祝府正厅",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "媒聘",
+          "压力"
+        ],
+        "liangshanbo": [
+          "仆人",
+          "真相"
+        ],
+        "mawencai": [
+          "马家名义",
+          "婚约"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

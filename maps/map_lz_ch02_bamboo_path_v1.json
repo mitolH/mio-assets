@@ -1011,6 +1011,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch02_classmates_three_years",
     "sceneId": "ch02_scene_04_bamboo_path",
+    "scriptReference": {
+      "chapterFile": "chapter-02-classmates-three-years.md",
+      "sceneHeading": "场景四：竹林小径",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "女子求学",
+          "试探"
+        ],
+        "liangshanbo": [
+          "真实处境",
+          "接近"
+        ],
+        "mawencai": [
+          "听见片段",
+          "沉默"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

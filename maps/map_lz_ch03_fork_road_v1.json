@@ -1003,6 +1003,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch03_eighteen_mile_farewell",
     "sceneId": "ch03_scene_05_fork_road",
+    "scriptReference": {
+      "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+      "sceneHeading": "场景五：分岔官道",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "信物",
+          "约定"
+        ],
+        "liangshanbo": [
+          "追问",
+          "真相"
+        ],
+        "mawencai": [
+          "递信",
+          "暂缓"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

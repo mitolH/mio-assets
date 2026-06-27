@@ -1008,6 +1008,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch05_tower_and_butterflies",
     "sceneId": "ch05_scene_01_tower",
+    "scriptReference": {
+      "chapterFile": "chapter-05-tower-and-butterflies.md",
+      "sceneHeading": "场景一：楼台",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "真相",
+          "婚约"
+        ],
+        "liangshanbo": [
+          "真相",
+          "迟悟"
+        ],
+        "mawencai": [
+          "阻止",
+          "相见"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

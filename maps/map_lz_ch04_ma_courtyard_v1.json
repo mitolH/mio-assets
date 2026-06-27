@@ -1026,6 +1026,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch04_ma_family_forces_marriage",
     "sceneId": "ch04_scene_03_ma_courtyard",
+    "scriptReference": {
+      "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+      "sceneHeading": "场景三：马府外院",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "听闻",
+          "压力"
+        ],
+        "liangshanbo": [
+          "登门",
+          "被拒"
+        ],
+        "mawencai": [
+          "逼婚",
+          "强度"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

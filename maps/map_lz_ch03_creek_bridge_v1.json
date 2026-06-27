@@ -1003,6 +1003,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch03_eighteen_mile_farewell",
     "sceneId": "ch03_scene_03_creek_bridge",
+    "scriptReference": {
+      "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+      "sceneHeading": "场景三：溪桥",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "倒影",
+          "真身"
+        ],
+        "liangshanbo": [
+          "玉佩",
+          "折扇"
+        ],
+        "mawencai": [
+          "打断",
+          "送别"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

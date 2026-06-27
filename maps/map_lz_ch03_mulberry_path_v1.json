@@ -1003,6 +1003,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch03_eighteen_mile_farewell",
     "sceneId": "ch03_scene_04_mulberry_path",
+    "scriptReference": {
+      "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+      "sceneHeading": "场景四：桑田小路",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "九妹",
+          "自己"
+        ],
+        "liangshanbo": [
+          "求亲",
+          "祝府"
+        ],
+        "mawencai": [
+          "女儿待嫁",
+          "确认"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

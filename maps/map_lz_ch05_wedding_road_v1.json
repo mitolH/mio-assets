@@ -1016,6 +1016,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch05_tower_and_butterflies",
     "sceneId": "ch05_scene_03_wedding_road",
+    "scriptReference": {
+      "chapterFile": "chapter-05-tower-and-butterflies.md",
+      "sceneHeading": "场景三：祝英台出嫁路",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "死讯",
+          "坟前"
+        ],
+        "liangshanbo": [
+          "回忆",
+          "旁白"
+        ],
+        "mawencai": [
+          "婚队",
+          "绕路"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

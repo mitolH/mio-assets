@@ -1013,6 +1013,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch05_tower_and_butterflies",
     "sceneId": "ch05_scene_02_sickroom",
+    "scriptReference": {
+      "chapterFile": "chapter-05-tower-and-butterflies.md",
+      "sceneHeading": "场景二：梁山伯病榻",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "信物",
+          "书信"
+        ],
+        "liangshanbo": [
+          "书卷",
+          "遗言"
+        ],
+        "mawencai": [
+          "病重",
+          "催婚"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

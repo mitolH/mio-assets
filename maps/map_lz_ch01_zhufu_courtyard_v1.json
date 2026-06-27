@@ -1124,6 +1124,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch01_yingtai_leaves_home",
     "sceneId": "ch01_scene_01_zhufu_home",
+    "scriptReference": {
+      "chapterFile": "chapter-01-yingtai-leaves-home.md",
+      "sceneHeading": "场景一：祝英台家",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "书箱",
+          "折扇"
+        ],
+        "liangshanbo": [
+          "传闻",
+          "祝家子弟"
+        ],
+        "mawencai": [
+          "登记册",
+          "祝氏子弟"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

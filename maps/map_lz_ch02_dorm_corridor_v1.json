@@ -1011,6 +1011,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch02_classmates_three_years",
     "sceneId": "ch02_scene_05_dorm_corridor",
+    "scriptReference": {
+      "chapterFile": "chapter-02-classmates-three-years.md",
+      "sceneHeading": "场景五：宿舍廊下",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "同宿风险",
+          "身份"
+        ],
+        "liangshanbo": [
+          "异常",
+          "尊重"
+        ],
+        "mawencai": [
+          "起哄",
+          "制止"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

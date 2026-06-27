@@ -1021,6 +1021,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch02_classmates_three_years",
     "sceneId": "ch02_scene_02_classroom",
+    "scriptReference": {
+      "chapterFile": "chapter-02-classmates-three-years.md",
+      "sceneHeading": "场景二：讲堂",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "证明",
+          "书院"
+        ],
+        "liangshanbo": [
+          "论据",
+          "维护"
+        ],
+        "mawencai": [
+          "礼法",
+          "压迫"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

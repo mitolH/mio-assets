@@ -1001,6 +1001,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch05_tower_and_butterflies",
     "sceneId": "ch05_scene_05_butterfly_end",
+    "scriptReference": {
+      "chapterFile": "chapter-05-tower-and-butterflies.md",
+      "sceneHeading": "场景五：化蝶终景",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "红衣",
+          "蝶影"
+        ],
+        "liangshanbo": [
+          "回应",
+          "双蝶"
+        ],
+        "mawencai": [
+          "见证",
+          "评价"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

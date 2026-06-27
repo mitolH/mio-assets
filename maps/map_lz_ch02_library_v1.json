@@ -1016,6 +1016,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch02_classmates_three_years",
     "sceneId": "ch02_scene_03_library",
+    "scriptReference": {
+      "chapterFile": "chapter-02-classmates-three-years.md",
+      "sceneHeading": "场景三：藏书楼",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "缺页",
+          "私人物件"
+        ],
+        "liangshanbo": [
+          "夜读",
+          "异常"
+        ],
+        "mawencai": [
+          "身份不稳",
+          "线索"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

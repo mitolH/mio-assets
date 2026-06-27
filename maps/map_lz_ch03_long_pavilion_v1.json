@@ -1003,6 +1003,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch03_eighteen_mile_farewell",
     "sceneId": "ch03_scene_02_long_pavilion",
+    "scriptReference": {
+      "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+      "sceneHeading": "场景二：长亭",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "双鸟",
+          "身份"
+        ],
+        "liangshanbo": [
+          "双鸟",
+          "隐喻"
+        ],
+        "mawencai": [
+          "祝家",
+          "消息"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

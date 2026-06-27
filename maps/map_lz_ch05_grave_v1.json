@@ -1018,6 +1018,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch05_tower_and_butterflies",
     "sceneId": "ch05_scene_04_grave",
+    "scriptReference": {
+      "chapterFile": "chapter-05-tower-and-butterflies.md",
+      "sceneHeading": "场景四：坟前",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "殉情",
+          "选择"
+        ],
+        "liangshanbo": [
+          "回声",
+          "回应"
+        ],
+        "mawencai": [
+          "冷酷",
+          "沉默"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

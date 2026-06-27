@@ -1021,6 +1021,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch04_ma_family_forces_marriage",
     "sceneId": "ch04_scene_04_betrothal_hall",
+    "scriptReference": {
+      "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+      "sceneHeading": "场景四：县衙媒聘场景",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "抗辩",
+          "延期"
+        ],
+        "liangshanbo": [
+          "礼法",
+          "门第"
+        ],
+        "mawencai": [
+          "婚约",
+          "悔意"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",

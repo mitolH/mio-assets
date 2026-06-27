@@ -1033,6 +1033,24 @@
     "storyId": "liangzhu",
     "chapterId": "ch02_classmates_three_years",
     "sceneId": "ch02_scene_01_academy_courtyard",
+    "scriptReference": {
+      "chapterFile": "chapter-02-classmates-three-years.md",
+      "sceneHeading": "场景一：书院前庭",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "过度亲近",
+          "晨读"
+        ],
+        "liangshanbo": [
+          "分发讲义",
+          "字迹"
+        ],
+        "mawencai": [
+          "座次",
+          "试探"
+        ]
+      }
+    },
     "artStyle": {
       "storyId": "liangzhu",
       "visualStyle": "semi-realistic pixel comic",
