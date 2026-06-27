@@ -850,6 +850,105 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_lz_prop_last_letter_story_v1",
+          "tileX": 36,
+          "tileY": 24,
+          "refId": "map_lz_ch05_tower_v1_story_route",
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "question",
+            "interactions": [
+              {
+                "id": "map_lz_ch05_tower_v1_route_understood_early",
+                "name": "迟悟稍解",
+                "description": "梁山伯更早理解真相，楼台对白少一些自责，多一些互相确认。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "promiseClarity",
+                    "value": 4
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "梁山伯更早理解真相，楼台对白少一些自责，多一些互相确认。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch05_tower_v1",
+                  "routeId": "understood_early",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
+                "id": "map_lz_ch05_tower_v1_route_regret_heavy",
+                "name": "迟悟悲重",
+                "description": "梁山伯自责更深，病榻与雨势都会随之加重。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "lte",
+                    "field": "promiseClarity",
+                    "value": 2
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "梁山伯自责更深，病榻与雨势都会随之加重。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch05_tower_v1",
+                  "routeId": "regret_heavy",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
+                "id": "map_lz_ch05_tower_v1_route_ma_interrupt",
+                "name": "强行打断",
+                "description": "马文才以门第和婚约压上楼台，悲剧重量随之增加。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "maPressure",
+                    "value": 4
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才以门第和婚约压上楼台，悲剧重量随之增加。"
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "tragedyWeight",
+                    "value": 1
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch05_tower_v1",
+                  "routeId": "ma_interrupt",
+                  "source": "docs/liangzhu-game"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch05_tower_v1_story_composition_v4",
           "tileX": 10,
           "tileY": 13,

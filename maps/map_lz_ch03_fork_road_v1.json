@@ -845,6 +845,100 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_lz_prop_marriage_doc_story_v1",
+          "tileX": 36,
+          "tileY": 24,
+          "refId": "map_lz_ch03_fork_road_v1_story_route",
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "question",
+            "interactions": [
+              {
+                "id": "map_lz_ch03_fork_road_v1_route_promise_clear",
+                "name": "暗示近明",
+                "description": "梁山伯已听懂祝英台的层层暗示，第四章会更早赶往祝府。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "promiseClarity",
+                    "value": 4
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "梁山伯已听懂祝英台的层层暗示，第四章会更早赶往祝府。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch03_fork_road_v1",
+                  "routeId": "promise_clear",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
+                "id": "map_lz_ch03_fork_road_v1_route_promise_late",
+                "name": "迟悟成憾",
+                "description": "梁山伯仍把离别当成寻常送别，第四章会错过婚约先机。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "lte",
+                    "field": "promiseClarity",
+                    "value": 2
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "梁山伯仍把离别当成寻常送别，第四章会错过婚约先机。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch03_fork_road_v1",
+                  "routeId": "promise_late",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
+                "id": "map_lz_ch03_fork_road_v1_route_family_moves",
+                "name": "婚约暗动",
+                "description": "祝家和马家的婚约已经转入明面，马家会更快进入祝府。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "familyPressure",
+                    "value": 1
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "祝家和马家的婚约已经转入明面，马家会更快进入祝府。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch03_fork_road_v1",
+                  "routeId": "family_moves",
+                  "source": "docs/liangzhu-game"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch03_fork_road_v1_story_composition_v4",
           "tileX": 10,
           "tileY": 13,

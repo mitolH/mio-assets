@@ -855,6 +855,73 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_lz_prop_marriage_doc_story_v1",
+          "tileX": 36,
+          "tileY": 24,
+          "refId": "map_lz_ch04_betrothal_hall_v1_story_route",
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "question",
+            "interactions": [
+              {
+                "id": "map_lz_ch04_betrothal_hall_v1_route_liang_late",
+                "name": "梁生迟到",
+                "description": "梁山伯迟迟未能明白承诺，病榻场景的悔恨会明显加重。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "lte",
+                    "field": "promiseClarity",
+                    "value": 3
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "梁山伯迟迟未能明白承诺，病榻场景的悔恨会明显加重。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch04_betrothal_hall_v1",
+                  "routeId": "liang_late",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
+                "id": "map_lz_ch04_betrothal_hall_v1_route_ma_cold",
+                "name": "明知强求",
+                "description": "马家压力已经压过体面，终章默认开启马文才冷酷路线。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "maPressure",
+                    "value": 4
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马家压力已经压过体面，终章默认开启马文才冷酷路线。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch04_betrothal_hall_v1",
+                  "routeId": "ma_cold",
+                  "source": "docs/liangzhu-game"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch04_betrothal_hall_v1_story_composition_v4",
           "tileX": 10,
           "tileY": 13,

@@ -860,6 +860,52 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_lz_prop_last_letter_story_v1",
+          "tileX": 36,
+          "tileY": 24,
+          "refId": "map_lz_ch05_grave_v1_story_route",
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "question",
+            "interactions": [
+              {
+                "id": "map_lz_ch05_grave_v1_route_cold_until_end",
+                "name": "冷酷到底",
+                "description": "马文才仍试图阻止祝英台，最终被化蝶景象击退。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "maPressure",
+                    "value": 5
+                  },
+                  {
+                    "type": "story_variable",
+                    "operator": "lte",
+                    "field": "maRestraint",
+                    "value": 1
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才仍试图阻止祝英台，最终被化蝶景象击退。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch05_grave_v1",
+                  "routeId": "cold_until_end",
+                  "source": "docs/liangzhu-game"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch05_grave_v1_story_composition_v4",
           "tileX": 10,
           "tileY": 13,
