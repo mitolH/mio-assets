@@ -900,6 +900,33 @@
                   "routeId": "cold_until_end",
                   "source": "docs/liangzhu-game"
                 }
+              },
+              {
+                "id": "map_lz_ch05_grave_v1_route_ma_powerless_regret",
+                "name": "悔而无力",
+                "description": "马文才不再命人上前，只在雨中沉默。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "maRestraint",
+                    "value": 4
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才不再命人上前，只在雨中沉默。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch05_grave_v1",
+                  "routeId": "ma_powerless_regret",
+                  "source": "docs/liangzhu-game"
+                }
               }
             ]
           }

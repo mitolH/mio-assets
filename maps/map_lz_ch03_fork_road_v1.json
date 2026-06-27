@@ -933,6 +933,33 @@
                   "routeId": "family_moves",
                   "source": "docs/liangzhu-game"
                 }
+              },
+              {
+                "id": "map_lz_ch03_fork_road_v1_route_ma_withholds",
+                "name": "疑而不发",
+                "description": "马文才已经看出祝英台有所隐瞒，却暂时按下不发。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "maRestraint",
+                    "value": 2
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才已经看出祝英台有所隐瞒，却暂时按下不发。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch03_fork_road_v1",
+                  "routeId": "ma_withholds",
+                  "source": "docs/liangzhu-game"
+                }
               }
             ]
           }

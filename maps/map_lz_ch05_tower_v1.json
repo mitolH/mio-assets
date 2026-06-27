@@ -913,6 +913,33 @@
                 }
               },
               {
+                "id": "map_lz_ch05_tower_v1_route_ma_steps_back",
+                "name": "不忍打断",
+                "description": "马文才站在楼台外，听见真相后选择暂不打断。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "maRestraint",
+                    "value": 3
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才站在楼台外，听见真相后选择暂不打断。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch05_tower_v1",
+                  "routeId": "ma_steps_back",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
                 "id": "map_lz_ch05_tower_v1_route_ma_interrupt",
                 "name": "强行打断",
                 "description": "马文才以门第和婚约压上楼台，悲剧重量随之增加。",

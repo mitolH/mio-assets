@@ -877,6 +877,33 @@
                   "routeId": "wet_marriage_doc",
                   "source": "docs/liangzhu-game"
                 }
+              },
+              {
+                "id": "map_lz_ch05_butterfly_end_v1_route_powerless_regret",
+                "name": "无力悔意",
+                "description": "马文才放下玉佩或折扇，不再追赶双蝶。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "maRestraint",
+                    "value": 4
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才放下玉佩或折扇，不再追赶双蝶。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch05_butterfly_end_v1",
+                  "routeId": "powerless_regret",
+                  "source": "docs/liangzhu-game"
+                }
               }
             ]
           }

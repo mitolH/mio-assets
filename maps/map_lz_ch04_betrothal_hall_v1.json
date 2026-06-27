@@ -916,6 +916,33 @@
                   "routeId": "ma_cold",
                   "source": "docs/liangzhu-game"
                 }
+              },
+              {
+                "id": "map_lz_ch04_betrothal_hall_v1_route_ma_regret_pending",
+                "name": "疑悔未决",
+                "description": "马文才仍随礼法推进，却已经开始迟疑送亲队伍的速度。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "maRestraint",
+                    "value": 3
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才仍随礼法推进，却已经开始迟疑送亲队伍的速度。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch04_betrothal_hall_v1",
+                  "routeId": "ma_regret_pending",
+                  "source": "docs/liangzhu-game"
+                }
               }
             ]
           }
