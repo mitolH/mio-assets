@@ -582,8 +582,8 @@
         {
           "assetType": "component",
           "componentId": "comp_departure_book_chest_v1",
-          "tileX": 18,
-          "tileY": 20,
+          "tileX": 17,
+          "tileY": 19,
           "refId": "map_lz_ch01_river_ferry_v1_scene_reference_book_chest"
         },
         {
@@ -603,7 +603,7 @@
         {
           "assetType": "component",
           "componentId": "comp_lz_prop_bookcase_story_v1",
-          "tileX": 10,
+          "tileX": 17,
           "tileY": 20,
           "refId": "map_lz_ch01_river_ferry_v1_story_a",
           "interaction": {
@@ -656,7 +656,7 @@
         {
           "assetType": "component",
           "componentId": "comp_lz_prop_willow_branch_story_v1",
-          "tileX": 30,
+          "tileX": 23,
           "tileY": 20,
           "refId": "map_lz_ch01_river_ferry_v1_story_b",
           "interaction": {
@@ -902,7 +902,7 @@
           "assetType": "sprite",
           "spriteId": "sprite_liangshanbo_48x96_story_v2",
           "animationId": "idle-down",
-          "tileX": 23,
+          "tileX": 21,
           "tileY": 22,
           "refId": "map_lz_ch01_river_ferry_v1_actor_liangshanbo_2"
         },
@@ -1015,7 +1015,7 @@
             "urban"
           ],
           "eventDensity": 1,
-          "offsetX": 22,
+          "offsetX": 7,
           "offsetY": 24
         },
         {
@@ -1025,7 +1025,7 @@
             "urban"
           ],
           "eventDensity": 1,
-          "offsetX": 10,
+          "offsetX": 17,
           "offsetY": 20
         },
         {
@@ -1035,7 +1035,7 @@
             "urban"
           ],
           "eventDensity": 1,
-          "offsetX": 30,
+          "offsetX": 23,
           "offsetY": 20
         }
       ],

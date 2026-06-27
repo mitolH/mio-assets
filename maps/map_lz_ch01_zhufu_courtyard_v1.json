@@ -726,7 +726,7 @@
         {
           "assetType": "component",
           "componentId": "comp_lz_prop_bookcase_story_v1",
-          "tileX": 10,
+          "tileX": 17,
           "tileY": 20,
           "refId": "map_lz_ch01_zhufu_courtyard_v1_story_a",
           "interaction": {
@@ -779,7 +779,7 @@
         {
           "assetType": "component",
           "componentId": "comp_lz_prop_fan_jade_story_v1",
-          "tileX": 30,
+          "tileX": 23,
           "tileY": 20,
           "refId": "map_lz_ch01_zhufu_courtyard_v1_story_b",
           "interaction": {
@@ -1012,7 +1012,7 @@
           "assetType": "sprite",
           "spriteId": "sprite_zhuyingtai_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 18,
+          "tileX": 19,
           "tileY": 22,
           "refId": "map_lz_ch01_zhufu_courtyard_v1_actor_zhuyingtai_1"
         },
@@ -1020,7 +1020,7 @@
           "assetType": "sprite",
           "spriteId": "sprite_zhufu_father_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 23,
+          "tileX": 24,
           "tileY": 21,
           "refId": "map_lz_ch01_zhufu_courtyard_v1_actor_zhufu_father_2"
         },
@@ -1028,7 +1028,7 @@
           "assetType": "sprite",
           "spriteId": "sprite_zhufu_mother_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 26,
+          "tileX": 22,
           "tileY": 21,
           "refId": "map_lz_ch01_zhufu_courtyard_v1_actor_zhufu_mother_3"
         },
@@ -1036,7 +1036,7 @@
           "assetType": "sprite",
           "spriteId": "sprite_servant_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 12,
+          "tileX": 15,
           "tileY": 22,
           "refId": "map_lz_ch01_zhufu_courtyard_v1_actor_servant_4"
         }
@@ -1133,8 +1133,8 @@
             "urban"
           ],
           "eventDensity": 1,
-          "offsetX": 22,
-          "offsetY": 24
+          "offsetX": 18,
+          "offsetY": 23
         },
         {
           "id": "map_lz_ch01_zhufu_courtyard_v1_clue",
@@ -1143,7 +1143,7 @@
             "urban"
           ],
           "eventDensity": 1,
-          "offsetX": 10,
+          "offsetX": 17,
           "offsetY": 20
         },
         {
@@ -1153,7 +1153,7 @@
             "urban"
           ],
           "eventDensity": 1,
-          "offsetX": 30,
+          "offsetX": 23,
           "offsetY": 20
         }
       ],

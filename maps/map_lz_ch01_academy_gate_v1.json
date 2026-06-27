@@ -561,7 +561,7 @@
         {
           "assetType": "component",
           "componentId": "comp_academy_front_gate_v1",
-          "tileX": 11,
+          "tileX": 14,
           "tileY": 2,
           "refId": "map_lz_ch01_academy_gate_v1_academy_reference_front_gate"
         },
@@ -617,8 +617,8 @@
         {
           "assetType": "component",
           "componentId": "comp_lz_prop_books_story_v1",
-          "tileX": 10,
-          "tileY": 20,
+          "tileX": 18,
+          "tileY": 21,
           "refId": "map_lz_ch01_academy_gate_v1_story_a",
           "interaction": {
             "interactionRange": 2,
@@ -670,8 +670,8 @@
         {
           "assetType": "component",
           "componentId": "comp_lz_prop_marriage_doc_story_v1",
-          "tileX": 30,
-          "tileY": 20,
+          "tileX": 29,
+          "tileY": 21,
           "refId": "map_lz_ch01_academy_gate_v1_story_b",
           "interaction": {
             "interactionRange": 2,
@@ -1069,7 +1069,7 @@
           "assetType": "sprite",
           "spriteId": "sprite_liangshanbo_48x96_story_v2",
           "animationId": "idle-down",
-          "tileX": 22,
+          "tileX": 21,
           "tileY": 22,
           "refId": "map_lz_ch01_academy_gate_v1_actor_liangshanbo_2"
         },
@@ -1077,7 +1077,7 @@
           "assetType": "sprite",
           "spriteId": "sprite_mawencai_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 28,
+          "tileX": 30,
           "tileY": 21,
           "refId": "map_lz_ch01_academy_gate_v1_actor_mawencai_3"
         },
@@ -1085,7 +1085,7 @@
           "assetType": "sprite",
           "spriteId": "sprite_teacher_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 24,
+          "tileX": 23,
           "tileY": 19,
           "refId": "map_lz_ch01_academy_gate_v1_actor_teacher_4"
         },
@@ -1093,7 +1093,7 @@
           "assetType": "sprite",
           "spriteId": "sprite_ma_guard_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 31,
+          "tileX": 32,
           "tileY": 21,
           "refId": "map_lz_ch01_academy_gate_v1_actor_ma_guard_5"
         }
@@ -1190,7 +1190,7 @@
             "urban"
           ],
           "eventDensity": 1,
-          "offsetX": 22,
+          "offsetX": 21,
           "offsetY": 24
         },
         {
@@ -1200,8 +1200,8 @@
             "urban"
           ],
           "eventDensity": 1,
-          "offsetX": 10,
-          "offsetY": 20
+          "offsetX": 18,
+          "offsetY": 21
         },
         {
           "id": "map_lz_ch01_academy_gate_v1_choice",
@@ -1210,8 +1210,8 @@
             "urban"
           ],
           "eventDensity": 1,
-          "offsetX": 30,
-          "offsetY": 20
+          "offsetX": 29,
+          "offsetY": 21
         }
       ],
       "defaultEventDensity": 1

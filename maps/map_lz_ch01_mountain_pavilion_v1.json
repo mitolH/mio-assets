@@ -568,8 +568,8 @@
         {
           "assetType": "component",
           "componentId": "comp_departure_tea_stall_v1",
-          "tileX": 3,
-          "tileY": 17,
+          "tileX": 5,
+          "tileY": 16,
           "refId": "map_lz_ch01_mountain_pavilion_v1_scene_reference_tea_stall"
         },
         {
@@ -603,7 +603,7 @@
         {
           "assetType": "component",
           "componentId": "comp_lz_prop_stone_table_story_v1",
-          "tileX": 10,
+          "tileX": 18,
           "tileY": 20,
           "refId": "map_lz_ch01_mountain_pavilion_v1_story_a",
           "interaction": {
@@ -656,7 +656,7 @@
         {
           "assetType": "component",
           "componentId": "comp_lz_prop_fan_jade_story_v1",
-          "tileX": 30,
+          "tileX": 25,
           "tileY": 20,
           "refId": "map_lz_ch01_mountain_pavilion_v1_story_b",
           "interaction": {
@@ -907,7 +907,7 @@
           "assetType": "sprite",
           "spriteId": "sprite_liangshanbo_48x96_story_v2",
           "animationId": "idle-down",
-          "tileX": 23,
+          "tileX": 22,
           "tileY": 22,
           "refId": "map_lz_ch01_mountain_pavilion_v1_actor_liangshanbo_2"
         },
@@ -1020,7 +1020,7 @@
             "urban"
           ],
           "eventDensity": 1,
-          "offsetX": 22,
+          "offsetX": 17,
           "offsetY": 24
         },
         {
@@ -1030,7 +1030,7 @@
             "urban"
           ],
           "eventDensity": 1,
-          "offsetX": 10,
+          "offsetX": 18,
           "offsetY": 20
         },
         {
@@ -1040,7 +1040,7 @@
             "urban"
           ],
           "eventDensity": 1,
-          "offsetX": 30,
+          "offsetX": 25,
           "offsetY": 20
         }
       ],
