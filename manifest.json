@@ -10762,7 +10762,8 @@
         "梁祝",
         "tier-a",
         "books",
-        "story-prop-v2"
+        "story-prop-v2",
+        "high-reuse-story-prop-v3"
       ],
       "width": 48,
       "height": 32,
@@ -10781,7 +10782,8 @@
         "tier-s",
         "fan",
         "jade",
-        "story-prop-v2"
+        "story-prop-v2",
+        "high-reuse-story-prop-v3"
       ],
       "width": 48,
       "height": 32,
@@ -10799,7 +10801,8 @@
         "梁祝",
         "tier-s",
         "letter",
-        "story-prop-v2"
+        "story-prop-v2",
+        "high-reuse-story-prop-v3"
       ],
       "width": 48,
       "height": 32,
@@ -10872,7 +10875,8 @@
         "梁祝",
         "tier-s",
         "veil",
-        "story-prop-v2"
+        "story-prop-v2",
+        "high-reuse-story-prop-v3"
       ],
       "width": 48,
       "height": 32,
@@ -10909,7 +10913,8 @@
         "梁祝",
         "tier-s",
         "willow",
-        "story-prop-v2"
+        "story-prop-v2",
+        "high-reuse-story-prop-v3"
       ],
       "width": 48,
       "height": 32,
