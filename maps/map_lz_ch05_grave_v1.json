@@ -860,7 +860,7 @@
         },
         {
           "assetType": "component",
-          "componentId": "comp_lz_prop_last_letter_story_v1",
+          "componentId": "comp_lz_prop_red_veil_story_v1",
           "tileX": 36,
           "tileY": 24,
           "refId": "map_lz_ch05_grave_v1_story_route",
@@ -868,6 +868,60 @@
             "interactionRange": 2,
             "indicatorType": "question",
             "interactions": [
+              {
+                "id": "map_lz_ch05_grave_v1_route_love_recognized",
+                "name": "情义相认",
+                "description": "梁祝信任足够深，坟前对白更平静，化蝶光色更明亮。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "liangTrust",
+                    "value": 4
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "梁祝信任足够深，坟前对白更平静，化蝶光色更明亮。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch05_grave_v1",
+                  "routeId": "love_recognized",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
+                "id": "map_lz_ch05_grave_v1_route_regret_heavy",
+                "name": "迟悟悲重",
+                "description": "梁山伯迟悟过晚，坟前雨势与祝英台对白都会更痛。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "lte",
+                    "field": "promiseClarity",
+                    "value": 2
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "梁山伯迟悟过晚，坟前雨势与祝英台对白都会更痛。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch05_grave_v1",
+                  "routeId": "regret_heavy",
+                  "source": "docs/liangzhu-game"
+                }
+              },
               {
                 "id": "map_lz_ch05_grave_v1_route_cold_until_end",
                 "name": "冷酷到底",

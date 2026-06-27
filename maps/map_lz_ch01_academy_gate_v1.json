@@ -859,6 +859,154 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_lz_prop_fan_jade_story_v1",
+          "tileX": 36,
+          "tileY": 24,
+          "refId": "map_lz_ch01_academy_gate_v1_story_route",
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "question",
+            "interactions": [
+              {
+                "id": "map_lz_ch01_academy_gate_v1_route_safe_entry",
+                "name": "平安入学",
+                "description": "祝英台身份风险仍低，第二章开局能稳定进入讲堂。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "lte",
+                    "field": "identityRisk",
+                    "value": 1
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "祝英台身份风险仍低，第二章开局能稳定进入讲堂。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch01_academy_gate_v1",
+                  "routeId": "safe_entry",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
+                "id": "map_lz_ch01_academy_gate_v1_route_gate_suspicion",
+                "name": "门前生疑",
+                "description": "登记册与门规已经留下破绽，第二章马文才会获得额外质问。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "identityRisk",
+                    "value": 2
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "登记册与门规已经留下破绽，第二章马文才会获得额外质问。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch01_academy_gate_v1",
+                  "routeId": "gate_suspicion",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
+                "id": "map_lz_ch01_academy_gate_v1_route_road_trust",
+                "name": "同路相知",
+                "description": "梁山伯已经愿意相信这位新同窗，第二章更容易替祝英台解围。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "liangTrust",
+                    "value": 2
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "梁山伯已经愿意相信这位新同窗，第二章更容易替祝英台解围。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch01_academy_gate_v1",
+                  "routeId": "road_trust",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
+                "id": "map_lz_ch01_academy_gate_v1_route_noble_attention_pressure",
+                "name": "权贵留眼",
+                "description": "马文才或随从已经注意祝氏子弟，第二章会开启试探。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "maPressure",
+                    "value": 1
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才或随从已经注意祝氏子弟，第二章会开启试探。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch01_academy_gate_v1",
+                  "routeId": "noble_attention_pressure",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
+                "id": "map_lz_ch01_academy_gate_v1_route_noble_attention_restraint",
+                "name": "克制留眼",
+                "description": "马文才看见破绽却暂不揭穿，后续会保留更复杂的试探路线。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "maRestraint",
+                    "value": 1
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才看见破绽却暂不揭穿，后续会保留更复杂的试探路线。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch01_academy_gate_v1",
+                  "routeId": "noble_attention_restraint",
+                  "source": "docs/liangzhu-game"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch01_academy_gate_v1_story_composition_v4",
           "tileX": 10,
           "tileY": 13,

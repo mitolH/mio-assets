@@ -845,6 +845,127 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_lz_prop_lantern_rain_story_v1",
+          "tileX": 36,
+          "tileY": 24,
+          "refId": "map_lz_ch02_dorm_corridor_v1_story_route",
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "question",
+            "interactions": [
+              {
+                "id": "map_lz_ch02_dorm_corridor_v1_route_classmate_bond",
+                "name": "同窗渐深",
+                "description": "梁祝信任已成，第三章梁山伯会主动相送。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "liangTrust",
+                    "value": 3
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "梁祝信任已成，第三章梁山伯会主动相送。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch02_dorm_corridor_v1",
+                  "routeId": "classmate_bond",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
+                "id": "map_lz_ch02_dorm_corridor_v1_route_suspicion_cloud",
+                "name": "疑云暗结",
+                "description": "马文才的试探已成气候，第三章会提前得到婚约线索。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "maPressure",
+                    "value": 3
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才的试探已成气候，第三章会提前得到婚约线索。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch02_dorm_corridor_v1",
+                  "routeId": "suspicion_cloud",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
+                "id": "map_lz_ch02_dorm_corridor_v1_route_restraint_watch",
+                "name": "克制旁观",
+                "description": "马文才克制旁观，第四章会出现“放她一次”的缺口。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "maRestraint",
+                    "value": 2
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才克制旁观，第四章会出现“放她一次”的缺口。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch02_dorm_corridor_v1",
+                  "routeId": "restraint_watch",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
+                "id": "map_lz_ch02_dorm_corridor_v1_route_identity_alarm",
+                "name": "身份惊险",
+                "description": "祝英台身份风险过高，第三章开局会增加离院压力。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "identityRisk",
+                    "value": 4
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "祝英台身份风险过高，第三章开局会增加离院压力。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch02_dorm_corridor_v1",
+                  "routeId": "identity_alarm",
+                  "source": "docs/liangzhu-game"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch02_dorm_corridor_v1_story_composition_v4",
           "tileX": 10,
           "tileY": 13,

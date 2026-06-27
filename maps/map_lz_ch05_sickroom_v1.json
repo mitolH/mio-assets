@@ -855,6 +855,46 @@
         },
         {
           "assetType": "component",
+          "componentId": "comp_lz_prop_last_letter_story_v1",
+          "tileX": 36,
+          "tileY": 24,
+          "refId": "map_lz_ch05_sickroom_v1_story_route",
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "question",
+            "interactions": [
+              {
+                "id": "map_lz_ch05_sickroom_v1_route_tragedy_settled",
+                "name": "悲势已成",
+                "description": "前序压迫与迟悟已经把悲剧推到不可逆，病榻遗言会更沉重。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "tragedyWeight",
+                    "value": 3
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "前序压迫与迟悟已经把悲剧推到不可逆，病榻遗言会更沉重。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch05_sickroom_v1",
+                  "routeId": "tragedy_settled",
+                  "source": "docs/liangzhu-game"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "component",
           "componentId": "comp_map_lz_ch05_sickroom_v1_story_composition_v4",
           "tileX": 10,
           "tileY": 13,
