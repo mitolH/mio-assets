@@ -637,9 +637,9 @@
                     "value": "书院门前线索承载着当前章节的关键线索。"
                   },
                   {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": 1
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "书院门前线索提示了当前场景的主要矛盾。"
                   }
                 ],
                 "weight": 1
@@ -647,19 +647,19 @@
               {
                 "id": "map_lz_ch01_academy_gate_v1_story_a_choice",
                 "name": "处理书院门前线索",
-                "description": "你围绕书院门前线索做出的选择，让剧情变量发生变化。",
+                "description": "你围绕书院门前线索整理线索，真正的角色状态结算会在抉择点发生。",
                 "type": "examine",
                 "conditions": [],
                 "effects": [
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "你围绕书院门前线索做出的选择，让剧情变量发生变化。"
+                    "value": "你围绕书院门前线索整理线索，真正的角色状态结算会在抉择点发生。"
                   },
                   {
-                    "type": "modify_story_variable",
-                    "target": "maRestraint",
-                    "value": 1
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "书院门前线索已记录为共同线索。"
                   }
                 ],
                 "weight": 1
