@@ -665,8 +665,8 @@
             "interactions": [
               {
                 "id": "map_lz_ch03_academy_gate_v1_story_b_zhuyingtai",
-                "name": "祝英台：处理书院山门抉择",
-                "description": "祝英台围绕书院山门抉择做出选择，推动当前章节继续前进。",
+                "name": "祝英台：离院 / 相送",
+                "description": "祝英台在场景一：书院山门围绕离院、相送做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -679,7 +679,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "祝英台围绕书院山门抉择做出选择，推动当前章节继续前进。"
+                    "value": "祝英台在场景一：书院山门围绕离院、相送做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -712,6 +712,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch03_eighteen_mile_farewell",
+                  "sceneId": "ch03_scene_01_academy_gate",
+                  "mapId": "map_lz_ch03_academy_gate_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "离院 / 相送",
+                  "keywords": [
+                    "离院",
+                    "相送"
+                  ],
+                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+                  "sceneHeading": "场景一：书院山门",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch03_academy_gate_v1",
                   "role": "zhuyingtai",
@@ -724,8 +739,8 @@
               },
               {
                 "id": "map_lz_ch03_academy_gate_v1_story_b_liangshanbo",
-                "name": "梁山伯：处理书院山门抉择",
-                "description": "梁山伯围绕书院山门抉择做出选择，推动当前章节继续前进。",
+                "name": "梁山伯：相送 / 行囊",
+                "description": "梁山伯在场景一：书院山门围绕相送、行囊做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -738,7 +753,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "梁山伯围绕书院山门抉择做出选择，推动当前章节继续前进。"
+                    "value": "梁山伯在场景一：书院山门围绕相送、行囊做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -771,6 +786,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch03_eighteen_mile_farewell",
+                  "sceneId": "ch03_scene_01_academy_gate",
+                  "mapId": "map_lz_ch03_academy_gate_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "相送 / 行囊",
+                  "keywords": [
+                    "相送",
+                    "行囊"
+                  ],
+                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+                  "sceneHeading": "场景一：书院山门",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch03_academy_gate_v1",
                   "role": "liangshanbo",
@@ -783,8 +813,8 @@
               },
               {
                 "id": "map_lz_ch03_academy_gate_v1_story_b_mawencai",
-                "name": "马文才：处理书院山门抉择",
-                "description": "马文才围绕书院山门抉择做出选择，推动当前章节继续前进。",
+                "name": "马文才：登记册 / 离院",
+                "description": "马文才在场景一：书院山门围绕登记册、离院做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -797,7 +827,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "马文才围绕书院山门抉择做出选择，推动当前章节继续前进。"
+                    "value": "马文才在场景一：书院山门围绕登记册、离院做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -830,6 +860,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch03_eighteen_mile_farewell",
+                  "sceneId": "ch03_scene_01_academy_gate",
+                  "mapId": "map_lz_ch03_academy_gate_v1",
+                  "role": "mawencai",
+                  "eventLabel": "登记册 / 离院",
+                  "keywords": [
+                    "登记册",
+                    "离院"
+                  ],
+                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+                  "sceneHeading": "场景一：书院山门",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch03_academy_gate_v1",
                   "role": "mawencai",

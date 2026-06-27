@@ -665,8 +665,8 @@
             "interactions": [
               {
                 "id": "map_lz_ch03_creek_bridge_v1_story_b_zhuyingtai",
-                "name": "祝英台：处理溪桥抉择",
-                "description": "祝英台围绕溪桥抉择做出选择，推动当前章节继续前进。",
+                "name": "祝英台：倒影 / 真身",
+                "description": "祝英台在场景三：溪桥围绕倒影、真身做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -679,7 +679,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "祝英台围绕溪桥抉择做出选择，推动当前章节继续前进。"
+                    "value": "祝英台在场景三：溪桥围绕倒影、真身做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -712,6 +712,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch03_eighteen_mile_farewell",
+                  "sceneId": "ch03_scene_03_creek_bridge",
+                  "mapId": "map_lz_ch03_creek_bridge_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "倒影 / 真身",
+                  "keywords": [
+                    "倒影",
+                    "真身"
+                  ],
+                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+                  "sceneHeading": "场景三：溪桥",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch03_creek_bridge_v1",
                   "role": "zhuyingtai",
@@ -724,8 +739,8 @@
               },
               {
                 "id": "map_lz_ch03_creek_bridge_v1_story_b_liangshanbo",
-                "name": "梁山伯：处理溪桥抉择",
-                "description": "梁山伯围绕溪桥抉择做出选择，推动当前章节继续前进。",
+                "name": "梁山伯：玉佩 / 折扇",
+                "description": "梁山伯在场景三：溪桥围绕玉佩、折扇做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -738,7 +753,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "梁山伯围绕溪桥抉择做出选择，推动当前章节继续前进。"
+                    "value": "梁山伯在场景三：溪桥围绕玉佩、折扇做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -771,6 +786,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch03_eighteen_mile_farewell",
+                  "sceneId": "ch03_scene_03_creek_bridge",
+                  "mapId": "map_lz_ch03_creek_bridge_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "玉佩 / 折扇",
+                  "keywords": [
+                    "玉佩",
+                    "折扇"
+                  ],
+                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+                  "sceneHeading": "场景三：溪桥",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch03_creek_bridge_v1",
                   "role": "liangshanbo",
@@ -783,8 +813,8 @@
               },
               {
                 "id": "map_lz_ch03_creek_bridge_v1_story_b_mawencai",
-                "name": "马文才：处理溪桥抉择",
-                "description": "马文才围绕溪桥抉择做出选择，推动当前章节继续前进。",
+                "name": "马文才：打断 / 送别",
+                "description": "马文才在场景三：溪桥围绕打断、送别做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -797,7 +827,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "马文才围绕溪桥抉择做出选择，推动当前章节继续前进。"
+                    "value": "马文才在场景三：溪桥围绕打断、送别做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -830,6 +860,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch03_eighteen_mile_farewell",
+                  "sceneId": "ch03_scene_03_creek_bridge",
+                  "mapId": "map_lz_ch03_creek_bridge_v1",
+                  "role": "mawencai",
+                  "eventLabel": "打断 / 送别",
+                  "keywords": [
+                    "打断",
+                    "送别"
+                  ],
+                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+                  "sceneHeading": "场景三：溪桥",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch03_creek_bridge_v1",
                   "role": "mawencai",

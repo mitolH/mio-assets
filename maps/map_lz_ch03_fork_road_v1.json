@@ -665,8 +665,8 @@
             "interactions": [
               {
                 "id": "map_lz_ch03_fork_road_v1_story_b_zhuyingtai",
-                "name": "祝英台：处理分岔官道抉择",
-                "description": "祝英台围绕分岔官道抉择做出选择，推动当前章节继续前进。",
+                "name": "祝英台：信物 / 约定",
+                "description": "祝英台在场景五：分岔官道围绕信物、约定做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -679,7 +679,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "祝英台围绕分岔官道抉择做出选择，推动当前章节继续前进。"
+                    "value": "祝英台在场景五：分岔官道围绕信物、约定做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -712,6 +712,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch03_eighteen_mile_farewell",
+                  "sceneId": "ch03_scene_05_fork_road",
+                  "mapId": "map_lz_ch03_fork_road_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "信物 / 约定",
+                  "keywords": [
+                    "信物",
+                    "约定"
+                  ],
+                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+                  "sceneHeading": "场景五：分岔官道",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch03_fork_road_v1",
                   "role": "zhuyingtai",
@@ -724,8 +739,8 @@
               },
               {
                 "id": "map_lz_ch03_fork_road_v1_story_b_liangshanbo",
-                "name": "梁山伯：处理分岔官道抉择",
-                "description": "梁山伯围绕分岔官道抉择做出选择，推动当前章节继续前进。",
+                "name": "梁山伯：追问 / 真相",
+                "description": "梁山伯在场景五：分岔官道围绕追问、真相做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -738,7 +753,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "梁山伯围绕分岔官道抉择做出选择，推动当前章节继续前进。"
+                    "value": "梁山伯在场景五：分岔官道围绕追问、真相做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -771,6 +786,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch03_eighteen_mile_farewell",
+                  "sceneId": "ch03_scene_05_fork_road",
+                  "mapId": "map_lz_ch03_fork_road_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "追问 / 真相",
+                  "keywords": [
+                    "追问",
+                    "真相"
+                  ],
+                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+                  "sceneHeading": "场景五：分岔官道",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch03_fork_road_v1",
                   "role": "liangshanbo",
@@ -783,8 +813,8 @@
               },
               {
                 "id": "map_lz_ch03_fork_road_v1_story_b_mawencai",
-                "name": "马文才：处理分岔官道抉择",
-                "description": "马文才围绕分岔官道抉择做出选择，推动当前章节继续前进。",
+                "name": "马文才：递信 / 暂缓",
+                "description": "马文才在场景五：分岔官道围绕递信、暂缓做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -797,7 +827,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "马文才围绕分岔官道抉择做出选择，推动当前章节继续前进。"
+                    "value": "马文才在场景五：分岔官道围绕递信、暂缓做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -830,6 +860,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch03_eighteen_mile_farewell",
+                  "sceneId": "ch03_scene_05_fork_road",
+                  "mapId": "map_lz_ch03_fork_road_v1",
+                  "role": "mawencai",
+                  "eventLabel": "递信 / 暂缓",
+                  "keywords": [
+                    "递信",
+                    "暂缓"
+                  ],
+                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+                  "sceneHeading": "场景五：分岔官道",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch03_fork_road_v1",
                   "role": "mawencai",

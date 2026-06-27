@@ -665,8 +665,8 @@
             "interactions": [
               {
                 "id": "map_lz_ch04_betrothal_hall_v1_story_b_zhuyingtai",
-                "name": "祝英台：处理县衙媒聘场景抉择",
-                "description": "祝英台围绕县衙媒聘场景抉择做出选择，推动当前章节继续前进。",
+                "name": "祝英台：抗辩 / 延期",
+                "description": "祝英台在场景四：县衙媒聘场景围绕抗辩、延期做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -679,7 +679,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "祝英台围绕县衙媒聘场景抉择做出选择，推动当前章节继续前进。"
+                    "value": "祝英台在场景四：县衙媒聘场景围绕抗辩、延期做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -712,6 +712,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch04_ma_family_forces_marriage",
+                  "sceneId": "ch04_scene_04_betrothal_hall",
+                  "mapId": "map_lz_ch04_betrothal_hall_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "抗辩 / 延期",
+                  "keywords": [
+                    "抗辩",
+                    "延期"
+                  ],
+                  "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+                  "sceneHeading": "场景四：县衙媒聘场景",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch04_betrothal_hall_v1",
                   "role": "zhuyingtai",
@@ -724,8 +739,8 @@
               },
               {
                 "id": "map_lz_ch04_betrothal_hall_v1_story_b_liangshanbo",
-                "name": "梁山伯：处理县衙媒聘场景抉择",
-                "description": "梁山伯围绕县衙媒聘场景抉择做出选择，推动当前章节继续前进。",
+                "name": "梁山伯：礼法 / 门第",
+                "description": "梁山伯在场景四：县衙媒聘场景围绕礼法、门第做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -738,7 +753,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "梁山伯围绕县衙媒聘场景抉择做出选择，推动当前章节继续前进。"
+                    "value": "梁山伯在场景四：县衙媒聘场景围绕礼法、门第做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -776,6 +791,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch04_ma_family_forces_marriage",
+                  "sceneId": "ch04_scene_04_betrothal_hall",
+                  "mapId": "map_lz_ch04_betrothal_hall_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "礼法 / 门第",
+                  "keywords": [
+                    "礼法",
+                    "门第"
+                  ],
+                  "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+                  "sceneHeading": "场景四：县衙媒聘场景",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch04_betrothal_hall_v1",
                   "role": "liangshanbo",
@@ -788,8 +818,8 @@
               },
               {
                 "id": "map_lz_ch04_betrothal_hall_v1_story_b_mawencai",
-                "name": "马文才：处理县衙媒聘场景抉择",
-                "description": "马文才围绕县衙媒聘场景抉择做出选择，推动当前章节继续前进。",
+                "name": "马文才：婚约 / 悔意",
+                "description": "马文才在场景四：县衙媒聘场景围绕婚约、悔意做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -802,7 +832,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "马文才围绕县衙媒聘场景抉择做出选择，推动当前章节继续前进。"
+                    "value": "马文才在场景四：县衙媒聘场景围绕婚约、悔意做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -840,6 +870,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch04_ma_family_forces_marriage",
+                  "sceneId": "ch04_scene_04_betrothal_hall",
+                  "mapId": "map_lz_ch04_betrothal_hall_v1",
+                  "role": "mawencai",
+                  "eventLabel": "婚约 / 悔意",
+                  "keywords": [
+                    "婚约",
+                    "悔意"
+                  ],
+                  "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+                  "sceneHeading": "场景四：县衙媒聘场景",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch04_betrothal_hall_v1",
                   "role": "mawencai",

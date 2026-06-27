@@ -665,8 +665,8 @@
             "interactions": [
               {
                 "id": "map_lz_ch05_butterfly_end_v1_story_b_zhuyingtai",
-                "name": "祝英台：处理化蝶终景抉择",
-                "description": "祝英台围绕化蝶终景抉择做出选择，推动当前章节继续前进。",
+                "name": "祝英台：红衣 / 蝶影",
+                "description": "祝英台在场景五：化蝶终景围绕红衣、蝶影做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -679,7 +679,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "祝英台围绕化蝶终景抉择做出选择，推动当前章节继续前进。"
+                    "value": "祝英台在场景五：化蝶终景围绕红衣、蝶影做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -708,6 +708,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch05_tower_and_butterflies",
+                  "sceneId": "ch05_scene_05_butterfly_end",
+                  "mapId": "map_lz_ch05_butterfly_end_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "红衣 / 蝶影",
+                  "keywords": [
+                    "红衣",
+                    "蝶影"
+                  ],
+                  "chapterFile": "chapter-05-tower-and-butterflies.md",
+                  "sceneHeading": "场景五：化蝶终景",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch05_butterfly_end_v1",
                   "role": "zhuyingtai",
@@ -720,8 +735,8 @@
               },
               {
                 "id": "map_lz_ch05_butterfly_end_v1_story_b_liangshanbo",
-                "name": "梁山伯：处理化蝶终景抉择",
-                "description": "梁山伯围绕化蝶终景抉择做出选择，推动当前章节继续前进。",
+                "name": "梁山伯：回应 / 双蝶",
+                "description": "梁山伯在场景五：化蝶终景围绕回应、双蝶做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -734,7 +749,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "梁山伯围绕化蝶终景抉择做出选择，推动当前章节继续前进。"
+                    "value": "梁山伯在场景五：化蝶终景围绕回应、双蝶做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -763,6 +778,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch05_tower_and_butterflies",
+                  "sceneId": "ch05_scene_05_butterfly_end",
+                  "mapId": "map_lz_ch05_butterfly_end_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "回应 / 双蝶",
+                  "keywords": [
+                    "回应",
+                    "双蝶"
+                  ],
+                  "chapterFile": "chapter-05-tower-and-butterflies.md",
+                  "sceneHeading": "场景五：化蝶终景",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch05_butterfly_end_v1",
                   "role": "liangshanbo",
@@ -775,8 +805,8 @@
               },
               {
                 "id": "map_lz_ch05_butterfly_end_v1_story_b_mawencai",
-                "name": "马文才：处理化蝶终景抉择",
-                "description": "马文才围绕化蝶终景抉择做出选择，推动当前章节继续前进。",
+                "name": "马文才：见证 / 评价",
+                "description": "马文才在场景五：化蝶终景围绕见证、评价做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -789,7 +819,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "马文才围绕化蝶终景抉择做出选择，推动当前章节继续前进。"
+                    "value": "马文才在场景五：化蝶终景围绕见证、评价做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -828,6 +858,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch05_tower_and_butterflies",
+                  "sceneId": "ch05_scene_05_butterfly_end",
+                  "mapId": "map_lz_ch05_butterfly_end_v1",
+                  "role": "mawencai",
+                  "eventLabel": "见证 / 评价",
+                  "keywords": [
+                    "见证",
+                    "评价"
+                  ],
+                  "chapterFile": "chapter-05-tower-and-butterflies.md",
+                  "sceneHeading": "场景五：化蝶终景",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch05_butterfly_end_v1",
                   "role": "mawencai",

@@ -665,8 +665,8 @@
             "interactions": [
               {
                 "id": "map_lz_ch05_tower_v1_story_b_zhuyingtai",
-                "name": "祝英台：处理楼台抉择",
-                "description": "祝英台围绕楼台抉择做出选择，推动当前章节继续前进。",
+                "name": "祝英台：真相 / 婚约",
+                "description": "祝英台在场景一：楼台围绕真相、婚约做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -679,7 +679,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "祝英台围绕楼台抉择做出选择，推动当前章节继续前进。"
+                    "value": "祝英台在场景一：楼台围绕真相、婚约做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -712,6 +712,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch05_tower_and_butterflies",
+                  "sceneId": "ch05_scene_01_tower",
+                  "mapId": "map_lz_ch05_tower_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "真相 / 婚约",
+                  "keywords": [
+                    "真相",
+                    "婚约"
+                  ],
+                  "chapterFile": "chapter-05-tower-and-butterflies.md",
+                  "sceneHeading": "场景一：楼台",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch05_tower_v1",
                   "role": "zhuyingtai",
@@ -724,8 +739,8 @@
               },
               {
                 "id": "map_lz_ch05_tower_v1_story_b_liangshanbo",
-                "name": "梁山伯：处理楼台抉择",
-                "description": "梁山伯围绕楼台抉择做出选择，推动当前章节继续前进。",
+                "name": "梁山伯：真相 / 迟悟",
+                "description": "梁山伯在场景一：楼台围绕真相、迟悟做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -738,7 +753,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "梁山伯围绕楼台抉择做出选择，推动当前章节继续前进。"
+                    "value": "梁山伯在场景一：楼台围绕真相、迟悟做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -776,6 +791,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch05_tower_and_butterflies",
+                  "sceneId": "ch05_scene_01_tower",
+                  "mapId": "map_lz_ch05_tower_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "真相 / 迟悟",
+                  "keywords": [
+                    "真相",
+                    "迟悟"
+                  ],
+                  "chapterFile": "chapter-05-tower-and-butterflies.md",
+                  "sceneHeading": "场景一：楼台",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch05_tower_v1",
                   "role": "liangshanbo",
@@ -788,8 +818,8 @@
               },
               {
                 "id": "map_lz_ch05_tower_v1_story_b_mawencai",
-                "name": "马文才：处理楼台抉择",
-                "description": "马文才围绕楼台抉择做出选择，推动当前章节继续前进。",
+                "name": "马文才：阻止 / 相见",
+                "description": "马文才在场景一：楼台围绕阻止、相见做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -802,7 +832,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "马文才围绕楼台抉择做出选择，推动当前章节继续前进。"
+                    "value": "马文才在场景一：楼台围绕阻止、相见做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -835,6 +865,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch05_tower_and_butterflies",
+                  "sceneId": "ch05_scene_01_tower",
+                  "mapId": "map_lz_ch05_tower_v1",
+                  "role": "mawencai",
+                  "eventLabel": "阻止 / 相见",
+                  "keywords": [
+                    "阻止",
+                    "相见"
+                  ],
+                  "chapterFile": "chapter-05-tower-and-butterflies.md",
+                  "sceneHeading": "场景一：楼台",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch05_tower_v1",
                   "role": "mawencai",

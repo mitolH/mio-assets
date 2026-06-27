@@ -679,8 +679,8 @@
             "interactions": [
               {
                 "id": "map_lz_ch02_academy_courtyard_v1_story_b_zhuyingtai",
-                "name": "祝英台：处理书院前庭抉择",
-                "description": "祝英台围绕书院前庭抉择做出选择，推动当前章节继续前进。",
+                "name": "祝英台：过度亲近 / 晨读",
+                "description": "祝英台在场景一：书院前庭围绕过度亲近、晨读做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -693,7 +693,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "祝英台围绕书院前庭抉择做出选择，推动当前章节继续前进。"
+                    "value": "祝英台在场景一：书院前庭围绕过度亲近、晨读做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -726,6 +726,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch02_classmates_three_years",
+                  "sceneId": "ch02_scene_01_academy_courtyard",
+                  "mapId": "map_lz_ch02_academy_courtyard_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "过度亲近 / 晨读",
+                  "keywords": [
+                    "过度亲近",
+                    "晨读"
+                  ],
+                  "chapterFile": "chapter-02-classmates-three-years.md",
+                  "sceneHeading": "场景一：书院前庭",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch02_academy_courtyard_v1",
                   "role": "zhuyingtai",
@@ -738,8 +753,8 @@
               },
               {
                 "id": "map_lz_ch02_academy_courtyard_v1_story_b_liangshanbo",
-                "name": "梁山伯：处理书院前庭抉择",
-                "description": "梁山伯围绕书院前庭抉择做出选择，推动当前章节继续前进。",
+                "name": "梁山伯：分发讲义 / 字迹",
+                "description": "梁山伯在场景一：书院前庭围绕分发讲义、字迹做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -752,7 +767,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "梁山伯围绕书院前庭抉择做出选择，推动当前章节继续前进。"
+                    "value": "梁山伯在场景一：书院前庭围绕分发讲义、字迹做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -785,6 +800,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch02_classmates_three_years",
+                  "sceneId": "ch02_scene_01_academy_courtyard",
+                  "mapId": "map_lz_ch02_academy_courtyard_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "分发讲义 / 字迹",
+                  "keywords": [
+                    "分发讲义",
+                    "字迹"
+                  ],
+                  "chapterFile": "chapter-02-classmates-three-years.md",
+                  "sceneHeading": "场景一：书院前庭",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch02_academy_courtyard_v1",
                   "role": "liangshanbo",
@@ -797,8 +827,8 @@
               },
               {
                 "id": "map_lz_ch02_academy_courtyard_v1_story_b_mawencai",
-                "name": "马文才：处理书院前庭抉择",
-                "description": "马文才围绕书院前庭抉择做出选择，推动当前章节继续前进。",
+                "name": "马文才：座次 / 试探",
+                "description": "马文才在场景一：书院前庭围绕座次、试探做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -811,7 +841,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "马文才围绕书院前庭抉择做出选择，推动当前章节继续前进。"
+                    "value": "马文才在场景一：书院前庭围绕座次、试探做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -844,6 +874,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch02_classmates_three_years",
+                  "sceneId": "ch02_scene_01_academy_courtyard",
+                  "mapId": "map_lz_ch02_academy_courtyard_v1",
+                  "role": "mawencai",
+                  "eventLabel": "座次 / 试探",
+                  "keywords": [
+                    "座次",
+                    "试探"
+                  ],
+                  "chapterFile": "chapter-02-classmates-three-years.md",
+                  "sceneHeading": "场景一：书院前庭",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch02_academy_courtyard_v1",
                   "role": "mawencai",

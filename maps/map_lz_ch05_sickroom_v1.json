@@ -665,8 +665,8 @@
             "interactions": [
               {
                 "id": "map_lz_ch05_sickroom_v1_story_b_zhuyingtai",
-                "name": "祝英台：处理梁山伯病榻抉择",
-                "description": "祝英台围绕梁山伯病榻抉择做出选择，推动当前章节继续前进。",
+                "name": "祝英台：信物 / 书信",
+                "description": "祝英台在场景二：梁山伯病榻围绕信物、书信做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -679,7 +679,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "祝英台围绕梁山伯病榻抉择做出选择，推动当前章节继续前进。"
+                    "value": "祝英台在场景二：梁山伯病榻围绕信物、书信做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -712,6 +712,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch05_tower_and_butterflies",
+                  "sceneId": "ch05_scene_02_sickroom",
+                  "mapId": "map_lz_ch05_sickroom_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "信物 / 书信",
+                  "keywords": [
+                    "信物",
+                    "书信"
+                  ],
+                  "chapterFile": "chapter-05-tower-and-butterflies.md",
+                  "sceneHeading": "场景二：梁山伯病榻",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch05_sickroom_v1",
                   "role": "zhuyingtai",
@@ -724,8 +739,8 @@
               },
               {
                 "id": "map_lz_ch05_sickroom_v1_story_b_liangshanbo",
-                "name": "梁山伯：处理梁山伯病榻抉择",
-                "description": "梁山伯围绕梁山伯病榻抉择做出选择，推动当前章节继续前进。",
+                "name": "梁山伯：书卷 / 遗言",
+                "description": "梁山伯在场景二：梁山伯病榻围绕书卷、遗言做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -738,7 +753,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "梁山伯围绕梁山伯病榻抉择做出选择，推动当前章节继续前进。"
+                    "value": "梁山伯在场景二：梁山伯病榻围绕书卷、遗言做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -776,6 +791,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch05_tower_and_butterflies",
+                  "sceneId": "ch05_scene_02_sickroom",
+                  "mapId": "map_lz_ch05_sickroom_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "书卷 / 遗言",
+                  "keywords": [
+                    "书卷",
+                    "遗言"
+                  ],
+                  "chapterFile": "chapter-05-tower-and-butterflies.md",
+                  "sceneHeading": "场景二：梁山伯病榻",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch05_sickroom_v1",
                   "role": "liangshanbo",
@@ -788,8 +818,8 @@
               },
               {
                 "id": "map_lz_ch05_sickroom_v1_story_b_mawencai",
-                "name": "马文才：处理梁山伯病榻抉择",
-                "description": "马文才围绕梁山伯病榻抉择做出选择，推动当前章节继续前进。",
+                "name": "马文才：病重 / 催婚",
+                "description": "马文才在场景二：梁山伯病榻围绕病重、催婚做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -802,7 +832,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "马文才围绕梁山伯病榻抉择做出选择，推动当前章节继续前进。"
+                    "value": "马文才在场景二：梁山伯病榻围绕病重、催婚做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -840,6 +870,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch05_tower_and_butterflies",
+                  "sceneId": "ch05_scene_02_sickroom",
+                  "mapId": "map_lz_ch05_sickroom_v1",
+                  "role": "mawencai",
+                  "eventLabel": "病重 / 催婚",
+                  "keywords": [
+                    "病重",
+                    "催婚"
+                  ],
+                  "chapterFile": "chapter-05-tower-and-butterflies.md",
+                  "sceneHeading": "场景二：梁山伯病榻",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch05_sickroom_v1",
                   "role": "mawencai",

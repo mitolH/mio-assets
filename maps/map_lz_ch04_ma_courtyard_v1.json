@@ -665,8 +665,8 @@
             "interactions": [
               {
                 "id": "map_lz_ch04_ma_courtyard_v1_story_b_zhuyingtai",
-                "name": "祝英台：处理马府外院抉择",
-                "description": "祝英台围绕马府外院抉择做出选择，推动当前章节继续前进。",
+                "name": "祝英台：听闻 / 压力",
+                "description": "祝英台在场景三：马府外院围绕听闻、压力做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -679,7 +679,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "祝英台围绕马府外院抉择做出选择，推动当前章节继续前进。"
+                    "value": "祝英台在场景三：马府外院围绕听闻、压力做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -712,6 +712,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch04_ma_family_forces_marriage",
+                  "sceneId": "ch04_scene_03_ma_courtyard",
+                  "mapId": "map_lz_ch04_ma_courtyard_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "听闻 / 压力",
+                  "keywords": [
+                    "听闻",
+                    "压力"
+                  ],
+                  "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+                  "sceneHeading": "场景三：马府外院",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch04_ma_courtyard_v1",
                   "role": "zhuyingtai",
@@ -724,8 +739,8 @@
               },
               {
                 "id": "map_lz_ch04_ma_courtyard_v1_story_b_liangshanbo",
-                "name": "梁山伯：处理马府外院抉择",
-                "description": "梁山伯围绕马府外院抉择做出选择，推动当前章节继续前进。",
+                "name": "梁山伯：登门 / 被拒",
+                "description": "梁山伯在场景三：马府外院围绕登门、被拒做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -738,7 +753,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "梁山伯围绕马府外院抉择做出选择，推动当前章节继续前进。"
+                    "value": "梁山伯在场景三：马府外院围绕登门、被拒做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -776,6 +791,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch04_ma_family_forces_marriage",
+                  "sceneId": "ch04_scene_03_ma_courtyard",
+                  "mapId": "map_lz_ch04_ma_courtyard_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "登门 / 被拒",
+                  "keywords": [
+                    "登门",
+                    "被拒"
+                  ],
+                  "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+                  "sceneHeading": "场景三：马府外院",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch04_ma_courtyard_v1",
                   "role": "liangshanbo",
@@ -788,8 +818,8 @@
               },
               {
                 "id": "map_lz_ch04_ma_courtyard_v1_story_b_mawencai",
-                "name": "马文才：处理马府外院抉择",
-                "description": "马文才围绕马府外院抉择做出选择，推动当前章节继续前进。",
+                "name": "马文才：逼婚 / 强度",
+                "description": "马文才在场景三：马府外院围绕逼婚、强度做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -802,7 +832,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "马文才围绕马府外院抉择做出选择，推动当前章节继续前进。"
+                    "value": "马文才在场景三：马府外院围绕逼婚、强度做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -845,6 +875,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch04_ma_family_forces_marriage",
+                  "sceneId": "ch04_scene_03_ma_courtyard",
+                  "mapId": "map_lz_ch04_ma_courtyard_v1",
+                  "role": "mawencai",
+                  "eventLabel": "逼婚 / 强度",
+                  "keywords": [
+                    "逼婚",
+                    "强度"
+                  ],
+                  "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+                  "sceneHeading": "场景三：马府外院",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch04_ma_courtyard_v1",
                   "role": "mawencai",

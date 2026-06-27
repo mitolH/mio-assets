@@ -665,8 +665,8 @@
             "interactions": [
               {
                 "id": "map_lz_ch03_mulberry_path_v1_story_b_zhuyingtai",
-                "name": "祝英台：处理桑田小路抉择",
-                "description": "祝英台围绕桑田小路抉择做出选择，推动当前章节继续前进。",
+                "name": "祝英台：九妹 / 自己",
+                "description": "祝英台在场景四：桑田小路围绕九妹、自己做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -679,7 +679,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "祝英台围绕桑田小路抉择做出选择，推动当前章节继续前进。"
+                    "value": "祝英台在场景四：桑田小路围绕九妹、自己做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -712,6 +712,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch03_eighteen_mile_farewell",
+                  "sceneId": "ch03_scene_04_mulberry_path",
+                  "mapId": "map_lz_ch03_mulberry_path_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "九妹 / 自己",
+                  "keywords": [
+                    "九妹",
+                    "自己"
+                  ],
+                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+                  "sceneHeading": "场景四：桑田小路",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch03_mulberry_path_v1",
                   "role": "zhuyingtai",
@@ -724,8 +739,8 @@
               },
               {
                 "id": "map_lz_ch03_mulberry_path_v1_story_b_liangshanbo",
-                "name": "梁山伯：处理桑田小路抉择",
-                "description": "梁山伯围绕桑田小路抉择做出选择，推动当前章节继续前进。",
+                "name": "梁山伯：求亲 / 祝府",
+                "description": "梁山伯在场景四：桑田小路围绕求亲、祝府做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -738,7 +753,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "梁山伯围绕桑田小路抉择做出选择，推动当前章节继续前进。"
+                    "value": "梁山伯在场景四：桑田小路围绕求亲、祝府做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -771,6 +786,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch03_eighteen_mile_farewell",
+                  "sceneId": "ch03_scene_04_mulberry_path",
+                  "mapId": "map_lz_ch03_mulberry_path_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "求亲 / 祝府",
+                  "keywords": [
+                    "求亲",
+                    "祝府"
+                  ],
+                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+                  "sceneHeading": "场景四：桑田小路",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch03_mulberry_path_v1",
                   "role": "liangshanbo",
@@ -783,8 +813,8 @@
               },
               {
                 "id": "map_lz_ch03_mulberry_path_v1_story_b_mawencai",
-                "name": "马文才：处理桑田小路抉择",
-                "description": "马文才围绕桑田小路抉择做出选择，推动当前章节继续前进。",
+                "name": "马文才：女儿待嫁 / 确认",
+                "description": "马文才在场景四：桑田小路围绕女儿待嫁、确认做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -797,7 +827,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "马文才围绕桑田小路抉择做出选择，推动当前章节继续前进。"
+                    "value": "马文才在场景四：桑田小路围绕女儿待嫁、确认做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -830,6 +860,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch03_eighteen_mile_farewell",
+                  "sceneId": "ch03_scene_04_mulberry_path",
+                  "mapId": "map_lz_ch03_mulberry_path_v1",
+                  "role": "mawencai",
+                  "eventLabel": "女儿待嫁 / 确认",
+                  "keywords": [
+                    "女儿待嫁",
+                    "确认"
+                  ],
+                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+                  "sceneHeading": "场景四：桑田小路",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch03_mulberry_path_v1",
                   "role": "mawencai",

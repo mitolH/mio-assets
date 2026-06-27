@@ -672,8 +672,8 @@
             "interactions": [
               {
                 "id": "map_lz_ch02_classroom_v1_story_b_zhuyingtai",
-                "name": "祝英台：处理讲堂抉择",
-                "description": "祝英台围绕讲堂抉择做出选择，推动当前章节继续前进。",
+                "name": "祝英台：证明 / 书院",
+                "description": "祝英台在场景二：讲堂围绕证明、书院做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -686,7 +686,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "祝英台围绕讲堂抉择做出选择，推动当前章节继续前进。"
+                    "value": "祝英台在场景二：讲堂围绕证明、书院做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -719,6 +719,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch02_classmates_three_years",
+                  "sceneId": "ch02_scene_02_classroom",
+                  "mapId": "map_lz_ch02_classroom_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "证明 / 书院",
+                  "keywords": [
+                    "证明",
+                    "书院"
+                  ],
+                  "chapterFile": "chapter-02-classmates-three-years.md",
+                  "sceneHeading": "场景二：讲堂",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch02_classroom_v1",
                   "role": "zhuyingtai",
@@ -731,8 +746,8 @@
               },
               {
                 "id": "map_lz_ch02_classroom_v1_story_b_liangshanbo",
-                "name": "梁山伯：处理讲堂抉择",
-                "description": "梁山伯围绕讲堂抉择做出选择，推动当前章节继续前进。",
+                "name": "梁山伯：论据 / 维护",
+                "description": "梁山伯在场景二：讲堂围绕论据、维护做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -745,7 +760,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "梁山伯围绕讲堂抉择做出选择，推动当前章节继续前进。"
+                    "value": "梁山伯在场景二：讲堂围绕论据、维护做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -778,6 +793,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch02_classmates_three_years",
+                  "sceneId": "ch02_scene_02_classroom",
+                  "mapId": "map_lz_ch02_classroom_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "论据 / 维护",
+                  "keywords": [
+                    "论据",
+                    "维护"
+                  ],
+                  "chapterFile": "chapter-02-classmates-three-years.md",
+                  "sceneHeading": "场景二：讲堂",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch02_classroom_v1",
                   "role": "liangshanbo",
@@ -790,8 +820,8 @@
               },
               {
                 "id": "map_lz_ch02_classroom_v1_story_b_mawencai",
-                "name": "马文才：处理讲堂抉择",
-                "description": "马文才围绕讲堂抉择做出选择，推动当前章节继续前进。",
+                "name": "马文才：礼法 / 压迫",
+                "description": "马文才在场景二：讲堂围绕礼法、压迫做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -804,7 +834,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "马文才围绕讲堂抉择做出选择，推动当前章节继续前进。"
+                    "value": "马文才在场景二：讲堂围绕礼法、压迫做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -832,6 +862,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch02_classmates_three_years",
+                  "sceneId": "ch02_scene_02_classroom",
+                  "mapId": "map_lz_ch02_classroom_v1",
+                  "role": "mawencai",
+                  "eventLabel": "礼法 / 压迫",
+                  "keywords": [
+                    "礼法",
+                    "压迫"
+                  ],
+                  "chapterFile": "chapter-02-classmates-three-years.md",
+                  "sceneHeading": "场景二：讲堂",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch02_classroom_v1",
                   "role": "mawencai",

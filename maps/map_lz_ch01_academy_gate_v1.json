@@ -679,8 +679,8 @@
             "interactions": [
               {
                 "id": "map_lz_ch01_academy_gate_v1_story_b_zhuyingtai",
-                "name": "祝英台：处理书院门前抉择",
-                "description": "祝英台围绕书院门前抉择做出选择，推动当前章节继续前进。",
+                "name": "祝英台：登记 / 进入书院",
+                "description": "祝英台在场景四：书院门前围绕登记、进入书院做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -693,7 +693,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "祝英台围绕书院门前抉择做出选择，推动当前章节继续前进。"
+                    "value": "祝英台在场景四：书院门前围绕登记、进入书院做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -726,6 +726,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch01_yingtai_leaves_home",
+                  "sceneId": "ch01_scene_04_academy_gate",
+                  "mapId": "map_lz_ch01_academy_gate_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "登记 / 进入书院",
+                  "keywords": [
+                    "登记",
+                    "进入书院"
+                  ],
+                  "chapterFile": "chapter-01-yingtai-leaves-home.md",
+                  "sceneHeading": "场景四：书院门前",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch01_academy_gate_v1",
                   "role": "zhuyingtai",
@@ -738,8 +753,8 @@
               },
               {
                 "id": "map_lz_ch01_academy_gate_v1_story_b_liangshanbo",
-                "name": "梁山伯：处理书院门前抉择",
-                "description": "梁山伯围绕书院门前抉择做出选择，推动当前章节继续前进。",
+                "name": "梁山伯：担保 / 冲突",
+                "description": "梁山伯在场景四：书院门前围绕担保、冲突做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -752,7 +767,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "梁山伯围绕书院门前抉择做出选择，推动当前章节继续前进。"
+                    "value": "梁山伯在场景四：书院门前围绕担保、冲突做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -780,6 +795,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch01_yingtai_leaves_home",
+                  "sceneId": "ch01_scene_04_academy_gate",
+                  "mapId": "map_lz_ch01_academy_gate_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "担保 / 冲突",
+                  "keywords": [
+                    "担保",
+                    "冲突"
+                  ],
+                  "chapterFile": "chapter-01-yingtai-leaves-home.md",
+                  "sceneHeading": "场景四：书院门前",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch01_academy_gate_v1",
                   "role": "liangshanbo",
@@ -792,8 +822,8 @@
               },
               {
                 "id": "map_lz_ch01_academy_gate_v1_story_b_mawencai",
-                "name": "马文才：处理书院门前抉择",
-                "description": "马文才围绕书院门前抉择做出选择，推动当前章节继续前进。",
+                "name": "马文才：观察新生 / 克制",
+                "description": "马文才在场景四：书院门前围绕观察新生、克制做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -806,7 +836,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "马文才围绕书院门前抉择做出选择，推动当前章节继续前进。"
+                    "value": "马文才在场景四：书院门前围绕观察新生、克制做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -844,6 +874,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch01_yingtai_leaves_home",
+                  "sceneId": "ch01_scene_04_academy_gate",
+                  "mapId": "map_lz_ch01_academy_gate_v1",
+                  "role": "mawencai",
+                  "eventLabel": "观察新生 / 克制",
+                  "keywords": [
+                    "观察新生",
+                    "克制"
+                  ],
+                  "chapterFile": "chapter-01-yingtai-leaves-home.md",
+                  "sceneHeading": "场景四：书院门前",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch01_academy_gate_v1",
                   "role": "mawencai",

@@ -665,8 +665,8 @@
             "interactions": [
               {
                 "id": "map_lz_ch02_library_v1_story_b_zhuyingtai",
-                "name": "祝英台：处理藏书楼抉择",
-                "description": "祝英台围绕藏书楼抉择做出选择，推动当前章节继续前进。",
+                "name": "祝英台：缺页 / 私人物件",
+                "description": "祝英台在场景三：藏书楼围绕缺页、私人物件做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -679,7 +679,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "祝英台围绕藏书楼抉择做出选择，推动当前章节继续前进。"
+                    "value": "祝英台在场景三：藏书楼围绕缺页、私人物件做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -712,6 +712,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch02_classmates_three_years",
+                  "sceneId": "ch02_scene_03_library",
+                  "mapId": "map_lz_ch02_library_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "缺页 / 私人物件",
+                  "keywords": [
+                    "缺页",
+                    "私人物件"
+                  ],
+                  "chapterFile": "chapter-02-classmates-three-years.md",
+                  "sceneHeading": "场景三：藏书楼",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch02_library_v1",
                   "role": "zhuyingtai",
@@ -724,8 +739,8 @@
               },
               {
                 "id": "map_lz_ch02_library_v1_story_b_liangshanbo",
-                "name": "梁山伯：处理藏书楼抉择",
-                "description": "梁山伯围绕藏书楼抉择做出选择，推动当前章节继续前进。",
+                "name": "梁山伯：夜读 / 异常",
+                "description": "梁山伯在场景三：藏书楼围绕夜读、异常做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -738,7 +753,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "梁山伯围绕藏书楼抉择做出选择，推动当前章节继续前进。"
+                    "value": "梁山伯在场景三：藏书楼围绕夜读、异常做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -776,6 +791,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch02_classmates_three_years",
+                  "sceneId": "ch02_scene_03_library",
+                  "mapId": "map_lz_ch02_library_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "夜读 / 异常",
+                  "keywords": [
+                    "夜读",
+                    "异常"
+                  ],
+                  "chapterFile": "chapter-02-classmates-three-years.md",
+                  "sceneHeading": "场景三：藏书楼",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch02_library_v1",
                   "role": "liangshanbo",
@@ -788,8 +818,8 @@
               },
               {
                 "id": "map_lz_ch02_library_v1_story_b_mawencai",
-                "name": "马文才：处理藏书楼抉择",
-                "description": "马文才围绕藏书楼抉择做出选择，推动当前章节继续前进。",
+                "name": "马文才：身份不稳 / 线索",
+                "description": "马文才在场景三：藏书楼围绕身份不稳、线索做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -802,7 +832,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "马文才围绕藏书楼抉择做出选择，推动当前章节继续前进。"
+                    "value": "马文才在场景三：藏书楼围绕身份不稳、线索做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -835,6 +865,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch02_classmates_three_years",
+                  "sceneId": "ch02_scene_03_library",
+                  "mapId": "map_lz_ch02_library_v1",
+                  "role": "mawencai",
+                  "eventLabel": "身份不稳 / 线索",
+                  "keywords": [
+                    "身份不稳",
+                    "线索"
+                  ],
+                  "chapterFile": "chapter-02-classmates-three-years.md",
+                  "sceneHeading": "场景三：藏书楼",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch02_library_v1",
                   "role": "mawencai",

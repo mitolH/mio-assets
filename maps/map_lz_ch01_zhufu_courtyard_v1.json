@@ -788,8 +788,8 @@
             "interactions": [
               {
                 "id": "map_lz_ch01_zhufu_courtyard_v1_story_b_zhuyingtai",
-                "name": "祝英台：处理祝英台家抉择",
-                "description": "祝英台围绕祝英台家抉择做出选择，推动当前章节继续前进。",
+                "name": "祝英台：书箱 / 折扇",
+                "description": "祝英台在场景一：祝英台家围绕书箱、折扇做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -802,7 +802,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "祝英台围绕祝英台家抉择做出选择，推动当前章节继续前进。"
+                    "value": "祝英台在场景一：祝英台家围绕书箱、折扇做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -835,6 +835,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch01_yingtai_leaves_home",
+                  "sceneId": "ch01_scene_01_zhufu_home",
+                  "mapId": "map_lz_ch01_zhufu_courtyard_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "书箱 / 折扇",
+                  "keywords": [
+                    "书箱",
+                    "折扇"
+                  ],
+                  "chapterFile": "chapter-01-yingtai-leaves-home.md",
+                  "sceneHeading": "场景一：祝英台家",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch01_zhufu_courtyard_v1",
                   "role": "zhuyingtai",
@@ -847,8 +862,8 @@
               },
               {
                 "id": "map_lz_ch01_zhufu_courtyard_v1_story_b_liangshanbo",
-                "name": "梁山伯：处理祝英台家抉择",
-                "description": "梁山伯围绕祝英台家抉择做出选择，推动当前章节继续前进。",
+                "name": "梁山伯：传闻 / 祝家子弟",
+                "description": "梁山伯在场景一：祝英台家围绕传闻、祝家子弟做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -861,7 +876,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "梁山伯围绕祝英台家抉择做出选择，推动当前章节继续前进。"
+                    "value": "梁山伯在场景一：祝英台家围绕传闻、祝家子弟做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -889,6 +904,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch01_yingtai_leaves_home",
+                  "sceneId": "ch01_scene_01_zhufu_home",
+                  "mapId": "map_lz_ch01_zhufu_courtyard_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "传闻 / 祝家子弟",
+                  "keywords": [
+                    "传闻",
+                    "祝家子弟"
+                  ],
+                  "chapterFile": "chapter-01-yingtai-leaves-home.md",
+                  "sceneHeading": "场景一：祝英台家",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch01_zhufu_courtyard_v1",
                   "role": "liangshanbo",
@@ -901,8 +931,8 @@
               },
               {
                 "id": "map_lz_ch01_zhufu_courtyard_v1_story_b_mawencai",
-                "name": "马文才：处理祝英台家抉择",
-                "description": "马文才围绕祝英台家抉择做出选择，推动当前章节继续前进。",
+                "name": "马文才：登记册 / 祝氏子弟",
+                "description": "马文才在场景一：祝英台家围绕登记册、祝氏子弟做出选择，推动当前章节继续前进。",
                 "type": "examine",
                 "conditions": [
                   {
@@ -915,7 +945,7 @@
                   {
                     "type": "show_dialog",
                     "target": "dialog",
-                    "value": "马文才围绕祝英台家抉择做出选择，推动当前章节继续前进。"
+                    "value": "马文才在场景一：祝英台家围绕登记册、祝氏子弟做出选择，推动当前章节继续前进。"
                   },
                   {
                     "type": "modify_attribute",
@@ -943,6 +973,21 @@
                   }
                 ],
                 "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch01_yingtai_leaves_home",
+                  "sceneId": "ch01_scene_01_zhufu_home",
+                  "mapId": "map_lz_ch01_zhufu_courtyard_v1",
+                  "role": "mawencai",
+                  "eventLabel": "登记册 / 祝氏子弟",
+                  "keywords": [
+                    "登记册",
+                    "祝氏子弟"
+                  ],
+                  "chapterFile": "chapter-01-yingtai-leaves-home.md",
+                  "sceneHeading": "场景一：祝英台家",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
                 "authoredRoleState": {
                   "mapId": "map_lz_ch01_zhufu_courtyard_v1",
                   "role": "mawencai",
