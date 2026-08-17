@@ -83,8 +83,8 @@
       "name": "Body",
       "zOrder": 0,
       "defaultComponentId": "comp_liangshanbo_idle_down_f1_story_v2",
-      "defaultOffsetX": 0,
-      "defaultOffsetY": 0,
+      "defaultOffsetX": -24,
+      "defaultOffsetY": -96,
       "visible": true
     }
   ],

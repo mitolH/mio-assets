@@ -46,8 +46,8 @@
       "name": "Body",
       "zOrder": 0,
       "defaultComponentId": "comp_zhuyingtai_butterfly_idle_down_f1_story_v1",
-      "defaultOffsetX": 0,
-      "defaultOffsetY": 0,
+      "defaultOffsetX": -24,
+      "defaultOffsetY": -96,
       "visible": true
     }
   ],
