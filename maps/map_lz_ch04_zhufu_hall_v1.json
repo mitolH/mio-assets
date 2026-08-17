@@ -4,6 +4,48 @@
   "description": "祝府正厅，梁祝五章第一版统一风格可玩地图。",
   "widthInTiles": 44,
   "heightInTiles": 32,
+  "level": {
+    "formatVersion": 1,
+    "startLocationId": "map_lz_ch04_zhufu_hall_v1_start",
+    "assets": {
+      "componentIds": [
+        "comp_lz_ground_grass_story_v1",
+        "comp_lz_ground_wood_story_v1",
+        "comp_lz_prop_marriage_doc_story_v1",
+        "comp_lz_prop_red_veil_story_v1",
+        "comp_map_lz_ch04_zhufu_hall_v1_ambient_scene_detail_v2",
+        "comp_map_lz_ch04_zhufu_hall_v1_focus_story_v1",
+        "comp_map_lz_ch04_zhufu_hall_v1_left_scene_detail_v2",
+        "comp_map_lz_ch04_zhufu_hall_v1_left_scene_fixture_v1",
+        "comp_map_lz_ch04_zhufu_hall_v1_path_scene_detail_v2",
+        "comp_map_lz_ch04_zhufu_hall_v1_right_scene_detail_v2",
+        "comp_map_lz_ch04_zhufu_hall_v1_right_scene_fixture_v1",
+        "comp_map_lz_ch04_zhufu_hall_v1_story_atmosphere_v6",
+        "comp_map_lz_ch04_zhufu_hall_v1_story_composition_v4",
+        "comp_map_lz_ch04_zhufu_hall_v1_story_scene_plate_v10",
+        "comp_map_lz_ch04_zhufu_hall_v1_story_tableau_v4",
+        "comp_pressure_ancestor_tablet_v1",
+        "comp_pressure_ceremony_screen_v1",
+        "comp_pressure_marriage_desk_v1",
+        "comp_pressure_red_candles_v1"
+      ],
+      "spriteIds": [
+        "sprite_liangshanbo_48x96_story_v2",
+        "sprite_liangshanbo_butterfly_48x96_story_v1",
+        "sprite_liangshanbo_sick_48x96_story_v1",
+        "sprite_matchmaker_48x96_story_v1",
+        "sprite_mawencai_48x96_story_v1",
+        "sprite_zhufu_father_48x96_story_v1",
+        "sprite_zhufu_mother_48x96_story_v1",
+        "sprite_zhuyingtai_48x96_story_v1",
+        "sprite_zhuyingtai_butterfly_48x96_story_v1",
+        "sprite_zhuyingtai_wedding_48x96_story_v1"
+      ],
+      "mapIds": [
+        "map_lz_ch04_zhufu_hall_v1"
+      ]
+    }
+  },
   "layers": [
     {
       "id": "map_lz_ch04_zhufu_hall_v1_ground",

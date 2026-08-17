@@ -1,1 +1,1213 @@
-{"id":"map_lz_ch05_butterfly_end_v1","name":"化蝶终景 v1","description":"化蝶终景，梁祝五章第一版统一风格可玩地图。","widthInTiles":44,"heightInTiles":32,"layers":[{"id":"map_lz_ch05_butterfly_end_v1_ground","name":"Ground","type":"ground","visible":true,"locked":false,"opacity":1,"components":[{"assetType":"component","componentId":"comp_map_lz_ch05_butterfly_end_v1_approved_bridge_scene_v4","tileX":0,"tileY":0}]},{"id":"map_lz_ch05_butterfly_end_v1_objects","name":"Objects","type":"object","visible":true,"locked":false,"opacity":1,"components":[{"assetType":"component","componentId":"comp_liangzhu_transparent_interaction_marker_v1","tileX":20,"tileY":14,"refId":"map_lz_ch05_butterfly_end_v1_story_a","interaction":{"interactionRange":2,"indicatorType":"sparkle","interactions":[{"id":"map_lz_ch05_butterfly_end_v1_story_a_inspect","name":"查看化蝶终景线索","description":"化蝶终景线索承载着当前章节的关键线索。","type":"examine","conditions":[],"effects":[{"type":"show_dialog","target":"dialog","value":"化蝶终景线索承载着当前章节的关键线索。"},{"type":"show_dialog","target":"dialog","value":"化蝶终景线索提示了当前场景的主要矛盾。"}],"weight":1},{"id":"map_lz_ch05_butterfly_end_v1_story_a_choice","name":"处理化蝶终景线索","description":"你围绕化蝶终景线索整理线索，真正的角色状态结算会在抉择点发生。","type":"examine","conditions":[],"effects":[{"type":"show_dialog","target":"dialog","value":"你围绕化蝶终景线索整理线索，真正的角色状态结算会在抉择点发生。"},{"type":"show_dialog","target":"dialog","value":"化蝶终景线索已记录为共同线索。"}],"weight":1}]}},{"assetType":"component","componentId":"comp_liangzhu_transparent_interaction_marker_v1","tileX":23,"tileY":14,"refId":"map_lz_ch05_butterfly_end_v1_story_b","interaction":{"interactionRange":2,"indicatorType":"sparkle","interactions":[{"id":"map_lz_ch05_butterfly_end_v1_story_b_zhuyingtai","name":"祝英台：红衣 / 蝶影","description":"祝英台在场景五：化蝶终景围绕红衣、蝶影做出选择，推动当前章节继续前进。","type":"examine","conditions":[{"type":"flag","operator":"eq","value":"role_zhuyingtai"}],"effects":[{"type":"show_dialog","target":"dialog","value":"祝英台在场景五：化蝶终景围绕红衣、蝶影做出选择，推动当前章节继续前进。"},{"type":"modify_attribute","target":"mood","value":3},{"type":"modify_attribute","target":"health","value":-1},{"type":"modify_story_variable","target":"tragedyWeight","value":1},{"type":"modify_story_variable","target":"liangTrust","value":1},{"type":"add_flag","target":"","value":"liangzhu_completed"}],"weight":1,"scriptEvent":{"storyId":"liangzhu","chapterId":"ch05_tower_and_butterflies","sceneId":"ch05_scene_05_butterfly_end","mapId":"map_lz_ch05_butterfly_end_v1","role":"zhuyingtai","eventLabel":"红衣 / 蝶影","keywords":["红衣","蝶影"],"chapterFile":"chapter-05-tower-and-butterflies.md","sceneHeading":"场景五：化蝶终景","source":"docs/liangzhu-game/scene-doc-references.json"},"authoredRoleState":{"mapId":"map_lz_ch05_butterfly_end_v1","role":"zhuyingtai","presence":"soul","impactScope":"transcendent","source":"sceneRoleStateEffects"},"rolePresence":"soul","stateImpactScope":"transcendent"},{"id":"map_lz_ch05_butterfly_end_v1_story_b_liangshanbo","name":"梁山伯：回应 / 双蝶","description":"梁山伯在场景五：化蝶终景围绕回应、双蝶做出选择，推动当前章节继续前进。","type":"examine","conditions":[{"type":"flag","operator":"eq","value":"role_liangshanbo"}],"effects":[{"type":"show_dialog","target":"dialog","value":"梁山伯在场景五：化蝶终景围绕回应、双蝶做出选择，推动当前章节继续前进。"},{"type":"modify_attribute","target":"mood","value":3},{"type":"modify_attribute","target":"social","value":1},{"type":"modify_story_variable","target":"liangTrust","value":1},{"type":"modify_story_variable","target":"promiseClarity","value":1},{"type":"add_flag","target":"","value":"liangzhu_completed"}],"weight":1,"scriptEvent":{"storyId":"liangzhu","chapterId":"ch05_tower_and_butterflies","sceneId":"ch05_scene_05_butterfly_end","mapId":"map_lz_ch05_butterfly_end_v1","role":"liangshanbo","eventLabel":"回应 / 双蝶","keywords":["回应","双蝶"],"chapterFile":"chapter-05-tower-and-butterflies.md","sceneHeading":"场景五：化蝶终景","source":"docs/liangzhu-game/scene-doc-references.json"},"authoredRoleState":{"mapId":"map_lz_ch05_butterfly_end_v1","role":"liangshanbo","presence":"soul","impactScope":"transcendent","source":"sceneRoleStateEffects"},"rolePresence":"soul","stateImpactScope":"transcendent"},{"id":"map_lz_ch05_butterfly_end_v1_story_b_mawencai","name":"马文才：见证 / 评价","description":"马文才在场景五：化蝶终景围绕见证、评价做出选择，推动当前章节继续前进。","type":"examine","conditions":[{"type":"flag","operator":"eq","value":"role_mawencai"}],"effects":[{"type":"show_dialog","target":"dialog","value":"马文才在场景五：化蝶终景围绕见证、评价做出选择，推动当前章节继续前进。"},{"type":"modify_attribute","target":"mood","value":-2},{"type":"modify_attribute","target":"social","value":-2},{"type":"modify_attribute","target":"wealth","value":-1},{"type":"modify_attribute","target":"health","value":-1},{"type":"modify_story_variable","target":"maRestraint","value":1},{"type":"modify_story_variable","target":"tragedyWeight","value":1},{"type":"add_flag","target":"","value":"liangzhu_completed"}],"weight":1,"scriptEvent":{"storyId":"liangzhu","chapterId":"ch05_tower_and_butterflies","sceneId":"ch05_scene_05_butterfly_end","mapId":"map_lz_ch05_butterfly_end_v1","role":"mawencai","eventLabel":"见证 / 评价","keywords":["见证","评价"],"chapterFile":"chapter-05-tower-and-butterflies.md","sceneHeading":"场景五：化蝶终景","source":"docs/liangzhu-game/scene-doc-references.json"},"authoredRoleState":{"mapId":"map_lz_ch05_butterfly_end_v1","role":"mawencai","presence":"witness","impactScope":"witness","source":"sceneRoleStateEffects"},"rolePresence":"witness","stateImpactScope":"witness"}]}},{"assetType":"component","componentId":"comp_liangzhu_transparent_interaction_marker_v1","tileX":25,"tileY":14,"refId":"map_lz_ch05_butterfly_end_v1_story_route","interaction":{"interactionRange":2,"indicatorType":"question","interactions":[{"id":"map_lz_ch05_butterfly_end_v1_route_rain_after_academy","name":"雨后书院","description":"镜头回到书院竹林，显示二人曾经的书案。","type":"examine","conditions":[{"type":"story_variable","operator":"gte","field":"liangTrust","value":4}],"effects":[{"type":"show_dialog","target":"dialog","value":"镜头回到书院竹林，显示二人曾经的书案。"}],"weight":1,"storyRoute":{"mapId":"map_lz_ch05_butterfly_end_v1","routeId":"rain_after_academy","source":"docs/liangzhu-game"}},{"id":"map_lz_ch05_butterfly_end_v1_route_wet_marriage_doc","name":"空婚书","description":"雨水打湿婚书，马文才留在原地，终于看见礼法抓不住人心。","type":"examine","conditions":[{"type":"story_variable","operator":"gte","field":"maPressure","value":4}],"effects":[{"type":"show_dialog","target":"dialog","value":"雨水打湿婚书，马文才留在原地，终于看见礼法抓不住人心。"}],"weight":1,"storyRoute":{"mapId":"map_lz_ch05_butterfly_end_v1","routeId":"wet_marriage_doc","source":"docs/liangzhu-game"}},{"id":"map_lz_ch05_butterfly_end_v1_route_powerless_regret","name":"无力悔意","description":"马文才放下玉佩或折扇，不再追赶双蝶。","type":"examine","conditions":[{"type":"story_variable","operator":"gte","field":"maRestraint","value":4}],"effects":[{"type":"show_dialog","target":"dialog","value":"马文才放下玉佩或折扇，不再追赶双蝶。"}],"weight":1,"storyRoute":{"mapId":"map_lz_ch05_butterfly_end_v1","routeId":"powerless_regret","source":"docs/liangzhu-game"}}]}},{"assetType":"sprite","spriteId":"sprite_liangzhu_dual_butterflies_144x96_v4","animationId":"idle-down","tileX":22,"tileY":12,"refId":"map_lz_ch05_butterfly_end_v1_actor_dual_butterflies_v4"}]},{"id":"map_lz_ch05_butterfly_end_v1_decor","name":"Decoration","type":"decoration","visible":true,"locked":false,"opacity":1,"components":[]}],"districts":[{"districtId":"map_lz_ch05_butterfly_end_v1_district","name":"化蝶终景","x":0,"y":0,"width":44,"height":32,"terrainTags":["water"],"locations":[{"id":"map_lz_ch05_butterfly_end_v1_start","name":"化蝶终景入口","terrainTags":["urban"],"eventDensity":1,"offsetX":21,"offsetY":15},{"id":"map_lz_ch05_butterfly_end_v1_clue","name":"化蝶终景线索点","terrainTags":["urban"],"eventDensity":1,"offsetX":20,"offsetY":14},{"id":"map_lz_ch05_butterfly_end_v1_choice","name":"化蝶终景抉择点","terrainTags":["urban"],"eventDensity":1,"offsetX":23,"offsetY":14}],"defaultEventDensity":1}],"itemDefs":[],"teleports":[],"createdAt":1782325200000,"updatedAt":"2026-07-02T04:42:04Z","version":1,"story":{"storyId":"liangzhu","chapterId":"ch05_tower_and_butterflies","sceneId":"ch05_scene_05_butterfly_end","scriptReference":{"chapterFile":"chapter-05-tower-and-butterflies.md","sceneHeading":"场景五：化蝶终景","roleGoalKeywords":{"zhuyingtai":["红衣","蝶影"],"liangshanbo":["回应","双蝶"],"mawencai":["见证","评价"]}},"artStyle":{"storyId":"liangzhu","visualStyle":"high-detail eastern historical pixel game scene","baseTileSize":16,"characterScale":"48x96","detailTier":"S+","sceneFamily":"butterfly","chapterPalette":"cold-rain-white-red-butterfly","mood":"tragedy and transcendence","focusTier":"S","detailPass":"dual-butterflies-v4","sceneCanvasComponentId":"comp_map_lz_ch05_butterfly_end_v1_approved_bridge_scene_v4","dualButterflySpriteId":"sprite_liangzhu_dual_butterflies_144x96_v4"}}}
+{
+  "id": "map_lz_ch05_butterfly_end_v1",
+  "name": "化蝶终景 v1",
+  "description": "化蝶终景，梁祝五章第一版统一风格可玩地图。",
+  "widthInTiles": 44,
+  "heightInTiles": 32,
+  "level": {
+    "formatVersion": 1,
+    "startLocationId": "map_lz_ch05_butterfly_end_v1_start",
+    "assets": {
+      "componentIds": [
+        "comp_finale_butterfly_wings_v1",
+        "comp_finale_grave_crack_v1",
+        "comp_finale_gravestone_v1",
+        "comp_finale_memory_silhouettes_v1",
+        "comp_lz_ground_grass_story_v1",
+        "comp_lz_ground_water_story_v1",
+        "comp_lz_prop_butterflies_story_v1",
+        "comp_lz_prop_fan_jade_story_v1",
+        "comp_map_lz_ch05_butterfly_end_v1_ambient_scene_detail_v2",
+        "comp_map_lz_ch05_butterfly_end_v1_focus_story_v1",
+        "comp_map_lz_ch05_butterfly_end_v1_left_scene_detail_v2",
+        "comp_map_lz_ch05_butterfly_end_v1_left_scene_fixture_v1",
+        "comp_map_lz_ch05_butterfly_end_v1_path_scene_detail_v2",
+        "comp_map_lz_ch05_butterfly_end_v1_right_scene_detail_v2",
+        "comp_map_lz_ch05_butterfly_end_v1_right_scene_fixture_v1",
+        "comp_map_lz_ch05_butterfly_end_v1_story_atmosphere_v6",
+        "comp_map_lz_ch05_butterfly_end_v1_story_composition_v4",
+        "comp_map_lz_ch05_butterfly_end_v1_story_scene_plate_v10",
+        "comp_map_lz_ch05_butterfly_end_v1_story_tableau_v4"
+      ],
+      "spriteIds": [
+        "sprite_liangshanbo_48x96_story_v2",
+        "sprite_liangshanbo_butterfly_48x96_story_v1",
+        "sprite_liangshanbo_sick_48x96_story_v1",
+        "sprite_mawencai_48x96_story_v1",
+        "sprite_zhuyingtai_48x96_story_v1",
+        "sprite_zhuyingtai_butterfly_48x96_story_v1",
+        "sprite_zhuyingtai_wedding_48x96_story_v1"
+      ],
+      "mapIds": [
+        "map_lz_ch05_butterfly_end_v1"
+      ]
+    }
+  },
+  "layers": [
+    {
+      "id": "map_lz_ch05_butterfly_end_v1_ground",
+      "name": "Ground",
+      "type": "ground",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 0,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 4,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 8,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 12,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 16,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 20,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 24,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 28,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 32,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 36,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 40,
+          "tileY": 0
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 0,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 4,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 8,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 12,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 16,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 20,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 24,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 28,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 32,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 36,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 40,
+          "tileY": 4
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 0,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 4,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 8,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 12,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 16,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 20,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 24,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 28,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 32,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 36,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 40,
+          "tileY": 8
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 0,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 4,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 8,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 12,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 16,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 20,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 24,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 28,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 32,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 36,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 40,
+          "tileY": 12
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 0,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 4,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 8,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 12,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 16,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 20,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 24,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 28,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 32,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 36,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 40,
+          "tileY": 16
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 0,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 4,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 8,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 12,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 16,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 20,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 24,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 28,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 32,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 36,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 40,
+          "tileY": 20
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 0,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 4,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 8,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 12,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 16,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 20,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 24,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 28,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 32,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 36,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 40,
+          "tileY": 24
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 0,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 4,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 8,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 12,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 16,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 20,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 24,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 28,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 32,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 36,
+          "tileY": 28
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_water_story_v1",
+          "tileX": 40,
+          "tileY": 28
+        }
+      ]
+    },
+    {
+      "id": "map_lz_ch05_butterfly_end_v1_objects",
+      "name": "Objects",
+      "type": "object",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch05_butterfly_end_v1_focus_story_v1",
+          "tileX": 14,
+          "tileY": 3,
+          "refId": "map_lz_ch05_butterfly_end_v1_focus"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_butterfly_wings_v1",
+          "tileX": 16,
+          "tileY": 7,
+          "refId": "map_lz_ch05_butterfly_end_v1_finale_reference_butterfly_wings"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_memory_silhouettes_v1",
+          "tileX": 9,
+          "tileY": 13,
+          "refId": "map_lz_ch05_butterfly_end_v1_finale_reference_memory_silhouettes"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_gravestone_v1",
+          "tileX": 31,
+          "tileY": 14,
+          "refId": "map_lz_ch05_butterfly_end_v1_finale_reference_gravestone"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_finale_grave_crack_v1",
+          "tileX": 14,
+          "tileY": 20,
+          "refId": "map_lz_ch05_butterfly_end_v1_finale_reference_grave_crack"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch05_butterfly_end_v1_story_scene_plate_v10",
+          "tileX": 10,
+          "tileY": 2,
+          "refId": "map_lz_ch05_butterfly_end_v1_story_scene_plate"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch05_butterfly_end_v1_story_atmosphere_v6",
+          "tileX": 10,
+          "tileY": 2,
+          "refId": "map_lz_ch05_butterfly_end_v1_story_atmosphere"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_prop_butterflies_story_v1",
+          "tileX": 10,
+          "tileY": 20,
+          "refId": "map_lz_ch05_butterfly_end_v1_story_a",
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "sparkle",
+            "interactions": [
+              {
+                "id": "map_lz_ch05_butterfly_end_v1_story_a_inspect",
+                "name": "查看化蝶终景线索",
+                "description": "化蝶终景线索承载着当前章节的关键线索。",
+                "type": "examine",
+                "conditions": [],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "化蝶终景线索承载着当前章节的关键线索。"
+                  },
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "化蝶终景线索提示了当前场景的主要矛盾。"
+                  }
+                ],
+                "weight": 1
+              },
+              {
+                "id": "map_lz_ch05_butterfly_end_v1_story_a_choice",
+                "name": "处理化蝶终景线索",
+                "description": "你围绕化蝶终景线索整理线索，真正的角色状态结算会在抉择点发生。",
+                "type": "examine",
+                "conditions": [],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "你围绕化蝶终景线索整理线索，真正的角色状态结算会在抉择点发生。"
+                  },
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "化蝶终景线索已记录为共同线索。"
+                  }
+                ],
+                "weight": 1
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_prop_fan_jade_story_v1",
+          "tileX": 30,
+          "tileY": 20,
+          "refId": "map_lz_ch05_butterfly_end_v1_story_b",
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "sparkle",
+            "interactions": [
+              {
+                "id": "map_lz_ch05_butterfly_end_v1_story_b_zhuyingtai",
+                "name": "祝英台：红衣 / 蝶影",
+                "description": "祝英台在场景五：化蝶终景围绕红衣、蝶影做出选择，推动当前章节继续前进。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_zhuyingtai"
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "祝英台在场景五：化蝶终景围绕红衣、蝶影做出选择，推动当前章节继续前进。"
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "mood",
+                    "value": 3
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "health",
+                    "value": -1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "tragedyWeight",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "liangTrust",
+                    "value": 1
+                  },
+                  {
+                    "type": "add_flag",
+                    "target": "",
+                    "value": "liangzhu_completed"
+                  }
+                ],
+                "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch05_tower_and_butterflies",
+                  "sceneId": "ch05_scene_05_butterfly_end",
+                  "mapId": "map_lz_ch05_butterfly_end_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "红衣 / 蝶影",
+                  "keywords": [
+                    "红衣",
+                    "蝶影"
+                  ],
+                  "chapterFile": "chapter-05-tower-and-butterflies.md",
+                  "sceneHeading": "场景五：化蝶终景",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
+                "authoredRoleState": {
+                  "mapId": "map_lz_ch05_butterfly_end_v1",
+                  "role": "zhuyingtai",
+                  "presence": "soul",
+                  "impactScope": "transcendent",
+                  "source": "sceneRoleStateEffects"
+                },
+                "rolePresence": "soul",
+                "stateImpactScope": "transcendent"
+              },
+              {
+                "id": "map_lz_ch05_butterfly_end_v1_story_b_liangshanbo",
+                "name": "梁山伯：回应 / 双蝶",
+                "description": "梁山伯在场景五：化蝶终景围绕回应、双蝶做出选择，推动当前章节继续前进。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_liangshanbo"
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "梁山伯在场景五：化蝶终景围绕回应、双蝶做出选择，推动当前章节继续前进。"
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "mood",
+                    "value": 3
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "social",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "liangTrust",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "promiseClarity",
+                    "value": 1
+                  },
+                  {
+                    "type": "add_flag",
+                    "target": "",
+                    "value": "liangzhu_completed"
+                  }
+                ],
+                "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch05_tower_and_butterflies",
+                  "sceneId": "ch05_scene_05_butterfly_end",
+                  "mapId": "map_lz_ch05_butterfly_end_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "回应 / 双蝶",
+                  "keywords": [
+                    "回应",
+                    "双蝶"
+                  ],
+                  "chapterFile": "chapter-05-tower-and-butterflies.md",
+                  "sceneHeading": "场景五：化蝶终景",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
+                "authoredRoleState": {
+                  "mapId": "map_lz_ch05_butterfly_end_v1",
+                  "role": "liangshanbo",
+                  "presence": "soul",
+                  "impactScope": "transcendent",
+                  "source": "sceneRoleStateEffects"
+                },
+                "rolePresence": "soul",
+                "stateImpactScope": "transcendent"
+              },
+              {
+                "id": "map_lz_ch05_butterfly_end_v1_story_b_mawencai",
+                "name": "马文才：见证 / 评价",
+                "description": "马文才在场景五：化蝶终景围绕见证、评价做出选择，推动当前章节继续前进。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_mawencai"
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才在场景五：化蝶终景围绕见证、评价做出选择，推动当前章节继续前进。"
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "mood",
+                    "value": -2
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "social",
+                    "value": -2
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "wealth",
+                    "value": -1
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "health",
+                    "value": -1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "maRestraint",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "tragedyWeight",
+                    "value": 1
+                  },
+                  {
+                    "type": "add_flag",
+                    "target": "",
+                    "value": "liangzhu_completed"
+                  }
+                ],
+                "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch05_tower_and_butterflies",
+                  "sceneId": "ch05_scene_05_butterfly_end",
+                  "mapId": "map_lz_ch05_butterfly_end_v1",
+                  "role": "mawencai",
+                  "eventLabel": "见证 / 评价",
+                  "keywords": [
+                    "见证",
+                    "评价"
+                  ],
+                  "chapterFile": "chapter-05-tower-and-butterflies.md",
+                  "sceneHeading": "场景五：化蝶终景",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
+                "authoredRoleState": {
+                  "mapId": "map_lz_ch05_butterfly_end_v1",
+                  "role": "mawencai",
+                  "presence": "witness",
+                  "impactScope": "witness",
+                  "source": "sceneRoleStateEffects"
+                },
+                "rolePresence": "witness",
+                "stateImpactScope": "witness"
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_prop_butterflies_story_v1",
+          "tileX": 36,
+          "tileY": 24,
+          "refId": "map_lz_ch05_butterfly_end_v1_story_route",
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "question",
+            "interactions": [
+              {
+                "id": "map_lz_ch05_butterfly_end_v1_route_rain_after_academy",
+                "name": "雨后书院",
+                "description": "镜头回到书院竹林，显示二人曾经的书案。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "liangTrust",
+                    "value": 4
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "镜头回到书院竹林，显示二人曾经的书案。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch05_butterfly_end_v1",
+                  "routeId": "rain_after_academy",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
+                "id": "map_lz_ch05_butterfly_end_v1_route_wet_marriage_doc",
+                "name": "空婚书",
+                "description": "雨水打湿婚书，马文才留在原地，终于看见礼法抓不住人心。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "maPressure",
+                    "value": 4
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "雨水打湿婚书，马文才留在原地，终于看见礼法抓不住人心。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch05_butterfly_end_v1",
+                  "routeId": "wet_marriage_doc",
+                  "source": "docs/liangzhu-game"
+                }
+              },
+              {
+                "id": "map_lz_ch05_butterfly_end_v1_route_powerless_regret",
+                "name": "无力悔意",
+                "description": "马文才放下玉佩或折扇，不再追赶双蝶。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "story_variable",
+                    "operator": "gte",
+                    "field": "maRestraint",
+                    "value": 4
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才放下玉佩或折扇，不再追赶双蝶。"
+                  }
+                ],
+                "weight": 1,
+                "storyRoute": {
+                  "mapId": "map_lz_ch05_butterfly_end_v1",
+                  "routeId": "powerless_regret",
+                  "source": "docs/liangzhu-game"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch05_butterfly_end_v1_story_composition_v4",
+          "tileX": 10,
+          "tileY": 13,
+          "refId": "map_lz_ch05_butterfly_end_v1_story_composition"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_zhuyingtai_butterfly_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 18,
+          "tileY": 21,
+          "refId": "map_lz_ch05_butterfly_end_v1_actor_zhuyingtai_butterfly_1"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_liangshanbo_butterfly_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 23,
+          "tileY": 21,
+          "refId": "map_lz_ch05_butterfly_end_v1_actor_liangshanbo_butterfly_2"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_mawencai_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 31,
+          "tileY": 21,
+          "refId": "map_lz_ch05_butterfly_end_v1_actor_mawencai_3"
+        }
+      ]
+    },
+    {
+      "id": "map_lz_ch05_butterfly_end_v1_decor",
+      "name": "Decoration",
+      "type": "decoration",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch05_butterfly_end_v1_story_tableau_v4",
+          "tileX": 2,
+          "tileY": 12,
+          "refId": "map_lz_ch05_butterfly_end_v1_story_tableau"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch05_butterfly_end_v1_left_scene_fixture_v1",
+          "tileX": 4,
+          "tileY": 16,
+          "refId": "map_lz_ch05_butterfly_end_v1_scene_fixture_left"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch05_butterfly_end_v1_right_scene_fixture_v1",
+          "tileX": 30,
+          "tileY": 16,
+          "refId": "map_lz_ch05_butterfly_end_v1_scene_fixture_right"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch05_butterfly_end_v1_left_scene_detail_v2",
+          "tileX": 4,
+          "tileY": 23,
+          "refId": "map_lz_ch05_butterfly_end_v1_scene_detail_left"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch05_butterfly_end_v1_right_scene_detail_v2",
+          "tileX": 36,
+          "tileY": 22,
+          "refId": "map_lz_ch05_butterfly_end_v1_scene_detail_right"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch05_butterfly_end_v1_path_scene_detail_v2",
+          "tileX": 20,
+          "tileY": 25,
+          "refId": "map_lz_ch05_butterfly_end_v1_scene_detail_path"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_map_lz_ch05_butterfly_end_v1_ambient_scene_detail_v2",
+          "tileX": 8,
+          "tileY": 8,
+          "refId": "map_lz_ch05_butterfly_end_v1_scene_detail_ambient"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 1,
+          "tileY": 1
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ground_grass_story_v1",
+          "tileX": 39,
+          "tileY": 1
+        }
+      ]
+    }
+  ],
+  "districts": [
+    {
+      "districtId": "map_lz_ch05_butterfly_end_v1_district",
+      "name": "化蝶终景",
+      "x": 0,
+      "y": 0,
+      "width": 44,
+      "height": 32,
+      "terrainTags": [
+        "water"
+      ],
+      "locations": [
+        {
+          "id": "map_lz_ch05_butterfly_end_v1_start",
+          "name": "化蝶终景入口",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 1,
+          "offsetX": 22,
+          "offsetY": 24
+        },
+        {
+          "id": "map_lz_ch05_butterfly_end_v1_clue",
+          "name": "化蝶终景线索点",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 1,
+          "offsetX": 10,
+          "offsetY": 20
+        },
+        {
+          "id": "map_lz_ch05_butterfly_end_v1_choice",
+          "name": "化蝶终景抉择点",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 1,
+          "offsetX": 30,
+          "offsetY": 20
+        }
+      ],
+      "defaultEventDensity": 1
+    }
+  ],
+  "itemDefs": [],
+  "teleports": [],
+  "createdAt": 1782325200000,
+  "updatedAt": 1782325200000,
+  "version": 1,
+  "story": {
+    "storyId": "liangzhu",
+    "chapterId": "ch05_tower_and_butterflies",
+    "sceneId": "ch05_scene_05_butterfly_end",
+    "scriptReference": {
+      "chapterFile": "chapter-05-tower-and-butterflies.md",
+      "sceneHeading": "场景五：化蝶终景",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
+          "红衣",
+          "蝶影"
+        ],
+        "liangshanbo": [
+          "回应",
+          "双蝶"
+        ],
+        "mawencai": [
+          "见证",
+          "评价"
+        ]
+      }
+    },
+    "artStyle": {
+      "storyId": "liangzhu",
+      "visualStyle": "semi-realistic pixel comic",
+      "baseTileSize": 16,
+      "characterScale": "48x96",
+      "detailTier": "S",
+      "sceneFamily": "butterfly",
+      "chapterPalette": "cold-rain-white-red-butterfly",
+      "mood": "tragedy and transcendence",
+      "focusTier": "S",
+      "detailPass": "second-pass-v2"
+    }
+  }
+}

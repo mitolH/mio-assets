@@ -4,6 +4,47 @@
   "description": "后院闺房，梁祝五章第一版统一风格可玩地图。",
   "widthInTiles": 44,
   "heightInTiles": 32,
+  "level": {
+    "formatVersion": 1,
+    "startLocationId": "map_lz_ch04_boudoir_v1_start",
+    "assets": {
+      "componentIds": [
+        "comp_lz_ground_grass_story_v1",
+        "comp_lz_ground_wood_story_v1",
+        "comp_lz_prop_fan_jade_story_v1",
+        "comp_lz_prop_red_veil_story_v1",
+        "comp_map_lz_ch04_boudoir_v1_ambient_scene_detail_v2",
+        "comp_map_lz_ch04_boudoir_v1_focus_story_v1",
+        "comp_map_lz_ch04_boudoir_v1_left_scene_detail_v2",
+        "comp_map_lz_ch04_boudoir_v1_left_scene_fixture_v1",
+        "comp_map_lz_ch04_boudoir_v1_path_scene_detail_v2",
+        "comp_map_lz_ch04_boudoir_v1_right_scene_detail_v2",
+        "comp_map_lz_ch04_boudoir_v1_right_scene_fixture_v1",
+        "comp_map_lz_ch04_boudoir_v1_story_atmosphere_v6",
+        "comp_map_lz_ch04_boudoir_v1_story_composition_v4",
+        "comp_map_lz_ch04_boudoir_v1_story_scene_plate_v10",
+        "comp_map_lz_ch04_boudoir_v1_story_tableau_v4",
+        "comp_pressure_boudoir_vanity_v1",
+        "comp_pressure_cold_door_rain_v1",
+        "comp_pressure_old_book_chest_v1",
+        "comp_pressure_window_bamboo_shadow_v1"
+      ],
+      "spriteIds": [
+        "sprite_liangshanbo_48x96_story_v2",
+        "sprite_liangshanbo_butterfly_48x96_story_v1",
+        "sprite_liangshanbo_sick_48x96_story_v1",
+        "sprite_mawencai_48x96_story_v1",
+        "sprite_servant_48x96_story_v1",
+        "sprite_zhufu_mother_48x96_story_v1",
+        "sprite_zhuyingtai_48x96_story_v1",
+        "sprite_zhuyingtai_butterfly_48x96_story_v1",
+        "sprite_zhuyingtai_wedding_48x96_story_v1"
+      ],
+      "mapIds": [
+        "map_lz_ch04_boudoir_v1"
+      ]
+    }
+  },
   "layers": [
     {
       "id": "map_lz_ch04_boudoir_v1_ground",

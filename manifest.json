@@ -1,7 +1,7 @@
 {
   "name": "mio-world-assets",
   "version": "1.0.0",
-  "updatedAt": 1782967547215,
+  "updatedAt": 1782325200000,
   "components": [
     {
       "id": "comp_academy_corridor_v1",
@@ -9376,25 +9376,6 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_zhuyingtai_idle_down_f1_64c_v2",
-      "name": "祝英台 idle-down f1",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_idle_down_f1_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "idle-down",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289637
-    },
-    {
       "id": "comp_zhuyingtai_idle_down_f1_story_v1",
       "name": "祝英台 48x96 story v1 idle-down 1",
       "category": "character",
@@ -9416,25 +9397,6 @@
       "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_zhuyingtai_idle_down_f2_64c_v2",
-      "name": "祝英台 idle-down f2",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_idle_down_f2_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "idle-down",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289637
     },
     {
       "id": "comp_zhuyingtai_idle_down_f2_story_v1",
@@ -9460,25 +9422,6 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_zhuyingtai_idle_down_f3_64c_v2",
-      "name": "祝英台 idle-down f3",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_idle_down_f3_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "idle-down",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289637
-    },
-    {
       "id": "comp_zhuyingtai_idle_down_f3_story_v1",
       "name": "祝英台 48x96 story v1 idle-down 3",
       "category": "character",
@@ -9500,25 +9443,6 @@
       "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_zhuyingtai_idle_down_f4_64c_v2",
-      "name": "祝英台 idle-down f4",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_idle_down_f4_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "idle-down",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289638
     },
     {
       "id": "comp_zhuyingtai_idle_down_f4_story_v1",
@@ -9544,25 +9468,6 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_zhuyingtai_walk_down_f1_64c_v2",
-      "name": "祝英台 walk-down f1",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_down_f1_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-down",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289638
-    },
-    {
       "id": "comp_zhuyingtai_walk_down_f1_story_v1",
       "name": "祝英台 48x96 story v1 walk-down 1",
       "category": "character",
@@ -9584,25 +9489,6 @@
       "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_zhuyingtai_walk_down_f2_64c_v2",
-      "name": "祝英台 walk-down f2",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_down_f2_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-down",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289639
     },
     {
       "id": "comp_zhuyingtai_walk_down_f2_story_v1",
@@ -9628,25 +9514,6 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_zhuyingtai_walk_down_f3_64c_v2",
-      "name": "祝英台 walk-down f3",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_down_f3_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-down",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289639
-    },
-    {
       "id": "comp_zhuyingtai_walk_down_f3_story_v1",
       "name": "祝英台 48x96 story v1 walk-down 3",
       "category": "character",
@@ -9668,25 +9535,6 @@
       "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_zhuyingtai_walk_down_f4_64c_v2",
-      "name": "祝英台 walk-down f4",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_down_f4_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-down",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289640
     },
     {
       "id": "comp_zhuyingtai_walk_down_f4_story_v1",
@@ -9712,25 +9560,6 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_zhuyingtai_walk_left_f1_64c_v2",
-      "name": "祝英台 walk-left f1",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_left_f1_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-left",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289640
-    },
-    {
       "id": "comp_zhuyingtai_walk_left_f1_story_v1",
       "name": "祝英台 48x96 story v1 walk-left 1",
       "category": "character",
@@ -9752,25 +9581,6 @@
       "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_zhuyingtai_walk_left_f2_64c_v2",
-      "name": "祝英台 walk-left f2",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_left_f2_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-left",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289640
     },
     {
       "id": "comp_zhuyingtai_walk_left_f2_story_v1",
@@ -9796,25 +9606,6 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_zhuyingtai_walk_left_f3_64c_v2",
-      "name": "祝英台 walk-left f3",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_left_f3_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-left",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289641
-    },
-    {
       "id": "comp_zhuyingtai_walk_left_f3_story_v1",
       "name": "祝英台 48x96 story v1 walk-left 3",
       "category": "character",
@@ -9836,25 +9627,6 @@
       "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_zhuyingtai_walk_left_f4_64c_v2",
-      "name": "祝英台 walk-left f4",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_left_f4_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-left",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289641
     },
     {
       "id": "comp_zhuyingtai_walk_left_f4_story_v1",
@@ -9880,25 +9652,6 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_zhuyingtai_walk_right_f1_64c_v2",
-      "name": "祝英台 walk-right f1",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_right_f1_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-right",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289642
-    },
-    {
       "id": "comp_zhuyingtai_walk_right_f1_story_v1",
       "name": "祝英台 48x96 story v1 walk-right 1",
       "category": "character",
@@ -9920,25 +9673,6 @@
       "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_zhuyingtai_walk_right_f2_64c_v2",
-      "name": "祝英台 walk-right f2",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_right_f2_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-right",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289642
     },
     {
       "id": "comp_zhuyingtai_walk_right_f2_story_v1",
@@ -9964,25 +9698,6 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_zhuyingtai_walk_right_f3_64c_v2",
-      "name": "祝英台 walk-right f3",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_right_f3_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-right",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289643
-    },
-    {
       "id": "comp_zhuyingtai_walk_right_f3_story_v1",
       "name": "祝英台 48x96 story v1 walk-right 3",
       "category": "character",
@@ -10004,25 +9719,6 @@
       "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_zhuyingtai_walk_right_f4_64c_v2",
-      "name": "祝英台 walk-right f4",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_right_f4_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-right",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289643
     },
     {
       "id": "comp_zhuyingtai_walk_right_f4_story_v1",
@@ -10048,25 +9744,6 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_zhuyingtai_walk_up_f1_64c_v2",
-      "name": "祝英台 walk-up f1",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_up_f1_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-up",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289643
-    },
-    {
       "id": "comp_zhuyingtai_walk_up_f1_story_v1",
       "name": "祝英台 48x96 story v1 walk-up 1",
       "category": "character",
@@ -10088,25 +9765,6 @@
       "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_zhuyingtai_walk_up_f2_64c_v2",
-      "name": "祝英台 walk-up f2",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_up_f2_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-up",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289644
     },
     {
       "id": "comp_zhuyingtai_walk_up_f2_story_v1",
@@ -10132,25 +9790,6 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "comp_zhuyingtai_walk_up_f3_64c_v2",
-      "name": "祝英台 walk-up f3",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_up_f3_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-up",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289644
-    },
-    {
       "id": "comp_zhuyingtai_walk_up_f3_story_v1",
       "name": "祝英台 48x96 story v1 walk-up 3",
       "category": "character",
@@ -10172,25 +9811,6 @@
       "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
-    },
-    {
-      "id": "comp_zhuyingtai_walk_up_f4_64c_v2",
-      "name": "祝英台 walk-up f4",
-      "category": "character",
-      "path": "components/character/comp_zhuyingtai_walk_up_f4_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "walk-up",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "version": 8,
-      "updatedAt": 1782312289645
     },
     {
       "id": "comp_zhuyingtai_walk_up_f4_story_v1",
@@ -17617,15 +17237,6 @@
       "heightInTiles": 32,
       "version": 1,
       "updatedAt": 1782325200000
-    },
-    {
-      "id": "map_zhuyingtai_home_courtyard_v1",
-      "name": "祝英台家小院 v1",
-      "path": "maps/map_zhuyingtai_home_courtyard_v1.json",
-      "widthInTiles": 40,
-      "heightInTiles": 34,
-      "version": 11,
-      "updatedAt": 1782326457977
     }
   ],
   "sprites": [
@@ -17717,7 +17328,7 @@
       "layerCount": 1,
       "animationCount": 5,
       "version": 1,
-      "updatedAt": 1782967500011
+      "updatedAt": 1782325200000
     },
     {
       "id": "sprite_liangshanbo_sick_48x96_story_v1",
@@ -18013,26 +17624,6 @@
       "updatedAt": 1782325200000
     },
     {
-      "id": "sprite_zhuyingtai_48x96_64c_v2",
-      "name": "祝英台 48x96 64c v2",
-      "category": "character",
-      "path": "sprites/sprite_zhuyingtai_48x96_64c_v2.json",
-      "tags": [
-        "zhuyingtai",
-        "祝英台",
-        "character",
-        "48x96",
-        "64c",
-        "v2"
-      ],
-      "width": 48,
-      "height": 96,
-      "layerCount": 1,
-      "animationCount": 5,
-      "version": 1,
-      "updatedAt": 1782300674285
-    },
-    {
       "id": "sprite_zhuyingtai_48x96_story_v1",
       "name": "祝英台 48x96 story v1",
       "category": "character",
@@ -18077,7 +17668,7 @@
       "layerCount": 1,
       "animationCount": 5,
       "version": 1,
-      "updatedAt": 1782967500010
+      "updatedAt": 1782325200000
     },
     {
       "id": "sprite_zhuyingtai_wedding_48x96_story_v1",
