@@ -1,18 +1,20 @@
 {
   "id": "sprite_zhuyingtai_48x96_story_v1",
-  "name": "祝英台 48x96 story v1",
+  "name": "祝英台 48x96 story v4",
   "category": "character",
-  "description": "祝英台 48x96 story v1，统一 48x96 写实比例像素漫画风主角。",
+  "description": "祝英台 48x96 story v4：宋代江南书生装，五动画×4帧，与书院门前场景共用色板。",
   "tags": [
     "liangzhu-story-v1",
     "liangzhu",
+    "梁祝",
+    "tier-s",
     "zhuyingtai",
     "48x96",
-    "tier-s",
-    "zhuyingtai-detail-v2",
-    "64c-reference-v2",
-    "scholar-disguise-v2",
-    "fan-jade-identity-v2"
+    "zhuyingtai-detail-v4",
+    "scholar-disguise-v4",
+    "song-jiangnan-v4",
+    "fan-jade-identity-v4",
+    "kit-palette-v4"
   ],
   "styleProfile": {
     "storyId": "liangzhu",
@@ -20,12 +22,19 @@
     "baseTileSize": 16,
     "characterScale": "48x96",
     "detailTier": "S",
+    "sceneFamily": "academy_gate",
+    "chapterPalette": "song-jiangnan-water-town",
+    "paletteFamily": "lz-academy-gate-v2-57c+zhuyingtai-v4",
+    "lightDirection": "top-left",
+    "sourceQuality": "procedural-hand-painted-v4",
+    "costume": "song-scholar-disguise",
     "characterMotifs": [
-      "scholar disguise collar",
-      "soft green sleeve trim",
-      "folding fan and jade pendant",
-      "reserved bright face",
-      "hidden hairpin under scholar cap"
+      "black soft-leg futou (软脚幞头), hair fully tied up",
+      "celadon cross-collar right-over-left zhiduo (交领右衽直裰) with dark 皂缘 borders",
+      "pink silk cord (丝绦) knotted with two hanging ends",
+      "closed bamboo folding fan",
+      "jade bi pendant with pink tassel",
+      "reserved, gently determined face"
     ]
   },
   "width": 48,
@@ -319,7 +328,7 @@
     }
   ],
   "defaultAnimationId": "idle-down",
-  "createdAt": 1782325200000,
-  "updatedAt": 1782325200000,
-  "version": 1
+  "createdAt": 1790746552913,
+  "updatedAt": 1790746552913,
+  "version": 4
 }

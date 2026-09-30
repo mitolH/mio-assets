@@ -1,7 +1,7 @@
 {
   "name": "mio-world-assets",
   "version": "1.0.0",
-  "updatedAt": 1790732408725,
+  "updatedAt": 1790751688149,
   "components": [
     {
       "id": "comp_academy_corridor_v1",
@@ -223,6 +223,101 @@
       "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_ch01_gate_front_gate_v3",
+      "name": "书院门屋（门匾「書院」）v3",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_gate_front_gate_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-s",
+        "scene-reference-v1",
+        "gate",
+        "building",
+        "门屋",
+        "門匾",
+        "song-style",
+        "academy-reference-v1"
+      ],
+      "width": 224,
+      "height": 256,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_river_landing_v3",
+      "name": "河埠头 v3",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_gate_river_landing_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-a",
+        "scene-reference-v1",
+        "landing",
+        "河埠头",
+        "water",
+        "stone",
+        "academy-reference-v1"
+      ],
+      "width": 64,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_slab_bridge_v3",
+      "name": "溪上石梁桥 v3",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_gate_slab_bridge_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-a",
+        "scene-reference-v1",
+        "bridge",
+        "stone",
+        "石梁桥",
+        "water",
+        "academy-reference-v1"
+      ],
+      "width": 104,
+      "height": 80,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_wall_segment_v3",
+      "name": "书院粉墙黛瓦 围墙段 v3",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_gate_wall_segment_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "wall",
+        "building",
+        "粉墙黛瓦"
+      ],
+      "width": 64,
+      "height": 112,
+      "version": 1,
+      "updatedAt": 1790100000000
     },
     {
       "id": "comp_map_lz_ch01_academy_gate_v1_focus_story_v1",
@@ -9377,7 +9472,7 @@
     },
     {
       "id": "comp_zhuyingtai_idle_down_f1_story_v1",
-      "name": "祝英台 48x96 story v1 idle-down 1",
+      "name": "祝英台 48x96 story v4 idle-down 1",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_idle_down_f1_story_v1.json",
       "tags": [
@@ -9386,21 +9481,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "idle-down",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_idle_down_f2_story_v1",
-      "name": "祝英台 48x96 story v1 idle-down 2",
+      "name": "祝英台 48x96 story v4 idle-down 2",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_idle_down_f2_story_v1.json",
       "tags": [
@@ -9409,21 +9505,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "idle-down",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_idle_down_f3_story_v1",
-      "name": "祝英台 48x96 story v1 idle-down 3",
+      "name": "祝英台 48x96 story v4 idle-down 3",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_idle_down_f3_story_v1.json",
       "tags": [
@@ -9432,21 +9529,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "idle-down",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_idle_down_f4_story_v1",
-      "name": "祝英台 48x96 story v1 idle-down 4",
+      "name": "祝英台 48x96 story v4 idle-down 4",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_idle_down_f4_story_v1.json",
       "tags": [
@@ -9455,21 +9553,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "idle-down",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_down_f1_story_v1",
-      "name": "祝英台 48x96 story v1 walk-down 1",
+      "name": "祝英台 48x96 story v4 walk-down 1",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_down_f1_story_v1.json",
       "tags": [
@@ -9478,21 +9577,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-down",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_down_f2_story_v1",
-      "name": "祝英台 48x96 story v1 walk-down 2",
+      "name": "祝英台 48x96 story v4 walk-down 2",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_down_f2_story_v1.json",
       "tags": [
@@ -9501,21 +9601,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-down",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_down_f3_story_v1",
-      "name": "祝英台 48x96 story v1 walk-down 3",
+      "name": "祝英台 48x96 story v4 walk-down 3",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_down_f3_story_v1.json",
       "tags": [
@@ -9524,21 +9625,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-down",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_down_f4_story_v1",
-      "name": "祝英台 48x96 story v1 walk-down 4",
+      "name": "祝英台 48x96 story v4 walk-down 4",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_down_f4_story_v1.json",
       "tags": [
@@ -9547,21 +9649,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-down",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_left_f1_story_v1",
-      "name": "祝英台 48x96 story v1 walk-left 1",
+      "name": "祝英台 48x96 story v4 walk-left 1",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_left_f1_story_v1.json",
       "tags": [
@@ -9570,21 +9673,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-left",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_left_f2_story_v1",
-      "name": "祝英台 48x96 story v1 walk-left 2",
+      "name": "祝英台 48x96 story v4 walk-left 2",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_left_f2_story_v1.json",
       "tags": [
@@ -9593,21 +9697,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-left",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_left_f3_story_v1",
-      "name": "祝英台 48x96 story v1 walk-left 3",
+      "name": "祝英台 48x96 story v4 walk-left 3",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_left_f3_story_v1.json",
       "tags": [
@@ -9616,21 +9721,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-left",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_left_f4_story_v1",
-      "name": "祝英台 48x96 story v1 walk-left 4",
+      "name": "祝英台 48x96 story v4 walk-left 4",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_left_f4_story_v1.json",
       "tags": [
@@ -9639,21 +9745,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-left",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_right_f1_story_v1",
-      "name": "祝英台 48x96 story v1 walk-right 1",
+      "name": "祝英台 48x96 story v4 walk-right 1",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_right_f1_story_v1.json",
       "tags": [
@@ -9662,21 +9769,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-right",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_right_f2_story_v1",
-      "name": "祝英台 48x96 story v1 walk-right 2",
+      "name": "祝英台 48x96 story v4 walk-right 2",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_right_f2_story_v1.json",
       "tags": [
@@ -9685,21 +9793,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-right",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_right_f3_story_v1",
-      "name": "祝英台 48x96 story v1 walk-right 3",
+      "name": "祝英台 48x96 story v4 walk-right 3",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_right_f3_story_v1.json",
       "tags": [
@@ -9708,21 +9817,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-right",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_right_f4_story_v1",
-      "name": "祝英台 48x96 story v1 walk-right 4",
+      "name": "祝英台 48x96 story v4 walk-right 4",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_right_f4_story_v1.json",
       "tags": [
@@ -9731,21 +9841,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-right",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_up_f1_story_v1",
-      "name": "祝英台 48x96 story v1 walk-up 1",
+      "name": "祝英台 48x96 story v4 walk-up 1",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_up_f1_story_v1.json",
       "tags": [
@@ -9754,21 +9865,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-up",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_up_f2_story_v1",
-      "name": "祝英台 48x96 story v1 walk-up 2",
+      "name": "祝英台 48x96 story v4 walk-up 2",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_up_f2_story_v1.json",
       "tags": [
@@ -9777,21 +9889,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-up",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_up_f3_story_v1",
-      "name": "祝英台 48x96 story v1 walk-up 3",
+      "name": "祝英台 48x96 story v4 walk-up 3",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_up_f3_story_v1.json",
       "tags": [
@@ -9800,21 +9913,22 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-up",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_walk_up_f4_story_v1",
-      "name": "祝英台 48x96 story v1 walk-up 4",
+      "name": "祝英台 48x96 story v4 walk-up 4",
       "category": "character",
       "path": "components/character/comp_zhuyingtai_walk_up_f4_story_v1.json",
       "tags": [
@@ -9823,17 +9937,18 @@
         "梁祝",
         "tier-s",
         "zhuyingtai",
-        "walk-up",
         "48x96",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "comp_zhuyingtai_wedding_idle_down_f1_story_v1",
@@ -10885,6 +11000,328 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_lz_ch01_gate_decal_leaves_v3",
+      "name": "书院门前 樟叶 v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_gate_decal_leaves_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "decal",
+        "leaves"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_decal_lotus_v3",
+      "name": "书院门前 荷叶 v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_gate_decal_lotus_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "decal",
+        "lotus"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_decal_moss_big_v3",
+      "name": "书院门前 大片青苔 v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_gate_decal_moss_big_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "decal",
+        "moss_big"
+      ],
+      "width": 32,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_decal_moss_v3",
+      "name": "书院门前 青苔 v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_gate_decal_moss_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "decal",
+        "moss"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_decal_petals_v3",
+      "name": "书院门前 落梅 v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_gate_decal_petals_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "decal",
+        "petals"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_decal_puddle_v3",
+      "name": "书院门前 积水 v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_gate_decal_puddle_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "decal",
+        "puddle"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_decal_shudai_v3",
+      "name": "书院门前 书带草 v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_gate_decal_shudai_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "decal",
+        "shudai"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_decal_stepstone_v3",
+      "name": "书院门前 汀步 v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_gate_decal_stepstone_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "decal",
+        "stepstone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_decal_stones_v3",
+      "name": "书院门前 碎石 v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_gate_decal_stones_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "decal",
+        "stones"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_eave_lantern_v3",
+      "name": "檐下纸灯笼 v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_gate_eave_lantern_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "lantern",
+        "灯笼",
+        "paper"
+      ],
+      "width": 16,
+      "height": 36,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_reeds_v3",
+      "name": "芦苇 v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_gate_reeds_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "reeds",
+        "芦苇",
+        "water"
+      ],
+      "width": 16,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_wall_notice_a_v3",
+      "name": "粉壁榜文（新生名录）v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_gate_wall_notice_a_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-a",
+        "scene-reference-v1",
+        "notice",
+        "榜",
+        "wall",
+        "academy-reference-v1"
+      ],
+      "width": 64,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_wall_notice_b_v3",
+      "name": "粉壁榜文（门规）v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_gate_wall_notice_b_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-a",
+        "scene-reference-v1",
+        "notice",
+        "榜",
+        "wall"
+      ],
+      "width": 32,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_water_jar_v3",
+      "name": "太平缸（睡莲）v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_gate_water_jar_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "water-jar",
+        "水缸",
+        "lotus"
+      ],
+      "width": 32,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_woven_fence_v3",
+      "name": "竹篱（编竹）v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_gate_woven_fence_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "fence",
+        "bamboo",
+        "竹篱"
+      ],
+      "width": 64,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
       "id": "comp_lz_prop_betrothal_chest_story_v1",
       "name": "聘礼箱",
       "category": "decoration",
@@ -10902,6 +11339,29 @@
       "height": 40,
       "version": 1,
       "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_prop_book_chest_story_v3",
+      "name": "新生书笈 v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_book_chest_story_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-a",
+        "scene-reference-v1",
+        "book-chest",
+        "书笈",
+        "story-prop-v2",
+        "academy-reference-v1"
+      ],
+      "width": 32,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790100000000
     },
     {
       "id": "comp_lz_prop_bookcase_story_v1",
@@ -10959,6 +11419,30 @@
       "height": 32,
       "version": 1,
       "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_prop_fan_jade_story_v3",
+      "name": "遗落的折扇与玉佩 v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_fan_jade_story_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-a",
+        "scene-reference-v1",
+        "fan",
+        "jade",
+        "折扇",
+        "玉佩",
+        "story-prop-v2"
+      ],
+      "width": 32,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790100000000
     },
     {
       "id": "comp_lz_prop_last_letter_story_v1",
@@ -11052,6 +11536,30 @@
       "height": 32,
       "version": 1,
       "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_prop_registration_desk_story_v3",
+      "name": "登记桌（名册、笔砚、书册）v3",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_registration_desk_story_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-s",
+        "scene-reference-v1",
+        "desk",
+        "登记桌",
+        "register",
+        "story-prop-v2",
+        "academy-reference-v1"
+      ],
+      "width": 64,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1790100000000
     },
     {
       "id": "comp_lz_prop_stone_table_story_v1",
@@ -16097,7 +16605,7 @@
       "width": 384,
       "height": 192,
       "version": 1,
-      "updatedAt": 1790732408511
+      "updatedAt": 1790751687928
     },
     {
       "id": "comp_map_lz_ch02_academy_courtyard_v1_story_atmosphere_v6",
@@ -16560,6 +17068,28 @@
       "updatedAt": 1782966160145
     },
     {
+      "id": "comp_lz_ch01_gate_block_water_v3",
+      "name": "溪水碰撞块 v3（不可见）",
+      "category": "other",
+      "path": "components/other/comp_lz_ch01_gate_block_water_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "collision",
+        "water",
+        "invisible"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
       "id": "comp_academy_dirt_path_v1",
       "name": "书院 土石小径 v1",
       "category": "terrain",
@@ -16692,6 +17222,1063 @@
       "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_bank_face_b_v3",
+      "name": "书院门前 北岸石驳岸乙 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_bank_face_b_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_bank_face_v3",
+      "name": "书院门前 北岸石驳岸 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_bank_face_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_bank_south_v3",
+      "name": "书院门前 南岸压沿石 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_bank_south_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_bank_top_v3",
+      "name": "书院门前 北岸压沿石 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_bank_top_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_cobble_a_v3",
+      "name": "书院门前 卵石甲 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_cobble_a_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_cobble_b_v3",
+      "name": "书院门前 卵石乙 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_cobble_b_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_cobble_c_v3",
+      "name": "书院门前 卵石丙 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_cobble_c_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_cobble_kerb_e_v3",
+      "name": "书院门前 卵石带 东侧边石 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_cobble_kerb_e_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_cobble_kerb_w_v3",
+      "name": "书院门前 卵石带 西侧边石 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_cobble_kerb_w_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_cobble_shade_v3",
+      "name": "书院门前 墙脚散水卵石 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_cobble_shade_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_a_v3",
+      "name": "书院门前 湿土地面甲 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_a_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_b_v3",
+      "name": "书院门前 湿土地面乙 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_b_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_c_v3",
+      "name": "书院门前 湿土地面丙 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_c_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_d_v3",
+      "name": "书院门前 湿土地面丁 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_d_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_edge_e_v3",
+      "name": "书院门前 土地苔边 e v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_edge_e_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_edge_n_v3",
+      "name": "书院门前 土地苔边 n v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_edge_n_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_edge_ne_v3",
+      "name": "书院门前 土地苔边 ne v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_edge_ne_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_edge_ns_v3",
+      "name": "书院门前 土地苔边 ns v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_edge_ns_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_edge_nw_v3",
+      "name": "书院门前 土地苔边 nw v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_edge_nw_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_edge_s_v3",
+      "name": "书院门前 土地苔边 s v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_edge_s_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_edge_se_v3",
+      "name": "书院门前 土地苔边 se v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_edge_se_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_edge_sw_v3",
+      "name": "书院门前 土地苔边 sw v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_edge_sw_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_edge_w_v3",
+      "name": "书院门前 土地苔边 w v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_edge_w_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_edge_we_v3",
+      "name": "书院门前 土地苔边 we v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_edge_we_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_inner_ne_v3",
+      "name": "书院门前 土地苔角 ne v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_inner_ne_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_inner_nw_v3",
+      "name": "书院门前 土地苔角 nw v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_inner_nw_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_inner_se_v3",
+      "name": "书院门前 土地苔角 se v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_inner_se_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_earth_inner_sw_v3",
+      "name": "书院门前 土地苔角 sw v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_earth_inner_sw_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "earth"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_gutter_v3",
+      "name": "书院门前 墙脚散水 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_gutter_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_moss_a_v3",
+      "name": "书院门前 青苔地甲 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_moss_a_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "moss"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_moss_b_v3",
+      "name": "书院门前 青苔地乙 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_moss_b_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "moss"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_moss_c_v3",
+      "name": "书院门前 青苔地丙 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_moss_c_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "moss"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_moss_d_v3",
+      "name": "书院门前 青苔地丁 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_moss_d_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "moss"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_moss_e_v3",
+      "name": "书院门前 青苔地戊 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_moss_e_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "moss"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_moss_f_v3",
+      "name": "书院门前 青苔地己 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_moss_f_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "moss"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_slab_la_v3",
+      "name": "书院门前 青石板l甲 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_slab_la_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_slab_lb_v3",
+      "name": "书院门前 青石板l乙 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_slab_lb_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_slab_lc_v3",
+      "name": "书院门前 青石板l丙 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_slab_lc_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_slab_ld_v3",
+      "name": "书院门前 青石板l丁 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_slab_ld_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_slab_ra_v3",
+      "name": "书院门前 青石板r甲 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_slab_ra_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_slab_rb_v3",
+      "name": "书院门前 青石板r乙 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_slab_rb_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_slab_rc_v3",
+      "name": "书院门前 青石板r丙 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_slab_rc_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_slab_rd_v3",
+      "name": "书院门前 青石板r丁 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_slab_rd_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_step_v3",
+      "name": "书院门前 石阶 tile v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_step_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_water_a_v3",
+      "name": "书院门前 溪水甲 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_water_a_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_water_b_v3",
+      "name": "书院门前 溪水乙 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_water_b_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_ground_water_c_v3",
+      "name": "书院门前 溪水丙 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_ground_water_c_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_stone_steps_v3",
+      "name": "书院门前石阶 v3",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_gate_stone_steps_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "steps",
+        "stone",
+        "石阶",
+        "academy-reference-v1"
+      ],
+      "width": 128,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790100000000
     },
     {
       "id": "comp_lz_ground_dirt_story_v1",
@@ -16958,6 +18545,116 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_lz_ch01_gate_bamboo_v3",
+      "name": "竹丛 v3",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch01_gate_bamboo_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "tree",
+        "bamboo",
+        "竹"
+      ],
+      "width": 64,
+      "height": 112,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_camphor_v3",
+      "name": "香樟 v3",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch01_gate_camphor_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "tree",
+        "camphor",
+        "香樟"
+      ],
+      "width": 128,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_osmanthus_v3",
+      "name": "桂花 v3",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch01_gate_osmanthus_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "tree",
+        "osmanthus",
+        "桂"
+      ],
+      "width": 48,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_plum_tree_v3",
+      "name": "梅树 v3",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch01_gate_plum_tree_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "tree",
+        "plum",
+        "梅"
+      ],
+      "width": 80,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_gate_willow_v3",
+      "name": "垂柳 v3",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch01_gate_willow_v3.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "academy-gate-v3",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "tree",
+        "willow",
+        "垂柳"
+      ],
+      "width": 96,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790100000000
+    },
+    {
       "id": "comp_study_bamboo_shadow_path_v1",
       "name": "竹影小径",
       "category": "tree",
@@ -17027,12 +18724,12 @@
   "maps": [
     {
       "id": "map_lz_ch01_academy_gate_v1",
-      "name": "书院门前 v1",
+      "name": "书院门前 v3",
       "path": "maps/map_lz_ch01_academy_gate_v1.json",
       "widthInTiles": 44,
       "heightInTiles": 32,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 3,
+      "updatedAt": 1790100000000
     },
     {
       "id": "map_lz_ch01_mountain_pavilion_v1",
@@ -17619,26 +19316,28 @@
     },
     {
       "id": "sprite_zhuyingtai_48x96_story_v1",
-      "name": "祝英台 48x96 story v1",
+      "name": "祝英台 48x96 story v4",
       "category": "character",
       "path": "sprites/sprite_zhuyingtai_48x96_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
+        "梁祝",
+        "tier-s",
         "zhuyingtai",
         "48x96",
-        "tier-s",
-        "zhuyingtai-detail-v2",
-        "64c-reference-v2",
-        "scholar-disguise-v2",
-        "fan-jade-identity-v2"
+        "zhuyingtai-detail-v4",
+        "scholar-disguise-v4",
+        "song-jiangnan-v4",
+        "fan-jade-identity-v4",
+        "kit-palette-v4"
       ],
       "width": 48,
       "height": 96,
       "layerCount": 1,
       "animationCount": 5,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 4,
+      "updatedAt": 1790746552913
     },
     {
       "id": "sprite_zhuyingtai_butterfly_48x96_story_v1",
