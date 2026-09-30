@@ -1,37 +1,32 @@
 import { test, after } from 'node:test';
-import { loadRepo, assertNoNewViolations, flushBaseline, isOpaqueTile, hasOpaque, isSpriteRef, TILE } from './lib/repo.mjs';
+import { loadRepo, assertNoNewViolations, flushBaseline, isSpriteRef, TILE } from './lib/repo.mjs';
 
 const repo = loadRepo();
 after(flushBaseline);
 
-/** 与运行时 AssetTilesetFactory.buildFromEditorMap 同一语义：
- *  ground 层每格只保留最后写入的一个 tile；其余可见层（collision 层除外）共用一个 overlay，同样每格仅一个 tile。 */
-function simulate(map) {
-  const W = map.widthInTiles, H = map.heightInTiles;
-  const ground = new Array(W * H).fill(null);
-  const overlay = new Array(W * H).fill(null);
-  const clobbers = new Map(); // "earlier -> later" => 被覆盖的有像素 tile 数
-  const oob = [];
+/** 与运行时 bakeMapLayerCanvases 同一语义：按图层顺序逐像素叠加（后写入在上，透明不覆盖），
+ *  ground 层与其余可见层（collision 层不渲染）分别烘焙。 */
+function bake(map) {
+  const PW = map.widthInTiles * TILE, PH = map.heightInTiles * TILE;
+  const ground = new Uint8Array(PW * PH); // 1 = 该像素已被不透明像素覆盖
+  const oob = new Set();
   for (const layer of map.layers) {
     if (layer.visible === false || layer.type === 'collision') continue;
-    const target = layer.type === 'ground' ? ground : overlay;
+    const isGround = layer.type === 'ground';
     for (const ref of layer.components) {
       if (isSpriteRef(ref) || !ref.componentId) continue;
       const comp = repo.components.get(ref.componentId);
       if (!comp) continue;
-      for (let ty = 0; ty < comp.tileHeight; ty++) for (let tx = 0; tx < comp.tileWidth; tx++) {
-        const x = ref.tileX + tx, y = ref.tileY + ty;
-        if (x < 0 || y < 0 || x >= W || y >= H) { if (hasOpaque(comp, tx, ty)) oob.push(`${comp.id}@(${x},${y})`); continue; }
-        const prev = target[y * W + x];
-        if (target === overlay && prev && hasOpaque(prev.comp, prev.tx, prev.ty)) {
-          const k = `${prev.comp.id} -> ${comp.id}`;
-          clobbers.set(k, (clobbers.get(k) ?? 0) + 1);
-        }
-        target[y * W + x] = { comp, tx, ty };
+      const ox = ref.tileX * TILE, oy = ref.tileY * TILE;
+      for (let y = 0; y < comp.pixels.length; y++) for (let x = 0; x < comp.pixels[y].length; x++) {
+        if (comp.pixels[y][x] === 0) continue;
+        const X = ox + x, Y = oy + y;
+        if (X < 0 || Y < 0 || X >= PW || Y >= PH) { oob.add(comp.id); continue; }
+        if (isGround) ground[Y * PW + X] = 1;
       }
     }
   }
-  return { W, H, ground, overlay, clobbers, oob };
+  return { PW, PH, ground, oob };
 }
 
 function collisionGrid(map) {
@@ -73,28 +68,24 @@ test('地图引用：组件/精灵存在且已登记在 level.assets', (t) => {
   assertNoNewViolations(t, v);
 });
 
-test('ground 层：每格都有 tile 且完全不透明（否则运行时露出黑底）', (t) => {
+test('ground 层：整张地图每个像素都被不透明地面覆盖（否则运行时露出黑底）', (t) => {
   const v = [];
   for (const { data: m } of repo.maps) {
-    const { W, H, ground } = simulate(m);
-    const holes = [], transparent = new Map();
-    for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
-      const c = ground[y * W + x];
-      if (!c) { holes.push(`(${x},${y})`); continue; }
-      if (!isOpaqueTile(c.comp, c.tx, c.ty)) transparent.set(c.comp.id, [...(transparent.get(c.comp.id) ?? []), `(${x},${y})`]);
+    const { PW, PH, ground } = bake(m);
+    const holeTiles = new Map();
+    for (let y = 0; y < PH; y++) for (let x = 0; x < PW; x++) {
+      if (!ground[y * PW + x]) { const k = `(${Math.floor(x / TILE)},${Math.floor(y / TILE)})`; holeTiles.set(k, (holeTiles.get(k) ?? 0) + 1); }
     }
-    if (holes.length) v.push(`ground-hole|${m.id}|${holes.length} 格无地面: ${holes.slice(0, 6).join(' ')}`);
-    for (const [id, cells] of transparent) v.push(`ground-transparent|${m.id}:${id}|${cells.length} 格含透明像素(会显示黑底): ${cells.slice(0, 4).join(' ')}`);
+    if (holeTiles.size) v.push(`ground-hole|${m.id}|${holeTiles.size} 个 tile 含未覆盖像素: ${[...holeTiles.keys()].slice(0, 8).join(' ')}`);
   }
   assertNoNewViolations(t, v);
 });
 
-test('overlay 层：同一格后写入的 tile 不得吞掉先前有像素的 tile', (t) => {
+test('图层内容不得越出地图边界', (t) => {
   const v = [];
   for (const { data: m } of repo.maps) {
-    const { clobbers, oob } = simulate(m);
-    for (const [k, n] of clobbers) v.push(`overlay-clobber|${m.id}:${k}|${n} 格被覆盖，先前素材出现缺口`);
-    if (oob.length) v.push(`out-of-bounds|${m.id}|${oob.length} 个有像素的 tile 越出地图: ${oob.slice(0, 4).join(' ')}`);
+    const { oob } = bake(m);
+    for (const id of oob) v.push(`out-of-bounds|${m.id}:${id}|有像素越出地图`);
   }
   assertNoNewViolations(t, v);
 });

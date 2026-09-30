@@ -41,14 +41,20 @@ export function assertNoNewViolations(t, violations) {
     if (!baseline.has(key)) fresh.push(v.replace('|', ' | '));
   }
   if (fresh.length) {
-    const shown = fresh.slice(0, 40).join('\n  ');
-    throw new Error(`${fresh.length} 个新违规:\n  ${shown}${fresh.length > 40 ? `\n  ... 另有 ${fresh.length - 40} 个` : ''}`);
+    const byRule = {};
+    for (const f of fresh) { const r = f.split(' | ')[0]; byRule[r] = (byRule[r] ?? 0) + 1; }
+    const summary = Object.entries(byRule).map(([r, n]) => `${r}×${n}`).join('  ');
+    // 每条规则最多展示 8 条示例，避免被单一规则刷屏
+    const perRule = {}, shown = [];
+    for (const f of fresh) { const r = f.split(' | ')[0]; perRule[r] = (perRule[r] ?? 0) + 1; if (perRule[r] <= 8) shown.push(f); }
+    throw new Error(`${fresh.length} 个新违规 [${summary}]:\n  ${shown.join('\n  ')}`);
   }
 }
 
 export function flushBaseline() {
   if (process.env.UPDATE_BASELINE === '1') {
-    writeFileSync(BASELINE_PATH, JSON.stringify([...collected].sort(), null, 2) + '\n');
+    const merged = new Set([...(existsSync(BASELINE_PATH) ? readJson(BASELINE_PATH) : []), ...collected]); // 各测试文件是独立进程，合并写入
+    writeFileSync(BASELINE_PATH, JSON.stringify([...merged].sort(), null, 2) + '\n');
   }
 }
 
