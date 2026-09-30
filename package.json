@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/",
-    "test:baseline": "UPDATE_BASELINE=1 node --test tests/"
+    "test": "node --test tests/*.test.mjs",
+    "test:baseline": "UPDATE_BASELINE=1 node --test tests/*.test.mjs"
   }
 }

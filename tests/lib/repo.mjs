@@ -1,5 +1,5 @@
 // 素材库加载与规则引擎（零依赖）。默认检查本仓库；ASSET_REPO_DIR 可指向别处（如草稿目录）。
-import { readFileSync, readdirSync, existsSync, writeFileSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync, writeFileSync, statSync } from 'node:fs';
 import { join, dirname, resolve, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -13,7 +13,7 @@ export function loadRepo() {
   const components = new Map();
   const componentFiles = [];
   const compDir = join(ROOT, 'components');
-  for (const cat of existsSync(compDir) ? readdirSync(compDir).sort() : []) {
+  for (const cat of existsSync(compDir) ? readdirSync(compDir).filter((n) => statSync(join(compDir, n)).isDirectory()).sort() : []) {
     for (const f of listJson(join(compDir, cat))) {
       const rel = `components/${cat}/${f}`;
       const data = readJson(join(ROOT, rel));
@@ -54,8 +54,12 @@ export function flushBaseline() {
 
 // ---- 组件像素工具 ----
 export function tilePixels(comp, tx, ty) {
+  // 与运行时一致：超出像素范围的部分视为透明(0)
   const out = [];
-  for (let y = 0; y < TILE; y++) out.push(comp.pixels[ty * TILE + y].slice(tx * TILE, tx * TILE + TILE));
+  for (let y = 0; y < TILE; y++) {
+    const row = comp.pixels[ty * TILE + y] ?? [];
+    out.push(Array.from({ length: TILE }, (_, x) => row[tx * TILE + x] ?? 0));
+  }
   return out;
 }
 export const isOpaqueTile = (comp, tx, ty) => tilePixels(comp, tx, ty).every((r) => r.every((v) => v !== 0));
