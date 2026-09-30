@@ -1,324 +1,335 @@
 {
-  "id": "sprite_ma_guard_48x96_story_v1",
-  "name": "马府随从 48x96 story v1",
-  "category": "character",
-  "description": "马府随从 48x96 story v1，统一 48x96 写实比例像素漫画风主角。",
-  "tags": [
-    "liangzhu-story-v1",
-    "liangzhu",
-    "ma_guard",
-    "48x96",
-    "tier-a",
-    "supporting-cast-v2",
-    "pressure-supporting-cast-v2",
-    "ma-guard-red-black-v2"
-  ],
-  "styleProfile": {
-    "storyId": "liangzhu",
-    "visualStyle": "semi-realistic pixel comic",
-    "baseTileSize": 16,
-    "characterScale": "48x96",
-    "detailTier": "A",
-    "characterMotifs": [
-      "red-black guard robe with shoulder plates",
-      "staff and belt authority details",
-      "pressure-scene supporting actor depth"
-    ],
-    "detailPass": "supporting-cast-v2",
-    "sourceQuality": "animated-pressure-supporting-cast-v2"
-  },
-  "width": 48,
-  "height": 96,
-  "tileWidth": 3,
-  "tileHeight": 6,
-  "anchorX": 24,
-  "anchorY": 96,
-  "footprint": {
-    "tileWidth": 1,
-    "tileHeight": 1,
-    "offsetTileX": 1,
-    "offsetTileY": 5
-  },
-  "layers": [
+ "id": "sprite_ma_guard_48x96_story_v1",
+ "name": "马府随从 48x96 story v1",
+ "category": "character",
+ "description": "马府随从 48x96 story v1（祝英台 v4 同风格重绘）：宋代马府家仆，裹头巾、褐色短褐束袖、深绛领缘与腰带（呼应马文才）、木腰牌、行缠麻鞋、叉手侍立，五动画×4帧。",
+ "tags": [
+  "liangzhu-story-v1",
+  "liangzhu",
+  "ma_guard",
+  "48x96",
+  "tier-a",
+  "supporting-cast-v4",
+  "ma-house-attendant-v4",
+  "song-jiangnan-npc-v1",
+  "zhuyingtai-v4-style",
+  "kit-palette-v4"
+ ],
+ "styleProfile": {
+  "storyId": "liangzhu",
+  "visualStyle": "semi-realistic pixel comic",
+  "baseTileSize": 16,
+  "characterScale": "48x96",
+  "detailTier": "A",
+  "sceneFamily": "academy_gate",
+  "chapterPalette": "song-jiangnan-water-town",
+  "paletteFamily": "lz-academy-gate-v2-57c+zhuyingtai-v4+npc-v1",
+  "lightDirection": "top-left",
+  "sourceQuality": "procedural-hand-painted-npc-v1",
+  "costume": "song-household-attendant",
+  "era": "southern-song-liangzhe-water-town",
+  "detailPass": "supporting-cast-v4",
+  "characterMotifs": [
+   "dark wrapped 头巾 with a knot at the back",
+   "muted-brown knee-length 短褐 with tied narrow sleeves",
+   "深绛 collar edge and sash echoing 马文才 (house colour, no gold)",
+   "plain wooden 腰牌",
+   "dark trousers, pale 行缠 leggings, straw 麻鞋",
+   "叉手 attendant stance"
+  ]
+ },
+ "width": 48,
+ "height": 96,
+ "tileWidth": 3,
+ "tileHeight": 6,
+ "anchorX": 24,
+ "anchorY": 96,
+ "footprint": {
+  "tileWidth": 1,
+  "tileHeight": 1,
+  "offsetTileX": 1,
+  "offsetTileY": 5
+ },
+ "layers": [
+  {
+   "id": "body",
+   "name": "Body",
+   "zOrder": 0,
+   "defaultComponentId": "comp_ma_guard_idle_down_f1_story_v1",
+   "defaultOffsetX": -24,
+   "defaultOffsetY": -96,
+   "visible": true
+  }
+ ],
+ "animations": [
+  {
+   "id": "idle-down",
+   "name": "idle-down",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
     {
-      "id": "body",
-      "name": "Body",
-      "zOrder": 0,
-      "defaultComponentId": "comp_ma_guard_idle_down_f1_story_v1",
-      "defaultOffsetX": -24,
-      "defaultOffsetY": -96,
-      "visible": true
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_idle_down_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_idle_down_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_idle_down_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_idle_down_f4_story_v1"
+      }
+     ]
     }
-  ],
-  "animations": [
+   ]
+  },
+  {
+   "id": "walk-down",
+   "name": "walk-down",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
     {
-      "id": "idle-down",
-      "name": "idle-down",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 0,
-      "frames": [
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_idle_down_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_idle_down_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_idle_down_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_idle_down_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_down_f1_story_v1"
+      }
+     ]
     },
     {
-      "id": "walk-down",
-      "name": "walk-down",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_down_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_down_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_down_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_down_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_down_f2_story_v1"
+      }
+     ]
     },
     {
-      "id": "walk-left",
-      "name": "walk-left",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_left_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_left_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_left_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_left_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_down_f3_story_v1"
+      }
+     ]
     },
     {
-      "id": "walk-right",
-      "name": "walk-right",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_right_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_right_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_right_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_right_f4_story_v1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "walk-up",
-      "name": "walk-up",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_up_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_up_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_up_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_ma_guard_walk_up_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_down_f4_story_v1"
+      }
+     ]
     }
-  ],
-  "defaultAnimationId": "idle-down",
-  "createdAt": 1782325200000,
-  "updatedAt": 1782325200000,
-  "version": 1
+   ]
+  },
+  {
+   "id": "walk-left",
+   "name": "walk-left",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_left_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_left_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_left_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_left_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-right",
+   "name": "walk-right",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_right_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_right_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_right_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_right_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-up",
+   "name": "walk-up",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_up_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_up_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_up_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_ma_guard_walk_up_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "defaultAnimationId": "idle-down",
+ "createdAt": 1790200000000,
+ "updatedAt": 1790200000000,
+ "version": 3
 }
