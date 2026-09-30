@@ -1,324 +1,331 @@
 {
-  "id": "sprite_servant_48x96_story_v1",
-  "name": "家仆书童 48x96 story v1",
-  "category": "character",
-  "description": "家仆书童 48x96 story v1，统一 48x96 写实比例像素漫画风主角。",
-  "tags": [
-    "liangzhu-story-v1",
-    "liangzhu",
-    "servant",
-    "48x96",
-    "tier-b",
-    "supporting-cast-v3",
-    "general-supporting-cast-v3",
-    "servant-bundle-v3"
-  ],
-  "styleProfile": {
-    "storyId": "liangzhu",
-    "visualStyle": "semi-realistic pixel comic",
-    "baseTileSize": 16,
-    "characterScale": "48x96",
-    "detailTier": "B",
-    "characterMotifs": [
-      "green servant robe",
-      "wooden bundle and errands cloth",
-      "general supporting actor depth"
-    ],
-    "detailPass": "supporting-cast-v3",
-    "sourceQuality": "animated-general-supporting-cast-v3"
-  },
-  "width": 48,
-  "height": 96,
-  "tileWidth": 3,
-  "tileHeight": 6,
-  "anchorX": 24,
-  "anchorY": 96,
-  "footprint": {
-    "tileWidth": 1,
-    "tileHeight": 1,
-    "offsetTileX": 1,
-    "offsetTileY": 5
-  },
-  "layers": [
+ "id": "sprite_servant_48x96_story_v1",
+ "name": "祝府老仆 48x96 story v1",
+ "category": "character",
+ "description": "祝府老仆 48x96 story v1（祝英台 v4 同风格重绘）：宋代江南老家仆，灰黑头巾、花白鬓须、整洁灰蓝短褐、褐裤行缠草鞋、背蓝布包袱，五动画×4帧。",
+ "tags": [
+  "liangzhu-story-v1",
+  "liangzhu",
+  "servant",
+  "48x96",
+  "tier-b",
+  "supporting-cast-v4",
+  "song-jiangnan-npc-v2",
+  "zhuyingtai-v4-style",
+  "kit-palette-v4"
+ ],
+ "styleProfile": {
+  "storyId": "liangzhu",
+  "visualStyle": "semi-realistic pixel comic",
+  "baseTileSize": 16,
+  "characterScale": "48x96",
+  "detailTier": "B",
+  "sceneFamily": "zhufu",
+  "chapterPalette": "song-jiangnan-water-town",
+  "paletteFamily": "lz-academy-gate-v2-57c+zhuyingtai-v4+npc-v2",
+  "lightDirection": "top-left",
+  "sourceQuality": "procedural-hand-painted-npc-v2",
+  "costume": "song-old-house-servant",
+  "era": "southern-song-liangzhe-water-town",
+  "characterMotifs": [
+   "grey-black 头巾, grey temples and stubble",
+   "neat 灰蓝 短褐 with a plain tan sash",
+   "brown trousers, clean 行缠, straw shoes",
+   "indigo 包袱 on the back, knot held at the chest"
+  ]
+ },
+ "width": 48,
+ "height": 96,
+ "tileWidth": 3,
+ "tileHeight": 6,
+ "anchorX": 24,
+ "anchorY": 96,
+ "footprint": {
+  "tileWidth": 1,
+  "tileHeight": 1,
+  "offsetTileX": 1,
+  "offsetTileY": 5
+ },
+ "layers": [
+  {
+   "id": "body",
+   "name": "Body",
+   "zOrder": 0,
+   "defaultComponentId": "comp_servant_idle_down_f1_story_v1",
+   "defaultOffsetX": -24,
+   "defaultOffsetY": -96,
+   "visible": true
+  }
+ ],
+ "animations": [
+  {
+   "id": "idle-down",
+   "name": "idle-down",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
     {
-      "id": "body",
-      "name": "Body",
-      "zOrder": 0,
-      "defaultComponentId": "comp_servant_idle_down_f1_story_v1",
-      "defaultOffsetX": -24,
-      "defaultOffsetY": -96,
-      "visible": true
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_idle_down_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_idle_down_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_idle_down_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_idle_down_f4_story_v1"
+      }
+     ]
     }
-  ],
-  "animations": [
+   ]
+  },
+  {
+   "id": "walk-down",
+   "name": "walk-down",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
     {
-      "id": "idle-down",
-      "name": "idle-down",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 0,
-      "frames": [
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_idle_down_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_idle_down_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_idle_down_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_idle_down_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_down_f1_story_v1"
+      }
+     ]
     },
     {
-      "id": "walk-down",
-      "name": "walk-down",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_down_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_down_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_down_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_down_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_down_f2_story_v1"
+      }
+     ]
     },
     {
-      "id": "walk-left",
-      "name": "walk-left",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_left_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_left_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_left_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_left_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_down_f3_story_v1"
+      }
+     ]
     },
     {
-      "id": "walk-right",
-      "name": "walk-right",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_right_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_right_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_right_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_right_f4_story_v1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "walk-up",
-      "name": "walk-up",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_up_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_up_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_up_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_servant_walk_up_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_down_f4_story_v1"
+      }
+     ]
     }
-  ],
-  "defaultAnimationId": "idle-down",
-  "createdAt": 1782325200000,
-  "updatedAt": 1782325200000,
-  "version": 1
+   ]
+  },
+  {
+   "id": "walk-left",
+   "name": "walk-left",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_left_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_left_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_left_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_left_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-right",
+   "name": "walk-right",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_right_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_right_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_right_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_right_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-up",
+   "name": "walk-up",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_up_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_up_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_up_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_servant_walk_up_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "defaultAnimationId": "idle-down",
+ "createdAt": 1790200000000,
+ "updatedAt": 1790200000000,
+ "version": 2
 }

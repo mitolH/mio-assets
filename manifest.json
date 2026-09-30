@@ -1,7 +1,7 @@
 {
   "name": "mio-world-assets",
   "version": "1.0.0",
-  "updatedAt": 1790769586001,
+  "updatedAt": 1790791549345,
   "components": [
     {
       "id": "comp_academy_corridor_v1",
@@ -225,6 +225,162 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_lz_ch01_ferry_boat_cargo_v2",
+      "name": "乌篷货船 v2",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_ferry_boat_cargo_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-a",
+        "scene-reference-v1",
+        "boat",
+        "乌篷船",
+        "cargo",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 128,
+      "height": 80,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_boat_ferry_v2",
+      "name": "渡船 乌篷船（船尾挂灯）v2",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_ferry_boat_ferry_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-s",
+        "scene-reference-v1",
+        "boat",
+        "乌篷船",
+        "ferry",
+        "lantern",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 144,
+      "height": 80,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_boat_small_v2",
+      "name": "乌篷船（小，对岸泊）v2",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_ferry_boat_small_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-a",
+        "scene-reference-v1",
+        "boat",
+        "乌篷船",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 112,
+      "height": 80,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_far_house_a_v2",
+      "name": "渡口 对岸铺面小屋 v2",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_ferry_far_house_a_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "house",
+        "河房",
+        "far-bank",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 112,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_far_house_b_v2",
+      "name": "渡口 对岸民居 v2",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_ferry_far_house_b_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "house",
+        "民居",
+        "far-bank",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 96,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_tea_shed_v2",
+      "name": "渡口茶棚 v2",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_ferry_tea_shed_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-a",
+        "scene-reference-v1",
+        "tea-shed",
+        "茶棚",
+        "ferry",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 128,
+      "height": 112,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_wooden_pier_v2",
+      "name": "渡口 木码头 v2",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_ferry_wooden_pier_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-s",
+        "scene-reference-v1",
+        "pier",
+        "木码头",
+        "ferry",
+        "walkable",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 112,
+      "height": 144,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
       "id": "comp_lz_ch01_gate_front_gate_v3",
       "name": "书院门屋（门匾「書院」）v3",
       "category": "building",
@@ -318,6 +474,183 @@
       "height": 112,
       "version": 1,
       "updatedAt": 1790100000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_long_pavilion_v2",
+      "name": "十里长亭 v2",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_pavilion_long_pavilion_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-s",
+        "scene-reference-v1",
+        "pavilion",
+        "长亭",
+        "building",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 256,
+      "height": 240,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_tea_stall_v2",
+      "name": "山路茶摊 v2",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_pavilion_tea_stall_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-a",
+        "scene-reference-v1",
+        "tea-stall",
+        "茶摊",
+        "茶幌",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 144,
+      "height": 176,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_family_gate_v2",
+      "name": "祝府墙门（门楼·桃符）v2",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_zhufu_family_gate_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-a",
+        "scene-zhufu",
+        "gate",
+        "墙门",
+        "门楼",
+        "桃符"
+      ],
+      "width": 128,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_main_hall_v2",
+      "name": "祝府正厅「清白堂」与内宅门廊 v2",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_zhufu_main_hall_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-s",
+        "scene-zhufu",
+        "building",
+        "hall",
+        "正厅",
+        "门廊",
+        "song-style"
+      ],
+      "width": 384,
+      "height": 272,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_side_wall_e_v2",
+      "name": "祝府东西院墙墙帽（俯视）e v2",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_zhufu_side_wall_e_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "wall"
+      ],
+      "width": 16,
+      "height": 496,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_side_wall_w_v2",
+      "name": "祝府东西院墙墙帽（俯视）w v2",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_zhufu_side_wall_w_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "wall"
+      ],
+      "width": 16,
+      "height": 496,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_side_wing_v2",
+      "name": "祝府厢房（山面朝院）v2",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_zhufu_side_wing_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-a",
+        "scene-zhufu",
+        "building",
+        "wing",
+        "厢房",
+        "song-style"
+      ],
+      "width": 112,
+      "height": 320,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_south_wall_v2",
+      "name": "祝府南院墙（剖视低墙）v2",
+      "category": "building",
+      "path": "components/building/comp_lz_ch01_zhufu_south_wall_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-b",
+        "scene-zhufu",
+        "wall",
+        "粉墙黛瓦"
+      ],
+      "width": 704,
+      "height": 48,
+      "version": 2,
+      "updatedAt": 1790800000000
     },
     {
       "id": "comp_map_lz_ch01_academy_gate_v1_focus_story_v1",
@@ -1568,6 +1901,446 @@
       "height": 176,
       "version": 1,
       "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_boatman_idle_down_f1_story_v1",
+      "name": "船夫 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_boatman_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_idle_down_f2_story_v1",
+      "name": "船夫 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_boatman_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_idle_down_f3_story_v1",
+      "name": "船夫 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_boatman_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_idle_down_f4_story_v1",
+      "name": "船夫 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_boatman_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_down_f1_story_v1",
+      "name": "船夫 48x96 story v1 walk-down 1",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_down_f2_story_v1",
+      "name": "船夫 48x96 story v1 walk-down 2",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_down_f3_story_v1",
+      "name": "船夫 48x96 story v1 walk-down 3",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_down_f4_story_v1",
+      "name": "船夫 48x96 story v1 walk-down 4",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_left_f1_story_v1",
+      "name": "船夫 48x96 story v1 walk-left 1",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_left_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_left_f2_story_v1",
+      "name": "船夫 48x96 story v1 walk-left 2",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_left_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_left_f3_story_v1",
+      "name": "船夫 48x96 story v1 walk-left 3",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_left_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_left_f4_story_v1",
+      "name": "船夫 48x96 story v1 walk-left 4",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_left_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_right_f1_story_v1",
+      "name": "船夫 48x96 story v1 walk-right 1",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_right_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_right_f2_story_v1",
+      "name": "船夫 48x96 story v1 walk-right 2",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_right_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_right_f3_story_v1",
+      "name": "船夫 48x96 story v1 walk-right 3",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_right_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_right_f4_story_v1",
+      "name": "船夫 48x96 story v1 walk-right 4",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_right_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_up_f1_story_v1",
+      "name": "船夫 48x96 story v1 walk-up 1",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_up_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_up_f2_story_v1",
+      "name": "船夫 48x96 story v1 walk-up 2",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_up_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_up_f3_story_v1",
+      "name": "船夫 48x96 story v1 walk-up 3",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_up_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_boatman_walk_up_f4_story_v1",
+      "name": "船夫 48x96 story v1 walk-up 4",
+      "category": "character",
+      "path": "components/character/comp_boatman_walk_up_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_county_clerk_idle_down_f1_story_v1",
@@ -5552,883 +6325,1323 @@
     },
     {
       "id": "comp_servant_idle_down_f1_story_v1",
-      "name": "家仆书童 48x96 story v1 idle-down 1",
+      "name": "祝府老仆 48x96 story v1 idle-down 1",
       "category": "character",
       "path": "components/character/comp_servant_idle_down_f1_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_idle_down_f2_story_v1",
-      "name": "家仆书童 48x96 story v1 idle-down 2",
+      "name": "祝府老仆 48x96 story v1 idle-down 2",
       "category": "character",
       "path": "components/character/comp_servant_idle_down_f2_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_idle_down_f3_story_v1",
-      "name": "家仆书童 48x96 story v1 idle-down 3",
+      "name": "祝府老仆 48x96 story v1 idle-down 3",
       "category": "character",
       "path": "components/character/comp_servant_idle_down_f3_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_idle_down_f4_story_v1",
-      "name": "家仆书童 48x96 story v1 idle-down 4",
+      "name": "祝府老仆 48x96 story v1 idle-down 4",
       "category": "character",
       "path": "components/character/comp_servant_idle_down_f4_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_down_f1_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-down 1",
+      "name": "祝府老仆 48x96 story v1 walk-down 1",
       "category": "character",
       "path": "components/character/comp_servant_walk_down_f1_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_down_f2_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-down 2",
+      "name": "祝府老仆 48x96 story v1 walk-down 2",
       "category": "character",
       "path": "components/character/comp_servant_walk_down_f2_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_down_f3_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-down 3",
+      "name": "祝府老仆 48x96 story v1 walk-down 3",
       "category": "character",
       "path": "components/character/comp_servant_walk_down_f3_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_down_f4_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-down 4",
+      "name": "祝府老仆 48x96 story v1 walk-down 4",
       "category": "character",
       "path": "components/character/comp_servant_walk_down_f4_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_left_f1_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-left 1",
+      "name": "祝府老仆 48x96 story v1 walk-left 1",
       "category": "character",
       "path": "components/character/comp_servant_walk_left_f1_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_left_f2_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-left 2",
+      "name": "祝府老仆 48x96 story v1 walk-left 2",
       "category": "character",
       "path": "components/character/comp_servant_walk_left_f2_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_left_f3_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-left 3",
+      "name": "祝府老仆 48x96 story v1 walk-left 3",
       "category": "character",
       "path": "components/character/comp_servant_walk_left_f3_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_left_f4_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-left 4",
+      "name": "祝府老仆 48x96 story v1 walk-left 4",
       "category": "character",
       "path": "components/character/comp_servant_walk_left_f4_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_right_f1_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-right 1",
+      "name": "祝府老仆 48x96 story v1 walk-right 1",
       "category": "character",
       "path": "components/character/comp_servant_walk_right_f1_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_right_f2_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-right 2",
+      "name": "祝府老仆 48x96 story v1 walk-right 2",
       "category": "character",
       "path": "components/character/comp_servant_walk_right_f2_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_right_f3_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-right 3",
+      "name": "祝府老仆 48x96 story v1 walk-right 3",
       "category": "character",
       "path": "components/character/comp_servant_walk_right_f3_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_right_f4_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-right 4",
+      "name": "祝府老仆 48x96 story v1 walk-right 4",
       "category": "character",
       "path": "components/character/comp_servant_walk_right_f4_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_up_f1_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-up 1",
+      "name": "祝府老仆 48x96 story v1 walk-up 1",
       "category": "character",
       "path": "components/character/comp_servant_walk_up_f1_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_up_f2_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-up 2",
+      "name": "祝府老仆 48x96 story v1 walk-up 2",
       "category": "character",
       "path": "components/character/comp_servant_walk_up_f2_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_up_f3_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-up 3",
+      "name": "祝府老仆 48x96 story v1 walk-up 3",
       "category": "character",
       "path": "components/character/comp_servant_walk_up_f3_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_servant_walk_up_f4_story_v1",
-      "name": "家仆书童 48x96 story v1 walk-up 4",
+      "name": "祝府老仆 48x96 story v1 walk-up 4",
       "category": "character",
       "path": "components/character/comp_servant_walk_up_f4_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "servant",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_idle_down_f1_story_v1",
-      "name": "普通书生 48x96 story v1 idle-down 1",
+      "name": "路人书生 48x96 story v1 idle-down 1",
       "category": "character",
       "path": "components/character/comp_student_idle_down_f1_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_idle_down_f2_story_v1",
-      "name": "普通书生 48x96 story v1 idle-down 2",
+      "name": "路人书生 48x96 story v1 idle-down 2",
       "category": "character",
       "path": "components/character/comp_student_idle_down_f2_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_idle_down_f3_story_v1",
-      "name": "普通书生 48x96 story v1 idle-down 3",
+      "name": "路人书生 48x96 story v1 idle-down 3",
       "category": "character",
       "path": "components/character/comp_student_idle_down_f3_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_idle_down_f4_story_v1",
-      "name": "普通书生 48x96 story v1 idle-down 4",
+      "name": "路人书生 48x96 story v1 idle-down 4",
       "category": "character",
       "path": "components/character/comp_student_idle_down_f4_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_down_f1_story_v1",
-      "name": "普通书生 48x96 story v1 walk-down 1",
+      "name": "路人书生 48x96 story v1 walk-down 1",
       "category": "character",
       "path": "components/character/comp_student_walk_down_f1_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_down_f2_story_v1",
-      "name": "普通书生 48x96 story v1 walk-down 2",
+      "name": "路人书生 48x96 story v1 walk-down 2",
       "category": "character",
       "path": "components/character/comp_student_walk_down_f2_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_down_f3_story_v1",
-      "name": "普通书生 48x96 story v1 walk-down 3",
+      "name": "路人书生 48x96 story v1 walk-down 3",
       "category": "character",
       "path": "components/character/comp_student_walk_down_f3_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_down_f4_story_v1",
-      "name": "普通书生 48x96 story v1 walk-down 4",
+      "name": "路人书生 48x96 story v1 walk-down 4",
       "category": "character",
       "path": "components/character/comp_student_walk_down_f4_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_left_f1_story_v1",
-      "name": "普通书生 48x96 story v1 walk-left 1",
+      "name": "路人书生 48x96 story v1 walk-left 1",
       "category": "character",
       "path": "components/character/comp_student_walk_left_f1_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_left_f2_story_v1",
-      "name": "普通书生 48x96 story v1 walk-left 2",
+      "name": "路人书生 48x96 story v1 walk-left 2",
       "category": "character",
       "path": "components/character/comp_student_walk_left_f2_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_left_f3_story_v1",
-      "name": "普通书生 48x96 story v1 walk-left 3",
+      "name": "路人书生 48x96 story v1 walk-left 3",
       "category": "character",
       "path": "components/character/comp_student_walk_left_f3_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_left_f4_story_v1",
-      "name": "普通书生 48x96 story v1 walk-left 4",
+      "name": "路人书生 48x96 story v1 walk-left 4",
       "category": "character",
       "path": "components/character/comp_student_walk_left_f4_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_right_f1_story_v1",
-      "name": "普通书生 48x96 story v1 walk-right 1",
+      "name": "路人书生 48x96 story v1 walk-right 1",
       "category": "character",
       "path": "components/character/comp_student_walk_right_f1_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_right_f2_story_v1",
-      "name": "普通书生 48x96 story v1 walk-right 2",
+      "name": "路人书生 48x96 story v1 walk-right 2",
       "category": "character",
       "path": "components/character/comp_student_walk_right_f2_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_right_f3_story_v1",
-      "name": "普通书生 48x96 story v1 walk-right 3",
+      "name": "路人书生 48x96 story v1 walk-right 3",
       "category": "character",
       "path": "components/character/comp_student_walk_right_f3_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_right_f4_story_v1",
-      "name": "普通书生 48x96 story v1 walk-right 4",
+      "name": "路人书生 48x96 story v1 walk-right 4",
       "category": "character",
       "path": "components/character/comp_student_walk_right_f4_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_up_f1_story_v1",
-      "name": "普通书生 48x96 story v1 walk-up 1",
+      "name": "路人书生 48x96 story v1 walk-up 1",
       "category": "character",
       "path": "components/character/comp_student_walk_up_f1_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_up_f2_story_v1",
-      "name": "普通书生 48x96 story v1 walk-up 2",
+      "name": "路人书生 48x96 story v1 walk-up 2",
       "category": "character",
       "path": "components/character/comp_student_walk_up_f2_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_up_f3_story_v1",
-      "name": "普通书生 48x96 story v1 walk-up 3",
+      "name": "路人书生 48x96 story v1 walk-up 3",
       "category": "character",
       "path": "components/character/comp_student_walk_up_f3_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_student_walk_up_f4_story_v1",
-      "name": "普通书生 48x96 story v1 walk-up 4",
+      "name": "路人书生 48x96 story v1 walk-up 4",
       "category": "character",
       "path": "components/character/comp_student_walk_up_f4_story_v1.json",
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-b",
         "student",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_idle_down_f1_story_v1",
+      "name": "茶摊妇人 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782325200000
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_idle_down_f2_story_v1",
+      "name": "茶摊妇人 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_idle_down_f3_story_v1",
+      "name": "茶摊妇人 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_idle_down_f4_story_v1",
+      "name": "茶摊妇人 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_down_f1_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-down 1",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_down_f2_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-down 2",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_down_f3_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-down 3",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_down_f4_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-down 4",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_left_f1_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-left 1",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_left_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_left_f2_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-left 2",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_left_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_left_f3_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-left 3",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_left_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_left_f4_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-left 4",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_left_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_right_f1_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-right 1",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_right_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_right_f2_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-right 2",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_right_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_right_f3_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-right 3",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_right_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_right_f4_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-right 4",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_right_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_up_f1_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-up 1",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_up_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_up_f2_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-up 2",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_up_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_up_f3_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-up 3",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_up_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_tea_seller_walk_up_f4_story_v1",
+      "name": "茶摊妇人 48x96 story v1 walk-up 4",
+      "category": "character",
+      "path": "components/character/comp_tea_seller_walk_up_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_teacher_idle_down_f1_story_v1",
@@ -7778,19 +8991,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_idle_down_f2_story_v1",
@@ -7800,19 +9013,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_idle_down_f3_story_v1",
@@ -7822,19 +9035,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_idle_down_f4_story_v1",
@@ -7844,19 +9057,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_down_f1_story_v1",
@@ -7866,19 +9079,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_down_f2_story_v1",
@@ -7888,19 +9101,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_down_f3_story_v1",
@@ -7910,19 +9123,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_down_f4_story_v1",
@@ -7932,19 +9145,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_left_f1_story_v1",
@@ -7954,19 +9167,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_left_f2_story_v1",
@@ -7976,19 +9189,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_left_f3_story_v1",
@@ -7998,19 +9211,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_left_f4_story_v1",
@@ -8020,19 +9233,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_right_f1_story_v1",
@@ -8042,19 +9255,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_right_f2_story_v1",
@@ -8064,19 +9277,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_right_f3_story_v1",
@@ -8086,19 +9299,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_right_f4_story_v1",
@@ -8108,19 +9321,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_up_f1_story_v1",
@@ -8130,19 +9343,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_up_f2_story_v1",
@@ -8152,19 +9365,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_up_f3_story_v1",
@@ -8174,19 +9387,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_father_walk_up_f4_story_v1",
@@ -8196,19 +9409,459 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_father",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 2,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_idle_down_f1_story_v1",
+      "name": "祝府侍女 48x96 story v1 idle-down 1",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_idle_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
       "version": 1,
-      "updatedAt": 1782325200000
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_idle_down_f2_story_v1",
+      "name": "祝府侍女 48x96 story v1 idle-down 2",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_idle_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_idle_down_f3_story_v1",
+      "name": "祝府侍女 48x96 story v1 idle-down 3",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_idle_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_idle_down_f4_story_v1",
+      "name": "祝府侍女 48x96 story v1 idle-down 4",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_idle_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_down_f1_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-down 1",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_down_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_down_f2_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-down 2",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_down_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_down_f3_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-down 3",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_down_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_down_f4_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-down 4",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_down_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_left_f1_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-left 1",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_left_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_left_f2_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-left 2",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_left_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_left_f3_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-left 3",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_left_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_left_f4_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-left 4",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_left_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_right_f1_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-right 1",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_right_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_right_f2_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-right 2",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_right_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_right_f3_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-right 3",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_right_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_right_f4_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-right 4",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_right_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_up_f1_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-up 1",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_up_f1_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_up_f2_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-up 2",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_up_f2_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_up_f3_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-up 3",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_up_f3_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "comp_zhufu_maid_walk_up_f4_story_v1",
+      "name": "祝府侍女 48x96 story v1 walk-up 4",
+      "category": "character",
+      "path": "components/character/comp_zhufu_maid_walk_up_f4_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
+      ],
+      "width": 48,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_idle_down_f1_story_v1",
@@ -8218,19 +9871,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_idle_down_f2_story_v1",
@@ -8240,19 +9893,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_idle_down_f3_story_v1",
@@ -8262,19 +9915,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_idle_down_f4_story_v1",
@@ -8284,19 +9937,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "idle-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "idle-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_down_f1_story_v1",
@@ -8306,19 +9959,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_down_f2_story_v1",
@@ -8328,19 +9981,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_down_f3_story_v1",
@@ -8350,19 +10003,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_down_f4_story_v1",
@@ -8372,19 +10025,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-down",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-down"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_left_f1_story_v1",
@@ -8394,19 +10047,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_left_f2_story_v1",
@@ -8416,19 +10069,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_left_f3_story_v1",
@@ -8438,19 +10091,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_left_f4_story_v1",
@@ -8460,19 +10113,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-left",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-left"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_right_f1_story_v1",
@@ -8482,19 +10135,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_right_f2_story_v1",
@@ -8504,19 +10157,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_right_f3_story_v1",
@@ -8526,19 +10179,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_right_f4_story_v1",
@@ -8548,19 +10201,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-right",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-right"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_up_f1_story_v1",
@@ -8570,19 +10223,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_up_f2_story_v1",
@@ -8592,19 +10245,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_up_f3_story_v1",
@@ -8614,19 +10267,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhufu_mother_walk_up_f4_story_v1",
@@ -8636,19 +10289,19 @@
       "tags": [
         "liangzhu-story-v1",
         "liangzhu",
-        "梁祝",
-        "tier-a",
         "zhufu_mother",
-        "walk-up",
         "48x96",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "tier-a",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4",
+        "walk-up"
       ],
       "width": 48,
       "height": 96,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "comp_zhuyingtai_butterfly_idle_down_f1_story_v1",
@@ -10660,6 +12313,528 @@
       "updatedAt": 1782325200000
     },
     {
+      "id": "comp_lz_ch01_ferry_ancient_ferry_stele_v2",
+      "name": "古渡碑 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_ancient_ferry_stele_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-a",
+        "scene-reference-v1",
+        "stele",
+        "古渡",
+        "marker",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 32,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_boat_cargo_reflection_v2",
+      "name": "渡口 船影 cargo v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_boat_cargo_reflection_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "reflection",
+        "倒影",
+        "boat",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 128,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_boat_ferry_reflection_v2",
+      "name": "渡口 船影 ferry v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_boat_ferry_reflection_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "reflection",
+        "倒影",
+        "boat",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 144,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_boat_small_reflection_v2",
+      "name": "渡口 船影 small v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_boat_small_reflection_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "reflection",
+        "倒影",
+        "boat",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 112,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_cargo_stack_v2",
+      "name": "码头货堆（米包、竹篓、酒坛）v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_cargo_stack_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-a",
+        "scene-reference-v1",
+        "cargo",
+        "货堆",
+        "ferry",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 80,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_egret_v2",
+      "name": "白鹭 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_egret_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "egret",
+        "白鹭",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_far_house_a_reflection_v2",
+      "name": "渡口 对岸房屋倒影 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_far_house_a_reflection_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "reflection",
+        "倒影",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 112,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_far_house_b_reflection_v2",
+      "name": "渡口 对岸房屋倒影 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_far_house_b_reflection_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "reflection",
+        "倒影",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 96,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_fare_board_v2",
+      "name": "渡口告示牌 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_fare_board_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "notice",
+        "告示",
+        "ferry",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 48,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_firewood_v2",
+      "name": "柴垛 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_firewood_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "firewood",
+        "柴垛",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 48,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_lantern_reflection_boat_v2",
+      "name": "渡口 船灯水中倒影 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_lantern_reflection_boat_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "reflection",
+        "lantern",
+        "warm",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_lotus_patch_a_v2",
+      "name": "渡口 荷叶丛 a v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_lotus_patch_a_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "lotus",
+        "荷叶",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 48,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_lotus_patch_b_v2",
+      "name": "渡口 荷叶丛 b v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_lotus_patch_b_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "lotus",
+        "荷叶",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 48,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_lotus_patch_c_v2",
+      "name": "渡口 荷叶丛 c v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_lotus_patch_c_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "lotus",
+        "荷叶",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 48,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_lotus_patch_d_v2",
+      "name": "渡口 荷叶丛 d v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_lotus_patch_d_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "lotus",
+        "荷叶",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 48,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_lotus_patch_e_v2",
+      "name": "渡口 荷叶丛 e v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_lotus_patch_e_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "lotus",
+        "荷叶",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 48,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_mooring_post_v2",
+      "name": "系船桩 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_mooring_post_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "post",
+        "系船桩",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_net_rack_v2",
+      "name": "晒网架 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_net_rack_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "net",
+        "晒网",
+        "fishing",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 64,
+      "height": 80,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_tea_banner_v2",
+      "name": "茶字望子 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_tea_banner_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "banner",
+        "望子",
+        "茶",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 32,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_veg_patch_v2",
+      "name": "渡夫菜畦 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_veg_patch_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "garden",
+        "菜畦",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 96,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_waiting_bench_v2",
+      "name": "候船条石凳 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_waiting_bench_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "bench",
+        "石凳",
+        "waiting",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 64,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_warm_glints_a_v2",
+      "name": "渡口 午后暖光水纹 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_warm_glints_a_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "glint",
+        "warm",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 80,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_warm_glints_b_v2",
+      "name": "渡口 午后暖光水纹乙 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_warm_glints_b_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "glint",
+        "warm",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 48,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_wheelbarrow_v2",
+      "name": "独轮车（载货）v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_ferry_wheelbarrow_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "wheelbarrow",
+        "独轮车",
+        "cargo",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 64,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
       "id": "comp_lz_ch01_gate_decal_leaves_v3",
       "name": "书院门前 樟叶 v3",
       "category": "decoration",
@@ -10982,6 +13157,285 @@
       "updatedAt": 1790100000000
     },
     {
+      "id": "comp_lz_ch01_pavilion_boulder_a_v2",
+      "name": "山路驿亭 溪石 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_pavilion_boulder_a_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "rock",
+        "boulder",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 32,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_boulder_b_v2",
+      "name": "山路驿亭 溪石 b v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_pavilion_boulder_b_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "rock",
+        "boulder",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 32,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_rocks_a_v2",
+      "name": "山路驿亭 山石堆 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_pavilion_rocks_a_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "rock",
+        "山石",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 96,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_rocks_b_v2",
+      "name": "山路驿亭 崖脚山石 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_pavilion_rocks_b_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "rock",
+        "山石",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 80,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_drying_rack_v2",
+      "name": "竹匾晾架 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_zhufu_drying_rack_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-b",
+        "scene-zhufu",
+        "bamboo",
+        "竹匾"
+      ],
+      "width": 64,
+      "height": 48,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_lotus_vat_v2",
+      "name": "青瓷荷花缸 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_zhufu_lotus_vat_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-a",
+        "scene-zhufu",
+        "water-jar",
+        "太平缸",
+        "lotus"
+      ],
+      "width": 48,
+      "height": 48,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_planter_v2",
+      "name": "砖砌花台 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_zhufu_planter_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-b",
+        "scene-zhufu",
+        "planter",
+        "花台"
+      ],
+      "width": 64,
+      "height": 48,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_pot_orchid_v2",
+      "name": "盆兰 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_zhufu_pot_orchid_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-b",
+        "scene-zhufu",
+        "pot",
+        "兰"
+      ],
+      "width": 32,
+      "height": 48,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_pot_osmanthus_v2",
+      "name": "盆桂 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_zhufu_pot_osmanthus_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-b",
+        "scene-zhufu",
+        "pot",
+        "桂"
+      ],
+      "width": 32,
+      "height": 48,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_side_table_v2",
+      "name": "小花几 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_zhufu_side_table_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-b",
+        "scene-zhufu",
+        "table",
+        "花几"
+      ],
+      "width": 32,
+      "height": 32,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_stone_bench_v2",
+      "name": "条石凳与盆景 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_zhufu_stone_bench_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-b",
+        "scene-zhufu",
+        "bench",
+        "盆景"
+      ],
+      "width": 48,
+      "height": 32,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_wash_set_v2",
+      "name": "捣衣石与木盆 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_zhufu_wash_set_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-b",
+        "scene-zhufu",
+        "laundry",
+        "捣衣"
+      ],
+      "width": 48,
+      "height": 32,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_well_v2",
+      "name": "祝府水井（辘轳·井台）v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch01_zhufu_well_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-a",
+        "scene-zhufu",
+        "well",
+        "井",
+        "辘轳"
+      ],
+      "width": 64,
+      "height": 80,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
       "id": "comp_lz_prop_betrothal_chest_story_v1",
       "name": "聘礼箱",
       "category": "decoration",
@@ -11024,6 +13478,29 @@
       "updatedAt": 1790100000000
     },
     {
+      "id": "comp_lz_prop_book_chest_wet_story_v2",
+      "name": "落水边的书笈 story v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_book_chest_wet_story_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-s",
+        "scene-reference-v1",
+        "story-prop-v2",
+        "book-chest",
+        "书笈",
+        "ferry",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 48,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
       "id": "comp_lz_prop_bookcase_story_v1",
       "name": "书箱",
       "category": "decoration",
@@ -11059,6 +13536,28 @@
       "height": 32,
       "version": 1,
       "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_prop_clothes_chest_story_v2",
+      "name": "女装箱笼 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_clothes_chest_story_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-a",
+        "scene-zhufu",
+        "chest",
+        "女装箱笼",
+        "story-prop-v2"
+      ],
+      "width": 48,
+      "height": 48,
+      "version": 2,
+      "updatedAt": 1790800000000
     },
     {
       "id": "comp_lz_prop_fan_jade_story_v1",
@@ -11105,6 +13604,75 @@
       "updatedAt": 1790100000000
     },
     {
+      "id": "comp_lz_prop_ferry_lantern_post_story_v2",
+      "name": "码头灯柱（折柳）story v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_ferry_lantern_post_story_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-s",
+        "scene-reference-v1",
+        "story-prop-v2",
+        "lantern",
+        "折柳",
+        "ferry",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 32,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_prop_folding_fan_story_v2",
+      "name": "折扇 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_folding_fan_story_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-a",
+        "scene-zhufu",
+        "fan",
+        "折扇",
+        "story-prop-v2",
+        "prop_folding_fan"
+      ],
+      "width": 32,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_prop_jade_pendant_story_v2",
+      "name": "玉佩 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_jade_pendant_story_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-a",
+        "scene-zhufu",
+        "jade",
+        "玉佩",
+        "story-prop-v2",
+        "prop_jade_token"
+      ],
+      "width": 32,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
       "id": "comp_lz_prop_last_letter_story_v1",
       "name": "遗信",
       "category": "decoration",
@@ -11122,6 +13690,28 @@
       "height": 32,
       "version": 1,
       "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_prop_letter_desk_story_v2",
+      "name": "家书桌 v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_letter_desk_story_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-a",
+        "scene-zhufu",
+        "desk",
+        "家书桌",
+        "story-prop-v2"
+      ],
+      "width": 64,
+      "height": 48,
+      "version": 2,
+      "updatedAt": 1790800000000
     },
     {
       "id": "comp_lz_prop_marriage_doc_story_v1",
@@ -11158,6 +13748,31 @@
       "height": 32,
       "version": 1,
       "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_prop_milestone_stele_story_v2",
+      "name": "「十里」界碑（剧情线索）v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_milestone_stele_story_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-a",
+        "scene-reference-v1",
+        "stele",
+        "界碑",
+        "十里",
+        "story-prop",
+        "liangzhu-story-v2",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 32,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1790300000000
     },
     {
       "id": "comp_lz_prop_red_sedan_story_v1",
@@ -11239,6 +13854,28 @@
       "height": 40,
       "version": 1,
       "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_prop_travel_bundle_story_v2",
+      "name": "包袱与书卷 story v2",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_travel_bundle_story_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-a",
+        "scene-reference-v1",
+        "story-prop-v2",
+        "bundle",
+        "包袱",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 32,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1790300000000
     },
     {
       "id": "comp_lz_prop_willow_branch_story_v1",
@@ -16265,7 +18902,7 @@
       "width": 384,
       "height": 192,
       "version": 1,
-      "updatedAt": 1790769585775
+      "updatedAt": 1790791549085
     },
     {
       "id": "comp_map_lz_ch02_academy_courtyard_v1_story_atmosphere_v6",
@@ -16750,6 +19387,27 @@
       "updatedAt": 1790100000000
     },
     {
+      "id": "comp_lz_ch01_zhufu_block_v2",
+      "name": "祝府碰撞块 v2（不可见）",
+      "category": "other",
+      "path": "components/other/comp_lz_ch01_zhufu_block_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "collision",
+        "invisible"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
       "id": "comp_academy_dirt_path_v1",
       "name": "书院 土石小径 v1",
       "category": "terrain",
@@ -16882,6 +19540,578 @@
       "height": 96,
       "version": 1,
       "updatedAt": 1782325200000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_far_bank_face_a_v2",
+      "name": "渡口 对岸石驳岸 a v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_far_bank_face_a_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_far_bank_face_b_v2",
+      "name": "渡口 对岸石驳岸 b v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_far_bank_face_b_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_far_bank_face_c_v2",
+      "name": "渡口 对岸石驳岸 c v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_far_bank_face_c_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_far_bank_face_d_v2",
+      "name": "渡口 对岸石驳岸 d v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_far_bank_face_d_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_far_coping_a_v2",
+      "name": "渡口 对岸压沿石 a v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_far_coping_a_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_far_coping_b_v2",
+      "name": "渡口 对岸压沿石 b v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_far_coping_b_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_far_coping_c_v2",
+      "name": "渡口 对岸压沿石 c v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_far_coping_c_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_far_coping_d_v2",
+      "name": "渡口 对岸压沿石 d v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_far_coping_d_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_near_coping_a_v2",
+      "name": "渡口 近岸压沿石与拍岸 a v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_near_coping_a_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_near_coping_b_v2",
+      "name": "渡口 近岸压沿石与拍岸 b v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_near_coping_b_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_near_coping_c_v2",
+      "name": "渡口 近岸压沿石与拍岸 c v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_near_coping_c_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_near_coping_d_v2",
+      "name": "渡口 近岸压沿石与拍岸 d v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_near_coping_d_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "stone",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_river_a_v2",
+      "name": "渡口 河水 a v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_river_a_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_river_b_v2",
+      "name": "渡口 河水 b v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_river_b_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_river_c_v2",
+      "name": "渡口 河水 c v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_river_c_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_river_d_v2",
+      "name": "渡口 河水 d v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_river_d_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_river_e_v2",
+      "name": "渡口 河水 e v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_river_e_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_river_f_v2",
+      "name": "渡口 河水 f v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_river_f_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_river_shade_a_v2",
+      "name": "渡口 河水岸影 a v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_river_shade_a_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_river_shade_b_v2",
+      "name": "渡口 河水岸影 b v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_river_shade_b_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_river_shade_c_v2",
+      "name": "渡口 河水岸影 c v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_river_shade_c_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_river_shade_d_v2",
+      "name": "渡口 河水岸影 d v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_river_shade_d_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_river_shade_lo_a_v2",
+      "name": "渡口 河水岸影渐淡 a v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_river_shade_lo_a_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_river_shade_lo_b_v2",
+      "name": "渡口 河水岸影渐淡 b v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_river_shade_lo_b_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_river_shade_lo_c_v2",
+      "name": "渡口 河水岸影渐淡 c v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_river_shade_lo_c_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_ferry_ground_river_shade_lo_d_v2",
+      "name": "渡口 河水岸影渐淡 d v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_ferry_ground_river_shade_lo_d_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "tile",
+        "water",
+        "ferry-v2",
+        "river-ferry"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1790300000000
     },
     {
       "id": "comp_lz_ch01_gate_ground_bank_face_b_v3",
@@ -17941,6 +21171,736 @@
       "updatedAt": 1790100000000
     },
     {
+      "id": "comp_lz_ch01_pavilion_ground_r0c0_v2",
+      "name": "山路驿亭 地面拼板 r0c0 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r0c0_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_ground_r0c1_v2",
+      "name": "山路驿亭 地面拼板 r0c1 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r0c1_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_ground_r0c2_v2",
+      "name": "山路驿亭 地面拼板 r0c2 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r0c2_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_ground_r0c3_v2",
+      "name": "山路驿亭 地面拼板 r0c3 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r0c3_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_ground_r1c0_v2",
+      "name": "山路驿亭 地面拼板 r1c0 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r1c0_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_ground_r1c1_v2",
+      "name": "山路驿亭 地面拼板 r1c1 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r1c1_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_ground_r1c2_v2",
+      "name": "山路驿亭 地面拼板 r1c2 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r1c2_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_ground_r1c3_v2",
+      "name": "山路驿亭 地面拼板 r1c3 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r1c3_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_ground_r2c0_v2",
+      "name": "山路驿亭 地面拼板 r2c0 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r2c0_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_ground_r2c1_v2",
+      "name": "山路驿亭 地面拼板 r2c1 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r2c1_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_ground_r2c2_v2",
+      "name": "山路驿亭 地面拼板 r2c2 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r2c2_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_ground_r2c3_v2",
+      "name": "山路驿亭 地面拼板 r2c3 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r2c3_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_ground_r3c0_v2",
+      "name": "山路驿亭 地面拼板 r3c0 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r3c0_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_ground_r3c1_v2",
+      "name": "山路驿亭 地面拼板 r3c1 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r3c1_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_ground_r3c2_v2",
+      "name": "山路驿亭 地面拼板 r3c2 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r3c2_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_ground_r3c3_v2",
+      "name": "山路驿亭 地面拼板 r3c3 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_pavilion_ground_r3c3_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-c",
+        "scene-reference-v1",
+        "ground",
+        "plate",
+        "terrain",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_basket_h_shade_v2",
+      "name": "祝府 席纹砖地 h 檐影 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_basket_h_shade_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "brick",
+        "shade"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_basket_ha_v2",
+      "name": "祝府 席纹砖地 h甲 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_basket_ha_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "brick"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_basket_hb_v2",
+      "name": "祝府 席纹砖地 h乙 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_basket_hb_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "brick"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_basket_hc_v2",
+      "name": "祝府 席纹砖地 h丙 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_basket_hc_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "brick"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_basket_hd_v2",
+      "name": "祝府 席纹砖地 h丁 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_basket_hd_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "brick"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_basket_v_shade_v2",
+      "name": "祝府 席纹砖地 v 檐影 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_basket_v_shade_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "brick",
+        "shade"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_basket_va_v2",
+      "name": "祝府 席纹砖地 v甲 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_basket_va_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "brick"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_basket_vb_v2",
+      "name": "祝府 席纹砖地 v乙 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_basket_vb_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "brick"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_basket_vc_v2",
+      "name": "祝府 席纹砖地 v丙 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_basket_vc_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "brick"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_basket_vd_v2",
+      "name": "祝府 席纹砖地 v丁 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_basket_vd_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "brick"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_diamond_a_v2",
+      "name": "祝府 斜墁方砖甬路 甲 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_diamond_a_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "stone",
+        "path"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_diamond_b_v2",
+      "name": "祝府 斜墁方砖甬路 乙 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_diamond_b_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "stone",
+        "path"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_diamond_c_v2",
+      "name": "祝府 斜墁方砖甬路 丙 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_diamond_c_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "stone",
+        "path"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_diamond_d_v2",
+      "name": "祝府 斜墁方砖甬路 丁 v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_diamond_d_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "stone",
+        "path"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_diamond_edge_e_v2",
+      "name": "祝府 甬路立砖牙子 e v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_diamond_edge_e_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "stone",
+        "path",
+        "kerb"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_ground_diamond_edge_w_v2",
+      "name": "祝府 甬路立砖牙子 w v2",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch01_zhufu_ground_diamond_edge_w_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-c",
+        "scene-zhufu",
+        "ground",
+        "tile",
+        "stone",
+        "path",
+        "kerb"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
       "id": "comp_lz_ground_dirt_story_v1",
       "name": "泥土官道",
       "category": "terrain",
@@ -18315,6 +22275,75 @@
       "updatedAt": 1790100000000
     },
     {
+      "id": "comp_lz_ch01_pavilion_pine_a_v2",
+      "name": "山路驿亭 马尾松 v2",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch01_pavilion_pine_a_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "tree",
+        "pine",
+        "松",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 144,
+      "height": 208,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_pavilion_pine_b_v2",
+      "name": "山路驿亭 马尾松（崖边）v2",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch01_pavilion_pine_b_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "song-jiangnan",
+        "tier-b",
+        "scene-reference-v1",
+        "tree",
+        "pine",
+        "松",
+        "mountain-pavilion-v2",
+        "scene-map-lz-ch01-mountain-pavilion"
+      ],
+      "width": 128,
+      "height": 176,
+      "version": 1,
+      "updatedAt": 1790300000000
+    },
+    {
+      "id": "comp_lz_ch01_zhufu_plantain_v2",
+      "name": "芭蕉 v2",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch01_zhufu_plantain_v2.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "zhufu-courtyard-v2",
+        "song-jiangnan",
+        "tier-b",
+        "scene-zhufu",
+        "tree",
+        "plantain",
+        "芭蕉",
+        "flora"
+      ],
+      "width": 64,
+      "height": 112,
+      "version": 2,
+      "updatedAt": 1790800000000
+    },
+    {
       "id": "comp_study_bamboo_shadow_path_v1",
       "name": "竹影小径",
       "category": "tree",
@@ -18384,39 +22413,39 @@
   "maps": [
     {
       "id": "map_lz_ch01_academy_gate_v1",
-      "name": "书院门前 v4",
+      "name": "书院门前 v5",
       "path": "maps/map_lz_ch01_academy_gate_v1.json",
       "widthInTiles": 44,
       "heightInTiles": 32,
-      "version": 4,
-      "updatedAt": 1790200000000
+      "version": 5,
+      "updatedAt": 1790300000000
     },
     {
       "id": "map_lz_ch01_mountain_pavilion_v1",
-      "name": "山路驿亭 v1",
+      "name": "山路驿亭 v2",
       "path": "maps/map_lz_ch01_mountain_pavilion_v1.json",
       "widthInTiles": 44,
       "heightInTiles": 32,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790300000000
     },
     {
       "id": "map_lz_ch01_river_ferry_v1",
-      "name": "渡口 v1",
+      "name": "渡口 v2",
       "path": "maps/map_lz_ch01_river_ferry_v1.json",
       "widthInTiles": 44,
       "heightInTiles": 32,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790300000000
     },
     {
       "id": "map_lz_ch01_zhufu_courtyard_v1",
-      "name": "祝英台家 v1",
+      "name": "祝英台家 v2",
       "path": "maps/map_lz_ch01_zhufu_courtyard_v1.json",
       "widthInTiles": 44,
       "heightInTiles": 34,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790800000000
     },
     {
       "id": "map_lz_ch02_academy_courtyard_v1",
@@ -18591,6 +22620,29 @@
     }
   ],
   "sprites": [
+    {
+      "id": "sprite_boatman_48x96_story_v1",
+      "name": "船夫 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_boatman_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "boatman",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 5,
+      "version": 1,
+      "updatedAt": 1790200000000
+    },
     {
       "id": "sprite_county_clerk_48x96_story_v1",
       "name": "县吏 48x96 story v1",
@@ -18807,7 +22859,7 @@
     },
     {
       "id": "sprite_servant_48x96_story_v1",
-      "name": "家仆书童 48x96 story v1",
+      "name": "祝府老仆 48x96 story v1",
       "category": "character",
       "path": "sprites/sprite_servant_48x96_story_v1.json",
       "tags": [
@@ -18816,20 +22868,21 @@
         "servant",
         "48x96",
         "tier-b",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "servant-bundle-v3"
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4"
       ],
       "width": 48,
       "height": 96,
       "layerCount": 1,
       "animationCount": 5,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "sprite_student_48x96_story_v1",
-      "name": "普通书生 48x96 story v1",
+      "name": "路人书生 48x96 story v1",
       "category": "character",
       "path": "sprites/sprite_student_48x96_story_v1.json",
       "tags": [
@@ -18838,16 +22891,40 @@
         "student",
         "48x96",
         "tier-b",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "student-book-strap-v3"
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 5,
+      "version": 2,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "sprite_tea_seller_48x96_story_v1",
+      "name": "茶摊妇人 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_tea_seller_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "tea_seller",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4"
       ],
       "width": 48,
       "height": 96,
       "layerCount": 1,
       "animationCount": 5,
       "version": 1,
-      "updatedAt": 1782325200000
+      "updatedAt": 1790200000000
     },
     {
       "id": "sprite_teacher_48x96_story_v1",
@@ -18928,16 +23005,40 @@
         "zhufu_father",
         "48x96",
         "tier-a",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-father-authority-v3"
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4"
+      ],
+      "width": 48,
+      "height": 96,
+      "layerCount": 1,
+      "animationCount": 5,
+      "version": 2,
+      "updatedAt": 1790200000000
+    },
+    {
+      "id": "sprite_zhufu_maid_48x96_story_v1",
+      "name": "祝府侍女 48x96 story v1",
+      "category": "character",
+      "path": "sprites/sprite_zhufu_maid_48x96_story_v1.json",
+      "tags": [
+        "liangzhu-story-v1",
+        "liangzhu",
+        "zhufu_maid",
+        "48x96",
+        "tier-b",
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4"
       ],
       "width": 48,
       "height": 96,
       "layerCount": 1,
       "animationCount": 5,
       "version": 1,
-      "updatedAt": 1782325200000
+      "updatedAt": 1790200000000
     },
     {
       "id": "sprite_zhufu_mother_48x96_story_v1",
@@ -18950,16 +23051,17 @@
         "zhufu_mother",
         "48x96",
         "tier-a",
-        "supporting-cast-v3",
-        "general-supporting-cast-v3",
-        "zhufu-mother-fan-hairpin-v3"
+        "supporting-cast-v4",
+        "song-jiangnan-npc-v2",
+        "zhuyingtai-v4-style",
+        "kit-palette-v4"
       ],
       "width": 48,
       "height": 96,
       "layerCount": 1,
       "animationCount": 5,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1790200000000
     },
     {
       "id": "sprite_zhuyingtai_48x96_story_v1",
