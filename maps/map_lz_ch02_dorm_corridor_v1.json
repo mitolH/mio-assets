@@ -1,1251 +1,2080 @@
 {
-  "id": "map_lz_ch02_dorm_corridor_v1",
-  "name": "宿舍廊下 v1",
-  "description": "宿舍廊下，梁祝五章第一版统一风格可玩地图。",
-  "widthInTiles": 44,
-  "heightInTiles": 32,
-  "level": {
-    "formatVersion": 1,
-    "startLocationId": "map_lz_ch02_dorm_corridor_v1_start",
-    "assets": {
-      "componentIds": [
-        "comp_lz_ground_grass_story_v1",
-        "comp_lz_ground_wood_story_v1",
-        "comp_lz_prop_books_story_v1",
-        "comp_lz_prop_lantern_rain_story_v1",
-        "comp_map_lz_ch02_dorm_corridor_v1_ambient_scene_detail_v2",
-        "comp_map_lz_ch02_dorm_corridor_v1_focus_story_v1",
-        "comp_map_lz_ch02_dorm_corridor_v1_left_scene_detail_v2",
-        "comp_map_lz_ch02_dorm_corridor_v1_left_scene_fixture_v1",
-        "comp_map_lz_ch02_dorm_corridor_v1_path_scene_detail_v2",
-        "comp_map_lz_ch02_dorm_corridor_v1_right_scene_detail_v2",
-        "comp_map_lz_ch02_dorm_corridor_v1_right_scene_fixture_v1",
-        "comp_map_lz_ch02_dorm_corridor_v1_story_atmosphere_v6",
-        "comp_map_lz_ch02_dorm_corridor_v1_story_composition_v4",
-        "comp_map_lz_ch02_dorm_corridor_v1_story_scene_plate_v10",
-        "comp_map_lz_ch02_dorm_corridor_v1_story_tableau_v4",
-        "comp_study_dorm_rain_corridor_v1",
-        "comp_study_night_lantern_line_v1",
-        "comp_study_privacy_screen_v1",
-        "comp_study_wet_books_chest_v1"
-      ],
-      "spriteIds": [
-        "sprite_liangshanbo_48x96_story_v2",
-        "sprite_liangshanbo_butterfly_48x96_story_v1",
-        "sprite_liangshanbo_sick_48x96_story_v1",
-        "sprite_mawencai_48x96_story_v1",
-        "sprite_student_48x96_story_v1",
-        "sprite_zhuyingtai_48x96_story_v1",
-        "sprite_zhuyingtai_butterfly_48x96_story_v1",
-        "sprite_zhuyingtai_wedding_48x96_story_v1"
-      ],
-      "mapIds": [
-        "map_lz_ch02_dorm_corridor_v1"
-      ]
+ "id": "map_lz_ch02_dorm_corridor_v1",
+ "name": "宿舍廊下 v2",
+ "description": "宿舍廊下 v2（夜雨·长廊听雨·一线房门）：六间斋舍一字排开，门帘三态与窗纸灯影；东西向木廊临水，檐滴落入曲水第二支渠成一线涟漪；两座石板桥通湿青石小院，院东芭蕉与石水盆承雨，竹丛与剖视低墙收边。夜色与灯光已预调入资源。",
+ "widthInTiles": 44,
+ "heightInTiles": 32,
+ "level": {
+  "formatVersion": 1,
+  "startLocationId": "map_lz_ch02_dorm_corridor_v1_start",
+  "assets": {
+   "componentIds": [
+    "comp_lz_ch02_dorm_bamboo_b_v1",
+    "comp_lz_ch02_dorm_bamboo_c_v1",
+    "comp_lz_ch02_dorm_bamboo_d_v1",
+    "comp_lz_ch02_dorm_bamboo_v1",
+    "comp_lz_ch02_dorm_block_v1",
+    "comp_lz_ch02_dorm_eave_drips_v1",
+    "comp_lz_ch02_dorm_eave_lantern_v1",
+    "comp_lz_ch02_dorm_facade_v1",
+    "comp_lz_ch02_dorm_ground_r0c0_v1",
+    "comp_lz_ch02_dorm_ground_r0c1_v1",
+    "comp_lz_ch02_dorm_ground_r0c2_v1",
+    "comp_lz_ch02_dorm_ground_r0c3_v1",
+    "comp_lz_ch02_dorm_ground_r1c0_v1",
+    "comp_lz_ch02_dorm_ground_r1c1_v1",
+    "comp_lz_ch02_dorm_ground_r1c2_v1",
+    "comp_lz_ch02_dorm_ground_r1c3_v1",
+    "comp_lz_ch02_dorm_ground_r2c0_v1",
+    "comp_lz_ch02_dorm_ground_r2c1_v1",
+    "comp_lz_ch02_dorm_ground_r2c2_v1",
+    "comp_lz_ch02_dorm_ground_r2c3_v1",
+    "comp_lz_ch02_dorm_ground_r3c0_v1",
+    "comp_lz_ch02_dorm_ground_r3c1_v1",
+    "comp_lz_ch02_dorm_ground_r3c2_v1",
+    "comp_lz_ch02_dorm_ground_r3c3_v1",
+    "comp_lz_ch02_dorm_plantain_v1",
+    "comp_lz_ch02_dorm_rail_seat_v1",
+    "comp_lz_ch02_dorm_rain_ripples_v1",
+    "comp_lz_ch02_dorm_rain_veil_v1",
+    "comp_lz_ch02_dorm_south_wall_v1",
+    "comp_lz_ch02_dorm_stone_basin_v1",
+    "comp_lz_ch02_dorm_stone_bench_v1",
+    "comp_lz_ch02_dorm_wash_bucket_v1",
+    "comp_lz_ch02_dorm_water_jar_v1",
+    "comp_lz_prop_door_curtain_story_v1",
+    "comp_lz_prop_night_lamp_story_v1",
+    "comp_lz_prop_rain_seat_story_v1",
+    "comp_lz_prop_washstand_story_v1"
+   ],
+   "spriteIds": [
+    "sprite_liangshanbo_48x96_story_v2",
+    "sprite_liangshanbo_butterfly_48x96_story_v1",
+    "sprite_liangshanbo_sick_48x96_story_v1",
+    "sprite_mawencai_48x96_story_v1",
+    "sprite_student_48x96_story_v1",
+    "sprite_zhuyingtai_48x96_story_v1",
+    "sprite_zhuyingtai_butterfly_48x96_story_v1",
+    "sprite_zhuyingtai_wedding_48x96_story_v1",
+    "sprite_student_b_48x96_story_v1",
+    "sprite_student_c_48x96_story_v1",
+    "sprite_page_boy_48x96_story_v1",
+    "sprite_ma_guard_48x96_story_v1"
+   ],
+   "mapIds": [
+    "map_lz_ch02_dorm_corridor_v1"
+   ]
+  }
+ },
+ "layers": [
+  {
+   "id": "map_lz_ch02_dorm_corridor_v1_ground",
+   "name": "Ground",
+   "type": "ground",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r0c0_v1",
+     "tileX": 0,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r0c1_v1",
+     "tileX": 11,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r0c2_v1",
+     "tileX": 22,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r0c3_v1",
+     "tileX": 33,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r1c0_v1",
+     "tileX": 0,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r1c1_v1",
+     "tileX": 11,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r1c2_v1",
+     "tileX": 22,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r1c3_v1",
+     "tileX": 33,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r2c0_v1",
+     "tileX": 0,
+     "tileY": 16,
+     "refId": "map_lz_ch02_dorm_corridor_v1_scene_detail_left"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r2c1_v1",
+     "tileX": 11,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r2c2_v1",
+     "tileX": 22,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r2c3_v1",
+     "tileX": 33,
+     "tileY": 16,
+     "refId": "map_lz_ch02_dorm_corridor_v1_scene_detail_right"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r3c0_v1",
+     "tileX": 0,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r3c1_v1",
+     "tileX": 11,
+     "tileY": 24,
+     "refId": "map_lz_ch02_dorm_corridor_v1_scene_detail_path"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r3c2_v1",
+     "tileX": 22,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_ground_r3c3_v1",
+     "tileX": 33,
+     "tileY": 24
     }
+   ]
   },
-  "layers": [
+  {
+   "id": "map_lz_ch02_dorm_corridor_v1_objects",
+   "name": "Objects",
+   "type": "object",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
     {
-      "id": "map_lz_ch02_dorm_corridor_v1_ground",
-      "name": "Ground",
-      "type": "ground",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 28
-        }
-      ]
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_facade_v1",
+     "tileX": 0,
+     "tileY": 0,
+     "refId": "map_lz_ch02_dorm_corridor_v1_focus"
     },
     {
-      "id": "map_lz_ch02_dorm_corridor_v1_objects",
-      "name": "Objects",
-      "type": "object",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_dorm_corridor_v1_focus_story_v1",
-          "tileX": 14,
-          "tileY": 3,
-          "refId": "map_lz_ch02_dorm_corridor_v1_focus"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_study_dorm_rain_corridor_v1",
-          "tileX": 8,
-          "tileY": 4,
-          "refId": "map_lz_ch02_dorm_corridor_v1_scene_reference_dorm_rain_corridor"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_study_privacy_screen_v1",
-          "tileX": 2,
-          "tileY": 17,
-          "refId": "map_lz_ch02_dorm_corridor_v1_scene_reference_privacy_screen"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_study_night_lantern_line_v1",
-          "tileX": 29,
-          "tileY": 8,
-          "refId": "map_lz_ch02_dorm_corridor_v1_scene_reference_night_lantern_line"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_study_wet_books_chest_v1",
-          "tileX": 31,
-          "tileY": 19,
-          "refId": "map_lz_ch02_dorm_corridor_v1_scene_reference_wet_books_chest"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_dorm_corridor_v1_story_scene_plate_v10",
-          "tileX": 10,
-          "tileY": 2,
-          "refId": "map_lz_ch02_dorm_corridor_v1_story_scene_plate"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_dorm_corridor_v1_story_atmosphere_v6",
-          "tileX": 10,
-          "tileY": 2,
-          "refId": "map_lz_ch02_dorm_corridor_v1_story_atmosphere"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_prop_books_story_v1",
-          "tileX": 10,
-          "tileY": 20,
-          "refId": "map_lz_ch02_dorm_corridor_v1_story_a",
-          "interaction": {
-            "interactionRange": 2,
-            "indicatorType": "sparkle",
-            "interactions": [
-              {
-                "id": "map_lz_ch02_dorm_corridor_v1_story_a_inspect",
-                "name": "查看宿舍廊下线索",
-                "description": "宿舍廊下线索承载着当前章节的关键线索。",
-                "type": "examine",
-                "conditions": [],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "宿舍廊下线索承载着当前章节的关键线索。"
-                  },
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "宿舍廊下线索提示了当前场景的主要矛盾。"
-                  }
-                ],
-                "weight": 1
-              },
-              {
-                "id": "map_lz_ch02_dorm_corridor_v1_story_a_choice",
-                "name": "处理宿舍廊下线索",
-                "description": "你围绕宿舍廊下线索整理线索，真正的角色状态结算会在抉择点发生。",
-                "type": "examine",
-                "conditions": [],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "你围绕宿舍廊下线索整理线索，真正的角色状态结算会在抉择点发生。"
-                  },
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "宿舍廊下线索已记录为共同线索。"
-                  }
-                ],
-                "weight": 1
-              }
-            ]
-          }
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_prop_lantern_rain_story_v1",
-          "tileX": 30,
-          "tileY": 20,
-          "refId": "map_lz_ch02_dorm_corridor_v1_story_b",
-          "interaction": {
-            "interactionRange": 2,
-            "indicatorType": "sparkle",
-            "interactions": [
-              {
-                "id": "map_lz_ch02_dorm_corridor_v1_story_b_zhuyingtai",
-                "name": "祝英台：同宿风险 / 身份",
-                "description": "祝英台在场景五：宿舍廊下围绕同宿风险、身份做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_zhuyingtai"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "祝英台在场景五：宿舍廊下围绕同宿风险、身份做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "health",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": -2
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "identityRisk",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "liangTrust",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch03_eighteen_mile_farewell",
-                      "sceneId": "ch03_scene_01_academy_gate",
-                      "mapId": "map_lz_ch03_academy_gate_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch02_classmates_three_years",
-                  "sceneId": "ch02_scene_05_dorm_corridor",
-                  "mapId": "map_lz_ch02_dorm_corridor_v1",
-                  "role": "zhuyingtai",
-                  "eventLabel": "同宿风险 / 身份",
-                  "keywords": [
-                    "同宿风险",
-                    "身份"
-                  ],
-                  "chapterFile": "chapter-02-classmates-three-years.md",
-                  "sceneHeading": "场景五：宿舍廊下",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch02_dorm_corridor_v1",
-                  "role": "zhuyingtai",
-                  "presence": "present",
-                  "impactScope": "physical",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "present",
-                "stateImpactScope": "physical"
-              },
-              {
-                "id": "map_lz_ch02_dorm_corridor_v1_story_b_liangshanbo",
-                "name": "梁山伯：异常 / 尊重",
-                "description": "梁山伯在场景五：宿舍廊下围绕异常、尊重做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_liangshanbo"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "梁山伯在场景五：宿舍廊下围绕异常、尊重做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "social",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "liangTrust",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "promiseClarity",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch03_eighteen_mile_farewell",
-                      "sceneId": "ch03_scene_01_academy_gate",
-                      "mapId": "map_lz_ch03_academy_gate_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch02_classmates_three_years",
-                  "sceneId": "ch02_scene_05_dorm_corridor",
-                  "mapId": "map_lz_ch02_dorm_corridor_v1",
-                  "role": "liangshanbo",
-                  "eventLabel": "异常 / 尊重",
-                  "keywords": [
-                    "异常",
-                    "尊重"
-                  ],
-                  "chapterFile": "chapter-02-classmates-three-years.md",
-                  "sceneHeading": "场景五：宿舍廊下",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch02_dorm_corridor_v1",
-                  "role": "liangshanbo",
-                  "presence": "present",
-                  "impactScope": "physical",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "present",
-                "stateImpactScope": "physical"
-              },
-              {
-                "id": "map_lz_ch02_dorm_corridor_v1_story_b_mawencai",
-                "name": "马文才：起哄 / 制止",
-                "description": "马文才在场景五：宿舍廊下围绕起哄、制止做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_mawencai"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "马文才在场景五：宿舍廊下围绕起哄、制止做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "social",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "maPressure",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "maRestraint",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch03_eighteen_mile_farewell",
-                      "sceneId": "ch03_scene_01_academy_gate",
-                      "mapId": "map_lz_ch03_academy_gate_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch02_classmates_three_years",
-                  "sceneId": "ch02_scene_05_dorm_corridor",
-                  "mapId": "map_lz_ch02_dorm_corridor_v1",
-                  "role": "mawencai",
-                  "eventLabel": "起哄 / 制止",
-                  "keywords": [
-                    "起哄",
-                    "制止"
-                  ],
-                  "chapterFile": "chapter-02-classmates-three-years.md",
-                  "sceneHeading": "场景五：宿舍廊下",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch02_dorm_corridor_v1",
-                  "role": "mawencai",
-                  "presence": "present",
-                  "impactScope": "physical",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "present",
-                "stateImpactScope": "physical"
-              }
-            ]
-          }
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_prop_lantern_rain_story_v1",
-          "tileX": 36,
-          "tileY": 24,
-          "refId": "map_lz_ch02_dorm_corridor_v1_story_route",
-          "interaction": {
-            "interactionRange": 2,
-            "indicatorType": "question",
-            "interactions": [
-              {
-                "id": "map_lz_ch02_dorm_corridor_v1_route_classmate_bond",
-                "name": "同窗渐深",
-                "description": "梁祝信任已成，第三章梁山伯会主动相送。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "story_variable",
-                    "operator": "gte",
-                    "field": "liangTrust",
-                    "value": 3
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "梁祝信任已成，第三章梁山伯会主动相送。"
-                  }
-                ],
-                "weight": 1,
-                "storyRoute": {
-                  "mapId": "map_lz_ch02_dorm_corridor_v1",
-                  "routeId": "classmate_bond",
-                  "source": "docs/liangzhu-game"
-                }
-              },
-              {
-                "id": "map_lz_ch02_dorm_corridor_v1_route_suspicion_cloud",
-                "name": "疑云暗结",
-                "description": "马文才的试探已成气候，第三章会提前得到婚约线索。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "story_variable",
-                    "operator": "gte",
-                    "field": "maPressure",
-                    "value": 3
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "马文才的试探已成气候，第三章会提前得到婚约线索。"
-                  }
-                ],
-                "weight": 1,
-                "storyRoute": {
-                  "mapId": "map_lz_ch02_dorm_corridor_v1",
-                  "routeId": "suspicion_cloud",
-                  "source": "docs/liangzhu-game"
-                }
-              },
-              {
-                "id": "map_lz_ch02_dorm_corridor_v1_route_restraint_watch",
-                "name": "克制旁观",
-                "description": "马文才克制旁观，第四章会出现“放她一次”的缺口。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "story_variable",
-                    "operator": "gte",
-                    "field": "maRestraint",
-                    "value": 2
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "马文才克制旁观，第四章会出现“放她一次”的缺口。"
-                  }
-                ],
-                "weight": 1,
-                "storyRoute": {
-                  "mapId": "map_lz_ch02_dorm_corridor_v1",
-                  "routeId": "restraint_watch",
-                  "source": "docs/liangzhu-game"
-                }
-              },
-              {
-                "id": "map_lz_ch02_dorm_corridor_v1_route_identity_alarm",
-                "name": "身份惊险",
-                "description": "祝英台身份风险过高，第三章开局会增加离院压力。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "story_variable",
-                    "operator": "gte",
-                    "field": "identityRisk",
-                    "value": 4
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "祝英台身份风险过高，第三章开局会增加离院压力。"
-                  }
-                ],
-                "weight": 1,
-                "storyRoute": {
-                  "mapId": "map_lz_ch02_dorm_corridor_v1",
-                  "routeId": "identity_alarm",
-                  "source": "docs/liangzhu-game"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_dorm_corridor_v1_story_composition_v4",
-          "tileX": 10,
-          "tileY": 13,
-          "refId": "map_lz_ch02_dorm_corridor_v1_story_composition"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_zhuyingtai_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 18,
-          "tileY": 23,
-          "refId": "map_lz_ch02_dorm_corridor_v1_actor_zhuyingtai_1"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_liangshanbo_48x96_story_v2",
-          "animationId": "idle-down",
-          "tileX": 23,
-          "tileY": 23,
-          "refId": "map_lz_ch02_dorm_corridor_v1_actor_liangshanbo_2"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_mawencai_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 30,
-          "tileY": 23,
-          "refId": "map_lz_ch02_dorm_corridor_v1_actor_mawencai_3"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_student_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 12,
-          "tileY": 23,
-          "refId": "map_lz_ch02_dorm_corridor_v1_actor_student_4"
-        }
-      ]
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_eave_lantern_v1",
+     "tileX": 2,
+     "tileY": 2
     },
     {
-      "id": "map_lz_ch02_dorm_corridor_v1_decor",
-      "name": "Decoration",
-      "type": "decoration",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_dorm_corridor_v1_story_tableau_v4",
-          "tileX": 2,
-          "tileY": 12,
-          "refId": "map_lz_ch02_dorm_corridor_v1_story_tableau"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_dorm_corridor_v1_left_scene_fixture_v1",
-          "tileX": 4,
-          "tileY": 16,
-          "refId": "map_lz_ch02_dorm_corridor_v1_scene_fixture_left"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_dorm_corridor_v1_right_scene_fixture_v1",
-          "tileX": 30,
-          "tileY": 16,
-          "refId": "map_lz_ch02_dorm_corridor_v1_scene_fixture_right"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_dorm_corridor_v1_left_scene_detail_v2",
-          "tileX": 4,
-          "tileY": 23,
-          "refId": "map_lz_ch02_dorm_corridor_v1_scene_detail_left"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_dorm_corridor_v1_right_scene_detail_v2",
-          "tileX": 36,
-          "tileY": 22,
-          "refId": "map_lz_ch02_dorm_corridor_v1_scene_detail_right"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_dorm_corridor_v1_path_scene_detail_v2",
-          "tileX": 20,
-          "tileY": 25,
-          "refId": "map_lz_ch02_dorm_corridor_v1_scene_detail_path"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_dorm_corridor_v1_ambient_scene_detail_v2",
-          "tileX": 8,
-          "tileY": 8,
-          "refId": "map_lz_ch02_dorm_corridor_v1_scene_detail_ambient"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 1,
-          "tileY": 1
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 39,
-          "tileY": 1
-        }
-      ]
-    }
-  ],
-  "districts": [
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_eave_lantern_v1",
+     "tileX": 9,
+     "tileY": 2
+    },
     {
-      "districtId": "map_lz_ch02_dorm_corridor_v1_district",
-      "name": "宿舍廊下",
-      "x": 0,
-      "y": 0,
-      "width": 44,
-      "height": 32,
-      "terrainTags": [
-        "urban"
-      ],
-      "locations": [
-        {
-          "id": "map_lz_ch02_dorm_corridor_v1_start",
-          "name": "宿舍廊下入口",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 22,
-          "offsetY": 24
-        },
-        {
-          "id": "map_lz_ch02_dorm_corridor_v1_clue",
-          "name": "宿舍廊下线索点",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 10,
-          "offsetY": 20
-        },
-        {
-          "id": "map_lz_ch02_dorm_corridor_v1_choice",
-          "name": "宿舍廊下抉择点",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 30,
-          "offsetY": 20
-        }
-      ],
-      "defaultEventDensity": 1
-    }
-  ],
-  "itemDefs": [],
-  "teleports": [],
-  "createdAt": 1782325200000,
-  "updatedAt": 1782325200000,
-  "version": 1,
-  "story": {
-    "storyId": "liangzhu",
-    "chapterId": "ch02_classmates_three_years",
-    "sceneId": "ch02_scene_05_dorm_corridor",
-    "scriptReference": {
-      "chapterFile": "chapter-02-classmates-three-years.md",
-      "sceneHeading": "场景五：宿舍廊下",
-      "roleGoalKeywords": {
-        "zhuyingtai": [
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_eave_lantern_v1",
+     "tileX": 21,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_eave_lantern_v1",
+     "tileX": 33,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_eave_lantern_v1",
+     "tileX": 41,
+     "tileY": 2,
+     "refId": "map_lz_ch02_dorm_corridor_v1_scene_reference_night_lantern_line"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_rail_seat_v1",
+     "tileX": 0,
+     "tileY": 14,
+     "refId": "map_lz_ch02_dorm_corridor_v1_scene_reference_dorm_rain_corridor"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_prop_washstand_story_v1",
+     "tileX": 1,
+     "tileY": 11,
+     "refId": "map_lz_ch02_dorm_corridor_v1_story_a",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch02_dorm_corridor_v1_story_a_inspect",
+        "name": "查看宿舍廊下线索",
+        "description": "宿舍廊下线索承载着当前章节的关键线索。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "宿舍廊下线索承载着当前章节的关键线索。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "宿舍廊下线索提示了当前场景的主要矛盾。"
+         }
+        ],
+        "weight": 1
+       },
+       {
+        "id": "map_lz_ch02_dorm_corridor_v1_story_a_choice",
+        "name": "处理宿舍廊下线索",
+        "description": "你围绕宿舍廊下线索整理线索，真正的角色状态结算会在抉择点发生。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "你围绕宿舍廊下线索整理线索，真正的角色状态结算会在抉择点发生。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "宿舍廊下线索已记录为共同线索。"
+         }
+        ],
+        "weight": 1
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_wash_bucket_v1",
+     "tileX": 0,
+     "tileY": 13,
+     "refId": "map_lz_ch02_dorm_corridor_v1_scene_reference_privacy_screen"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_prop_door_curtain_story_v1",
+     "tileX": 11,
+     "tileY": 10,
+     "refId": "map_lz_ch02_dorm_corridor_v1_story_b",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch02_dorm_corridor_v1_story_b_zhuyingtai",
+        "name": "祝英台：同宿风险 / 身份",
+        "description": "祝英台在场景五：宿舍廊下围绕同宿风险、身份做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         }
+        ],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "祝英台在场景五：宿舍廊下围绕同宿风险、身份做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "health",
+          "value": -1
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": -2
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "identityRisk",
+          "value": -1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "liangTrust",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch03_eighteen_mile_farewell",
+           "sceneId": "ch03_scene_01_academy_gate",
+           "mapId": "map_lz_ch03_academy_gate_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch02_classmates_three_years",
+         "sceneId": "ch02_scene_05_dorm_corridor",
+         "mapId": "map_lz_ch02_dorm_corridor_v1",
+         "role": "zhuyingtai",
+         "eventLabel": "同宿风险 / 身份",
+         "keywords": [
           "同宿风险",
           "身份"
+         ],
+         "chapterFile": "chapter-02-classmates-three-years.md",
+         "sceneHeading": "场景五：宿舍廊下",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch02_dorm_corridor_v1",
+         "role": "zhuyingtai",
+         "presence": "present",
+         "impactScope": "physical",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "present",
+        "stateImpactScope": "physical"
+       },
+       {
+        "id": "map_lz_ch02_dorm_corridor_v1_story_b_liangshanbo",
+        "name": "梁山伯：异常 / 尊重",
+        "description": "梁山伯在场景五：宿舍廊下围绕异常、尊重做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         }
         ],
-        "liangshanbo": [
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "梁山伯在场景五：宿舍廊下围绕异常、尊重做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "social",
+          "value": 1
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "liangTrust",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "promiseClarity",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch03_eighteen_mile_farewell",
+           "sceneId": "ch03_scene_01_academy_gate",
+           "mapId": "map_lz_ch03_academy_gate_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch02_classmates_three_years",
+         "sceneId": "ch02_scene_05_dorm_corridor",
+         "mapId": "map_lz_ch02_dorm_corridor_v1",
+         "role": "liangshanbo",
+         "eventLabel": "异常 / 尊重",
+         "keywords": [
           "异常",
           "尊重"
+         ],
+         "chapterFile": "chapter-02-classmates-three-years.md",
+         "sceneHeading": "场景五：宿舍廊下",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch02_dorm_corridor_v1",
+         "role": "liangshanbo",
+         "presence": "present",
+         "impactScope": "physical",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "present",
+        "stateImpactScope": "physical"
+       },
+       {
+        "id": "map_lz_ch02_dorm_corridor_v1_story_b_mawencai",
+        "name": "马文才：起哄 / 制止",
+        "description": "马文才在场景五：宿舍廊下围绕起哄、制止做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         }
         ],
-        "mawencai": [
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "马文才在场景五：宿舍廊下围绕起哄、制止做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "social",
+          "value": -1
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": -1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "maPressure",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "maRestraint",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch03_eighteen_mile_farewell",
+           "sceneId": "ch03_scene_01_academy_gate",
+           "mapId": "map_lz_ch03_academy_gate_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch02_classmates_three_years",
+         "sceneId": "ch02_scene_05_dorm_corridor",
+         "mapId": "map_lz_ch02_dorm_corridor_v1",
+         "role": "mawencai",
+         "eventLabel": "起哄 / 制止",
+         "keywords": [
           "起哄",
           "制止"
-        ]
-      }
+         ],
+         "chapterFile": "chapter-02-classmates-three-years.md",
+         "sceneHeading": "场景五：宿舍廊下",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch02_dorm_corridor_v1",
+         "role": "mawencai",
+         "presence": "present",
+         "impactScope": "physical",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "present",
+        "stateImpactScope": "physical"
+       }
+      ]
+     }
     },
-    "artStyle": {
-      "storyId": "liangzhu",
-      "visualStyle": "semi-realistic pixel comic",
-      "baseTileSize": 16,
-      "characterScale": "48x96",
-      "detailTier": "S",
-      "sceneFamily": "corridor",
-      "chapterPalette": "clear-academy-bamboo-paper",
-      "mood": "restrained study and suspicion",
-      "focusTier": "S",
-      "detailPass": "second-pass-v2"
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_prop_night_lamp_story_v1",
+     "tileX": 13,
+     "tileY": 10,
+     "refId": "map_lz_ch02_dorm_corridor_v1_story_lamp",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch02_dorm_corridor_v1_story_lamp_inspect",
+        "name": "查看夜灯",
+        "description": "书童送来的夜灯放在门边，灯纸被雨气洇得发暖。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "书童送来的夜灯放在门边，灯纸被雨气洇得发暖。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "谁先提起这盏灯，谁就能把门前的人群引开。"
+         }
+        ],
+        "weight": 1
+       },
+       {
+        "id": "map_lz_ch02_dorm_corridor_v1_story_lamp_choice",
+        "name": "借灯解围",
+        "description": "梁山伯提起夜灯，借送灯之名把起哄的同窗引向廊东。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "梁山伯提起夜灯，借送灯之名把起哄的同窗引向廊东。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "“他白日读书辛苦，夜里清静些也无妨。”"
+         }
+        ],
+        "weight": 1
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_prop_rain_seat_story_v1",
+     "tileX": 39,
+     "tileY": 14,
+     "refId": "map_lz_ch02_dorm_corridor_v1_story_route",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "map_lz_ch02_dorm_corridor_v1_route_classmate_bond",
+        "name": "同窗渐深",
+        "description": "梁祝信任已成，第三章梁山伯会主动相送。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "story_variable",
+          "operator": "gte",
+          "field": "liangTrust",
+          "value": 3
+         }
+        ],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "梁祝信任已成，第三章梁山伯会主动相送。"
+         }
+        ],
+        "weight": 1,
+        "storyRoute": {
+         "mapId": "map_lz_ch02_dorm_corridor_v1",
+         "routeId": "classmate_bond",
+         "source": "docs/liangzhu-game"
+        }
+       },
+       {
+        "id": "map_lz_ch02_dorm_corridor_v1_route_suspicion_cloud",
+        "name": "疑云暗结",
+        "description": "马文才的试探已成气候，第三章会提前得到婚约线索。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "story_variable",
+          "operator": "gte",
+          "field": "maPressure",
+          "value": 3
+         }
+        ],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "马文才的试探已成气候，第三章会提前得到婚约线索。"
+         }
+        ],
+        "weight": 1,
+        "storyRoute": {
+         "mapId": "map_lz_ch02_dorm_corridor_v1",
+         "routeId": "suspicion_cloud",
+         "source": "docs/liangzhu-game"
+        }
+       },
+       {
+        "id": "map_lz_ch02_dorm_corridor_v1_route_restraint_watch",
+        "name": "克制旁观",
+        "description": "马文才克制旁观，第四章会出现“放她一次”的缺口。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "story_variable",
+          "operator": "gte",
+          "field": "maRestraint",
+          "value": 2
+         }
+        ],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "马文才克制旁观，第四章会出现“放她一次”的缺口。"
+         }
+        ],
+        "weight": 1,
+        "storyRoute": {
+         "mapId": "map_lz_ch02_dorm_corridor_v1",
+         "routeId": "restraint_watch",
+         "source": "docs/liangzhu-game"
+        }
+       },
+       {
+        "id": "map_lz_ch02_dorm_corridor_v1_route_identity_alarm",
+        "name": "身份惊险",
+        "description": "祝英台身份风险过高，第三章开局会增加离院压力。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "story_variable",
+          "operator": "gte",
+          "field": "identityRisk",
+          "value": 4
+         }
+        ],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "祝英台身份风险过高，第三章开局会增加离院压力。"
+         }
+        ],
+        "weight": 1,
+        "storyRoute": {
+         "mapId": "map_lz_ch02_dorm_corridor_v1",
+         "routeId": "identity_alarm",
+         "source": "docs/liangzhu-game"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_bamboo_v1",
+     "tileX": 0,
+     "tileY": 20
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_bamboo_b_v1",
+     "tileX": 1,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_bamboo_c_v1",
+     "tileX": 38,
+     "tileY": 20
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_bamboo_d_v1",
+     "tileX": 41,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_stone_bench_v1",
+     "tileX": 7,
+     "tileY": 21,
+     "refId": "map_lz_ch02_dorm_corridor_v1_scene_fixture_left"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_water_jar_v1",
+     "tileX": 6,
+     "tileY": 25,
+     "refId": "map_lz_ch02_dorm_corridor_v1_scene_fixture_right"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_plantain_v1",
+     "tileX": 31,
+     "tileY": 20,
+     "refId": "map_lz_ch02_dorm_corridor_v1_story_composition"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_stone_basin_v1",
+     "tileX": 26,
+     "tileY": 24,
+     "refId": "map_lz_ch02_dorm_corridor_v1_scene_reference_wet_books_chest"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_south_wall_v1",
+     "tileX": 0,
+     "tileY": 29,
+     "refId": "map_lz_ch02_dorm_corridor_v1_story_scene_plate"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_zhuyingtai_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 9,
+     "tileY": 13,
+     "refId": "map_lz_ch02_dorm_corridor_v1_actor_zhuyingtai_1"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_liangshanbo_48x96_story_v2",
+     "animationId": "idle-down",
+     "tileX": 19,
+     "tileY": 13,
+     "refId": "map_lz_ch02_dorm_corridor_v1_actor_liangshanbo_2"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_mawencai_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 29,
+     "tileY": 12,
+     "refId": "map_lz_ch02_dorm_corridor_v1_actor_mawencai_3"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_student_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 7,
+     "tileY": 11,
+     "refId": "map_lz_ch02_dorm_corridor_v1_actor_student_4"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_student_b_48x96_story_v1",
+     "animationId": "idle-down",
+     "refId": "map_lz_ch02_dorm_corridor_v1_actor_student_b_5",
+     "tileX": 16,
+     "tileY": 12
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_student_c_48x96_story_v1",
+     "animationId": "idle-down",
+     "refId": "map_lz_ch02_dorm_corridor_v1_actor_student_c_6",
+     "tileX": 4,
+     "tileY": 12
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_page_boy_48x96_story_v1",
+     "animationId": "idle-down",
+     "refId": "map_lz_ch02_dorm_corridor_v1_actor_page_boy_7",
+     "tileX": 35,
+     "tileY": 17
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_ma_guard_48x96_story_v1",
+     "animationId": "idle-down",
+     "refId": "map_lz_ch02_dorm_corridor_v1_actor_ma_guard_8",
+     "tileX": 37,
+     "tileY": 22
     }
+   ]
+  },
+  {
+   "id": "map_lz_ch02_dorm_corridor_v1_decor",
+   "name": "Decoration",
+   "type": "decoration",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_eave_drips_v1",
+     "tileX": 0,
+     "tileY": 1,
+     "refId": "map_lz_ch02_dorm_corridor_v1_story_tableau"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_rain_ripples_v1",
+     "tileX": 0,
+     "tileY": 15,
+     "refId": "map_lz_ch02_dorm_corridor_v1_scene_detail_ambient"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_rain_veil_v1",
+     "tileX": 0,
+     "tileY": 15,
+     "refId": "map_lz_ch02_dorm_corridor_v1_story_atmosphere"
+    }
+   ]
+  },
+  {
+   "id": "map_lz_ch02_dorm_corridor_v1_collision",
+   "name": "Collision",
+   "type": "collision",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 4,
+     "tileY": 14
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 5,
+     "tileY": 14
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 0,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 1,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 2,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 3,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 4,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 5,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 9,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 10,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 11,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 12,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 13,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 14,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 15,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 16,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 17,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 18,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 19,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 20,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 21,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 22,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 23,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 24,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 25,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 26,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 27,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 28,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 29,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 30,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 31,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 32,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 33,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 37,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 38,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 39,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 40,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 41,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 42,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 43,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 0,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 1,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 2,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 3,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 4,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 5,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 9,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 10,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 11,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 12,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 13,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 14,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 15,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 16,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 17,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 18,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 19,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 20,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 21,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 22,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 23,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 24,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 25,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 26,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 27,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 28,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 29,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 30,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 31,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 32,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 33,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 37,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 38,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 39,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 40,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 41,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 42,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 43,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 0,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 1,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 2,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 3,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 4,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 5,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 9,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 10,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 11,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 12,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 13,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 14,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 15,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 16,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 17,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 18,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 19,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 20,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 21,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 22,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 23,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 24,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 25,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 26,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 27,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 28,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 29,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 30,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 31,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 32,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 33,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 37,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 38,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 39,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 40,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 41,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 42,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 43,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 0,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 1,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 2,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 3,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 4,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 5,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 9,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 10,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 11,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 12,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 13,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 14,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 15,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 16,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 17,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 18,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 19,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 20,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 21,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 22,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 23,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 24,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 25,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 26,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 27,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 28,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 29,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 30,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 31,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 32,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 33,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 37,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 38,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 39,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 40,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 41,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 42,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 43,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 0,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 5,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 9,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 10,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 11,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 12,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 13,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 14,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 15,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 16,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 17,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 18,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 19,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 20,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 21,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 22,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 23,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 24,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 25,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 26,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 27,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 28,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 29,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 30,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 31,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 32,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 33,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 37,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 38,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 39,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 40,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_dorm_block_v1",
+     "tileX": 41,
+     "tileY": 19
+    }
+   ]
   }
+ ],
+ "districts": [
+  {
+   "districtId": "map_lz_ch02_dorm_corridor_v1_district",
+   "name": "宿舍廊下",
+   "x": 0,
+   "y": 0,
+   "width": 44,
+   "height": 32,
+   "terrainTags": [
+    "urban"
+   ],
+   "locations": [
+    {
+     "id": "map_lz_ch02_dorm_corridor_v1_start",
+     "name": "宿舍廊下入口",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 21,
+     "offsetY": 28
+    },
+    {
+     "id": "map_lz_ch02_dorm_corridor_v1_clue",
+     "name": "宿舍廊下线索点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 3,
+     "offsetY": 11
+    },
+    {
+     "id": "map_lz_ch02_dorm_corridor_v1_choice",
+     "name": "宿舍廊下抉择点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 12,
+     "offsetY": 11
+    },
+    {
+     "id": "map_lz_ch02_dorm_corridor_v1_rain",
+     "name": "宿舍廊下听雨处",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 40,
+     "offsetY": 13
+    }
+   ],
+   "defaultEventDensity": 1
+  }
+ ],
+ "itemDefs": [],
+ "teleports": [],
+ "createdAt": 1782325200000,
+ "updatedAt": 1791000000000,
+ "version": 2,
+ "story": {
+  "storyId": "liangzhu",
+  "chapterId": "ch02_classmates_three_years",
+  "sceneId": "ch02_scene_05_dorm_corridor",
+  "scriptReference": {
+   "chapterFile": "chapter-02-classmates-three-years.md",
+   "sceneHeading": "场景五：宿舍廊下",
+   "roleGoalKeywords": {
+    "zhuyingtai": [
+     "同宿风险",
+     "身份"
+    ],
+    "liangshanbo": [
+     "异常",
+     "尊重"
+    ],
+    "mawencai": [
+     "起哄",
+     "制止"
+    ]
+   }
+  },
+  "artStyle": {
+   "storyId": "liangzhu",
+   "visualStyle": "semi-realistic pixel comic",
+   "baseTileSize": 16,
+   "characterScale": "48x96",
+   "detailTier": "S",
+   "sceneFamily": "corridor",
+   "chapterPalette": "clear-academy-bamboo-paper",
+   "mood": "restrained study and suspicion",
+   "focusTier": "S",
+   "detailPass": "second-pass-v2"
+  }
+ }
 }

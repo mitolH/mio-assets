@@ -1,1134 +1,2228 @@
 {
-  "id": "map_lz_ch02_library_v1",
-  "name": "藏书楼 v1",
-  "description": "藏书楼，梁祝五章第一版统一风格可玩地图。",
-  "widthInTiles": 44,
-  "heightInTiles": 32,
-  "level": {
-    "formatVersion": 1,
-    "startLocationId": "map_lz_ch02_library_v1_start",
-    "assets": {
-      "componentIds": [
-        "comp_academy_bookshelf_v1",
-        "comp_academy_desk_cluster_v1",
-        "comp_academy_lecture_screen_v1",
-        "comp_lz_ground_grass_story_v1",
-        "comp_lz_ground_wood_story_v1",
-        "comp_lz_prop_books_story_v1",
-        "comp_lz_prop_last_letter_story_v1",
-        "comp_map_lz_ch02_library_v1_ambient_scene_detail_v2",
-        "comp_map_lz_ch02_library_v1_focus_story_v1",
-        "comp_map_lz_ch02_library_v1_left_scene_detail_v2",
-        "comp_map_lz_ch02_library_v1_left_scene_fixture_v1",
-        "comp_map_lz_ch02_library_v1_path_scene_detail_v2",
-        "comp_map_lz_ch02_library_v1_right_scene_detail_v2",
-        "comp_map_lz_ch02_library_v1_right_scene_fixture_v1",
-        "comp_map_lz_ch02_library_v1_story_atmosphere_v6",
-        "comp_map_lz_ch02_library_v1_story_composition_v4",
-        "comp_map_lz_ch02_library_v1_story_scene_plate_v10",
-        "comp_map_lz_ch02_library_v1_story_tableau_v4"
-      ],
-      "spriteIds": [
-        "sprite_liangshanbo_48x96_story_v2",
-        "sprite_liangshanbo_butterfly_48x96_story_v1",
-        "sprite_liangshanbo_sick_48x96_story_v1",
-        "sprite_mawencai_48x96_story_v1",
-        "sprite_student_48x96_story_v1",
-        "sprite_zhuyingtai_48x96_story_v1",
-        "sprite_zhuyingtai_butterfly_48x96_story_v1",
-        "sprite_zhuyingtai_wedding_48x96_story_v1"
-      ],
-      "mapIds": [
-        "map_lz_ch02_library_v1"
-      ]
+ "id": "map_lz_ch02_library_v1",
+ "name": "藏书楼 v2",
+ "description": "藏书楼 v2（夜，方案B「临池夜读·窗下书廊」+ 经部双面书架 + 晒书台石缸）：剖切室内，二层平座与楼梯、四部牙签書橱、厅中灯檠、槛窗下面朝半亩方塘的书案一排；南开口下踏步到晒书台，曲桥通前庭；塘中楼影、灯影与月影。夜色静态烘焙于素材。",
+ "widthInTiles": 44,
+ "heightInTiles": 32,
+ "level": {
+  "formatVersion": 1,
+  "startLocationId": "map_lz_ch02_library_v1_start",
+  "assets": {
+   "componentIds": [
+    "comp_lz_ch02_library_block_v1",
+    "comp_lz_ch02_library_book_table_v1",
+    "comp_lz_ch02_library_censer_v1",
+    "comp_lz_ch02_library_ground_floor_v1",
+    "comp_lz_ch02_library_ground_pond_v1",
+    "comp_lz_ch02_library_jing_stack_v1",
+    "comp_lz_ch02_library_lamp_stand_top_v1",
+    "comp_lz_ch02_library_lamp_stand_w_base_v1",
+    "comp_lz_ch02_library_lamp_stand_w_top_v1",
+    "comp_lz_ch02_library_lantern_post_e_v1",
+    "comp_lz_ch02_library_lantern_post_w_v1",
+    "comp_lz_ch02_library_north_shelves_v1",
+    "comp_lz_ch02_library_plaque_shulou_v1",
+    "comp_lz_ch02_library_reading_desk_liang_v1",
+    "comp_lz_ch02_library_reading_desk_scholar_v1",
+    "comp_lz_ch02_library_reading_desk_zhu_v1",
+    "comp_lz_ch02_library_reeds_e_v1",
+    "comp_lz_ch02_library_reeds_w_v1",
+    "comp_lz_ch02_library_scroll_jar_v1",
+    "comp_lz_ch02_library_side_case_e_v1",
+    "comp_lz_ch02_library_side_case_w_v1",
+    "comp_lz_ch02_library_side_wall_e_v1",
+    "comp_lz_ch02_library_side_wall_w_v1",
+    "comp_lz_ch02_library_south_sill_v1",
+    "comp_lz_ch02_library_stone_vat_moon_v1",
+    "comp_lz_ch02_library_terrace_bench_v1",
+    "comp_lz_prop_book_ladder_story_v1",
+    "comp_lz_prop_jing_missing_page_story_v1",
+    "comp_lz_prop_night_lamp_story_v1",
+    "comp_lz_prop_private_book_chest_story_v1",
+    "comp_lz_prop_window_desk_register_story_v1"
+   ],
+   "spriteIds": [
+    "sprite_liangshanbo_48x96_story_v2",
+    "sprite_liangshanbo_butterfly_48x96_story_v1",
+    "sprite_liangshanbo_sick_48x96_story_v1",
+    "sprite_mawencai_48x96_story_v1",
+    "sprite_student_48x96_story_v1",
+    "sprite_zhuyingtai_48x96_story_v1",
+    "sprite_zhuyingtai_butterfly_48x96_story_v1",
+    "sprite_zhuyingtai_wedding_48x96_story_v1",
+    "sprite_student_b_48x96_story_v1",
+    "sprite_page_boy_48x96_story_v1"
+   ],
+   "mapIds": [
+    "map_lz_ch02_library_v1"
+   ]
+  }
+ },
+ "layers": [
+  {
+   "id": "map_lz_ch02_library_v1_ground",
+   "name": "Ground",
+   "type": "ground",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_ground_floor_v1",
+     "tileX": 0,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_ground_pond_v1",
+     "tileX": 0,
+     "tileY": 23
     }
+   ]
   },
-  "layers": [
+  {
+   "id": "map_lz_ch02_library_v1_objects",
+   "name": "Objects",
+   "type": "object",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
     {
-      "id": "map_lz_ch02_library_v1_ground",
-      "name": "Ground",
-      "type": "ground",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 28
-        }
-      ]
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_north_shelves_v1",
+     "tileX": 0,
+     "tileY": 0
     },
     {
-      "id": "map_lz_ch02_library_v1_objects",
-      "name": "Objects",
-      "type": "object",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_library_v1_focus_story_v1",
-          "tileX": 14,
-          "tileY": 3,
-          "refId": "map_lz_ch02_library_v1_focus"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_academy_bookshelf_v1",
-          "tileX": 4,
-          "tileY": 5,
-          "refId": "map_lz_ch02_library_v1_academy_reference_bookshelf_left"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_academy_bookshelf_v1",
-          "tileX": 34,
-          "tileY": 5,
-          "refId": "map_lz_ch02_library_v1_academy_reference_bookshelf_right"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_academy_desk_cluster_v1",
-          "tileX": 15,
-          "tileY": 18,
-          "refId": "map_lz_ch02_library_v1_academy_reference_desk_cluster"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_academy_lecture_screen_v1",
-          "tileX": 19,
-          "tileY": 4,
-          "refId": "map_lz_ch02_library_v1_academy_reference_lecture_screen"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_library_v1_story_scene_plate_v10",
-          "tileX": 10,
-          "tileY": 2,
-          "refId": "map_lz_ch02_library_v1_story_scene_plate"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_library_v1_story_atmosphere_v6",
-          "tileX": 10,
-          "tileY": 2,
-          "refId": "map_lz_ch02_library_v1_story_atmosphere"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_prop_books_story_v1",
-          "tileX": 10,
-          "tileY": 20,
-          "refId": "map_lz_ch02_library_v1_story_a",
-          "interaction": {
-            "interactionRange": 2,
-            "indicatorType": "sparkle",
-            "interactions": [
-              {
-                "id": "map_lz_ch02_library_v1_story_a_inspect",
-                "name": "查看藏书楼线索",
-                "description": "藏书楼线索承载着当前章节的关键线索。",
-                "type": "examine",
-                "conditions": [],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "藏书楼线索承载着当前章节的关键线索。"
-                  },
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "藏书楼线索提示了当前场景的主要矛盾。"
-                  }
-                ],
-                "weight": 1
-              },
-              {
-                "id": "map_lz_ch02_library_v1_story_a_choice",
-                "name": "处理藏书楼线索",
-                "description": "你围绕藏书楼线索整理线索，真正的角色状态结算会在抉择点发生。",
-                "type": "examine",
-                "conditions": [],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "你围绕藏书楼线索整理线索，真正的角色状态结算会在抉择点发生。"
-                  },
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "藏书楼线索已记录为共同线索。"
-                  }
-                ],
-                "weight": 1
-              }
-            ]
-          }
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_prop_last_letter_story_v1",
-          "tileX": 30,
-          "tileY": 20,
-          "refId": "map_lz_ch02_library_v1_story_b",
-          "interaction": {
-            "interactionRange": 2,
-            "indicatorType": "sparkle",
-            "interactions": [
-              {
-                "id": "map_lz_ch02_library_v1_story_b_zhuyingtai",
-                "name": "祝英台：缺页 / 私人物件",
-                "description": "祝英台在场景三：藏书楼围绕缺页、私人物件做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_zhuyingtai"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "祝英台在场景三：藏书楼围绕缺页、私人物件做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "health",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "liangTrust",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "identityRisk",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch02_classmates_three_years",
-                      "sceneId": "ch02_scene_04_bamboo_path",
-                      "mapId": "map_lz_ch02_bamboo_path_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch02_classmates_three_years",
-                  "sceneId": "ch02_scene_03_library",
-                  "mapId": "map_lz_ch02_library_v1",
-                  "role": "zhuyingtai",
-                  "eventLabel": "缺页 / 私人物件",
-                  "keywords": [
-                    "缺页",
-                    "私人物件"
-                  ],
-                  "chapterFile": "chapter-02-classmates-three-years.md",
-                  "sceneHeading": "场景三：藏书楼",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch02_library_v1",
-                  "role": "zhuyingtai",
-                  "presence": "present",
-                  "impactScope": "physical",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "present",
-                "stateImpactScope": "physical"
-              },
-              {
-                "id": "map_lz_ch02_library_v1_story_b_liangshanbo",
-                "name": "梁山伯：夜读 / 异常",
-                "description": "梁山伯在场景三：藏书楼围绕夜读、异常做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_liangshanbo"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "梁山伯在场景三：藏书楼围绕夜读、异常做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "social",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "wealth",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "liangTrust",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "promiseClarity",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch02_classmates_three_years",
-                      "sceneId": "ch02_scene_04_bamboo_path",
-                      "mapId": "map_lz_ch02_bamboo_path_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch02_classmates_three_years",
-                  "sceneId": "ch02_scene_03_library",
-                  "mapId": "map_lz_ch02_library_v1",
-                  "role": "liangshanbo",
-                  "eventLabel": "夜读 / 异常",
-                  "keywords": [
-                    "夜读",
-                    "异常"
-                  ],
-                  "chapterFile": "chapter-02-classmates-three-years.md",
-                  "sceneHeading": "场景三：藏书楼",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch02_library_v1",
-                  "role": "liangshanbo",
-                  "presence": "present",
-                  "impactScope": "physical",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "present",
-                "stateImpactScope": "physical"
-              },
-              {
-                "id": "map_lz_ch02_library_v1_story_b_mawencai",
-                "name": "马文才：身份不稳 / 线索",
-                "description": "马文才在场景三：藏书楼围绕身份不稳、线索做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_mawencai"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "马文才在场景三：藏书楼围绕身份不稳、线索做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "social",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "maRestraint",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "maPressure",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch02_classmates_three_years",
-                      "sceneId": "ch02_scene_04_bamboo_path",
-                      "mapId": "map_lz_ch02_bamboo_path_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch02_classmates_three_years",
-                  "sceneId": "ch02_scene_03_library",
-                  "mapId": "map_lz_ch02_library_v1",
-                  "role": "mawencai",
-                  "eventLabel": "身份不稳 / 线索",
-                  "keywords": [
-                    "身份不稳",
-                    "线索"
-                  ],
-                  "chapterFile": "chapter-02-classmates-three-years.md",
-                  "sceneHeading": "场景三：藏书楼",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch02_library_v1",
-                  "role": "mawencai",
-                  "presence": "present",
-                  "impactScope": "physical",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "present",
-                "stateImpactScope": "physical"
-              }
-            ]
-          }
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_library_v1_story_composition_v4",
-          "tileX": 10,
-          "tileY": 13,
-          "refId": "map_lz_ch02_library_v1_story_composition"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_zhuyingtai_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 18,
-          "tileY": 23,
-          "refId": "map_lz_ch02_library_v1_actor_zhuyingtai_1"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_liangshanbo_48x96_story_v2",
-          "animationId": "idle-down",
-          "tileX": 23,
-          "tileY": 23,
-          "refId": "map_lz_ch02_library_v1_actor_liangshanbo_2"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_mawencai_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 31,
-          "tileY": 22,
-          "refId": "map_lz_ch02_library_v1_actor_mawencai_3"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_student_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 12,
-          "tileY": 23,
-          "refId": "map_lz_ch02_library_v1_actor_student_4"
-        }
+     "assetType": "component",
+     "componentId": "comp_lz_prop_book_ladder_story_v1",
+     "tileX": 25,
+     "tileY": 9,
+     "refId": "map_lz_ch02_library_v1_story_ladder",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch02_library_v1_story_ladder_inspect",
+        "name": "书梯",
+        "description": "靠在高处书橱上的素木书梯。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "最高一格的书要踩书梯才够得着。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "梁山伯扶稳书梯，祝英台才敢上去取书。"
+         }
+        ],
+        "weight": 1
+       }
       ]
+     }
     },
     {
-      "id": "map_lz_ch02_library_v1_decor",
-      "name": "Decoration",
-      "type": "decoration",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_library_v1_story_tableau_v4",
-          "tileX": 2,
-          "tileY": 12,
-          "refId": "map_lz_ch02_library_v1_story_tableau"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_library_v1_left_scene_fixture_v1",
-          "tileX": 4,
-          "tileY": 16,
-          "refId": "map_lz_ch02_library_v1_scene_fixture_left"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_library_v1_right_scene_fixture_v1",
-          "tileX": 30,
-          "tileY": 16,
-          "refId": "map_lz_ch02_library_v1_scene_fixture_right"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_library_v1_left_scene_detail_v2",
-          "tileX": 4,
-          "tileY": 23,
-          "refId": "map_lz_ch02_library_v1_scene_detail_left"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_library_v1_right_scene_detail_v2",
-          "tileX": 36,
-          "tileY": 22,
-          "refId": "map_lz_ch02_library_v1_scene_detail_right"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_library_v1_path_scene_detail_v2",
-          "tileX": 20,
-          "tileY": 25,
-          "refId": "map_lz_ch02_library_v1_scene_detail_path"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch02_library_v1_ambient_scene_detail_v2",
-          "tileX": 8,
-          "tileY": 8,
-          "refId": "map_lz_ch02_library_v1_scene_detail_ambient"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 1,
-          "tileY": 1
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 39,
-          "tileY": 1
-        }
-      ]
-    }
-  ],
-  "districts": [
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_plaque_shulou_v1",
+     "tileX": 20,
+     "tileY": 1
+    },
     {
-      "districtId": "map_lz_ch02_library_v1_district",
-      "name": "藏书楼",
-      "x": 0,
-      "y": 0,
-      "width": 44,
-      "height": 32,
-      "terrainTags": [
-        "urban"
-      ],
-      "locations": [
-        {
-          "id": "map_lz_ch02_library_v1_start",
-          "name": "藏书楼入口",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 22,
-          "offsetY": 24
-        },
-        {
-          "id": "map_lz_ch02_library_v1_clue",
-          "name": "藏书楼线索点",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 10,
-          "offsetY": 20
-        },
-        {
-          "id": "map_lz_ch02_library_v1_choice",
-          "name": "藏书楼抉择点",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 30,
-          "offsetY": 20
-        }
-      ],
-      "defaultEventDensity": 1
-    }
-  ],
-  "itemDefs": [],
-  "teleports": [],
-  "createdAt": 1782325200000,
-  "updatedAt": 1782325200000,
-  "version": 1,
-  "story": {
-    "storyId": "liangzhu",
-    "chapterId": "ch02_classmates_three_years",
-    "sceneId": "ch02_scene_03_library",
-    "scriptReference": {
-      "chapterFile": "chapter-02-classmates-three-years.md",
-      "sceneHeading": "场景三：藏书楼",
-      "roleGoalKeywords": {
-        "zhuyingtai": [
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_book_table_v1",
+     "tileX": 30,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_scroll_jar_v1",
+     "tileX": 16,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_censer_v1",
+     "tileX": 34,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_lamp_stand_top_v1",
+     "tileX": 21,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_lamp_stand_w_top_v1",
+     "tileX": 13,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_jing_stack_v1",
+     "tileX": 5,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_prop_night_lamp_story_v1",
+     "tileX": 21,
+     "tileY": 15,
+     "refId": "map_lz_ch02_library_v1_story_lamp",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch02_library_v1_story_lamp_inspect",
+        "name": "夜灯",
+        "description": "厅中灯檠照着书架与书案。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "灯檠里的油还够烧到三更，灯影把书架拉得很长。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "马文才若再翻下去，灯下每一处都会留下翻动的痕迹——继续，还是就此停手？"
+         }
+        ],
+        "weight": 1
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_lamp_stand_w_base_v1",
+     "tileX": 13,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_prop_jing_missing_page_story_v1",
+     "tileX": 11,
+     "tileY": 15,
+     "refId": "map_lz_ch02_library_v1_story_a",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch02_library_v1_story_a_inspect",
+        "name": "查看藏书楼线索",
+        "description": "藏书楼线索承载着当前章节的关键线索。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "藏书楼线索承载着当前章节的关键线索。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "藏书楼线索提示了当前场景的主要矛盾。"
+         }
+        ],
+        "weight": 1
+       },
+       {
+        "id": "map_lz_ch02_library_v1_story_a_choice",
+        "name": "处理藏书楼线索",
+        "description": "你围绕藏书楼线索整理线索，真正的角色状态结算会在抉择点发生。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "你围绕藏书楼线索整理线索，真正的角色状态结算会在抉择点发生。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "藏书楼线索已记录为共同线索。"
+         }
+        ],
+        "weight": 1
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_side_case_w_v1",
+     "tileX": 1,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_side_case_e_v1",
+     "tileX": 41,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_reading_desk_zhu_v1",
+     "tileX": 7,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_reading_desk_liang_v1",
+     "tileX": 15,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_prop_window_desk_register_story_v1",
+     "tileX": 28,
+     "tileY": 18,
+     "refId": "map_lz_ch02_library_v1_story_desk",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch02_library_v1_story_desk_inspect",
+        "name": "窗边书案",
+        "description": "槛窗下摊着一本借书登记册。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "登记册上有一行小楷，笔势与祝英台的讲义如出一辙。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "窗外方塘里的灯影晃了一下，像有人刚从这里起身。"
+         }
+        ],
+        "weight": 1
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_reading_desk_scholar_v1",
+     "tileX": 35,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_prop_private_book_chest_story_v1",
+     "tileX": 12,
+     "tileY": 19,
+     "refId": "map_lz_ch02_library_v1_story_b",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch02_library_v1_story_b_zhuyingtai",
+        "name": "祝英台：缺页 / 私人物件",
+        "description": "祝英台在场景三：藏书楼围绕缺页、私人物件做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         }
+        ],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "祝英台在场景三：藏书楼围绕缺页、私人物件做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": 1
+         },
+         {
+          "type": "modify_attribute",
+          "target": "health",
+          "value": -1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "liangTrust",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "identityRisk",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch02_classmates_three_years",
+           "sceneId": "ch02_scene_04_bamboo_path",
+           "mapId": "map_lz_ch02_bamboo_path_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch02_classmates_three_years",
+         "sceneId": "ch02_scene_03_library",
+         "mapId": "map_lz_ch02_library_v1",
+         "role": "zhuyingtai",
+         "eventLabel": "缺页 / 私人物件",
+         "keywords": [
           "缺页",
           "私人物件"
+         ],
+         "chapterFile": "chapter-02-classmates-three-years.md",
+         "sceneHeading": "场景三：藏书楼",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch02_library_v1",
+         "role": "zhuyingtai",
+         "presence": "present",
+         "impactScope": "physical",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "present",
+        "stateImpactScope": "physical"
+       },
+       {
+        "id": "map_lz_ch02_library_v1_story_b_liangshanbo",
+        "name": "梁山伯：夜读 / 异常",
+        "description": "梁山伯在场景三：藏书楼围绕夜读、异常做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         }
         ],
-        "liangshanbo": [
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "梁山伯在场景三：藏书楼围绕夜读、异常做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": 1
+         },
+         {
+          "type": "modify_attribute",
+          "target": "social",
+          "value": 1
+         },
+         {
+          "type": "modify_attribute",
+          "target": "wealth",
+          "value": -1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "liangTrust",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "promiseClarity",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch02_classmates_three_years",
+           "sceneId": "ch02_scene_04_bamboo_path",
+           "mapId": "map_lz_ch02_bamboo_path_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch02_classmates_three_years",
+         "sceneId": "ch02_scene_03_library",
+         "mapId": "map_lz_ch02_library_v1",
+         "role": "liangshanbo",
+         "eventLabel": "夜读 / 异常",
+         "keywords": [
           "夜读",
           "异常"
+         ],
+         "chapterFile": "chapter-02-classmates-three-years.md",
+         "sceneHeading": "场景三：藏书楼",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch02_library_v1",
+         "role": "liangshanbo",
+         "presence": "present",
+         "impactScope": "physical",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "present",
+        "stateImpactScope": "physical"
+       },
+       {
+        "id": "map_lz_ch02_library_v1_story_b_mawencai",
+        "name": "马文才：身份不稳 / 线索",
+        "description": "马文才在场景三：藏书楼围绕身份不稳、线索做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         }
         ],
-        "mawencai": [
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "马文才在场景三：藏书楼围绕身份不稳、线索做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "social",
+          "value": 1
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": -1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "maRestraint",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "maPressure",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch02_classmates_three_years",
+           "sceneId": "ch02_scene_04_bamboo_path",
+           "mapId": "map_lz_ch02_bamboo_path_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch02_classmates_three_years",
+         "sceneId": "ch02_scene_03_library",
+         "mapId": "map_lz_ch02_library_v1",
+         "role": "mawencai",
+         "eventLabel": "身份不稳 / 线索",
+         "keywords": [
           "身份不稳",
           "线索"
-        ]
-      }
+         ],
+         "chapterFile": "chapter-02-classmates-three-years.md",
+         "sceneHeading": "场景三：藏书楼",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch02_library_v1",
+         "role": "mawencai",
+         "presence": "present",
+         "impactScope": "physical",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "present",
+        "stateImpactScope": "physical"
+       }
+      ]
+     }
     },
-    "artStyle": {
-      "storyId": "liangzhu",
-      "visualStyle": "semi-realistic pixel comic",
-      "baseTileSize": 16,
-      "characterScale": "48x96",
-      "detailTier": "S",
-      "sceneFamily": "library",
-      "chapterPalette": "clear-academy-bamboo-paper",
-      "mood": "restrained study and suspicion",
-      "focusTier": "S",
-      "detailPass": "second-pass-v2"
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_side_wall_w_v1",
+     "tileX": 0,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_side_wall_e_v1",
+     "tileX": 43,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_lantern_post_w_v1",
+     "tileX": 16,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_lantern_post_e_v1",
+     "tileX": 25,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_south_sill_v1",
+     "tileX": 0,
+     "tileY": 20
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_stone_vat_moon_v1",
+     "tileX": 33,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_terrace_bench_v1",
+     "tileX": 6,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_reeds_w_v1",
+     "tileX": 0,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_reeds_e_v1",
+     "tileX": 41,
+     "tileY": 24
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_zhuyingtai_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 10,
+     "tileY": 17,
+     "refId": "map_lz_ch02_library_v1_actor_zhuyingtai_1"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_liangshanbo_48x96_story_v2",
+     "animationId": "idle-down",
+     "tileX": 16,
+     "tileY": 17,
+     "refId": "map_lz_ch02_library_v1_actor_liangshanbo_2"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_mawencai_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 33,
+     "tileY": 11,
+     "refId": "map_lz_ch02_library_v1_actor_mawencai_3"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_student_b_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 36,
+     "tileY": 17,
+     "refId": "map_lz_ch02_library_v1_actor_student_4"
+    },
+    {
+     "assetType": "sprite",
+     "animationId": "idle-down",
+     "refId": "map_lz_ch02_library_v1_actor_page_boy_5",
+     "spriteId": "sprite_page_boy_48x96_story_v1",
+     "tileX": 3,
+     "tileY": 17
     }
+   ]
+  },
+  {
+   "id": "map_lz_ch02_library_v1_decor",
+   "name": "Decoration",
+   "type": "decoration",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": []
+  },
+  {
+   "id": "map_lz_ch02_library_v1_collision",
+   "name": "Collision",
+   "type": "collision",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 0,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 0,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 0,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 0,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 0,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 1,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 1,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 1,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 1,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 1,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 1,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 2,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 2,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 2,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 2,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 2,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 2,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 3,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 3,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 3,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 3,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 3,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 3,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 4,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 4,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 4,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 4,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 4,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 4,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 5,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 5,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 5,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 5,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 5,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 5,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 6,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 6,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 6,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 6,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 6,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 6,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 7,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 7,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 7,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 7,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 7,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 7,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 8,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 8,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 8,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 8,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 8,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 8,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 9,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 9,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 9,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 9,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 9,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 9,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 10,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 10,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 10,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 10,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 10,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 10,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 11,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 11,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 11,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 11,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 11,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 11,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 12,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 12,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 12,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 12,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 12,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 12,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 13,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 13,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 13,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 13,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 13,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 13,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 14,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 14,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 14,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 14,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 14,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 14,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 15,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 15,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 15,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 15,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 15,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 15,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 16,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 16,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 16,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 16,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 16,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 16,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 17,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 17,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 17,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 17,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 17,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 17,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 18,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 18,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 18,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 18,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 18,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 18,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 19,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 19,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 19,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 19,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 19,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 19,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 24,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 24,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 24,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 24,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 24,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 24,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 25,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 25,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 25,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 25,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 25,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 25,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 26,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 26,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 26,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 26,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 26,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 26,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 27,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 27,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 27,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 27,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 27,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 27,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 28,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 28,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 28,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 28,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 28,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 28,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 29,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 29,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 29,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 29,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 29,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 29,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 30,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 30,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 30,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 30,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 30,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 30,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 31,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 31,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 31,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 31,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 31,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 31,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 32,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 32,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 32,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 32,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 32,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 32,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 33,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 33,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 33,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 33,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 33,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 33,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 34,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 34,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 34,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 34,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 34,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 34,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 35,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 35,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 35,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 35,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 35,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 35,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 36,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 36,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 36,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 36,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 36,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 36,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 37,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 37,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 37,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 37,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 37,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 37,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 38,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 38,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 38,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 38,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 38,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 38,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 39,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 39,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 39,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 39,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 39,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 39,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 40,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 40,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 40,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 40,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 40,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 40,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 41,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 41,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 41,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 41,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 41,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 42,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 42,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 42,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 42,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 42,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 42,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 43,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 43,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 43,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 43,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 43,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_library_block_v1",
+     "tileX": 43,
+     "tileY": 31
+    }
+   ]
   }
+ ],
+ "districts": [
+  {
+   "districtId": "map_lz_ch02_library_v1_district",
+   "name": "藏书楼",
+   "x": 0,
+   "y": 0,
+   "width": 44,
+   "height": 32,
+   "terrainTags": [
+    "urban"
+   ],
+   "locations": [
+    {
+     "id": "map_lz_ch02_library_v1_start",
+     "name": "藏书楼入口",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 22,
+     "offsetY": 24
+    },
+    {
+     "id": "map_lz_ch02_library_v1_clue",
+     "name": "藏书楼线索点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 11,
+     "offsetY": 17
+    },
+    {
+     "id": "map_lz_ch02_library_v1_choice",
+     "name": "藏书楼抉择点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 13,
+     "offsetY": 18
+    },
+    {
+     "id": "map_lz_ch02_library_v1_desk",
+     "name": "藏书楼书案点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 29,
+     "offsetY": 17
+    },
+    {
+     "id": "map_lz_ch02_library_v1_ladder",
+     "name": "藏书楼书梯点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 25,
+     "offsetY": 11
+    },
+    {
+     "id": "map_lz_ch02_library_v1_lamp",
+     "name": "藏书楼夜灯点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 21,
+     "offsetY": 17
+    }
+   ],
+   "defaultEventDensity": 1
+  }
+ ],
+ "itemDefs": [],
+ "teleports": [],
+ "createdAt": 1782325200000,
+ "updatedAt": 1791000000000,
+ "version": 2,
+ "story": {
+  "storyId": "liangzhu",
+  "chapterId": "ch02_classmates_three_years",
+  "sceneId": "ch02_scene_03_library",
+  "scriptReference": {
+   "chapterFile": "chapter-02-classmates-three-years.md",
+   "sceneHeading": "场景三：藏书楼",
+   "roleGoalKeywords": {
+    "zhuyingtai": [
+     "缺页",
+     "私人物件"
+    ],
+    "liangshanbo": [
+     "夜读",
+     "异常"
+    ],
+    "mawencai": [
+     "身份不稳",
+     "线索"
+    ]
+   }
+  },
+  "artStyle": {
+   "storyId": "liangzhu",
+   "visualStyle": "semi-realistic pixel comic",
+   "baseTileSize": 16,
+   "characterScale": "48x96",
+   "detailTier": "S",
+   "sceneFamily": "library",
+   "chapterPalette": "clear-academy-bamboo-paper",
+   "mood": "restrained study and suspicion",
+   "focusTier": "S",
+   "detailPass": "second-pass-v2"
+  }
+ }
 }
