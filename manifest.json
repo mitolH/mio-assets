@@ -1,7 +1,7 @@
 {
   "name": "mio-world-assets",
   "version": "1.0.0",
-  "updatedAt": 1790895586375,
+  "updatedAt": 1790895637159,
   "components": [
     {
       "id": "comp_academy_corridor_v1",
@@ -19649,6 +19649,29 @@
       "updatedAt": 1791000000000
     },
     {
+      "id": "comp_lz_prop_dorm_night_lamp_story_v1",
+      "name": "夜灯 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_dorm_night_lamp_story_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "dorm-corridor-v2",
+        "song-jiangnan",
+        "tier-a",
+        "scene-dorm-corridor",
+        "night-rain",
+        "pre-graded-night",
+        "story-prop",
+        "liangzhu-story-v2"
+      ],
+      "width": 16,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1791000000000
+    },
+    {
       "id": "comp_lz_prop_fan_jade_story_v1",
       "name": "折扇玉佩",
       "category": "decoration",
@@ -19956,23 +19979,23 @@
     },
     {
       "id": "comp_lz_prop_night_lamp_story_v1",
-      "name": "夜灯 v1",
+      "name": "夜灯（灯檠底座）v1",
       "category": "decoration",
       "path": "components/decoration/comp_lz_prop_night_lamp_story_v1.json",
       "tags": [
         "liangzhu",
         "梁祝",
         "liangzhu-story-v3",
-        "dorm-corridor-v2",
+        "ch02-library-v2",
         "song-jiangnan",
         "tier-a",
-        "scene-dorm-corridor",
-        "night-rain",
-        "pre-graded-night",
+        "scene-library",
+        "night-baked",
         "story-prop",
-        "liangzhu-story-v2"
+        "lamp",
+        "夜灯"
       ],
-      "width": 16,
+      "width": 48,
       "height": 32,
       "version": 1,
       "updatedAt": 1791000000000
@@ -25244,7 +25267,7 @@
       "width": 384,
       "height": 192,
       "version": 1,
-      "updatedAt": 1790895586027
+      "updatedAt": 1790895636805
     },
     {
       "id": "comp_map_lz_ch02_academy_courtyard_v1_story_atmosphere_v6",

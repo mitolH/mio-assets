@@ -43,7 +43,7 @@
     "comp_lz_ch02_dorm_wash_bucket_v1",
     "comp_lz_ch02_dorm_water_jar_v1",
     "comp_lz_prop_door_curtain_story_v1",
-    "comp_lz_prop_night_lamp_story_v1",
+    "comp_lz_prop_dorm_night_lamp_story_v1",
     "comp_lz_prop_rain_seat_story_v1",
     "comp_lz_prop_washstand_story_v1"
    ],
@@ -526,7 +526,7 @@
     },
     {
      "assetType": "component",
-     "componentId": "comp_lz_prop_night_lamp_story_v1",
+     "componentId": "comp_lz_prop_dorm_night_lamp_story_v1",
      "tileX": 13,
      "tileY": 10,
      "refId": "map_lz_ch02_dorm_corridor_v1_story_lamp",
