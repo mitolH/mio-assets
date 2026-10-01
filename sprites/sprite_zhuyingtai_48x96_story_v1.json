@@ -325,10 +325,116 @@
           ]
         }
       ]
+    },
+    {
+      "id": "idle-left",
+      "name": "idle-left",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 0,
+      "frames": [
+        {
+          "duration": 180,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_idle_left_f1_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 180,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_idle_left_f2_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 180,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_idle_left_f3_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 180,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_idle_left_f4_story_v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idle-right",
+      "name": "idle-right",
+      "loop": true,
+      "interruptPolicy": "interruptible",
+      "priority": 0,
+      "frames": [
+        {
+          "duration": 180,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_idle_right_f1_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 180,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_idle_right_f2_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 180,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_idle_right_f3_story_v1"
+            }
+          ]
+        },
+        {
+          "duration": 180,
+          "layerStates": [
+            {
+              "layerId": "body",
+              "offsetX": 0,
+              "offsetY": 0,
+              "componentId": "comp_zhuyingtai_idle_right_f4_story_v1"
+            }
+          ]
+        }
+      ]
     }
   ],
   "defaultAnimationId": "idle-down",
   "createdAt": 1790746552913,
-  "updatedAt": 1790746552913,
+  "updatedAt": 1790300000000,
   "version": 4
 }
