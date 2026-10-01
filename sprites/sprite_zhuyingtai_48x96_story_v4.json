@@ -1,0 +1,440 @@
+{
+ "id": "sprite_zhuyingtai_48x96_story_v4",
+ "name": "祝英台 48x96 story v4",
+ "category": "character",
+ "description": "祝英台 48x96 story v4：宋代江南书生装，五动画×4帧，与书院门前场景共用色板。",
+ "tags": [
+  "liangzhu-story-v1",
+  "liangzhu",
+  "梁祝",
+  "tier-s",
+  "zhuyingtai",
+  "48x96",
+  "zhuyingtai-detail-v4",
+  "scholar-disguise-v4",
+  "song-jiangnan-v4",
+  "fan-jade-identity-v4",
+  "kit-palette-v4"
+ ],
+ "styleProfile": {
+  "storyId": "liangzhu",
+  "visualStyle": "semi-realistic pixel comic",
+  "baseTileSize": 16,
+  "characterScale": "48x96",
+  "detailTier": "S",
+  "sceneFamily": "academy_gate",
+  "chapterPalette": "song-jiangnan-water-town",
+  "paletteFamily": "lz-academy-gate-v2-57c+zhuyingtai-v4",
+  "lightDirection": "top-left",
+  "sourceQuality": "procedural-hand-painted-v4",
+  "costume": "song-scholar-disguise",
+  "characterMotifs": [
+   "black soft-leg futou (软脚幞头), hair fully tied up",
+   "celadon cross-collar right-over-left zhiduo (交领右衽直裰) with dark 皂缘 borders",
+   "pink silk cord (丝绦) knotted with two hanging ends",
+   "closed bamboo folding fan",
+   "jade bi pendant with pink tassel",
+   "reserved, gently determined face"
+  ]
+ },
+ "width": 48,
+ "height": 96,
+ "tileWidth": 3,
+ "tileHeight": 6,
+ "anchorX": 24,
+ "anchorY": 96,
+ "footprint": {
+  "tileWidth": 1,
+  "tileHeight": 1,
+  "offsetTileX": 1,
+  "offsetTileY": 5
+ },
+ "layers": [
+  {
+   "id": "body",
+   "name": "Body",
+   "zOrder": 0,
+   "defaultComponentId": "comp_zhuyingtai_idle_down_f1_story_v4",
+   "defaultOffsetX": -24,
+   "defaultOffsetY": -96,
+   "visible": true
+  }
+ ],
+ "animations": [
+  {
+   "id": "idle-down",
+   "name": "idle-down",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_idle_down_f1_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_idle_down_f2_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_idle_down_f3_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_idle_down_f4_story_v4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-down",
+   "name": "walk-down",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_down_f1_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_down_f2_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_down_f3_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_down_f4_story_v4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-left",
+   "name": "walk-left",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_left_f1_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_left_f2_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_left_f3_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_left_f4_story_v4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-right",
+   "name": "walk-right",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_right_f1_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_right_f2_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_right_f3_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_right_f4_story_v4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-up",
+   "name": "walk-up",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_up_f1_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_up_f2_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_up_f3_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_walk_up_f4_story_v4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "idle-left",
+   "name": "idle-left",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_idle_left_f1_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_idle_left_f2_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_idle_left_f3_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_idle_left_f4_story_v4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "idle-right",
+   "name": "idle-right",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_idle_right_f1_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_idle_right_f2_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_idle_right_f3_story_v4"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_idle_right_f4_story_v4"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "defaultAnimationId": "idle-down",
+ "createdAt": 1790746552913,
+ "updatedAt": 1790300000000,
+ "version": 4
+}
