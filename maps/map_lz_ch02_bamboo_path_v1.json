@@ -1,2991 +1,2991 @@
 {
- "id": "map_lz_ch02_bamboo_path_v1",
- "name": "竹林小径 v2",
- "description": "竹林小径 v2（总图 B「临溪园林·曲水书院」·方案 A「溪畔石凳·曲桥竹径」）：书院后山竹林是曲水之源——溪水自东北竹林石间小跌水流出，沿青石小径蜿蜒西南，于三板曲桥下转弯，经条石驳岸溪口流向藏书楼前的半亩方塘。西岸高毛竹下一对条石凳与小流杯石是低声设问之处；马文才在对岸跌水边的竹丛与山石后隔水偷听。南面斋舍北墙开后门，西去藏书楼。午后斜光，林下光斑。",
- "widthInTiles": 44,
- "heightInTiles": 32,
- "level": {
-  "formatVersion": 1,
-  "startLocationId": "map_lz_ch02_bamboo_path_v1_start",
-  "assets": {
-   "componentIds": [
-    "comp_lz_ch01_gate_bamboo_v4",
-    "comp_lz_ch01_gate_block_water_v3",
-    "comp_lz_ch01_gate_decal_leaves_v3",
-    "comp_lz_ch01_gate_decal_shudai_v3",
-    "comp_lz_ch01_gate_decal_stones_v3",
-    "comp_lz_ch01_gate_reeds_v3",
-    "comp_lz_ch02_bamboo_back_gate_v1",
-    "comp_lz_ch02_bamboo_back_wall_low_v1",
-    "comp_lz_ch02_bamboo_bamboo_pipe_v1",
-    "comp_lz_ch02_bamboo_ground_r0c0_v1",
-    "comp_lz_ch02_bamboo_ground_r0c1_v1",
-    "comp_lz_ch02_bamboo_ground_r0c2_v1",
-    "comp_lz_ch02_bamboo_ground_r0c3_v1",
-    "comp_lz_ch02_bamboo_ground_r1c0_v1",
-    "comp_lz_ch02_bamboo_ground_r1c1_v1",
-    "comp_lz_ch02_bamboo_ground_r1c2_v1",
-    "comp_lz_ch02_bamboo_ground_r1c3_v1",
-    "comp_lz_ch02_bamboo_ground_r2c0_v1",
-    "comp_lz_ch02_bamboo_ground_r2c1_v1",
-    "comp_lz_ch02_bamboo_ground_r2c2_v1",
-    "comp_lz_ch02_bamboo_ground_r2c3_v1",
-    "comp_lz_ch02_bamboo_ground_r3c0_v1",
-    "comp_lz_ch02_bamboo_ground_r3c1_v1",
-    "comp_lz_ch02_bamboo_ground_r3c2_v1",
-    "comp_lz_ch02_bamboo_ground_r3c3_v1",
-    "comp_lz_ch02_bamboo_kit_bamboo_top6_v1",
-    "comp_lz_ch02_bamboo_kit_bamboo_top8_v1",
-    "comp_lz_ch02_bamboo_liubei_stone_v1",
-    "comp_lz_ch02_bamboo_rocks_a_v1",
-    "comp_lz_ch02_bamboo_rocks_b_v1",
-    "comp_lz_ch02_bamboo_rocks_c_v1",
-    "comp_lz_ch02_bamboo_rocks_d_v1",
-    "comp_lz_ch02_bamboo_stone_bench_v1",
-    "comp_lz_ch02_bamboo_tall_bamboo_a_top11_v1",
-    "comp_lz_ch02_bamboo_tall_bamboo_a_top9_v1",
-    "comp_lz_ch02_bamboo_tall_bamboo_b_top10_v1",
-    "comp_lz_ch02_bamboo_tall_bamboo_c_top11_v1",
-    "comp_lz_ch02_bamboo_tall_bamboo_c_top13_v1",
-    "comp_lz_ch02_bamboo_tall_bamboo_c_top14_v1",
-    "comp_lz_ch02_bamboo_tall_bamboo_d_top7_v1",
-    "comp_lz_ch02_bamboo_tall_bamboo_d_v1",
-    "comp_lz_ch02_bamboo_thicket_v1",
-    "comp_lz_prop_bench_book_story_v1",
-    "comp_lz_prop_fan_jade_story_v3"
-   ],
-   "spriteIds": [
-    "sprite_liangshanbo_48x96_story_v2",
-    "sprite_liangshanbo_butterfly_48x96_story_v1",
-    "sprite_liangshanbo_sick_48x96_story_v1",
-    "sprite_mawencai_48x96_story_v1",
-    "sprite_student_48x96_story_v1",
-    "sprite_zhuyingtai_48x96_story_v1",
-    "sprite_zhuyingtai_butterfly_48x96_story_v1",
-    "sprite_zhuyingtai_wedding_48x96_story_v1"
-   ],
-   "mapIds": [
-    "map_lz_ch02_bamboo_path_v1"
-   ]
-  }
- },
- "layers": [
-  {
-   "id": "map_lz_ch02_bamboo_path_v1_ground",
-   "name": "Ground",
-   "type": "ground",
-   "visible": true,
-   "locked": false,
-   "opacity": 1,
-   "components": [
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r0c0_v1",
-     "tileX": 0,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r0c0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r0c1_v1",
-     "tileX": 11,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r0c1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r0c2_v1",
-     "tileX": 22,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r0c2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r0c3_v1",
-     "tileX": 33,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r0c3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r1c0_v1",
-     "tileX": 0,
-     "tileY": 8,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r1c0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r1c1_v1",
-     "tileX": 11,
-     "tileY": 8,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r1c1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r1c2_v1",
-     "tileX": 22,
-     "tileY": 8,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r1c2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r1c3_v1",
-     "tileX": 33,
-     "tileY": 8,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r1c3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r2c0_v1",
-     "tileX": 0,
-     "tileY": 16,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r2c0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r2c1_v1",
-     "tileX": 11,
-     "tileY": 16,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r2c1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r2c2_v1",
-     "tileX": 22,
-     "tileY": 16,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r2c2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r2c3_v1",
-     "tileX": 33,
-     "tileY": 16,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r2c3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r3c0_v1",
-     "tileX": 0,
-     "tileY": 24,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r3c0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r3c1_v1",
-     "tileX": 11,
-     "tileY": 24,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r3c1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r3c2_v1",
-     "tileX": 22,
-     "tileY": 24,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r3c2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_ground_r3c3_v1",
-     "tileX": 33,
-     "tileY": 24,
-     "refId": "map_lz_ch02_bamboo_path_v1_ground_r3c3"
+  "id": "map_lz_ch02_bamboo_path_v1",
+  "name": "竹林小径 v2",
+  "description": "竹林小径 v2（总图 B「临溪园林·曲水书院」·方案 A「溪畔石凳·曲桥竹径」）：书院后山竹林是曲水之源——溪水自东北竹林石间小跌水流出，沿青石小径蜿蜒西南，于三板曲桥下转弯，经条石驳岸溪口流向藏书楼前的半亩方塘。西岸高毛竹下一对条石凳与小流杯石是低声设问之处；马文才在对岸跌水边的竹丛与山石后隔水偷听。南面斋舍北墙开后门，西去藏书楼。午后斜光，林下光斑。",
+  "widthInTiles": 44,
+  "heightInTiles": 32,
+  "level": {
+    "formatVersion": 1,
+    "startLocationId": "map_lz_ch02_bamboo_path_v1_start",
+    "assets": {
+      "componentIds": [
+        "comp_lz_ch01_gate_bamboo_v4",
+        "comp_lz_ch01_gate_block_water_v3",
+        "comp_lz_ch01_gate_decal_leaves_v3",
+        "comp_lz_ch01_gate_decal_shudai_v3",
+        "comp_lz_ch01_gate_decal_stones_v3",
+        "comp_lz_ch01_gate_reeds_v3",
+        "comp_lz_ch02_bamboo_back_gate_v1",
+        "comp_lz_ch02_bamboo_back_wall_low_v1",
+        "comp_lz_ch02_bamboo_bamboo_pipe_v1",
+        "comp_lz_ch02_bamboo_ground_r0c0_v1",
+        "comp_lz_ch02_bamboo_ground_r0c1_v1",
+        "comp_lz_ch02_bamboo_ground_r0c2_v1",
+        "comp_lz_ch02_bamboo_ground_r0c3_v1",
+        "comp_lz_ch02_bamboo_ground_r1c0_v1",
+        "comp_lz_ch02_bamboo_ground_r1c1_v1",
+        "comp_lz_ch02_bamboo_ground_r1c2_v1",
+        "comp_lz_ch02_bamboo_ground_r1c3_v1",
+        "comp_lz_ch02_bamboo_ground_r2c0_v1",
+        "comp_lz_ch02_bamboo_ground_r2c1_v1",
+        "comp_lz_ch02_bamboo_ground_r2c2_v1",
+        "comp_lz_ch02_bamboo_ground_r2c3_v1",
+        "comp_lz_ch02_bamboo_ground_r3c0_v1",
+        "comp_lz_ch02_bamboo_ground_r3c1_v1",
+        "comp_lz_ch02_bamboo_ground_r3c2_v1",
+        "comp_lz_ch02_bamboo_ground_r3c3_v1",
+        "comp_lz_ch02_bamboo_kit_bamboo_top6_v1",
+        "comp_lz_ch02_bamboo_kit_bamboo_top8_v1",
+        "comp_lz_ch02_bamboo_liubei_stone_v1",
+        "comp_lz_ch02_bamboo_rocks_a_v1",
+        "comp_lz_ch02_bamboo_rocks_b_v1",
+        "comp_lz_ch02_bamboo_rocks_c_v1",
+        "comp_lz_ch02_bamboo_rocks_d_v1",
+        "comp_lz_ch02_bamboo_stone_bench_v1",
+        "comp_lz_ch02_bamboo_tall_bamboo_a_top11_v1",
+        "comp_lz_ch02_bamboo_tall_bamboo_a_top9_v1",
+        "comp_lz_ch02_bamboo_tall_bamboo_b_top10_v1",
+        "comp_lz_ch02_bamboo_tall_bamboo_c_top11_v1",
+        "comp_lz_ch02_bamboo_tall_bamboo_c_top13_v1",
+        "comp_lz_ch02_bamboo_tall_bamboo_c_top14_v1",
+        "comp_lz_ch02_bamboo_tall_bamboo_d_top7_v1",
+        "comp_lz_ch02_bamboo_tall_bamboo_d_v1",
+        "comp_lz_ch02_bamboo_thicket_v1",
+        "comp_lz_prop_bench_book_story_v1",
+        "comp_lz_prop_fan_jade_story_v3"
+      ],
+      "spriteIds": [
+        "sprite_liangshanbo_48x96_story_v2",
+        "sprite_liangshanbo_butterfly_48x96_story_v1",
+        "sprite_liangshanbo_sick_48x96_story_v1",
+        "sprite_mawencai_48x96_story_v1",
+        "sprite_student_48x96_story_v1",
+        "sprite_zhuyingtai_48x96_story_v1",
+        "sprite_zhuyingtai_butterfly_48x96_story_v1",
+        "sprite_zhuyingtai_wedding_48x96_story_v1"
+      ],
+      "mapIds": [
+        "map_lz_ch02_bamboo_path_v1"
+      ]
     }
-   ]
   },
-  {
-   "id": "map_lz_ch02_bamboo_path_v1_objects",
-   "name": "Objects",
-   "type": "object",
-   "visible": true,
-   "locked": false,
-   "opacity": 1,
-   "components": [
+  "layers": [
     {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_rocks_d_v1",
-     "tileX": 30,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_rocks_d_30_1"
+      "id": "map_lz_ch02_bamboo_path_v1_ground",
+      "name": "Ground",
+      "type": "ground",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r0c0_v1",
+          "tileX": 0,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r0c0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r0c1_v1",
+          "tileX": 11,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r0c1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r0c2_v1",
+          "tileX": 22,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r0c2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r0c3_v1",
+          "tileX": 33,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r0c3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r1c0_v1",
+          "tileX": 0,
+          "tileY": 8,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r1c0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r1c1_v1",
+          "tileX": 11,
+          "tileY": 8,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r1c1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r1c2_v1",
+          "tileX": 22,
+          "tileY": 8,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r1c2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r1c3_v1",
+          "tileX": 33,
+          "tileY": 8,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r1c3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r2c0_v1",
+          "tileX": 0,
+          "tileY": 16,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r2c0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r2c1_v1",
+          "tileX": 11,
+          "tileY": 16,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r2c1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r2c2_v1",
+          "tileX": 22,
+          "tileY": 16,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r2c2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r2c3_v1",
+          "tileX": 33,
+          "tileY": 16,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r2c3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r3c0_v1",
+          "tileX": 0,
+          "tileY": 24,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r3c0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r3c1_v1",
+          "tileX": 11,
+          "tileY": 24,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r3c1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r3c2_v1",
+          "tileX": 22,
+          "tileY": 24,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r3c2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_ground_r3c3_v1",
+          "tileX": 33,
+          "tileY": 24,
+          "refId": "map_lz_ch02_bamboo_path_v1_ground_r3c3"
+        }
+      ]
     },
     {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_rocks_b_v1",
-     "tileX": 32,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_rocks_b_32_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_rocks_c_v1",
-     "tileX": 27,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_rocks_c_27_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_kit_bamboo_top6_v1",
-     "tileX": 18,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_top6_18_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_kit_bamboo_top6_v1",
-     "tileX": 2,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_top6_2_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_tall_bamboo_d_top7_v1",
-     "tileX": 23,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_d_top7_23_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_tall_bamboo_d_top7_v1",
-     "tileX": 6,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_d_top7_6_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_kit_bamboo_top8_v1",
-     "tileX": 38,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_top8_38_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_tall_bamboo_a_top9_v1",
-     "tileX": 34,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_a_top9_34_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_tall_bamboo_b_top10_v1",
-     "tileX": 13,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_b_top10_13_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_tall_bamboo_a_top11_v1",
-     "tileX": 9,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_a_top11_9_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_tall_bamboo_c_top11_v1",
-     "tileX": 20,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_c_top11_20_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_bamboo_v4",
-     "tileX": 4,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_4_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_thicket_v1",
-     "tileX": 29,
-     "tileY": 6,
-     "refId": "map_lz_ch02_bamboo_path_v1_thicket_29_6"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_tall_bamboo_c_top13_v1",
-     "tileX": 0,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_c_top13_0_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_reeds_v3",
-     "tileX": 27,
-     "tileY": 11,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_27_11"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_rocks_a_v1",
-     "tileX": 27,
-     "tileY": 11,
-     "refId": "map_lz_ch02_bamboo_path_v1_rocks_a_27_11"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_tall_bamboo_c_top14_v1",
-     "tileX": 39,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_c_top14_39_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_stone_bench_v1",
-     "tileX": 11,
-     "tileY": 12,
-     "refId": "map_lz_ch02_bamboo_path_v1_stone_bench_11_12"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_stone_bench_v1",
-     "tileX": 20,
-     "tileY": 12,
-     "refId": "map_lz_ch02_bamboo_path_v1_stone_bench_20_12"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_prop_bench_book_story_v1",
-     "tileX": 12,
-     "tileY": 13,
-     "refId": "map_lz_ch02_bamboo_path_v1_story_b",
-     "interaction": {
-      "interactionRange": 2,
-      "indicatorType": "sparkle",
-      "interactions": [
-       {
-        "id": "map_lz_ch02_bamboo_path_v1_story_b_zhuyingtai",
-        "name": "祝英台：女子求学 / 试探",
-        "description": "祝英台在场景四：竹林小径围绕女子求学、试探做出选择，推动当前章节继续前进。",
-        "type": "examine",
-        "conditions": [
-         {
-          "type": "flag",
-          "operator": "eq",
-          "value": "role_zhuyingtai"
-         }
-        ],
-        "effects": [
-         {
-          "type": "show_dialog",
-          "target": "dialog",
-          "value": "祝英台在场景四：竹林小径围绕女子求学、试探做出选择，推动当前章节继续前进。"
-         },
-         {
-          "type": "modify_attribute",
-          "target": "mood",
-          "value": 1
-         },
-         {
-          "type": "modify_attribute",
-          "target": "social",
-          "value": 1
-         },
-         {
-          "type": "modify_story_variable",
-          "target": "promiseClarity",
-          "value": 1
-         },
-         {
-          "type": "modify_story_variable",
-          "target": "liangTrust",
-          "value": 1
-         },
-         {
-          "type": "advance_story_scene",
-          "target": "liangzhu",
-          "value": {
-           "chapterId": "ch02_classmates_three_years",
-           "sceneId": "ch02_scene_05_dorm_corridor",
-           "mapId": "map_lz_ch02_dorm_corridor_v1"
+      "id": "map_lz_ch02_bamboo_path_v1_objects",
+      "name": "Objects",
+      "type": "object",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_rocks_d_v1",
+          "tileX": 30,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_rocks_d_30_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_rocks_b_v1",
+          "tileX": 32,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_rocks_b_32_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_rocks_c_v1",
+          "tileX": 27,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_rocks_c_27_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_kit_bamboo_top6_v1",
+          "tileX": 18,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_top6_18_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_kit_bamboo_top6_v1",
+          "tileX": 2,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_top6_2_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_tall_bamboo_d_top7_v1",
+          "tileX": 23,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_d_top7_23_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_tall_bamboo_d_top7_v1",
+          "tileX": 6,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_d_top7_6_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_kit_bamboo_top8_v1",
+          "tileX": 38,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_top8_38_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_tall_bamboo_a_top9_v1",
+          "tileX": 34,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_a_top9_34_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_tall_bamboo_b_top10_v1",
+          "tileX": 13,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_b_top10_13_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_tall_bamboo_a_top11_v1",
+          "tileX": 9,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_a_top11_9_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_tall_bamboo_c_top11_v1",
+          "tileX": 20,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_c_top11_20_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_bamboo_v4",
+          "tileX": 4,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_4_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_thicket_v1",
+          "tileX": 29,
+          "tileY": 6,
+          "refId": "map_lz_ch02_bamboo_path_v1_thicket_29_6"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_tall_bamboo_c_top13_v1",
+          "tileX": 0,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_c_top13_0_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_reeds_v3",
+          "tileX": 27,
+          "tileY": 11,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_27_11"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_rocks_a_v1",
+          "tileX": 27,
+          "tileY": 11,
+          "refId": "map_lz_ch02_bamboo_path_v1_rocks_a_27_11"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_tall_bamboo_c_top14_v1",
+          "tileX": 39,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_c_top14_39_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_stone_bench_v1",
+          "tileX": 11,
+          "tileY": 12,
+          "refId": "map_lz_ch02_bamboo_path_v1_stone_bench_11_12"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_stone_bench_v1",
+          "tileX": 20,
+          "tileY": 12,
+          "refId": "map_lz_ch02_bamboo_path_v1_stone_bench_20_12"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_prop_bench_book_story_v1",
+          "tileX": 12,
+          "tileY": 13,
+          "refId": "map_lz_ch02_bamboo_path_v1_story_b",
+          "interaction": {
+            "interactionRange": 3,
+            "indicatorType": "sparkle",
+            "interactions": [
+              {
+                "id": "map_lz_ch02_bamboo_path_v1_story_b_zhuyingtai",
+                "name": "祝英台：女子求学 / 试探",
+                "description": "祝英台在场景四：竹林小径围绕女子求学、试探做出选择，推动当前章节继续前进。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_zhuyingtai"
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "祝英台在场景四：竹林小径围绕女子求学、试探做出选择，推动当前章节继续前进。"
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "mood",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "social",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "promiseClarity",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "liangTrust",
+                    "value": 1
+                  },
+                  {
+                    "type": "advance_story_scene",
+                    "target": "liangzhu",
+                    "value": {
+                      "chapterId": "ch02_classmates_three_years",
+                      "sceneId": "ch02_scene_05_dorm_corridor",
+                      "mapId": "map_lz_ch02_dorm_corridor_v1"
+                    }
+                  }
+                ],
+                "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch02_classmates_three_years",
+                  "sceneId": "ch02_scene_04_bamboo_path",
+                  "mapId": "map_lz_ch02_bamboo_path_v1",
+                  "role": "zhuyingtai",
+                  "eventLabel": "女子求学 / 试探",
+                  "keywords": [
+                    "女子求学",
+                    "试探"
+                  ],
+                  "chapterFile": "chapter-02-classmates-three-years.md",
+                  "sceneHeading": "场景四：竹林小径",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
+                "authoredRoleState": {
+                  "mapId": "map_lz_ch02_bamboo_path_v1",
+                  "role": "zhuyingtai",
+                  "presence": "present",
+                  "impactScope": "physical",
+                  "source": "sceneRoleStateEffects"
+                },
+                "rolePresence": "present",
+                "stateImpactScope": "physical"
+              },
+              {
+                "id": "map_lz_ch02_bamboo_path_v1_story_b_liangshanbo",
+                "name": "梁山伯：真实处境 / 接近",
+                "description": "梁山伯在场景四：竹林小径围绕真实处境、接近做出选择，推动当前章节继续前进。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_liangshanbo"
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "梁山伯在场景四：竹林小径围绕真实处境、接近做出选择，推动当前章节继续前进。"
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "social",
+                    "value": 2
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "mood",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "promiseClarity",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "liangTrust",
+                    "value": 1
+                  },
+                  {
+                    "type": "advance_story_scene",
+                    "target": "liangzhu",
+                    "value": {
+                      "chapterId": "ch02_classmates_three_years",
+                      "sceneId": "ch02_scene_05_dorm_corridor",
+                      "mapId": "map_lz_ch02_dorm_corridor_v1"
+                    }
+                  }
+                ],
+                "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch02_classmates_three_years",
+                  "sceneId": "ch02_scene_04_bamboo_path",
+                  "mapId": "map_lz_ch02_bamboo_path_v1",
+                  "role": "liangshanbo",
+                  "eventLabel": "真实处境 / 接近",
+                  "keywords": [
+                    "真实处境",
+                    "接近"
+                  ],
+                  "chapterFile": "chapter-02-classmates-three-years.md",
+                  "sceneHeading": "场景四：竹林小径",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
+                "authoredRoleState": {
+                  "mapId": "map_lz_ch02_bamboo_path_v1",
+                  "role": "liangshanbo",
+                  "presence": "present",
+                  "impactScope": "physical",
+                  "source": "sceneRoleStateEffects"
+                },
+                "rolePresence": "present",
+                "stateImpactScope": "physical"
+              },
+              {
+                "id": "map_lz_ch02_bamboo_path_v1_story_b_mawencai",
+                "name": "马文才：听见片段 / 沉默",
+                "description": "马文才在场景四：竹林小径围绕听见片段、沉默做出选择，推动当前章节继续前进。",
+                "type": "examine",
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_mawencai"
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "马文才在场景四：竹林小径围绕听见片段、沉默做出选择，推动当前章节继续前进。"
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "mood",
+                    "value": -1
+                  },
+                  {
+                    "type": "modify_attribute",
+                    "target": "social",
+                    "value": -1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "maRestraint",
+                    "value": 1
+                  },
+                  {
+                    "type": "modify_story_variable",
+                    "target": "maPressure",
+                    "value": 1
+                  },
+                  {
+                    "type": "advance_story_scene",
+                    "target": "liangzhu",
+                    "value": {
+                      "chapterId": "ch02_classmates_three_years",
+                      "sceneId": "ch02_scene_05_dorm_corridor",
+                      "mapId": "map_lz_ch02_dorm_corridor_v1"
+                    }
+                  }
+                ],
+                "weight": 1,
+                "scriptEvent": {
+                  "storyId": "liangzhu",
+                  "chapterId": "ch02_classmates_three_years",
+                  "sceneId": "ch02_scene_04_bamboo_path",
+                  "mapId": "map_lz_ch02_bamboo_path_v1",
+                  "role": "mawencai",
+                  "eventLabel": "听见片段 / 沉默",
+                  "keywords": [
+                    "听见片段",
+                    "沉默"
+                  ],
+                  "chapterFile": "chapter-02-classmates-three-years.md",
+                  "sceneHeading": "场景四：竹林小径",
+                  "source": "docs/liangzhu-game/scene-doc-references.json"
+                },
+                "authoredRoleState": {
+                  "mapId": "map_lz_ch02_bamboo_path_v1",
+                  "role": "mawencai",
+                  "presence": "present",
+                  "impactScope": "physical",
+                  "source": "sceneRoleStateEffects"
+                },
+                "rolePresence": "present",
+                "stateImpactScope": "physical"
+              }
+            ]
           }
-         }
-        ],
-        "weight": 1,
-        "scriptEvent": {
-         "storyId": "liangzhu",
-         "chapterId": "ch02_classmates_three_years",
-         "sceneId": "ch02_scene_04_bamboo_path",
-         "mapId": "map_lz_ch02_bamboo_path_v1",
-         "role": "zhuyingtai",
-         "eventLabel": "女子求学 / 试探",
-         "keywords": [
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_bamboo_v4",
+          "tileX": 35,
+          "tileY": 8,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_35_8"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_reeds_v3",
+          "tileX": 20,
+          "tileY": 17,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_20_17"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_reeds_v3",
+          "tileX": 21,
+          "tileY": 17,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_21_17"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_prop_fan_jade_story_v3",
+          "tileX": 7,
+          "tileY": 18,
+          "refId": "map_lz_ch02_bamboo_path_v1_story_a",
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "sparkle",
+            "interactions": [
+              {
+                "id": "map_lz_ch02_bamboo_path_v1_story_a_inspect",
+                "name": "查看竹林小径线索",
+                "description": "竹林小径线索承载着当前章节的关键线索。",
+                "type": "examine",
+                "conditions": [],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "竹林小径线索承载着当前章节的关键线索。"
+                  },
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "竹林小径线索提示了当前场景的主要矛盾。"
+                  }
+                ],
+                "weight": 1
+              },
+              {
+                "id": "map_lz_ch02_bamboo_path_v1_story_a_choice",
+                "name": "处理竹林小径线索",
+                "description": "你围绕竹林小径线索整理线索，真正的角色状态结算会在抉择点发生。",
+                "type": "examine",
+                "conditions": [],
+                "effects": [
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "你围绕竹林小径线索整理线索，真正的角色状态结算会在抉择点发生。"
+                  },
+                  {
+                    "type": "show_dialog",
+                    "target": "dialog",
+                    "value": "竹林小径线索已记录为共同线索。"
+                  }
+                ],
+                "weight": 1
+              }
+            ]
+          }
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_liubei_stone_v1",
+          "tileX": 18,
+          "tileY": 18,
+          "refId": "map_lz_ch02_bamboo_path_v1_liubei_stone_18_18"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_bamboo_pipe_v1",
+          "tileX": 20,
+          "tileY": 17,
+          "refId": "map_lz_ch02_bamboo_path_v1_bamboo_pipe_20_17"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_tall_bamboo_d_v1",
+          "tileX": 39,
+          "tileY": 7,
+          "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_d_39_7"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_reeds_v3",
+          "tileX": 24,
+          "tileY": 19,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_24_19"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_reeds_v3",
+          "tileX": 14,
+          "tileY": 20,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_14_20"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_bamboo_v4",
+          "tileX": 10,
+          "tileY": 15,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_10_15"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_bamboo_v4",
+          "tileX": 33,
+          "tileY": 15,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_33_15"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_reeds_v3",
+          "tileX": 7,
+          "tileY": 23,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_7_23"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_tall_bamboo_d_v1",
+          "tileX": 36,
+          "tileY": 14,
+          "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_d_36_14"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_bamboo_v4",
+          "tileX": 0,
+          "tileY": 19,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_0_19"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_bamboo_v4",
+          "tileX": 40,
+          "tileY": 20,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_40_20"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_bamboo_v4",
+          "tileX": 31,
+          "tileY": 21,
+          "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_31_21"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_tall_bamboo_d_v1",
+          "tileX": 1,
+          "tileY": 18,
+          "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_d_1_18"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_back_wall_low_v1",
+          "tileX": 10,
+          "tileY": 29,
+          "refId": "map_lz_ch02_bamboo_path_v1_back_wall_low_10_29"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch02_bamboo_back_gate_v1",
+          "tileX": 24,
+          "tileY": 27,
+          "refId": "map_lz_ch02_bamboo_path_v1_back_gate_24_27"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_zhuyingtai_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 15,
+          "tileY": 15,
+          "refId": "map_lz_ch02_bamboo_path_v1_actor_zhuyingtai_1"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_liangshanbo_48x96_story_v2",
+          "animationId": "idle-down",
+          "tileX": 18,
+          "tileY": 15,
+          "refId": "map_lz_ch02_bamboo_path_v1_actor_liangshanbo_2"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_mawencai_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 31,
+          "tileY": 14,
+          "refId": "map_lz_ch02_bamboo_path_v1_actor_mawencai_3"
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_student_48x96_story_v1",
+          "animationId": "idle-down",
+          "tileX": 7,
+          "tileY": 17,
+          "refId": "map_lz_ch02_bamboo_path_v1_actor_student_4"
+        }
+      ]
+    },
+    {
+      "id": "map_lz_ch02_bamboo_path_v1_decor",
+      "name": "Decoration",
+      "type": "decoration",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "components": [
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_decal_leaves_v3",
+          "tileX": 17,
+          "tileY": 20,
+          "refId": "map_lz_ch02_bamboo_path_v1_decal_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_decal_leaves_v3",
+          "tileX": 31,
+          "tileY": 24,
+          "refId": "map_lz_ch02_bamboo_path_v1_decal_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_decal_shudai_v3",
+          "tileX": 9,
+          "tileY": 14,
+          "refId": "map_lz_ch02_bamboo_path_v1_decal_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_decal_stones_v3",
+          "tileX": 33,
+          "tileY": 13,
+          "refId": "map_lz_ch02_bamboo_path_v1_decal_3"
+        }
+      ]
+    },
+    {
+      "id": "map_lz_ch02_bamboo_path_v1_collision",
+      "name": "Collision",
+      "type": "collision",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.3,
+      "components": [
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 0,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_0_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 1,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_1_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 2,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_2_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 3,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_3_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 4,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_4_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 5,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_5_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 6,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_6_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 7,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_7_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 8,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_8_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 9,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_9_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 10,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_10_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 11,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_11_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 12,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_12_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 13,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_13_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 14,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_14_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 15,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_15_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 16,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_16_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 17,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_17_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 18,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_18_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 19,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_19_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 20,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_20_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 21,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_21_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 22,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_22_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 23,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_23_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 24,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_24_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 25,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_25_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 26,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_26_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 27,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_27_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 28,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_28_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 29,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_29_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 30,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_30_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 31,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_31_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 32,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_32_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 33,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_33_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 34,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_34_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 35,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_35_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 36,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_36_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 37,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_37_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 38,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_38_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 39,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_39_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 40,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_40_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 41,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_41_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 42,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_42_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 43,
+          "tileY": 0,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_43_0"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 0,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_0_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 1,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_1_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 2,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_2_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 3,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_3_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 4,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_4_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 5,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_5_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 6,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_6_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 7,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_7_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 8,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_8_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 9,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_9_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 10,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_10_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 11,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_11_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 12,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_12_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 13,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_13_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 14,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_14_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 15,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_15_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 16,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_16_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 17,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_17_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 18,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_18_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 19,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_19_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 20,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_20_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 21,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_21_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 22,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_22_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 23,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_23_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 24,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_24_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 25,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_25_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 26,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_26_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 27,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_27_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 28,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_28_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 29,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_29_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 30,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_30_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 31,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_31_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 32,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_32_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 33,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_33_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 34,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_34_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 35,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_35_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 36,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_36_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 37,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_37_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 38,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_38_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 39,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_39_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 40,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_40_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 41,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_41_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 42,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_42_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 43,
+          "tileY": 1,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_43_1"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 0,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_0_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 1,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_1_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 2,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_2_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 3,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_3_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 4,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_4_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 5,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_5_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 6,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_6_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 7,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_7_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 8,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_8_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 9,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_9_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 10,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_10_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 11,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_11_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 12,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_12_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 13,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_13_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 14,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_14_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 15,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_15_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 16,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_16_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 17,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_17_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 18,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_18_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 19,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_19_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 20,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_20_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 21,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_21_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 22,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_22_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 23,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_23_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 24,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_24_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 25,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_25_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 26,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_26_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 27,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_27_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 28,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_28_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 29,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_29_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 30,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_30_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 31,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_31_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 32,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_32_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 33,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_33_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 34,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_34_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 35,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_35_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 36,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_36_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 37,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_37_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 38,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_38_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 39,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_39_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 40,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_40_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 41,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_41_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 42,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_42_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 43,
+          "tileY": 2,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_43_2"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 0,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_0_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 1,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_1_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 2,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_2_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 3,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_3_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 4,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_4_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 5,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_5_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 6,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_6_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 7,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_7_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 8,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_8_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 9,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_9_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 10,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_10_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 11,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_11_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 12,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_12_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 13,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_13_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 14,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_14_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 15,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_15_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 16,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_16_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 17,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_17_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 18,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_18_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 19,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_19_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 20,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_20_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 21,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_21_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 22,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_22_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 23,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_23_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 24,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_24_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 25,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_25_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 26,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_26_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 27,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_27_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 28,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_28_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 29,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_29_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 30,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_30_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 31,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_31_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 32,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_32_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 33,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_33_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 34,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_34_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 35,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_35_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 36,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_36_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 37,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_37_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 38,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_38_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 39,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_39_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 40,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_40_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 41,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_41_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 42,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_42_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 43,
+          "tileY": 3,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_43_3"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 29,
+          "tileY": 4,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_29_4"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 30,
+          "tileY": 4,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_30_4"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 31,
+          "tileY": 4,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_31_4"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 32,
+          "tileY": 4,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_32_4"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 33,
+          "tileY": 4,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_33_4"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 30,
+          "tileY": 5,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_30_5"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 31,
+          "tileY": 5,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_31_5"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 29,
+          "tileY": 6,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_29_6"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 30,
+          "tileY": 6,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_30_6"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 31,
+          "tileY": 6,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_31_6"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 28,
+          "tileY": 7,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_28_7"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 29,
+          "tileY": 7,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_29_7"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 30,
+          "tileY": 7,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_30_7"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 27,
+          "tileY": 8,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_27_8"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 28,
+          "tileY": 8,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_28_8"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 29,
+          "tileY": 8,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_29_8"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 30,
+          "tileY": 8,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_30_8"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 26,
+          "tileY": 9,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_26_9"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 27,
+          "tileY": 9,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_27_9"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 28,
+          "tileY": 9,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_28_9"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 29,
+          "tileY": 9,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_29_9"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 25,
+          "tileY": 10,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_25_10"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 26,
+          "tileY": 10,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_26_10"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 27,
+          "tileY": 10,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_27_10"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 28,
+          "tileY": 10,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_28_10"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 24,
+          "tileY": 11,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_24_11"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 25,
+          "tileY": 11,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_25_11"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 26,
+          "tileY": 11,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_26_11"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 27,
+          "tileY": 11,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_27_11"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 24,
+          "tileY": 12,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_24_12"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 25,
+          "tileY": 12,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_25_12"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 26,
+          "tileY": 12,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_26_12"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 24,
+          "tileY": 13,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_24_13"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 25,
+          "tileY": 13,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_25_13"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 26,
+          "tileY": 13,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_26_13"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 24,
+          "tileY": 14,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_24_14"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 25,
+          "tileY": 14,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_25_14"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 23,
+          "tileY": 15,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_23_15"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 24,
+          "tileY": 15,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_24_15"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 25,
+          "tileY": 15,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_25_15"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 26,
+          "tileY": 15,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_26_15"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 22,
+          "tileY": 18,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_22_18"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 23,
+          "tileY": 18,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_23_18"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 24,
+          "tileY": 18,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_24_18"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 25,
+          "tileY": 18,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_25_18"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 21,
+          "tileY": 19,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_21_19"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 22,
+          "tileY": 19,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_22_19"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 23,
+          "tileY": 19,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_23_19"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 24,
+          "tileY": 19,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_24_19"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 19,
+          "tileY": 20,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_19_20"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 20,
+          "tileY": 20,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_20_20"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 21,
+          "tileY": 20,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_21_20"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 22,
+          "tileY": 20,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_22_20"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 23,
+          "tileY": 20,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_23_20"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 24,
+          "tileY": 20,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_24_20"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 17,
+          "tileY": 21,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_17_21"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 18,
+          "tileY": 21,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_18_21"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 19,
+          "tileY": 21,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_19_21"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 20,
+          "tileY": 21,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_20_21"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 21,
+          "tileY": 21,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_21_21"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 22,
+          "tileY": 21,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_22_21"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 23,
+          "tileY": 21,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_23_21"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 13,
+          "tileY": 22,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_13_22"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 14,
+          "tileY": 22,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_14_22"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 15,
+          "tileY": 22,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_15_22"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 16,
+          "tileY": 22,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_16_22"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 17,
+          "tileY": 22,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_17_22"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 18,
+          "tileY": 22,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_18_22"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 19,
+          "tileY": 22,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_19_22"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 20,
+          "tileY": 22,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_20_22"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 21,
+          "tileY": 22,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_21_22"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 12,
+          "tileY": 23,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_12_23"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 13,
+          "tileY": 23,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_13_23"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 14,
+          "tileY": 23,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_14_23"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 15,
+          "tileY": 23,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_15_23"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 16,
+          "tileY": 23,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_16_23"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 17,
+          "tileY": 23,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_17_23"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 18,
+          "tileY": 23,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_18_23"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 19,
+          "tileY": 23,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_19_23"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 10,
+          "tileY": 24,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_10_24"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 11,
+          "tileY": 24,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_11_24"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 12,
+          "tileY": 24,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_12_24"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 13,
+          "tileY": 24,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_13_24"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 14,
+          "tileY": 24,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_14_24"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 15,
+          "tileY": 24,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_15_24"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 16,
+          "tileY": 24,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_16_24"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 17,
+          "tileY": 24,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_17_24"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 9,
+          "tileY": 25,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_9_25"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 10,
+          "tileY": 25,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_10_25"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 11,
+          "tileY": 25,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_11_25"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 12,
+          "tileY": 25,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_12_25"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 13,
+          "tileY": 25,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_13_25"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 14,
+          "tileY": 25,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_14_25"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 8,
+          "tileY": 26,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_8_26"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 9,
+          "tileY": 26,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_9_26"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 10,
+          "tileY": 26,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_10_26"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 11,
+          "tileY": 26,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_11_26"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 12,
+          "tileY": 26,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_12_26"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 7,
+          "tileY": 27,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_7_27"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 8,
+          "tileY": 27,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_8_27"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 9,
+          "tileY": 27,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_9_27"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 10,
+          "tileY": 27,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_10_27"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 11,
+          "tileY": 27,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_11_27"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 7,
+          "tileY": 28,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_7_28"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 8,
+          "tileY": 28,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_8_28"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 9,
+          "tileY": 28,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_9_28"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 10,
+          "tileY": 28,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_10_28"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 6,
+          "tileY": 29,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_6_29"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 7,
+          "tileY": 29,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_7_29"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 8,
+          "tileY": 29,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_8_29"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 9,
+          "tileY": 29,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_9_29"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 5,
+          "tileY": 30,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_5_30"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 6,
+          "tileY": 30,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_6_30"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 7,
+          "tileY": 30,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_7_30"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 8,
+          "tileY": 30,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_8_30"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 5,
+          "tileY": 31,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_5_31"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 6,
+          "tileY": 31,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_6_31"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 7,
+          "tileY": 31,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_7_31"
+        },
+        {
+          "assetType": "component",
+          "componentId": "comp_lz_ch01_gate_block_water_v3",
+          "tileX": 8,
+          "tileY": 31,
+          "refId": "map_lz_ch02_bamboo_path_v1_block_8_31"
+        }
+      ]
+    }
+  ],
+  "districts": [
+    {
+      "districtId": "map_lz_ch02_bamboo_path_v1_district",
+      "name": "竹林小径",
+      "x": 0,
+      "y": 0,
+      "width": 44,
+      "height": 32,
+      "terrainTags": [
+        "forest"
+      ],
+      "locations": [
+        {
+          "id": "map_lz_ch02_bamboo_path_v1_start",
+          "name": "竹林小径入口",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 1,
+          "offsetX": 26,
+          "offsetY": 27
+        },
+        {
+          "id": "map_lz_ch02_bamboo_path_v1_clue",
+          "name": "竹林小径线索点",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 1,
+          "offsetX": 8,
+          "offsetY": 19
+        },
+        {
+          "id": "map_lz_ch02_bamboo_path_v1_choice",
+          "name": "竹林小径抉择点",
+          "terrainTags": [
+            "urban"
+          ],
+          "eventDensity": 1,
+          "offsetX": 14,
+          "offsetY": 15
+        }
+      ],
+      "defaultEventDensity": 1
+    }
+  ],
+  "itemDefs": [],
+  "teleports": [],
+  "createdAt": 1782325200000,
+  "updatedAt": 1790900000000,
+  "version": 2,
+  "story": {
+    "storyId": "liangzhu",
+    "chapterId": "ch02_classmates_three_years",
+    "sceneId": "ch02_scene_04_bamboo_path",
+    "scriptReference": {
+      "chapterFile": "chapter-02-classmates-three-years.md",
+      "sceneHeading": "场景四：竹林小径",
+      "roleGoalKeywords": {
+        "zhuyingtai": [
           "女子求学",
           "试探"
-         ],
-         "chapterFile": "chapter-02-classmates-three-years.md",
-         "sceneHeading": "场景四：竹林小径",
-         "source": "docs/liangzhu-game/scene-doc-references.json"
-        },
-        "authoredRoleState": {
-         "mapId": "map_lz_ch02_bamboo_path_v1",
-         "role": "zhuyingtai",
-         "presence": "present",
-         "impactScope": "physical",
-         "source": "sceneRoleStateEffects"
-        },
-        "rolePresence": "present",
-        "stateImpactScope": "physical"
-       },
-       {
-        "id": "map_lz_ch02_bamboo_path_v1_story_b_liangshanbo",
-        "name": "梁山伯：真实处境 / 接近",
-        "description": "梁山伯在场景四：竹林小径围绕真实处境、接近做出选择，推动当前章节继续前进。",
-        "type": "examine",
-        "conditions": [
-         {
-          "type": "flag",
-          "operator": "eq",
-          "value": "role_liangshanbo"
-         }
         ],
-        "effects": [
-         {
-          "type": "show_dialog",
-          "target": "dialog",
-          "value": "梁山伯在场景四：竹林小径围绕真实处境、接近做出选择，推动当前章节继续前进。"
-         },
-         {
-          "type": "modify_attribute",
-          "target": "social",
-          "value": 2
-         },
-         {
-          "type": "modify_attribute",
-          "target": "mood",
-          "value": 1
-         },
-         {
-          "type": "modify_story_variable",
-          "target": "promiseClarity",
-          "value": 1
-         },
-         {
-          "type": "modify_story_variable",
-          "target": "liangTrust",
-          "value": 1
-         },
-         {
-          "type": "advance_story_scene",
-          "target": "liangzhu",
-          "value": {
-           "chapterId": "ch02_classmates_three_years",
-           "sceneId": "ch02_scene_05_dorm_corridor",
-           "mapId": "map_lz_ch02_dorm_corridor_v1"
-          }
-         }
-        ],
-        "weight": 1,
-        "scriptEvent": {
-         "storyId": "liangzhu",
-         "chapterId": "ch02_classmates_three_years",
-         "sceneId": "ch02_scene_04_bamboo_path",
-         "mapId": "map_lz_ch02_bamboo_path_v1",
-         "role": "liangshanbo",
-         "eventLabel": "真实处境 / 接近",
-         "keywords": [
+        "liangshanbo": [
           "真实处境",
           "接近"
-         ],
-         "chapterFile": "chapter-02-classmates-three-years.md",
-         "sceneHeading": "场景四：竹林小径",
-         "source": "docs/liangzhu-game/scene-doc-references.json"
-        },
-        "authoredRoleState": {
-         "mapId": "map_lz_ch02_bamboo_path_v1",
-         "role": "liangshanbo",
-         "presence": "present",
-         "impactScope": "physical",
-         "source": "sceneRoleStateEffects"
-        },
-        "rolePresence": "present",
-        "stateImpactScope": "physical"
-       },
-       {
-        "id": "map_lz_ch02_bamboo_path_v1_story_b_mawencai",
-        "name": "马文才：听见片段 / 沉默",
-        "description": "马文才在场景四：竹林小径围绕听见片段、沉默做出选择，推动当前章节继续前进。",
-        "type": "examine",
-        "conditions": [
-         {
-          "type": "flag",
-          "operator": "eq",
-          "value": "role_mawencai"
-         }
         ],
-        "effects": [
-         {
-          "type": "show_dialog",
-          "target": "dialog",
-          "value": "马文才在场景四：竹林小径围绕听见片段、沉默做出选择，推动当前章节继续前进。"
-         },
-         {
-          "type": "modify_attribute",
-          "target": "mood",
-          "value": -1
-         },
-         {
-          "type": "modify_attribute",
-          "target": "social",
-          "value": -1
-         },
-         {
-          "type": "modify_story_variable",
-          "target": "maRestraint",
-          "value": 1
-         },
-         {
-          "type": "modify_story_variable",
-          "target": "maPressure",
-          "value": 1
-         },
-         {
-          "type": "advance_story_scene",
-          "target": "liangzhu",
-          "value": {
-           "chapterId": "ch02_classmates_three_years",
-           "sceneId": "ch02_scene_05_dorm_corridor",
-           "mapId": "map_lz_ch02_dorm_corridor_v1"
-          }
-         }
-        ],
-        "weight": 1,
-        "scriptEvent": {
-         "storyId": "liangzhu",
-         "chapterId": "ch02_classmates_three_years",
-         "sceneId": "ch02_scene_04_bamboo_path",
-         "mapId": "map_lz_ch02_bamboo_path_v1",
-         "role": "mawencai",
-         "eventLabel": "听见片段 / 沉默",
-         "keywords": [
+        "mawencai": [
           "听见片段",
           "沉默"
-         ],
-         "chapterFile": "chapter-02-classmates-three-years.md",
-         "sceneHeading": "场景四：竹林小径",
-         "source": "docs/liangzhu-game/scene-doc-references.json"
-        },
-        "authoredRoleState": {
-         "mapId": "map_lz_ch02_bamboo_path_v1",
-         "role": "mawencai",
-         "presence": "present",
-         "impactScope": "physical",
-         "source": "sceneRoleStateEffects"
-        },
-        "rolePresence": "present",
-        "stateImpactScope": "physical"
-       }
-      ]
-     }
+        ]
+      }
     },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_bamboo_v4",
-     "tileX": 35,
-     "tileY": 8,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_35_8"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_reeds_v3",
-     "tileX": 20,
-     "tileY": 17,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_20_17"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_reeds_v3",
-     "tileX": 21,
-     "tileY": 17,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_21_17"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_prop_fan_jade_story_v3",
-     "tileX": 7,
-     "tileY": 18,
-     "refId": "map_lz_ch02_bamboo_path_v1_story_a",
-     "interaction": {
-      "interactionRange": 2,
-      "indicatorType": "sparkle",
-      "interactions": [
-       {
-        "id": "map_lz_ch02_bamboo_path_v1_story_a_inspect",
-        "name": "查看竹林小径线索",
-        "description": "竹林小径线索承载着当前章节的关键线索。",
-        "type": "examine",
-        "conditions": [],
-        "effects": [
-         {
-          "type": "show_dialog",
-          "target": "dialog",
-          "value": "竹林小径线索承载着当前章节的关键线索。"
-         },
-         {
-          "type": "show_dialog",
-          "target": "dialog",
-          "value": "竹林小径线索提示了当前场景的主要矛盾。"
-         }
-        ],
-        "weight": 1
-       },
-       {
-        "id": "map_lz_ch02_bamboo_path_v1_story_a_choice",
-        "name": "处理竹林小径线索",
-        "description": "你围绕竹林小径线索整理线索，真正的角色状态结算会在抉择点发生。",
-        "type": "examine",
-        "conditions": [],
-        "effects": [
-         {
-          "type": "show_dialog",
-          "target": "dialog",
-          "value": "你围绕竹林小径线索整理线索，真正的角色状态结算会在抉择点发生。"
-         },
-         {
-          "type": "show_dialog",
-          "target": "dialog",
-          "value": "竹林小径线索已记录为共同线索。"
-         }
-        ],
-        "weight": 1
-       }
-      ]
-     }
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_liubei_stone_v1",
-     "tileX": 18,
-     "tileY": 18,
-     "refId": "map_lz_ch02_bamboo_path_v1_liubei_stone_18_18"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_bamboo_pipe_v1",
-     "tileX": 20,
-     "tileY": 17,
-     "refId": "map_lz_ch02_bamboo_path_v1_bamboo_pipe_20_17"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_tall_bamboo_d_v1",
-     "tileX": 39,
-     "tileY": 7,
-     "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_d_39_7"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_reeds_v3",
-     "tileX": 24,
-     "tileY": 19,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_24_19"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_reeds_v3",
-     "tileX": 14,
-     "tileY": 20,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_14_20"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_bamboo_v4",
-     "tileX": 10,
-     "tileY": 15,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_10_15"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_bamboo_v4",
-     "tileX": 33,
-     "tileY": 15,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_33_15"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_reeds_v3",
-     "tileX": 7,
-     "tileY": 23,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_7_23"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_tall_bamboo_d_v1",
-     "tileX": 36,
-     "tileY": 14,
-     "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_d_36_14"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_bamboo_v4",
-     "tileX": 0,
-     "tileY": 19,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_0_19"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_bamboo_v4",
-     "tileX": 40,
-     "tileY": 20,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_40_20"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_bamboo_v4",
-     "tileX": 31,
-     "tileY": 21,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_31_21"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_tall_bamboo_d_v1",
-     "tileX": 1,
-     "tileY": 18,
-     "refId": "map_lz_ch02_bamboo_path_v1_tall_bamboo_d_1_18"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_back_wall_low_v1",
-     "tileX": 10,
-     "tileY": 29,
-     "refId": "map_lz_ch02_bamboo_path_v1_back_wall_low_10_29"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_bamboo_back_gate_v1",
-     "tileX": 24,
-     "tileY": 27,
-     "refId": "map_lz_ch02_bamboo_path_v1_back_gate_24_27"
-    },
-    {
-     "assetType": "sprite",
-     "spriteId": "sprite_zhuyingtai_48x96_story_v1",
-     "animationId": "idle-down",
-     "tileX": 15,
-     "tileY": 15,
-     "refId": "map_lz_ch02_bamboo_path_v1_actor_zhuyingtai_1"
-    },
-    {
-     "assetType": "sprite",
-     "spriteId": "sprite_liangshanbo_48x96_story_v2",
-     "animationId": "idle-down",
-     "tileX": 18,
-     "tileY": 15,
-     "refId": "map_lz_ch02_bamboo_path_v1_actor_liangshanbo_2"
-    },
-    {
-     "assetType": "sprite",
-     "spriteId": "sprite_mawencai_48x96_story_v1",
-     "animationId": "idle-down",
-     "tileX": 31,
-     "tileY": 14,
-     "refId": "map_lz_ch02_bamboo_path_v1_actor_mawencai_3"
-    },
-    {
-     "assetType": "sprite",
-     "spriteId": "sprite_student_48x96_story_v1",
-     "animationId": "idle-down",
-     "tileX": 7,
-     "tileY": 17,
-     "refId": "map_lz_ch02_bamboo_path_v1_actor_student_4"
+    "artStyle": {
+      "storyId": "liangzhu",
+      "visualStyle": "semi-realistic pixel comic",
+      "baseTileSize": 16,
+      "characterScale": "48x96",
+      "detailTier": "S",
+      "sceneFamily": "bamboo",
+      "chapterPalette": "song-jiangnan-water-town",
+      "mood": "quiet confiding under dappled bamboo light; suspicion across the water",
+      "focusTier": "S",
+      "detailPass": "ch02-bamboo-path-v2"
     }
-   ]
-  },
-  {
-   "id": "map_lz_ch02_bamboo_path_v1_decor",
-   "name": "Decoration",
-   "type": "decoration",
-   "visible": true,
-   "locked": false,
-   "opacity": 1,
-   "components": [
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_decal_leaves_v3",
-     "tileX": 17,
-     "tileY": 20,
-     "refId": "map_lz_ch02_bamboo_path_v1_decal_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_decal_leaves_v3",
-     "tileX": 31,
-     "tileY": 24,
-     "refId": "map_lz_ch02_bamboo_path_v1_decal_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_decal_shudai_v3",
-     "tileX": 9,
-     "tileY": 14,
-     "refId": "map_lz_ch02_bamboo_path_v1_decal_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_decal_stones_v3",
-     "tileX": 33,
-     "tileY": 13,
-     "refId": "map_lz_ch02_bamboo_path_v1_decal_3"
-    }
-   ]
-  },
-  {
-   "id": "map_lz_ch02_bamboo_path_v1_collision",
-   "name": "Collision",
-   "type": "collision",
-   "visible": true,
-   "locked": false,
-   "opacity": 0.3,
-   "components": [
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 0,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_0_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 1,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_1_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 2,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_2_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 3,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_3_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 4,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_4_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 5,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_5_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 6,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_6_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 7,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_7_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 8,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_8_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 9,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_9_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 10,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_10_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 11,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_11_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 12,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_12_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 13,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_13_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 14,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_14_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 15,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_15_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 16,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_16_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 17,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_17_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 18,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_18_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 19,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_19_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 20,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_20_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 21,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_21_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 22,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_22_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 23,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_23_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 24,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_24_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 25,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_25_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 26,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_26_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 27,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_27_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 28,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_28_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 29,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_29_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 30,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_30_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 31,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_31_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 32,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_32_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 33,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_33_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 34,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_34_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 35,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_35_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 36,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_36_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 37,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_37_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 38,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_38_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 39,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_39_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 40,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_40_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 41,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_41_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 42,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_42_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 43,
-     "tileY": 0,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_43_0"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 0,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_0_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 1,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_1_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 2,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_2_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 3,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_3_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 4,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_4_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 5,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_5_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 6,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_6_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 7,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_7_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 8,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_8_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 9,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_9_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 10,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_10_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 11,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_11_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 12,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_12_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 13,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_13_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 14,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_14_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 15,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_15_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 16,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_16_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 17,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_17_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 18,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_18_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 19,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_19_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 20,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_20_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 21,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_21_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 22,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_22_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 23,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_23_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 24,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_24_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 25,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_25_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 26,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_26_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 27,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_27_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 28,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_28_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 29,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_29_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 30,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_30_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 31,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_31_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 32,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_32_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 33,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_33_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 34,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_34_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 35,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_35_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 36,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_36_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 37,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_37_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 38,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_38_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 39,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_39_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 40,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_40_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 41,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_41_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 42,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_42_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 43,
-     "tileY": 1,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_43_1"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 0,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_0_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 1,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_1_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 2,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_2_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 3,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_3_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 4,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_4_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 5,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_5_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 6,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_6_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 7,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_7_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 8,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_8_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 9,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_9_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 10,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_10_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 11,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_11_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 12,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_12_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 13,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_13_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 14,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_14_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 15,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_15_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 16,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_16_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 17,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_17_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 18,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_18_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 19,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_19_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 20,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_20_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 21,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_21_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 22,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_22_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 23,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_23_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 24,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_24_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 25,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_25_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 26,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_26_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 27,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_27_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 28,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_28_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 29,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_29_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 30,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_30_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 31,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_31_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 32,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_32_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 33,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_33_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 34,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_34_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 35,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_35_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 36,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_36_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 37,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_37_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 38,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_38_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 39,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_39_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 40,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_40_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 41,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_41_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 42,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_42_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 43,
-     "tileY": 2,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_43_2"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 0,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_0_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 1,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_1_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 2,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_2_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 3,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_3_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 4,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_4_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 5,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_5_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 6,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_6_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 7,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_7_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 8,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_8_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 9,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_9_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 10,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_10_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 11,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_11_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 12,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_12_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 13,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_13_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 14,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_14_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 15,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_15_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 16,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_16_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 17,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_17_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 18,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_18_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 19,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_19_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 20,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_20_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 21,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_21_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 22,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_22_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 23,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_23_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 24,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_24_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 25,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_25_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 26,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_26_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 27,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_27_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 28,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_28_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 29,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_29_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 30,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_30_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 31,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_31_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 32,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_32_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 33,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_33_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 34,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_34_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 35,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_35_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 36,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_36_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 37,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_37_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 38,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_38_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 39,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_39_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 40,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_40_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 41,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_41_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 42,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_42_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 43,
-     "tileY": 3,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_43_3"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 29,
-     "tileY": 4,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_29_4"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 30,
-     "tileY": 4,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_30_4"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 31,
-     "tileY": 4,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_31_4"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 32,
-     "tileY": 4,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_32_4"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 33,
-     "tileY": 4,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_33_4"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 30,
-     "tileY": 5,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_30_5"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 31,
-     "tileY": 5,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_31_5"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 29,
-     "tileY": 6,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_29_6"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 30,
-     "tileY": 6,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_30_6"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 31,
-     "tileY": 6,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_31_6"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 28,
-     "tileY": 7,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_28_7"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 29,
-     "tileY": 7,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_29_7"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 30,
-     "tileY": 7,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_30_7"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 27,
-     "tileY": 8,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_27_8"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 28,
-     "tileY": 8,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_28_8"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 29,
-     "tileY": 8,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_29_8"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 30,
-     "tileY": 8,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_30_8"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 26,
-     "tileY": 9,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_26_9"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 27,
-     "tileY": 9,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_27_9"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 28,
-     "tileY": 9,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_28_9"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 29,
-     "tileY": 9,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_29_9"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 25,
-     "tileY": 10,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_25_10"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 26,
-     "tileY": 10,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_26_10"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 27,
-     "tileY": 10,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_27_10"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 28,
-     "tileY": 10,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_28_10"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 24,
-     "tileY": 11,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_24_11"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 25,
-     "tileY": 11,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_25_11"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 26,
-     "tileY": 11,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_26_11"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 27,
-     "tileY": 11,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_27_11"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 24,
-     "tileY": 12,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_24_12"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 25,
-     "tileY": 12,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_25_12"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 26,
-     "tileY": 12,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_26_12"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 24,
-     "tileY": 13,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_24_13"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 25,
-     "tileY": 13,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_25_13"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 26,
-     "tileY": 13,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_26_13"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 24,
-     "tileY": 14,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_24_14"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 25,
-     "tileY": 14,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_25_14"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 23,
-     "tileY": 15,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_23_15"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 24,
-     "tileY": 15,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_24_15"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 25,
-     "tileY": 15,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_25_15"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 26,
-     "tileY": 15,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_26_15"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 22,
-     "tileY": 18,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_22_18"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 23,
-     "tileY": 18,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_23_18"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 24,
-     "tileY": 18,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_24_18"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 25,
-     "tileY": 18,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_25_18"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 21,
-     "tileY": 19,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_21_19"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 22,
-     "tileY": 19,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_22_19"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 23,
-     "tileY": 19,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_23_19"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 24,
-     "tileY": 19,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_24_19"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 19,
-     "tileY": 20,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_19_20"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 20,
-     "tileY": 20,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_20_20"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 21,
-     "tileY": 20,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_21_20"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 22,
-     "tileY": 20,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_22_20"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 23,
-     "tileY": 20,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_23_20"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 24,
-     "tileY": 20,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_24_20"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 17,
-     "tileY": 21,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_17_21"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 18,
-     "tileY": 21,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_18_21"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 19,
-     "tileY": 21,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_19_21"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 20,
-     "tileY": 21,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_20_21"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 21,
-     "tileY": 21,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_21_21"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 22,
-     "tileY": 21,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_22_21"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 23,
-     "tileY": 21,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_23_21"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 13,
-     "tileY": 22,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_13_22"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 14,
-     "tileY": 22,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_14_22"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 15,
-     "tileY": 22,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_15_22"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 16,
-     "tileY": 22,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_16_22"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 17,
-     "tileY": 22,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_17_22"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 18,
-     "tileY": 22,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_18_22"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 19,
-     "tileY": 22,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_19_22"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 20,
-     "tileY": 22,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_20_22"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 21,
-     "tileY": 22,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_21_22"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 12,
-     "tileY": 23,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_12_23"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 13,
-     "tileY": 23,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_13_23"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 14,
-     "tileY": 23,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_14_23"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 15,
-     "tileY": 23,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_15_23"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 16,
-     "tileY": 23,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_16_23"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 17,
-     "tileY": 23,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_17_23"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 18,
-     "tileY": 23,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_18_23"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 19,
-     "tileY": 23,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_19_23"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 10,
-     "tileY": 24,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_10_24"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 11,
-     "tileY": 24,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_11_24"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 12,
-     "tileY": 24,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_12_24"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 13,
-     "tileY": 24,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_13_24"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 14,
-     "tileY": 24,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_14_24"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 15,
-     "tileY": 24,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_15_24"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 16,
-     "tileY": 24,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_16_24"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 17,
-     "tileY": 24,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_17_24"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 9,
-     "tileY": 25,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_9_25"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 10,
-     "tileY": 25,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_10_25"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 11,
-     "tileY": 25,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_11_25"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 12,
-     "tileY": 25,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_12_25"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 13,
-     "tileY": 25,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_13_25"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 14,
-     "tileY": 25,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_14_25"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 8,
-     "tileY": 26,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_8_26"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 9,
-     "tileY": 26,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_9_26"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 10,
-     "tileY": 26,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_10_26"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 11,
-     "tileY": 26,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_11_26"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 12,
-     "tileY": 26,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_12_26"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 7,
-     "tileY": 27,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_7_27"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 8,
-     "tileY": 27,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_8_27"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 9,
-     "tileY": 27,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_9_27"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 10,
-     "tileY": 27,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_10_27"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 11,
-     "tileY": 27,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_11_27"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 7,
-     "tileY": 28,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_7_28"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 8,
-     "tileY": 28,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_8_28"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 9,
-     "tileY": 28,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_9_28"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 10,
-     "tileY": 28,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_10_28"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 6,
-     "tileY": 29,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_6_29"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 7,
-     "tileY": 29,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_7_29"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 8,
-     "tileY": 29,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_8_29"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 9,
-     "tileY": 29,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_9_29"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 5,
-     "tileY": 30,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_5_30"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 6,
-     "tileY": 30,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_6_30"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 7,
-     "tileY": 30,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_7_30"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 8,
-     "tileY": 30,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_8_30"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 5,
-     "tileY": 31,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_5_31"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 6,
-     "tileY": 31,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_6_31"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 7,
-     "tileY": 31,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_7_31"
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch01_gate_block_water_v3",
-     "tileX": 8,
-     "tileY": 31,
-     "refId": "map_lz_ch02_bamboo_path_v1_block_8_31"
-    }
-   ]
   }
- ],
- "districts": [
-  {
-   "districtId": "map_lz_ch02_bamboo_path_v1_district",
-   "name": "竹林小径",
-   "x": 0,
-   "y": 0,
-   "width": 44,
-   "height": 32,
-   "terrainTags": [
-    "forest"
-   ],
-   "locations": [
-    {
-     "id": "map_lz_ch02_bamboo_path_v1_start",
-     "name": "竹林小径入口",
-     "terrainTags": [
-      "urban"
-     ],
-     "eventDensity": 1,
-     "offsetX": 26,
-     "offsetY": 27
-    },
-    {
-     "id": "map_lz_ch02_bamboo_path_v1_clue",
-     "name": "竹林小径线索点",
-     "terrainTags": [
-      "urban"
-     ],
-     "eventDensity": 1,
-     "offsetX": 8,
-     "offsetY": 19
-    },
-    {
-     "id": "map_lz_ch02_bamboo_path_v1_choice",
-     "name": "竹林小径抉择点",
-     "terrainTags": [
-      "urban"
-     ],
-     "eventDensity": 1,
-     "offsetX": 14,
-     "offsetY": 15
-    }
-   ],
-   "defaultEventDensity": 1
-  }
- ],
- "itemDefs": [],
- "teleports": [],
- "createdAt": 1782325200000,
- "updatedAt": 1790900000000,
- "version": 2,
- "story": {
-  "storyId": "liangzhu",
-  "chapterId": "ch02_classmates_three_years",
-  "sceneId": "ch02_scene_04_bamboo_path",
-  "scriptReference": {
-   "chapterFile": "chapter-02-classmates-three-years.md",
-   "sceneHeading": "场景四：竹林小径",
-   "roleGoalKeywords": {
-    "zhuyingtai": [
-     "女子求学",
-     "试探"
-    ],
-    "liangshanbo": [
-     "真实处境",
-     "接近"
-    ],
-    "mawencai": [
-     "听见片段",
-     "沉默"
-    ]
-   }
-  },
-  "artStyle": {
-   "storyId": "liangzhu",
-   "visualStyle": "semi-realistic pixel comic",
-   "baseTileSize": 16,
-   "characterScale": "48x96",
-   "detailTier": "S",
-   "sceneFamily": "bamboo",
-   "chapterPalette": "song-jiangnan-water-town",
-   "mood": "quiet confiding under dappled bamboo light; suspicion across the water",
-   "focusTier": "S",
-   "detailPass": "ch02-bamboo-path-v2"
-  }
- }
 }

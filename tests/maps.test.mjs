@@ -85,3 +85,34 @@ test('可玩性：起点/地点可走、且从起点可达', (t) => {
   }
   assertNoNewViolations(t, v);
 });
+
+/** 与游戏运行时 src/engine/interaction-range.ts 同一规则：量到物件底座（collisionMask）或外框，并始终含左上角格；精灵取脚下格。 */
+function interactionTiles(ref) {
+  const tl = { x: ref.tileX, y: ref.tileY };
+  if (isSpriteRef(ref)) return [tl];
+  const comp = repo.components.get(ref.componentId);
+  if (!comp) return [tl];
+  const tiles = [tl];
+  const mask = comp.collisionMask;
+  if (mask && mask.some((row) => row.some(Boolean))) mask.forEach((row, r) => row.forEach((b, c) => b && tiles.push({ x: ref.tileX + c, y: ref.tileY + r })));
+  else for (let r = 0; r < comp.tileHeight; r++) for (let c = 0; c < comp.tileWidth; c++) tiles.push({ x: ref.tileX + c, y: ref.tileY + r });
+  return tiles;
+}
+
+test('交互物必须在某个地点的交互范围内（否则玩家永远看不到它的按钮，剧情会卡住）', (t) => {
+  const v = [];
+  for (const { data: m } of repo.maps) {
+    const locs = m.districts.flatMap((d) => (d.locations ?? []).map((l) => ({ id: l.id, x: d.x + l.offsetX, y: d.y + l.offsetY })));
+    if (!locs.length) continue;
+    for (const layer of m.layers) for (const ref of layer.components) {
+      const it = ref.interaction;
+      if (!it?.interactions?.length) continue;
+      const range = it.interactionRange ?? 1;
+      const tiles = interactionTiles(ref);
+      let best = Infinity, bestLoc = null;
+      for (const l of locs) for (const tt of tiles) { const d = Math.abs(tt.x - l.x) + Math.abs(tt.y - l.y); if (d < best) { best = d; bestLoc = l.id; } }
+      if (best > range) v.push(`interaction-unreachable|${m.id}:${ref.refId}|最近地点 ${bestLoc} 距离 ${best} > 范围 ${range}`);
+    }
+  }
+  assertNoNewViolations(t, v);
+});
