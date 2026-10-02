@@ -2632,12 +2632,6 @@
     {
      "assetType": "component",
      "componentId": "comp_lz_ch02_classroom_block_v1",
-     "tileX": 17,
-     "tileY": 10
-    },
-    {
-     "assetType": "component",
-     "componentId": "comp_lz_ch02_classroom_block_v1",
      "tileX": 6,
      "tileY": 15
     },
