@@ -72,3 +72,28 @@ export const isOpaqueTile = (comp, tx, ty) => tilePixels(comp, tx, ty).every((r)
 export const hasOpaque = (comp, tx, ty) => tilePixels(comp, tx, ty).some((r) => r.some((v) => v !== 0));
 export const isSpriteRef = (r) => r.assetType === 'sprite' || (!!r.spriteId && !r.componentId);
 export { basename };
+
+// ---- 碰撞网格：与运行时 CollisionGrid.buildFromMap 同一语义 ----
+/** 返回 blocked[y][x]；skipRefIds 中的 ref（如会走动的自主演员）不留静态碰撞。 */
+export function buildCollisionGrid(repo, map, skipRefIds = new Set()) {
+  const W = map.widthInTiles, H = map.heightInTiles;
+  const blocked = Array.from({ length: H }, () => new Array(W).fill(false));
+  const set = (x, y) => { if (x >= 0 && y >= 0 && x < W && y < H) blocked[y][x] = true; };
+  for (const layer of map.layers) {
+    if (layer.type !== 'object' && layer.type !== 'collision') continue;
+    for (const ref of layer.components) {
+      if (ref.refId && skipRefIds.has(ref.refId)) continue;
+      if (isSpriteRef(ref)) {
+        const sp = repo.spriteMap.get(ref.spriteId); if (!sp) continue;
+        const fp = sp.footprint ?? { tileWidth: 1, tileHeight: 1, offsetTileX: 0, offsetTileY: 0 };
+        const bx = ref.tileX + fp.offsetTileX, by = ref.tileY + fp.offsetTileY;
+        if (sp.collisionMask) sp.collisionMask.forEach((row, r) => row.forEach((c, k) => c && set(bx + k, by + r)));
+        else for (let r = 0; r < fp.tileHeight; r++) for (let k = 0; k < fp.tileWidth; k++) set(bx + k, by + r);
+      } else {
+        const comp = repo.components.get(ref.componentId); const mask = comp?.collisionMask; if (!mask) continue;
+        mask.forEach((row, r) => row.forEach((c, k) => c && set(ref.tileX + k, ref.tileY + r)));
+      }
+    }
+  }
+  return blocked;
+}

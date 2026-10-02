@@ -811,7 +811,44 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch02_dorm_corridor_v1_actor_page_boy_7",
      "tileX": 35,
-     "tileY": 17
+     "tileY": 17,
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 40,
+        "toSlot": 9,
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 35,
+           "tileY": 19
+          },
+          {
+           "tileX": 35,
+           "tileY": 11
+          },
+          {
+           "tileX": 14,
+           "tileY": 11
+          }
+         ],
+         "emote": "天干物燥，小心灯火——"
+        }
+       }
+      ],
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 2
+        },
+        "face": "player",
+        "say": "夜深了，早些歇息。"
+       }
+      ],
+      "speed": 1.5
+     }
     },
     {
      "assetType": "sprite",

@@ -787,7 +787,39 @@
      "animationId": "idle-down",
      "tileX": 19,
      "tileY": 25,
-     "refId": "map_lz_ch02_academy_courtyard_v1_actor_student_4"
+     "refId": "map_lz_ch02_academy_courtyard_v1_actor_student_4",
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 12,
+        "toSlot": 23,
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 16,
+           "tileY": 17
+          },
+          {
+           "tileX": 20,
+           "tileY": 22
+          }
+         ],
+         "emote": "晨读去。"
+        }
+       }
+      ],
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 2
+        },
+        "face": "player"
+       }
+      ],
+      "speed": 1.5
+     }
     },
     {
      "assetType": "sprite",
@@ -795,7 +827,53 @@
      "animationId": "idle-down",
      "tileX": 19,
      "tileY": 7,
-     "refId": "map_lz_ch02_academy_courtyard_v1_actor_teacher_5"
+     "refId": "map_lz_ch02_academy_courtyard_v1_actor_teacher_5",
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 16,
+        "toSlot": 35,
+        "behavior": {
+         "type": "goto",
+         "tile": {
+          "tileX": 26,
+          "tileY": 21
+         },
+         "then": "face",
+         "facing": "down",
+         "emote": "诸生，晨读毕否？"
+        }
+       }
+      ],
+      "reactions": [
+       {
+        "trigger": {
+         "type": "objectInteracted",
+         "refId": "map_lz_ch02_academy_courtyard_v1_story_a"
+        },
+        "face": "player",
+        "durationSlots": 1,
+        "say": "讲义可看明白了？"
+       },
+       {
+        "trigger": {
+         "type": "objectInteracted",
+         "refId": "map_lz_ch02_academy_courtyard_v1_story_b"
+        },
+        "face": "player",
+        "durationSlots": 1,
+        "say": "座次已定，莫争。"
+       },
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 2
+        },
+        "face": "player"
+       }
+      ],
+      "speed": 2
+     }
     },
     {
      "assetType": "sprite",
@@ -803,7 +881,38 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch02_academy_courtyard_v1_actor_student_b_6",
      "tileX": 25,
-     "tileY": 25
+     "tileY": 25,
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 12,
+        "toSlot": 23,
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 33,
+           "tileY": 19
+          },
+          {
+           "tileX": 25,
+           "tileY": 22
+          }
+         ]
+        }
+       }
+      ],
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 2
+        },
+        "face": "player"
+       }
+      ],
+      "speed": 1.5
+     }
     },
     {
      "assetType": "sprite",
@@ -819,7 +928,28 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch02_academy_courtyard_v1_actor_ma_guard_8",
      "tileX": 36,
-     "tileY": 12
+     "tileY": 12,
+     "autonomy": {
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 3,
+         "locationId": "map_lz_ch02_academy_courtyard_v1_shade"
+        },
+        "behavior": {
+         "type": "goto",
+         "tile": {
+          "tileX": 39,
+          "tileY": 13
+         },
+         "then": "face",
+         "facing": "left"
+        },
+        "say": "公子请。"
+       }
+      ]
+     }
     }
    ]
   },

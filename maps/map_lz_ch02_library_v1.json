@@ -657,7 +657,48 @@
      "refId": "map_lz_ch02_library_v1_actor_page_boy_5",
      "spriteId": "sprite_page_boy_48x96_story_v1",
      "tileX": 3,
-     "tileY": 17
+     "tileY": 17,
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 40,
+        "toSlot": 9,
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 5,
+           "tileY": 17
+          },
+          {
+           "tileX": 19,
+           "tileY": 16
+          },
+          {
+           "tileX": 27,
+           "tileY": 16
+          },
+          {
+           "tileX": 38,
+           "tileY": 16
+          }
+         ],
+         "emote": "巡楼——"
+        }
+       }
+      ],
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 2
+        },
+        "face": "player",
+        "say": "夜里看书，仔细灯火。"
+       }
+      ],
+      "speed": 1.5
+     }
     }
    ]
   },

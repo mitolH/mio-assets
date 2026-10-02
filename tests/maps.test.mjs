@@ -1,5 +1,5 @@
 import { test, after } from 'node:test';
-import { loadRepo, assertNoNewViolations, flushBaseline, isSpriteRef, TILE } from './lib/repo.mjs';
+import { loadRepo, assertNoNewViolations, flushBaseline, isSpriteRef, TILE, buildCollisionGrid } from './lib/repo.mjs';
 
 const repo = loadRepo();
 after(flushBaseline);
@@ -27,28 +27,6 @@ function bake(map) {
     }
   }
   return { PW, PH, ground, oob };
-}
-
-function collisionGrid(map) {
-  const W = map.widthInTiles, H = map.heightInTiles;
-  const blocked = Array.from({ length: H }, () => new Array(W).fill(false));
-  const set = (x, y) => { if (x >= 0 && y >= 0 && x < W && y < H) blocked[y][x] = true; };
-  for (const layer of map.layers) {
-    if (layer.type !== 'object' && layer.type !== 'collision') continue;
-    for (const ref of layer.components) {
-      if (isSpriteRef(ref)) {
-        const sp = repo.spriteMap.get(ref.spriteId); if (!sp) continue;
-        const fp = sp.footprint ?? { tileWidth: 1, tileHeight: 1, offsetTileX: 0, offsetTileY: 0 };
-        const bx = ref.tileX + fp.offsetTileX, by = ref.tileY + fp.offsetTileY;
-        if (sp.collisionMask) sp.collisionMask.forEach((row, r) => row.forEach((c, k) => c && set(bx + k, by + r)));
-        else for (let r = 0; r < fp.tileHeight; r++) for (let k = 0; k < fp.tileWidth; k++) set(bx + k, by + r);
-      } else {
-        const comp = repo.components.get(ref.componentId); const mask = comp?.collisionMask; if (!mask) continue;
-        mask.forEach((row, r) => row.forEach((c, k) => c && set(ref.tileX + k, ref.tileY + r)));
-      }
-    }
-  }
-  return blocked;
 }
 
 test('地图引用：组件/精灵存在且已登记在 level.assets', (t) => {
@@ -94,7 +72,7 @@ test('可玩性：起点/地点可走、且从起点可达', (t) => {
   const v = [];
   for (const { data: m } of repo.maps) {
     if (!m.level?.startLocationId) continue;
-    const blocked = collisionGrid(m);
+    const blocked = buildCollisionGrid(repo, m);
     const locs = m.districts.flatMap((d) => (d.locations ?? []).map((l) => ({ ...l, x: d.x + l.offsetX, y: d.y + l.offsetY })));
     const start = locs.find((l) => l.id === m.level.startLocationId);
     if (!start) { v.push(`start-missing|${m.id}|startLocationId 找不到`); continue; }

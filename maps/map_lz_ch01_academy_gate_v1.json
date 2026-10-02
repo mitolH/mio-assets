@@ -9413,17 +9413,75 @@
           "assetType": "sprite",
           "spriteId": "sprite_teacher_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 24,
-          "tileY": 14,
-          "refId": "map_lz_ch01_academy_gate_v1_actor_teacher_4"
+          "tileX": 22,
+          "tileY": 15,
+          "refId": "map_lz_ch01_academy_gate_v1_actor_teacher_4",
+          "autonomy": {
+            "schedule": [
+              {
+                "fromSlot": 14,
+                "toSlot": 35,
+                "behavior": {
+                  "type": "goto",
+                  "tile": {
+                    "tileX": 22,
+                    "tileY": 17
+                  },
+                  "then": "face",
+                  "facing": "down",
+                  "emote": "新生到此登记。"
+                }
+              }
+            ],
+            "reactions": [
+              {
+                "trigger": {
+                  "type": "objectInteracted",
+                  "refId": "map_lz_ch01_academy_gate_v1_story_b"
+                },
+                "face": "player",
+                "durationSlots": 1,
+                "say": "名册上写清籍贯。"
+              },
+              {
+                "trigger": {
+                  "type": "playerNear",
+                  "radius": 3
+                },
+                "face": "player",
+                "say": "可是来求学的？"
+              }
+            ]
+          }
         },
         {
           "assetType": "sprite",
           "spriteId": "sprite_ma_guard_48x96_story_v1",
           "animationId": "idle-down",
-          "tileX": 32,
+          "tileX": 34,
           "tileY": 21,
-          "refId": "map_lz_ch01_academy_gate_v1_actor_ma_guard_5"
+          "refId": "map_lz_ch01_academy_gate_v1_actor_ma_guard_5",
+          "autonomy": {
+            "reactions": [
+              {
+                "trigger": {
+                  "type": "playerNear",
+                  "radius": 3,
+                  "locationId": "map_lz_ch01_academy_gate_v1_choice"
+                },
+                "behavior": {
+                  "type": "goto",
+                  "tile": {
+                    "tileX": 36,
+                    "tileY": 23
+                  },
+                  "then": "face",
+                  "facing": "left"
+                },
+                "say": "让一让。"
+              }
+            ]
+          }
         }
       ]
     },

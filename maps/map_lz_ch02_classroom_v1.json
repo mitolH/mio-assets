@@ -947,7 +947,19 @@
      "animationId": "idle-down",
      "tileX": 33,
      "tileY": 13,
-     "refId": "map_lz_ch02_classroom_v1_actor_zhuyingtai_1"
+     "refId": "map_lz_ch02_classroom_v1_actor_zhuyingtai_1",
+     "autonomy": {
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 2
+        },
+        "face": "player",
+        "say": "梁兄……"
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -955,7 +967,19 @@
      "animationId": "idle-down",
      "tileX": 28,
      "tileY": 15,
-     "refId": "map_lz_ch02_classroom_v1_actor_liangshanbo_2"
+     "refId": "map_lz_ch02_classroom_v1_actor_liangshanbo_2",
+     "autonomy": {
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 2
+        },
+        "face": "player",
+        "say": "兄台也来听讲？"
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -971,7 +995,65 @@
      "animationId": "idle-down",
      "tileX": 17,
      "tileY": 10,
-     "refId": "map_lz_ch02_classroom_v1_actor_teacher_4"
+     "refId": "map_lz_ch02_classroom_v1_actor_teacher_4",
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 16,
+        "toSlot": 33,
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 15,
+           "tileY": 10
+          },
+          {
+           "tileX": 21,
+           "tileY": 10
+          }
+         ],
+         "emote": "学而时习之……"
+        }
+       }
+      ],
+      "reactions": [
+       {
+        "trigger": {
+         "type": "objectInteracted",
+         "refId": "map_lz_ch02_classroom_v1_story_b"
+        },
+        "face": "player",
+        "durationSlots": 1,
+        "say": "有何疑问？"
+       },
+       {
+        "trigger": {
+         "type": "objectInteracted",
+         "refId": "map_lz_ch02_classroom_v1_story_a"
+        },
+        "face": "player",
+        "durationSlots": 1
+       },
+       {
+        "trigger": {
+         "type": "npcBehavior",
+         "refId": "map_lz_ch02_classroom_v1_actor_liangshanbo_2",
+         "behavior": "say"
+        },
+        "face": "map_lz_ch02_classroom_v1_actor_liangshanbo_2"
+       },
+       {
+        "trigger": {
+         "type": "npcBehavior",
+         "refId": "map_lz_ch02_classroom_v1_actor_zhuyingtai_1",
+         "behavior": "say"
+        },
+        "face": "map_lz_ch02_classroom_v1_actor_zhuyingtai_1"
+       }
+      ],
+      "speed": 1
+     }
     },
     {
      "assetType": "sprite",
@@ -979,7 +1061,18 @@
      "animationId": "idle-down",
      "tileX": 6,
      "tileY": 15,
-     "refId": "map_lz_ch02_classroom_v1_actor_student_5"
+     "refId": "map_lz_ch02_classroom_v1_actor_student_5",
+     "autonomy": {
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 1
+        },
+        "face": "player"
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -987,7 +1080,18 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch02_classroom_v1_actor_student_b_6",
      "tileX": 10,
-     "tileY": 18
+     "tileY": 18,
+     "autonomy": {
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 1
+        },
+        "face": "player"
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -995,7 +1099,18 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch02_classroom_v1_actor_student_c_7",
      "tileX": 24,
-     "tileY": 15
+     "tileY": 15,
+     "autonomy": {
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 1
+        },
+        "face": "player"
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
