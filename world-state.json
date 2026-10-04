@@ -1,0 +1,26 @@
+{
+  "event": {
+    "id": "evt_init",
+    "category": "daily",
+    "name": "降生",
+    "description": "Mio 来到了这个世界。",
+    "timestamp": 1791158039717,
+    "game_turn": 0
+  },
+  "character": {
+    "name": "Mio",
+    "age": 0,
+    "state": "born",
+    "attributes": {
+      "health": 80,
+      "mood": 70,
+      "social": 50,
+      "wealth": 40
+    }
+  },
+  "world": {
+    "turn": 0,
+    "relationships": [],
+    "flags": []
+  }
+}
