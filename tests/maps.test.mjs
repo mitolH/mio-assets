@@ -107,6 +107,8 @@ test('交互物必须在某个地点的交互范围内（否则玩家永远看�
     for (const layer of m.layers) for (const ref of layer.components) {
       const it = ref.interaction;
       if (!it?.interactions?.length) continue;
+      // 生活模拟场景演员（persona）：场景模式下点人会自动走近，非场景模式运行时剥掉这份 interaction。
+      if (ref.persona && m.runtime?.slice) continue;
       const range = it.interactionRange ?? 1;
       const tiles = interactionTiles(ref);
       let best = Infinity, bestLoc = null;
