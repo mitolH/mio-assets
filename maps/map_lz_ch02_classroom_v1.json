@@ -979,6 +979,127 @@
         "say": "兄台也来听讲？"
        }
       ]
+     },
+     "persona": {
+      "npcId": "liangshanbo",
+      "periods": [
+       "class",
+       "afternoon",
+       "night_reading",
+       "late_night"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_k_liang_slips",
+        "name": "竹简架下",
+        "description": "竹简架下",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 2
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "afternoon"
+         },
+         {
+          "type": "bond",
+          "operator": "gte",
+          "value": 2,
+          "field": "liangshanbo"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "liang_slips_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_liang_slips_event",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_k_liang_afternoon",
+        "name": "与梁兄温书",
+        "description": "与梁兄温书",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "afternoon"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_liang_afternoon",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_k_liang_night",
+        "name": "灯下共读",
+        "description": "灯下共读",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "night_reading",
+           "late_night"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_liang_night",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -987,7 +1108,50 @@
      "animationId": "idle-down",
      "tileX": 21,
      "tileY": 15,
-     "refId": "map_lz_ch02_classroom_v1_actor_mawencai_3"
+     "refId": "map_lz_ch02_classroom_v1_actor_mawencai_3",
+     "persona": {
+      "npcId": "mawencai",
+      "periods": [
+       "class",
+       "afternoon"
+      ],
+      "watcher": true
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_k_ma_afternoon",
+        "name": "与马文才周旋",
+        "description": "与马文才周旋",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "afternoon"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_ma_afternoon",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -1053,6 +1217,13 @@
        }
       ],
       "speed": 1
+     },
+     "persona": {
+      "npcId": "teacher",
+      "periods": [
+       "class",
+       "afternoon"
+      ]
      }
     },
     {
@@ -1118,7 +1289,49 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch02_classroom_v1_actor_page_boy_8",
      "tileX": 42,
-     "tileY": 10
+     "tileY": 10,
+     "persona": {
+      "npcId": "page_boy",
+      "periods": [
+       "night_reading",
+       "late_night"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_k_tea",
+        "name": "书童送茶",
+        "description": "书童送茶",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "daily_tea"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_tea",
+          "value": {
+           "ap": 0,
+           "kind": "tea"
+          }
+         }
+        ]
+       }
+      ]
+     }
     }
    ]
   },
@@ -2723,7 +2936,45 @@
   }
  ],
  "itemDefs": [],
- "teleports": [],
+ "teleports": [
+  {
+   "id": "tp_lz_ch02_classroom_to_courtyard",
+   "name": "石板桥 · 前庭",
+   "sourceTileX": 43,
+   "sourceTileY": 23,
+   "target": {
+    "mapId": "map_lz_ch02_academy_courtyard_v1",
+    "tileX": 1,
+    "tileY": 13
+   },
+   "bidirectional": false,
+   "conditions": [],
+   "visualType": "door",
+   "scenarioOnly": true
+  },
+  {
+   "id": "tp_lz_ch02_classroom_to_library",
+   "name": "回廊 · 藏书楼",
+   "sourceTileX": 41,
+   "sourceTileY": 6,
+   "target": {
+    "mapId": "map_lz_ch02_library_v1",
+    "tileX": 22,
+    "tileY": 24,
+    "locationId": "map_lz_ch02_library_v1_start"
+   },
+   "bidirectional": false,
+   "conditions": [
+    {
+     "type": "flag",
+     "operator": "eq",
+     "value": "ch02_library_unlocked"
+    }
+   ],
+   "visualType": "door",
+   "scenarioOnly": true
+  }
+ ],
  "createdAt": 1782325200000,
  "updatedAt": 1790900000000,
  "version": 2,
@@ -2760,6 +3011,141 @@
    "mood": "restrained study and suspicion",
    "focusTier": "S",
    "detailPass": "second-pass-v2"
+  }
+ },
+ "runtime": {
+  "schemaVersion": 1,
+  "slice": {
+   "sliceId": "lz_ch02",
+   "roles": [
+    "zhuyingtai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch02_classroom_v1_story_d": [
+     {
+      "id": "lz_ch02_k_slips",
+      "name": "竹简架抄经",
+      "description": "竹简架抄经",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "morning_reading",
+         "afternoon",
+         "night_reading",
+         "late_night"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_slips_copy",
+        "value": {
+         "ap": 1,
+         "kind": "study"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch02_classroom_v1_story_a": [
+     {
+      "id": "lz_ch02_k_notes",
+      "name": "看同窗笔记",
+      "description": "看同窗笔记",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "card_sheshengquyi"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_classmate_notes",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch02_classroom_v1_story_c": [
+     {
+      "id": "lz_ch02_k_screen",
+      "name": "屏风后听议论",
+      "description": "屏风后听议论",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "card_shoufen"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_screen_listen",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch02_classroom_v1_story_b": [
+     {
+      "id": "lz_ch02_k_lectern",
+      "name": "看讲席",
+      "description": "看讲席",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lectern_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ]
+   }
   }
  }
 }
