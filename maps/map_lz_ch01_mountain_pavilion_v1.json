@@ -4416,5 +4416,9 @@
    "focusTier": "S",
    "detailPass": "second-pass-v2"
   }
+ },
+ "runtime": {
+  "schemaVersion": 1,
+  "locationTapZones": false
  }
 }

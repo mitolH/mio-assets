@@ -633,7 +633,53 @@
      "animationId": "idle-down",
      "tileX": 16,
      "tileY": 17,
-     "refId": "map_lz_ch02_library_v1_actor_liangshanbo_2"
+     "refId": "map_lz_ch02_library_v1_actor_liangshanbo_2",
+     "persona": {
+      "npcId": "liangshanbo",
+      "periods": [
+       "library_night"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_l_liang",
+        "name": "与梁兄说话",
+        "description": "与梁兄说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "library_night"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lib_liang_with"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lib_liang",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -641,7 +687,50 @@
      "animationId": "idle-down",
      "tileX": 33,
      "tileY": 11,
-     "refId": "map_lz_ch02_library_v1_actor_mawencai_3"
+     "refId": "map_lz_ch02_library_v1_actor_mawencai_3",
+     "persona": {
+      "npcId": "mawencai",
+      "periods": [
+       "library_night"
+      ],
+      "watcher": true
+     },
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 40,
+        "toSlot": 9,
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 33,
+           "tileY": 17
+          },
+          {
+           "tileX": 29,
+           "tileY": 16
+          },
+          {
+           "tileX": 24,
+           "tileY": 17
+          }
+         ],
+         "emote": "登记册呢？"
+        }
+       }
+      ],
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 2
+        },
+        "face": "player"
+       }
+      ],
+      "speed": 1.0
+     }
     },
     {
      "assetType": "sprite",
@@ -649,7 +738,10 @@
      "animationId": "idle-down",
      "tileX": 36,
      "tileY": 17,
-     "refId": "map_lz_ch02_library_v1_actor_student_4"
+     "refId": "map_lz_ch02_library_v1_actor_student_4",
+     "persona": {
+      "npcId": "night_scholar"
+     }
     },
     {
      "assetType": "sprite",
@@ -667,19 +759,15 @@
          "type": "patrol",
          "points": [
           {
-           "tileX": 5,
+           "tileX": 4,
+           "tileY": 17
+          },
+          {
+           "tileX": 14,
            "tileY": 17
           },
           {
            "tileX": 19,
-           "tileY": 16
-          },
-          {
-           "tileX": 27,
-           "tileY": 16
-          },
-          {
-           "tileX": 38,
            "tileY": 16
           }
          ],
@@ -697,7 +785,60 @@
         "say": "夜里看书，仔细灯火。"
        }
       ],
-      "speed": 1.5
+      "speed": 1.4
+     },
+     "persona": {
+      "npcId": "library_keeper",
+      "periods": [
+       "library_night"
+      ],
+      "watcher": true,
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 3,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_l_return",
+        "name": "交还缺页",
+        "description": "交还缺页",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "library_night"
+         },
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "lib_page_found"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lib_resolved"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lib_return",
+          "value": {
+           "ap": 0,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     }
    ]
@@ -2227,7 +2368,38 @@
   }
  ],
  "itemDefs": [],
- "teleports": [],
+ "teleports": [
+  {
+   "id": "tp_lz_ch02_library_to_courtyard",
+   "name": "曲桥 · 前庭",
+   "sourceTileX": 21,
+   "sourceTileY": 31,
+   "target": {
+    "mapId": "map_lz_ch02_academy_courtyard_v1",
+    "tileX": 22,
+    "tileY": 3
+   },
+   "bidirectional": false,
+   "conditions": [],
+   "visualType": "door",
+   "scenarioOnly": true
+  },
+  {
+   "id": "tp_lz_ch02_library_to_classroom",
+   "name": "塘西回廊 · 讲堂",
+   "sourceTileX": 1,
+   "sourceTileY": 19,
+   "target": {
+    "mapId": "map_lz_ch02_classroom_v1",
+    "tileX": 40,
+    "tileY": 7
+   },
+   "bidirectional": false,
+   "conditions": [],
+   "visualType": "door",
+   "scenarioOnly": true
+  }
+ ],
  "createdAt": 1782325200000,
  "updatedAt": 1791000000000,
  "version": 2,
@@ -2264,6 +2436,347 @@
    "mood": "restrained study and suspicion",
    "focusTier": "S",
    "detailPass": "second-pass-v2"
+  }
+ },
+ "runtime": {
+  "schemaVersion": 1,
+  "locationTapZones": false,
+  "slice": {
+   "sliceId": "lz_ch02",
+   "roles": [
+    "zhuyingtai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch02_library_v1_story_a": [
+     {
+      "id": "lz_ch02_l_shelf",
+      "name": "翻左侧书架",
+      "description": "翻左侧书架",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lib_clue"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lib_shelf",
+        "value": {
+         "ap": 1,
+         "kind": "search"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_l_shelf_quiet",
+      "name": "看看",
+      "description": "看看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lib_quiet",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch02_library_v1_story_desk": [
+     {
+      "id": "lz_ch02_l_register",
+      "name": "翻登记册",
+      "description": "翻登记册",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lib_register_safe"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lib_register",
+        "value": {
+         "ap": 1,
+         "kind": "search"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_l_desk_quiet",
+      "name": "看看",
+      "description": "看看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lib_quiet",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch02_library_v1_story_b": [
+     {
+      "id": "lz_ch02_l_chest",
+      "name": "打开私人书箱",
+      "description": "打开私人书箱",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lib_page_found"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lib_chest",
+        "value": {
+         "ap": 1,
+         "kind": "search"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_l_chest_quiet",
+      "name": "看看",
+      "description": "看看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lib_quiet",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch02_library_v1_story_ladder": [
+     {
+      "id": "lz_ch02_l_ladder_return",
+      "name": "攀书梯放回缺页",
+      "description": "攀书梯放回缺页",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "lib_page_found"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lib_resolved"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lib_ladder_return",
+        "value": {
+         "ap": 1,
+         "kind": "search"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_l_ladder_look",
+      "name": "看书梯",
+      "description": "看书梯",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lib_ladder_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_l_ladder_quiet",
+      "name": "看看",
+      "description": "看看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lib_quiet",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch02_library_v1_story_lamp": [
+     {
+      "id": "lz_ch02_l_lamp",
+      "name": "夜灯",
+      "description": "夜灯",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lib_lamp",
+        "value": {
+         "ap": 1,
+         "kind": "search"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_l_lamp_quiet",
+      "name": "看看",
+      "description": "看看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lib_quiet",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ]
+   }
   }
  }
 }

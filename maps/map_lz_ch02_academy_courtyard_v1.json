@@ -783,6 +783,79 @@
       "indicatorType": "question",
       "interactions": [
        {
+        "id": "lz_ch02_c_liang_invite",
+        "name": "梁兄相约",
+        "description": "梁兄相约",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 3
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "morning_reading"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "bamboo_invited"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_liang_invite",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_c_liang_rain",
+        "name": "与梁兄说雨",
+        "description": "与梁兄说雨",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 4
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "morning_reading"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_liang_rain_morning",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
         "id": "lz_ch02_c_liang_morning",
         "name": "与梁兄同读",
         "description": "与梁兄同读",
@@ -961,6 +1034,42 @@
       "npcId": "teacher",
       "periods": [
        "morning_reading"
+      ],
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_c_teacher_consult",
+        "name": "向先生请教",
+        "description": "向先生请教",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "morning_reading"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_teacher_consult",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
       ]
      }
     },
@@ -1067,6 +1176,20 @@
       "reactions": [
        {
         "trigger": {
+         "type": "storyVariable",
+         "key": "identityRisk",
+         "op": "gte",
+         "value": 3
+        },
+        "behavior": {
+         "type": "follow",
+         "target": "player",
+         "distance": 3
+        },
+        "say": "（马府随从不远不近地跟着你）"
+       },
+       {
+        "trigger": {
          "type": "playerNear",
          "radius": 3,
          "locationId": "map_lz_ch02_academy_courtyard_v1_shade"
@@ -1082,7 +1205,8 @@
         },
         "say": "公子请。"
        }
-      ]
+      ],
+      "speed": 2.5
      },
      "persona": {
       "npcId": "ma_guard",
@@ -2383,6 +2507,93 @@
    "conditions": [],
    "visualType": "door",
    "scenarioOnly": true
+  },
+  {
+   "id": "tp_lz_ch02_courtyard_moon_to_classroom",
+   "name": "月洞门 · 讲堂（经回廊）",
+   "sourceTileX": 43,
+   "sourceTileY": 12,
+   "target": {
+    "mapId": "map_lz_ch02_classroom_v1",
+    "tileX": 41,
+    "tileY": 23
+   },
+   "bidirectional": false,
+   "conditions": [],
+   "visualType": "door",
+   "scenarioOnly": true
+  },
+  {
+   "id": "tp_lz_ch02_courtyard_moon_to_dorm",
+   "name": "月洞门 · 斋舍廊下",
+   "sourceTileX": 43,
+   "sourceTileY": 12,
+   "target": {
+    "mapId": "map_lz_ch02_dorm_corridor_v1",
+    "tileX": 8,
+    "tileY": 27
+   },
+   "bidirectional": false,
+   "conditions": [],
+   "visualType": "door",
+   "scenarioOnly": true
+  },
+  {
+   "id": "tp_lz_ch02_courtyard_moon_to_bamboo",
+   "name": "月洞门 · 后山竹林（经斋舍后门）",
+   "sourceTileX": 43,
+   "sourceTileY": 12,
+   "target": {
+    "mapId": "map_lz_ch02_bamboo_path_v1",
+    "tileX": 26,
+    "tileY": 28
+   },
+   "bidirectional": false,
+   "conditions": [],
+   "visualType": "door",
+   "scenarioOnly": true
+  },
+  {
+   "id": "tp_lz_ch02_courtyard_to_library",
+   "name": "曲桥 · 藏书楼",
+   "sourceTileX": 22,
+   "sourceTileY": 0,
+   "target": {
+    "mapId": "map_lz_ch02_library_v1",
+    "tileX": 22,
+    "tileY": 28
+   },
+   "bidirectional": false,
+   "conditions": [
+    {
+     "type": "flag",
+     "operator": "eq",
+     "value": "ch02_library_unlocked"
+    }
+   ],
+   "visualType": "door",
+   "scenarioOnly": true
+  },
+  {
+   "id": "tp_lz_ch02_courtyard_to_ch03",
+   "name": "山门 · 离开书院",
+   "sourceTileX": 22,
+   "sourceTileY": 31,
+   "target": {
+    "mapId": "map_lz_ch03_academy_gate_v1",
+    "tileX": 22,
+    "tileY": 24
+   },
+   "bidirectional": false,
+   "conditions": [
+    {
+     "type": "flag",
+     "operator": "eq",
+     "value": "ch02_complete"
+    }
+   ],
+   "visualType": "door",
+   "scenarioOnly": true
   }
  ],
  "createdAt": 1782325200000,
@@ -2562,6 +2773,7 @@
      }
     ]
    }
-  }
+  },
+  "locationTapZones": false
  }
 }

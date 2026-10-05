@@ -10301,5 +10301,9 @@
       "detailPass": "academy-gate-v3",
       "paletteFamily": "lz-ch01-song-jiangnan-v3"
     }
+  },
+  "runtime": {
+    "schemaVersion": 1,
+    "locationTapZones": false
   }
 }

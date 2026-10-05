@@ -78,7 +78,8 @@
     "sprite_zhuyingtai_wedding_48x96_story_v1",
     "sprite_student_b_48x96_story_v1",
     "sprite_student_c_48x96_story_v1",
-    "sprite_page_boy_48x96_story_v1"
+    "sprite_page_boy_48x96_story_v1",
+    "sprite_ma_guard_48x96_story_v1"
    ],
    "mapIds": [
     "map_lz_ch02_classroom_v1"
@@ -1223,6 +1224,42 @@
       "periods": [
        "class",
        "afternoon"
+      ],
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_k_teacher_consult",
+        "name": "向先生请教",
+        "description": "向先生请教",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "afternoon"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_teacher_consult",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
       ]
      }
     },
@@ -1331,6 +1368,38 @@
         ]
        }
       ]
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_ma_guard_48x96_story_v1",
+     "animationId": "idle-down",
+     "refId": "map_lz_ch02_classroom_v1_actor_ma_guard_9",
+     "tileX": 30,
+     "tileY": 25,
+     "persona": {
+      "npcId": "ma_guard",
+      "periods": [],
+      "watcher": true
+     },
+     "autonomy": {
+      "reactions": [
+       {
+        "trigger": {
+         "type": "storyVariable",
+         "key": "identityRisk",
+         "op": "gte",
+         "value": 3
+        },
+        "behavior": {
+         "type": "follow",
+         "target": "player",
+         "distance": 3
+        },
+        "say": "（马府随从不远不近地跟着你）"
+       }
+      ],
+      "speed": 2.5
      }
     }
    ]
@@ -2954,14 +3023,13 @@
   },
   {
    "id": "tp_lz_ch02_classroom_to_library",
-   "name": "回廊 · 藏书楼",
+   "name": "塘西回廊 · 藏书楼",
    "sourceTileX": 41,
    "sourceTileY": 6,
    "target": {
     "mapId": "map_lz_ch02_library_v1",
-    "tileX": 22,
-    "tileY": 24,
-    "locationId": "map_lz_ch02_library_v1_start"
+    "tileX": 3,
+    "tileY": 19
    },
    "bidirectional": false,
    "conditions": [
@@ -3146,6 +3214,7 @@
      }
     ]
    }
-  }
+  },
+  "locationTapZones": false
  }
 }

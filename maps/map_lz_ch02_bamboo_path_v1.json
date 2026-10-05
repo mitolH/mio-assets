@@ -62,7 +62,8 @@
         "sprite_student_48x96_story_v1",
         "sprite_zhuyingtai_48x96_story_v1",
         "sprite_zhuyingtai_butterfly_48x96_story_v1",
-        "sprite_zhuyingtai_wedding_48x96_story_v1"
+        "sprite_zhuyingtai_wedding_48x96_story_v1",
+        "sprite_ma_guard_48x96_story_v1"
       ],
       "mapIds": [
         "map_lz_ch02_bamboo_path_v1"
@@ -768,7 +769,87 @@
           "animationId": "idle-down",
           "tileX": 18,
           "tileY": 15,
-          "refId": "map_lz_ch02_bamboo_path_v1_actor_liangshanbo_2"
+          "refId": "map_lz_ch02_bamboo_path_v1_actor_liangshanbo_2",
+          "persona": {
+            "npcId": "liangshanbo",
+            "periods": [
+              "afternoon"
+            ]
+          },
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "question",
+            "interactions": [
+              {
+                "id": "lz_ch02_b_confide",
+                "name": "竹林问心",
+                "description": "竹林问心",
+                "type": "talk",
+                "weight": 1,
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_zhuyingtai"
+                  },
+                  {
+                    "type": "day",
+                    "operator": "eq",
+                    "value": 3
+                  },
+                  {
+                    "type": "period",
+                    "operator": "eq",
+                    "value": "afternoon"
+                  },
+                  {
+                    "type": "flag",
+                    "operator": "not_in",
+                    "value": "bamboo_done"
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "start_dialogue",
+                    "target": "ch02_bamboo_confide",
+                    "value": {
+                      "ap": 1,
+                      "kind": "talk"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "lz_ch02_b_after",
+                "name": "与梁兄闲话",
+                "description": "与梁兄闲话",
+                "type": "talk",
+                "weight": 1,
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_zhuyingtai"
+                  },
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "bamboo_done"
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "start_dialogue",
+                    "target": "ch02_bamboo_after",
+                    "value": {
+                      "ap": 0,
+                      "kind": "chat"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "assetType": "sprite",
@@ -776,7 +857,14 @@
           "animationId": "idle-down",
           "tileX": 31,
           "tileY": 14,
-          "refId": "map_lz_ch02_bamboo_path_v1_actor_mawencai_3"
+          "refId": "map_lz_ch02_bamboo_path_v1_actor_mawencai_3",
+          "persona": {
+            "npcId": "mawencai",
+            "periods": [
+              "afternoon"
+            ],
+            "watcher": true
+          }
         },
         {
           "assetType": "sprite",
@@ -784,7 +872,42 @@
           "animationId": "idle-down",
           "tileX": 7,
           "tileY": 17,
-          "refId": "map_lz_ch02_bamboo_path_v1_actor_student_4"
+          "refId": "map_lz_ch02_bamboo_path_v1_actor_student_4",
+          "persona": {
+            "npcId": "zhou_zijing"
+          }
+        },
+        {
+          "assetType": "sprite",
+          "spriteId": "sprite_ma_guard_48x96_story_v1",
+          "animationId": "idle-down",
+          "refId": "map_lz_ch02_bamboo_path_v1_actor_ma_guard_5",
+          "tileX": 30,
+          "tileY": 24,
+          "persona": {
+            "npcId": "ma_guard",
+            "periods": [],
+            "watcher": true
+          },
+          "autonomy": {
+            "reactions": [
+              {
+                "trigger": {
+                  "type": "storyVariable",
+                  "key": "identityRisk",
+                  "op": "gte",
+                  "value": 3
+                },
+                "behavior": {
+                  "type": "follow",
+                  "target": "player",
+                  "distance": 3
+                },
+                "say": "（马府随从不远不近地跟着你）"
+              }
+            ],
+            "speed": 2.5
+          }
         }
       ]
     },
@@ -2949,7 +3072,23 @@
     }
   ],
   "itemDefs": [],
-  "teleports": [],
+  "teleports": [
+    {
+      "id": "tp_lz_ch02_bamboo_to_dorm",
+      "name": "后门 · 斋舍廊下",
+      "sourceTileX": 26,
+      "sourceTileY": 31,
+      "target": {
+        "mapId": "map_lz_ch02_dorm_corridor_v1",
+        "tileX": 42,
+        "tileY": 12
+      },
+      "bidirectional": false,
+      "conditions": [],
+      "visualType": "door",
+      "scenarioOnly": true
+    }
+  ],
   "createdAt": 1782325200000,
   "updatedAt": 1790900000000,
   "version": 2,
@@ -2986,6 +3125,128 @@
       "mood": "quiet confiding under dappled bamboo light; suspicion across the water",
       "focusTier": "S",
       "detailPass": "ch02-bamboo-path-v2"
+    }
+  },
+  "runtime": {
+    "schemaVersion": 1,
+    "locationTapZones": false,
+    "slice": {
+      "sliceId": "lz_ch02",
+      "roles": [
+        "zhuyingtai"
+      ],
+      "objectInteractions": {
+        "map_lz_ch02_bamboo_path_v1_story_b": [
+          {
+            "id": "lz_ch02_b_bench",
+            "name": "石凳上的书",
+            "description": "石凳上的书",
+            "type": "examine",
+            "weight": 1,
+            "conditions": [
+              {
+                "type": "flag",
+                "operator": "eq",
+                "value": "role_zhuyingtai"
+              },
+              {
+                "type": "flag",
+                "operator": "not_in",
+                "value": "topic_banzhao"
+              }
+            ],
+            "effects": [
+              {
+                "type": "start_dialogue",
+                "target": "ch02_bamboo_bench",
+                "value": {
+                  "ap": 0,
+                  "kind": "look"
+                }
+              }
+            ]
+          },
+          {
+            "id": "lz_ch02_b_bench_look",
+            "name": "看看",
+            "description": "看看",
+            "type": "examine",
+            "weight": 1,
+            "conditions": [
+              {
+                "type": "flag",
+                "operator": "eq",
+                "value": "role_zhuyingtai"
+              }
+            ],
+            "effects": [
+              {
+                "type": "start_dialogue",
+                "target": "ch02_bamboo_look",
+                "value": {
+                  "ap": 0,
+                  "kind": "look"
+                }
+              }
+            ]
+          }
+        ],
+        "map_lz_ch02_bamboo_path_v1_story_a": [
+          {
+            "id": "lz_ch02_b_jade",
+            "name": "石缝里的青光",
+            "description": "石缝里的青光",
+            "type": "examine",
+            "weight": 1,
+            "conditions": [
+              {
+                "type": "flag",
+                "operator": "eq",
+                "value": "role_zhuyingtai"
+              },
+              {
+                "type": "flag",
+                "operator": "not_in",
+                "value": "jade_pendant"
+              }
+            ],
+            "effects": [
+              {
+                "type": "start_dialogue",
+                "target": "ch02_bamboo_jade",
+                "value": {
+                  "ap": 0,
+                  "kind": "look"
+                }
+              }
+            ]
+          },
+          {
+            "id": "lz_ch02_b_jade_look",
+            "name": "看看",
+            "description": "看看",
+            "type": "examine",
+            "weight": 1,
+            "conditions": [
+              {
+                "type": "flag",
+                "operator": "eq",
+                "value": "role_zhuyingtai"
+              }
+            ],
+            "effects": [
+              {
+                "type": "start_dialogue",
+                "target": "ch02_bamboo_look",
+                "value": {
+                  "ap": 0,
+                  "kind": "look"
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }

@@ -3,14 +3,14 @@ import { loadRepo, assertNoNewViolations, flushBaseline, isSpriteRef, buildColli
 
 // 演员自主行动（ref.autonomy）的数据检查，语义与运行时 src/engine/npc-autonomy 一致：
 // 一天 48 个时间槽（slot n = n/2 点），窗口两端包含，from > to 表示跨午夜；
-// 会走动的演员（有 goto/wander/patrol 且没有 interaction）不留静态碰撞，按实时位置占格。
+// 会走动的演员（有 goto/wander/patrol/follow 且没有 interaction，或 persona.mobile）不留静态碰撞，按实时位置占格。
 
 const repo = loadRepo();
 after(flushBaseline);
 
 const SLOTS_PER_DAY = 48;
-const BEHAVIORS = new Set(['idle', 'wander', 'patrol', 'goto', 'face']);
-const POSITIONAL = new Set(['wander', 'patrol', 'goto']);
+const BEHAVIORS = new Set(['idle', 'wander', 'patrol', 'goto', 'face', 'follow']);
+const POSITIONAL = new Set(['wander', 'patrol', 'goto', 'follow']);
 const FACINGS = new Set(['up', 'down', 'left', 'right']);
 const TRIGGERS = new Set(['playerNear', 'objectInteracted', 'storyVariable', 'npcBehavior']);
 const OPS = new Set(['eq', 'neq', 'gt', 'gte', 'lt', 'lte']);
@@ -24,7 +24,7 @@ function mapContext(m) {
   const actors = refs.filter((r) => r.refId && isSpriteRef(r) && r.autonomy
     && ((r.autonomy.schedule?.length ?? 0) > 0 || (r.autonomy.reactions?.length ?? 0) > 0));
   const moves = (b) => b && POSITIONAL.has(b.type);
-  const mobile = new Set(actors.filter((a) => !a.interaction
+  const mobile = new Set(actors.filter((a) => (!a.interaction || a.persona?.mobile === true)
     && ((a.autonomy.schedule ?? []).some((e) => moves(e.behavior)) || (a.autonomy.reactions ?? []).some((r) => moves(r.behavior))))
     .map((a) => a.refId));
   const blocked = buildCollisionGrid(repo, m, mobile);
@@ -73,6 +73,10 @@ function checkBehavior(v, subject, b, ctx, opts) {
         if (!ctx.locations.has(b.locationId)) v.push(`autonomy-ref-missing|${subject}|地点 ${b.locationId} 不存在`);
       } else v.push(`autonomy-schema|${subject}|goto 需要 tile 或 locationId`);
       break;
+    case 'follow':
+      if (typeof b.target !== 'string' || (b.target !== 'player' && !ctx.refIds.has(b.target))) v.push(`autonomy-ref-missing|${subject}|follow 目标 ${b.target} 不存在`);
+      if (!Number.isInteger(b.distance) || b.distance < 1) v.push(`autonomy-schema|${subject}|follow.distance 必须是正整数`);
+      break;
     case 'face':
       if (b.dir !== undefined && !FACINGS.has(b.dir)) v.push(`autonomy-schema|${subject}|dir 非法 ${b.dir}`);
       if (b.target !== undefined && b.target !== 'player' && !ctx.refIds.has(b.target)) v.push(`autonomy-ref-missing|${subject}|face 目标 ${b.target} 不存在`);
@@ -97,7 +101,7 @@ test('自主行动：时间槽、行为与触发器结构合法，引用存在',
       if (a.speed !== undefined && !(typeof a.speed === 'number' && a.speed > 0 && a.speed <= 10)) v.push(`autonomy-schema|${subject}|speed 必须在 (0,10]`);
       (a.schedule ?? []).forEach((e, i) => {
         if (!isSlot(e.fromSlot) || !isSlot(e.toSlot)) v.push(`autonomy-slot|${subject}#${i}|时间槽必须是 0~${SLOTS_PER_DAY - 1} 的整数: ${e.fromSlot}→${e.toSlot}`);
-        checkBehavior(v, `${subject}#${i}`, e.behavior, ctx, { pinned: !!ref.interaction });
+        checkBehavior(v, `${subject}#${i}`, e.behavior, ctx, { pinned: !!ref.interaction && ref.persona?.mobile !== true });
       });
       (a.reactions ?? []).forEach((r, i) => {
         const s = `${subject}@${i}`;
@@ -118,7 +122,7 @@ test('自主行动：时间槽、行为与触发器结构合法，引用存在',
         if (!r.behavior && r.face === undefined && r.say === undefined) v.push(`autonomy-schema|${s}|反应需要 behavior/face/say 之一`);
         if (r.face !== undefined && !FACINGS.has(r.face) && r.face !== 'player' && !ctx.refIds.has(r.face)) v.push(`autonomy-ref-missing|${s}|face 目标 ${r.face} 不存在`);
         if (r.durationSlots !== undefined && !(Number.isInteger(r.durationSlots) && r.durationSlots >= 1)) v.push(`autonomy-schema|${s}|durationSlots 必须是正整数`);
-        if (r.behavior) checkBehavior(v, s, r.behavior, ctx, { pinned: !!ref.interaction });
+        if (r.behavior) checkBehavior(v, s, r.behavior, ctx, { pinned: !!ref.interaction && ref.persona?.mobile !== true });
       });
     }
   }

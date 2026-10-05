@@ -771,7 +771,48 @@
      "animationId": "idle-down",
      "tileX": 19,
      "tileY": 13,
-     "refId": "map_lz_ch02_dorm_corridor_v1_actor_liangshanbo_2"
+     "refId": "map_lz_ch02_dorm_corridor_v1_actor_liangshanbo_2",
+     "persona": {
+      "npcId": "liangshanbo",
+      "periods": [
+       "rain_night"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_d_liang",
+        "name": "与梁兄听雨",
+        "description": "与梁兄听雨",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "rain_night"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_dorm_rain_talk",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -779,7 +820,54 @@
      "animationId": "idle-down",
      "tileX": 29,
      "tileY": 12,
-     "refId": "map_lz_ch02_dorm_corridor_v1_actor_mawencai_3"
+     "refId": "map_lz_ch02_dorm_corridor_v1_actor_mawencai_3",
+     "persona": {
+      "npcId": "mawencai",
+      "periods": [
+       "rain_night"
+      ],
+      "watcher": true
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_d_ma",
+        "name": "马文才",
+        "description": "马文才",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "rain_night"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "dorm_ma_talked"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_dorm_ma",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -787,7 +875,10 @@
      "animationId": "idle-down",
      "tileX": 7,
      "tileY": 11,
-     "refId": "map_lz_ch02_dorm_corridor_v1_actor_student_4"
+     "refId": "map_lz_ch02_dorm_corridor_v1_actor_student_4",
+     "persona": {
+      "npcId": "zhou_zijing"
+     }
     },
     {
      "assetType": "sprite",
@@ -795,7 +886,50 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch02_dorm_corridor_v1_actor_student_b_5",
      "tileX": 16,
-     "tileY": 12
+     "tileY": 12,
+     "persona": {
+      "npcId": "lu_huaian"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_d_night_talk",
+        "name": "廊下夜谈",
+        "description": "廊下夜谈",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "rain_night"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "joined_talk"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_dorm_night_talk",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -803,7 +937,10 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch02_dorm_corridor_v1_actor_student_c_6",
      "tileX": 4,
-     "tileY": 12
+     "tileY": 12,
+     "persona": {
+      "npcId": "classmate"
+     }
     },
     {
      "assetType": "sprite",
@@ -848,6 +985,9 @@
        }
       ],
       "speed": 1.5
+     },
+     "persona": {
+      "npcId": "page_boy"
      }
     },
     {
@@ -856,7 +996,31 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch02_dorm_corridor_v1_actor_ma_guard_8",
      "tileX": 37,
-     "tileY": 22
+     "tileY": 22,
+     "persona": {
+      "npcId": "ma_guard",
+      "periods": [],
+      "watcher": true
+     },
+     "autonomy": {
+      "reactions": [
+       {
+        "trigger": {
+         "type": "storyVariable",
+         "key": "identityRisk",
+         "op": "gte",
+         "value": 3
+        },
+        "behavior": {
+         "type": "follow",
+         "target": "player",
+         "distance": 3
+        },
+        "say": "（马府随从不远不近地跟着你）"
+       }
+      ],
+      "speed": 2.5
+     }
     }
    ]
   },
@@ -2075,7 +2239,38 @@
   }
  ],
  "itemDefs": [],
- "teleports": [],
+ "teleports": [
+  {
+   "id": "tp_lz_ch02_dorm_to_courtyard",
+   "name": "月洞门 · 前庭",
+   "sourceTileX": 5,
+   "sourceTileY": 26,
+   "target": {
+    "mapId": "map_lz_ch02_academy_courtyard_v1",
+    "tileX": 41,
+    "tileY": 13
+   },
+   "bidirectional": false,
+   "conditions": [],
+   "visualType": "door",
+   "scenarioOnly": true
+  },
+  {
+   "id": "tp_lz_ch02_dorm_to_bamboo",
+   "name": "后门 · 后山竹林",
+   "sourceTileX": 43,
+   "sourceTileY": 12,
+   "target": {
+    "mapId": "map_lz_ch02_bamboo_path_v1",
+    "tileX": 26,
+    "tileY": 28
+   },
+   "bidirectional": false,
+   "conditions": [],
+   "visualType": "door",
+   "scenarioOnly": true
+  }
+ ],
  "createdAt": 1782325200000,
  "updatedAt": 1791000000000,
  "version": 2,
@@ -2112,6 +2307,258 @@
    "mood": "restrained study and suspicion",
    "focusTier": "S",
    "detailPass": "second-pass-v2"
+  }
+ },
+ "runtime": {
+  "schemaVersion": 1,
+  "locationTapZones": false,
+  "slice": {
+   "sliceId": "lz_ch02",
+   "roles": [
+    "zhuyingtai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch02_dorm_corridor_v1_story_b": [
+     {
+      "id": "lz_ch02_d_curtain",
+      "name": "门帘",
+      "description": "门帘",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "rain_night"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "curtain_down"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_dorm_curtain",
+        "value": {
+         "ap": 1,
+         "kind": "prepare"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_d_curtain_look",
+      "name": "看看",
+      "description": "看看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_dorm_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch02_dorm_corridor_v1_story_lamp": [
+     {
+      "id": "lz_ch02_d_lamp",
+      "name": "夜灯",
+      "description": "夜灯",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "rain_night"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lamp_excuse"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "liang_lamp"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_dorm_lamp",
+        "value": {
+         "ap": 1,
+         "kind": "prepare"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_d_lamp_look",
+      "name": "看看",
+      "description": "看看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_dorm_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch02_dorm_corridor_v1_story_a": [
+     {
+      "id": "lz_ch02_d_wash",
+      "name": "洗漱架",
+      "description": "洗漱架",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "rain_night"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "washed_early"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_dorm_wash",
+        "value": {
+         "ap": 1,
+         "kind": "groom"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_d_wash_look",
+      "name": "看看",
+      "description": "看看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_dorm_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch02_dorm_corridor_v1_story_route": [
+     {
+      "id": "lz_ch02_d_rain_seat",
+      "name": "廊下听雨",
+      "description": "廊下听雨",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "rain_night"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_dorm_rain_alone",
+        "value": {
+         "ap": 1,
+         "kind": "rest"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_d_route_look",
+      "name": "看看",
+      "description": "看看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_dorm_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ]
+   }
   }
  }
 }
