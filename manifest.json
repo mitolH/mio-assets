@@ -1,7 +1,7 @@
 {
   "name": "mio-world-assets",
   "version": "1.0.0",
-  "updatedAt": 1791115219781,
+  "updatedAt": 1791199801075,
   "components": [
     {
       "id": "comp_academy_corridor_v1",
@@ -25267,7 +25267,7 @@
       "width": 384,
       "height": 192,
       "version": 1,
-      "updatedAt": 1791115219422
+      "updatedAt": 1791199800714
     },
     {
       "id": "comp_map_lz_ch02_academy_courtyard_v1_story_atmosphere_v6",
