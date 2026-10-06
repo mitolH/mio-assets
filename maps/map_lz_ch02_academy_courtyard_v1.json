@@ -2509,21 +2509,6 @@
    "scenarioOnly": true
   },
   {
-   "id": "tp_lz_ch02_courtyard_moon_to_classroom",
-   "name": "月洞门 · 讲堂（经回廊）",
-   "sourceTileX": 43,
-   "sourceTileY": 12,
-   "target": {
-    "mapId": "map_lz_ch02_classroom_v1",
-    "tileX": 41,
-    "tileY": 23
-   },
-   "bidirectional": false,
-   "conditions": [],
-   "visualType": "door",
-   "scenarioOnly": true
-  },
-  {
    "id": "tp_lz_ch02_courtyard_moon_to_dorm",
    "name": "月洞门 · 斋舍廊下",
    "sourceTileX": 43,
