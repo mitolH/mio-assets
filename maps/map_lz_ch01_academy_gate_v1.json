@@ -9574,7 +9574,8 @@
             "npcId": "teacher",
             "periods": [
               "gate"
-            ]
+            ],
+            "mobile": true
           },
           "interaction": {
             "interactionRange": 2,

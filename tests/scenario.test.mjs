@@ -83,3 +83,38 @@ test('场景：传送门源格可走且从起点可达，目标地图存在且�
   }
   assertNoNewViolations(t, v);
 });
+
+// 场景交互锚点：每个带场景交互的物件/演员，从起点出发都能走到其交互范围内的某个可走格
+// （距离与运行时 src/engine/interaction-range.ts 一致：精灵量脚下格，组件量碰撞底座，否则量外框，并含左上格）。
+function interactionTiles(ref) {
+  const out = [{ x: ref.tileX, y: ref.tileY }];
+  if (isSpriteRef(ref)) return out;
+  const comp = repo.components.get(ref.componentId);
+  if (!comp) return out;
+  const mask = comp.collisionMask;
+  if (mask && mask.some((row) => row.some(Boolean))) mask.forEach((row, r) => row.forEach((b, c) => b && out.push({ x: ref.tileX + c, y: ref.tileY + r })));
+  else for (let r = 0; r < comp.tileHeight; r++) for (let c = 0; c < comp.tileWidth; c++) out.push({ x: ref.tileX + c, y: ref.tileY + r });
+  return out;
+}
+
+test('场景：交互锚点从起点可达（交互范围内有可走格）', (t) => {
+  const v = [];
+  for (const { data: m } of repo.maps) {
+    const slice = m.runtime?.slice;
+    if (!slice) continue;
+    const start = startTile(m);
+    if (!start) continue;
+    const reach = reachable(buildCollisionGrid(repo, m), m.widthInTiles, m.heightInTiles, start);
+    for (const ref of m.layers.flatMap((l) => l.components)) {
+      if (!ref.refId) continue;
+      const hasScenario = (slice.objectInteractions?.[ref.refId]?.length ?? 0) > 0 || (ref.persona && (ref.interaction?.interactions?.length ?? 0) > 0);
+      if (!hasScenario) continue;
+      if (!ref.interaction) { v.push(`scenario-anchor-no-zone|${m.id}:${ref.refId}|场景交互的物件缺少 interaction（不会生成点击区）`); continue; }
+      const range = ref.interaction.interactionRange ?? 1;
+      const tiles = interactionTiles(ref);
+      const ok = [...reach].some((k) => { const [x, y] = k.split(',').map(Number); return tiles.some((tt) => Math.abs(tt.x - x) + Math.abs(tt.y - y) <= range); });
+      if (!ok) v.push(`scenario-anchor-unreachable|${m.id}:${ref.refId}|交互范围 ${range} 内没有从起点可达的可走格`);
+    }
+  }
+  assertNoNewViolations(t, v);
+});
