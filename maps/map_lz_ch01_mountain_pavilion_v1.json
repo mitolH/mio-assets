@@ -240,7 +240,12 @@
      "componentId": "comp_lz_ch01_pavilion_long_pavilion_v2",
      "tileX": 14,
      "tileY": 7,
-     "refId": "map_lz_ch01_mountain_pavilion_v1_long_pavilion_14_7"
+     "refId": "map_lz_ch01_mountain_pavilion_v1_long_pavilion_14_7",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -254,7 +259,12 @@
      "componentId": "comp_lz_ch01_pavilion_tea_stall_v2",
      "tileX": 32,
      "tileY": 12,
-     "refId": "map_lz_ch01_mountain_pavilion_v1_tea_stall_32_12"
+     "refId": "map_lz_ch01_mountain_pavilion_v1_tea_stall_32_12",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -314,7 +324,12 @@
      "componentId": "comp_lz_prop_book_chest_story_v3",
      "tileX": 22,
      "tileY": 22,
-     "refId": "map_lz_ch01_mountain_pavilion_v1_comp_lz_prop_book_chest_story_22_22"
+     "refId": "map_lz_ch01_mountain_pavilion_v1_comp_lz_prop_book_chest_story_22_22",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -607,7 +622,147 @@
      "animationId": "idle-down",
      "tileX": 29,
      "tileY": 23,
-     "refId": "map_lz_ch01_mountain_pavilion_v1_actor_liangshanbo_2"
+     "refId": "map_lz_ch01_mountain_pavilion_v1_actor_liangshanbo_2",
+     "persona": {
+      "npcId": "liangshanbo",
+      "periods": [
+       "pavilion",
+       "inn_night",
+       "inn_dawn"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch01_pv_drink",
+        "name": "与梁兄共饮",
+        "description": "与梁兄共饮",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "pavilion"
+         },
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "travel_with_liang"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_pv_drink",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch01_pv_reacquaint",
+        "name": "重新相识",
+        "description": "重新相识",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "pavilion"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "travel_with_liang"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_pv_reacquaint",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch01_pv_lamp_liang",
+        "name": "灯下共读",
+        "description": "灯下共读",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "inn_night"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_lamp",
+          "value": {
+           "ap": 1,
+           "kind": "study"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch01_pv_dawn_liang",
+        "name": "晨起同行",
+        "description": "晨起同行",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "inn_dawn"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_dawn_liang",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -615,7 +770,14 @@
      "animationId": "idle-down",
      "tileX": 32,
      "tileY": 23,
-     "refId": "map_lz_ch01_mountain_pavilion_v1_actor_student_5"
+     "refId": "map_lz_ch01_mountain_pavilion_v1_actor_student_5",
+     "persona": {
+      "npcId": "scholar",
+      "periods": [
+       "pavilion",
+       "inn_night"
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -623,7 +785,14 @@
      "animationId": "idle-down",
      "tileX": 36,
      "tileY": 22,
-     "refId": "map_lz_ch01_mountain_pavilion_v1_actor_villager_3"
+     "refId": "map_lz_ch01_mountain_pavilion_v1_actor_villager_3",
+     "persona": {
+      "npcId": "tea_seller",
+      "periods": [
+       "pavilion",
+       "inn_dawn"
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -631,7 +800,55 @@
      "animationId": "idle-down",
      "tileX": 16,
      "tileY": 22,
-     "refId": "map_lz_ch01_mountain_pavilion_v1_actor_servant_4"
+     "refId": "map_lz_ch01_mountain_pavilion_v1_actor_servant_4",
+     "persona": {
+      "npcId": "ma_guard",
+      "periods": [
+       "pavilion",
+       "inn_night"
+      ],
+      "watcher": true
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch01_pv_ask_guard",
+        "name": "打听马府",
+        "description": "打听马府",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "pavilion"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "knows_ma"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_pv_ask_guard",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     }
    ]
   },
@@ -4419,6 +4636,243 @@
  },
  "runtime": {
   "schemaVersion": 1,
-  "locationTapZones": false
+  "locationTapZones": false,
+  "slice": {
+   "sliceId": "lz_ch01",
+   "roles": [
+    "zhuyingtai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch01_mountain_pavilion_v1_tea_stall_32_12": [
+     {
+      "id": "lz_ch01_pv_tea",
+      "name": "茶摊歇脚",
+      "description": "茶摊歇脚",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "pavilion"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_pv_tea",
+        "value": {
+         "ap": 1,
+         "kind": "tea"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch01_pv_breakfast",
+      "name": "早饭",
+      "description": "早饭",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "inn_dawn"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_dawn_tea",
+        "value": {
+         "ap": 1,
+         "kind": "tea"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_mountain_pavilion_v1_story_b": [
+     {
+      "id": "lz_ch01_pv_groom",
+      "name": "竹后整衣",
+      "description": "竹后整衣",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "pavilion"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_pv_groom",
+        "value": {
+         "ap": 1,
+         "kind": "groom"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_mountain_pavilion_v1_comp_lz_prop_book_chest_story_22_22": [
+     {
+      "id": "lz_ch01_pv_mend_books",
+      "name": "补书",
+      "description": "补书",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "pavilion",
+         "inn_dawn"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "books_wet"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_pv_mend",
+        "value": {
+         "ap": 1,
+         "kind": "study"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch01_pv_chest_look",
+      "name": "书箱",
+      "description": "书箱",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "pavilion",
+         "inn_night",
+         "inn_dawn"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_pv_chest_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_mountain_pavilion_v1_story_a": [
+     {
+      "id": "lz_ch01_pv_milestone",
+      "name": "里程碑",
+      "description": "里程碑",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "pavilion",
+         "inn_night",
+         "inn_dawn"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_pv_milestone",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_mountain_pavilion_v1_long_pavilion_14_7": [
+     {
+      "id": "lz_ch01_pv_lamp_read",
+      "name": "灯下",
+      "description": "灯下",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "inn_night"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_lamp",
+        "value": {
+         "ap": 1,
+         "kind": "study"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
  }
 }

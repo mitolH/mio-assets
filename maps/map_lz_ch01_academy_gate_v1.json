@@ -9399,7 +9399,48 @@
           "animationId": "idle-down",
           "tileX": 21,
           "tileY": 21,
-          "refId": "map_lz_ch01_academy_gate_v1_actor_liangshanbo_2"
+          "refId": "map_lz_ch01_academy_gate_v1_actor_liangshanbo_2",
+          "persona": {
+            "npcId": "liangshanbo",
+            "periods": [
+              "gate"
+            ]
+          },
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "question",
+            "interactions": [
+              {
+                "id": "lz_ch01_gt_liang",
+                "name": "与梁兄同看山门",
+                "description": "与梁兄同看山门",
+                "type": "talk",
+                "weight": 1,
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_zhuyingtai"
+                  },
+                  {
+                    "type": "period",
+                    "operator": "eq",
+                    "value": "gate"
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "start_dialogue",
+                    "target": "ch01_gt_liang",
+                    "value": {
+                      "ap": 1,
+                      "kind": "talk"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "assetType": "sprite",
@@ -9407,7 +9448,83 @@
           "animationId": "idle-down",
           "tileX": 30,
           "tileY": 21,
-          "refId": "map_lz_ch01_academy_gate_v1_actor_mawencai_3"
+          "refId": "map_lz_ch01_academy_gate_v1_actor_mawencai_3",
+          "persona": {
+            "npcId": "mawencai",
+            "periods": [
+              "gate"
+            ],
+            "watcher": true
+          },
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "question",
+            "interactions": [
+              {
+                "id": "lz_ch01_gt_bow",
+                "name": "向马文才见礼",
+                "description": "向马文才见礼",
+                "type": "talk",
+                "weight": 1,
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_zhuyingtai"
+                  },
+                  {
+                    "type": "period",
+                    "operator": "eq",
+                    "value": "gate"
+                  },
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "knows_ma"
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "start_dialogue",
+                    "target": "ch01_gt_bow",
+                    "value": {
+                      "ap": 1,
+                      "kind": "talk"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "lz_ch01_gt_ma_look",
+                "name": "锦衣公子",
+                "description": "锦衣公子",
+                "type": "talk",
+                "weight": 1,
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_zhuyingtai"
+                  },
+                  {
+                    "type": "period",
+                    "operator": "eq",
+                    "value": "gate"
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "start_dialogue",
+                    "target": "ch01_gt_ma_unknown",
+                    "value": {
+                      "ap": 0,
+                      "kind": "look"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "assetType": "sprite",
@@ -9452,6 +9569,47 @@
                 "say": "可是来求学的？"
               }
             ]
+          },
+          "persona": {
+            "npcId": "teacher",
+            "periods": [
+              "gate"
+            ]
+          },
+          "interaction": {
+            "interactionRange": 2,
+            "indicatorType": "question",
+            "interactions": [
+              {
+                "id": "lz_ch01_gt_teacher",
+                "name": "与先生寒暄",
+                "description": "与先生寒暄",
+                "type": "talk",
+                "weight": 1,
+                "conditions": [
+                  {
+                    "type": "flag",
+                    "operator": "eq",
+                    "value": "role_zhuyingtai"
+                  },
+                  {
+                    "type": "period",
+                    "operator": "eq",
+                    "value": "gate"
+                  }
+                ],
+                "effects": [
+                  {
+                    "type": "start_dialogue",
+                    "target": "ch01_gt_teacher",
+                    "value": {
+                      "ap": 1,
+                      "kind": "talk"
+                    }
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -9481,6 +9639,13 @@
                 "say": "让一让。"
               }
             ]
+          },
+          "persona": {
+            "npcId": "ma_guard",
+            "periods": [
+              "gate"
+            ],
+            "watcher": true
           }
         }
       ]
@@ -9510,7 +9675,12 @@
           "componentId": "comp_lz_ch01_gate_wall_notice_a_v3",
           "tileX": 9,
           "tileY": 11,
-          "refId": "map_lz_ch01_academy_gate_v1_academy_reference_wall_notice"
+          "refId": "map_lz_ch01_academy_gate_v1_academy_reference_wall_notice",
+          "interaction": {
+            "interactionRange": 5,
+            "indicatorType": "question",
+            "interactions": []
+          }
         },
         {
           "assetType": "component",
@@ -10262,7 +10432,29 @@
     }
   ],
   "itemDefs": [],
-  "teleports": [],
+  "teleports": [
+    {
+      "id": "tp_lz_ch01_gate_to_ch02",
+      "name": "山门 · 尼山书院",
+      "sourceTileX": 21,
+      "sourceTileY": 15,
+      "target": {
+        "mapId": "map_lz_ch02_academy_courtyard_v1",
+        "tileX": 22,
+        "tileY": 27
+      },
+      "bidirectional": false,
+      "conditions": [
+        {
+          "type": "flag",
+          "operator": "eq",
+          "value": "ch01_registered"
+        }
+      ],
+      "visualType": "door",
+      "scenarioOnly": true
+    }
+  ],
   "createdAt": 1782325200000,
   "updatedAt": 1790300000000,
   "version": 5,
@@ -10304,6 +10496,117 @@
   },
   "runtime": {
     "schemaVersion": 1,
-    "locationTapZones": false
+    "locationTapZones": false,
+    "slice": {
+      "sliceId": "lz_ch01",
+      "roles": [
+        "zhuyingtai"
+      ],
+      "objectInteractions": {
+        "map_lz_ch01_academy_gate_v1_story_b": [
+          {
+            "id": "lz_ch01_gt_register",
+            "name": "登记",
+            "description": "登记",
+            "type": "examine",
+            "weight": 1,
+            "conditions": [
+              {
+                "type": "flag",
+                "operator": "eq",
+                "value": "role_zhuyingtai"
+              },
+              {
+                "type": "period",
+                "operator": "eq",
+                "value": "gate"
+              },
+              {
+                "type": "flag",
+                "operator": "not_in",
+                "value": "ch01_registered"
+              }
+            ],
+            "effects": [
+              {
+                "type": "start_dialogue",
+                "target": "ch01_register",
+                "value": {
+                  "ap": 0,
+                  "kind": "register"
+                }
+              }
+            ]
+          }
+        ],
+        "map_lz_ch01_academy_gate_v1_story_a": [
+          {
+            "id": "lz_ch01_gt_tidy_books",
+            "name": "整理书箱",
+            "description": "整理书箱",
+            "type": "examine",
+            "weight": 1,
+            "conditions": [
+              {
+                "type": "flag",
+                "operator": "eq",
+                "value": "role_zhuyingtai"
+              },
+              {
+                "type": "period",
+                "operator": "eq",
+                "value": "gate"
+              },
+              {
+                "type": "flag",
+                "operator": "eq",
+                "value": "item_bookcase"
+              }
+            ],
+            "effects": [
+              {
+                "type": "start_dialogue",
+                "target": "ch01_gt_tidy",
+                "value": {
+                  "ap": 1,
+                  "kind": "study"
+                }
+              }
+            ]
+          }
+        ],
+        "map_lz_ch01_academy_gate_v1_academy_reference_wall_notice": [
+          {
+            "id": "lz_ch01_gt_notice",
+            "name": "入学须知",
+            "description": "入学须知",
+            "type": "examine",
+            "weight": 1,
+            "conditions": [
+              {
+                "type": "flag",
+                "operator": "eq",
+                "value": "role_zhuyingtai"
+              },
+              {
+                "type": "period",
+                "operator": "eq",
+                "value": "gate"
+              }
+            ],
+            "effects": [
+              {
+                "type": "start_dialogue",
+                "target": "ch01_gt_notice",
+                "value": {
+                  "ap": 0,
+                  "kind": "look"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }

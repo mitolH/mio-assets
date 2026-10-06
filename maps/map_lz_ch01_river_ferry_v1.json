@@ -9262,7 +9262,13 @@
      "assetType": "component",
      "componentId": "comp_lz_ch01_ferry_cargo_stack_v2",
      "tileX": 12,
-     "tileY": 16
+     "tileY": 16,
+     "refId": "map_lz_ch01_river_ferry_v1_cargo_stack",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -9304,13 +9310,25 @@
      "assetType": "component",
      "componentId": "comp_lz_ch01_ferry_waiting_bench_v2",
      "tileX": 3,
-     "tileY": 21
+     "tileY": 21,
+     "refId": "map_lz_ch01_river_ferry_v1_waiting_bench",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
      "componentId": "comp_lz_ch01_ferry_tea_shed_v2",
      "tileX": 31,
-     "tileY": 16
+     "tileY": 16,
+     "refId": "map_lz_ch01_river_ferry_v1_tea_shed",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -9322,7 +9340,13 @@
      "assetType": "component",
      "componentId": "comp_lz_ch01_ferry_fare_board_v2",
      "tileX": 11,
-     "tileY": 22
+     "tileY": 22,
+     "refId": "map_lz_ch01_river_ferry_v1_fare_board",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -9398,7 +9422,53 @@
      "animationId": "idle-down",
      "tileX": 28,
      "tileY": 20,
-     "refId": "map_lz_ch01_river_ferry_v1_actor_liangshanbo_2"
+     "refId": "map_lz_ch01_river_ferry_v1_actor_liangshanbo_2",
+     "persona": {
+      "npcId": "liangshanbo",
+      "periods": [
+       "ferry"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch01_fr_wait_liang",
+        "name": "与梁兄候船",
+        "description": "与梁兄候船",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "ferry"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "liang_waited"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_wait_liang",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -9406,7 +9476,13 @@
      "animationId": "idle-down",
      "tileX": 21,
      "tileY": 14,
-     "refId": "map_lz_ch01_river_ferry_v1_actor_villager_3"
+     "refId": "map_lz_ch01_river_ferry_v1_actor_villager_3",
+     "persona": {
+      "npcId": "boatman",
+      "periods": [
+       "ferry"
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -9414,7 +9490,13 @@
      "animationId": "idle-down",
      "tileX": 9,
      "tileY": 26,
-     "refId": "map_lz_ch01_river_ferry_v1_actor_servant_4"
+     "refId": "map_lz_ch01_river_ferry_v1_actor_servant_4",
+     "persona": {
+      "npcId": "house_servant",
+      "periods": [
+       "ferry"
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -9422,7 +9504,14 @@
      "animationId": "idle-down",
      "tileX": 35,
      "tileY": 24,
-     "refId": "map_lz_ch01_river_ferry_v1_actor_student_5"
+     "refId": "map_lz_ch01_river_ferry_v1_actor_student_5",
+     "persona": {
+      "npcId": "scholar",
+      "periods": [
+       "ferry"
+      ],
+      "watcher": true
+     }
     }
    ]
   },
@@ -13516,6 +13605,239 @@
  },
  "runtime": {
   "schemaVersion": 1,
-  "locationTapZones": false
+  "locationTapZones": false,
+  "slice": {
+   "sliceId": "lz_ch01",
+   "roles": [
+    "zhuyingtai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch01_river_ferry_v1_story_a": [
+     {
+      "id": "lz_ch01_fr_dry_books",
+      "name": "晾书",
+      "description": "晾书",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "ferry"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "books_wet"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_dry_books",
+        "value": {
+         "ap": 1,
+         "kind": "study"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch01_fr_look_chest",
+      "name": "书箱",
+      "description": "书箱",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "ferry"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_look_chest",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_river_ferry_v1_story_b": [
+     {
+      "id": "lz_ch01_fr_board",
+      "name": "登船",
+      "description": "登船",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "ferry"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_board",
+        "value": {
+         "ap": 0,
+         "kind": "depart"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_river_ferry_v1_tea_shed": [
+     {
+      "id": "lz_ch01_fr_tea",
+      "name": "茶棚歇脚",
+      "description": "茶棚歇脚",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "ferry"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_ferry_tea",
+        "value": {
+         "ap": 1,
+         "kind": "tea"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_river_ferry_v1_cargo_stack": [
+     {
+      "id": "lz_ch01_fr_change",
+      "name": "货堆后",
+      "description": "货堆后",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "ferry"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_ferry_change",
+        "value": {
+         "ap": 1,
+         "kind": "groom"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_river_ferry_v1_waiting_bench": [
+     {
+      "id": "lz_ch01_fr_hide",
+      "name": "候船长凳",
+      "description": "候船长凳",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "ferry"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "hid_from_servant"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_ferry_hide",
+        "value": {
+         "ap": 1,
+         "kind": "hide"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_river_ferry_v1_fare_board": [
+     {
+      "id": "lz_ch01_fr_fare",
+      "name": "渡资木牌",
+      "description": "渡资木牌",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "ferry"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_fare",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
  }
 }

@@ -12652,14 +12652,24 @@
      "componentId": "comp_lz_prop_letter_desk_story_v2",
      "tileX": 11,
      "tileY": 12,
-     "refId": "map_lz_ch01_zhufu_courtyard_v1_prop_letter_desk"
+     "refId": "map_lz_ch01_zhufu_courtyard_v1_prop_letter_desk",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
      "componentId": "comp_lz_prop_clothes_chest_story_v2",
      "tileX": 29,
      "tileY": 12,
-     "refId": "map_lz_ch01_zhufu_courtyard_v1_prop_clothes_chest"
+     "refId": "map_lz_ch01_zhufu_courtyard_v1_prop_clothes_chest",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -12672,7 +12682,12 @@
      "componentId": "comp_lz_prop_jade_pendant_story_v2",
      "tileX": 25,
      "tileY": 13,
-     "refId": "map_lz_ch01_zhufu_courtyard_v1_prop_jade"
+     "refId": "map_lz_ch01_zhufu_courtyard_v1_prop_jade",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -13044,7 +13059,13 @@
      "assetType": "component",
      "componentId": "comp_lz_ch01_zhufu_wash_set_v2",
      "tileX": 14,
-     "tileY": 25
+     "tileY": 25,
+     "refId": "map_lz_ch01_zhufu_courtyard_v1_wash_set",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -13062,7 +13083,13 @@
      "assetType": "component",
      "componentId": "comp_lz_ch01_zhufu_drying_rack_v2",
      "tileX": 4,
-     "tileY": 26
+     "tileY": 26,
+     "refId": "map_lz_ch01_zhufu_courtyard_v1_drying_rack",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -13093,7 +13120,12 @@
      "componentId": "comp_lz_ch01_zhufu_family_gate_v2",
      "tileX": 18,
      "tileY": 27,
-     "refId": "map_lz_ch01_zhufu_courtyard_v1_home_gate"
+     "refId": "map_lz_ch01_zhufu_courtyard_v1_home_gate",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "sprite",
@@ -13109,7 +13141,48 @@
      "animationId": "idle-down",
      "tileX": 19,
      "tileY": 14,
-     "refId": "map_lz_ch01_zhufu_courtyard_v1_actor_zhufu_father_2"
+     "refId": "map_lz_ch01_zhufu_courtyard_v1_actor_zhufu_father_2",
+     "persona": {
+      "npcId": "zhufu_father",
+      "periods": [
+       "zf_pack"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch01_zf_food",
+        "name": "干粮",
+        "description": "干粮",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "zf_pack"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_father_food",
+          "value": {
+           "ap": 0,
+           "kind": "pack"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -13117,7 +13190,48 @@
      "animationId": "idle-down",
      "tileX": 23,
      "tileY": 14,
-     "refId": "map_lz_ch01_zhufu_courtyard_v1_actor_zhufu_mother_3"
+     "refId": "map_lz_ch01_zhufu_courtyard_v1_actor_zhufu_mother_3",
+     "persona": {
+      "npcId": "mother",
+      "periods": [
+       "zf_pack"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch01_zf_farewell_mother",
+        "name": "辞别母亲",
+        "description": "辞别母亲",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "zf_pack"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_farewell_mother",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -13125,7 +13239,53 @@
      "animationId": "idle-down",
      "tileX": 18,
      "tileY": 26,
-     "refId": "map_lz_ch01_zhufu_courtyard_v1_actor_servant_4"
+     "refId": "map_lz_ch01_zhufu_courtyard_v1_actor_servant_4",
+     "persona": {
+      "npcId": "old_servant",
+      "periods": [
+       "zf_pack"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch01_zf_cover_story",
+        "name": "演口供",
+        "description": "演口供",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "zf_pack"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "cover_rehearsed"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_cover_story",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -13133,7 +13293,58 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch01_zhufu_courtyard_v1_actor_zhufu_maid_5",
      "tileX": 27,
-     "tileY": 24
+     "tileY": 24,
+     "persona": {
+      "npcId": "maid",
+      "periods": [
+       "zf_pack"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch01_zf_ear",
+        "name": "遮耳洞",
+        "description": "遮耳洞",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "zf_pack"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ear_covered"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "voice_low"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_maid_ear",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     }
    ]
   },
@@ -13906,6 +14117,267 @@
  },
  "runtime": {
   "schemaVersion": 1,
-  "locationTapZones": false
+  "locationTapZones": false,
+  "slice": {
+   "sliceId": "lz_ch01",
+   "roles": [
+    "zhuyingtai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch01_zhufu_courtyard_v1_story_a": [
+     {
+      "id": "lz_ch01_zf_pack_bookcase",
+      "name": "书箱",
+      "description": "书箱",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "zf_pack"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_pack_bookcase",
+        "value": {
+         "ap": 0,
+         "kind": "pack"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_zhufu_courtyard_v1_prop_clothes_chest": [
+     {
+      "id": "lz_ch01_zf_pack_clothes",
+      "name": "女装箱笼",
+      "description": "女装箱笼",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "zf_pack"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_pack_clothes",
+        "value": {
+         "ap": 0,
+         "kind": "pack"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_zhufu_courtyard_v1_story_b": [
+     {
+      "id": "lz_ch01_zf_pack_fan",
+      "name": "折扇",
+      "description": "折扇",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "zf_pack"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_pack_fan",
+        "value": {
+         "ap": 0,
+         "kind": "pack"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_zhufu_courtyard_v1_prop_jade": [
+     {
+      "id": "lz_ch01_zf_pack_jade",
+      "name": "玉佩",
+      "description": "玉佩",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "zf_pack"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_pack_jade",
+        "value": {
+         "ap": 0,
+         "kind": "pack"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_zhufu_courtyard_v1_drying_rack": [
+     {
+      "id": "lz_ch01_zf_pack_robe",
+      "name": "备用男装",
+      "description": "备用男装",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "zf_pack"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_pack_robe",
+        "value": {
+         "ap": 0,
+         "kind": "pack"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_zhufu_courtyard_v1_wash_set": [
+     {
+      "id": "lz_ch01_zf_mirror",
+      "name": "水盆试装",
+      "description": "水盆试装",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "zf_pack"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_mirror",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_zhufu_courtyard_v1_prop_letter_desk": [
+     {
+      "id": "lz_ch01_zf_letter",
+      "name": "留书",
+      "description": "留书",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "zf_pack"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "letter_written"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_letter",
+        "value": {
+         "ap": 1,
+         "kind": "write"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch01_zhufu_courtyard_v1_home_gate": [
+     {
+      "id": "lz_ch01_zf_depart",
+      "name": "出发",
+      "description": "出发",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "zf_pack"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_depart",
+        "value": {
+         "ap": 0,
+         "kind": "depart"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
  }
 }
