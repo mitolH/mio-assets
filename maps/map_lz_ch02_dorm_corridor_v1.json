@@ -1096,7 +1096,8 @@
       "speed": 1.5
      },
      "persona": {
-      "npcId": "page_boy"
+      "npcId": "page_boy",
+      "mobile": true
      },
      "interaction": {
       "interactionRange": 2,
