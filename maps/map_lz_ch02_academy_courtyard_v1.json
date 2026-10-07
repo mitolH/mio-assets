@@ -763,7 +763,121 @@
      "animationId": "idle-down",
      "tileX": 11,
      "tileY": 20,
-     "refId": "map_lz_ch02_academy_courtyard_v1_actor_zhuyingtai_1"
+     "refId": "map_lz_ch02_academy_courtyard_v1_actor_zhuyingtai_1",
+     "persona": {
+      "npcId": "zhuyingtai",
+      "periods": [
+       "morning_reading"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_lb_c_invite",
+        "name": "约她去竹林",
+        "description": "约她去竹林",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 3
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "morning_reading"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "bamboo_invited"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_invite",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_lb_c_rain",
+        "name": "与她说雨",
+        "description": "与她说雨",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 4
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "morning_reading"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_rain_morning",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_lb_c_read",
+        "name": "与祝贤弟同读",
+        "description": "与祝贤弟同读",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "morning_reading"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_morning_read",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -933,6 +1047,35 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch02_lb_c_ma",
+        "name": "马文才",
+        "description": "马文才",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "morning_reading"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_ma_morning",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -1069,6 +1212,35 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch02_lb_c_teacher",
+        "name": "向先生请教",
+        "description": "向先生请教",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "morning_reading"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_teacher_consult",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -1158,6 +1330,43 @@
           "value": {
            "ap": 0,
            "kind": "chat"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_lb_c_siujiu",
+        "name": "与四九闲话",
+        "description": "与四九闲话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "morning_reading",
+           "afternoon"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "daily_siujiu"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_siujiu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
           }
          }
         ]
@@ -2624,7 +2833,8 @@
   "slice": {
    "sliceId": "lz_ch02",
    "roles": [
-    "zhuyingtai"
+    "zhuyingtai",
+    "liangshanbo"
    ],
    "objectInteractions": {
     "map_lz_ch02_academy_courtyard_v1_story_b": [
@@ -2690,6 +2900,69 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch02_lb_c_notice",
+      "name": "座次告示",
+      "description": "座次告示",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 1
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "morning_reading"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "seating_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_seating",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_c_notice_look",
+      "name": "座次告示",
+      "description": "座次告示",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_notice_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch02_academy_courtyard_v1_story_a": [
@@ -2718,6 +2991,45 @@
         "value": {
          "ap": 0,
          "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_c_handouts",
+      "name": "分发讲义",
+      "description": "分发讲义",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 1
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "morning_reading"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_handouts"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_handouts",
+        "value": {
+         "ap": 1,
+         "kind": "study"
         }
        }
       ]
@@ -2752,6 +3064,30 @@
         "value": {
          "ap": 1,
          "kind": "groom"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_c_shade",
+      "name": "竹影",
+      "description": "竹影",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_shade",
+        "value": {
+         "ap": 0,
+         "kind": "look"
         }
        }
       ]

@@ -960,6 +960,116 @@
         "say": "梁兄……"
        }
       ]
+     },
+     "persona": {
+      "npcId": "zhuyingtai",
+      "periods": [
+       "class",
+       "afternoon",
+       "night_reading",
+       "late_night"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_lb_k_slips",
+        "name": "竹简架下替她抄注疏",
+        "description": "竹简架下替她抄注疏",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "afternoon"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "liang_slips_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_slips",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_lb_k_afternoon",
+        "name": "与她温书",
+        "description": "与她温书",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "afternoon"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_zhu_afternoon",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_lb_k_night",
+        "name": "灯下共读",
+        "description": "灯下共读",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "night_reading",
+           "late_night"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_zhu_night",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -1150,6 +1260,35 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch02_lb_k_ma",
+        "name": "马文才",
+        "description": "马文才",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "afternoon"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_ma_afternoon",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -1259,6 +1398,35 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch02_lb_k_teacher",
+        "name": "向先生请教",
+        "description": "向先生请教",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "afternoon"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_teacher_consult",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -1360,6 +1528,35 @@
          {
           "type": "start_dialogue",
           "target": "ch02_tea",
+          "value": {
+           "ap": 0,
+           "kind": "tea"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_lb_k_tea",
+        "name": "书童送茶",
+        "description": "书童送茶",
+        "type": "examine",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "daily_tea"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_tea",
           "value": {
            "ap": 0,
            "kind": "tea"
@@ -3086,7 +3283,8 @@
   "slice": {
    "sliceId": "lz_ch02",
    "roles": [
-    "zhuyingtai"
+    "zhuyingtai",
+    "liangshanbo"
    ],
    "objectInteractions": {
     "map_lz_ch02_classroom_v1_story_d": [
@@ -3120,6 +3318,39 @@
         "value": {
          "ap": 1,
          "kind": "study"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_k_copy",
+      "name": "誊抄讲义",
+      "description": "誊抄讲义",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "afternoon",
+         "night_reading",
+         "late_night"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_copy",
+        "value": {
+         "ap": 1,
+         "kind": "copy"
         }
        }
       ]
@@ -3185,6 +3416,35 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch02_lb_k_screen",
+      "name": "屏风后听议论",
+      "description": "屏风后听议论",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "card_shoufen"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_screen",
+        "value": {
+         "ap": 1,
+         "kind": "study"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch02_classroom_v1_story_b": [
@@ -3205,6 +3465,30 @@
        {
         "type": "start_dialogue",
         "target": "ch02_lectern_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_k_lectern",
+      "name": "看讲席",
+      "description": "看讲席",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_lectern",
         "value": {
          "ap": 0,
          "kind": "look"

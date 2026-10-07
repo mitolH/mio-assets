@@ -625,7 +625,58 @@
      "animationId": "idle-down",
      "tileX": 10,
      "tileY": 17,
-     "refId": "map_lz_ch02_library_v1_actor_zhuyingtai_1"
+     "refId": "map_lz_ch02_library_v1_actor_zhuyingtai_1",
+     "persona": {
+      "npcId": "zhuyingtai",
+      "periods": [
+       "library_night"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_lb_l_zhu",
+        "name": "与祝贤弟说话",
+        "description": "与祝贤弟说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "library_night"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lib_liang_with"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lib_liang_lookout"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_lib_zhu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -729,7 +780,7 @@
         "face": "player"
        }
       ],
-      "speed": 1.0
+      "speed": 1
      }
     },
     {
@@ -833,6 +884,45 @@
           "target": "ch02_lib_return",
           "value": {
            "ap": 0,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_lb_l_return",
+        "name": "交还缺页",
+        "description": "交还缺页",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "library_night"
+         },
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "lib_page_found"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lib_resolved"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_lib_return",
+          "value": {
+           "ap": 1,
            "kind": "talk"
           }
          }
@@ -2444,7 +2534,8 @@
   "slice": {
    "sliceId": "lz_ch02",
    "roles": [
-    "zhuyingtai"
+    "zhuyingtai",
+    "liangshanbo"
    ],
    "objectInteractions": {
     "map_lz_ch02_library_v1_story_a": [
@@ -2499,6 +2590,64 @@
        {
         "type": "start_dialogue",
         "target": "ch02_lib_quiet",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_l_shelf",
+      "name": "翻左侧书架",
+      "description": "翻左侧书架",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lib_clue"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_lib_shelf",
+        "value": {
+         "ap": 1,
+         "kind": "search"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_l_shelf_quiet",
+      "name": "看看",
+      "description": "看看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_lib_quiet",
         "value": {
          "ap": 0,
          "kind": "look"
@@ -2565,6 +2714,64 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch02_lb_l_register",
+      "name": "登记册",
+      "description": "登记册",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lib_register_safe"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_lib_register",
+        "value": {
+         "ap": 1,
+         "kind": "search"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_l_desk_quiet",
+      "name": "看看",
+      "description": "看看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_lib_quiet",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch02_library_v1_story_b": [
@@ -2619,6 +2826,64 @@
        {
         "type": "start_dialogue",
         "target": "ch02_lib_quiet",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_l_chest",
+      "name": "祝贤弟的书箱",
+      "description": "祝贤弟的书箱",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lib_page_found"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_lib_chest",
+        "value": {
+         "ap": 1,
+         "kind": "search"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_l_chest_quiet",
+      "name": "看看",
+      "description": "看看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_lib_quiet",
         "value": {
          "ap": 0,
          "kind": "look"
@@ -2719,6 +2984,74 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch02_lb_l_ladder_return",
+      "name": "攀书梯放回缺页",
+      "description": "攀书梯放回缺页",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "lib_page_found"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lib_resolved"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_lib_ladder",
+        "value": {
+         "ap": 1,
+         "kind": "search"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_l_ladder_look",
+      "name": "看书梯",
+      "description": "看书梯",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_lib_ladder_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch02_library_v1_story_lamp": [
@@ -2768,6 +3101,59 @@
        {
         "type": "start_dialogue",
         "target": "ch02_lib_quiet",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_l_lamp",
+      "name": "夜灯",
+      "description": "夜灯",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_lib_lamp",
+        "value": {
+         "ap": 1,
+         "kind": "search"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_l_lamp_quiet",
+      "name": "看看",
+      "description": "看看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_lib_quiet",
         "value": {
          "ap": 0,
          "kind": "look"

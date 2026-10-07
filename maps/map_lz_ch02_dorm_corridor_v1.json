@@ -763,7 +763,48 @@
      "animationId": "idle-down",
      "tileX": 9,
      "tileY": 13,
-     "refId": "map_lz_ch02_dorm_corridor_v1_actor_zhuyingtai_1"
+     "refId": "map_lz_ch02_dorm_corridor_v1_actor_zhuyingtai_1",
+     "persona": {
+      "npcId": "zhuyingtai",
+      "periods": [
+       "rain_night"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_lb_d_zhu",
+        "name": "与祝贤弟听雨",
+        "description": "与祝贤弟听雨",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "rain_night"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_dorm_zhu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -865,6 +906,40 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch02_lb_d_ma",
+        "name": "拦住马文才",
+        "description": "拦住马文才",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "rain_night"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ma_stalled"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_dorm_ma",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -921,6 +996,40 @@
          {
           "type": "start_dialogue",
           "target": "ch02_dorm_night_talk",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_lb_d_lu",
+        "name": "陆怀安",
+        "description": "陆怀安",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "rain_night"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lu_postponed"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_dorm_lu",
           "value": {
            "ap": 1,
            "kind": "talk"
@@ -988,6 +1097,46 @@
      },
      "persona": {
       "npcId": "page_boy"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_lb_d_lamp",
+        "name": "借四九的夜灯",
+        "description": "借四九的夜灯",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "rain_night"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "liang_lamp"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_lb_dorm_lamp",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -2315,7 +2464,8 @@
   "slice": {
    "sliceId": "lz_ch02",
    "roles": [
-    "zhuyingtai"
+    "zhuyingtai",
+    "liangshanbo"
    ],
    "objectInteractions": {
     "map_lz_ch02_dorm_corridor_v1_story_b": [
@@ -2370,6 +2520,64 @@
        {
         "type": "start_dialogue",
         "target": "ch02_dorm_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_d_curtain",
+      "name": "她房门的竹帘",
+      "description": "她房门的竹帘",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "rain_night"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "curtain_down"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_dorm_curtain",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_d_curtain_look",
+      "name": "看看",
+      "description": "看看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_dorm_look",
         "value": {
          "ap": 0,
          "kind": "look"
@@ -2550,6 +2758,30 @@
        {
         "type": "start_dialogue",
         "target": "ch02_dorm_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_lb_d_route_look",
+      "name": "看看",
+      "description": "看看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_lb_dorm_look",
         "value": {
          "ap": 0,
          "kind": "look"
