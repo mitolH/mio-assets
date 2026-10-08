@@ -311,7 +311,12 @@
      "componentId": "comp_lz_ch01_gate_reeds_v3",
      "tileX": 27,
      "tileY": 11,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_27_11"
+     "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_27_11",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -595,7 +600,12 @@
      "componentId": "comp_lz_ch01_gate_reeds_v3",
      "tileX": 21,
      "tileY": 17,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_21_17"
+     "refId": "map_lz_ch02_bamboo_path_v1_kit_reeds_21_17",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -697,7 +707,12 @@
      "componentId": "comp_lz_ch01_gate_bamboo_v4",
      "tileX": 33,
      "tileY": 15,
-     "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_33_15"
+     "refId": "map_lz_ch02_bamboo_path_v1_kit_bamboo_33_15",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -766,7 +781,8 @@
       "npcId": "zhuyingtai",
       "periods": [
        "afternoon"
-      ]
+      ],
+      "mobile": true
      },
      "interaction": {
       "interactionRange": 2,
@@ -841,6 +857,32 @@
         ]
        }
       ]
+     },
+     "autonomy": {
+      "reactions": [
+       {
+        "trigger": {
+         "type": "storyVariable",
+         "key": "mwBambooListen",
+         "op": "gte",
+         "value": 1
+        },
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 15,
+           "tileY": 15
+          },
+          {
+           "tileX": 16,
+           "tileY": 14
+          }
+         ]
+        }
+       }
+      ],
+      "speed": 1
      }
     },
     {
@@ -854,7 +896,8 @@
       "npcId": "liangshanbo",
       "periods": [
        "afternoon"
-      ]
+      ],
+      "mobile": true
      },
      "interaction": {
       "interactionRange": 2,
@@ -929,6 +972,32 @@
         ]
        }
       ]
+     },
+     "autonomy": {
+      "reactions": [
+       {
+        "trigger": {
+         "type": "storyVariable",
+         "key": "mwBambooListen",
+         "op": "gte",
+         "value": 1
+        },
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 18,
+           "tileY": 15
+          },
+          {
+           "tileX": 20,
+           "tileY": 16
+          }
+         ]
+        }
+       }
+      ],
+      "speed": 1
      }
     },
     {
@@ -3249,7 +3318,8 @@
    "sliceId": "lz_ch02",
    "roles": [
     "zhuyingtai",
-    "liangshanbo"
+    "liangshanbo",
+    "mawencai"
    ],
    "objectInteractions": {
     "map_lz_ch02_bamboo_path_v1_story_b": [
@@ -3352,6 +3422,35 @@
        {
         "type": "start_dialogue",
         "target": "ch02_lb_bamboo_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_mw_b_bench",
+      "name": "石凳上的书",
+      "description": "石凳上的书",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "bamboo_listen"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_b_bench",
         "value": {
          "ap": 0,
          "kind": "look"
@@ -3463,6 +3562,148 @@
         "value": {
          "ap": 0,
          "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_mw_b_jade",
+      "name": "溪边的青光",
+      "description": "溪边的青光",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "bamboo_listen"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_took_jade"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_b_jade",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch02_bamboo_path_v1_kit_bamboo_33_15": [
+     {
+      "id": "lz_ch02_mw_b_far",
+      "name": "远处竹丛后",
+      "description": "远处竹丛后",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "bamboo_listen"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_clue_bamboo_far"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_b_far",
+        "value": {
+         "ap": 1,
+         "kind": "listen"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch02_bamboo_path_v1_kit_reeds_27_11": [
+     {
+      "id": "lz_ch02_mw_b_mid",
+      "name": "溪边芦苇后",
+      "description": "溪边芦苇后",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "bamboo_listen"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_clue_bamboo_mid"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_b_mid",
+        "value": {
+         "ap": 1,
+         "kind": "listen"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch02_bamboo_path_v1_kit_reeds_21_17": [
+     {
+      "id": "lz_ch02_mw_b_near",
+      "name": "近处竹丛",
+      "description": "近处竹丛",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "bamboo_listen"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_clue_bamboo_near"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_b_near",
+        "value": {
+         "ap": 1,
+         "kind": "listen"
         }
        }
       ]

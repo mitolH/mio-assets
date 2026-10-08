@@ -875,6 +875,35 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch02_mw_c_zhu",
+        "name": "与祝九说话",
+        "description": "与祝九说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "morning_reading"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_c_zhu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -991,6 +1020,35 @@
          {
           "type": "start_dialogue",
           "target": "ch02_liang_morning_read",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_mw_c_liang",
+        "name": "与梁山伯说话",
+        "description": "与梁山伯说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "morning_reading"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_c_liang",
           "value": {
            "ap": 1,
            "kind": "talk"
@@ -1241,6 +1299,35 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch02_mw_c_teacher",
+        "name": "向先生请教",
+        "description": "向先生请教",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "morning_reading"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_c_teacher",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -1370,6 +1457,38 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch02_mw_c_siujiu",
+        "name": "打点四九",
+        "description": "打点四九",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": [
+           "morning_reading",
+           "afternoon"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_c_siujiu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -1422,7 +1541,43 @@
       "periods": [
        "morning_reading"
       ],
-      "watcher": true
+      "watcher": true,
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_mw_c_guard",
+        "name": "吩咐随从",
+        "description": "吩咐随从",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "morning_reading"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_c_guard",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     }
    ]
@@ -2834,7 +2989,8 @@
    "sliceId": "lz_ch02",
    "roles": [
     "zhuyingtai",
-    "liangshanbo"
+    "liangshanbo",
+    "mawencai"
    ],
    "objectInteractions": {
     "map_lz_ch02_academy_courtyard_v1_story_b": [
@@ -2963,6 +3119,30 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch02_mw_c_notice",
+      "name": "座次告示",
+      "description": "座次告示",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_notice_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch02_academy_courtyard_v1_story_a": [
@@ -3033,6 +3213,40 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch02_mw_c_notes",
+      "name": "石桌上的讲义",
+      "description": "石桌上的讲义",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "morning_reading"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_clue_notes"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_notes",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch02_academy_courtyard_v1_story_c": [
@@ -3088,6 +3302,38 @@
         "value": {
          "ap": 0,
          "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_mw_c_shade",
+      "name": "竹影角落：静一静",
+      "description": "竹影角落：静一静",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": [
+         "morning_reading",
+         "afternoon"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_shade",
+        "value": {
+         "ap": 1,
+         "kind": "rest"
         }
        }
       ]

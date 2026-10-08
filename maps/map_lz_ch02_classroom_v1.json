@@ -1068,6 +1068,39 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch02_mw_k_zhu",
+        "name": "与祝九论书",
+        "description": "与祝九论书",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": [
+           "afternoon",
+           "night_reading",
+           "late_night"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_k_zhu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -1203,6 +1236,39 @@
          {
           "type": "start_dialogue",
           "target": "ch02_liang_night",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_mw_k_liang",
+        "name": "与梁山伯论经",
+        "description": "与梁山伯论经",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": [
+           "afternoon",
+           "night_reading",
+           "late_night"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_k_liang",
           "value": {
            "ap": 1,
            "kind": "talk"
@@ -1427,6 +1493,35 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch02_mw_k_teacher",
+        "name": "向先生请教",
+        "description": "向先生请教",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "afternoon"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_k_teacher",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -1560,6 +1655,38 @@
           "value": {
            "ap": 0,
            "kind": "tea"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_mw_k_tea",
+        "name": "四九送茶",
+        "description": "四九送茶",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": [
+           "night_reading",
+           "late_night"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_k_tea",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
           }
          }
         ]
@@ -3284,7 +3411,8 @@
    "sliceId": "lz_ch02",
    "roles": [
     "zhuyingtai",
-    "liangshanbo"
+    "liangshanbo",
+    "mawencai"
    ],
    "objectInteractions": {
     "map_lz_ch02_classroom_v1_story_d": [
@@ -3445,6 +3573,38 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch02_mw_k_screen",
+      "name": "屏风后的议论",
+      "description": "屏风后的议论",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": [
+         "afternoon",
+         "night_reading"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_k_screen",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch02_classroom_v1_story_b": [
@@ -3492,6 +3652,39 @@
         "value": {
          "ap": 0,
          "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_mw_k_lectern",
+      "name": "讲台：温习礼法",
+      "description": "讲台：温习礼法",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": [
+         "afternoon",
+         "night_reading",
+         "late_night"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_k_lectern",
+        "value": {
+         "ap": 1,
+         "kind": "study"
         }
        }
       ]

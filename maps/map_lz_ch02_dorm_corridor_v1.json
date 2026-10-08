@@ -802,6 +802,35 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch02_mw_d_zhu",
+        "name": "与祝九说话",
+        "description": "与祝九说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "rain_night"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_d_zhu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -845,6 +874,35 @@
          {
           "type": "start_dialogue",
           "target": "ch02_dorm_rain_talk",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_mw_d_liang",
+        "name": "与梁山伯说话",
+        "description": "与梁山伯说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "rain_night"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_d_liang",
           "value": {
            "ap": 1,
            "kind": "talk"
@@ -953,6 +1011,41 @@
      "refId": "map_lz_ch02_dorm_corridor_v1_actor_student_4",
      "persona": {
       "npcId": "zhou_zijing"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_mw_d_zhou",
+        "name": "与周子敬说话",
+        "description": "与周子敬说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "rain_night"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_d_zhou",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -1030,6 +1123,35 @@
          {
           "type": "start_dialogue",
           "target": "ch02_lb_dorm_lu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch02_mw_d_lu",
+        "name": "召陆怀安",
+        "description": "召陆怀安",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "rain_night"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_d_lu",
           "value": {
            "ap": 1,
            "kind": "talk"
@@ -1136,6 +1258,35 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch02_mw_d_siujiu",
+        "name": "打点四九",
+        "description": "打点四九",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "rain_night"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_d_siujiu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -1150,7 +1301,8 @@
      "persona": {
       "npcId": "ma_guard",
       "periods": [],
-      "watcher": true
+      "watcher": true,
+      "mobile": true
      },
      "autonomy": {
       "reactions": [
@@ -1170,6 +1322,41 @@
        }
       ],
       "speed": 2.5
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch02_mw_d_guard",
+        "name": "吩咐随从",
+        "description": "吩咐随从",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "rain_night"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_d_guard",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     }
    ]
@@ -2466,7 +2653,8 @@
    "sliceId": "lz_ch02",
    "roles": [
     "zhuyingtai",
-    "liangshanbo"
+    "liangshanbo",
+    "mawencai"
    ],
    "objectInteractions": {
     "map_lz_ch02_dorm_corridor_v1_story_b": [
@@ -2710,6 +2898,35 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch02_mw_d_wash",
+      "name": "洗漱架",
+      "description": "洗漱架",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "rain_night"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_d_wash",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch02_dorm_corridor_v1_story_route": [
@@ -2786,6 +3003,35 @@
         "value": {
          "ap": 0,
          "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_mw_d_route",
+      "name": "廊下听雨",
+      "description": "廊下听雨",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "rain_night"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_d_route",
+        "value": {
+         "ap": 1,
+         "kind": "rest"
         }
        }
       ]

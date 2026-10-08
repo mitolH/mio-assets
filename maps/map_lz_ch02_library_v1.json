@@ -674,6 +674,35 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch02_mw_l_zhu",
+        "name": "与祝九打照面",
+        "description": "与祝九打照面",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "library_night"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_l_zhu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -689,7 +718,8 @@
       "npcId": "liangshanbo",
       "periods": [
        "library_night"
-      ]
+      ],
+      "mobile": true
      },
      "interaction": {
       "interactionRange": 2,
@@ -728,8 +758,67 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch02_mw_l_liang",
+        "name": "与梁山伯搭话",
+        "description": "与梁山伯搭话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "library_night"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch02_mw_l_liang",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
+     },
+     "autonomy": {
+      "reactions": [
+       {
+        "trigger": {
+         "type": "storyVariable",
+         "key": "mwLibraryHunt",
+         "op": "gte",
+         "value": 1
+        },
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 16,
+           "tileY": 17
+          },
+          {
+           "tileX": 18,
+           "tileY": 15
+          },
+          {
+           "tileX": 20,
+           "tileY": 16
+          }
+         ]
+        }
+       }
+      ],
+      "speed": 1
      }
     },
     {
@@ -2535,7 +2624,8 @@
    "sliceId": "lz_ch02",
    "roles": [
     "zhuyingtai",
-    "liangshanbo"
+    "liangshanbo",
+    "mawencai"
    ],
    "objectInteractions": {
     "map_lz_ch02_library_v1_story_a": [
@@ -2651,6 +2741,40 @@
         "value": {
          "ap": 0,
          "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_mw_l_shelf",
+      "name": "翻《学记》书架",
+      "description": "翻《学记》书架",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_knows_chest"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_l_shelf",
+        "value": {
+         "ap": 1,
+         "kind": "search"
         }
        }
       ]
@@ -2772,6 +2896,74 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch02_mw_l_register",
+      "name": "翻借书登记册",
+      "description": "翻借书登记册",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_clue_register"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_l_register",
+        "value": {
+         "ap": 1,
+         "kind": "search"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_mw_l_desk_done",
+      "name": "登记册",
+      "description": "登记册",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "mw_clue_register"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_l_desk_done",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch02_library_v1_story_b": [
@@ -2884,6 +3076,118 @@
        {
         "type": "start_dialogue",
         "target": "ch02_lb_lib_quiet",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_mw_l_chest",
+      "name": "翻祝九的书箱",
+      "description": "翻祝九的书箱",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lib_chest_hidden"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_clue_sachet"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_l_chest",
+        "value": {
+         "ap": 1,
+         "kind": "search"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_mw_l_chest_locked",
+      "name": "书箱（锁了）",
+      "description": "书箱（锁了）",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "lib_chest_hidden"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_clue_sachet"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_l_chest_hidden",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_mw_l_chest_done",
+      "name": "书箱",
+      "description": "书箱",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "mw_clue_sachet"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_l_chest_done",
         "value": {
          "ap": 0,
          "kind": "look"
@@ -3052,6 +3356,40 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch02_mw_l_ladder",
+      "name": "爬上书梯看动静",
+      "description": "爬上书梯看动静",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_route_known"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_l_ladder",
+        "value": {
+         "ap": 1,
+         "kind": "search"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch02_library_v1_story_lamp": [
@@ -3157,6 +3495,35 @@
         "value": {
          "ap": 0,
          "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch02_mw_l_lamp",
+      "name": "夜灯",
+      "description": "夜灯",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "library_night"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch02_mw_l_lamp",
+        "value": {
+         "ap": 1,
+         "kind": "search"
         }
        }
       ]

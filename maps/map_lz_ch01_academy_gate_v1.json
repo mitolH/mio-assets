@@ -75,6 +75,7 @@
     "sprite_liangshanbo_sick_48x96_story_v1",
     "sprite_ma_guard_48x96_story_v1",
     "sprite_mawencai_48x96_story_v1",
+    "sprite_student_b_48x96_story_v1",
     "sprite_teacher_48x96_story_v1",
     "sprite_zhuyingtai_48x96_story_v1",
     "sprite_zhuyingtai_butterfly_48x96_story_v1",
@@ -9430,6 +9431,35 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch01_mw_gt_zhu",
+        "name": "受祝九见礼",
+        "description": "受祝九见礼",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "gate"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_mw_gt_zhu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -9473,6 +9503,35 @@
          {
           "type": "start_dialogue",
           "target": "ch01_gt_liang",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch01_mw_gt_liang",
+        "name": "打量那布衣书生",
+        "description": "打量那布衣书生",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "gate"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_mw_gt_liang",
           "value": {
            "ap": 1,
            "kind": "talk"
@@ -9603,6 +9662,85 @@
     },
     {
      "assetType": "sprite",
+     "spriteId": "sprite_student_b_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 25,
+     "tileY": 22,
+     "refId": "map_lz_ch01_academy_gate_v1_actor_lu_huaian_6",
+     "persona": {
+      "npcId": "lu_huaian",
+      "periods": [
+       "gate_dawn",
+       "gate_after"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch01_mw_gt_lu",
+        "name": "与早到的同窗攀谈",
+        "description": "与早到的同窗攀谈",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "gate_dawn"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_mw_gt_lu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch01_mw_gt_lu_after",
+        "name": "与陆怀安说话",
+        "description": "与陆怀安说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "gate_after"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_mw_gt_lu_after",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "sprite",
      "spriteId": "sprite_teacher_48x96_story_v1",
      "animationId": "idle-down",
      "tileX": 22,
@@ -9648,7 +9786,9 @@
      "persona": {
       "npcId": "teacher",
       "periods": [
-       "gate"
+       "gate",
+       "gate_dawn",
+       "gate_after"
       ],
       "mobile": true
      },
@@ -9713,6 +9853,67 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch01_mw_gt_teacher_assist",
+        "name": "向先生请命协理登记",
+        "description": "向先生请命协理登记",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "gate_dawn"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_mw_teacher_assist",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch01_mw_gt_teacher",
+        "name": "与先生说话",
+        "description": "与先生说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": [
+           "gate",
+           "gate_after"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_mw_teacher_talk",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -9748,9 +9949,130 @@
      "persona": {
       "npcId": "ma_guard",
       "periods": [
-       "gate"
+       "gate",
+       "gate_dawn",
+       "gate_after"
       ],
-      "watcher": true
+      "watcher": true,
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch01_mw_gt_guard_scout",
+        "name": "差随从去山道打探",
+        "description": "差随从去山道打探",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "gate_dawn"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_scouted"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_mw_guard_scout",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch01_mw_gt_guard_chest",
+        "name": "让随从去瞧瞧那只书箱",
+        "description": "让随从去瞧瞧那只书箱",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "gate"
+         },
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "mw_register_done"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_inspected"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_clue_chest"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_mw_guard_chest",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch01_mw_gt_guard_seat",
+        "name": "差随从去打点座次",
+        "description": "差随从去打点座次",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "gate_after"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ma_moved_seat"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch01_mw_guard_seat",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     }
    ]
@@ -10606,7 +10928,8 @@
    "sliceId": "lz_ch01",
    "roles": [
     "zhuyingtai",
-    "liangshanbo"
+    "liangshanbo",
+    "mawencai"
    ],
    "objectInteractions": {
     "map_lz_ch01_academy_gate_v1_story_b": [
@@ -10674,6 +10997,108 @@
         "value": {
          "ap": 0,
          "kind": "depart"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch01_mw_gt_desk_dawn",
+      "name": "登记桌",
+      "description": "登记桌",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "gate_dawn"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_mw_desk_dawn",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch01_mw_gt_book",
+      "name": "同阅登记册",
+      "description": "同阅登记册",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "gate"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "mw_register_done"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "mw_assist"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_clue_book"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_mw_book",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch01_mw_gt_letter",
+      "name": "给马太守写信",
+      "description": "给马太守写信",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "gate_after"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_mw_letter",
+        "value": {
+         "ap": 1,
+         "kind": "write"
         }
        }
       ]
@@ -10767,6 +11192,64 @@
        {
         "type": "start_dialogue",
         "target": "ch01_lb_gt_notice",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch01_mw_gt_rule",
+      "name": "张贴门规",
+      "description": "张贴门规",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "gate_dawn"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ma_rule_posted"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_mw_rule",
+        "value": {
+         "ap": 1,
+         "kind": "post"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch01_mw_gt_notice",
+      "name": "入学须知",
+      "description": "入学须知",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch01_mw_notice",
         "value": {
          "ap": 0,
          "kind": "look"
