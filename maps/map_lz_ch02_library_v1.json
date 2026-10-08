@@ -3501,8 +3501,8 @@
      },
      {
       "id": "lz_ch02_mw_l_lamp",
-      "name": "夜灯",
-      "description": "夜灯",
+      "name": "吹熄夜灯",
+      "description": "吹熄夜灯",
       "type": "examine",
       "weight": 1,
       "conditions": [
@@ -3515,6 +3515,11 @@
         "type": "period",
         "operator": "eq",
         "value": "library_night"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_lamp_out"
        }
       ],
       "effects": [
