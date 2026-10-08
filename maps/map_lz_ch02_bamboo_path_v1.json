@@ -3329,8 +3329,8 @@
         "type": "start_dialogue",
         "target": "ch02_lb_bamboo_bench",
         "value": {
-         "ap": 1,
-         "kind": "study"
+         "ap": 0,
+         "kind": "look"
         }
        }
       ]
@@ -3437,7 +3437,7 @@
         "type": "start_dialogue",
         "target": "ch02_lb_bamboo_jade",
         "value": {
-         "ap": 1,
+         "ap": 0,
          "kind": "look"
         }
        }
