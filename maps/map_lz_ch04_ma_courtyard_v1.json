@@ -1,1146 +1,3752 @@
 {
-  "id": "map_lz_ch04_ma_courtyard_v1",
-  "name": "马府外院 v1",
-  "description": "马府外院，梁祝五章第一版统一风格可玩地图。",
-  "widthInTiles": 44,
-  "heightInTiles": 32,
-  "level": {
-    "formatVersion": 1,
-    "startLocationId": "map_lz_ch04_ma_courtyard_v1_start",
-    "assets": {
-      "componentIds": [
-        "comp_lz_ground_grass_story_v1",
-        "comp_lz_ground_stone_story_v1",
-        "comp_lz_prop_betrothal_chest_story_v1",
-        "comp_lz_prop_marriage_doc_story_v1",
-        "comp_map_lz_ch04_ma_courtyard_v1_ambient_scene_detail_v2",
-        "comp_map_lz_ch04_ma_courtyard_v1_focus_story_v1",
-        "comp_map_lz_ch04_ma_courtyard_v1_left_scene_detail_v2",
-        "comp_map_lz_ch04_ma_courtyard_v1_left_scene_fixture_v1",
-        "comp_map_lz_ch04_ma_courtyard_v1_path_scene_detail_v2",
-        "comp_map_lz_ch04_ma_courtyard_v1_right_scene_detail_v2",
-        "comp_map_lz_ch04_ma_courtyard_v1_right_scene_fixture_v1",
-        "comp_map_lz_ch04_ma_courtyard_v1_story_atmosphere_v6",
-        "comp_map_lz_ch04_ma_courtyard_v1_story_composition_v4",
-        "comp_map_lz_ch04_ma_courtyard_v1_story_scene_plate_v10",
-        "comp_map_lz_ch04_ma_courtyard_v1_story_tableau_v4",
-        "comp_pressure_betrothal_chest_stack_v1",
-        "comp_pressure_cold_door_rain_v1",
-        "comp_pressure_guard_rack_v1",
-        "comp_pressure_ma_gate_v1"
-      ],
-      "spriteIds": [
-        "sprite_liangshanbo_48x96_story_v2",
-        "sprite_liangshanbo_butterfly_48x96_story_v1",
-        "sprite_liangshanbo_sick_48x96_story_v1",
-        "sprite_ma_guard_48x96_story_v1",
-        "sprite_ma_steward_48x96_story_v1",
-        "sprite_mawencai_48x96_story_v1",
-        "sprite_zhuyingtai_48x96_story_v1",
-        "sprite_zhuyingtai_butterfly_48x96_story_v1",
-        "sprite_zhuyingtai_wedding_48x96_story_v1"
-      ],
-      "mapIds": [
-        "map_lz_ch04_ma_courtyard_v1"
-      ]
+ "id": "map_lz_ch04_ma_courtyard_v1",
+ "name": "马府外院 v2",
+ "description": "马府外院 v2（第四章方案B「门前八字墙·聘船出水」）：雨暮，北面清水砖高墙、乌漆门楼「馬府」与八字墙（马府材质替换套件），门楼下管家在婚书案上核礼单，聘礼排队下河埠头装上货船（水路送祝府），暖轿与上马石，东街口随从拦下梁山伯。雨、暮色、灯光为独立氛围层。",
+ "widthInTiles": 44,
+ "heightInTiles": 32,
+ "level": {
+  "formatVersion": 1,
+  "startLocationId": "map_lz_ch04_ma_courtyard_v1_start",
+  "assets": {
+   "componentIds": [
+    "comp_lz_betrothal_candle_stand_v1",
+    "comp_lz_betrothal_chest_pole_v1",
+    "comp_lz_betrothal_chest_stack_pole_v1",
+    "comp_lz_betrothal_gift_tray_v1",
+    "comp_lz_betrothal_goose_cage_v1",
+    "comp_lz_betrothal_jiaoyi_v1",
+    "comp_lz_ch01_ferry_lantern_reflection_boat_v2",
+    "comp_lz_ch01_gate_reeds_v3",
+    "comp_lz_ch01_gate_river_landing_v3",
+    "comp_lz_ch04_ma_courtyard_block_v1",
+    "comp_lz_ch04_ma_courtyard_gangplank_v1",
+    "comp_lz_ch04_ma_courtyard_gift_boat_reflection_v1",
+    "comp_lz_ch04_ma_courtyard_gift_boat_v1",
+    "comp_lz_ch04_ma_courtyard_grade_rain_dusk_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r0c0_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r0c1_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r0c2_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r0c3_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r1c0_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r1c1_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r1c2_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r1c3_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r2c0_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r2c1_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r2c2_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r2c3_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r3c0_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r3c1_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r3c2_v1",
+    "comp_lz_ch04_ma_courtyard_ground_r3c3_v1",
+    "comp_lz_ch04_ma_courtyard_high_wall_w_v1",
+    "comp_lz_ch04_ma_courtyard_lantern_pools_v1",
+    "comp_lz_ch04_ma_courtyard_lantern_post_v1",
+    "comp_lz_ch04_ma_courtyard_mounting_block_v1",
+    "comp_lz_ch04_ma_courtyard_rain_v1",
+    "comp_lz_ch04_ma_courtyard_sedan_chair_v1",
+    "comp_lz_ch04_ma_courtyard_wall_e_end_v1",
+    "comp_lz_ch04_ma_courtyard_wall_s_v1",
+    "comp_lz_ch04_ma_courtyard_willow_v1",
+    "comp_lz_mafu_bazi_wall_e_v1",
+    "comp_lz_mafu_bazi_wall_w_v1",
+    "comp_lz_mafu_gatehouse_v1",
+    "comp_lz_mafu_high_wall_v1",
+    "comp_lz_prop_marriage_desk_story_v1"
+   ],
+   "spriteIds": [
+    "sprite_boatman_48x96_story_v1",
+    "sprite_liangshanbo_48x96_story_v2",
+    "sprite_ma_guard_48x96_story_v1",
+    "sprite_ma_steward_48x96_story_v2",
+    "sprite_mawencai_48x96_story_v1"
+   ],
+   "mapIds": [
+    "map_lz_ch04_ma_courtyard_v1"
+   ]
+  }
+ },
+ "layers": [
+  {
+   "id": "map_lz_ch04_ma_courtyard_v1_ground",
+   "name": "Ground",
+   "type": "ground",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r0c0_v1",
+     "tileX": 0,
+     "tileY": 0,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r0c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r0c1_v1",
+     "tileX": 11,
+     "tileY": 0,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r0c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r0c2_v1",
+     "tileX": 22,
+     "tileY": 0,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r0c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r0c3_v1",
+     "tileX": 33,
+     "tileY": 0,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r0c3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r1c0_v1",
+     "tileX": 0,
+     "tileY": 8,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r1c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r1c1_v1",
+     "tileX": 11,
+     "tileY": 8,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r1c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r1c2_v1",
+     "tileX": 22,
+     "tileY": 8,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r1c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r1c3_v1",
+     "tileX": 33,
+     "tileY": 8,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r1c3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r2c0_v1",
+     "tileX": 0,
+     "tileY": 16,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r2c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r2c1_v1",
+     "tileX": 11,
+     "tileY": 16,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r2c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r2c2_v1",
+     "tileX": 22,
+     "tileY": 16,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r2c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r2c3_v1",
+     "tileX": 33,
+     "tileY": 16,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r2c3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r3c0_v1",
+     "tileX": 0,
+     "tileY": 24,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r3c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r3c1_v1",
+     "tileX": 11,
+     "tileY": 24,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r3c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r3c2_v1",
+     "tileX": 22,
+     "tileY": 24,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r3c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_ground_r3c3_v1",
+     "tileX": 33,
+     "tileY": 24,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ground_r3c3"
     }
+   ]
   },
-  "layers": [
+  {
+   "id": "map_lz_ch04_ma_courtyard_v1_objects",
+   "name": "Objects",
+   "type": "object",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
     {
-      "id": "map_lz_ch04_ma_courtyard_v1_ground",
-      "name": "Ground",
-      "type": "ground",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 0,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 4,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 8,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 12,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 16,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 20,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 24,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 28,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 32,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 36,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 40,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 0,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 4,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 8,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 12,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 16,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 20,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 24,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 28,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 32,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 36,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 40,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 0,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 4,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 8,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 12,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 16,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 20,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 24,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 28,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 32,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 36,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 40,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 0,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 4,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 8,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 12,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 16,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 20,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 24,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 28,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 32,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 36,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 40,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 0,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 4,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 8,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 12,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 16,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 20,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 24,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 28,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 32,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 36,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 40,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 0,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 4,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 8,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 12,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 16,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 20,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 24,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 28,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 32,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 36,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 40,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 0,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 4,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 8,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 12,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 16,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 20,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 24,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 28,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 32,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 36,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 40,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 0,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 4,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 8,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 12,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 16,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 20,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 24,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 28,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 32,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 36,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_stone_story_v1",
-          "tileX": 40,
-          "tileY": 28
-        }
-      ]
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_river_landing_v3",
+     "tileX": 27,
+     "tileY": 22,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch01_gate_river_landing_v3_27_22"
     },
     {
-      "id": "map_lz_ch04_ma_courtyard_v1_objects",
-      "name": "Objects",
-      "type": "object",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_ma_courtyard_v1_focus_story_v1",
-          "tileX": 14,
-          "tileY": 3,
-          "refId": "map_lz_ch04_ma_courtyard_v1_focus"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_pressure_ma_gate_v1",
-          "tileX": 13,
-          "tileY": 3,
-          "refId": "map_lz_ch04_ma_courtyard_v1_pressure_reference_ma_gate"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_pressure_betrothal_chest_stack_v1",
-          "tileX": 3,
-          "tileY": 18,
-          "refId": "map_lz_ch04_ma_courtyard_v1_pressure_reference_betrothal_chest_stack"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_pressure_guard_rack_v1",
-          "tileX": 32,
-          "tileY": 17,
-          "refId": "map_lz_ch04_ma_courtyard_v1_pressure_reference_guard_rack"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_pressure_cold_door_rain_v1",
-          "tileX": 22,
-          "tileY": 18,
-          "refId": "map_lz_ch04_ma_courtyard_v1_pressure_reference_cold_door_rain"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_ma_courtyard_v1_story_scene_plate_v10",
-          "tileX": 10,
-          "tileY": 2,
-          "refId": "map_lz_ch04_ma_courtyard_v1_story_scene_plate"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_ma_courtyard_v1_story_atmosphere_v6",
-          "tileX": 10,
-          "tileY": 2,
-          "refId": "map_lz_ch04_ma_courtyard_v1_story_atmosphere"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_prop_marriage_doc_story_v1",
-          "tileX": 10,
-          "tileY": 20,
-          "refId": "map_lz_ch04_ma_courtyard_v1_story_a",
-          "interaction": {
-            "interactionRange": 2,
-            "indicatorType": "sparkle",
-            "interactions": [
-              {
-                "id": "map_lz_ch04_ma_courtyard_v1_story_a_inspect",
-                "name": "查看马府外院线索",
-                "description": "马府外院线索承载着当前章节的关键线索。",
-                "type": "examine",
-                "conditions": [],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "马府外院线索承载着当前章节的关键线索。"
-                  },
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "马府外院线索提示了当前场景的主要矛盾。"
-                  }
-                ],
-                "weight": 1
-              },
-              {
-                "id": "map_lz_ch04_ma_courtyard_v1_story_a_choice",
-                "name": "处理马府外院线索",
-                "description": "你围绕马府外院线索整理线索，真正的角色状态结算会在抉择点发生。",
-                "type": "examine",
-                "conditions": [],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "你围绕马府外院线索整理线索，真正的角色状态结算会在抉择点发生。"
-                  },
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "马府外院线索已记录为共同线索。"
-                  }
-                ],
-                "weight": 1
-              }
-            ]
-          }
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_prop_betrothal_chest_story_v1",
-          "tileX": 30,
-          "tileY": 20,
-          "refId": "map_lz_ch04_ma_courtyard_v1_story_b",
-          "interaction": {
-            "interactionRange": 2,
-            "indicatorType": "sparkle",
-            "interactions": [
-              {
-                "id": "map_lz_ch04_ma_courtyard_v1_story_b_zhuyingtai",
-                "name": "祝英台：听闻 / 压力",
-                "description": "祝英台在场景三：马府外院围绕听闻、压力做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_zhuyingtai"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "祝英台在场景三：马府外院围绕听闻、压力做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": -3
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "social",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "maPressure",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "familyPressure",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch04_ma_family_forces_marriage",
-                      "sceneId": "ch04_scene_04_betrothal_hall",
-                      "mapId": "map_lz_ch04_betrothal_hall_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch04_ma_family_forces_marriage",
-                  "sceneId": "ch04_scene_03_ma_courtyard",
-                  "mapId": "map_lz_ch04_ma_courtyard_v1",
-                  "role": "zhuyingtai",
-                  "eventLabel": "听闻 / 压力",
-                  "keywords": [
-                    "听闻",
-                    "压力"
-                  ],
-                  "chapterFile": "chapter-04-ma-family-forces-marriage.md",
-                  "sceneHeading": "场景三：马府外院",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch04_ma_courtyard_v1",
-                  "role": "zhuyingtai",
-                  "presence": "reported",
-                  "impactScope": "indirect",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "reported",
-                "stateImpactScope": "indirect"
-              },
-              {
-                "id": "map_lz_ch04_ma_courtyard_v1_story_b_liangshanbo",
-                "name": "梁山伯：登门 / 被拒",
-                "description": "梁山伯在场景三：马府外院围绕登门、被拒做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_liangshanbo"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "梁山伯在场景三：马府外院围绕登门、被拒做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": -2
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "social",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "wealth",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "familyPressure",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "tragedyWeight",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch04_ma_family_forces_marriage",
-                      "sceneId": "ch04_scene_04_betrothal_hall",
-                      "mapId": "map_lz_ch04_betrothal_hall_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch04_ma_family_forces_marriage",
-                  "sceneId": "ch04_scene_03_ma_courtyard",
-                  "mapId": "map_lz_ch04_ma_courtyard_v1",
-                  "role": "liangshanbo",
-                  "eventLabel": "登门 / 被拒",
-                  "keywords": [
-                    "登门",
-                    "被拒"
-                  ],
-                  "chapterFile": "chapter-04-ma-family-forces-marriage.md",
-                  "sceneHeading": "场景三：马府外院",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch04_ma_courtyard_v1",
-                  "role": "liangshanbo",
-                  "presence": "present",
-                  "impactScope": "physical",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "present",
-                "stateImpactScope": "physical"
-              },
-              {
-                "id": "map_lz_ch04_ma_courtyard_v1_story_b_mawencai",
-                "name": "马文才：逼婚 / 强度",
-                "description": "马文才在场景三：马府外院围绕逼婚、强度做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_mawencai"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "马文才在场景三：马府外院围绕逼婚、强度做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "wealth",
-                    "value": 4
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "social",
-                    "value": 2
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": -2
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "health",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "maPressure",
-                    "value": 2
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "tragedyWeight",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch04_ma_family_forces_marriage",
-                      "sceneId": "ch04_scene_04_betrothal_hall",
-                      "mapId": "map_lz_ch04_betrothal_hall_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch04_ma_family_forces_marriage",
-                  "sceneId": "ch04_scene_03_ma_courtyard",
-                  "mapId": "map_lz_ch04_ma_courtyard_v1",
-                  "role": "mawencai",
-                  "eventLabel": "逼婚 / 强度",
-                  "keywords": [
-                    "逼婚",
-                    "强度"
-                  ],
-                  "chapterFile": "chapter-04-ma-family-forces-marriage.md",
-                  "sceneHeading": "场景三：马府外院",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch04_ma_courtyard_v1",
-                  "role": "mawencai",
-                  "presence": "present",
-                  "impactScope": "physical",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "present",
-                "stateImpactScope": "physical"
-              }
-            ]
-          }
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_ma_courtyard_v1_story_composition_v4",
-          "tileX": 10,
-          "tileY": 13,
-          "refId": "map_lz_ch04_ma_courtyard_v1_story_composition"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_mawencai_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 22,
-          "tileY": 22,
-          "refId": "map_lz_ch04_ma_courtyard_v1_actor_mawencai_1"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_ma_steward_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 27,
-          "tileY": 21,
-          "refId": "map_lz_ch04_ma_courtyard_v1_actor_ma_steward_2"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_ma_guard_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 31,
-          "tileY": 22,
-          "refId": "map_lz_ch04_ma_courtyard_v1_actor_ma_guard_3"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_ma_guard_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 14,
-          "tileY": 22,
-          "refId": "map_lz_ch04_ma_courtyard_v1_actor_ma_guard_4"
-        }
-      ]
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_high_wall_w_v1",
+     "tileX": 0,
+     "tileY": 0,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch04_ma_courtyard_high_wall_w_v1_0_0"
     },
     {
-      "id": "map_lz_ch04_ma_courtyard_v1_decor",
-      "name": "Decoration",
-      "type": "decoration",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_ma_courtyard_v1_story_tableau_v4",
-          "tileX": 2,
-          "tileY": 12,
-          "refId": "map_lz_ch04_ma_courtyard_v1_story_tableau"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_ma_courtyard_v1_left_scene_fixture_v1",
-          "tileX": 4,
-          "tileY": 16,
-          "refId": "map_lz_ch04_ma_courtyard_v1_scene_fixture_left"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_ma_courtyard_v1_right_scene_fixture_v1",
-          "tileX": 30,
-          "tileY": 16,
-          "refId": "map_lz_ch04_ma_courtyard_v1_scene_fixture_right"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_ma_courtyard_v1_left_scene_detail_v2",
-          "tileX": 4,
-          "tileY": 23,
-          "refId": "map_lz_ch04_ma_courtyard_v1_scene_detail_left"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_ma_courtyard_v1_right_scene_detail_v2",
-          "tileX": 36,
-          "tileY": 22,
-          "refId": "map_lz_ch04_ma_courtyard_v1_scene_detail_right"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_ma_courtyard_v1_path_scene_detail_v2",
-          "tileX": 20,
-          "tileY": 25,
-          "refId": "map_lz_ch04_ma_courtyard_v1_scene_detail_path"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_ma_courtyard_v1_ambient_scene_detail_v2",
-          "tileX": 8,
-          "tileY": 8,
-          "refId": "map_lz_ch04_ma_courtyard_v1_scene_detail_ambient"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 1,
-          "tileY": 1
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 39,
-          "tileY": 1
-        }
-      ]
-    }
-  ],
-  "districts": [
+     "assetType": "component",
+     "componentId": "comp_lz_mafu_high_wall_v1",
+     "tileX": 29,
+     "tileY": 0,
+     "refId": "map_lz_ch04_ma_courtyard_v1_mafu_high_wall_v1_29_0"
+    },
     {
-      "districtId": "map_lz_ch04_ma_courtyard_v1_district",
-      "name": "马府外院",
-      "x": 0,
-      "y": 0,
-      "width": 44,
-      "height": 32,
-      "terrainTags": [
-        "urban"
-      ],
-      "locations": [
-        {
-          "id": "map_lz_ch04_ma_courtyard_v1_start",
-          "name": "马府外院入口",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 22,
-          "offsetY": 24
-        },
-        {
-          "id": "map_lz_ch04_ma_courtyard_v1_clue",
-          "name": "马府外院线索点",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 10,
-          "offsetY": 20
-        },
-        {
-          "id": "map_lz_ch04_ma_courtyard_v1_choice",
-          "name": "马府外院抉择点",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 30,
-          "offsetY": 20
-        }
-      ],
-      "defaultEventDensity": 1
-    }
-  ],
-  "itemDefs": [],
-  "teleports": [],
-  "createdAt": 1782325200000,
-  "updatedAt": 1782325200000,
-  "version": 1,
-  "story": {
-    "storyId": "liangzhu",
-    "chapterId": "ch04_ma_family_forces_marriage",
-    "sceneId": "ch04_scene_03_ma_courtyard",
-    "scriptReference": {
-      "chapterFile": "chapter-04-ma-family-forces-marriage.md",
-      "sceneHeading": "场景三：马府外院",
-      "roleGoalKeywords": {
-        "zhuyingtai": [
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_wall_e_end_v1",
+     "tileX": 43,
+     "tileY": 0,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch04_ma_courtyard_wall_e_end_v1_43_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_mafu_bazi_wall_w_v1",
+     "tileX": 9,
+     "tileY": 7,
+     "refId": "map_lz_ch04_ma_courtyard_v1_mafu_bazi_wall_w_v1_9_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_mafu_bazi_wall_e_v1",
+     "tileX": 29,
+     "tileY": 7,
+     "refId": "map_lz_ch04_ma_courtyard_v1_mafu_bazi_wall_e_v1_29_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_mafu_gatehouse_v1",
+     "tileX": 14,
+     "tileY": 0,
+     "refId": "map_lz_ch04_ma_courtyard_v1_anchor_gatehouse"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_betrothal_jiaoyi_v1",
+     "tileX": 7,
+     "tileY": 10,
+     "refId": "map_lz_ch04_ma_courtyard_v1_betrothal_jiaoyi_v1_7_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_prop_marriage_desk_story_v1",
+     "tileX": 5,
+     "tileY": 12,
+     "refId": "map_lz_ch04_ma_courtyard_v1_story_a",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch04_ma_courtyard_v1_story_a_inspect",
+        "name": "查看马府外院线索",
+        "description": "马府外院线索承载着当前章节的关键线索。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "马府外院线索承载着当前章节的关键线索。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "马府外院线索提示了当前场景的主要矛盾。"
+         }
+        ],
+        "weight": 1
+       },
+       {
+        "id": "map_lz_ch04_ma_courtyard_v1_story_a_choice",
+        "name": "处理马府外院线索",
+        "description": "你围绕马府外院线索整理线索，真正的角色状态结算会在抉择点发生。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "你围绕马府外院线索整理线索，真正的角色状态结算会在抉择点发生。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "马府外院线索已记录为共同线索。"
+         }
+        ],
+        "weight": 1
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_betrothal_candle_stand_v1",
+     "tileX": 11,
+     "tileY": 11,
+     "refId": "map_lz_ch04_ma_courtyard_v1_betrothal_candle_stand_v1_11_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_betrothal_chest_pole_v1",
+     "tileX": 21,
+     "tileY": 14,
+     "refId": "map_lz_ch04_ma_courtyard_v1_betrothal_chest_pole_v1_21_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_betrothal_chest_stack_pole_v1",
+     "tileX": 24,
+     "tileY": 13,
+     "refId": "map_lz_ch04_ma_courtyard_v1_betrothal_chest_stack_pole_v1_24_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_betrothal_chest_pole_v1",
+     "tileX": 27,
+     "tileY": 15,
+     "refId": "map_lz_ch04_ma_courtyard_v1_story_b",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch04_ma_courtyard_v1_story_b_zhuyingtai",
+        "name": "祝英台：听闻 / 压力",
+        "description": "祝英台在场景三：马府外院围绕听闻、压力做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         }
+        ],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "祝英台在场景三：马府外院围绕听闻、压力做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": -3
+         },
+         {
+          "type": "modify_attribute",
+          "target": "social",
+          "value": -1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "maPressure",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "familyPressure",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch04_ma_family_forces_marriage",
+           "sceneId": "ch04_scene_04_betrothal_hall",
+           "mapId": "map_lz_ch04_betrothal_hall_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch04_ma_family_forces_marriage",
+         "sceneId": "ch04_scene_03_ma_courtyard",
+         "mapId": "map_lz_ch04_ma_courtyard_v1",
+         "role": "zhuyingtai",
+         "eventLabel": "听闻 / 压力",
+         "keywords": [
           "听闻",
           "压力"
+         ],
+         "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+         "sceneHeading": "场景三：马府外院",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch04_ma_courtyard_v1",
+         "role": "zhuyingtai",
+         "presence": "reported",
+         "impactScope": "indirect",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "reported",
+        "stateImpactScope": "indirect"
+       },
+       {
+        "id": "map_lz_ch04_ma_courtyard_v1_story_b_liangshanbo",
+        "name": "梁山伯：登门 / 被拒",
+        "description": "梁山伯在场景三：马府外院围绕登门、被拒做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         }
         ],
-        "liangshanbo": [
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "梁山伯在场景三：马府外院围绕登门、被拒做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": -2
+         },
+         {
+          "type": "modify_attribute",
+          "target": "social",
+          "value": -1
+         },
+         {
+          "type": "modify_attribute",
+          "target": "wealth",
+          "value": -1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "familyPressure",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "tragedyWeight",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch04_ma_family_forces_marriage",
+           "sceneId": "ch04_scene_04_betrothal_hall",
+           "mapId": "map_lz_ch04_betrothal_hall_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch04_ma_family_forces_marriage",
+         "sceneId": "ch04_scene_03_ma_courtyard",
+         "mapId": "map_lz_ch04_ma_courtyard_v1",
+         "role": "liangshanbo",
+         "eventLabel": "登门 / 被拒",
+         "keywords": [
           "登门",
           "被拒"
+         ],
+         "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+         "sceneHeading": "场景三：马府外院",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch04_ma_courtyard_v1",
+         "role": "liangshanbo",
+         "presence": "present",
+         "impactScope": "physical",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "present",
+        "stateImpactScope": "physical"
+       },
+       {
+        "id": "map_lz_ch04_ma_courtyard_v1_story_b_mawencai",
+        "name": "马文才：逼婚 / 强度",
+        "description": "马文才在场景三：马府外院围绕逼婚、强度做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         }
         ],
-        "mawencai": [
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "马文才在场景三：马府外院围绕逼婚、强度做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "wealth",
+          "value": 4
+         },
+         {
+          "type": "modify_attribute",
+          "target": "social",
+          "value": 2
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": -2
+         },
+         {
+          "type": "modify_attribute",
+          "target": "health",
+          "value": -1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "maPressure",
+          "value": 2
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "tragedyWeight",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch04_ma_family_forces_marriage",
+           "sceneId": "ch04_scene_04_betrothal_hall",
+           "mapId": "map_lz_ch04_betrothal_hall_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch04_ma_family_forces_marriage",
+         "sceneId": "ch04_scene_03_ma_courtyard",
+         "mapId": "map_lz_ch04_ma_courtyard_v1",
+         "role": "mawencai",
+         "eventLabel": "逼婚 / 强度",
+         "keywords": [
           "逼婚",
           "强度"
-        ]
-      }
+         ],
+         "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+         "sceneHeading": "场景三：马府外院",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch04_ma_courtyard_v1",
+         "role": "mawencai",
+         "presence": "present",
+         "impactScope": "physical",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "present",
+        "stateImpactScope": "physical"
+       }
+      ]
+     }
     },
-    "artStyle": {
-      "storyId": "liangzhu",
-      "visualStyle": "semi-realistic pixel comic",
-      "baseTileSize": 16,
-      "characterScale": "48x96",
-      "detailTier": "S",
-      "sceneFamily": "ma_gate",
-      "chapterPalette": "dark-wood-red-gold-law",
-      "mood": "family pressure and forced betrothal",
-      "focusTier": "S",
-      "detailPass": "second-pass-v2"
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_betrothal_gift_tray_v1",
+     "tileX": 24,
+     "tileY": 17,
+     "refId": "map_lz_ch04_ma_courtyard_v1_betrothal_gift_tray_v1_24_17"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_betrothal_chest_stack_pole_v1",
+     "tileX": 28,
+     "tileY": 17,
+     "refId": "map_lz_ch04_ma_courtyard_v1_betrothal_chest_stack_pole_v1_28_17"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_betrothal_goose_cage_v1",
+     "tileX": 19,
+     "tileY": 17,
+     "refId": "map_lz_ch04_ma_courtyard_v1_betrothal_goose_cage_v1_19_17"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_sedan_chair_v1",
+     "tileX": 34,
+     "tileY": 11,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch04_ma_courtyard_sedan_chair_v1_34_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_mounting_block_v1",
+     "tileX": 39,
+     "tileY": 11,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch04_ma_courtyard_mounting_block_v1_39_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_lantern_post_v1",
+     "tileX": 31,
+     "tileY": 18,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch04_ma_courtyard_lantern_post_v1_31_18"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_gift_boat_v1",
+     "tileX": 19,
+     "tileY": 22,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch04_ma_courtyard_gift_boat_v1_19_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_gift_boat_reflection_v1",
+     "tileX": 19,
+     "tileY": 27,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch04_ma_courtyard_gift_boat_reflection_v1_19_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_ferry_lantern_reflection_boat_v2",
+     "tileX": 32,
+     "tileY": 24,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch01_ferry_lantern_reflection_boat_v2_32_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_gangplank_v1",
+     "tileX": 24,
+     "tileY": 23,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch04_ma_courtyard_gangplank_v1_24_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_wall_s_v1",
+     "tileX": 0,
+     "tileY": 29,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch04_ma_courtyard_wall_s_v1_0_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_willow_v1",
+     "tileX": 2,
+     "tileY": 18,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch04_ma_courtyard_willow_v1_2_18"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_willow_v1",
+     "tileX": 38,
+     "tileY": 18,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch04_ma_courtyard_willow_v1_38_18"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_reeds_v3",
+     "tileX": 9,
+     "tileY": 28,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch01_gate_reeds_v3_9_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_reeds_v3",
+     "tileX": 18,
+     "tileY": 28,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch01_gate_reeds_v3_18_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_reeds_v3",
+     "tileX": 32,
+     "tileY": 28,
+     "refId": "map_lz_ch04_ma_courtyard_v1_ch01_gate_reeds_v3_32_28"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_mawencai_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 22,
+     "tileY": 14,
+     "refId": "map_lz_ch04_ma_courtyard_v1_actor_mawencai_1"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_ma_steward_48x96_story_v2",
+     "animationId": "idle-down",
+     "tileX": 13,
+     "tileY": 15,
+     "refId": "map_lz_ch04_ma_courtyard_v1_actor_ma_steward_2"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_ma_guard_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 27,
+     "tileY": 12,
+     "refId": "map_lz_ch04_ma_courtyard_v1_actor_ma_guard_3"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_ma_guard_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 16,
+     "tileY": 12,
+     "refId": "map_lz_ch04_ma_courtyard_v1_actor_ma_guard_4"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_ma_guard_48x96_story_v1",
+     "animationId": "idle-down",
+     "refId": "map_lz_ch04_ma_courtyard_v1_actor_ma_guard_5",
+     "tileX": 30,
+     "tileY": 21
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_ma_guard_48x96_story_v1",
+     "animationId": "idle-down",
+     "refId": "map_lz_ch04_ma_courtyard_v1_actor_ma_guard_6",
+     "tileX": 38,
+     "tileY": 19
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_liangshanbo_48x96_story_v2",
+     "animationId": "idle-down",
+     "refId": "map_lz_ch04_ma_courtyard_v1_actor_liangshanbo_7",
+     "tileX": 41,
+     "tileY": 18
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_boatman_48x96_story_v1",
+     "animationId": "idle-down",
+     "refId": "map_lz_ch04_ma_courtyard_v1_actor_boatman_8",
+     "tileX": 25,
+     "tileY": 23
     }
+   ]
+  },
+  {
+   "id": "map_lz_ch04_ma_courtyard_v1_decor",
+   "name": "Decoration",
+   "type": "decoration",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_grade_rain_dusk_v1",
+     "tileX": 0,
+     "tileY": 0,
+     "refId": "map_lz_ch04_ma_courtyard_v1_atm_grade_rain_dusk"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_lantern_pools_v1",
+     "tileX": 9,
+     "tileY": 5,
+     "refId": "map_lz_ch04_ma_courtyard_v1_atm_lantern_pools"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_rain_v1",
+     "tileX": 0,
+     "tileY": 0,
+     "refId": "map_lz_ch04_ma_courtyard_v1_atm_rain"
+    }
+   ]
+  },
+  {
+   "id": "map_lz_ch04_ma_courtyard_v1_collision",
+   "name": "Collision",
+   "type": "collision",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 26,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 27,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 28,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 26,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 27,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 28,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 26,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 27,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 28,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 26,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 27,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 28,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 26,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 27,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 28,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 26,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 27,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 28,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 26,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 27,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 28,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 26,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 27,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 28,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 26,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 27,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 28,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 0,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 1,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 2,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 3,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 4,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 5,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 6,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 7,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 8,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 9,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 10,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 11,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 12,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 13,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 31,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 32,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 33,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 34,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 35,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 36,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 37,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 38,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 39,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 40,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 41,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 42,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 43,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 0,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 1,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 2,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 3,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 4,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 5,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 6,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 7,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 8,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 9,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 10,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 11,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 12,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 13,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 31,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 32,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 33,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 34,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 35,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 36,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 37,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 38,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 39,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 40,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 41,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 42,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 43,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 0,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 1,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 2,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 3,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 4,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 5,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 6,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 7,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 8,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 9,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 10,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 11,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 12,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 13,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 26,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 27,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 28,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 29,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 30,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 31,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 32,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 33,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 34,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 35,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 36,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 37,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 38,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 39,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 40,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 41,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 42,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 43,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 0,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 1,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 2,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 3,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 4,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 5,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 6,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 7,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 8,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 9,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 10,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 11,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 12,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 13,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 26,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 27,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 28,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 29,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 30,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 31,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 32,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 33,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 34,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 35,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 36,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 37,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 38,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 39,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 40,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 41,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 42,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 43,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 0,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 1,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 2,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 3,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 4,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 5,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 6,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 7,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 8,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 9,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 10,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 11,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 12,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 13,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 26,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 27,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 28,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 29,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 30,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 31,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 32,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 33,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 34,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 35,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 36,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 37,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 38,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 39,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 40,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 41,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 42,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 43,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 0,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 1,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 2,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 3,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 4,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 5,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 6,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 7,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 8,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 9,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 10,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 11,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 12,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 13,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 26,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 27,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 28,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 29,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 30,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 31,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 32,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 33,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 34,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 35,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 36,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 37,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 38,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 39,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 40,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 41,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 42,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 43,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 0,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 1,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 2,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 3,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 4,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 5,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 6,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 7,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 8,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 9,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 10,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 11,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 12,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 13,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 26,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 27,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 28,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 29,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 30,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 31,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 32,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 33,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 34,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 35,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 36,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 37,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 38,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 39,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 40,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 41,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 42,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 43,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 0,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 1,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 2,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 3,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 4,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 5,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 6,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 7,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 8,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 9,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 10,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 11,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 12,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 13,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 14,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 15,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 16,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 17,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 18,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 19,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 20,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 21,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 22,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 23,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 24,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 25,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 26,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 27,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 28,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 29,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 30,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 31,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 32,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 33,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 34,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 35,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 36,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 37,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 38,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 39,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 40,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 41,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 42,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_ma_courtyard_block_v1",
+     "tileX": 43,
+     "tileY": 29
+    }
+   ]
   }
+ ],
+ "districts": [
+  {
+   "districtId": "map_lz_ch04_ma_courtyard_v1_district",
+   "name": "马府外院",
+   "x": 0,
+   "y": 0,
+   "width": 44,
+   "height": 32,
+   "terrainTags": [
+    "urban"
+   ],
+   "locations": [
+    {
+     "id": "map_lz_ch04_ma_courtyard_v1_start",
+     "name": "马府外院入口",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 2,
+     "offsetY": 18
+    },
+    {
+     "id": "map_lz_ch04_ma_courtyard_v1_clue",
+     "name": "马府外院线索点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 8,
+     "offsetY": 16
+    },
+    {
+     "id": "map_lz_ch04_ma_courtyard_v1_choice",
+     "name": "马府外院抉择点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 26,
+     "offsetY": 18
+    },
+    {
+     "id": "map_lz_ch04_ma_courtyard_v1_gate",
+     "name": "马府外院门楼点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 22,
+     "offsetY": 13
+    }
+   ],
+   "defaultEventDensity": 1
+  }
+ ],
+ "itemDefs": [],
+ "teleports": [],
+ "createdAt": 1782325200000,
+ "updatedAt": 1791000000000,
+ "version": 2,
+ "story": {
+  "storyId": "liangzhu",
+  "chapterId": "ch04_ma_family_forces_marriage",
+  "sceneId": "ch04_scene_03_ma_courtyard",
+  "scriptReference": {
+   "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+   "sceneHeading": "场景三：马府外院",
+   "roleGoalKeywords": {
+    "zhuyingtai": [
+     "听闻",
+     "压力"
+    ],
+    "liangshanbo": [
+     "登门",
+     "被拒"
+    ],
+    "mawencai": [
+     "逼婚",
+     "强度"
+    ]
+   }
+  },
+  "artStyle": {
+   "storyId": "liangzhu",
+   "visualStyle": "semi-realistic pixel comic",
+   "baseTileSize": 16,
+   "characterScale": "48x96",
+   "detailTier": "S",
+   "sceneFamily": "ma_gate",
+   "chapterPalette": "ch04-plum-rain-betrothal",
+   "mood": "pride turned outward: rain dusk, gifts leaving by water",
+   "focusTier": "S",
+   "detailPass": "ch04-final-v1"
+  }
+ }
 }

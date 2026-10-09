@@ -1,7 +1,7 @@
 {
   "name": "mio-world-assets",
   "version": "1.0.0",
-  "updatedAt": 1791558678051,
+  "updatedAt": 1791559085076,
   "components": [
     {
       "id": "comp_academy_corridor_v1",
@@ -48812,6 +48812,3782 @@
       "height": 96,
       "version": 1,
       "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_betrothal_red_lantern_v1",
+      "name": "绛纱灯 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_betrothal_red_lantern_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "ch04-shared-kit",
+        "overhead"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 16,
+      "height": 32
+    },
+    {
+      "id": "comp_lz_prop_marriage_desk_story_v1",
+      "name": "婚书案 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_marriage_desk_story_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-s",
+        "ch04-shared-kit",
+        "story-prop",
+        "story-prop-v2"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 96,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_betrothal_chest_v1",
+      "name": "聘礼箱 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_betrothal_chest_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_betrothal_goose_cage_v1",
+      "name": "奠雁笼 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_betrothal_goose_cage_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "comp_lz_betrothal_gift_tray_v1",
+      "name": "聘礼酒担 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_betrothal_gift_tray_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_betrothal_candle_stand_v1",
+      "name": "落地红烛台 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_betrothal_candle_stand_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 16,
+      "height": 64
+    },
+    {
+      "id": "comp_lz_betrothal_chest_stack_v1",
+      "name": "聘礼箱（两层） v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_betrothal_chest_stack_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "id": "comp_lz_betrothal_jiaoyi_flip_v1",
+      "name": "交椅（反向） v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_betrothal_jiaoyi_flip_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 32,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_betrothal_chest_pole_v1",
+      "name": "聘礼箱（抬杠） v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_betrothal_chest_pole_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_betrothal_side_stand_v1",
+      "name": "方几 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_betrothal_side_stand_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "comp_lz_betrothal_red_swag_v1",
+      "name": "檐下红绸 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_betrothal_red_swag_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "ch04-shared-kit",
+        "overhead"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 96,
+      "height": 32
+    },
+    {
+      "id": "comp_lz_betrothal_pomegranate_v1",
+      "name": "盆栽石榴 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_betrothal_pomegranate_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 32,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_betrothal_red_swag_short_v1",
+      "name": "檐下红绸（短） v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_betrothal_red_swag_short_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "ch04-shared-kit",
+        "overhead"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 64,
+      "height": 32
+    },
+    {
+      "id": "comp_lz_betrothal_chest_stack_pole_v1",
+      "name": "聘礼箱两层（抬杠） v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_betrothal_chest_stack_pole_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "id": "comp_lz_betrothal_jiaoyi_v1",
+      "name": "交椅 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_betrothal_jiaoyi_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 32,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_interior_folding_screen_v1",
+      "name": "围屏（三扇） v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_interior_folding_screen_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 48,
+      "height": 96
+    },
+    {
+      "id": "comp_lz_mafu_south_wall_v1",
+      "name": "马府南墙 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_mafu_south_wall_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 704,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_mafu_family_gate_v1",
+      "name": "马府家门 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_mafu_family_gate_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 128,
+      "height": 96
+    },
+    {
+      "id": "comp_lz_mafu_bazi_wall_e_v1",
+      "name": "马府八字墙（东） v1",
+      "category": "building",
+      "path": "components/building/comp_lz_mafu_bazi_wall_e_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 80,
+      "height": 96
+    },
+    {
+      "id": "comp_lz_mafu_bazi_wall_w_v1",
+      "name": "马府八字墙（西） v1",
+      "category": "building",
+      "path": "components/building/comp_lz_mafu_bazi_wall_w_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 80,
+      "height": 96
+    },
+    {
+      "id": "comp_lz_mafu_side_wall_e_v1",
+      "name": "马府东墙 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_mafu_side_wall_e_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 16,
+      "height": 496
+    },
+    {
+      "id": "comp_lz_xiulou_closed_v1",
+      "name": "绣楼（楼上窗关） v1",
+      "category": "building",
+      "path": "components/building/comp_lz_xiulou_closed_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-s",
+        "ch04-shared-kit",
+        "xiulou",
+        "tower",
+        "ch05-reuse"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 416,
+      "height": 336
+    },
+    {
+      "id": "comp_lz_mafu_gatehouse_v1",
+      "name": "马府乌漆门楼 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_mafu_gatehouse_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-s",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 240,
+      "height": 208
+    },
+    {
+      "id": "comp_lz_xiulou_v1",
+      "name": "绣楼（楼上开窗） v1",
+      "category": "building",
+      "path": "components/building/comp_lz_xiulou_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-s",
+        "ch04-shared-kit",
+        "xiulou",
+        "tower",
+        "ch05-reuse"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 416,
+      "height": 336
+    },
+    {
+      "id": "comp_lz_mafu_side_wall_w_v1",
+      "name": "马府西墙 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_mafu_side_wall_w_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 16,
+      "height": 496
+    },
+    {
+      "id": "comp_lz_mafu_high_wall_v1",
+      "name": "马府清水砖高墙 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_mafu_high_wall_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 240,
+      "height": 144
+    },
+    {
+      "id": "comp_lz_mafu_side_wing_v1",
+      "name": "马府厢房 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_mafu_side_wing_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "ch04-shared-kit"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 112,
+      "height": 320
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_hall_shrine_v1",
+      "name": "祖先牌位（明间） v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch04_zhufu_hall_hall_shrine_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-s",
+        "scene-zhufu_hall"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_hall_body_v1",
+      "name": "清白堂（屋身，第四章） v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch04_zhufu_hall_hall_body_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-s",
+        "scene-zhufu_hall"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 384,
+      "height": 224
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_south_wall_v2_cropped_v1",
+      "name": "祝府南院墙（剖视低墙）v2（裁到地图内） v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch04_zhufu_hall_south_wall_v2_cropped_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "scene-zhufu_hall"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 704,
+      "height": 32
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_family_gate_v2_cropped_v1",
+      "name": "祝府墙门（门楼·桃符）v2（裁到地图内） v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch04_zhufu_hall_family_gate_v2_cropped_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "scene-zhufu_hall"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 128,
+      "height": 80
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_block_v1",
+      "name": "祝府正厅 v2 碰撞块（不可见） v1",
+      "category": "other",
+      "path": "components/other/comp_lz_ch04_zhufu_hall_block_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "collision",
+        "invisible"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_candle_pools_v1",
+      "name": "祝府正厅 烛光 v1",
+      "category": "effect",
+      "path": "components/effect/comp_lz_ch04_zhufu_hall_candle_pools_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "atmosphere",
+        "overhead",
+        "light"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 224,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_rain_v1",
+      "name": "祝府正厅 梅雨雨丝 v1",
+      "category": "effect",
+      "path": "components/effect/comp_lz_ch04_zhufu_hall_rain_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "atmosphere",
+        "overhead",
+        "rain"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 704,
+      "height": 496
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_grade_overcast_v1",
+      "name": "祝府正厅 梅雨阴天调色 v1",
+      "category": "effect",
+      "path": "components/effect/comp_lz_ch04_zhufu_hall_grade_overcast_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "atmosphere",
+        "overhead",
+        "grade"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 704,
+      "height": 512
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_camphor_behind_hall_v1",
+      "name": "樟树（清白堂后） v1",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch04_zhufu_hall_camphor_behind_hall_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-zhufu_hall"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 144,
+      "height": 224
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r2c3_v1",
+      "name": "祝府正厅 v2 地面 r2c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r2c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r2c0_v1",
+      "name": "祝府正厅 v2 地面 r2c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r2c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r0c1_v1",
+      "name": "祝府正厅 v2 地面 r0c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r0c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r0c0_v1",
+      "name": "祝府正厅 v2 地面 r0c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r0c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r1c0_v1",
+      "name": "祝府正厅 v2 地面 r1c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r1c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r2c2_v1",
+      "name": "祝府正厅 v2 地面 r2c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r2c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_hall_porch_v1",
+      "name": "清白堂前廊地面 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_hall_porch_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-zhufu_hall"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 384,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r3c2_v1",
+      "name": "祝府正厅 v2 地面 r3c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r3c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r1c1_v1",
+      "name": "祝府正厅 v2 地面 r1c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r1c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r0c2_v1",
+      "name": "祝府正厅 v2 地面 r0c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r0c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r2c1_v1",
+      "name": "祝府正厅 v2 地面 r2c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r2c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r3c0_v1",
+      "name": "祝府正厅 v2 地面 r3c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r3c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r0c3_v1",
+      "name": "祝府正厅 v2 地面 r0c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r0c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r3c1_v1",
+      "name": "祝府正厅 v2 地面 r3c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r3c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r3c3_v1",
+      "name": "祝府正厅 v2 地面 r3c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r3c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r1c3_v1",
+      "name": "祝府正厅 v2 地面 r1c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r1c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_zhufu_hall_ground_r1c2_v1",
+      "name": "祝府正厅 v2 地面 r1c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_zhufu_hall_ground_r1c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_book_mat_5_v1",
+      "name": "晒书竹席 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch04_boudoir_book_mat_5_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-boudoir"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 80,
+      "height": 32
+    },
+    {
+      "id": "comp_lz_prop_jade_on_table_story_v1",
+      "name": "玉佩（石桌上） v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_jade_on_table_story_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-s",
+        "scene-boudoir",
+        "story-prop",
+        "story-prop-v2"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 48,
+      "height": 32
+    },
+    {
+      "id": "comp_lz_prop_book_chest_airing_story_v1",
+      "name": "旧书箱（晒书） v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_book_chest_airing_story_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-s",
+        "scene-boudoir",
+        "story-prop",
+        "story-prop-v2"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_table_folding_v1",
+      "name": "折扇（石桌上） v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch04_boudoir_table_folding_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-s",
+        "scene-boudoir"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 48,
+      "height": 32
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_book_mat_4_v1",
+      "name": "晒书竹席 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch04_boudoir_book_mat_4_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-boudoir"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 64,
+      "height": 32
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_back_gate_v1",
+      "name": "后园小门 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch04_boudoir_back_gate_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-boudoir"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 96,
+      "height": 80
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_wall_w_n_v1",
+      "name": "后园西墙（北段） v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch04_boudoir_wall_w_n_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-boudoir"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 16,
+      "height": 368
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_wall_w_s_v1",
+      "name": "后园西墙（南段） v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch04_boudoir_wall_w_s_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-boudoir"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 16,
+      "height": 64
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_wall_s_v1",
+      "name": "后园南墙 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch04_boudoir_wall_s_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-boudoir"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 704,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_wall_e_v1",
+      "name": "后园东墙 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch04_boudoir_wall_e_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-boudoir"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 16,
+      "height": 480
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_block_v1",
+      "name": "后院闺房 v2 碰撞块（不可见） v1",
+      "category": "other",
+      "path": "components/other/comp_lz_ch04_boudoir_block_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "collision",
+        "invisible"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_sun_drips_v1",
+      "name": "后院闺房 日光与檐滴 v1",
+      "category": "effect",
+      "path": "components/effect/comp_lz_ch04_boudoir_sun_drips_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "atmosphere",
+        "overhead",
+        "light"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 416,
+      "height": 144
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_grade_after_rain_v1",
+      "name": "后院闺房 雨歇暖光调色 v1",
+      "category": "effect",
+      "path": "components/effect/comp_lz_ch04_boudoir_grade_after_rain_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "atmosphere",
+        "overhead",
+        "grade"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 704,
+      "height": 512
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_camphor_corner_b_v1",
+      "name": "樟树（园角） v1",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch04_boudoir_camphor_corner_b_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-boudoir"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 144,
+      "height": 208
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_camphor_corner_v1",
+      "name": "樟树（园角） v1",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch04_boudoir_camphor_corner_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-boudoir"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 112,
+      "height": 192
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r3c3_v1",
+      "name": "后院闺房 v2 地面 r3c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r3c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r2c2_v1",
+      "name": "后院闺房 v2 地面 r2c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r2c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r1c1_v1",
+      "name": "后院闺房 v2 地面 r1c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r1c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r0c0_v1",
+      "name": "后院闺房 v2 地面 r0c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r0c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r1c0_v1",
+      "name": "后院闺房 v2 地面 r1c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r1c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r3c2_v1",
+      "name": "后院闺房 v2 地面 r3c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r3c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r2c0_v1",
+      "name": "后院闺房 v2 地面 r2c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r2c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r1c2_v1",
+      "name": "后院闺房 v2 地面 r1c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r1c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r0c2_v1",
+      "name": "后院闺房 v2 地面 r0c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r0c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r3c0_v1",
+      "name": "后院闺房 v2 地面 r3c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r3c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r3c1_v1",
+      "name": "后院闺房 v2 地面 r3c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r3c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r2c3_v1",
+      "name": "后院闺房 v2 地面 r2c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r2c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r0c1_v1",
+      "name": "后院闺房 v2 地面 r0c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r0c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r1c3_v1",
+      "name": "后院闺房 v2 地面 r1c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r1c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r2c1_v1",
+      "name": "后院闺房 v2 地面 r2c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r2c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_boudoir_ground_r0c3_v1",
+      "name": "后院闺房 v2 地面 r0c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_boudoir_ground_r0c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_gift_boat_reflection_v1",
+      "name": "货船倒影 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch04_ma_courtyard_gift_boat_reflection_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "scene-ma_gate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 128,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_mounting_block_v1",
+      "name": "上马石与拴马桩 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch04_ma_courtyard_mounting_block_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-ma_gate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_gangplank_v1",
+      "name": "跳板 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch04_ma_courtyard_gangplank_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-ma_gate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 48,
+      "height": 16
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_gift_boat_v1",
+      "name": "聘礼货船 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch04_ma_courtyard_gift_boat_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "scene-ma_gate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 128,
+      "height": 96
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_lantern_post_v1",
+      "name": "埠头灯杆 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch04_ma_courtyard_lantern_post_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-ma_gate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 32,
+      "height": 64
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_sedan_chair_v1",
+      "name": "暖轿 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch04_ma_courtyard_sedan_chair_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "scene-ma_gate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 64,
+      "height": 80
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_wall_s_v1",
+      "name": "对岸矮墙 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch04_ma_courtyard_wall_s_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-ma_gate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 704,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_high_wall_w_v1",
+      "name": "马府清水砖高墙（西段） v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch04_ma_courtyard_high_wall_w_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "scene-ma_gate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 224,
+      "height": 144
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_wall_e_end_v1",
+      "name": "马府高墙（东端） v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch04_ma_courtyard_wall_e_end_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-ma_gate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 16,
+      "height": 144
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_block_v1",
+      "name": "马府外院 v2 碰撞块（不可见） v1",
+      "category": "other",
+      "path": "components/other/comp_lz_ch04_ma_courtyard_block_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "collision",
+        "invisible"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_lantern_pools_v1",
+      "name": "马府外院 灯光 v1",
+      "category": "effect",
+      "path": "components/effect/comp_lz_ch04_ma_courtyard_lantern_pools_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "atmosphere",
+        "overhead",
+        "light"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 416,
+      "height": 352
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_rain_v1",
+      "name": "马府外院 雨丝 v1",
+      "category": "effect",
+      "path": "components/effect/comp_lz_ch04_ma_courtyard_rain_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "atmosphere",
+        "overhead",
+        "rain"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 704,
+      "height": 512
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_grade_rain_dusk_v1",
+      "name": "马府外院 雨暮调色 v1",
+      "category": "effect",
+      "path": "components/effect/comp_lz_ch04_ma_courtyard_grade_rain_dusk_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "atmosphere",
+        "overhead",
+        "grade"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 704,
+      "height": 512
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_willow_v1",
+      "name": "对岸垂柳 v1",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch04_ma_courtyard_willow_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-ma_gate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 96,
+      "height": 208
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r1c1_v1",
+      "name": "马府外院 v2 地面 r1c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r1c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r3c3_v1",
+      "name": "马府外院 v2 地面 r3c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r3c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r1c0_v1",
+      "name": "马府外院 v2 地面 r1c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r1c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r3c1_v1",
+      "name": "马府外院 v2 地面 r3c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r3c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r2c2_v1",
+      "name": "马府外院 v2 地面 r2c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r2c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r2c1_v1",
+      "name": "马府外院 v2 地面 r2c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r2c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r0c0_v1",
+      "name": "马府外院 v2 地面 r0c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r0c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r1c2_v1",
+      "name": "马府外院 v2 地面 r1c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r1c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r0c1_v1",
+      "name": "马府外院 v2 地面 r0c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r0c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r2c3_v1",
+      "name": "马府外院 v2 地面 r2c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r2c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r0c3_v1",
+      "name": "马府外院 v2 地面 r0c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r0c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r2c0_v1",
+      "name": "马府外院 v2 地面 r2c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r2c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r3c0_v1",
+      "name": "马府外院 v2 地面 r3c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r3c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r3c2_v1",
+      "name": "马府外院 v2 地面 r3c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r3c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r0c2_v1",
+      "name": "马府外院 v2 地面 r0c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r0c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_ma_courtyard_ground_r1c3_v1",
+      "name": "马府外院 v2 地面 r1c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_ma_courtyard_ground_r1c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_dais_v1",
+      "name": "公案台 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch04_betrothal_hall_dais_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-betrothal"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 192,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_screen_v1",
+      "name": "水墨座屏 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch04_betrothal_hall_screen_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "scene-betrothal"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 192,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_bench_long_v1",
+      "name": "长条凳 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch04_betrothal_hall_bench_long_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-betrothal"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 80,
+      "height": 32
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_drip_stones_v1",
+      "name": "檐下滴水石 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch04_betrothal_hall_drip_stones_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-betrothal"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 32,
+      "height": 16
+    },
+    {
+      "id": "comp_lz_prop_official_desk_story_v1",
+      "name": "公案（婚书·县印） v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_prop_official_desk_story_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-s",
+        "scene-betrothal",
+        "story-prop",
+        "story-prop-v2"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 128,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_wall_s_v1",
+      "name": "衙院南墙 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch04_betrothal_hall_wall_s_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-betrothal"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 704,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_interior_side_wall_w_v1",
+      "name": "室内西墙剖切 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_interior_side_wall_w_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-betrothal"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 16,
+      "height": 384
+    },
+    {
+      "id": "comp_lz_interior_side_wall_e_v1",
+      "name": "室内东墙剖切 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_interior_side_wall_e_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-betrothal"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 16,
+      "height": 384
+    },
+    {
+      "id": "comp_lz_interior_north_wall_gongtang_v1",
+      "name": "室内北墙（公堂匾） v1",
+      "category": "building",
+      "path": "components/building/comp_lz_interior_north_wall_gongtang_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "scene-betrothal"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 672,
+      "height": 112
+    },
+    {
+      "id": "comp_lz_interior_column_stub_v1",
+      "name": "剖切柱 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_interior_column_stub_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-b",
+        "scene-betrothal"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 32,
+      "height": 48
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_block_v1",
+      "name": "县衙媒聘 v2 碰撞块（不可见） v1",
+      "category": "other",
+      "path": "components/other/comp_lz_ch04_betrothal_hall_block_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "collision",
+        "invisible"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_candle_pools_v1",
+      "name": "县衙偏厅 红烛光 v1",
+      "category": "effect",
+      "path": "components/effect/comp_lz_ch04_betrothal_hall_candle_pools_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "atmosphere",
+        "overhead",
+        "light"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 544,
+      "height": 160
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_grade_interior_v1",
+      "name": "县衙偏厅 室内与雨庭调色 v1",
+      "category": "effect",
+      "path": "components/effect/comp_lz_ch04_betrothal_hall_grade_interior_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "atmosphere",
+        "overhead",
+        "grade"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 704,
+      "height": 512
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_rain_v1",
+      "name": "县衙偏厅 衙院雨 v1",
+      "category": "effect",
+      "path": "components/effect/comp_lz_ch04_betrothal_hall_rain_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-a",
+        "atmosphere",
+        "overhead",
+        "rain"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 704,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r1c2_v1",
+      "name": "县衙媒聘 v2 地面 r1c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r1c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r0c0_v1",
+      "name": "县衙媒聘 v2 地面 r0c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r0c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r2c1_v1",
+      "name": "县衙媒聘 v2 地面 r2c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r2c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r3c0_v1",
+      "name": "县衙媒聘 v2 地面 r3c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r3c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r1c1_v1",
+      "name": "县衙媒聘 v2 地面 r1c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r1c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r2c3_v1",
+      "name": "县衙媒聘 v2 地面 r2c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r2c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r3c2_v1",
+      "name": "县衙媒聘 v2 地面 r3c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r3c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r1c3_v1",
+      "name": "县衙媒聘 v2 地面 r1c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r1c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r0c3_v1",
+      "name": "县衙媒聘 v2 地面 r0c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r0c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r0c1_v1",
+      "name": "县衙媒聘 v2 地面 r0c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r0c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r2c0_v1",
+      "name": "县衙媒聘 v2 地面 r2c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r2c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r3c1_v1",
+      "name": "县衙媒聘 v2 地面 r3c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r3c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r1c0_v1",
+      "name": "县衙媒聘 v2 地面 r1c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r1c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r0c2_v1",
+      "name": "县衙媒聘 v2 地面 r0c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r0c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r2c2_v1",
+      "name": "县衙媒聘 v2 地面 r2c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r2c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch04_betrothal_hall_ground_r3c3_v1",
+      "name": "县衙媒聘 v2 地面 r3c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch04_betrothal_hall_ground_r3c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch04-final",
+        "song-jiangnan",
+        "tier-c",
+        "ground",
+        "plate"
+      ],
+      "version": 1,
+      "updatedAt": 1791000000000,
+      "width": 176,
+      "height": 128
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r0c0_v1",
+      "name": "楼台 地面 r0c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r0c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r0c1_v1",
+      "name": "楼台 地面 r0c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r0c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r0c2_v1",
+      "name": "楼台 地面 r0c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r0c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r0c3_v1",
+      "name": "楼台 地面 r0c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r0c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r1c0_v1",
+      "name": "楼台 地面 r1c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r1c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r1c1_v1",
+      "name": "楼台 地面 r1c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r1c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r1c2_v1",
+      "name": "楼台 地面 r1c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r1c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r1c3_v1",
+      "name": "楼台 地面 r1c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r1c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r2c0_v1",
+      "name": "楼台 地面 r2c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r2c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r2c1_v1",
+      "name": "楼台 地面 r2c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r2c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r2c2_v1",
+      "name": "楼台 地面 r2c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r2c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r2c3_v1",
+      "name": "楼台 地面 r2c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r2c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r3c0_v1",
+      "name": "楼台 地面 r3c0 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r3c0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r3c1_v1",
+      "name": "楼台 地面 r3c1 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r3c1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r3c2_v1",
+      "name": "楼台 地面 r3c2 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r3c2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_ground_r3c3_v1",
+      "name": "楼台 地面 r3c3 v1",
+      "category": "terrain",
+      "path": "components/terrain/comp_lz_ch05_tower_ground_r3c3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-c",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "ground"
+      ],
+      "width": 176,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_xiulou_upper_v1",
+      "name": "楼台 绣楼楼上（夜） v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch05_tower_xiulou_upper_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-s",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night"
+      ],
+      "width": 384,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_xiulou_lower_v1",
+      "name": "楼台 绣楼腰檐与楼下（夜） v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch05_tower_xiulou_lower_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-s",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night"
+      ],
+      "width": 416,
+      "height": 160,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_garden_tree_0_v1",
+      "name": "楼台 夜园树木 v1",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch05_tower_garden_tree_0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-b",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night"
+      ],
+      "width": 80,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_garden_tree_1_v1",
+      "name": "楼台 夜园树木 v1",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch05_tower_garden_tree_1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-b",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night"
+      ],
+      "width": 80,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_garden_tree_2_v1",
+      "name": "楼台 夜园树木 v1",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch05_tower_garden_tree_2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-b",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night"
+      ],
+      "width": 64,
+      "height": 96,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_garden_tree_3_v1",
+      "name": "楼台 夜园树木 v1",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch05_tower_garden_tree_3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-b",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night"
+      ],
+      "width": 64,
+      "height": 160,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_garden_tree_4_v1",
+      "name": "楼台 夜园树木 v1",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch05_tower_garden_tree_4_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-b",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night"
+      ],
+      "width": 64,
+      "height": 160,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_garden_tree_5_v1",
+      "name": "楼台 夜园树木 v1",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch05_tower_garden_tree_5_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-b",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night"
+      ],
+      "width": 80,
+      "height": 160,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_plantain_v1",
+      "name": "楼台 雨打芭蕉 v1",
+      "category": "tree",
+      "path": "components/tree/comp_lz_ch05_tower_plantain_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-a",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night"
+      ],
+      "width": 80,
+      "height": 112,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_eave_lantern_0_v1",
+      "name": "楼台 檐下红纱灯 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch05_tower_eave_lantern_0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-b",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "overhead"
+      ],
+      "width": 16,
+      "height": 80,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_eave_lantern_1_v1",
+      "name": "楼台 檐下红纱灯 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch05_tower_eave_lantern_1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-b",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "overhead"
+      ],
+      "width": 32,
+      "height": 80,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_eave_lantern_2_v1",
+      "name": "楼台 檐下红纱灯 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch05_tower_eave_lantern_2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-b",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "overhead"
+      ],
+      "width": 16,
+      "height": 80,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_beauty_rail_v1",
+      "name": "楼台 美人靠栏杆 v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch05_tower_beauty_rail_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-s",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night"
+      ],
+      "width": 480,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_festoon_v1",
+      "name": "楼台 栏杆红绸 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch05_tower_festoon_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-b",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "overhead"
+      ],
+      "width": 464,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_prop_fan_jade_side_table_v1",
+      "name": "花几上的折扇与玉佩 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch05_prop_fan_jade_side_table_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-s",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "story-prop"
+      ],
+      "width": 64,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_prop_night_lamp_balcony_v1",
+      "name": "平座上的夜灯 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch05_prop_night_lamp_balcony_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-s",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "story-prop"
+      ],
+      "width": 48,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_pot_osm_v1",
+      "name": "楼台 盆桂 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch05_tower_pot_osm_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-b",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night"
+      ],
+      "width": 32,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_lotus_vat_v1",
+      "name": "楼台 荷缸 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch05_tower_lotus_vat_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-b",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night"
+      ],
+      "width": 48,
+      "height": 64,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_rockery_v1",
+      "name": "楼台 太湖石 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch05_tower_rockery_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-b",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night"
+      ],
+      "width": 64,
+      "height": 80,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_stone_bench_v1",
+      "name": "楼台 石凳 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch05_tower_stone_bench_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-b",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night"
+      ],
+      "width": 48,
+      "height": 32,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_south_wall_v1",
+      "name": "楼台 南院墙（剖视） v1",
+      "category": "building",
+      "path": "components/building/comp_lz_ch05_tower_south_wall_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-b",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night"
+      ],
+      "width": 704,
+      "height": 48,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_prop_umbrella_by_gate_v1",
+      "name": "园门边的油纸伞 v1",
+      "category": "decoration",
+      "path": "components/decoration/comp_lz_ch05_prop_umbrella_by_gate_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-a",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "story-prop"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_atmo_band0_v1",
+      "name": "楼台 氛围层 0 v1",
+      "category": "effect",
+      "path": "components/effect/comp_lz_ch05_tower_atmo_band0_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-s",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "overhead",
+        "atmosphere",
+        "effect"
+      ],
+      "width": 704,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_atmo_band1_v1",
+      "name": "楼台 氛围层 1 v1",
+      "category": "effect",
+      "path": "components/effect/comp_lz_ch05_tower_atmo_band1_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-s",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "overhead",
+        "atmosphere",
+        "effect"
+      ],
+      "width": 704,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_atmo_band2_v1",
+      "name": "楼台 氛围层 2 v1",
+      "category": "effect",
+      "path": "components/effect/comp_lz_ch05_tower_atmo_band2_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-s",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "overhead",
+        "atmosphere",
+        "effect"
+      ],
+      "width": 704,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_atmo_band3_v1",
+      "name": "楼台 氛围层 3 v1",
+      "category": "effect",
+      "path": "components/effect/comp_lz_ch05_tower_atmo_band3_v1.json",
+      "tags": [
+        "liangzhu",
+        "梁祝",
+        "liangzhu-story-v3",
+        "ch05-final-v1",
+        "song-jiangnan",
+        "tier-s",
+        "scene-tower",
+        "night-rain",
+        "pre-graded-night",
+        "overhead",
+        "atmosphere",
+        "effect"
+      ],
+      "width": 704,
+      "height": 128,
+      "version": 1,
+      "updatedAt": 1791600000000
+    },
+    {
+      "id": "comp_lz_ch05_tower_block_v1",
+      "name": "楼台 碰撞块 v1（不可见）",
+      "category": "other",
+      "path": "components/other/comp_lz_ch05_tower_block_v1.json",
+      "tags": [
+        "liangzhu",
+        "ch05-final-v1",
+        "collision",
+        "invisible"
+      ],
+      "width": 16,
+      "height": 16,
+      "version": 1,
+      "updatedAt": 1791600000000
     }
   ],
   "maps": [
@@ -48943,39 +52719,39 @@
     },
     {
       "id": "map_lz_ch04_betrothal_hall_v1",
-      "name": "县衙媒聘场景 v1",
+      "name": "县衙媒聘 v2",
       "path": "maps/map_lz_ch04_betrothal_hall_v1.json",
       "widthInTiles": 44,
       "heightInTiles": 32,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1791000000000
     },
     {
       "id": "map_lz_ch04_boudoir_v1",
-      "name": "后院闺房 v1",
+      "name": "后院闺房 v2",
       "path": "maps/map_lz_ch04_boudoir_v1.json",
       "widthInTiles": 44,
       "heightInTiles": 32,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1791000000000
     },
     {
       "id": "map_lz_ch04_ma_courtyard_v1",
-      "name": "马府外院 v1",
+      "name": "马府外院 v2",
       "path": "maps/map_lz_ch04_ma_courtyard_v1.json",
       "widthInTiles": 44,
       "heightInTiles": 32,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1791000000000
     },
     {
       "id": "map_lz_ch04_zhufu_hall_v1",
-      "name": "祝府正厅 v1",
+      "name": "祝府正厅 v2",
       "path": "maps/map_lz_ch04_zhufu_hall_v1.json",
       "widthInTiles": 44,
       "heightInTiles": 32,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1791000000000
     },
     {
       "id": "map_lz_ch05_butterfly_end_v1",
@@ -49006,12 +52782,12 @@
     },
     {
       "id": "map_lz_ch05_tower_v1",
-      "name": "楼台 v1",
+      "name": "楼台 v2",
       "path": "maps/map_lz_ch05_tower_v1.json",
       "widthInTiles": 44,
       "heightInTiles": 32,
-      "version": 1,
-      "updatedAt": 1782325200000
+      "version": 2,
+      "updatedAt": 1791600000000
     },
     {
       "id": "map_lz_ch05_wedding_road_v1",

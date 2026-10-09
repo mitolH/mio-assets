@@ -1,1123 +1,2963 @@
 {
-  "id": "map_lz_ch04_boudoir_v1",
-  "name": "后院闺房 v1",
-  "description": "后院闺房，梁祝五章第一版统一风格可玩地图。",
-  "widthInTiles": 44,
-  "heightInTiles": 32,
-  "level": {
-    "formatVersion": 1,
-    "startLocationId": "map_lz_ch04_boudoir_v1_start",
-    "assets": {
-      "componentIds": [
-        "comp_lz_ground_grass_story_v1",
-        "comp_lz_ground_wood_story_v1",
-        "comp_lz_prop_fan_jade_story_v1",
-        "comp_lz_prop_red_veil_story_v1",
-        "comp_map_lz_ch04_boudoir_v1_ambient_scene_detail_v2",
-        "comp_map_lz_ch04_boudoir_v1_focus_story_v1",
-        "comp_map_lz_ch04_boudoir_v1_left_scene_detail_v2",
-        "comp_map_lz_ch04_boudoir_v1_left_scene_fixture_v1",
-        "comp_map_lz_ch04_boudoir_v1_path_scene_detail_v2",
-        "comp_map_lz_ch04_boudoir_v1_right_scene_detail_v2",
-        "comp_map_lz_ch04_boudoir_v1_right_scene_fixture_v1",
-        "comp_map_lz_ch04_boudoir_v1_story_atmosphere_v6",
-        "comp_map_lz_ch04_boudoir_v1_story_composition_v4",
-        "comp_map_lz_ch04_boudoir_v1_story_scene_plate_v10",
-        "comp_map_lz_ch04_boudoir_v1_story_tableau_v4",
-        "comp_pressure_boudoir_vanity_v1",
-        "comp_pressure_cold_door_rain_v1",
-        "comp_pressure_old_book_chest_v1",
-        "comp_pressure_window_bamboo_shadow_v1"
-      ],
-      "spriteIds": [
-        "sprite_liangshanbo_48x96_story_v2",
-        "sprite_liangshanbo_butterfly_48x96_story_v1",
-        "sprite_liangshanbo_sick_48x96_story_v1",
-        "sprite_mawencai_48x96_story_v1",
-        "sprite_servant_48x96_story_v1",
-        "sprite_zhufu_mother_48x96_story_v1",
-        "sprite_zhuyingtai_48x96_story_v1",
-        "sprite_zhuyingtai_butterfly_48x96_story_v1",
-        "sprite_zhuyingtai_wedding_48x96_story_v1"
-      ],
-      "mapIds": [
-        "map_lz_ch04_boudoir_v1"
-      ]
+ "id": "map_lz_ch04_boudoir_v1",
+ "name": "后院闺房 v2",
+ "description": "后院闺房 v2（第四章方案B「绣楼后园·雨歇晒书」）：北面两层绣楼（与第五章楼台会共用 comp_lz_xiulou_v1），楼下明间见妆台、楼上支摘窗撑开（窗格）；雨歇日出，侍女晒书晒箱，旧书箱与晒书竹席、石桌上折扇玉佩、池塘太湖石；马府随从候在后门外；西墙月洞门通正厅。",
+ "widthInTiles": 44,
+ "heightInTiles": 32,
+ "level": {
+  "formatVersion": 1,
+  "startLocationId": "map_lz_ch04_boudoir_v1_start",
+  "assets": {
+   "componentIds": [
+    "comp_lz_betrothal_pomegranate_v1",
+    "comp_lz_ch01_gate_bamboo_v4",
+    "comp_lz_ch01_gate_decal_leaves_v3",
+    "comp_lz_ch01_gate_decal_moss_v3",
+    "comp_lz_ch01_gate_decal_shudai_v3",
+    "comp_lz_ch01_gate_osmanthus_v4",
+    "comp_lz_ch01_zhufu_drying_rack_v2",
+    "comp_lz_ch01_zhufu_plantain_v2",
+    "comp_lz_ch01_zhufu_pot_orchid_v2",
+    "comp_lz_ch01_zhufu_well_v2",
+    "comp_lz_ch02_courtyard_rockery_v1",
+    "comp_lz_ch02_courtyard_stone_table_v1",
+    "comp_lz_ch04_boudoir_back_gate_v1",
+    "comp_lz_ch04_boudoir_block_v1",
+    "comp_lz_ch04_boudoir_book_mat_4_v1",
+    "comp_lz_ch04_boudoir_book_mat_5_v1",
+    "comp_lz_ch04_boudoir_camphor_corner_b_v1",
+    "comp_lz_ch04_boudoir_camphor_corner_v1",
+    "comp_lz_ch04_boudoir_grade_after_rain_v1",
+    "comp_lz_ch04_boudoir_ground_r0c0_v1",
+    "comp_lz_ch04_boudoir_ground_r0c1_v1",
+    "comp_lz_ch04_boudoir_ground_r0c2_v1",
+    "comp_lz_ch04_boudoir_ground_r0c3_v1",
+    "comp_lz_ch04_boudoir_ground_r1c0_v1",
+    "comp_lz_ch04_boudoir_ground_r1c1_v1",
+    "comp_lz_ch04_boudoir_ground_r1c2_v1",
+    "comp_lz_ch04_boudoir_ground_r1c3_v1",
+    "comp_lz_ch04_boudoir_ground_r2c0_v1",
+    "comp_lz_ch04_boudoir_ground_r2c1_v1",
+    "comp_lz_ch04_boudoir_ground_r2c2_v1",
+    "comp_lz_ch04_boudoir_ground_r2c3_v1",
+    "comp_lz_ch04_boudoir_ground_r3c0_v1",
+    "comp_lz_ch04_boudoir_ground_r3c1_v1",
+    "comp_lz_ch04_boudoir_ground_r3c2_v1",
+    "comp_lz_ch04_boudoir_ground_r3c3_v1",
+    "comp_lz_ch04_boudoir_sun_drips_v1",
+    "comp_lz_ch04_boudoir_table_folding_v1",
+    "comp_lz_ch04_boudoir_wall_e_v1",
+    "comp_lz_ch04_boudoir_wall_s_v1",
+    "comp_lz_ch04_boudoir_wall_w_n_v1",
+    "comp_lz_ch04_boudoir_wall_w_s_v1",
+    "comp_lz_prop_book_chest_airing_story_v1",
+    "comp_lz_prop_clothes_chest_story_v2",
+    "comp_lz_prop_jade_on_table_story_v1",
+    "comp_lz_xiulou_v1"
+   ],
+   "spriteIds": [
+    "sprite_ma_guard_48x96_story_v1",
+    "sprite_zhufu_maid_48x96_story_v1",
+    "sprite_zhufu_mother_48x96_story_v1",
+    "sprite_zhuyingtai_home_48x96_story_v1"
+   ],
+   "mapIds": [
+    "map_lz_ch04_boudoir_v1"
+   ]
+  }
+ },
+ "layers": [
+  {
+   "id": "map_lz_ch04_boudoir_v1_ground",
+   "name": "Ground",
+   "type": "ground",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r0c0_v1",
+     "tileX": 0,
+     "tileY": 0,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r0c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r0c1_v1",
+     "tileX": 11,
+     "tileY": 0,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r0c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r0c2_v1",
+     "tileX": 22,
+     "tileY": 0,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r0c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r0c3_v1",
+     "tileX": 33,
+     "tileY": 0,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r0c3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r1c0_v1",
+     "tileX": 0,
+     "tileY": 8,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r1c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r1c1_v1",
+     "tileX": 11,
+     "tileY": 8,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r1c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r1c2_v1",
+     "tileX": 22,
+     "tileY": 8,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r1c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r1c3_v1",
+     "tileX": 33,
+     "tileY": 8,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r1c3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r2c0_v1",
+     "tileX": 0,
+     "tileY": 16,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r2c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r2c1_v1",
+     "tileX": 11,
+     "tileY": 16,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r2c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r2c2_v1",
+     "tileX": 22,
+     "tileY": 16,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r2c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r2c3_v1",
+     "tileX": 33,
+     "tileY": 16,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r2c3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r3c0_v1",
+     "tileX": 0,
+     "tileY": 24,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r3c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r3c1_v1",
+     "tileX": 11,
+     "tileY": 24,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r3c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r3c2_v1",
+     "tileX": 22,
+     "tileY": 24,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r3c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_ground_r3c3_v1",
+     "tileX": 33,
+     "tileY": 24,
+     "refId": "map_lz_ch04_boudoir_v1_ground_r3c3"
     }
+   ]
   },
-  "layers": [
+  {
+   "id": "map_lz_ch04_boudoir_v1_objects",
+   "name": "Objects",
+   "type": "object",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
     {
-      "id": "map_lz_ch04_boudoir_v1_ground",
-      "name": "Ground",
-      "type": "ground",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 0,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 4,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 8,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 12,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 16,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 20,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 24,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 28,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 32,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 36,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_wood_story_v1",
-          "tileX": 40,
-          "tileY": 28
-        }
-      ]
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_book_mat_5_v1",
+     "tileX": 11,
+     "tileY": 23,
+     "refId": "map_lz_ch04_boudoir_v1_ch04_boudoir_book_mat_5_v1_11_23"
     },
     {
-      "id": "map_lz_ch04_boudoir_v1_objects",
-      "name": "Objects",
-      "type": "object",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_boudoir_v1_focus_story_v1",
-          "tileX": 14,
-          "tileY": 3,
-          "refId": "map_lz_ch04_boudoir_v1_focus"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_pressure_boudoir_vanity_v1",
-          "tileX": 4,
-          "tileY": 9,
-          "refId": "map_lz_ch04_boudoir_v1_pressure_reference_boudoir_vanity"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_pressure_old_book_chest_v1",
-          "tileX": 17,
-          "tileY": 18,
-          "refId": "map_lz_ch04_boudoir_v1_pressure_reference_old_book_chest"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_pressure_window_bamboo_shadow_v1",
-          "tileX": 29,
-          "tileY": 8,
-          "refId": "map_lz_ch04_boudoir_v1_pressure_reference_window_bamboo_shadow"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_pressure_cold_door_rain_v1",
-          "tileX": 34,
-          "tileY": 17,
-          "refId": "map_lz_ch04_boudoir_v1_pressure_reference_cold_door_rain"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_boudoir_v1_story_scene_plate_v10",
-          "tileX": 10,
-          "tileY": 2,
-          "refId": "map_lz_ch04_boudoir_v1_story_scene_plate"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_boudoir_v1_story_atmosphere_v6",
-          "tileX": 10,
-          "tileY": 2,
-          "refId": "map_lz_ch04_boudoir_v1_story_atmosphere"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_prop_fan_jade_story_v1",
-          "tileX": 10,
-          "tileY": 20,
-          "refId": "map_lz_ch04_boudoir_v1_story_a",
-          "interaction": {
-            "interactionRange": 2,
-            "indicatorType": "sparkle",
-            "interactions": [
-              {
-                "id": "map_lz_ch04_boudoir_v1_story_a_inspect",
-                "name": "查看后院闺房线索",
-                "description": "后院闺房线索承载着当前章节的关键线索。",
-                "type": "examine",
-                "conditions": [],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "后院闺房线索承载着当前章节的关键线索。"
-                  },
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "后院闺房线索提示了当前场景的主要矛盾。"
-                  }
-                ],
-                "weight": 1
-              },
-              {
-                "id": "map_lz_ch04_boudoir_v1_story_a_choice",
-                "name": "处理后院闺房线索",
-                "description": "你围绕后院闺房线索整理线索，真正的角色状态结算会在抉择点发生。",
-                "type": "examine",
-                "conditions": [],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "你围绕后院闺房线索整理线索，真正的角色状态结算会在抉择点发生。"
-                  },
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "后院闺房线索已记录为共同线索。"
-                  }
-                ],
-                "weight": 1
-              }
-            ]
-          }
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_prop_red_veil_story_v1",
-          "tileX": 30,
-          "tileY": 20,
-          "refId": "map_lz_ch04_boudoir_v1_story_b",
-          "interaction": {
-            "interactionRange": 2,
-            "indicatorType": "sparkle",
-            "interactions": [
-              {
-                "id": "map_lz_ch04_boudoir_v1_story_b_zhuyingtai",
-                "name": "祝英台：旧物 / 写信",
-                "description": "祝英台在场景二：后院闺房围绕旧物、写信做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_zhuyingtai"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "祝英台在场景二：后院闺房围绕旧物、写信做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "wealth",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "liangTrust",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "familyPressure",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch04_ma_family_forces_marriage",
-                      "sceneId": "ch04_scene_03_ma_courtyard",
-                      "mapId": "map_lz_ch04_ma_courtyard_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch04_ma_family_forces_marriage",
-                  "sceneId": "ch04_scene_02_boudoir",
-                  "mapId": "map_lz_ch04_boudoir_v1",
-                  "role": "zhuyingtai",
-                  "eventLabel": "旧物 / 写信",
-                  "keywords": [
-                    "旧物",
-                    "写信"
-                  ],
-                  "chapterFile": "chapter-04-ma-family-forces-marriage.md",
-                  "sceneHeading": "场景二：后院闺房",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch04_boudoir_v1",
-                  "role": "zhuyingtai",
-                  "presence": "present",
-                  "impactScope": "physical",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "present",
-                "stateImpactScope": "physical"
-              },
-              {
-                "id": "map_lz_ch04_boudoir_v1_story_b_liangshanbo",
-                "name": "梁山伯：传信 / 见面",
-                "description": "梁山伯在场景二：后院闺房围绕传信、见面做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_liangshanbo"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "梁山伯在场景二：后院闺房围绕传信、见面做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "social",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "liangTrust",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "promiseClarity",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch04_ma_family_forces_marriage",
-                      "sceneId": "ch04_scene_03_ma_courtyard",
-                      "mapId": "map_lz_ch04_ma_courtyard_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch04_ma_family_forces_marriage",
-                  "sceneId": "ch04_scene_02_boudoir",
-                  "mapId": "map_lz_ch04_boudoir_v1",
-                  "role": "liangshanbo",
-                  "eventLabel": "传信 / 见面",
-                  "keywords": [
-                    "传信",
-                    "见面"
-                  ],
-                  "chapterFile": "chapter-04-ma-family-forces-marriage.md",
-                  "sceneHeading": "场景二：后院闺房",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch04_boudoir_v1",
-                  "role": "liangshanbo",
-                  "presence": "reported",
-                  "impactScope": "indirect",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "reported",
-                "stateImpactScope": "indirect"
-              },
-              {
-                "id": "map_lz_ch04_boudoir_v1_story_b_mawencai",
-                "name": "马文才：私域 / 侵犯",
-                "description": "马文才在场景二：后院闺房围绕私域、侵犯做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_mawencai"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "马文才在场景二：后院闺房围绕私域、侵犯做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": -2
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "social",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "maRestraint",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "identityRisk",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch04_ma_family_forces_marriage",
-                      "sceneId": "ch04_scene_03_ma_courtyard",
-                      "mapId": "map_lz_ch04_ma_courtyard_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch04_ma_family_forces_marriage",
-                  "sceneId": "ch04_scene_02_boudoir",
-                  "mapId": "map_lz_ch04_boudoir_v1",
-                  "role": "mawencai",
-                  "eventLabel": "私域 / 侵犯",
-                  "keywords": [
-                    "私域",
-                    "侵犯"
-                  ],
-                  "chapterFile": "chapter-04-ma-family-forces-marriage.md",
-                  "sceneHeading": "场景二：后院闺房",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch04_boudoir_v1",
-                  "role": "mawencai",
-                  "presence": "reported",
-                  "impactScope": "indirect",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "reported",
-                "stateImpactScope": "indirect"
-              }
-            ]
-          }
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_boudoir_v1_story_composition_v4",
-          "tileX": 10,
-          "tileY": 13,
-          "refId": "map_lz_ch04_boudoir_v1_story_composition"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_zhuyingtai_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 20,
-          "tileY": 23,
-          "refId": "map_lz_ch04_boudoir_v1_actor_zhuyingtai_1"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_zhufu_mother_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 25,
-          "tileY": 22,
-          "refId": "map_lz_ch04_boudoir_v1_actor_zhufu_mother_2"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_servant_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 13,
-          "tileY": 23,
-          "refId": "map_lz_ch04_boudoir_v1_actor_servant_3"
-        }
-      ]
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_book_mat_4_v1",
+     "tileX": 11,
+     "tileY": 26,
+     "refId": "map_lz_ch04_boudoir_v1_ch04_boudoir_book_mat_4_v1_11_26"
     },
     {
-      "id": "map_lz_ch04_boudoir_v1_decor",
-      "name": "Decoration",
-      "type": "decoration",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_boudoir_v1_story_tableau_v4",
-          "tileX": 2,
-          "tileY": 12,
-          "refId": "map_lz_ch04_boudoir_v1_story_tableau"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_boudoir_v1_left_scene_fixture_v1",
-          "tileX": 4,
-          "tileY": 16,
-          "refId": "map_lz_ch04_boudoir_v1_scene_fixture_left"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_boudoir_v1_right_scene_fixture_v1",
-          "tileX": 30,
-          "tileY": 16,
-          "refId": "map_lz_ch04_boudoir_v1_scene_fixture_right"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_boudoir_v1_left_scene_detail_v2",
-          "tileX": 4,
-          "tileY": 23,
-          "refId": "map_lz_ch04_boudoir_v1_scene_detail_left"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_boudoir_v1_right_scene_detail_v2",
-          "tileX": 36,
-          "tileY": 22,
-          "refId": "map_lz_ch04_boudoir_v1_scene_detail_right"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_boudoir_v1_path_scene_detail_v2",
-          "tileX": 20,
-          "tileY": 25,
-          "refId": "map_lz_ch04_boudoir_v1_scene_detail_path"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch04_boudoir_v1_ambient_scene_detail_v2",
-          "tileX": 8,
-          "tileY": 8,
-          "refId": "map_lz_ch04_boudoir_v1_scene_detail_ambient"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 1,
-          "tileY": 1
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 39,
-          "tileY": 1
-        }
-      ]
-    }
-  ],
-  "districts": [
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_camphor_corner_v1",
+     "tileX": 0,
+     "tileY": 0,
+     "refId": "map_lz_ch04_boudoir_v1_ch04_boudoir_camphor_corner_v1_0_0"
+    },
     {
-      "districtId": "map_lz_ch04_boudoir_v1_district",
-      "name": "后院闺房",
-      "x": 0,
-      "y": 0,
-      "width": 44,
-      "height": 32,
-      "terrainTags": [
-        "urban"
-      ],
-      "locations": [
-        {
-          "id": "map_lz_ch04_boudoir_v1_start",
-          "name": "后院闺房入口",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 22,
-          "offsetY": 24
-        },
-        {
-          "id": "map_lz_ch04_boudoir_v1_clue",
-          "name": "后院闺房线索点",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 10,
-          "offsetY": 20
-        },
-        {
-          "id": "map_lz_ch04_boudoir_v1_choice",
-          "name": "后院闺房抉择点",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 30,
-          "offsetY": 20
-        }
-      ],
-      "defaultEventDensity": 1
-    }
-  ],
-  "itemDefs": [],
-  "teleports": [],
-  "createdAt": 1782325200000,
-  "updatedAt": 1782325200000,
-  "version": 1,
-  "story": {
-    "storyId": "liangzhu",
-    "chapterId": "ch04_ma_family_forces_marriage",
-    "sceneId": "ch04_scene_02_boudoir",
-    "scriptReference": {
-      "chapterFile": "chapter-04-ma-family-forces-marriage.md",
-      "sceneHeading": "场景二：后院闺房",
-      "roleGoalKeywords": {
-        "zhuyingtai": [
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_camphor_corner_b_v1",
+     "tileX": 35,
+     "tileY": 0,
+     "refId": "map_lz_ch04_boudoir_v1_ch04_boudoir_camphor_corner_b_v1_35_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_xiulou_v1",
+     "tileX": 9,
+     "tileY": 0,
+     "refId": "map_lz_ch04_boudoir_v1_anchor_xiulou"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_wall_w_n_v1",
+     "tileX": 0,
+     "tileY": 0,
+     "refId": "map_lz_ch04_boudoir_v1_ch04_boudoir_wall_w_n_v1_0_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_wall_w_s_v1",
+     "tileX": 0,
+     "tileY": 26,
+     "refId": "map_lz_ch04_boudoir_v1_ch04_boudoir_wall_w_s_v1_0_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_wall_e_v1",
+     "tileX": 43,
+     "tileY": 0,
+     "refId": "map_lz_ch04_boudoir_v1_ch04_boudoir_wall_e_v1_43_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_wall_s_v1",
+     "tileX": 0,
+     "tileY": 29,
+     "refId": "map_lz_ch04_boudoir_v1_ch04_boudoir_wall_s_v1_0_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_back_gate_v1",
+     "tileX": 20,
+     "tileY": 27,
+     "refId": "map_lz_ch04_boudoir_v1_ch04_boudoir_back_gate_v1_20_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_bamboo_v4",
+     "tileX": 1,
+     "tileY": 12,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_bamboo_v4_1_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_bamboo_v4",
+     "tileX": 0,
+     "tileY": 18,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_bamboo_v4_0_18"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_bamboo_v4",
+     "tileX": 3,
+     "tileY": 21,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_bamboo_v4_3_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_zhufu_well_v2",
+     "tileX": 5,
+     "tileY": 18,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_zhufu_well_v2_5_18"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_zhufu_plantain_v2",
+     "tileX": 38,
+     "tileY": 23,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_zhufu_plantain_v2_38_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_courtyard_rockery_v1",
+     "tileX": 39,
+     "tileY": 17,
+     "refId": "map_lz_ch04_boudoir_v1_ch02_courtyard_rockery_v1_39_17"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_osmanthus_v4",
+     "tileX": 27,
+     "tileY": 18,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_osmanthus_v4_27_18"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch02_courtyard_stone_table_v1",
+     "tileX": 27,
+     "tileY": 24,
+     "refId": "map_lz_ch04_boudoir_v1_ch02_courtyard_stone_table_v1_27_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_table_folding_v1",
+     "tileX": 27,
+     "tileY": 24,
+     "refId": "map_lz_ch04_boudoir_v1_anchor_fan"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_prop_jade_on_table_story_v1",
+     "tileX": 29,
+     "tileY": 24,
+     "refId": "map_lz_ch04_boudoir_v1_story_b",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch04_boudoir_v1_story_b_zhuyingtai",
+        "name": "祝英台：旧物 / 写信",
+        "description": "祝英台在场景二：后院闺房围绕旧物、写信做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         }
+        ],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "祝英台在场景二：后院闺房围绕旧物、写信做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": -1
+         },
+         {
+          "type": "modify_attribute",
+          "target": "wealth",
+          "value": -1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "liangTrust",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "familyPressure",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch04_ma_family_forces_marriage",
+           "sceneId": "ch04_scene_03_ma_courtyard",
+           "mapId": "map_lz_ch04_ma_courtyard_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch04_ma_family_forces_marriage",
+         "sceneId": "ch04_scene_02_boudoir",
+         "mapId": "map_lz_ch04_boudoir_v1",
+         "role": "zhuyingtai",
+         "eventLabel": "旧物 / 写信",
+         "keywords": [
           "旧物",
           "写信"
+         ],
+         "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+         "sceneHeading": "场景二：后院闺房",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch04_boudoir_v1",
+         "role": "zhuyingtai",
+         "presence": "present",
+         "impactScope": "physical",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "present",
+        "stateImpactScope": "physical"
+       },
+       {
+        "id": "map_lz_ch04_boudoir_v1_story_b_liangshanbo",
+        "name": "梁山伯：传信 / 见面",
+        "description": "梁山伯在场景二：后院闺房围绕传信、见面做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         }
         ],
-        "liangshanbo": [
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "梁山伯在场景二：后院闺房围绕传信、见面做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": 1
+         },
+         {
+          "type": "modify_attribute",
+          "target": "social",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "liangTrust",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "promiseClarity",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch04_ma_family_forces_marriage",
+           "sceneId": "ch04_scene_03_ma_courtyard",
+           "mapId": "map_lz_ch04_ma_courtyard_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch04_ma_family_forces_marriage",
+         "sceneId": "ch04_scene_02_boudoir",
+         "mapId": "map_lz_ch04_boudoir_v1",
+         "role": "liangshanbo",
+         "eventLabel": "传信 / 见面",
+         "keywords": [
           "传信",
           "见面"
+         ],
+         "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+         "sceneHeading": "场景二：后院闺房",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch04_boudoir_v1",
+         "role": "liangshanbo",
+         "presence": "reported",
+         "impactScope": "indirect",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "reported",
+        "stateImpactScope": "indirect"
+       },
+       {
+        "id": "map_lz_ch04_boudoir_v1_story_b_mawencai",
+        "name": "马文才：私域 / 侵犯",
+        "description": "马文才在场景二：后院闺房围绕私域、侵犯做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         }
         ],
-        "mawencai": [
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "马文才在场景二：后院闺房围绕私域、侵犯做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": -2
+         },
+         {
+          "type": "modify_attribute",
+          "target": "social",
+          "value": -1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "maRestraint",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "identityRisk",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch04_ma_family_forces_marriage",
+           "sceneId": "ch04_scene_03_ma_courtyard",
+           "mapId": "map_lz_ch04_ma_courtyard_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch04_ma_family_forces_marriage",
+         "sceneId": "ch04_scene_02_boudoir",
+         "mapId": "map_lz_ch04_boudoir_v1",
+         "role": "mawencai",
+         "eventLabel": "私域 / 侵犯",
+         "keywords": [
           "私域",
           "侵犯"
-        ]
-      }
+         ],
+         "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+         "sceneHeading": "场景二：后院闺房",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch04_boudoir_v1",
+         "role": "mawencai",
+         "presence": "reported",
+         "impactScope": "indirect",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "reported",
+        "stateImpactScope": "indirect"
+       }
+      ]
+     }
     },
-    "artStyle": {
-      "storyId": "liangzhu",
-      "visualStyle": "semi-realistic pixel comic",
-      "baseTileSize": 16,
-      "characterScale": "48x96",
-      "detailTier": "S",
-      "sceneFamily": "boudoir",
-      "chapterPalette": "dark-wood-red-gold-law",
-      "mood": "family pressure and forced betrothal",
-      "focusTier": "S",
-      "detailPass": "second-pass-v2"
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_prop_book_chest_airing_story_v1",
+     "tileX": 16,
+     "tileY": 24,
+     "refId": "map_lz_ch04_boudoir_v1_story_a",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch04_boudoir_v1_story_a_inspect",
+        "name": "查看后院闺房线索",
+        "description": "后院闺房线索承载着当前章节的关键线索。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "后院闺房线索承载着当前章节的关键线索。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "后院闺房线索提示了当前场景的主要矛盾。"
+         }
+        ],
+        "weight": 1
+       },
+       {
+        "id": "map_lz_ch04_boudoir_v1_story_a_choice",
+        "name": "处理后院闺房线索",
+        "description": "你围绕后院闺房线索整理线索，真正的角色状态结算会在抉择点发生。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "你围绕后院闺房线索整理线索，真正的角色状态结算会在抉择点发生。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "后院闺房线索已记录为共同线索。"
+         }
+        ],
+        "weight": 1
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_prop_clothes_chest_story_v2",
+     "tileX": 16,
+     "tileY": 26,
+     "refId": "map_lz_ch04_boudoir_v1_prop_clothes_chest_story_v2_16_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_zhufu_drying_rack_v2",
+     "tileX": 9,
+     "tileY": 27,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_zhufu_drying_rack_v2_9_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_zhufu_drying_rack_v2",
+     "tileX": 13,
+     "tileY": 27,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_zhufu_drying_rack_v2_13_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_betrothal_pomegranate_v1",
+     "tileX": 31,
+     "tileY": 21,
+     "refId": "map_lz_ch04_boudoir_v1_betrothal_pomegranate_v1_31_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_zhufu_pot_orchid_v2",
+     "tileX": 18,
+     "tileY": 21,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_zhufu_pot_orchid_v2_18_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_decal_moss_v3",
+     "tileX": 9,
+     "tileY": 18,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_decal_moss_v3_9_18"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_decal_moss_v3",
+     "tileX": 37,
+     "tileY": 19,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_decal_moss_v3_37_19"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_decal_moss_v3",
+     "tileX": 20,
+     "tileY": 29,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_decal_moss_v3_20_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_decal_moss_v3",
+     "tileX": 35,
+     "tileY": 29,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_decal_moss_v3_35_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_decal_shudai_v3",
+     "tileX": 6,
+     "tileY": 15,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_decal_shudai_v3_6_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_decal_shudai_v3",
+     "tileX": 35,
+     "tileY": 16,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_decal_shudai_v3_35_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_decal_shudai_v3",
+     "tileX": 40,
+     "tileY": 19,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_decal_shudai_v3_40_19"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_decal_shudai_v3",
+     "tileX": 7,
+     "tileY": 27,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_decal_shudai_v3_7_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_decal_shudai_v3",
+     "tileX": 32,
+     "tileY": 29,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_decal_shudai_v3_32_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_decal_shudai_v3",
+     "tileX": 2,
+     "tileY": 18,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_decal_shudai_v3_2_18"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_decal_shudai_v3",
+     "tileX": 41,
+     "tileY": 26,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_decal_shudai_v3_41_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_decal_leaves_v3",
+     "tileX": 25,
+     "tileY": 22,
+     "refId": "map_lz_ch04_boudoir_v1_ch01_gate_decal_leaves_v3_25_22"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_zhuyingtai_home_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 20,
+     "tileY": 24,
+     "refId": "map_lz_ch04_boudoir_v1_actor_zhuyingtai_1"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_zhufu_mother_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 14,
+     "tileY": 22,
+     "refId": "map_lz_ch04_boudoir_v1_actor_zhufu_mother_2"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_zhufu_maid_48x96_story_v1",
+     "animationId": "idle-down",
+     "refId": "map_lz_ch04_boudoir_v1_actor_zhufu_maid_3",
+     "tileX": 13,
+     "tileY": 25
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_ma_guard_48x96_story_v1",
+     "animationId": "idle-down",
+     "refId": "map_lz_ch04_boudoir_v1_actor_ma_guard_4",
+     "tileX": 24,
+     "tileY": 31
     }
+   ]
+  },
+  {
+   "id": "map_lz_ch04_boudoir_v1_decor",
+   "name": "Decoration",
+   "type": "decoration",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_grade_after_rain_v1",
+     "tileX": 0,
+     "tileY": 0,
+     "refId": "map_lz_ch04_boudoir_v1_atm_grade_after_rain"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_sun_drips_v1",
+     "tileX": 10,
+     "tileY": 21,
+     "refId": "map_lz_ch04_boudoir_v1_atm_sun_drips"
+    }
+   ]
+  },
+  {
+   "id": "map_lz_ch04_boudoir_v1_collision",
+   "name": "Collision",
+   "type": "collision",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 6,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 7,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 8,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 0
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 6,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 7,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 8,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 1
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 6,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 7,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 8,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 2
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 6,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 7,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 8,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 3
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 6,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 7,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 8,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 4
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 6,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 7,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 8,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 5
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 6,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 7,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 8,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 6
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 6,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 7,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 8,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 7
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 6,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 7,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 8,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 8
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 9
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 9
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 9
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 9
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 9
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 6,
+     "tileY": 9
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 7,
+     "tileY": 9
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 8,
+     "tileY": 9
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 9
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 9
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 9
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 9
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 9
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 9
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 9
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 6,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 7,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 8,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 10
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 6,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 7,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 8,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 11
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 6,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 7,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 8,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 12
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 13
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 13
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 13
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 13
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 13
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 6,
+     "tileY": 13
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 7,
+     "tileY": 13
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 8,
+     "tileY": 13
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 13
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 13
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 13
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 13
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 13
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 13
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 13
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 15
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 16
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 17
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 18
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 19
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 20
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 21
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 21
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 21
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 21
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 35,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 22
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 33,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 34,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 35,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 23
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 33,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 34,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 35,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 24
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 33,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 34,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 35,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 25
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 34,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 35,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 26
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 35,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 27
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 3,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 4,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 5,
+     "tileY": 28
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 1,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 2,
+     "tileY": 29
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 25,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 26,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 27,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 28,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 29,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 30,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 31,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 32,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 33,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 34,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 35,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 43,
+     "tileY": 30
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 25,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 26,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 27,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 28,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 29,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 30,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 31,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 32,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 33,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 34,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 35,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 36,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 37,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 38,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 39,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 40,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 41,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 42,
+     "tileY": 31
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch04_boudoir_block_v1",
+     "tileX": 43,
+     "tileY": 31
+    }
+   ]
   }
+ ],
+ "districts": [
+  {
+   "districtId": "map_lz_ch04_boudoir_v1_district",
+   "name": "后院闺房",
+   "x": 0,
+   "y": 0,
+   "width": 44,
+   "height": 32,
+   "terrainTags": [
+    "urban"
+   ],
+   "locations": [
+    {
+     "id": "map_lz_ch04_boudoir_v1_start",
+     "name": "后院闺房入口",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 21,
+     "offsetY": 28
+    },
+    {
+     "id": "map_lz_ch04_boudoir_v1_clue",
+     "name": "后院闺房线索点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 15,
+     "offsetY": 26
+    },
+    {
+     "id": "map_lz_ch04_boudoir_v1_choice",
+     "name": "后院闺房抉择点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 29,
+     "offsetY": 27
+    },
+    {
+     "id": "map_lz_ch04_boudoir_v1_window",
+     "name": "后院闺房窗格点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 25,
+     "offsetY": 21
+    }
+   ],
+   "defaultEventDensity": 1
+  }
+ ],
+ "itemDefs": [],
+ "teleports": [],
+ "createdAt": 1782325200000,
+ "updatedAt": 1791000000000,
+ "version": 2,
+ "story": {
+  "storyId": "liangzhu",
+  "chapterId": "ch04_ma_family_forces_marriage",
+  "sceneId": "ch04_scene_02_boudoir",
+  "scriptReference": {
+   "chapterFile": "chapter-04-ma-family-forces-marriage.md",
+   "sceneHeading": "场景二：后院闺房",
+   "roleGoalKeywords": {
+    "zhuyingtai": [
+     "旧物",
+     "写信"
+    ],
+    "liangshanbo": [
+     "传信",
+     "见面"
+    ],
+    "mawencai": [
+     "私域",
+     "侵犯"
+    ]
+   }
+  },
+  "artStyle": {
+   "storyId": "liangzhu",
+   "visualStyle": "semi-realistic pixel comic",
+   "baseTileSize": 16,
+   "characterScale": "48x96",
+   "detailTier": "S",
+   "sceneFamily": "boudoir",
+   "chapterPalette": "ch04-plum-rain-betrothal",
+   "mood": "first sun after the plum rain; private things aired in the open",
+   "focusTier": "S",
+   "detailPass": "ch04-final-v1"
+  }
+ }
 }
