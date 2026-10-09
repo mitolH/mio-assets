@@ -1145,6 +1145,7 @@
      "tileX": 19,
      "tileY": 25,
      "refId": "map_lz_ch02_academy_courtyard_v1_actor_student_4",
+     "appearance": { "gender": "male", "ageGroup": "youth" },
      "autonomy": {
       "schedule": [
        {
@@ -1337,6 +1338,7 @@
      "spriteId": "sprite_student_b_48x96_story_v1",
      "animationId": "idle-down",
      "refId": "map_lz_ch02_academy_courtyard_v1_actor_student_b_6",
+     "appearance": { "gender": "male", "ageGroup": "youth" },
      "tileX": 25,
      "tileY": 25,
      "autonomy": {

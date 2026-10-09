@@ -1533,6 +1533,7 @@
      "tileX": 6,
      "tileY": 15,
      "refId": "map_lz_ch02_classroom_v1_actor_student_5",
+     "appearance": { "gender": "male", "ageGroup": "youth" },
      "autonomy": {
       "reactions": [
        {
@@ -1550,6 +1551,7 @@
      "spriteId": "sprite_student_b_48x96_story_v1",
      "animationId": "idle-down",
      "refId": "map_lz_ch02_classroom_v1_actor_student_b_6",
+     "appearance": { "gender": "male", "ageGroup": "youth" },
      "tileX": 10,
      "tileY": 18,
      "autonomy": {
@@ -1569,6 +1571,7 @@
      "spriteId": "sprite_student_c_48x96_story_v1",
      "animationId": "idle-down",
      "refId": "map_lz_ch02_classroom_v1_actor_student_c_7",
+     "appearance": { "gender": "male", "ageGroup": "youth" },
      "tileX": 24,
      "tileY": 15,
      "autonomy": {
