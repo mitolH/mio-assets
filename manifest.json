@@ -1,7 +1,7 @@
 {
   "name": "mio-world-assets",
   "version": "1.0.0",
-  "updatedAt": 1791559085076,
+  "updatedAt": 1791559169552,
   "components": [
     {
       "id": "comp_academy_corridor_v1",
@@ -52723,7 +52723,7 @@
       "path": "maps/map_lz_ch04_betrothal_hall_v1.json",
       "widthInTiles": 44,
       "heightInTiles": 32,
-      "version": 2,
+      "version": 3,
       "updatedAt": 1791000000000
     },
     {
@@ -52732,7 +52732,7 @@
       "path": "maps/map_lz_ch04_boudoir_v1.json",
       "widthInTiles": 44,
       "heightInTiles": 32,
-      "version": 2,
+      "version": 3,
       "updatedAt": 1791000000000
     },
     {
@@ -52750,7 +52750,7 @@
       "path": "maps/map_lz_ch04_zhufu_hall_v1.json",
       "widthInTiles": 44,
       "heightInTiles": 32,
-      "version": 2,
+      "version": 3,
       "updatedAt": 1791000000000
     },
     {

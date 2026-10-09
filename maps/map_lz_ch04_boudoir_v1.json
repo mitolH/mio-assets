@@ -2924,7 +2924,7 @@
  "teleports": [],
  "createdAt": 1782325200000,
  "updatedAt": 1791000000000,
- "version": 2,
+ "version": 3,
  "story": {
   "storyId": "liangzhu",
   "chapterId": "ch04_ma_family_forces_marriage",
@@ -2958,6 +2958,12 @@
    "mood": "first sun after the plum rain; private things aired in the open",
    "focusTier": "S",
    "detailPass": "ch04-final-v1"
+  }
+ },
+ "runtime": {
+  "schemaVersion": 1,
+  "roleSprites": {
+   "zhuyingtai": "sprite_zhuyingtai_home_48x96_story_v1"
   }
  }
 }
