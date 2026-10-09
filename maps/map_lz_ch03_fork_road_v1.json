@@ -1,1243 +1,4586 @@
 {
-  "id": "map_lz_ch03_fork_road_v1",
-  "name": "分岔官道 v1",
-  "description": "分岔官道，梁祝五章第一版统一风格可玩地图。",
-  "widthInTiles": 44,
-  "heightInTiles": 32,
-  "level": {
-    "formatVersion": 1,
-    "startLocationId": "map_lz_ch03_fork_road_v1_start",
-    "assets": {
-      "componentIds": [
-        "comp_farewell_farewell_stone_v1",
-        "comp_farewell_field_ridge_v1",
-        "comp_farewell_fork_road_sign_v1",
-        "comp_farewell_travel_bundle_v1",
-        "comp_lz_ground_dirt_story_v1",
-        "comp_lz_ground_grass_story_v1",
-        "comp_lz_prop_fan_jade_story_v1",
-        "comp_lz_prop_last_letter_story_v1",
-        "comp_map_lz_ch03_fork_road_v1_ambient_scene_detail_v2",
-        "comp_map_lz_ch03_fork_road_v1_focus_story_v1",
-        "comp_map_lz_ch03_fork_road_v1_left_scene_detail_v2",
-        "comp_map_lz_ch03_fork_road_v1_left_scene_fixture_v1",
-        "comp_map_lz_ch03_fork_road_v1_path_scene_detail_v2",
-        "comp_map_lz_ch03_fork_road_v1_right_scene_detail_v2",
-        "comp_map_lz_ch03_fork_road_v1_right_scene_fixture_v1",
-        "comp_map_lz_ch03_fork_road_v1_story_atmosphere_v6",
-        "comp_map_lz_ch03_fork_road_v1_story_composition_v4",
-        "comp_map_lz_ch03_fork_road_v1_story_scene_plate_v10",
-        "comp_map_lz_ch03_fork_road_v1_story_tableau_v4"
-      ],
-      "spriteIds": [
-        "sprite_liangshanbo_48x96_story_v2",
-        "sprite_liangshanbo_butterfly_48x96_story_v1",
-        "sprite_liangshanbo_sick_48x96_story_v1",
-        "sprite_mawencai_48x96_story_v1",
-        "sprite_villager_48x96_story_v1",
-        "sprite_zhuyingtai_48x96_story_v1",
-        "sprite_zhuyingtai_butterfly_48x96_story_v1",
-        "sprite_zhuyingtai_wedding_48x96_story_v1"
-      ],
-      "mapIds": [
-        "map_lz_ch03_fork_road_v1"
-      ]
+ "id": "map_lz_ch03_fork_road_v1",
+ "name": "分岔官道 v2",
+ "description": "分岔官道 v2（第三章 场景五→路线第四场，方案 C「高岗分路·夕阳回望」，斜阳）：岔路是上下分的——谷底官道已入阴影，沿溪东回书院；一道石阶爬上挡土墙，坡上岭路翻过山鞍去祝家庄，还在最后的阳光里。阶头立「十八里」碑、指路牌，风松下一座小观音堂（“观音大士来做媒”）。她走进光里，他留在下面回望。章节结算已移到长亭（最后一场）。",
+ "widthInTiles": 44,
+ "heightInTiles": 32,
+ "level": {
+  "formatVersion": 1,
+  "startLocationId": "map_lz_ch03_fork_road_v1_start",
+  "assets": {
+   "componentIds": [
+    "comp_lz_ch01_gate_block_water_v3",
+    "comp_lz_ch03_autumn_willow_late_a_v1",
+    "comp_lz_ch03_autumn_willow_late_v1",
+    "comp_lz_ch03_fan_jade_late_v1",
+    "comp_lz_ch03_fork_ground_r0c0_v1",
+    "comp_lz_ch03_fork_ground_r0c1_v1",
+    "comp_lz_ch03_fork_ground_r0c2_v1",
+    "comp_lz_ch03_fork_ground_r0c3_v1",
+    "comp_lz_ch03_fork_ground_r1c0_v1",
+    "comp_lz_ch03_fork_ground_r1c1_v1",
+    "comp_lz_ch03_fork_ground_r1c2_v1",
+    "comp_lz_ch03_fork_ground_r1c3_v1",
+    "comp_lz_ch03_fork_ground_r2c0_v1",
+    "comp_lz_ch03_fork_ground_r2c1_v1",
+    "comp_lz_ch03_fork_ground_r2c2_v1",
+    "comp_lz_ch03_fork_ground_r2c3_v1",
+    "comp_lz_ch03_fork_ground_r3c0_v1",
+    "comp_lz_ch03_fork_ground_r3c1_v1",
+    "comp_lz_ch03_fork_ground_r3c2_v1",
+    "comp_lz_ch03_fork_ground_r3c3_v1",
+    "comp_lz_ch03_magpies_late_v1",
+    "comp_lz_ch03_pine_late_v1",
+    "comp_lz_ch03_reeds_late_a_v1",
+    "comp_lz_ch03_reeds_late_v1",
+    "comp_lz_ch03_signpost_late_v1",
+    "comp_lz_ch03_stele3_late_v1"
+   ],
+   "spriteIds": [
+    "sprite_carter_48x96_story_v1",
+    "sprite_liangshanbo_48x96_story_v2",
+    "sprite_ma_guard_48x96_story_v1",
+    "sprite_page_boy_48x96_story_v1",
+    "sprite_yinxin_48x96_story_v1",
+    "sprite_zhuyingtai_48x96_story_v1"
+   ],
+   "mapIds": [
+    "map_lz_ch03_fork_road_v1"
+   ]
+  }
+ },
+ "layers": [
+  {
+   "id": "map_lz_ch03_fork_road_v1_ground",
+   "name": "Ground",
+   "type": "ground",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r0c0_v1",
+     "tileX": 0,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r0c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r0c1_v1",
+     "tileX": 11,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r0c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r0c2_v1",
+     "tileX": 22,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r0c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r0c3_v1",
+     "tileX": 33,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r0c3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r1c0_v1",
+     "tileX": 0,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r1c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r1c1_v1",
+     "tileX": 11,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r1c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r1c2_v1",
+     "tileX": 22,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r1c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r1c3_v1",
+     "tileX": 33,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r1c3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r2c0_v1",
+     "tileX": 0,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r2c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r2c1_v1",
+     "tileX": 11,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r2c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r2c2_v1",
+     "tileX": 22,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r2c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r2c3_v1",
+     "tileX": 33,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r2c3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r3c0_v1",
+     "tileX": 0,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r3c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r3c1_v1",
+     "tileX": 11,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r3c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r3c2_v1",
+     "tileX": 22,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r3c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fork_ground_r3c3_v1",
+     "tileX": 33,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_ground_r3c3"
     }
+   ]
   },
-  "layers": [
+  {
+   "id": "map_lz_ch03_fork_road_v1_objects",
+   "name": "Objects",
+   "type": "object",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
     {
-      "id": "map_lz_ch03_fork_road_v1_ground",
-      "name": "Ground",
-      "type": "ground",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 0,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 4,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 8,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 12,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 16,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 20,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 24,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 28,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 32,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 36,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 40,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 0,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 4,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 8,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 12,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 16,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 20,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 24,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 28,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 32,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 36,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 40,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 0,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 4,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 8,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 12,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 16,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 20,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 24,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 28,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 32,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 36,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 40,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 0,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 4,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 8,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 12,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 16,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 20,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 24,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 28,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 32,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 36,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 40,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 0,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 4,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 8,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 12,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 16,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 20,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 24,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 28,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 32,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 36,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 40,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 0,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 4,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 8,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 12,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 16,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 20,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 24,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 28,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 32,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 36,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 40,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 0,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 4,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 8,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 12,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 16,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 20,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 24,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 28,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 32,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 36,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 40,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 0,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 4,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 8,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 12,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 16,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 20,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 24,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 28,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 32,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 36,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_dirt_story_v1",
-          "tileX": 40,
-          "tileY": 28
-        }
-      ]
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_magpies_late_v1",
+     "tileX": 24,
+     "tileY": 5,
+     "refId": "map_lz_ch03_fork_road_v1_magpies_24_5"
     },
     {
-      "id": "map_lz_ch03_fork_road_v1_objects",
-      "name": "Objects",
-      "type": "object",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_fork_road_v1_focus_story_v1",
-          "tileX": 14,
-          "tileY": 3,
-          "refId": "map_lz_ch03_fork_road_v1_focus"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_farewell_fork_road_sign_v1",
-          "tileX": 28,
-          "tileY": 12,
-          "refId": "map_lz_ch03_fork_road_v1_farewell_reference_fork_road_sign"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_farewell_field_ridge_v1",
-          "tileX": 2,
-          "tileY": 17,
-          "refId": "map_lz_ch03_fork_road_v1_farewell_reference_field_ridge"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_farewell_travel_bundle_v1",
-          "tileX": 14,
-          "tileY": 21,
-          "refId": "map_lz_ch03_fork_road_v1_farewell_reference_travel_bundle"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_farewell_farewell_stone_v1",
-          "tileX": 35,
-          "tileY": 19,
-          "refId": "map_lz_ch03_fork_road_v1_farewell_reference_farewell_stone"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_fork_road_v1_story_scene_plate_v10",
-          "tileX": 10,
-          "tileY": 2,
-          "refId": "map_lz_ch03_fork_road_v1_story_scene_plate"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_fork_road_v1_story_atmosphere_v6",
-          "tileX": 10,
-          "tileY": 2,
-          "refId": "map_lz_ch03_fork_road_v1_story_atmosphere"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_prop_fan_jade_story_v1",
-          "tileX": 10,
-          "tileY": 20,
-          "refId": "map_lz_ch03_fork_road_v1_story_a",
-          "interaction": {
-            "interactionRange": 2,
-            "indicatorType": "sparkle",
-            "interactions": [
-              {
-                "id": "map_lz_ch03_fork_road_v1_story_a_inspect",
-                "name": "查看分岔官道线索",
-                "description": "分岔官道线索承载着当前章节的关键线索。",
-                "type": "examine",
-                "conditions": [],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "分岔官道线索承载着当前章节的关键线索。"
-                  },
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "分岔官道线索提示了当前场景的主要矛盾。"
-                  }
-                ],
-                "weight": 1
-              },
-              {
-                "id": "map_lz_ch03_fork_road_v1_story_a_choice",
-                "name": "处理分岔官道线索",
-                "description": "你围绕分岔官道线索整理线索，真正的角色状态结算会在抉择点发生。",
-                "type": "examine",
-                "conditions": [],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "你围绕分岔官道线索整理线索，真正的角色状态结算会在抉择点发生。"
-                  },
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "分岔官道线索已记录为共同线索。"
-                  }
-                ],
-                "weight": 1
-              }
-            ]
-          }
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_prop_last_letter_story_v1",
-          "tileX": 30,
-          "tileY": 20,
-          "refId": "map_lz_ch03_fork_road_v1_story_b",
-          "interaction": {
-            "interactionRange": 2,
-            "indicatorType": "sparkle",
-            "interactions": [
-              {
-                "id": "map_lz_ch03_fork_road_v1_story_b_zhuyingtai",
-                "name": "祝英台：信物 / 约定",
-                "description": "祝英台在场景五：分岔官道围绕信物、约定做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_zhuyingtai"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "祝英台在场景五：分岔官道围绕信物、约定做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": -2
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "social",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "promiseClarity",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "liangTrust",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch04_ma_family_forces_marriage",
-                      "sceneId": "ch04_scene_01_zhufu_hall",
-                      "mapId": "map_lz_ch04_zhufu_hall_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch03_eighteen_mile_farewell",
-                  "sceneId": "ch03_scene_05_fork_road",
-                  "mapId": "map_lz_ch03_fork_road_v1",
-                  "role": "zhuyingtai",
-                  "eventLabel": "信物 / 约定",
-                  "keywords": [
-                    "信物",
-                    "约定"
-                  ],
-                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
-                  "sceneHeading": "场景五：分岔官道",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch03_fork_road_v1",
-                  "role": "zhuyingtai",
-                  "presence": "present",
-                  "impactScope": "physical",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "present",
-                "stateImpactScope": "physical"
-              },
-              {
-                "id": "map_lz_ch03_fork_road_v1_story_b_liangshanbo",
-                "name": "梁山伯：追问 / 真相",
-                "description": "梁山伯在场景五：分岔官道围绕追问、真相做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_liangshanbo"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "梁山伯在场景五：分岔官道围绕追问、真相做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "social",
-                    "value": 2
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "promiseClarity",
-                    "value": 2
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "liangTrust",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch04_ma_family_forces_marriage",
-                      "sceneId": "ch04_scene_01_zhufu_hall",
-                      "mapId": "map_lz_ch04_zhufu_hall_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch03_eighteen_mile_farewell",
-                  "sceneId": "ch03_scene_05_fork_road",
-                  "mapId": "map_lz_ch03_fork_road_v1",
-                  "role": "liangshanbo",
-                  "eventLabel": "追问 / 真相",
-                  "keywords": [
-                    "追问",
-                    "真相"
-                  ],
-                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
-                  "sceneHeading": "场景五：分岔官道",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch03_fork_road_v1",
-                  "role": "liangshanbo",
-                  "presence": "present",
-                  "impactScope": "physical",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "present",
-                "stateImpactScope": "physical"
-              },
-              {
-                "id": "map_lz_ch03_fork_road_v1_story_b_mawencai",
-                "name": "马文才：递信 / 暂缓",
-                "description": "马文才在场景五：分岔官道围绕递信、暂缓做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_mawencai"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "马文才在场景五：分岔官道围绕递信、暂缓做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "wealth",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "familyPressure",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "maRestraint",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch04_ma_family_forces_marriage",
-                      "sceneId": "ch04_scene_01_zhufu_hall",
-                      "mapId": "map_lz_ch04_zhufu_hall_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch03_eighteen_mile_farewell",
-                  "sceneId": "ch03_scene_05_fork_road",
-                  "mapId": "map_lz_ch03_fork_road_v1",
-                  "role": "mawencai",
-                  "eventLabel": "递信 / 暂缓",
-                  "keywords": [
-                    "递信",
-                    "暂缓"
-                  ],
-                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
-                  "sceneHeading": "场景五：分岔官道",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch03_fork_road_v1",
-                  "role": "mawencai",
-                  "presence": "present",
-                  "impactScope": "physical",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "present",
-                "stateImpactScope": "physical"
-              }
-            ]
-          }
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_prop_fan_jade_story_v1",
-          "tileX": 36,
-          "tileY": 24,
-          "refId": "map_lz_ch03_fork_road_v1_story_route",
-          "interaction": {
-            "interactionRange": 2,
-            "indicatorType": "question",
-            "interactions": [
-              {
-                "id": "map_lz_ch03_fork_road_v1_route_promise_clear",
-                "name": "暗示近明",
-                "description": "梁山伯已听懂祝英台的层层暗示，第四章会更早赶往祝府。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "story_variable",
-                    "operator": "gte",
-                    "field": "promiseClarity",
-                    "value": 4
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "梁山伯已听懂祝英台的层层暗示，第四章会更早赶往祝府。"
-                  }
-                ],
-                "weight": 1,
-                "storyRoute": {
-                  "mapId": "map_lz_ch03_fork_road_v1",
-                  "routeId": "promise_clear",
-                  "source": "docs/liangzhu-game"
-                }
-              },
-              {
-                "id": "map_lz_ch03_fork_road_v1_route_promise_late",
-                "name": "迟悟成憾",
-                "description": "梁山伯仍把离别当成寻常送别，第四章会错过婚约先机。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "story_variable",
-                    "operator": "lte",
-                    "field": "promiseClarity",
-                    "value": 2
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "梁山伯仍把离别当成寻常送别，第四章会错过婚约先机。"
-                  }
-                ],
-                "weight": 1,
-                "storyRoute": {
-                  "mapId": "map_lz_ch03_fork_road_v1",
-                  "routeId": "promise_late",
-                  "source": "docs/liangzhu-game"
-                }
-              },
-              {
-                "id": "map_lz_ch03_fork_road_v1_route_family_moves",
-                "name": "婚约暗动",
-                "description": "祝家和马家的婚约已经转入明面，马家会更快进入祝府。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "story_variable",
-                    "operator": "gte",
-                    "field": "familyPressure",
-                    "value": 1
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "祝家和马家的婚约已经转入明面，马家会更快进入祝府。"
-                  }
-                ],
-                "weight": 1,
-                "storyRoute": {
-                  "mapId": "map_lz_ch03_fork_road_v1",
-                  "routeId": "family_moves",
-                  "source": "docs/liangzhu-game"
-                }
-              },
-              {
-                "id": "map_lz_ch03_fork_road_v1_route_ma_withholds",
-                "name": "疑而不发",
-                "description": "马文才已经看出祝英台有所隐瞒，却暂时按下不发。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "story_variable",
-                    "operator": "gte",
-                    "field": "maRestraint",
-                    "value": 2
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "马文才已经看出祝英台有所隐瞒，却暂时按下不发。"
-                  }
-                ],
-                "weight": 1,
-                "storyRoute": {
-                  "mapId": "map_lz_ch03_fork_road_v1",
-                  "routeId": "ma_withholds",
-                  "source": "docs/liangzhu-game"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_fork_road_v1_story_composition_v4",
-          "tileX": 10,
-          "tileY": 13,
-          "refId": "map_lz_ch03_fork_road_v1_story_composition"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_zhuyingtai_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 17,
-          "tileY": 22,
-          "refId": "map_lz_ch03_fork_road_v1_actor_zhuyingtai_1"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_liangshanbo_48x96_story_v2",
-          "animationId": "idle-down",
-          "tileX": 23,
-          "tileY": 22,
-          "refId": "map_lz_ch03_fork_road_v1_actor_liangshanbo_2"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_villager_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 31,
-          "tileY": 21,
-          "refId": "map_lz_ch03_fork_road_v1_actor_villager_3"
-        }
-      ]
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pine_late_v1",
+     "tileX": 22,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_pine_22_1"
     },
     {
-      "id": "map_lz_ch03_fork_road_v1_decor",
-      "name": "Decoration",
-      "type": "decoration",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_fork_road_v1_story_tableau_v4",
-          "tileX": 2,
-          "tileY": 12,
-          "refId": "map_lz_ch03_fork_road_v1_story_tableau"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_fork_road_v1_left_scene_fixture_v1",
-          "tileX": 4,
-          "tileY": 16,
-          "refId": "map_lz_ch03_fork_road_v1_scene_fixture_left"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_fork_road_v1_right_scene_fixture_v1",
-          "tileX": 30,
-          "tileY": 16,
-          "refId": "map_lz_ch03_fork_road_v1_scene_fixture_right"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_fork_road_v1_left_scene_detail_v2",
-          "tileX": 4,
-          "tileY": 23,
-          "refId": "map_lz_ch03_fork_road_v1_scene_detail_left"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_fork_road_v1_right_scene_detail_v2",
-          "tileX": 36,
-          "tileY": 22,
-          "refId": "map_lz_ch03_fork_road_v1_scene_detail_right"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_fork_road_v1_path_scene_detail_v2",
-          "tileX": 20,
-          "tileY": 25,
-          "refId": "map_lz_ch03_fork_road_v1_scene_detail_path"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_fork_road_v1_ambient_scene_detail_v2",
-          "tileX": 8,
-          "tileY": 8,
-          "refId": "map_lz_ch03_fork_road_v1_scene_detail_ambient"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 1,
-          "tileY": 1
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 39,
-          "tileY": 1
-        }
-      ]
-    }
-  ],
-  "districts": [
-    {
-      "districtId": "map_lz_ch03_fork_road_v1_district",
-      "name": "分岔官道",
-      "x": 0,
-      "y": 0,
-      "width": 44,
-      "height": 32,
-      "terrainTags": [
-        "urban"
-      ],
-      "locations": [
-        {
-          "id": "map_lz_ch03_fork_road_v1_start",
-          "name": "分岔官道入口",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 22,
-          "offsetY": 24
-        },
-        {
-          "id": "map_lz_ch03_fork_road_v1_clue",
-          "name": "分岔官道线索点",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 10,
-          "offsetY": 20
-        },
-        {
-          "id": "map_lz_ch03_fork_road_v1_choice",
-          "name": "分岔官道抉择点",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 30,
-          "offsetY": 20
-        }
-      ],
-      "defaultEventDensity": 1
-    }
-  ],
-  "itemDefs": [],
-  "teleports": [],
-  "createdAt": 1782325200000,
-  "updatedAt": 1782325200000,
-  "version": 1,
-  "story": {
-    "storyId": "liangzhu",
-    "chapterId": "ch03_eighteen_mile_farewell",
-    "sceneId": "ch03_scene_05_fork_road",
-    "scriptReference": {
-      "chapterFile": "chapter-03-eighteen-mile-farewell.md",
-      "sceneHeading": "场景五：分岔官道",
-      "roleGoalKeywords": {
-        "zhuyingtai": [
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_stele3_late_v1",
+     "tileX": 22,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_story_b",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch03_fork_road_v1_story_b_zhuyingtai",
+        "name": "祝英台：信物 / 约定",
+        "description": "祝英台在场景五：分岔官道围绕信物、约定做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         }
+        ],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "祝英台在场景五：分岔官道围绕信物、约定做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": -2
+         },
+         {
+          "type": "modify_attribute",
+          "target": "social",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "promiseClarity",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "liangTrust",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch04_ma_family_forces_marriage",
+           "sceneId": "ch04_scene_01_zhufu_hall",
+           "mapId": "map_lz_ch04_zhufu_hall_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch03_eighteen_mile_farewell",
+         "sceneId": "ch03_scene_05_fork_road",
+         "mapId": "map_lz_ch03_fork_road_v1",
+         "role": "zhuyingtai",
+         "eventLabel": "信物 / 约定",
+         "keywords": [
           "信物",
           "约定"
+         ],
+         "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+         "sceneHeading": "场景五：分岔官道",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch03_fork_road_v1",
+         "role": "zhuyingtai",
+         "presence": "present",
+         "impactScope": "physical",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "present",
+        "stateImpactScope": "physical"
+       },
+       {
+        "id": "map_lz_ch03_fork_road_v1_story_b_liangshanbo",
+        "name": "梁山伯：追问 / 真相",
+        "description": "梁山伯在场景五：分岔官道围绕追问、真相做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         }
         ],
-        "liangshanbo": [
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "梁山伯在场景五：分岔官道围绕追问、真相做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": -1
+         },
+         {
+          "type": "modify_attribute",
+          "target": "social",
+          "value": 2
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "promiseClarity",
+          "value": 2
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "liangTrust",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch04_ma_family_forces_marriage",
+           "sceneId": "ch04_scene_01_zhufu_hall",
+           "mapId": "map_lz_ch04_zhufu_hall_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch03_eighteen_mile_farewell",
+         "sceneId": "ch03_scene_05_fork_road",
+         "mapId": "map_lz_ch03_fork_road_v1",
+         "role": "liangshanbo",
+         "eventLabel": "追问 / 真相",
+         "keywords": [
           "追问",
           "真相"
+         ],
+         "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+         "sceneHeading": "场景五：分岔官道",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch03_fork_road_v1",
+         "role": "liangshanbo",
+         "presence": "present",
+         "impactScope": "physical",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "present",
+        "stateImpactScope": "physical"
+       },
+       {
+        "id": "map_lz_ch03_fork_road_v1_story_b_mawencai",
+        "name": "马文才：递信 / 暂缓",
+        "description": "马文才在场景五：分岔官道围绕递信、暂缓做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         }
         ],
-        "mawencai": [
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "马文才在场景五：分岔官道围绕递信、暂缓做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "wealth",
+          "value": 1
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": -1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "familyPressure",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "maRestraint",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch04_ma_family_forces_marriage",
+           "sceneId": "ch04_scene_01_zhufu_hall",
+           "mapId": "map_lz_ch04_zhufu_hall_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch03_eighteen_mile_farewell",
+         "sceneId": "ch03_scene_05_fork_road",
+         "mapId": "map_lz_ch03_fork_road_v1",
+         "role": "mawencai",
+         "eventLabel": "递信 / 暂缓",
+         "keywords": [
           "递信",
           "暂缓"
-        ]
-      }
+         ],
+         "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+         "sceneHeading": "场景五：分岔官道",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch03_fork_road_v1",
+         "role": "mawencai",
+         "presence": "present",
+         "impactScope": "physical",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "present",
+        "stateImpactScope": "physical"
+       }
+      ]
+     }
     },
-    "artStyle": {
-      "storyId": "liangzhu",
-      "visualStyle": "semi-realistic pixel comic",
-      "baseTileSize": 16,
-      "characterScale": "48x96",
-      "detailTier": "S",
-      "sceneFamily": "road_sign",
-      "chapterPalette": "sunset-road-willow-water",
-      "mood": "farewell hints and missed truth",
-      "focusTier": "S",
-      "detailPass": "second-pass-v2"
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_signpost_late_v1",
+     "tileX": 15,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_signpost_15_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_fan_jade_late_v1",
+     "tileX": 19,
+     "tileY": 17,
+     "refId": "map_lz_ch03_fork_road_v1_story_a",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch03_fork_road_v1_story_a_inspect",
+        "name": "查看分岔官道线索",
+        "description": "分岔官道线索承载着当前章节的关键线索。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "分岔官道线索承载着当前章节的关键线索。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "分岔官道线索提示了当前场景的主要矛盾。"
+         }
+        ],
+        "weight": 1
+       },
+       {
+        "id": "map_lz_ch03_fork_road_v1_story_a_choice",
+        "name": "处理分岔官道线索",
+        "description": "你围绕分岔官道线索整理线索，真正的角色状态结算会在抉择点发生。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "你围绕分岔官道线索整理线索，真正的角色状态结算会在抉择点发生。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "分岔官道线索已记录为共同线索。"
+         }
+        ],
+        "weight": 1
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_autumn_willow_late_v1",
+     "tileX": 37,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_autumn_willow_37_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_reeds_late_v1",
+     "tileX": 14,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_reeds_14_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_reeds_late_a_v1",
+     "tileX": 24,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_reeds_24_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_autumn_willow_late_a_v1",
+     "tileX": 0,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_autumn_willow_0_16"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_zhuyingtai_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 20,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_actor_zhuyingtai_1"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_liangshanbo_48x96_story_v2",
+     "animationId": "idle-left",
+     "tileX": 22,
+     "tileY": 19,
+     "refId": "map_lz_ch03_fork_road_v1_actor_liangshanbo_2"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_yinxin_48x96_story_v1",
+     "animationId": "idle-right",
+     "tileX": 32,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_actor_yinxin"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_page_boy_48x96_story_v1",
+     "animationId": "idle-right",
+     "tileX": 12,
+     "tileY": 19,
+     "refId": "map_lz_ch03_fork_road_v1_actor_sixjiu"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_carter_48x96_story_v1",
+     "animationId": "idle-left",
+     "tileX": 33,
+     "tileY": 19,
+     "refId": "map_lz_ch03_fork_road_v1_actor_carter"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_ma_guard_48x96_story_v1",
+     "animationId": "idle-right",
+     "tileX": 6,
+     "tileY": 19,
+     "refId": "map_lz_ch03_fork_road_v1_actor_ma_guard"
     }
+   ]
+  },
+  {
+   "id": "map_lz_ch03_fork_road_v1_decor",
+   "name": "Decoration",
+   "type": "decoration",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": []
+  },
+  {
+   "id": "map_lz_ch03_fork_road_v1_collision",
+   "name": "Collision",
+   "type": "collision",
+   "visible": true,
+   "locked": false,
+   "opacity": 0.3,
+   "components": [
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_0_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_1_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_2_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_3_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_4_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_15_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_16_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_17_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 18,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_18_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 19,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_19_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 20,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_20_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 21,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_21_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 22,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_22_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 23,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_23_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_24_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_25_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_26_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_27_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_28_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_29_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_37_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_38_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_39_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_40_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_41_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_42_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 0,
+     "refId": "map_lz_ch03_fork_road_v1_block_43_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_0_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_1_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_2_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_3_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_4_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_15_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_16_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_17_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 18,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_18_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 19,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_19_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 20,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_20_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 21,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_21_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_37_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_38_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_39_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_40_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_41_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_42_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 1,
+     "refId": "map_lz_ch03_fork_road_v1_block_43_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_0_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_1_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_2_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_3_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_4_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_15_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_16_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 6,
+     "refId": "map_lz_ch03_fork_road_v1_block_17_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_0_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_1_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_2_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_3_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_4_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_15_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_16_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 7,
+     "refId": "map_lz_ch03_fork_road_v1_block_17_7"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_0_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_1_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_2_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_3_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_4_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_15_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_16_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 8,
+     "refId": "map_lz_ch03_fork_road_v1_block_17_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_0_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_1_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_2_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_3_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_4_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_15_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_16_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_block_17_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_0_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_1_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_2_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_3_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_4_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_15_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_16_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_17_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_37_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_38_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_39_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_40_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_41_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_42_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 10,
+     "refId": "map_lz_ch03_fork_road_v1_block_43_10"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_0_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_1_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_2_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_3_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_4_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_15_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_16_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_17_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_37_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_38_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_39_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_40_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_41_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_42_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 11,
+     "refId": "map_lz_ch03_fork_road_v1_block_43_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_0_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_1_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_2_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_3_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_4_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_15_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_16_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_17_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_37_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_38_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_39_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_40_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_41_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_42_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 12,
+     "refId": "map_lz_ch03_fork_road_v1_block_43_12"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_25_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_26_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_27_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_28_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_29_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_37_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_38_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_39_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_40_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_41_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_42_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 13,
+     "refId": "map_lz_ch03_fork_road_v1_block_43_13"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_0_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_1_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_2_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_3_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_4_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 22,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_22_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 23,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_23_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_24_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_25_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_26_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_27_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_28_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_29_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_37_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_38_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_39_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_40_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_41_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_42_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 14,
+     "refId": "map_lz_ch03_fork_road_v1_block_43_14"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_0_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_1_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_2_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_3_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_4_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 22,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_22_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 23,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_23_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_24_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_25_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_26_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_27_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_28_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_29_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 15,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 22,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_block_22_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 23,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_block_23_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_block_24_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 16,
+     "refId": "map_lz_ch03_fork_road_v1_block_25_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_27_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_28_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_29_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 21,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_21"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_27_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_28_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_29_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 22,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_22"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_27_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_28_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_29_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 23,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_27_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_28_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_29_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 24,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_27_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_28_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_29_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 25,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_15_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_16_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_17_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 18,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_18_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 19,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_19_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 20,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_20_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 21,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_21_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 22,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_22_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 23,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_23_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_25_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_26_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_27_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_28_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_29_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 26,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_15_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_16_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_17_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 18,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_18_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 19,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_19_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 20,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_20_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 21,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_21_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 22,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_22_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 23,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_23_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_25_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_26_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_27_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_28_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_29_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_37_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_38_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_39_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_40_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_41_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_42_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 27,
+     "refId": "map_lz_ch03_fork_road_v1_block_43_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_0_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_1_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_2_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_3_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_4_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_5_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_6_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_7_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_8_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_9_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_10_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_11_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_12_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_13_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_14_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_15_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_16_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_17_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 18,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_18_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 19,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_19_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 20,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_20_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 21,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_21_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 22,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_22_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 23,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_23_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_24_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_25_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_26_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_27_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_28_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_29_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_30_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_31_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_32_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_33_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_34_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_35_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_36_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_37_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_38_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_39_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_40_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_41_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_42_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 28,
+     "refId": "map_lz_ch03_fork_road_v1_block_43_28"
+    }
+   ]
   }
+ ],
+ "districts": [
+  {
+   "districtId": "map_lz_ch03_fork_road_v1_district",
+   "name": "分岔官道",
+   "x": 0,
+   "y": 0,
+   "width": 44,
+   "height": 32,
+   "terrainTags": [
+    "urban"
+   ],
+   "locations": [
+    {
+     "id": "map_lz_ch03_fork_road_v1_start",
+     "name": "分岔官道入口",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 0,
+     "offsetY": 19
+    },
+    {
+     "id": "map_lz_ch03_fork_road_v1_clue",
+     "name": "分岔官道线索点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 20,
+     "offsetY": 18
+    },
+    {
+     "id": "map_lz_ch03_fork_road_v1_choice",
+     "name": "分岔官道抉择点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 21,
+     "offsetY": 12
+    }
+   ],
+   "defaultEventDensity": 1
+  }
+ ],
+ "itemDefs": [],
+ "teleports": [],
+ "createdAt": 1782325200000,
+ "updatedAt": 1791600000000,
+ "version": 2,
+ "story": {
+  "storyId": "liangzhu",
+  "chapterId": "ch03_eighteen_mile_farewell",
+  "sceneId": "ch03_scene_05_fork_road",
+  "scriptReference": {
+   "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+   "sceneHeading": "场景五：分岔官道",
+   "roleGoalKeywords": {
+    "zhuyingtai": [
+     "信物",
+     "约定"
+    ],
+    "liangshanbo": [
+     "追问",
+     "真相"
+    ],
+    "mawencai": [
+     "递信",
+     "暂缓"
+    ]
+   }
+  },
+  "artStyle": {
+   "storyId": "liangzhu",
+   "visualStyle": "semi-realistic pixel comic",
+   "baseTileSize": 16,
+   "characterScale": "48x96",
+   "detailTier": "S",
+   "sceneFamily": "road_sign",
+   "chapterPalette": "sunset-road-willow-water",
+   "mood": "late low sun on the ridge, the valley already in shadow; she climbs into the light, he looks up",
+   "focusTier": "S",
+   "detailPass": "ch03-eighteen-mile-v2",
+   "timeOfDay": "late"
+  },
+  "journeyOrder": 4,
+  "timeOfDay": "late",
+  "chapterSettlement": false
+ }
 }

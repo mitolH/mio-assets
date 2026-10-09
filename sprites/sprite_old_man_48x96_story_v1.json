@@ -1,0 +1,441 @@
+{
+ "id": "sprite_old_man_48x96_story_v1",
+ "name": "亭边老人 48x96 story v1",
+ "category": "character",
+ "description": "亭边老人 48x96 story v1（第三章换皮 NPC，基于 teacher）：路边长亭里的乡间老人：先生的身形换成褐布直裰、旧麻色衣缘，白须，讲“双鸟”传闻的普通 NPC。七动画（含左右待机）×4 帧。",
+ "tags": [
+  "liangzhu-story-v1",
+  "liangzhu",
+  "48x96",
+  "tier-a",
+  "supporting-cast-v4",
+  "teacher-scroll-sleeve-v4",
+  "song-jiangnan-npc-v1",
+  "zhuyingtai-v4-style",
+  "kit-palette-v4",
+  "old_man",
+  "ch03-reskin-v1",
+  "eighteen-mile-reference-v1"
+ ],
+ "styleProfile": {
+  "storyId": "liangzhu",
+  "visualStyle": "semi-realistic pixel comic",
+  "baseTileSize": 16,
+  "characterScale": "48x96",
+  "detailTier": "A",
+  "sceneFamily": "farewell_road",
+  "chapterPalette": "sunset-road-willow-water",
+  "paletteFamily": "lz-academy-gate-v2-57c+zhuyingtai-v4+npc-v1",
+  "lightDirection": "top-left",
+  "sourceQuality": "procedural-hand-painted-npc-v1",
+  "costume": "song-elder-scholar",
+  "era": "southern-song-liangzhe-water-town",
+  "detailPass": "supporting-cast-v4",
+  "characterMotifs": [
+   "brown hemp 直裰",
+   "white beard",
+   "village elder"
+  ],
+  "reskinOf": "sprite_teacher_48x96_story_v1"
+ },
+ "width": 48,
+ "height": 96,
+ "tileWidth": 3,
+ "tileHeight": 6,
+ "anchorX": 24,
+ "anchorY": 96,
+ "footprint": {
+  "tileWidth": 1,
+  "tileHeight": 1,
+  "offsetTileX": 0,
+  "offsetTileY": 0
+ },
+ "layers": [
+  {
+   "id": "body",
+   "name": "Body",
+   "zOrder": 0,
+   "defaultComponentId": "comp_old_man_idle_down_f1_story_v1",
+   "defaultOffsetX": -24,
+   "defaultOffsetY": -96,
+   "visible": true
+  }
+ ],
+ "animations": [
+  {
+   "id": "idle-down",
+   "name": "idle-down",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_idle_down_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_idle_down_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_idle_down_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_idle_down_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-down",
+   "name": "walk-down",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_down_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_down_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_down_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_down_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-left",
+   "name": "walk-left",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_left_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_left_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_left_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_left_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-right",
+   "name": "walk-right",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_right_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_right_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_right_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_right_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-up",
+   "name": "walk-up",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_up_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_up_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_up_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_walk_up_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "idle-left",
+   "name": "idle-left",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_idle_left_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_idle_left_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_idle_left_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_idle_left_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "idle-right",
+   "name": "idle-right",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_idle_right_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_idle_right_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_idle_right_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_old_man_idle_right_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "defaultAnimationId": "idle-down",
+ "createdAt": 1791600000000,
+ "updatedAt": 1791600000000,
+ "version": 3
+}

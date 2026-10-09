@@ -1,1121 +1,4833 @@
 {
-  "id": "map_lz_ch03_long_pavilion_v1",
-  "name": "长亭 v1",
-  "description": "长亭，梁祝五章第一版统一风格可玩地图。",
-  "widthInTiles": 44,
-  "heightInTiles": 32,
-  "level": {
-    "formatVersion": 1,
-    "startLocationId": "map_lz_ch03_long_pavilion_v1_start",
-    "assets": {
-      "componentIds": [
-        "comp_farewell_farewell_stone_v1",
-        "comp_farewell_long_pavilion_v1",
-        "comp_farewell_tea_table_v1",
-        "comp_farewell_willow_tree_v1",
-        "comp_lz_ground_grass_story_v1",
-        "comp_lz_prop_fan_jade_story_v1",
-        "comp_lz_prop_willow_branch_story_v1",
-        "comp_map_lz_ch03_long_pavilion_v1_ambient_scene_detail_v2",
-        "comp_map_lz_ch03_long_pavilion_v1_focus_story_v1",
-        "comp_map_lz_ch03_long_pavilion_v1_left_scene_detail_v2",
-        "comp_map_lz_ch03_long_pavilion_v1_left_scene_fixture_v1",
-        "comp_map_lz_ch03_long_pavilion_v1_path_scene_detail_v2",
-        "comp_map_lz_ch03_long_pavilion_v1_right_scene_detail_v2",
-        "comp_map_lz_ch03_long_pavilion_v1_right_scene_fixture_v1",
-        "comp_map_lz_ch03_long_pavilion_v1_story_atmosphere_v6",
-        "comp_map_lz_ch03_long_pavilion_v1_story_composition_v4",
-        "comp_map_lz_ch03_long_pavilion_v1_story_scene_plate_v10",
-        "comp_map_lz_ch03_long_pavilion_v1_story_tableau_v4"
-      ],
-      "spriteIds": [
-        "sprite_liangshanbo_48x96_story_v2",
-        "sprite_liangshanbo_butterfly_48x96_story_v1",
-        "sprite_liangshanbo_sick_48x96_story_v1",
-        "sprite_mawencai_48x96_story_v1",
-        "sprite_villager_48x96_story_v1",
-        "sprite_zhuyingtai_48x96_story_v1",
-        "sprite_zhuyingtai_butterfly_48x96_story_v1",
-        "sprite_zhuyingtai_wedding_48x96_story_v1"
-      ],
-      "mapIds": [
-        "map_lz_ch03_long_pavilion_v1"
-      ]
+ "id": "map_lz_ch03_long_pavilion_v1",
+ "name": "长亭 v2",
+ "description": "长亭 v2（第三章 场景二→路线最后一场，方案 B「水亭渡口·夕阳归帆」，黄昏）：十里长亭立在渡口河岸，背靠大河，落日在亭后水面铺出一条金路；祝家的乌篷船泊在栈桥边，船灯已点——她乘船来、乘船去（回收第一章渡口）。亭前石桌茶盏、岸柳折柳（第一章十里碑旁），栈桥柳梢一对喜鹊；行商歇担，亭边老人在栈桥垂钓。章节结算（story_route）从岔路移到此处：栈桥口祝英台的行囊。",
+ "widthInTiles": 44,
+ "heightInTiles": 32,
+ "level": {
+  "formatVersion": 1,
+  "startLocationId": "map_lz_ch03_long_pavilion_v1_start",
+  "assets": {
+   "componentIds": [
+    "comp_lz_ch01_gate_block_water_v3",
+    "comp_lz_ch03_autumn_willow_dusk_a_v1",
+    "comp_lz_ch03_autumn_willow_dusk_v1",
+    "comp_lz_ch03_eave_lantern_dusk_v1",
+    "comp_lz_ch03_long_ting_dusk_v1",
+    "comp_lz_ch03_magpies_dusk_v1",
+    "comp_lz_ch03_milestone_stele_dusk_v1",
+    "comp_lz_ch03_pavilion_ground_r0c0_v1",
+    "comp_lz_ch03_pavilion_ground_r0c1_v1",
+    "comp_lz_ch03_pavilion_ground_r0c2_v1",
+    "comp_lz_ch03_pavilion_ground_r0c3_v1",
+    "comp_lz_ch03_pavilion_ground_r1c0_v1",
+    "comp_lz_ch03_pavilion_ground_r1c1_v1",
+    "comp_lz_ch03_pavilion_ground_r1c2_v1",
+    "comp_lz_ch03_pavilion_ground_r1c3_v1",
+    "comp_lz_ch03_pavilion_ground_r2c0_v1",
+    "comp_lz_ch03_pavilion_ground_r2c1_v1",
+    "comp_lz_ch03_pavilion_ground_r2c2_v1",
+    "comp_lz_ch03_pavilion_ground_r2c3_v1",
+    "comp_lz_ch03_pavilion_ground_r3c0_v1",
+    "comp_lz_ch03_pavilion_ground_r3c1_v1",
+    "comp_lz_ch03_pavilion_ground_r3c2_v1",
+    "comp_lz_ch03_pavilion_ground_r3c3_v1",
+    "comp_lz_ch03_pavilion_lantern_glow_v1",
+    "comp_lz_ch03_pedlar_load_dusk_v1",
+    "comp_lz_ch03_reeds_dusk_v1",
+    "comp_lz_ch03_straw_stack_dusk_a_v1",
+    "comp_lz_ch03_straw_stack_dusk_v1",
+    "comp_lz_ch03_tea_set_table_dusk_v1",
+    "comp_lz_ch03_travel_bundle_dusk_v1",
+    "comp_lz_ch03_willow_twig_dusk_v1",
+    "comp_lz_ch03_wupeng_boat_dusk_v1"
+   ],
+   "spriteIds": [
+    "sprite_boatman_48x96_story_v1",
+    "sprite_liangshanbo_48x96_story_v2",
+    "sprite_ma_guard_48x96_story_v1",
+    "sprite_old_man_48x96_story_v1",
+    "sprite_page_boy_48x96_story_v1",
+    "sprite_pedlar_48x96_story_v1",
+    "sprite_yinxin_48x96_story_v1",
+    "sprite_zhuyingtai_48x96_story_v1"
+   ],
+   "mapIds": [
+    "map_lz_ch03_long_pavilion_v1"
+   ]
+  }
+ },
+ "layers": [
+  {
+   "id": "map_lz_ch03_long_pavilion_v1_ground",
+   "name": "Ground",
+   "type": "ground",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r0c0_v1",
+     "tileX": 0,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r0c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r0c1_v1",
+     "tileX": 11,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r0c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r0c2_v1",
+     "tileX": 22,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r0c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r0c3_v1",
+     "tileX": 33,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r0c3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r1c0_v1",
+     "tileX": 0,
+     "tileY": 8,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r1c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r1c1_v1",
+     "tileX": 11,
+     "tileY": 8,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r1c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r1c2_v1",
+     "tileX": 22,
+     "tileY": 8,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r1c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r1c3_v1",
+     "tileX": 33,
+     "tileY": 8,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r1c3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r2c0_v1",
+     "tileX": 0,
+     "tileY": 16,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r2c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r2c1_v1",
+     "tileX": 11,
+     "tileY": 16,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r2c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r2c2_v1",
+     "tileX": 22,
+     "tileY": 16,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r2c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r2c3_v1",
+     "tileX": 33,
+     "tileY": 16,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r2c3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r3c0_v1",
+     "tileX": 0,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r3c0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r3c1_v1",
+     "tileX": 11,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r3c1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r3c2_v1",
+     "tileX": 22,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r3c2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_ground_r3c3_v1",
+     "tileX": 33,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_ground_r3c3"
     }
+   ]
   },
-  "layers": [
+  {
+   "id": "map_lz_ch03_long_pavilion_v1_objects",
+   "name": "Objects",
+   "type": "object",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": [
     {
-      "id": "map_lz_ch03_long_pavilion_v1_ground",
-      "name": "Ground",
-      "type": "ground",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 0,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 4,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 8,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 12,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 16,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 20,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 24,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 28,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 32,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 36,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 40,
-          "tileY": 0
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 0,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 4,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 8,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 12,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 16,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 20,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 24,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 28,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 32,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 36,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 40,
-          "tileY": 4
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 0,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 4,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 8,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 12,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 16,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 20,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 24,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 28,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 32,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 36,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 40,
-          "tileY": 8
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 0,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 4,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 8,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 12,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 16,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 20,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 24,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 28,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 32,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 36,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 40,
-          "tileY": 12
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 0,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 4,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 8,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 12,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 16,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 20,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 24,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 28,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 32,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 36,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 40,
-          "tileY": 16
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 0,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 4,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 8,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 12,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 16,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 20,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 24,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 28,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 32,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 36,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 40,
-          "tileY": 20
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 0,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 4,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 8,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 12,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 16,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 20,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 24,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 28,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 32,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 36,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 40,
-          "tileY": 24
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 0,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 4,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 8,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 12,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 16,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 20,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 24,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 28,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 32,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 36,
-          "tileY": 28
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 40,
-          "tileY": 28
-        }
-      ]
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_wupeng_boat_dusk_v1",
+     "tileX": 34,
+     "tileY": 7,
+     "refId": "map_lz_ch03_long_pavilion_v1_wupeng_boat_34_7"
     },
     {
-      "id": "map_lz_ch03_long_pavilion_v1_objects",
-      "name": "Objects",
-      "type": "object",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_long_pavilion_v1_focus_story_v1",
-          "tileX": 14,
-          "tileY": 3,
-          "refId": "map_lz_ch03_long_pavilion_v1_focus"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_farewell_long_pavilion_v1",
-          "tileX": 17,
-          "tileY": 5,
-          "refId": "map_lz_ch03_long_pavilion_v1_farewell_reference_long_pavilion"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_farewell_willow_tree_v1",
-          "tileX": 3,
-          "tileY": 8,
-          "refId": "map_lz_ch03_long_pavilion_v1_farewell_reference_willow_tree"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_farewell_tea_table_v1",
-          "tileX": 14,
-          "tileY": 19,
-          "refId": "map_lz_ch03_long_pavilion_v1_farewell_reference_tea_table"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_farewell_farewell_stone_v1",
-          "tileX": 33,
-          "tileY": 18,
-          "refId": "map_lz_ch03_long_pavilion_v1_farewell_reference_farewell_stone"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_long_pavilion_v1_story_scene_plate_v10",
-          "tileX": 10,
-          "tileY": 2,
-          "refId": "map_lz_ch03_long_pavilion_v1_story_scene_plate"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_long_pavilion_v1_story_atmosphere_v6",
-          "tileX": 10,
-          "tileY": 2,
-          "refId": "map_lz_ch03_long_pavilion_v1_story_atmosphere"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_prop_willow_branch_story_v1",
-          "tileX": 10,
-          "tileY": 20,
-          "refId": "map_lz_ch03_long_pavilion_v1_story_a",
-          "interaction": {
-            "interactionRange": 2,
-            "indicatorType": "sparkle",
-            "interactions": [
-              {
-                "id": "map_lz_ch03_long_pavilion_v1_story_a_inspect",
-                "name": "查看长亭线索",
-                "description": "长亭线索承载着当前章节的关键线索。",
-                "type": "examine",
-                "conditions": [],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "长亭线索承载着当前章节的关键线索。"
-                  },
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "长亭线索提示了当前场景的主要矛盾。"
-                  }
-                ],
-                "weight": 1
-              },
-              {
-                "id": "map_lz_ch03_long_pavilion_v1_story_a_choice",
-                "name": "处理长亭线索",
-                "description": "你围绕长亭线索整理线索，真正的角色状态结算会在抉择点发生。",
-                "type": "examine",
-                "conditions": [],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "你围绕长亭线索整理线索，真正的角色状态结算会在抉择点发生。"
-                  },
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "长亭线索已记录为共同线索。"
-                  }
-                ],
-                "weight": 1
-              }
-            ]
-          }
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_prop_fan_jade_story_v1",
-          "tileX": 30,
-          "tileY": 20,
-          "refId": "map_lz_ch03_long_pavilion_v1_story_b",
-          "interaction": {
-            "interactionRange": 2,
-            "indicatorType": "sparkle",
-            "interactions": [
-              {
-                "id": "map_lz_ch03_long_pavilion_v1_story_b_zhuyingtai",
-                "name": "祝英台：双鸟 / 身份",
-                "description": "祝英台在场景二：长亭围绕双鸟、身份做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_zhuyingtai"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "祝英台在场景二：长亭围绕双鸟、身份做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "social",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "promiseClarity",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "liangTrust",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch03_eighteen_mile_farewell",
-                      "sceneId": "ch03_scene_03_creek_bridge",
-                      "mapId": "map_lz_ch03_creek_bridge_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch03_eighteen_mile_farewell",
-                  "sceneId": "ch03_scene_02_long_pavilion",
-                  "mapId": "map_lz_ch03_long_pavilion_v1",
-                  "role": "zhuyingtai",
-                  "eventLabel": "双鸟 / 身份",
-                  "keywords": [
-                    "双鸟",
-                    "身份"
-                  ],
-                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
-                  "sceneHeading": "场景二：长亭",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch03_long_pavilion_v1",
-                  "role": "zhuyingtai",
-                  "presence": "present",
-                  "impactScope": "physical",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "present",
-                "stateImpactScope": "physical"
-              },
-              {
-                "id": "map_lz_ch03_long_pavilion_v1_story_b_liangshanbo",
-                "name": "梁山伯：双鸟 / 隐喻",
-                "description": "梁山伯在场景二：长亭围绕双鸟、隐喻做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_liangshanbo"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "梁山伯在场景二：长亭围绕双鸟、隐喻做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "social",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "promiseClarity",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "liangTrust",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch03_eighteen_mile_farewell",
-                      "sceneId": "ch03_scene_03_creek_bridge",
-                      "mapId": "map_lz_ch03_creek_bridge_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch03_eighteen_mile_farewell",
-                  "sceneId": "ch03_scene_02_long_pavilion",
-                  "mapId": "map_lz_ch03_long_pavilion_v1",
-                  "role": "liangshanbo",
-                  "eventLabel": "双鸟 / 隐喻",
-                  "keywords": [
-                    "双鸟",
-                    "隐喻"
-                  ],
-                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
-                  "sceneHeading": "场景二：长亭",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch03_long_pavilion_v1",
-                  "role": "liangshanbo",
-                  "presence": "present",
-                  "impactScope": "physical",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "present",
-                "stateImpactScope": "physical"
-              },
-              {
-                "id": "map_lz_ch03_long_pavilion_v1_story_b_mawencai",
-                "name": "马文才：祝家 / 消息",
-                "description": "马文才在场景二：长亭围绕祝家、消息做出选择，推动当前章节继续前进。",
-                "type": "examine",
-                "conditions": [
-                  {
-                    "type": "flag",
-                    "operator": "eq",
-                    "value": "role_mawencai"
-                  }
-                ],
-                "effects": [
-                  {
-                    "type": "show_dialog",
-                    "target": "dialog",
-                    "value": "马文才在场景二：长亭围绕祝家、消息做出选择，推动当前章节继续前进。"
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "social",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_attribute",
-                    "target": "mood",
-                    "value": -1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "familyPressure",
-                    "value": 1
-                  },
-                  {
-                    "type": "modify_story_variable",
-                    "target": "maPressure",
-                    "value": 1
-                  },
-                  {
-                    "type": "advance_story_scene",
-                    "target": "liangzhu",
-                    "value": {
-                      "chapterId": "ch03_eighteen_mile_farewell",
-                      "sceneId": "ch03_scene_03_creek_bridge",
-                      "mapId": "map_lz_ch03_creek_bridge_v1"
-                    }
-                  }
-                ],
-                "weight": 1,
-                "scriptEvent": {
-                  "storyId": "liangzhu",
-                  "chapterId": "ch03_eighteen_mile_farewell",
-                  "sceneId": "ch03_scene_02_long_pavilion",
-                  "mapId": "map_lz_ch03_long_pavilion_v1",
-                  "role": "mawencai",
-                  "eventLabel": "祝家 / 消息",
-                  "keywords": [
-                    "祝家",
-                    "消息"
-                  ],
-                  "chapterFile": "chapter-03-eighteen-mile-farewell.md",
-                  "sceneHeading": "场景二：长亭",
-                  "source": "docs/liangzhu-game/scene-doc-references.json"
-                },
-                "authoredRoleState": {
-                  "mapId": "map_lz_ch03_long_pavilion_v1",
-                  "role": "mawencai",
-                  "presence": "reported",
-                  "impactScope": "indirect",
-                  "source": "sceneRoleStateEffects"
-                },
-                "rolePresence": "reported",
-                "stateImpactScope": "indirect"
-              }
-            ]
-          }
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_long_pavilion_v1_story_composition_v4",
-          "tileX": 10,
-          "tileY": 13,
-          "refId": "map_lz_ch03_long_pavilion_v1_story_composition"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_zhuyingtai_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 18,
-          "tileY": 22,
-          "refId": "map_lz_ch03_long_pavilion_v1_actor_zhuyingtai_1"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_liangshanbo_48x96_story_v2",
-          "animationId": "idle-down",
-          "tileX": 23,
-          "tileY": 22,
-          "refId": "map_lz_ch03_long_pavilion_v1_actor_liangshanbo_2"
-        },
-        {
-          "assetType": "sprite",
-          "spriteId": "sprite_villager_48x96_story_v1",
-          "animationId": "idle-down",
-          "tileX": 31,
-          "tileY": 21,
-          "refId": "map_lz_ch03_long_pavilion_v1_actor_villager_3"
-        }
-      ]
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_reeds_dusk_v1",
+     "tileX": 1,
+     "tileY": 11,
+     "refId": "map_lz_ch03_long_pavilion_v1_reeds_1_11"
     },
     {
-      "id": "map_lz_ch03_long_pavilion_v1_decor",
-      "name": "Decoration",
-      "type": "decoration",
-      "visible": true,
-      "locked": false,
-      "opacity": 1,
-      "components": [
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_long_pavilion_v1_story_tableau_v4",
-          "tileX": 2,
-          "tileY": 12,
-          "refId": "map_lz_ch03_long_pavilion_v1_story_tableau"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_long_pavilion_v1_left_scene_fixture_v1",
-          "tileX": 4,
-          "tileY": 16,
-          "refId": "map_lz_ch03_long_pavilion_v1_scene_fixture_left"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_long_pavilion_v1_right_scene_fixture_v1",
-          "tileX": 30,
-          "tileY": 16,
-          "refId": "map_lz_ch03_long_pavilion_v1_scene_fixture_right"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_long_pavilion_v1_left_scene_detail_v2",
-          "tileX": 4,
-          "tileY": 23,
-          "refId": "map_lz_ch03_long_pavilion_v1_scene_detail_left"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_long_pavilion_v1_right_scene_detail_v2",
-          "tileX": 36,
-          "tileY": 22,
-          "refId": "map_lz_ch03_long_pavilion_v1_scene_detail_right"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_long_pavilion_v1_path_scene_detail_v2",
-          "tileX": 20,
-          "tileY": 25,
-          "refId": "map_lz_ch03_long_pavilion_v1_scene_detail_path"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_map_lz_ch03_long_pavilion_v1_ambient_scene_detail_v2",
-          "tileX": 8,
-          "tileY": 8,
-          "refId": "map_lz_ch03_long_pavilion_v1_scene_detail_ambient"
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 1,
-          "tileY": 1
-        },
-        {
-          "assetType": "component",
-          "componentId": "comp_lz_ground_grass_story_v1",
-          "tileX": 39,
-          "tileY": 1
-        }
-      ]
-    }
-  ],
-  "districts": [
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_reeds_dusk_v1",
+     "tileX": 38,
+     "tileY": 11,
+     "refId": "map_lz_ch03_long_pavilion_v1_reeds_38_11"
+    },
     {
-      "districtId": "map_lz_ch03_long_pavilion_v1_district",
-      "name": "长亭",
-      "x": 0,
-      "y": 0,
-      "width": 44,
-      "height": 32,
-      "terrainTags": [
-        "forest"
-      ],
-      "locations": [
-        {
-          "id": "map_lz_ch03_long_pavilion_v1_start",
-          "name": "长亭入口",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 22,
-          "offsetY": 24
-        },
-        {
-          "id": "map_lz_ch03_long_pavilion_v1_clue",
-          "name": "长亭线索点",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 10,
-          "offsetY": 20
-        },
-        {
-          "id": "map_lz_ch03_long_pavilion_v1_choice",
-          "name": "长亭抉择点",
-          "terrainTags": [
-            "urban"
-          ],
-          "eventDensity": 1,
-          "offsetX": 30,
-          "offsetY": 20
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_reeds_dusk_v1",
+     "tileX": 41,
+     "tileY": 11,
+     "refId": "map_lz_ch03_long_pavilion_v1_reeds_41_11"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_travel_bundle_dusk_v1",
+     "tileX": 31,
+     "tileY": 11,
+     "refId": "map_lz_ch03_long_pavilion_v1_story_route",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "map_lz_ch03_long_pavilion_v1_route_promise_clear",
+        "name": "暗示近明",
+        "description": "梁山伯已听懂祝英台的层层暗示，第四章会更早赶往祝府。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "story_variable",
+          "operator": "gte",
+          "field": "promiseClarity",
+          "value": 4
+         }
+        ],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "梁山伯已听懂祝英台的层层暗示，第四章会更早赶往祝府。"
+         }
+        ],
+        "weight": 1,
+        "storyRoute": {
+         "mapId": "map_lz_ch03_long_pavilion_v1",
+         "routeId": "promise_clear",
+         "source": "docs/liangzhu-game",
+         "movedFrom": "map_lz_ch03_fork_road_v1"
         }
-      ],
-      "defaultEventDensity": 1
-    }
-  ],
-  "itemDefs": [],
-  "teleports": [],
-  "createdAt": 1782325200000,
-  "updatedAt": 1782325200000,
-  "version": 1,
-  "story": {
-    "storyId": "liangzhu",
-    "chapterId": "ch03_eighteen_mile_farewell",
-    "sceneId": "ch03_scene_02_long_pavilion",
-    "scriptReference": {
-      "chapterFile": "chapter-03-eighteen-mile-farewell.md",
-      "sceneHeading": "场景二：长亭",
-      "roleGoalKeywords": {
-        "zhuyingtai": [
+       },
+       {
+        "id": "map_lz_ch03_long_pavilion_v1_route_promise_late",
+        "name": "迟悟成憾",
+        "description": "梁山伯仍把离别当成寻常送别，第四章会错过婚约先机。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "story_variable",
+          "operator": "lte",
+          "field": "promiseClarity",
+          "value": 2
+         }
+        ],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "梁山伯仍把离别当成寻常送别，第四章会错过婚约先机。"
+         }
+        ],
+        "weight": 1,
+        "storyRoute": {
+         "mapId": "map_lz_ch03_long_pavilion_v1",
+         "routeId": "promise_late",
+         "source": "docs/liangzhu-game",
+         "movedFrom": "map_lz_ch03_fork_road_v1"
+        }
+       },
+       {
+        "id": "map_lz_ch03_long_pavilion_v1_route_family_moves",
+        "name": "婚约暗动",
+        "description": "祝家和马家的婚约已经转入明面，马家会更快进入祝府。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "story_variable",
+          "operator": "gte",
+          "field": "familyPressure",
+          "value": 1
+         }
+        ],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "祝家和马家的婚约已经转入明面，马家会更快进入祝府。"
+         }
+        ],
+        "weight": 1,
+        "storyRoute": {
+         "mapId": "map_lz_ch03_long_pavilion_v1",
+         "routeId": "family_moves",
+         "source": "docs/liangzhu-game",
+         "movedFrom": "map_lz_ch03_fork_road_v1"
+        }
+       },
+       {
+        "id": "map_lz_ch03_long_pavilion_v1_route_ma_withholds",
+        "name": "疑而不发",
+        "description": "马文才已经看出祝英台有所隐瞒，却暂时按下不发。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "story_variable",
+          "operator": "gte",
+          "field": "maRestraint",
+          "value": 2
+         }
+        ],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "马文才已经看出祝英台有所隐瞒，却暂时按下不发。"
+         }
+        ],
+        "weight": 1,
+        "storyRoute": {
+         "mapId": "map_lz_ch03_long_pavilion_v1",
+         "routeId": "ma_withholds",
+         "source": "docs/liangzhu-game",
+         "movedFrom": "map_lz_ch03_fork_road_v1"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_long_ting_dusk_v1",
+     "tileX": 7,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_long_ting_7_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_eave_lantern_dusk_v1",
+     "tileX": 9,
+     "tileY": 9,
+     "refId": "map_lz_ch03_long_pavilion_v1_eave_lantern_9_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_eave_lantern_dusk_v1",
+     "tileX": 23,
+     "tileY": 9,
+     "refId": "map_lz_ch03_long_pavilion_v1_eave_lantern_23_9"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_autumn_willow_dusk_v1",
+     "tileX": 25,
+     "tileY": 5,
+     "refId": "map_lz_ch03_long_pavilion_v1_story_b",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch03_long_pavilion_v1_story_b_zhuyingtai",
+        "name": "祝英台：双鸟 / 身份",
+        "description": "祝英台在场景二：长亭围绕双鸟、身份做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         }
+        ],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "祝英台在场景二：长亭围绕双鸟、身份做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": -1
+         },
+         {
+          "type": "modify_attribute",
+          "target": "social",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "promiseClarity",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "liangTrust",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch03_eighteen_mile_farewell",
+           "sceneId": "ch03_scene_03_creek_bridge",
+           "mapId": "map_lz_ch03_creek_bridge_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch03_eighteen_mile_farewell",
+         "sceneId": "ch03_scene_02_long_pavilion",
+         "mapId": "map_lz_ch03_long_pavilion_v1",
+         "role": "zhuyingtai",
+         "eventLabel": "双鸟 / 身份",
+         "keywords": [
           "双鸟",
           "身份"
+         ],
+         "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+         "sceneHeading": "场景二：长亭",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch03_long_pavilion_v1",
+         "role": "zhuyingtai",
+         "presence": "present",
+         "impactScope": "physical",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "present",
+        "stateImpactScope": "physical"
+       },
+       {
+        "id": "map_lz_ch03_long_pavilion_v1_story_b_liangshanbo",
+        "name": "梁山伯：双鸟 / 隐喻",
+        "description": "梁山伯在场景二：长亭围绕双鸟、隐喻做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         }
         ],
-        "liangshanbo": [
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "梁山伯在场景二：长亭围绕双鸟、隐喻做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": 1
+         },
+         {
+          "type": "modify_attribute",
+          "target": "social",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "promiseClarity",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "liangTrust",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch03_eighteen_mile_farewell",
+           "sceneId": "ch03_scene_03_creek_bridge",
+           "mapId": "map_lz_ch03_creek_bridge_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch03_eighteen_mile_farewell",
+         "sceneId": "ch03_scene_02_long_pavilion",
+         "mapId": "map_lz_ch03_long_pavilion_v1",
+         "role": "liangshanbo",
+         "eventLabel": "双鸟 / 隐喻",
+         "keywords": [
           "双鸟",
           "隐喻"
+         ],
+         "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+         "sceneHeading": "场景二：长亭",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch03_long_pavilion_v1",
+         "role": "liangshanbo",
+         "presence": "present",
+         "impactScope": "physical",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "present",
+        "stateImpactScope": "physical"
+       },
+       {
+        "id": "map_lz_ch03_long_pavilion_v1_story_b_mawencai",
+        "name": "马文才：祝家 / 消息",
+        "description": "马文才在场景二：长亭围绕祝家、消息做出选择，推动当前章节继续前进。",
+        "type": "examine",
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         }
         ],
-        "mawencai": [
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "马文才在场景二：长亭围绕祝家、消息做出选择，推动当前章节继续前进。"
+         },
+         {
+          "type": "modify_attribute",
+          "target": "social",
+          "value": 1
+         },
+         {
+          "type": "modify_attribute",
+          "target": "mood",
+          "value": -1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "familyPressure",
+          "value": 1
+         },
+         {
+          "type": "modify_story_variable",
+          "target": "maPressure",
+          "value": 1
+         },
+         {
+          "type": "advance_story_scene",
+          "target": "liangzhu",
+          "value": {
+           "chapterId": "ch03_eighteen_mile_farewell",
+           "sceneId": "ch03_scene_03_creek_bridge",
+           "mapId": "map_lz_ch03_creek_bridge_v1"
+          }
+         }
+        ],
+        "weight": 1,
+        "scriptEvent": {
+         "storyId": "liangzhu",
+         "chapterId": "ch03_eighteen_mile_farewell",
+         "sceneId": "ch03_scene_02_long_pavilion",
+         "mapId": "map_lz_ch03_long_pavilion_v1",
+         "role": "mawencai",
+         "eventLabel": "祝家 / 消息",
+         "keywords": [
           "祝家",
           "消息"
-        ]
-      }
+         ],
+         "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+         "sceneHeading": "场景二：长亭",
+         "source": "docs/liangzhu-game/scene-doc-references.json"
+        },
+        "authoredRoleState": {
+         "mapId": "map_lz_ch03_long_pavilion_v1",
+         "role": "mawencai",
+         "presence": "reported",
+         "impactScope": "indirect",
+         "source": "sceneRoleStateEffects"
+        },
+        "rolePresence": "reported",
+        "stateImpactScope": "indirect"
+       }
+      ]
+     }
     },
-    "artStyle": {
-      "storyId": "liangzhu",
-      "visualStyle": "semi-realistic pixel comic",
-      "baseTileSize": 16,
-      "characterScale": "48x96",
-      "detailTier": "S",
-      "sceneFamily": "long_pavilion",
-      "chapterPalette": "sunset-road-willow-water",
-      "mood": "farewell hints and missed truth",
-      "focusTier": "S",
-      "detailPass": "second-pass-v2"
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_magpies_dusk_v1",
+     "tileX": 26,
+     "tileY": 8,
+     "refId": "map_lz_ch03_long_pavilion_v1_magpies_26_8"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_autumn_willow_dusk_a_v1",
+     "tileX": 0,
+     "tileY": 6,
+     "refId": "map_lz_ch03_long_pavilion_v1_autumn_willow_0_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_willow_twig_dusk_v1",
+     "tileX": 7,
+     "tileY": 17,
+     "refId": "map_lz_ch03_long_pavilion_v1_story_a",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": [
+       {
+        "id": "map_lz_ch03_long_pavilion_v1_story_a_inspect",
+        "name": "查看长亭线索",
+        "description": "长亭线索承载着当前章节的关键线索。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "长亭线索承载着当前章节的关键线索。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "长亭线索提示了当前场景的主要矛盾。"
+         }
+        ],
+        "weight": 1
+       },
+       {
+        "id": "map_lz_ch03_long_pavilion_v1_story_a_choice",
+        "name": "处理长亭线索",
+        "description": "你围绕长亭线索整理线索，真正的角色状态结算会在抉择点发生。",
+        "type": "examine",
+        "conditions": [],
+        "effects": [
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "你围绕长亭线索整理线索，真正的角色状态结算会在抉择点发生。"
+         },
+         {
+          "type": "show_dialog",
+          "target": "dialog",
+          "value": "长亭线索已记录为共同线索。"
+         }
+        ],
+        "weight": 1
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pedlar_load_dusk_v1",
+     "tileX": 30,
+     "tileY": 16,
+     "refId": "map_lz_ch03_long_pavilion_v1_pedlar_load_30_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_tea_set_table_dusk_v1",
+     "tileX": 15,
+     "tileY": 16,
+     "refId": "map_lz_ch03_long_pavilion_v1_tea_set_table_15_16"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_milestone_stele_dusk_v1",
+     "tileX": 5,
+     "tileY": 15,
+     "refId": "map_lz_ch03_long_pavilion_v1_milestone_stele_5_15"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_straw_stack_dusk_v1",
+     "tileX": 20,
+     "tileY": 19,
+     "refId": "map_lz_ch03_long_pavilion_v1_straw_stack_20_19"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_straw_stack_dusk_a_v1",
+     "tileX": 38,
+     "tileY": 19,
+     "refId": "map_lz_ch03_long_pavilion_v1_straw_stack_38_19"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch03_pavilion_lantern_glow_v1",
+     "tileX": 9,
+     "tileY": 7,
+     "refId": "map_lz_ch03_long_pavilion_v1_lantern_glow"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_zhuyingtai_48x96_story_v1",
+     "animationId": "idle-right",
+     "tileX": 14,
+     "tileY": 18,
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_zhuyingtai_1"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_liangshanbo_48x96_story_v2",
+     "animationId": "idle-left",
+     "tileX": 19,
+     "tileY": 18,
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_liangshanbo_2"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_old_man_48x96_story_v1",
+     "animationId": "idle-left",
+     "tileX": 33,
+     "tileY": 9,
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_old_man"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_pedlar_48x96_story_v1",
+     "animationId": "idle-left",
+     "tileX": 30,
+     "tileY": 19,
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_pedlar"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_boatman_48x96_story_v1",
+     "animationId": "idle-left",
+     "tileX": 36,
+     "tileY": 11,
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_boatman"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_yinxin_48x96_story_v1",
+     "animationId": "idle-right",
+     "tileX": 33,
+     "tileY": 12,
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_yinxin"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_page_boy_48x96_story_v1",
+     "animationId": "idle-left",
+     "tileX": 25,
+     "tileY": 19,
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_sixjiu"
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_ma_guard_48x96_story_v1",
+     "animationId": "idle-left",
+     "tileX": 40,
+     "tileY": 19,
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_ma_guard"
     }
+   ]
+  },
+  {
+   "id": "map_lz_ch03_long_pavilion_v1_decor",
+   "name": "Decoration",
+   "type": "decoration",
+   "visible": true,
+   "locked": false,
+   "opacity": 1,
+   "components": []
+  },
+  {
+   "id": "map_lz_ch03_long_pavilion_v1_collision",
+   "name": "Collision",
+   "type": "collision",
+   "visible": true,
+   "locked": false,
+   "opacity": 0.3,
+   "components": [
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_0_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_1_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_2_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_3_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_4_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_5_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_6_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_7_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_8_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_9_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_10_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_11_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_12_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_13_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_14_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_15_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_16_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_17_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 18,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_18_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 19,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_19_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 20,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_20_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 21,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_21_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 22,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_22_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 23,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_23_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_24_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_25_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_26_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_27_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_28_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_29_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_30_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_31_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_32_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_33_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_34_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_35_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_36_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 0,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_0"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_0_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_1_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_2_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_3_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_4_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_5_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_6_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_7_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_8_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_9_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_10_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_11_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_12_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_13_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_14_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_15_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_16_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_17_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 18,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_18_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 19,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_19_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 20,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_20_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 21,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_21_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 22,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_22_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 23,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_23_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_24_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_25_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_26_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_27_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_28_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_29_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_30_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_31_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_32_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_33_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_34_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_35_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_36_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 1,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_1"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_0_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_1_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_2_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_3_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_4_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_5_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_6_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_7_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_8_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_9_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_10_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_11_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_12_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_13_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_14_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_15_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_16_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_17_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 18,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_18_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 19,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_19_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 20,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_20_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 21,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_21_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 22,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_22_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 23,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_23_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_24_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_25_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_26_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_27_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_28_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_29_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_30_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_31_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_32_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_33_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_34_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_35_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_36_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 2,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_2"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_0_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_1_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_2_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_3_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_4_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_5_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_6_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_7_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_8_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_9_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_10_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_11_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_12_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_13_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_14_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_15_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_16_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_17_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 18,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_18_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 19,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_19_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 20,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_20_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 21,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_21_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 22,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_22_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 23,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_23_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_24_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_25_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_26_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_27_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_28_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_29_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_30_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_31_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_32_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_33_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_34_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_35_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_36_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 3,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_3"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_0_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_1_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_2_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_3_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_4_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_5_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_6_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_26_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_27_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_28_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_29_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_30_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_31_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_32_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_33_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_34_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_35_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_36_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 4,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_4"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 5,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_0_5"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 5,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_1_5"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 5,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_2_5"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 5,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_3_5"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 5,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_4_5"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 5,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_5_5"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 5,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_6_5"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 5,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_5"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 5,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_5"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 5,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_5"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 5,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_5"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 5,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_5"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 5,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_5"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 5,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_5"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 6,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 6,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 6,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 6,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 6,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 6,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 6,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_6"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_0_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_1_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_2_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_3_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_4_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_5_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_6_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_7_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_8_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_9_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_10_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_11_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_12_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_13_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_14_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_15_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_16_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_17_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_24_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_25_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_26_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_27_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_28_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_29_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_30_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_31_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_32_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_33_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_34_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_35_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_36_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 23,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_23"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_0_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_1_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_2_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_3_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_4_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_5_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_6_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_7_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_8_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_9_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_10_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_11_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_12_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_13_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_14_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_15_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_16_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_17_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_24_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_25_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_26_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_27_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_28_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_29_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_30_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_31_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_32_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_33_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_34_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_35_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_36_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 24,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_24"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_0_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_1_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_2_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_3_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_4_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_5_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_6_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_7_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_8_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_9_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_10_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_11_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_12_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_13_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_14_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_15_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_16_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_17_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_24_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_25_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_26_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_27_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_28_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_29_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_30_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_31_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_32_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_33_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_34_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_35_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_36_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 25,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_25"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_0_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_1_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_2_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_3_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_4_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_5_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_6_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_7_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_8_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_9_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_10_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_11_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_12_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_13_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_14_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_15_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_16_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_17_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_24_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_25_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_26_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_27_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_28_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_29_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_30_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_31_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_32_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_33_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_34_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_35_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_36_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 26,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_26"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_0_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_1_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_2_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_3_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_4_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_5_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_6_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_7_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_8_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_9_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_10_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_11_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_12_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_13_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_14_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_15_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_16_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_17_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_24_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_25_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_26_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_27_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_28_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_29_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_30_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_31_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_32_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_33_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_34_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_35_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_36_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 27,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_27"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_0_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_1_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_2_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_3_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_4_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_5_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_6_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_7_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_8_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_9_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_10_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_11_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_12_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_13_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_14_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_15_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_16_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_17_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_24_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_25_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_26_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_27_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_28_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_29_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_30_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_31_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_32_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_33_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_34_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_35_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_36_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 28,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_28"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_0_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_1_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_2_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_3_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_4_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_5_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_6_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_7_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_8_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_9_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_10_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_11_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_12_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_13_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_14_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_15_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_16_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_17_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_24_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_25_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_26_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_27_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_28_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_29_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_30_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_31_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_32_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_33_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_34_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_35_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_36_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 29,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_29"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_0_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_1_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_2_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_3_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_4_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_5_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_6_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_7_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_8_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_9_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_10_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_11_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_12_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_13_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_14_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_15_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_16_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_17_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_24_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_25_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_26_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_27_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_28_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_29_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_30_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_31_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_32_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_33_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_34_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_35_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_36_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 30,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_30"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 0,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_0_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 1,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_1_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 2,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_2_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 3,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_3_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 4,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_4_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 5,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_5_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 6,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_6_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 7,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_7_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 8,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_8_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 9,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_9_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 10,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_10_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 11,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_11_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 12,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_12_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 13,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_13_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 14,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_14_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 15,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_15_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 16,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_16_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 17,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_17_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 24,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_24_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 25,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_25_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 26,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_26_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 27,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_27_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 28,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_28_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 29,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_29_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 30,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_30_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 31,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_31_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 32,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_32_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 33,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_33_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 34,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_34_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 35,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_35_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 36,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_36_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 37,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_37_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 38,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_38_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 39,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_39_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 40,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_40_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 41,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_41_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 42,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_42_31"
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_lz_ch01_gate_block_water_v3",
+     "tileX": 43,
+     "tileY": 31,
+     "refId": "map_lz_ch03_long_pavilion_v1_block_43_31"
+    }
+   ]
   }
+ ],
+ "districts": [
+  {
+   "districtId": "map_lz_ch03_long_pavilion_v1_district",
+   "name": "长亭",
+   "x": 0,
+   "y": 0,
+   "width": 44,
+   "height": 32,
+   "terrainTags": [
+    "forest"
+   ],
+   "locations": [
+    {
+     "id": "map_lz_ch03_long_pavilion_v1_start",
+     "name": "长亭入口",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 0,
+     "offsetY": 19
+    },
+    {
+     "id": "map_lz_ch03_long_pavilion_v1_clue",
+     "name": "长亭线索点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 6,
+     "offsetY": 17
+    },
+    {
+     "id": "map_lz_ch03_long_pavilion_v1_choice",
+     "name": "长亭抉择点",
+     "terrainTags": [
+      "urban"
+     ],
+     "eventDensity": 1,
+     "offsetX": 30,
+     "offsetY": 14
+    }
+   ],
+   "defaultEventDensity": 1
+  }
+ ],
+ "itemDefs": [],
+ "teleports": [],
+ "createdAt": 1782325200000,
+ "updatedAt": 1791600000000,
+ "version": 2,
+ "story": {
+  "storyId": "liangzhu",
+  "chapterId": "ch03_eighteen_mile_farewell",
+  "sceneId": "ch03_scene_02_long_pavilion",
+  "scriptReference": {
+   "chapterFile": "chapter-03-eighteen-mile-farewell.md",
+   "sceneHeading": "场景二：长亭",
+   "roleGoalKeywords": {
+    "zhuyingtai": [
+     "双鸟",
+     "身份"
+    ],
+    "liangshanbo": [
+     "双鸟",
+     "隐喻"
+    ],
+    "mawencai": [
+     "祝家",
+     "消息"
+    ]
+   }
+  },
+  "artStyle": {
+   "storyId": "liangzhu",
+   "visualStyle": "semi-realistic pixel comic",
+   "baseTileSize": 16,
+   "characterScale": "48x96",
+   "detailTier": "S",
+   "sceneFamily": "long_pavilion",
+   "chapterPalette": "sunset-road-willow-water",
+   "mood": "dusk gold road on the water; the boat lantern lit; the last farewell",
+   "focusTier": "S",
+   "detailPass": "ch03-eighteen-mile-v2",
+   "timeOfDay": "dusk"
+  },
+  "journeyOrder": 5,
+  "timeOfDay": "dusk",
+  "chapterSettlement": true
+ }
 }
