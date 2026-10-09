@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream:components/decoration/comp_map_lz_ch01_academy_gate_v1_path_scene_detail_v2.json
 {
   "id": "comp_map_lz_ch01_academy_gate_v1_path_scene_detail_v2",
   "name": "书院门前 path 场景细节",
@@ -2503,3 +2504,5 @@
   "updatedAt": 1782325200000,
   "version": 1
 }
+=======
+>>>>>>> Stashed changes:components/character_outfit/zyt_outfit_casual_down_001.json

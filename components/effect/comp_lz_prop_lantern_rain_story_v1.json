@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream:components/effect/comp_lz_prop_lantern_rain_story_v1.json
 {
   "id": "comp_lz_prop_lantern_rain_story_v1",
   "name": "雨灯",
@@ -2121,3 +2122,5 @@
   "updatedAt": 1782325200000,
   "version": 1
 }
+=======
+>>>>>>> Stashed changes:components/character_body/zyt_body_idle_down_001.json

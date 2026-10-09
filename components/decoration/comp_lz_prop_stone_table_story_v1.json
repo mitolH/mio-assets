@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream:components/decoration/comp_lz_prop_stone_table_story_v1.json
 {
   "id": "comp_lz_prop_stone_table_story_v1",
   "name": "石桌茶盏",
@@ -2441,3 +2442,5 @@
   "updatedAt": 1782325200000,
   "version": 1
 }
+=======
+>>>>>>> Stashed changes:components/undefined/zyt_outfit_v2_refined_down.json

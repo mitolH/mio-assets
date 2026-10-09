@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream:components/character/comp_zhuyingtai_idle_left_f2_story_v1.json
 {
   "id": "comp_zhuyingtai_idle_left_f2_story_v1",
   "name": "祝英台 48x96 story v4 idle-left 2",
@@ -4884,3 +4885,5 @@
   "updatedAt": 1790300000000,
   "version": 4
 }
+=======
+>>>>>>> Stashed changes:components/character/comp_zh_lyb_64x64_v1.json
