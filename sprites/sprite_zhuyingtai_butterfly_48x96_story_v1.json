@@ -1,325 +1,490 @@
 {
-  "id": "sprite_zhuyingtai_butterfly_48x96_story_v1",
-  "name": "祝英台蝶魂阶段 48x96 story v1",
-  "category": "character",
-  "description": "祝英台蝶魂阶段 48x96 story v1，统一 48x96 写实比例像素漫画风主角。",
-  "tags": [
-    "liangzhu-story-v1",
-    "liangzhu",
-    "zhuyingtai_butterfly",
-    "48x96",
-    "tier-s",
-    "zhuyingtai",
-    "butterfly-soul-stage",
-    "butterfly-release-stage-v1",
-    "red-veil-soul-light-v1",
-    "paired-butterfly-spirit-v1"
-  ],
-  "styleProfile": {
-    "storyId": "liangzhu",
-    "visualStyle": "semi-realistic pixel comic",
-    "baseTileSize": 16,
-    "characterScale": "48x96",
-    "detailTier": "S",
-    "lifeStage": "butterfly-release",
-    "characterMotifs": [
-      "red veil released into butterfly light",
-      "jade memory under gold-pink wings",
-      "full-height luminous soul silhouette"
-    ]
-  },
-  "width": 48,
-  "height": 96,
-  "tileWidth": 3,
-  "tileHeight": 6,
-  "anchorX": 24,
-  "anchorY": 96,
-  "footprint": {
-    "tileWidth": 1,
-    "tileHeight": 1,
-    "offsetTileX": 0,
-    "offsetTileY": 0
-  },
-  "layers": [
+ "id": "sprite_zhuyingtai_butterfly_48x96_story_v1",
+ "name": "祝英台 蝶魂阶段 48x96 story v2",
+ "category": "character",
+ "description": "祝英台蝶魂阶段 48x96：出嫁身形被蝶光重新照亮（嫁衣褪成玫瑰金与月白，花冠化作淡金），背生半透明粉金蝶翼，外缘一圈蝶光；七动画 + 飞行(fly)×4帧，翼扇动作逐帧变化。化蝶终景专用剧情造型。",
+ "tags": [
+  "liangzhu-story-v1",
+  "liangzhu",
+  "梁祝",
+  "zhuyingtai",
+  "zhuyingtai_butterfly",
+  "48x96",
+  "tier-s",
+  "butterfly-soul-stage",
+  "stage-full-animation-v2",
+  "wing-beat-frames",
+  "ch05-stage-sprite"
+ ],
+ "styleProfile": {
+  "storyId": "liangzhu",
+  "visualStyle": "semi-realistic pixel comic",
+  "baseTileSize": 16,
+  "characterScale": "48x96",
+  "detailTier": "S",
+  "sceneFamily": "butterfly",
+  "chapterPalette": "cold-rain-white-red-butterfly",
+  "lifeStage": "butterfly-release",
+  "species": "spirit",
+  "sourceQuality": "procedural-hand-painted-v4-stage",
+  "characterMotifs": [
+   "bridal silhouette re-lit as rose-gold butterfly light",
+   "translucent pink-gold wings with veins",
+   "soft light halo",
+   "fly clip: hovering wing-beat"
+  ]
+ },
+ "width": 48,
+ "height": 96,
+ "tileWidth": 3,
+ "tileHeight": 6,
+ "anchorX": 24,
+ "anchorY": 96,
+ "footprint": {
+  "tileWidth": 1,
+  "tileHeight": 1,
+  "offsetTileX": 0,
+  "offsetTileY": 0
+ },
+ "layers": [
+  {
+   "id": "body",
+   "name": "Body",
+   "zOrder": 0,
+   "defaultComponentId": "comp_zhuyingtai_butterfly_idle_down_f1_story_v1",
+   "defaultOffsetX": -24,
+   "defaultOffsetY": -96,
+   "visible": true
+  }
+ ],
+ "animations": [
+  {
+   "id": "idle-down",
+   "name": "idle-down",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
     {
-      "id": "body",
-      "name": "Body",
-      "zOrder": 0,
-      "defaultComponentId": "comp_zhuyingtai_butterfly_idle_down_f1_story_v1",
-      "defaultOffsetX": -24,
-      "defaultOffsetY": -96,
-      "visible": true
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_idle_down_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_idle_down_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_idle_down_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_idle_down_f4_story_v1"
+      }
+     ]
     }
-  ],
-  "animations": [
+   ]
+  },
+  {
+   "id": "walk-down",
+   "name": "walk-down",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
     {
-      "id": "idle-down",
-      "name": "idle-down",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 0,
-      "frames": [
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_idle_down_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_idle_down_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_idle_down_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_idle_down_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_down_f1_story_v1"
+      }
+     ]
     },
     {
-      "id": "walk-down",
-      "name": "walk-down",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_down_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_down_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_down_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_down_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_down_f2_story_v1"
+      }
+     ]
     },
     {
-      "id": "walk-left",
-      "name": "walk-left",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_left_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_left_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_left_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_left_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_down_f3_story_v1"
+      }
+     ]
     },
     {
-      "id": "walk-right",
-      "name": "walk-right",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_right_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_right_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_right_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_right_f4_story_v1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "walk-up",
-      "name": "walk-up",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_up_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_up_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_up_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_butterfly_walk_up_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_down_f4_story_v1"
+      }
+     ]
     }
-  ],
-  "defaultAnimationId": "idle-down",
-  "createdAt": 1782325200000,
-  "updatedAt": 1782325200000,
-  "version": 1
+   ]
+  },
+  {
+   "id": "walk-left",
+   "name": "walk-left",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_left_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_left_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_left_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_left_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-right",
+   "name": "walk-right",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_right_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_right_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_right_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_right_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-up",
+   "name": "walk-up",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_up_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_up_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_up_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_walk_up_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "idle-left",
+   "name": "idle-left",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_idle_left_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_idle_left_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_idle_left_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_idle_left_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "idle-right",
+   "name": "idle-right",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_idle_right_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_idle_right_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_idle_right_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_idle_right_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fly",
+   "name": "fly",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 110,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_fly_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 110,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_fly_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 110,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_fly_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 110,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_butterfly_fly_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "defaultAnimationId": "idle-down",
+ "createdAt": 1791600000000,
+ "updatedAt": 1791600000000,
+ "version": 2
 }

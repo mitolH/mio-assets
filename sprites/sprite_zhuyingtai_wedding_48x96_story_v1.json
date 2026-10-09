@@ -1,327 +1,444 @@
 {
-  "id": "sprite_zhuyingtai_wedding_48x96_story_v1",
-  "name": "祝英台出嫁阶段 48x96 story v1",
-  "category": "character",
-  "description": "祝英台出嫁阶段 48x96 story v1，统一 48x96 写实比例像素漫画风主角。",
-  "tags": [
-    "liangzhu-story-v1",
-    "liangzhu",
-    "zhuyingtai_wedding",
-    "48x96",
-    "tier-s",
-    "zhuyingtai",
-    "wedding-stage",
-    "stage-full-animation-v1",
-    "red-wedding-robe-v1",
-    "grave-oath-stage-v1",
-    "jade-under-red-silk-v1"
-  ],
-  "styleProfile": {
-    "storyId": "liangzhu",
-    "visualStyle": "semi-realistic pixel comic",
-    "baseTileSize": 16,
-    "characterScale": "48x96",
-    "detailTier": "S",
-    "lifeStage": "wedding",
-    "characterMotifs": [
-      "red wedding robe",
-      "white mourning face",
-      "gold hairpin and veil",
-      "jade pendant under red silk"
-    ]
-  },
-  "width": 48,
-  "height": 96,
-  "tileWidth": 3,
-  "tileHeight": 6,
-  "anchorX": 24,
-  "anchorY": 96,
-  "footprint": {
-    "tileWidth": 1,
-    "tileHeight": 1,
-    "offsetTileX": 0,
-    "offsetTileY": 0
-  },
-  "layers": [
+ "id": "sprite_zhuyingtai_wedding_48x96_story_v1",
+ "name": "祝英台 出嫁阶段 48x96 story v2",
+ "category": "character",
+ "description": "祝英台出嫁阶段 48x96（祝英台 v4 同风格重绘）：高髻金花冠、步摇珠串与红绢花，朱红大袖衫配金绣霞帔，深红长裙，双手交叠于腰、腰下仍系旧日玉佩；七动画（含左右待机）×4帧。第五章出嫁路、坟前专用剧情造型。",
+ "tags": [
+  "liangzhu-story-v1",
+  "liangzhu",
+  "梁祝",
+  "zhuyingtai",
+  "zhuyingtai_wedding",
+  "48x96",
+  "tier-s",
+  "wedding-stage",
+  "stage-full-animation-v2",
+  "zhuyingtai-v4-style",
+  "kit-palette-v4",
+  "ch05-stage-sprite",
+  "facing-idles-v1"
+ ],
+ "styleProfile": {
+  "storyId": "liangzhu",
+  "visualStyle": "semi-realistic pixel comic",
+  "baseTileSize": 16,
+  "characterScale": "48x96",
+  "detailTier": "S",
+  "sceneFamily": "wedding",
+  "chapterPalette": "cold-rain-white-red-butterfly",
+  "lifeStage": "wedding",
+  "paletteFamily": "lz-academy-gate-v2-57c+zhuyingtai-v4+npc-v3+ch05-xr",
+  "lightDirection": "top-left",
+  "sourceQuality": "procedural-hand-painted-v4-stage",
+  "costume": "song-bridal-daxiu-xiapei",
+  "era": "southern-song-liangzhe-water-town",
+  "characterMotifs": [
+   "高髻 with a gold 花冠 comb, 步摇 pearl strings and a red silk flower",
+   "vermilion 大袖衫 with a gold-embroidered 霞帔",
+   "deep red 长裙",
+   "hands folded at the waist",
+   "jade pendant under red silk (玉佩)",
+   "pale, composed face"
+  ]
+ },
+ "width": 48,
+ "height": 96,
+ "tileWidth": 3,
+ "tileHeight": 6,
+ "anchorX": 24,
+ "anchorY": 96,
+ "footprint": {
+  "tileWidth": 1,
+  "tileHeight": 1,
+  "offsetTileX": 0,
+  "offsetTileY": 0
+ },
+ "layers": [
+  {
+   "id": "body",
+   "name": "Body",
+   "zOrder": 0,
+   "defaultComponentId": "comp_zhuyingtai_wedding_idle_down_f1_story_v1",
+   "defaultOffsetX": -24,
+   "defaultOffsetY": -96,
+   "visible": true
+  }
+ ],
+ "animations": [
+  {
+   "id": "idle-down",
+   "name": "idle-down",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
     {
-      "id": "body",
-      "name": "Body",
-      "zOrder": 0,
-      "defaultComponentId": "comp_zhuyingtai_wedding_idle_down_f1_story_v1",
-      "defaultOffsetX": -24,
-      "defaultOffsetY": -96,
-      "visible": true
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_idle_down_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_idle_down_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_idle_down_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_idle_down_f4_story_v1"
+      }
+     ]
     }
-  ],
-  "animations": [
+   ]
+  },
+  {
+   "id": "walk-down",
+   "name": "walk-down",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
     {
-      "id": "idle-down",
-      "name": "idle-down",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 0,
-      "frames": [
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_idle_down_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_idle_down_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_idle_down_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_idle_down_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_down_f1_story_v1"
+      }
+     ]
     },
     {
-      "id": "walk-down",
-      "name": "walk-down",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_down_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_down_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_down_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_down_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_down_f2_story_v1"
+      }
+     ]
     },
     {
-      "id": "walk-left",
-      "name": "walk-left",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_left_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_left_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_left_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_left_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_down_f3_story_v1"
+      }
+     ]
     },
     {
-      "id": "walk-right",
-      "name": "walk-right",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_right_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_right_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_right_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_right_f4_story_v1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "walk-up",
-      "name": "walk-up",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_up_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_up_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_up_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_zhuyingtai_wedding_walk_up_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_down_f4_story_v1"
+      }
+     ]
     }
-  ],
-  "defaultAnimationId": "idle-down",
-  "createdAt": 1782325200000,
-  "updatedAt": 1782325200000,
-  "version": 1
+   ]
+  },
+  {
+   "id": "walk-left",
+   "name": "walk-left",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_left_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_left_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_left_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_left_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-right",
+   "name": "walk-right",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_right_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_right_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_right_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_right_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-up",
+   "name": "walk-up",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_up_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_up_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_up_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_walk_up_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "idle-left",
+   "name": "idle-left",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_idle_left_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_idle_left_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_idle_left_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_idle_left_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "idle-right",
+   "name": "idle-right",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_idle_right_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_idle_right_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_idle_right_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_zhuyingtai_wedding_idle_right_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "defaultAnimationId": "idle-down",
+ "createdAt": 1791600000000,
+ "updatedAt": 1791600000000,
+ "version": 2
 }
