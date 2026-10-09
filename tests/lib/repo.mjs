@@ -73,27 +73,85 @@ export const hasOpaque = (comp, tx, ty) => tilePixels(comp, tx, ty).some((r) => 
 export const isSpriteRef = (r) => r.assetType === 'sprite' || (!!r.spriteId && !r.componentId);
 export { basename };
 
-// ---- 碰撞网格：与运行时 CollisionGrid.buildFromMap 同一语义 ----
-/** 返回 blocked[y][x]；skipRefIds 中的 ref（如会走动的自主演员）不留静态碰撞。 */
-export function buildCollisionGrid(repo, map, skipRefIds = new Set()) {
+// ---- 碰撞：与运行时 src/engine/sprite-collision.ts + CollisionGrid + OccupancyRegistry 同一语义 ----
+// 精灵 ref 的 (tileX,tileY) = 脚底格。精灵碰撞默认只占脚底一格（footprint 缺省 = 1×1、offset 0/0，相对脚底格）；
+// footprint.origin === 'sprite-box' 的旧数据 offset 相对画布左上角格，按 anchor 换算回脚底坐标。
+// ref.collision 覆盖：'none' = 不挡；{ tiles:[{dx,dy}] } = 精确格（精灵相对脚底格，组件相对左上角格）。
+// 运行时精灵演员不进静态网格，而是作为占位者按实时位置占格（隐藏时让开）；校验里取最坏情况：所有演员都在摆放格挡路。
+export const DEFAULT_FOOTPRINT = Object.freeze({ tileWidth: 1, tileHeight: 1, offsetTileX: 0, offsetTileY: 0 });
+const num = (v) => typeof v === 'number' && Number.isFinite(v);
+
+export function resolveFootprint(sp) {
+  const fp = sp.footprint;
+  if (!fp) return { ...DEFAULT_FOOTPRINT };
+  const out = {
+    tileWidth: num(fp.tileWidth) && fp.tileWidth > 0 ? Math.floor(fp.tileWidth) : 1,
+    tileHeight: num(fp.tileHeight) && fp.tileHeight > 0 ? Math.floor(fp.tileHeight) : 1,
+    offsetTileX: num(fp.offsetTileX) ? Math.round(fp.offsetTileX) : 0,
+    offsetTileY: num(fp.offsetTileY) ? Math.round(fp.offsetTileY) : 0,
+  };
+  if (fp.origin === 'sprite-box') {
+    out.offsetTileX -= Math.floor(sp.anchorX / TILE);
+    out.offsetTileY -= Math.max(0, Math.ceil(sp.anchorY / TILE) - 1);
+  }
+  return out;
+}
+
+/** 精灵自身碰撞形状（相对脚底格）：collisionMask 优先，否则 footprint 矩形。 */
+export function spriteOffsets(sp) {
+  const fp = resolveFootprint(sp);
+  const out = [];
+  if (sp.collisionMask?.length) sp.collisionMask.forEach((row, r) => row.forEach((c, k) => c && out.push({ dx: fp.offsetTileX + k, dy: fp.offsetTileY + r })));
+  else for (let r = 0; r < fp.tileHeight; r++) for (let k = 0; k < fp.tileWidth; k++) out.push({ dx: fp.offsetTileX + k, dy: fp.offsetTileY + r });
+  return out;
+}
+
+/** ref.collision 覆盖；undefined = 无覆盖。 */
+export function refOverride(ref) {
+  const o = ref.collision;
+  if (o === undefined || o === null) return undefined;
+  if (o === 'none') return [];
+  if (typeof o === 'object' && Array.isArray(o.tiles)) return o.tiles.filter((t) => t && num(t.dx) && num(t.dy)).map((t) => ({ dx: Math.round(t.dx), dy: Math.round(t.dy) }));
+  return undefined;
+}
+
+/** ref 的碰撞形状（相对 ref.tileX/tileY）。 */
+export function refOffsets(repo, ref) {
+  const override = refOverride(ref);
+  if (override) return override;
+  if (isSpriteRef(ref)) { const sp = repo.spriteMap.get(ref.spriteId); return sp ? spriteOffsets(sp) : [{ dx: 0, dy: 0 }]; }
+  const mask = repo.components.get(ref.componentId)?.collisionMask;
+  const out = [];
+  if (mask) mask.forEach((row, r) => row.forEach((c, k) => c && out.push({ dx: k, dy: r })));
+  return out;
+}
+
+const objectRefs = (map) => map.layers.filter((l) => l.type === 'object' || l.type === 'collision').flatMap((l) => l.components);
+
+/** 演员（object/collision 层上的精灵 ref）→ 占格列表 [{x,y}]。 */
+export function actorTiles(repo, map) {
+  const out = [];
+  for (const ref of objectRefs(map)) {
+    if (!isSpriteRef(ref) || !repo.spriteMap.has(ref.spriteId)) continue;
+    out.push({ ref, refId: ref.refId, tiles: refOffsets(repo, ref).map((o) => ({ x: ref.tileX + o.dx, y: ref.tileY + o.dy })) });
+  }
+  return out;
+}
+
+/**
+ * 返回 blocked[y][x]：静态碰撞 + （默认）所有演员的占格（最坏情况：都站在摆放格）。
+ * skipRefIds 中的 ref 不挡（例如会走动的自主演员、或正在检查的演员自身）；opts.actors === false 只要静态网格。
+ */
+export function buildCollisionGrid(repo, map, skipRefIds = new Set(), opts = {}) {
   const W = map.widthInTiles, H = map.heightInTiles;
   const blocked = Array.from({ length: H }, () => new Array(W).fill(false));
   const set = (x, y) => { if (x >= 0 && y >= 0 && x < W && y < H) blocked[y][x] = true; };
-  for (const layer of map.layers) {
-    if (layer.type !== 'object' && layer.type !== 'collision') continue;
-    for (const ref of layer.components) {
-      if (ref.refId && skipRefIds.has(ref.refId)) continue;
-      if (isSpriteRef(ref)) {
-        const sp = repo.spriteMap.get(ref.spriteId); if (!sp) continue;
-        const fp = sp.footprint ?? { tileWidth: 1, tileHeight: 1, offsetTileX: 0, offsetTileY: 0 };
-        const bx = ref.tileX + fp.offsetTileX, by = ref.tileY + fp.offsetTileY;
-        if (sp.collisionMask) sp.collisionMask.forEach((row, r) => row.forEach((c, k) => c && set(bx + k, by + r)));
-        else for (let r = 0; r < fp.tileHeight; r++) for (let k = 0; k < fp.tileWidth; k++) set(bx + k, by + r);
-      } else {
-        const comp = repo.components.get(ref.componentId); const mask = comp?.collisionMask; if (!mask) continue;
-        mask.forEach((row, r) => row.forEach((c, k) => c && set(ref.tileX + k, ref.tileY + r)));
-      }
-    }
+  for (const ref of objectRefs(map)) {
+    if (ref.refId && skipRefIds.has(ref.refId)) continue;
+    if (isSpriteRef(ref)) {
+      if (opts.actors === false || !repo.spriteMap.has(ref.spriteId)) continue;
+    } else if (!repo.components.has(ref.componentId)) continue;
+    for (const o of refOffsets(repo, ref)) set(ref.tileX + o.dx, ref.tileY + o.dy);
   }
   return blocked;
 }

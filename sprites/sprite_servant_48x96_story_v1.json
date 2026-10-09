@@ -43,8 +43,8 @@
  "footprint": {
   "tileWidth": 1,
   "tileHeight": 1,
-  "offsetTileX": 1,
-  "offsetTileY": 5
+  "offsetTileX": 0,
+  "offsetTileY": 0
  },
  "layers": [
   {
