@@ -900,7 +900,7 @@
       "mobile": true
      },
      "interaction": {
-      "interactionRange": 2,
+      "interactionRange": 1,
       "indicatorType": "question",
       "interactions": [
        {
@@ -1015,7 +1015,7 @@
       "watcher": true
      },
      "interaction": {
-      "interactionRange": 2,
+      "interactionRange": 1,
       "indicatorType": "question",
       "interactions": [
        {
