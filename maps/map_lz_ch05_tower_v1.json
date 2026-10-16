@@ -243,7 +243,12 @@
      "componentId": "comp_lz_ch05_tower_plantain_v1",
      "tileX": 2,
      "tileY": 18,
-     "refId": "map_lz_ch05_tower_v1_scene_fixture_left"
+     "refId": "map_lz_ch05_tower_v1_scene_fixture_left",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -585,7 +590,12 @@
      "componentId": "comp_lz_ch05_tower_lotus_vat_v1",
      "tileX": 9,
      "tileY": 25,
-     "refId": "map_lz_ch05_tower_v1_story_tableau"
+     "refId": "map_lz_ch05_tower_v1_story_tableau",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -604,7 +614,12 @@
      "componentId": "comp_lz_ch05_tower_stone_bench_v1",
      "tileX": 27,
      "tileY": 27,
-     "refId": "map_lz_ch05_tower_v1_stone_bench"
+     "refId": "map_lz_ch05_tower_v1_stone_bench",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -982,6 +997,70 @@
        }
       ],
       "speed": 1
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_mw_tw_steward",
+        "name": "管家",
+        "description": "管家",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "tower_dusk"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_steward_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_tw_steward",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_mw_tw_steward_look",
+        "name": "管家",
+        "description": "管家",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_tw_steward_look",
+          "value": {
+           "ap": 0,
+           "kind": "look"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -2686,7 +2765,8 @@
    "sliceId": "lz_ch05",
    "roles": [
     "zhuyingtai",
-    "liangshanbo"
+    "liangshanbo",
+    "mawencai"
    ],
    "objectInteractions": {
     "map_lz_ch05_tower_v1_story_a": [
@@ -3314,6 +3394,101 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch05_mw_tw_curtain",
+      "name": "撑伞，站到雨帘下",
+      "description": "撑伞，站到雨帘下",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "tower_dusk"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_under_curtain"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_tw_curtain",
+        "value": {
+         "ap": 1,
+         "kind": "sneak"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_mw_tw_decide",
+      "name": "油纸伞前的抉择",
+      "description": "油纸伞前的抉择",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "tower_meet",
+         "tower_listen"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_tower_decided"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_tw_decide",
+        "value": {
+         "ap": 1,
+         "kind": "climax"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_mw_tw_route",
+      "name": "油纸伞",
+      "description": "油纸伞",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_tw_route",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch05_tower_v1_scene_fixture_right": [
@@ -3351,8 +3526,193 @@
        }
       ]
      }
+    ],
+    "map_lz_ch05_tower_v1_scene_fixture_left": [
+     {
+      "id": "lz_ch05_mw_tw_listen_jiumei",
+      "name": "芭蕉下（远）",
+      "description": "芭蕉下（远）",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "tower_listen"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_seen_jiumei"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_tw_listen_jiumei",
+        "value": {
+         "ap": 1,
+         "kind": "sneak"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_tower_v1_stone_bench": [
+     {
+      "id": "lz_ch05_mw_tw_listen_contract",
+      "name": "石凳边（中）",
+      "description": "石凳边（中）",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "tower_listen"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_seen_contract"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_tw_listen_contract",
+        "value": {
+         "ap": 1,
+         "kind": "sneak"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_tower_v1_story_tableau": [
+     {
+      "id": "lz_ch05_mw_tw_listen_vow",
+      "name": "荷缸后（近）",
+      "description": "荷缸后（近）",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "tower_listen"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_seen_vow"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "ch05_vow"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_tw_listen_vow",
+        "value": {
+         "ap": 1,
+         "kind": "sneak"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_mw_tw_listen_vat",
+      "name": "荷缸后（近）",
+      "description": "荷缸后（近）",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "tower_listen"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_seen_vow"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch05_vow"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_tw_listen_none",
+        "value": {
+         "ap": 1,
+         "kind": "sneak"
+        }
+       }
+      ]
+     }
     ]
-   }
+   },
+   "cover": [
+    {
+     "id": "rain_curtain",
+     "rects": [
+      {
+       "x": 39,
+       "y": 25,
+       "w": 4,
+       "h": 3
+      }
+     ],
+     "hiddenFrom": [
+      "zhufu_maid",
+      "zhuyingtai",
+      "liangshanbo"
+     ],
+     "onEnter": {
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "tower_dusk"
+       }
+      ],
+      "dialogueId": "ch05_mw_tw_curtain_enter"
+     }
+    }
+   ]
   },
   "locationTapZones": false
  }

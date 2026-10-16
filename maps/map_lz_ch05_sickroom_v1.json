@@ -649,6 +649,69 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch05_mw_sk_debate",
+        "name": "进屋：病榻前",
+        "description": "进屋：病榻前",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "sick_day"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_debated"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_sk_debate",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_mw_sk_liang",
+        "name": "梁山伯",
+        "description": "梁山伯",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 2
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_sk_liang",
+          "value": {
+           "ap": 0,
+           "kind": "look"
+          }
+         }
+        ]
        }
       ]
      }
@@ -692,6 +755,40 @@
           "value": {
            "ap": 1,
            "kind": "rest"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_mw_sk_doctor",
+        "name": "老仆",
+        "description": "老仆",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 2
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch05_doctor_sent"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_sk_doctor",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
           }
          }
         ]
@@ -750,6 +847,74 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch05_mw_sk_messenger",
+        "name": "送信人",
+        "description": "送信人",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 2
+         },
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "ch05_letter_route_messenger"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_letter_handled"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_sk_messenger",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_mw_sk_messenger_ask",
+        "name": "送信人",
+        "description": "送信人",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 2
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_sk_messenger_ask",
+          "value": {
+           "ap": 0,
+           "kind": "look"
+          }
+         }
+        ]
        }
       ]
      }
@@ -793,6 +958,35 @@
           "value": {
            "ap": 1,
            "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_mw_sk_sijiu",
+        "name": "四九",
+        "description": "四九",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 2
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_sk_sijiu",
+          "value": {
+           "ap": 0,
+           "kind": "look"
           }
          }
         ]
@@ -3959,7 +4153,8 @@
    "sliceId": "lz_ch05",
    "roles": [
     "zhuyingtai",
-    "liangshanbo"
+    "liangshanbo",
+    "mawencai"
    ],
    "objectInteractions": {
     "map_lz_ch05_sickroom_v1_story_b": [
@@ -4279,6 +4474,64 @@
        {
         "type": "start_dialogue",
         "target": "ch05_lb_sk_route",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_mw_sk_dregs",
+      "name": "药渣",
+      "description": "药渣",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 2
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_seen_dregs"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_sk_dregs",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_mw_sk_dregs_look",
+      "name": "药渣",
+      "description": "药渣",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_sk_dregs_look",
         "value": {
          "ap": 0,
          "kind": "look"

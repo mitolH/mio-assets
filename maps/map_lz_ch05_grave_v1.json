@@ -747,6 +747,46 @@
      "refId": "map_lz_ch05_grave_v1_actor_matchmaker_2",
      "persona": {
       "npcId": "matchmaker"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_mw_gr_matchmaker",
+        "name": "媒人",
+        "description": "媒人",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "grave"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_mm_shut"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_gr_matchmaker",
+          "value": {
+           "ap": 0,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -758,6 +798,41 @@
      "refId": "map_lz_ch05_grave_v1_actor_ma_guard_3",
      "persona": {
       "npcId": "ma_guard"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_mw_gr_order",
+        "name": "随从",
+        "description": "随从",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "grave"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_gr_order",
+          "value": {
+           "ap": 1,
+           "kind": "climax"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -2250,7 +2325,8 @@
    "sliceId": "lz_ch05",
    "roles": [
     "zhuyingtai",
-    "liangshanbo"
+    "liangshanbo",
+    "mawencai"
    ],
    "objectInteractions": {
     "map_lz_ch05_grave_v1_finale_reference_gravestone": [
@@ -2305,6 +2381,69 @@
        {
         "type": "start_dialogue",
         "target": "ch05_lb_gr_tablet",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_mw_gr_tablet",
+      "name": "墓碑",
+      "description": "墓碑",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_seen_name"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_gr_tablet",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_mw_gr_tablet_look",
+      "name": "墓碑",
+      "description": "墓碑",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_gr_tablet_look",
         "value": {
          "ap": 0,
          "kind": "look"
@@ -2407,6 +2546,48 @@
         "value": {
          "ap": 1,
          "kind": "wind"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_mw_gr_letter",
+      "name": "供桌上的信",
+      "description": "供桌上的信",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": [
+         "ch05_letter_at_grave",
+         "ch05_letter_in_hand"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_seen_grave_letter"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_gr_letter",
+        "value": {
+         "ap": 1,
+         "kind": "look"
         }
        }
       ]
@@ -2540,6 +2721,40 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch05_mw_gr_silk",
+      "name": "红绸花",
+      "description": "红绸花",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_seen_silk"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_gr_silk",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch05_grave_v1_finale_reference_grave_crack": [
@@ -2597,6 +2812,35 @@
         "value": {
          "ap": 1,
          "kind": "climax"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_mw_gr_crack",
+      "name": "坟土裂缝",
+      "description": "坟土裂缝",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_gr_crack",
+        "value": {
+         "ap": 0,
+         "kind": "look"
         }
        }
       ]

@@ -935,7 +935,7 @@
          {
           "type": "flag",
           "operator": "not_in",
-          "value": "lb_hears_rumor"
+          "value": "lb_rumor_detail"
          }
         ],
         "effects": [

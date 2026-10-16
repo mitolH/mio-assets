@@ -593,6 +593,41 @@
      "persona": {
       "npcId": "matchmaker",
       "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_mw_rd_matchmaker",
+        "name": "媒人",
+        "description": "媒人",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "wedding_road"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_rd_matchmaker",
+          "value": {
+           "ap": 0,
+           "kind": "look"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -688,6 +723,40 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch05_mw_rd_guard",
+        "name": "随从",
+        "description": "随从",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "wedding_road"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "daily_mw_tipped"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_rd_guard",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -701,6 +770,46 @@
      "animationId": "idle-left",
      "persona": {
       "npcId": "wedding_bearer"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_mw_rd_procession",
+        "name": "送亲队伍",
+        "description": "送亲队伍",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "wedding_road"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_procession_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_rd_procession",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -832,6 +941,74 @@
           "value": {
            "ap": 1,
            "kind": "wind"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_mw_rd_messenger",
+        "name": "拦下信使",
+        "description": "拦下信使",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "wedding_road"
+         },
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "ch05_letter_route_messenger"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_letter_handled"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_rd_messenger",
+          "value": {
+           "ap": 1,
+           "kind": "sneak"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_mw_rd_messenger_look",
+        "name": "信使",
+        "description": "信使",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "wedding_road"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_rd_messenger_look",
+          "value": {
+           "ap": 0,
+           "kind": "look"
           }
          }
         ]
@@ -5474,7 +5651,8 @@
    "sliceId": "lz_ch05",
    "roles": [
     "zhuyingtai",
-    "liangshanbo"
+    "liangshanbo",
+    "mawencai"
    ],
    "objectInteractions": {
     "map_lz_ch05_wedding_road_v1_story_composition": [
@@ -5537,6 +5715,40 @@
         "value": {
          "ap": 1,
          "kind": "wind"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_mw_rd_stele",
+      "name": "道旁碑",
+      "description": "道旁碑",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "wedding_road"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch05_stele_covered"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_rd_stele",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
         }
        }
       ]
@@ -5701,6 +5913,35 @@
         "value": {
          "ap": 1,
          "kind": "wind"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_mw_rd_fork",
+      "name": "纸钱岔口",
+      "description": "纸钱岔口",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "wedding_road"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_rd_fork_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
         }
        }
       ]

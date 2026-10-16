@@ -714,6 +714,35 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch05_mw_bf_sky",
+        "name": "看双蝶飞远",
+        "description": "看双蝶飞远",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "butterfly"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_mw_bf_sky",
+          "value": {
+           "ap": 0,
+           "kind": "climax"
+          }
+         }
+        ]
        }
       ]
      }
@@ -3017,7 +3046,8 @@
    "sliceId": "lz_ch05",
    "roles": [
     "zhuyingtai",
-    "liangshanbo"
+    "liangshanbo",
+    "mawencai"
    ],
    "objectInteractions": {
     "map_lz_ch05_butterfly_end_v1_story_a": [
@@ -3072,6 +3102,35 @@
        {
         "type": "start_dialogue",
         "target": "ch05_lb_bf_follow",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_mw_bf_hand",
+      "name": "伸手",
+      "description": "伸手",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "butterfly"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_bf_hand",
         "value": {
          "ap": 0,
          "kind": "look"
@@ -3138,6 +3197,45 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch05_mw_bf_jade",
+      "name": "放下玉扇坠",
+      "description": "放下玉扇坠",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "butterfly"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "mw_took_jade"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_jade_left"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_bf_jade",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch05_butterfly_end_v1_story_route": [
@@ -3192,6 +3290,40 @@
        {
         "type": "start_dialogue",
         "target": "ch05_lb_bf_doc",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_mw_bf_doc",
+      "name": "婚书",
+      "description": "婚书",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "butterfly"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_doc_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_mw_bf_doc",
         "value": {
          "ap": 0,
          "kind": "look"
