@@ -34,7 +34,8 @@
     "comp_lz_ch03_reeds_late_a_v1",
     "comp_lz_ch03_reeds_late_v1",
     "comp_lz_ch03_signpost_late_v1",
-    "comp_lz_ch03_stele3_late_v1"
+    "comp_lz_ch03_stele3_late_v1",
+    "comp_liangzhu_transparent_interaction_marker_v1"
    ],
    "spriteIds": [
     "sprite_carter_48x96_story_v1",
@@ -434,7 +435,12 @@
      "componentId": "comp_lz_ch03_signpost_late_v1",
      "tileX": 15,
      "tileY": 13,
-     "refId": "map_lz_ch03_fork_road_v1_signpost_15_13"
+     "refId": "map_lz_ch03_fork_road_v1_signpost_15_13",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -523,7 +529,11 @@
      "animationId": "idle-down",
      "tileX": 20,
      "tileY": 11,
-     "refId": "map_lz_ch03_fork_road_v1_actor_zhuyingtai_1"
+     "refId": "map_lz_ch03_fork_road_v1_actor_zhuyingtai_1",
+     "persona": {
+      "npcId": "zhuyingtai",
+      "mobile": true
+     }
     },
     {
      "assetType": "sprite",
@@ -531,7 +541,48 @@
      "animationId": "idle-left",
      "tileX": 22,
      "tileY": 19,
-     "refId": "map_lz_ch03_fork_road_v1_actor_liangshanbo_2"
+     "refId": "map_lz_ch03_fork_road_v1_actor_liangshanbo_2",
+     "persona": {
+      "npcId": "liangshanbo",
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_liang_fork",
+        "name": "与梁兄说话",
+        "description": "与梁兄说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_fork"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_liang_fork",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -539,7 +590,48 @@
      "animationId": "idle-right",
      "tileX": 32,
      "tileY": 6,
-     "refId": "map_lz_ch03_fork_road_v1_actor_yinxin"
+     "refId": "map_lz_ch03_fork_road_v1_actor_yinxin",
+     "persona": {
+      "npcId": "yinxin",
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_yinxin_fork",
+        "name": "与银心说话",
+        "description": "与银心说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_fork"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_yinxin_chat",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -547,7 +639,10 @@
      "animationId": "idle-right",
      "tileX": 12,
      "tileY": 19,
-     "refId": "map_lz_ch03_fork_road_v1_actor_sixjiu"
+     "refId": "map_lz_ch03_fork_road_v1_actor_sixjiu",
+     "persona": {
+      "npcId": "page_boy"
+     }
     },
     {
      "assetType": "sprite",
@@ -555,7 +650,53 @@
      "animationId": "idle-left",
      "tileX": 33,
      "tileY": 19,
-     "refId": "map_lz_ch03_fork_road_v1_actor_carter"
+     "refId": "map_lz_ch03_fork_road_v1_actor_carter",
+     "persona": {
+      "npcId": "carter",
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_carter",
+        "name": "车夫",
+        "description": "车夫",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_fork"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "c3_carter_gone"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_carter",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -563,7 +704,24 @@
      "animationId": "idle-right",
      "tileX": 6,
      "tileY": 19,
-     "refId": "map_lz_ch03_fork_road_v1_actor_ma_guard"
+     "refId": "map_lz_ch03_fork_road_v1_actor_ma_guard",
+     "persona": {
+      "npcId": "ma_guard",
+      "mobile": true
+     }
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_liangzhu_transparent_interaction_marker_v1",
+     "tileX": 18,
+     "tileY": 9,
+     "refId": "map_lz_ch03_fork_road_v1_guanyin_anchor",
+     "collision": "none",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     }
    ]
   },
@@ -4582,5 +4740,161 @@
   "journeyOrder": 4,
   "timeOfDay": "late",
   "chapterSettlement": false
+ },
+ "runtime": {
+  "schemaVersion": 1,
+  "locationTapZones": false,
+  "slice": {
+   "sliceId": "lz_ch03",
+   "roles": [
+    "zhuyingtai",
+    "liangshanbo",
+    "mawencai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch03_fork_road_v1_guanyin_anchor": [
+     {
+      "id": "lz_ch03_guanyin",
+      "name": "观音堂",
+      "description": "观音堂",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_fork"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_guanyin_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_guanyin",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_fork_road_v1_story_b": [
+     {
+      "id": "lz_ch03_stele",
+      "name": "十八里碑",
+      "description": "十八里碑",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_fork"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_stele",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_fork_road_v1_story_a": [
+     {
+      "id": "lz_ch03_token",
+      "name": "阶脚",
+      "description": "阶脚",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_fork"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_token_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_token",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_fork_road_v1_signpost_15_13": [
+     {
+      "id": "lz_ch03_signpost",
+      "name": "指路牌",
+      "description": "指路牌",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_fork"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_signpost",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
  }
 }

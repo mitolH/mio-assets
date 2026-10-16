@@ -64,7 +64,9 @@
     "sprite_zhuyingtai_wedding_48x96_story_v1",
     "sprite_zhuyingtai_home_48x96_story_v1",
     "sprite_ma_steward_48x96_story_v2",
-    "sprite_zhufu_maid_48x96_story_v1"
+    "sprite_zhufu_maid_48x96_story_v1",
+    "sprite_zhufu_mother_48x96_story_v1",
+    "sprite_ma_guard_48x96_story_v1"
    ],
    "mapIds": [
     "map_lz_ch05_tower_v1"
@@ -266,7 +268,12 @@
      "componentId": "comp_lz_ch05_tower_beauty_rail_v1",
      "tileX": 8,
      "tileY": 13,
-     "refId": "map_lz_ch05_tower_v1_story_composition"
+     "refId": "map_lz_ch05_tower_v1_story_composition",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -591,7 +598,8 @@
      "assetType": "component",
      "componentId": "comp_lz_ch05_tower_stone_bench_v1",
      "tileX": 27,
-     "tileY": 27
+     "tileY": 27,
+     "refId": "map_lz_ch05_tower_v1_stone_bench"
     },
     {
      "assetType": "component",
@@ -731,7 +739,10 @@
      "animationId": "idle-right",
      "tileX": 17,
      "tileY": 11,
-     "refId": "map_lz_ch05_tower_v1_actor_zhuyingtai_1"
+     "refId": "map_lz_ch05_tower_v1_actor_zhuyingtai_1",
+     "persona": {
+      "npcId": "zhuyingtai"
+     }
     },
     {
      "assetType": "sprite",
@@ -739,7 +750,94 @@
      "animationId": "idle-left",
      "tileX": 20,
      "tileY": 11,
-     "refId": "map_lz_ch05_tower_v1_actor_liangshanbo_2"
+     "refId": "map_lz_ch05_tower_v1_actor_liangshanbo_2",
+     "persona": {
+      "npcId": "liangshanbo"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_tw_liang",
+        "name": "与梁兄说话",
+        "description": "与梁兄说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 1
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "tower_meet"
+         },
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "zt_truth_done"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "zt_liang_talked"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_tw_liang",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_tw_liang_look",
+        "name": "梁山伯",
+        "description": "梁山伯",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 1
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "tower_meet"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_tw_liang_look",
+          "value": {
+           "ap": 0,
+           "kind": "look"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -747,7 +845,41 @@
      "animationId": "idle-left",
      "tileX": 36,
      "tileY": 27,
-     "refId": "map_lz_ch05_tower_v1_actor_ma_steward_3"
+     "refId": "map_lz_ch05_tower_v1_actor_ma_steward_3",
+     "persona": {
+      "npcId": "ma_steward",
+      "mobile": true
+     },
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 0,
+        "toSlot": 47,
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 36,
+           "tileY": 27
+          },
+          {
+           "tileX": 31,
+           "tileY": 27
+          },
+          {
+           "tileX": 31,
+           "tileY": 26
+          },
+          {
+           "tileX": 36,
+           "tileY": 26
+          }
+         ]
+        }
+       }
+      ],
+      "speed": 1
+     }
     },
     {
      "assetType": "sprite",
@@ -755,7 +887,355 @@
      "spriteId": "sprite_zhufu_maid_48x96_story_v1",
      "tileX": 12,
      "tileY": 9,
-     "animationId": "idle-down"
+     "animationId": "idle-down",
+     "persona": {
+      "npcId": "zhufu_maid",
+      "mobile": true
+     },
+     "autonomy": {
+      "reactions": [
+       {
+        "trigger": {
+         "type": "flag",
+         "flag": "mw_listening"
+        },
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 13,
+           "tileY": 27
+          },
+          {
+           "tileX": 22,
+           "tileY": 27
+          }
+         ]
+        }
+       }
+      ],
+      "speed": 1
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_tw_maid",
+        "name": "托付侍女",
+        "description": "托付侍女",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 1
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "tower_dusk"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "zt_maid_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_tw_maid",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_tw_maid_meet",
+        "name": "侍女",
+        "description": "侍女",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 1
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "tower_meet"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_tw_maid_meet",
+          "value": {
+           "ap": 0,
+           "kind": "look"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_bd_maid",
+        "name": "托付侍女",
+        "description": "托付侍女",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 2
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "sick_dawn",
+           "sick_day"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "zt_maid2_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_bd_maid",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_bd_maid_look",
+        "name": "侍女",
+        "description": "侍女",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 2
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_bd_maid_look",
+          "value": {
+           "ap": 0,
+           "kind": "look"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_mawencai_48x96_story_v1",
+     "animationId": "idle-left",
+     "tileX": 41,
+     "tileY": 27,
+     "refId": "map_lz_ch05_tower_v1_actor_mawencai_5",
+     "persona": {
+      "npcId": "mawencai"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_tw_curtain",
+        "name": "雨帘下的人影",
+        "description": "雨帘下的人影",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 1
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "tower_dusk"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "zt_curtain_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_tw_curtain",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_zhufu_mother_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 14,
+     "tileY": 11,
+     "refId": "map_lz_ch05_tower_v1_actor_zhufu_mother_6",
+     "persona": {
+      "npcId": "zhufu_mother"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_bd_mother",
+        "name": "母亲",
+        "description": "母亲",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 2
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "zt_mother_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_bd_mother",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_bd_mother_look",
+        "name": "母亲",
+        "description": "母亲",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 2
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_bd_mother_look",
+          "value": {
+           "ap": 0,
+           "kind": "look"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_ma_guard_48x96_story_v1",
+     "animationId": "idle-left",
+     "tileX": 32,
+     "tileY": 28,
+     "refId": "map_lz_ch05_tower_v1_actor_ma_guard_7",
+     "persona": {
+      "npcId": "ma_guard",
+      "mobile": true
+     },
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 0,
+        "toSlot": 47,
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 32,
+           "tileY": 28
+          },
+          {
+           "tileX": 40,
+           "tileY": 28
+          }
+         ]
+        }
+       }
+      ],
+      "speed": 1
+     }
     }
    ]
   },
@@ -2031,5 +2511,465 @@
    "grade": "night",
    "sharedBuilding": "comp_lz_xiulou_v1"
   }
+ },
+ "runtime": {
+  "schemaVersion": 1,
+  "slice": {
+   "sliceId": "lz_ch05",
+   "roles": [
+    "zhuyingtai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch05_tower_v1_story_a": [
+     {
+      "id": "lz_ch05_tw_tokens",
+      "name": "折扇与玉佩",
+      "description": "折扇与玉佩",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 1
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "tower_dusk"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zt_tokens_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_tw_tokens",
+        "value": {
+         "ap": 1,
+         "kind": "prepare"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_tw_give",
+      "name": "交出信物",
+      "description": "交出信物",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 1
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "tower_meet"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": [
+         "zt_bring_fan",
+         "zt_bring_jade"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch05_token_to_liang"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "zt_truth_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_tw_give",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_tw_tokens_look",
+      "name": "花几",
+      "description": "花几",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 1
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_tw_tokens_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_bd_dress",
+      "name": "嫁衣",
+      "description": "嫁衣",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 2
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zt_dress_tried"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_bd_dress",
+        "value": {
+         "ap": 1,
+         "kind": "prepare"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_bd_dress_look",
+      "name": "嫁衣",
+      "description": "嫁衣",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 2
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_bd_dress_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_tower_v1_story_b": [
+     {
+      "id": "lz_ch05_tw_lamp",
+      "name": "平座夜灯",
+      "description": "平座夜灯",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 1
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "tower_dusk"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zt_lamp_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_tw_lamp",
+        "value": {
+         "ap": 1,
+         "kind": "prepare"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_tw_lamp_look",
+      "name": "平座夜灯",
+      "description": "平座夜灯",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 1
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_tw_lamp_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_bd_window",
+      "name": "凭栏远望",
+      "description": "凭栏远望",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 2
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_bd_window",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_tower_v1_story_composition": [
+     {
+      "id": "lz_ch05_tw_rail",
+      "name": "美人靠",
+      "description": "美人靠",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 1
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "topic_shiba"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_tw_rail",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_tw_rail_vow",
+      "name": "倚栏立誓",
+      "description": "倚栏立誓",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 1
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "tower_meet"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "zt_truth_done"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch05_vow"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_tw_vow",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_tw_rail_look",
+      "name": "美人靠",
+      "description": "美人靠",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_tw_rail_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_tower_v1_story_route": [
+     {
+      "id": "lz_ch05_tw_route",
+      "name": "油纸伞",
+      "description": "油纸伞",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 1
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_tw_route",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_bd_route",
+      "name": "油纸伞",
+      "description": "油纸伞",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 2
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_tw_route",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "locationTapZones": false
  }
 }

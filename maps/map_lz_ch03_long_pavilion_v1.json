@@ -50,7 +50,8 @@
     "sprite_page_boy_48x96_story_v1",
     "sprite_pedlar_48x96_story_v1",
     "sprite_yinxin_48x96_story_v1",
-    "sprite_zhuyingtai_48x96_story_v1"
+    "sprite_zhuyingtai_48x96_story_v1",
+    "sprite_mawencai_48x96_story_v1"
    ],
    "mapIds": [
     "map_lz_ch03_long_pavilion_v1"
@@ -676,7 +677,12 @@
      "componentId": "comp_lz_ch03_tea_set_table_dusk_v1",
      "tileX": 15,
      "tileY": 16,
-     "refId": "map_lz_ch03_long_pavilion_v1_tea_set_table_15_16"
+     "refId": "map_lz_ch03_long_pavilion_v1_tea_set_table_15_16",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -712,7 +718,11 @@
      "animationId": "idle-right",
      "tileX": 14,
      "tileY": 18,
-     "refId": "map_lz_ch03_long_pavilion_v1_actor_zhuyingtai_1"
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_zhuyingtai_1",
+     "persona": {
+      "npcId": "zhuyingtai",
+      "mobile": true
+     }
     },
     {
      "assetType": "sprite",
@@ -720,7 +730,48 @@
      "animationId": "idle-left",
      "tileX": 19,
      "tileY": 18,
-     "refId": "map_lz_ch03_long_pavilion_v1_actor_liangshanbo_2"
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_liangshanbo_2",
+     "persona": {
+      "npcId": "liangshanbo",
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_liang_pavilion",
+        "name": "与梁兄说话",
+        "description": "与梁兄说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_pavilion"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_liang_pavilion",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -728,7 +779,10 @@
      "animationId": "idle-left",
      "tileX": 33,
      "tileY": 9,
-     "refId": "map_lz_ch03_long_pavilion_v1_actor_old_man"
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_old_man",
+     "persona": {
+      "npcId": "old_man"
+     }
     },
     {
      "assetType": "sprite",
@@ -736,7 +790,53 @@
      "animationId": "idle-left",
      "tileX": 30,
      "tileY": 19,
-     "refId": "map_lz_ch03_long_pavilion_v1_actor_pedlar"
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_pedlar",
+     "persona": {
+      "npcId": "pedlar",
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_pedlar",
+        "name": "行商",
+        "description": "行商",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_pavilion"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "c3_pedlar_gone"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_pedlar",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -744,7 +844,10 @@
      "animationId": "idle-left",
      "tileX": 36,
      "tileY": 11,
-     "refId": "map_lz_ch03_long_pavilion_v1_actor_boatman"
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_boatman",
+     "persona": {
+      "npcId": "boatman"
+     }
     },
     {
      "assetType": "sprite",
@@ -752,7 +855,48 @@
      "animationId": "idle-right",
      "tileX": 33,
      "tileY": 12,
-     "refId": "map_lz_ch03_long_pavilion_v1_actor_yinxin"
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_yinxin",
+     "persona": {
+      "npcId": "yinxin",
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_yinxin_pavilion",
+        "name": "与银心说话",
+        "description": "与银心说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_pavilion"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_yinxin_chat",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -760,7 +904,10 @@
      "animationId": "idle-left",
      "tileX": 25,
      "tileY": 19,
-     "refId": "map_lz_ch03_long_pavilion_v1_actor_sixjiu"
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_sixjiu",
+     "persona": {
+      "npcId": "page_boy"
+     }
     },
     {
      "assetType": "sprite",
@@ -768,7 +915,22 @@
      "animationId": "idle-left",
      "tileX": 40,
      "tileY": 19,
-     "refId": "map_lz_ch03_long_pavilion_v1_actor_ma_guard"
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_ma_guard",
+     "persona": {
+      "npcId": "ma_guard",
+      "mobile": true
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_mawencai_48x96_story_v1",
+     "animationId": "idle-left",
+     "tileX": 41,
+     "tileY": 20,
+     "refId": "map_lz_ch03_long_pavilion_v1_actor_mawencai",
+     "persona": {
+      "npcId": "mawencai"
+     }
     }
    ]
   },
@@ -4787,7 +4949,86 @@
   }
  ],
  "itemDefs": [],
- "teleports": [],
+ "teleports": [
+  {
+   "id": "tp_lz_ch03_pavilion_boat_to_ch04",
+   "name": "栈桥 · 登船回祝家庄",
+   "sourceTileX": 34,
+   "sourceTileY": 9,
+   "target": {
+    "mapId": "map_lz_ch04_zhufu_hall_v1",
+    "tileX": 22,
+    "tileY": 28
+   },
+   "bidirectional": false,
+   "conditions": [
+    {
+     "type": "flag",
+     "operator": "eq",
+     "value": "ch03_complete"
+    },
+    {
+     "type": "flag",
+     "operator": "eq",
+     "value": "role_zhuyingtai"
+    }
+   ],
+   "visualType": "door",
+   "scenarioOnly": true
+  },
+  {
+   "id": "tp_lz_ch03_pavilion_east_to_ch04",
+   "name": "东头 · 夜路",
+   "sourceTileX": 43,
+   "sourceTileY": 20,
+   "target": {
+    "mapId": "map_lz_ch04_zhufu_hall_v1",
+    "tileX": 22,
+    "tileY": 28
+   },
+   "bidirectional": false,
+   "conditions": [
+    {
+     "type": "flag",
+     "operator": "eq",
+     "value": "ch03_complete"
+    },
+    {
+     "type": "flag",
+     "operator": "eq",
+     "value": "role_liangshanbo"
+    }
+   ],
+   "visualType": "door",
+   "scenarioOnly": true
+  },
+  {
+   "id": "tp_lz_ch03_pavilion_west_to_ch04",
+   "name": "西头 · 回马府",
+   "sourceTileX": 0,
+   "sourceTileY": 21,
+   "target": {
+    "mapId": "map_lz_ch04_ma_courtyard_v1",
+    "tileX": 2,
+    "tileY": 18
+   },
+   "bidirectional": false,
+   "conditions": [
+    {
+     "type": "flag",
+     "operator": "eq",
+     "value": "ch03_complete"
+    },
+    {
+     "type": "flag",
+     "operator": "eq",
+     "value": "role_mawencai"
+    }
+   ],
+   "visualType": "door",
+   "scenarioOnly": true
+  }
+ ],
  "createdAt": 1782325200000,
  "updatedAt": 1791600000000,
  "version": 2,
@@ -4829,5 +5070,166 @@
   "journeyOrder": 5,
   "timeOfDay": "dusk",
   "chapterSettlement": true
+ },
+ "runtime": {
+  "schemaVersion": 1,
+  "locationTapZones": false,
+  "slice": {
+   "sliceId": "lz_ch03",
+   "roles": [
+    "zhuyingtai",
+    "liangshanbo",
+    "mawencai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch03_long_pavilion_v1_story_b": [
+     {
+      "id": "lz_ch03_hint_magpies2",
+      "name": "栈桥柳梢",
+      "description": "栈桥柳梢",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_pavilion"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_hint_magpies2"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_hint_magpies2",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_long_pavilion_v1_story_a": [
+     {
+      "id": "lz_ch03_willow",
+      "name": "折柳",
+      "description": "折柳",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_pavilion"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_willow_given"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_willow",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_long_pavilion_v1_tea_set_table_15_16": [
+     {
+      "id": "lz_ch03_tea",
+      "name": "饯别茶",
+      "description": "饯别茶",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_pavilion"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_tea_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_tea",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_long_pavilion_v1_story_route": [
+     {
+      "id": "lz_ch03_board",
+      "name": "话别登船",
+      "description": "话别登船",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_pavilion"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_board",
+        "value": {
+         "ap": 0,
+         "kind": "talk"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
  }
 }

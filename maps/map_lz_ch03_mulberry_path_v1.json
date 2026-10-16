@@ -56,7 +56,8 @@
     "comp_lz_ch03_straw_stack_noon_v1",
     "comp_lz_ch03_thatch_hut_noon_v1",
     "comp_lz_ch03_well_noon_v1",
-    "comp_lz_ch03_woven_fence_noon_v1"
+    "comp_lz_ch03_woven_fence_noon_v1",
+    "comp_liangzhu_transparent_interaction_marker_v1"
    ],
    "spriteIds": [
     "sprite_liangshanbo_48x96_story_v2",
@@ -313,7 +314,12 @@
      "componentId": "comp_lz_ch03_well_noon_v1",
      "tileX": 38,
      "tileY": 10,
-     "refId": "map_lz_ch03_mulberry_path_v1_well_38_10"
+     "refId": "map_lz_ch03_mulberry_path_v1_well_38_10",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -706,7 +712,12 @@
      "componentId": "comp_lz_ch03_knotweed_noon_a_v1",
      "tileX": 40,
      "tileY": 22,
-     "refId": "map_lz_ch03_mulberry_path_v1_knotweed_40_22"
+     "refId": "map_lz_ch03_mulberry_path_v1_knotweed_40_22",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "sprite",
@@ -714,7 +725,37 @@
      "animationId": "idle-right",
      "tileX": 22,
      "tileY": 21,
-     "refId": "map_lz_ch03_mulberry_path_v1_actor_zhuyingtai_1"
+     "refId": "map_lz_ch03_mulberry_path_v1_actor_zhuyingtai_1",
+     "persona": {
+      "npcId": "zhuyingtai",
+      "mobile": true
+     },
+     "autonomy": {
+      "reactions": [
+       {
+        "trigger": {
+         "type": "storyVariable",
+         "key": "mwListen",
+         "op": "gte",
+         "value": 1
+        },
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 22,
+           "tileY": 21
+          },
+          {
+           "tileX": 21,
+           "tileY": 20
+          }
+         ]
+        }
+       }
+      ],
+      "speed": 1
+     }
     },
     {
      "assetType": "sprite",
@@ -722,7 +763,74 @@
      "animationId": "idle-left",
      "tileX": 27,
      "tileY": 21,
-     "refId": "map_lz_ch03_mulberry_path_v1_actor_liangshanbo_2"
+     "refId": "map_lz_ch03_mulberry_path_v1_actor_liangshanbo_2",
+     "persona": {
+      "npcId": "liangshanbo",
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_liang_mulberry",
+        "name": "与梁兄说话",
+        "description": "与梁兄说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_mulberry"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_liang_mulberry",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     "autonomy": {
+      "reactions": [
+       {
+        "trigger": {
+         "type": "storyVariable",
+         "key": "mwListen",
+         "op": "gte",
+         "value": 1
+        },
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 27,
+           "tileY": 21
+          },
+          {
+           "tileX": 25,
+           "tileY": 20
+          }
+         ]
+        }
+       }
+      ],
+      "speed": 1
+     }
     },
     {
      "assetType": "sprite",
@@ -730,7 +838,53 @@
      "animationId": "idle-left",
      "tileX": 32,
      "tileY": 15,
-     "refId": "map_lz_ch03_mulberry_path_v1_actor_old_woman"
+     "refId": "map_lz_ch03_mulberry_path_v1_actor_old_woman",
+     "persona": {
+      "npcId": "old_woman",
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_old_woman",
+        "name": "老妇",
+        "description": "老妇",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_mulberry"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "c3_oldwoman_away"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_old_woman",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -738,7 +892,28 @@
      "animationId": "idle-down",
      "tileX": 10,
      "tileY": 11,
-     "refId": "map_lz_ch03_mulberry_path_v1_actor_picker"
+     "refId": "map_lz_ch03_mulberry_path_v1_actor_picker",
+     "persona": {
+      "npcId": "mulberry_picker",
+      "mobile": true
+     },
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 0,
+        "toSlot": 47,
+        "behavior": {
+         "type": "wander",
+         "center": {
+          "tileX": 10,
+          "tileY": 11
+         },
+         "radius": 2
+        }
+       }
+      ],
+      "speed": 1
+     }
     },
     {
      "assetType": "sprite",
@@ -746,7 +921,28 @@
      "animationId": "idle-right",
      "tileX": 11,
      "tileY": 19,
-     "refId": "map_lz_ch03_mulberry_path_v1_actor_picker_2"
+     "refId": "map_lz_ch03_mulberry_path_v1_actor_picker_2",
+     "persona": {
+      "npcId": "mulberry_picker",
+      "mobile": true
+     },
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 0,
+        "toSlot": 47,
+        "behavior": {
+         "type": "wander",
+         "center": {
+          "tileX": 11,
+          "tileY": 19
+         },
+         "radius": 2
+        }
+       }
+      ],
+      "speed": 1
+     }
     },
     {
      "assetType": "sprite",
@@ -754,7 +950,11 @@
      "animationId": "idle-right",
      "tileX": 5,
      "tileY": 19,
-     "refId": "map_lz_ch03_mulberry_path_v1_actor_ma_guard"
+     "refId": "map_lz_ch03_mulberry_path_v1_actor_ma_guard",
+     "persona": {
+      "npcId": "ma_guard",
+      "mobile": true
+     }
     },
     {
      "assetType": "sprite",
@@ -762,7 +962,10 @@
      "animationId": "idle-right",
      "tileX": 14,
      "tileY": 21,
-     "refId": "map_lz_ch03_mulberry_path_v1_actor_sixjiu"
+     "refId": "map_lz_ch03_mulberry_path_v1_actor_sixjiu",
+     "persona": {
+      "npcId": "page_boy"
+     }
     },
     {
      "assetType": "sprite",
@@ -770,7 +973,87 @@
      "animationId": "idle-right",
      "tileX": 17,
      "tileY": 22,
-     "refId": "map_lz_ch03_mulberry_path_v1_actor_yinxin"
+     "refId": "map_lz_ch03_mulberry_path_v1_actor_yinxin",
+     "persona": {
+      "npcId": "yinxin",
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_yinxin_mulberry",
+        "name": "与银心说话",
+        "description": "与银心说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_mulberry"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_yinxin_chat",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_liangzhu_transparent_interaction_marker_v1",
+     "tileX": 16,
+     "tileY": 16,
+     "refId": "map_lz_ch03_mulberry_path_v1_listen_far",
+     "collision": "none",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_liangzhu_transparent_interaction_marker_v1",
+     "tileX": 19,
+     "tileY": 17,
+     "refId": "map_lz_ch03_mulberry_path_v1_listen_mid",
+     "collision": "none",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
+    },
+    {
+     "assetType": "component",
+     "componentId": "comp_liangzhu_transparent_interaction_marker_v1",
+     "tileX": 21,
+     "tileY": 19,
+     "refId": "map_lz_ch03_mulberry_path_v1_listen_near",
+     "collision": "none",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     }
    ]
   },
@@ -3927,5 +4210,133 @@
   },
   "journeyOrder": 3,
   "timeOfDay": "noon"
+ },
+ "runtime": {
+  "schemaVersion": 1,
+  "locationTapZones": false,
+  "slice": {
+   "sliceId": "lz_ch03",
+   "roles": [
+    "zhuyingtai",
+    "liangshanbo",
+    "mawencai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch03_mulberry_path_v1_story_b": [
+     {
+      "id": "lz_ch03_hint_jiumei",
+      "name": "桑枝白茧",
+      "description": "桑枝白茧",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_mulberry"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_hint_jiumei"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_hint_jiumei",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_mulberry_path_v1_well_38_10": [
+     {
+      "id": "lz_ch03_hint_well",
+      "name": "水井",
+      "description": "水井",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_mulberry"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_hint_well"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_hint_well",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_mulberry_path_v1_knotweed_40_22": [
+     {
+      "id": "lz_ch03_hint_herdboy",
+      "name": "塘边水牛",
+      "description": "塘边水牛",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_mulberry"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_hint_herdboy"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_hint_herdboy",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
  }
 }

@@ -188,14 +188,24 @@
      "componentId": "comp_lz_ch05_grave_mound_v1",
      "tileX": 17,
      "tileY": 2,
-     "refId": "map_lz_ch05_grave_v1_focus"
+     "refId": "map_lz_ch05_grave_v1_finale_reference_grave_crack",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
      "componentId": "comp_lz_ch05_grave_tablet_v1",
      "tileX": 20,
      "tileY": 8,
-     "refId": "map_lz_ch05_grave_v1_finale_reference_gravestone"
+     "refId": "map_lz_ch05_grave_v1_finale_reference_gravestone",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -248,7 +258,7 @@
      "componentId": "comp_lz_ch05_grave_old_grave_0_v1",
      "tileX": 2,
      "tileY": 13,
-     "refId": "map_lz_ch05_grave_v1_finale_reference_grave_crack"
+     "refId": "map_lz_ch05_grave_v1_old_grave_0"
     },
     {
      "assetType": "component",
@@ -723,7 +733,10 @@
      "animationId": "idle-right",
      "tileX": 18,
      "tileY": 14,
-     "refId": "map_lz_ch05_grave_v1_actor_zhuyingtai_wedding_1"
+     "refId": "map_lz_ch05_grave_v1_actor_zhuyingtai_wedding_1",
+     "persona": {
+      "npcId": "zhuyingtai"
+     }
     },
     {
      "assetType": "sprite",
@@ -731,7 +744,10 @@
      "animationId": "idle-down",
      "tileX": 19,
      "tileY": 23,
-     "refId": "map_lz_ch05_grave_v1_actor_matchmaker_2"
+     "refId": "map_lz_ch05_grave_v1_actor_matchmaker_2",
+     "persona": {
+      "npcId": "matchmaker"
+     }
     },
     {
      "assetType": "sprite",
@@ -739,7 +755,10 @@
      "animationId": "idle-left",
      "tileX": 24,
      "tileY": 23,
-     "refId": "map_lz_ch05_grave_v1_actor_ma_guard_3"
+     "refId": "map_lz_ch05_grave_v1_actor_ma_guard_3",
+     "persona": {
+      "npcId": "ma_guard"
+     }
     },
     {
      "assetType": "sprite",
@@ -747,7 +766,50 @@
      "spriteId": "sprite_mawencai_48x96_story_v1",
      "tileX": 14,
      "tileY": 25,
-     "animationId": "idle-right"
+     "animationId": "idle-right",
+     "persona": {
+      "npcId": "mawencai"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_gr_ma",
+        "name": "马文才",
+        "description": "马文才",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "grave"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "zt_grave_ma_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_gr_ma",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -755,7 +817,10 @@
      "spriteId": "sprite_ma_guard_48x96_story_v1",
      "tileX": 27,
      "tileY": 24,
-     "animationId": "idle-left"
+     "animationId": "idle-left",
+     "persona": {
+      "npcId": "ma_guard"
+     }
     },
     {
      "assetType": "sprite",
@@ -763,7 +828,10 @@
      "spriteId": "sprite_wedding_bearer_48x96_story_v1",
      "tileX": 31,
      "tileY": 25,
-     "animationId": "idle-down"
+     "animationId": "idle-down",
+     "persona": {
+      "npcId": "wedding_bearer"
+     }
     },
     {
      "assetType": "sprite",
@@ -771,7 +839,10 @@
      "spriteId": "sprite_wedding_bearer_48x96_story_v1",
      "tileX": 42,
      "tileY": 25,
-     "animationId": "idle-left"
+     "animationId": "idle-left",
+     "persona": {
+      "npcId": "wedding_bearer"
+     }
     }
    ]
   },
@@ -2171,6 +2242,251 @@
    "focusTier": "S",
    "detailPass": "ch05-final-v1",
    "grade": "storm"
+  }
+ },
+ "runtime": {
+  "schemaVersion": 1,
+  "slice": {
+   "sliceId": "lz_ch05",
+   "roles": [
+    "zhuyingtai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch05_grave_v1_finale_reference_gravestone": [
+     {
+      "id": "lz_ch05_gr_tablet",
+      "name": "墓碑",
+      "description": "墓碑",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_gr_tablet",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_grave_v1_story_b": [
+     {
+      "id": "lz_ch05_gr_letter",
+      "name": "供桌上的遗信",
+      "description": "供桌上的遗信",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch05_read"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_gr_letter",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_gr_letter_look",
+      "name": "供桌",
+      "description": "供桌",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_gr_letter_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_grave_v1_story_a": [
+     {
+      "id": "lz_ch05_gr_veil",
+      "name": "红盖头",
+      "description": "红盖头",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch05_veil"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_gr_veil",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_gr_veil_look",
+      "name": "红盖头",
+      "description": "红盖头",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_gr_veil_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_grave_v1_story_route": [
+     {
+      "id": "lz_ch05_gr_route",
+      "name": "红绸花",
+      "description": "红绸花",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_gr_route",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_grave_v1_finale_reference_grave_crack": [
+     {
+      "id": "lz_ch05_gr_call",
+      "name": "唤他",
+      "description": "唤他",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_gr_call",
+        "value": {
+         "ap": 1,
+         "kind": "climax"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "locationTapZones": false,
+  "assets": {
+   "components": [
+    "comp_lz_kit_grave_mound_crack_line_v1",
+    "comp_lz_kit_grave_mound_crack_open_v1",
+    "comp_lz_kit_grave_mound_crack_glow_v1",
+    "comp_lz_kit_grave_mound_fresh_v1",
+    "comp_lz_kit_grave_offering_table_lit_v1",
+    "comp_lz_kit_grave_offering_table_unlit_v1"
+   ]
   }
  }
 }

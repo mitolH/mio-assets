@@ -632,7 +632,10 @@
      "animationId": "idle-down",
      "tileX": 19,
      "tileY": 15,
-     "refId": "map_lz_ch05_butterfly_end_v1_actor_zhuyingtai_butterfly_1"
+     "refId": "map_lz_ch05_butterfly_end_v1_actor_zhuyingtai_butterfly_1",
+     "persona": {
+      "npcId": "zhuyingtai"
+     }
     },
     {
      "assetType": "sprite",
@@ -640,7 +643,45 @@
      "animationId": "idle-down",
      "tileX": 24,
      "tileY": 15,
-     "refId": "map_lz_ch05_butterfly_end_v1_actor_liangshanbo_butterfly_2"
+     "refId": "map_lz_ch05_butterfly_end_v1_actor_liangshanbo_butterfly_2",
+     "persona": {
+      "npcId": "liangshanbo"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_bf_sky",
+        "name": "飞向天际",
+        "description": "飞向天际",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "butterfly"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_bf_sky",
+          "value": {
+           "ap": 0,
+           "kind": "climax"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -648,7 +689,10 @@
      "animationId": "idle-right",
      "tileX": 19,
      "tileY": 25,
-     "refId": "map_lz_ch05_butterfly_end_v1_actor_mawencai_3"
+     "refId": "map_lz_ch05_butterfly_end_v1_actor_mawencai_3",
+     "persona": {
+      "npcId": "mawencai"
+     }
     }
    ]
   },
@@ -2931,5 +2975,110 @@
    "detailPass": "ch05-final-v1",
    "grade": "lumen"
   }
+ },
+ "runtime": {
+  "schemaVersion": 1,
+  "slice": {
+   "sliceId": "lz_ch05",
+   "roles": [
+    "zhuyingtai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch05_butterfly_end_v1_story_a": [
+     {
+      "id": "lz_ch05_bf_follow",
+      "name": "花上双蝶",
+      "description": "花上双蝶",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "butterfly"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_bf_follow",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_butterfly_end_v1_story_b": [
+     {
+      "id": "lz_ch05_bf_fan",
+      "name": "扇上的光",
+      "description": "扇上的光",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "butterfly"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_bf_fan",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_butterfly_end_v1_story_route": [
+     {
+      "id": "lz_ch05_bf_doc",
+      "name": "湿婚书",
+      "description": "湿婚书",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "butterfly"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_bf_doc",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "locationTapZones": false
  }
 }

@@ -541,7 +541,12 @@
      "componentId": "comp_lz_ch03_goose_morning_v1",
      "tileX": 6,
      "tileY": 22,
-     "refId": "map_lz_ch03_creek_bridge_v1_goose_6_22"
+     "refId": "map_lz_ch03_creek_bridge_v1_goose_6_22",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -556,7 +561,11 @@
      "animationId": "idle-right",
      "tileX": 34,
      "tileY": 12,
-     "refId": "map_lz_ch03_creek_bridge_v1_actor_zhuyingtai_1"
+     "refId": "map_lz_ch03_creek_bridge_v1_actor_zhuyingtai_1",
+     "persona": {
+      "npcId": "zhuyingtai",
+      "mobile": true
+     }
     },
     {
      "assetType": "sprite",
@@ -564,7 +573,48 @@
      "animationId": "idle-left",
      "tileX": 37,
      "tileY": 12,
-     "refId": "map_lz_ch03_creek_bridge_v1_actor_liangshanbo_2"
+     "refId": "map_lz_ch03_creek_bridge_v1_actor_liangshanbo_2",
+     "persona": {
+      "npcId": "liangshanbo",
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_liang_creek",
+        "name": "与梁兄说话",
+        "description": "与梁兄说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_creek"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_liang_creek",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -572,7 +622,10 @@
      "animationId": "idle-right",
      "tileX": 10,
      "tileY": 15,
-     "refId": "map_lz_ch03_creek_bridge_v1_actor_mawencai_3"
+     "refId": "map_lz_ch03_creek_bridge_v1_actor_mawencai_3",
+     "persona": {
+      "npcId": "mawencai"
+     }
     },
     {
      "assetType": "sprite",
@@ -580,7 +633,53 @@
      "animationId": "idle-down",
      "tileX": 19,
      "tileY": 10,
-     "refId": "map_lz_ch03_creek_bridge_v1_actor_washerwoman"
+     "refId": "map_lz_ch03_creek_bridge_v1_actor_washerwoman",
+     "persona": {
+      "npcId": "washerwoman",
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_washer",
+        "name": "浣衣妇",
+        "description": "浣衣妇",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_creek"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "c3_washer_turned"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_washer",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -588,7 +687,11 @@
      "animationId": "idle-left",
      "tileX": 22,
      "tileY": 10,
-     "refId": "map_lz_ch03_creek_bridge_v1_actor_old_woman"
+     "refId": "map_lz_ch03_creek_bridge_v1_actor_old_woman",
+     "persona": {
+      "npcId": "old_woman",
+      "mobile": true
+     }
     },
     {
      "assetType": "sprite",
@@ -596,7 +699,90 @@
      "animationId": "idle-right",
      "tileX": 27,
      "tileY": 11,
-     "refId": "map_lz_ch03_creek_bridge_v1_actor_yinxin"
+     "refId": "map_lz_ch03_creek_bridge_v1_actor_yinxin",
+     "persona": {
+      "npcId": "yinxin",
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_yinxin_creek",
+        "name": "银心",
+        "description": "银心",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_creek"
+          ]
+         },
+         {
+          "type": "bond",
+          "field": "yinxin",
+          "operator": "gte",
+          "value": 2
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "c3_yinxin_led"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_yinxin_creek",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch03_yinxin_creek_chat",
+        "name": "与银心说话",
+        "description": "与银心说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_creek"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_yinxin_chat",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -604,7 +790,10 @@
      "animationId": "idle-right",
      "tileX": 25,
      "tileY": 11,
-     "refId": "map_lz_ch03_creek_bridge_v1_actor_sixjiu"
+     "refId": "map_lz_ch03_creek_bridge_v1_actor_sixjiu",
+     "persona": {
+      "npcId": "page_boy"
+     }
     }
    ]
   },
@@ -4846,5 +5035,95 @@
   },
   "journeyOrder": 2,
   "timeOfDay": "morning"
+ },
+ "runtime": {
+  "schemaVersion": 1,
+  "locationTapZones": false,
+  "slice": {
+   "sliceId": "lz_ch03",
+   "roles": [
+    "zhuyingtai",
+    "liangshanbo",
+    "mawencai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch03_creek_bridge_v1_story_b": [
+     {
+      "id": "lz_ch03_hint_reflection",
+      "name": "观鱼石",
+      "description": "观鱼石",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_creek"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_hint_reflection"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_hint_reflection",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_creek_bridge_v1_goose_6_22": [
+     {
+      "id": "lz_ch03_goose",
+      "name": "白鹅",
+      "description": "白鹅",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_creek"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_goose_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_goose",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
  }
 }

@@ -58,7 +58,8 @@
     "sprite_student_b_48x96_story_v1",
     "sprite_teacher_48x96_story_v1",
     "sprite_yinxin_48x96_story_v1",
-    "sprite_zhuyingtai_48x96_story_v1"
+    "sprite_zhuyingtai_48x96_story_v1",
+    "sprite_mawencai_48x96_story_v1"
    ],
    "mapIds": [
     "map_lz_ch03_academy_gate_v1"
@@ -296,7 +297,12 @@
      "componentId": "comp_lz_ch03_travel_bundle_dawn_v1",
      "tileX": 10,
      "tileY": 20,
-     "refId": "map_lz_ch03_academy_gate_v1_travel_bundle_10_20"
+     "refId": "map_lz_ch03_academy_gate_v1_travel_bundle_10_20",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -573,7 +579,12 @@
      "componentId": "comp_lz_ch03_magpies_dawn_v1",
      "tileX": 37,
      "tileY": 16,
-     "refId": "map_lz_ch03_academy_gate_v1_magpies_37_16"
+     "refId": "map_lz_ch03_academy_gate_v1_magpies_37_16",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -651,7 +662,52 @@
      "animationId": "idle-down",
      "tileX": 6,
      "tileY": 16,
-     "refId": "map_lz_ch03_academy_gate_v1_actor_teacher_3"
+     "refId": "map_lz_ch03_academy_gate_v1_actor_teacher_3",
+     "persona": {
+      "npcId": "teacher"
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_teacher",
+        "name": "辞先生",
+        "description": "辞先生",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_gate"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "c3_teacher_farewell"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_teacher",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -659,7 +715,10 @@
      "animationId": "idle-right",
      "tileX": 8,
      "tileY": 21,
-     "refId": "map_lz_ch03_academy_gate_v1_actor_sixjiu"
+     "refId": "map_lz_ch03_academy_gate_v1_actor_sixjiu",
+     "persona": {
+      "npcId": "page_boy"
+     }
     },
     {
      "assetType": "sprite",
@@ -667,7 +726,84 @@
      "animationId": "idle-right",
      "tileX": 11,
      "tileY": 22,
-     "refId": "map_lz_ch03_academy_gate_v1_actor_yinxin"
+     "refId": "map_lz_ch03_academy_gate_v1_actor_yinxin",
+     "persona": {
+      "npcId": "yinxin",
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_yinxin_coach",
+        "name": "叮嘱银心",
+        "description": "叮嘱银心",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_gate"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "yinxin_coached"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_yinxin_coach",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch03_yinxin_gate",
+        "name": "与银心说话",
+        "description": "与银心说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_gate"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_yinxin_chat",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -675,7 +811,11 @@
      "animationId": "idle-right",
      "tileX": 14,
      "tileY": 20,
-     "refId": "map_lz_ch03_academy_gate_v1_actor_zhuyingtai_1"
+     "refId": "map_lz_ch03_academy_gate_v1_actor_zhuyingtai_1",
+     "persona": {
+      "npcId": "zhuyingtai",
+      "mobile": true
+     }
     },
     {
      "assetType": "sprite",
@@ -683,7 +823,84 @@
      "animationId": "idle-left",
      "tileX": 17,
      "tileY": 20,
-     "refId": "map_lz_ch03_academy_gate_v1_actor_liangshanbo_2"
+     "refId": "map_lz_ch03_academy_gate_v1_actor_liangshanbo_2",
+     "persona": {
+      "npcId": "liangshanbo",
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_invite",
+        "name": "请梁兄相送",
+        "description": "请梁兄相送",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_gate"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "c3_liang_asked"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_invite",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch03_liang_gate",
+        "name": "与梁兄说话",
+        "description": "与梁兄说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_gate"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_liang_gate",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -691,7 +908,10 @@
      "animationId": "idle-down",
      "tileX": 3,
      "tileY": 19,
-     "refId": "map_lz_ch03_academy_gate_v1_actor_student_b"
+     "refId": "map_lz_ch03_academy_gate_v1_actor_student_b",
+     "persona": {
+      "npcId": "scholar"
+     }
     },
     {
      "assetType": "sprite",
@@ -699,7 +919,22 @@
      "animationId": "idle-left",
      "tileX": 29,
      "tileY": 18,
-     "refId": "map_lz_ch03_academy_gate_v1_actor_ma_guard"
+     "refId": "map_lz_ch03_academy_gate_v1_actor_ma_guard",
+     "persona": {
+      "npcId": "ma_guard",
+      "mobile": true
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_mawencai_48x96_story_v1",
+     "animationId": "idle-left",
+     "tileX": 30,
+     "tileY": 19,
+     "refId": "map_lz_ch03_academy_gate_v1_actor_mawencai",
+     "persona": {
+      "npcId": "mawencai"
+     }
     }
    ]
   },
@@ -6103,5 +6338,161 @@
   },
   "journeyOrder": 1,
   "timeOfDay": "dawn"
+ },
+ "runtime": {
+  "schemaVersion": 1,
+  "locationTapZones": false,
+  "slice": {
+   "sliceId": "lz_ch03",
+   "roles": [
+    "zhuyingtai",
+    "liangshanbo",
+    "mawencai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch03_academy_gate_v1_story_a": [
+     {
+      "id": "lz_ch03_register",
+      "name": "离院登记册",
+      "description": "离院登记册",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_gate"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_register_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_register",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_academy_gate_v1_story_b": [
+     {
+      "id": "lz_ch03_hint_magpie",
+      "name": "东岸折柳",
+      "description": "东岸折柳",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_gate"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_hint_magpie"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_hint_magpie",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_academy_gate_v1_magpies_37_16": [
+     {
+      "id": "lz_ch03_look_magpie",
+      "name": "柳梢喜鹊",
+      "description": "柳梢喜鹊",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_gate"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_look_magpie",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_academy_gate_v1_travel_bundle_10_20": [
+     {
+      "id": "lz_ch03_look_bundle",
+      "name": "行囊",
+      "description": "行囊",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_gate"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_zhu_look_bundle",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
  }
 }

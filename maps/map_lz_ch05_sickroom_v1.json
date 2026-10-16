@@ -54,7 +54,8 @@
     "sprite_zhuyingtai_48x96_story_v1",
     "sprite_zhuyingtai_butterfly_48x96_story_v1",
     "sprite_zhuyingtai_wedding_48x96_story_v1",
-    "sprite_boatman_48x96_story_v1"
+    "sprite_boatman_48x96_story_v1",
+    "sprite_page_boy_48x96_story_v1"
    ],
    "mapIds": [
     "map_lz_ch05_sickroom_v1"
@@ -493,14 +494,24 @@
      "componentId": "comp_lz_ch05_sickroom_vase_willow_v1",
      "tileX": 22,
      "tileY": 10,
-     "refId": "map_lz_ch05_sickroom_v1_scene_fixture_left"
+     "refId": "map_lz_ch05_sickroom_v1_scene_fixture_left",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
      "componentId": "comp_lz_ch05_sickroom_bookcase_v1",
      "tileX": 28,
      "tileY": 6,
-     "refId": "map_lz_ch05_sickroom_v1_scene_fixture_right"
+     "refId": "map_lz_ch05_sickroom_v1_scene_fixture_right",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -592,7 +603,45 @@
      "animationId": "idle-down",
      "tileX": 11,
      "tileY": 16,
-     "refId": "map_lz_ch05_sickroom_v1_actor_liangshanbo_sick_1"
+     "refId": "map_lz_ch05_sickroom_v1_actor_liangshanbo_sick_1",
+     "persona": {
+      "npcId": "liangshanbo"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_dr_liang",
+        "name": "病榻上的他",
+        "description": "病榻上的他",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "dream"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_dr_liang",
+          "value": {
+           "ap": 0,
+           "kind": "look"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -600,7 +649,10 @@
      "animationId": "idle-left",
      "tileX": 38,
      "tileY": 18,
-     "refId": "map_lz_ch05_sickroom_v1_actor_servant_3"
+     "refId": "map_lz_ch05_sickroom_v1_actor_servant_3",
+     "persona": {
+      "npcId": "servant"
+     }
     },
     {
      "assetType": "sprite",
@@ -608,7 +660,43 @@
      "spriteId": "sprite_boatman_48x96_story_v1",
      "tileX": 26,
      "tileY": 26,
-     "animationId": "idle-left"
+     "animationId": "idle-left",
+     "persona": {
+      "npcId": "messenger"
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_page_boy_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 36,
+     "tileY": 15,
+     "refId": "map_lz_ch05_sickroom_v1_actor_page_boy_5",
+     "persona": {
+      "npcId": "page_boy"
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_teacher_48x96_story_v1",
+     "animationId": "idle-left",
+     "tileX": 30,
+     "tileY": 19,
+     "refId": "map_lz_ch05_sickroom_v1_actor_teacher_6",
+     "persona": {
+      "npcId": "teacher"
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_mawencai_48x96_story_v1",
+     "animationId": "idle-left",
+     "tileX": 24,
+     "tileY": 19,
+     "refId": "map_lz_ch05_sickroom_v1_actor_mawencai_7",
+     "persona": {
+      "npcId": "mawencai"
+     }
     }
    ]
   },
@@ -3665,5 +3753,192 @@
    "detailPass": "ch05-final-v1",
    "grade": "dawn"
   }
+ },
+ "runtime": {
+  "schemaVersion": 1,
+  "slice": {
+   "sliceId": "lz_ch05",
+   "roles": [
+    "zhuyingtai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch05_sickroom_v1_story_b": [
+     {
+      "id": "lz_ch05_dr_draft",
+      "name": "未寄出的信",
+      "description": "未寄出的信",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "dream"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zt_read_draft"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_dr_draft",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_sickroom_v1_story_a": [
+     {
+      "id": "lz_ch05_dr_medicine",
+      "name": "药凳与药碗",
+      "description": "药凳与药碗",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "dream"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zt_dream_medicine"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_dr_medicine",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_sickroom_v1_scene_fixture_right": [
+     {
+      "id": "lz_ch05_dr_notes",
+      "name": "书卷",
+      "description": "书卷",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "dream"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zt_notes_found"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_dr_notes",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_sickroom_v1_scene_fixture_left": [
+     {
+      "id": "lz_ch05_dr_willow",
+      "name": "折柳",
+      "description": "折柳",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "dream"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "topic_willow"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_dr_willow",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_sickroom_v1_story_route": [
+     {
+      "id": "lz_ch05_dr_route",
+      "name": "药渣",
+      "description": "药渣",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "dream"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_dr_route",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "locationTapZones": false
  }
 }

@@ -325,7 +325,12 @@
      "componentId": "comp_lz_ch05_wedding_road_road_stele_v1",
      "tileX": 34,
      "tileY": 9,
-     "refId": "map_lz_ch05_wedding_road_v1_story_composition"
+     "refId": "map_lz_ch05_wedding_road_v1_story_composition",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -573,7 +578,10 @@
      "animationId": "idle-right",
      "tileX": 18,
      "tileY": 18,
-     "refId": "map_lz_ch05_wedding_road_v1_actor_zhuyingtai_wedding_1"
+     "refId": "map_lz_ch05_wedding_road_v1_actor_zhuyingtai_wedding_1",
+     "persona": {
+      "npcId": "zhuyingtai"
+     }
     },
     {
      "assetType": "sprite",
@@ -581,7 +589,11 @@
      "animationId": "idle-left",
      "tileX": 21,
      "tileY": 18,
-     "refId": "map_lz_ch05_wedding_road_v1_actor_matchmaker_2"
+     "refId": "map_lz_ch05_wedding_road_v1_actor_matchmaker_2",
+     "persona": {
+      "npcId": "matchmaker",
+      "mobile": true
+     }
     },
     {
      "assetType": "sprite",
@@ -589,7 +601,45 @@
      "animationId": "idle-right",
      "tileX": 11,
      "tileY": 16,
-     "refId": "map_lz_ch05_wedding_road_v1_actor_wedding_bearer_3"
+     "refId": "map_lz_ch05_wedding_road_v1_actor_wedding_bearer_3",
+     "persona": {
+      "npcId": "wedding_bearer"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_rd_bearer",
+        "name": "轿夫",
+        "description": "轿夫",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "wedding_road"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_rd_bearer",
+          "value": {
+           "ap": 0,
+           "kind": "look"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -597,7 +647,10 @@
      "animationId": "idle-left",
      "tileX": 35,
      "tileY": 16,
-     "refId": "map_lz_ch05_wedding_road_v1_actor_ma_guard_4"
+     "refId": "map_lz_ch05_wedding_road_v1_actor_ma_guard_4",
+     "persona": {
+      "npcId": "ma_guard"
+     }
     },
     {
      "assetType": "sprite",
@@ -605,7 +658,10 @@
      "spriteId": "sprite_wedding_bearer_48x96_story_v1",
      "tileX": 24,
      "tileY": 16,
-     "animationId": "idle-left"
+     "animationId": "idle-left",
+     "persona": {
+      "npcId": "wedding_bearer"
+     }
     },
     {
      "assetType": "sprite",
@@ -613,7 +669,10 @@
      "spriteId": "sprite_wedding_suona_48x96_story_v1",
      "tileX": 25,
      "tileY": 14,
-     "animationId": "idle-down"
+     "animationId": "idle-down",
+     "persona": {
+      "npcId": "wedding_suona"
+     }
     },
     {
      "assetType": "sprite",
@@ -621,7 +680,10 @@
      "spriteId": "sprite_wedding_drummer_48x96_story_v1",
      "tileX": 27,
      "tileY": 17,
-     "animationId": "idle-down"
+     "animationId": "idle-down",
+     "persona": {
+      "npcId": "wedding_drummer"
+     }
     },
     {
      "assetType": "sprite",
@@ -629,7 +691,79 @@
      "spriteId": "sprite_boatman_48x96_story_v1",
      "tileX": 41,
      "tileY": 15,
-     "animationId": "idle-left"
+     "animationId": "idle-left",
+     "persona": {
+      "npcId": "messenger"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_rd_messenger",
+        "name": "披蓑衣的信使",
+        "description": "披蓑衣的信使",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "wedding_road"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "zt_messenger_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_rd_messenger",
+          "value": {
+           "ap": 1,
+           "kind": "sneak"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_rd_messenger_look",
+        "name": "信使",
+        "description": "信使",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "wedding_road"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_rd_messenger_look",
+          "value": {
+           "ap": 0,
+           "kind": "look"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -637,7 +771,102 @@
      "spriteId": "sprite_zhufu_maid_48x96_story_v1",
      "tileX": 8,
      "tileY": 17,
-     "animationId": "idle-right"
+     "animationId": "idle-right",
+     "persona": {
+      "npcId": "zhufu_maid",
+      "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_rd_maid",
+        "name": "侍女",
+        "description": "侍女",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "wedding_road"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "zt_maid_block"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_rd_maid",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_mawencai_48x96_story_v1",
+     "animationId": "idle-left",
+     "tileX": 33,
+     "tileY": 15,
+     "refId": "map_lz_ch05_wedding_road_v1_actor_mawencai_10",
+     "persona": {
+      "npcId": "mawencai"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_rd_ma",
+        "name": "马文才",
+        "description": "马文才",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "wedding_road"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "zt_road_ma_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_zt_rd_ma",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     }
    ]
   },
@@ -5164,5 +5393,144 @@
    "detailPass": "ch05-final-v1",
    "grade": "rain"
   }
+ },
+ "runtime": {
+  "schemaVersion": 1,
+  "slice": {
+   "sliceId": "lz_ch05",
+   "roles": [
+    "zhuyingtai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch05_wedding_road_v1_story_composition": [
+     {
+      "id": "lz_ch05_rd_stele",
+      "name": "道旁碑",
+      "description": "道旁碑",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "wedding_road"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_rd_stele",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_wedding_road_v1_story_a": [
+     {
+      "id": "lz_ch05_rd_sedan",
+      "name": "花轿",
+      "description": "花轿",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "wedding_road"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zt_sedan_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_rd_sedan",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_rd_sedan_look",
+      "name": "花轿",
+      "description": "花轿",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "wedding_road"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_rd_sedan_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_wedding_road_v1_story_b": [
+     {
+      "id": "lz_ch05_rd_fork",
+      "name": "纸钱岔口",
+      "description": "纸钱岔口",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "wedding_road"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_zt_rd_fork",
+        "value": {
+         "ap": 1,
+         "kind": "climax"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "locationTapZones": false
  }
 }
