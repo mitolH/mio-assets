@@ -709,6 +709,42 @@
       "indicatorType": "question",
       "interactions": [
        {
+        "id": "lz_ch03_ma_bow",
+        "name": "桥上的马文才",
+        "description": "桥上的马文才",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_creek"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "c3_ma_rode_off"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_ma_bow",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
         "id": "lz_ch03_lb_ma_bow",
         "name": "桥上的马文才",
         "description": "桥上的马文才",
