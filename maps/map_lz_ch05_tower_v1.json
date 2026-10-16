@@ -896,8 +896,10 @@
       "reactions": [
        {
         "trigger": {
-         "type": "flag",
-         "flag": "mw_listening"
+         "type": "storyVariable",
+         "key": "mwListen",
+         "op": "gte",
+         "value": 1
         },
         "behavior": {
          "type": "patrol",
