@@ -533,6 +533,48 @@
      "persona": {
       "npcId": "zhuyingtai",
       "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_lb_zhu_fork",
+        "name": "与祝贤弟说话",
+        "description": "与祝贤弟说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_fork"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_parted"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_lb_zhu_fork",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -694,6 +736,42 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch03_lb_carter",
+        "name": "车夫",
+        "description": "车夫",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_fork"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_rode_cart"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_lb_carter",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -708,6 +786,48 @@
      "persona": {
       "npcId": "ma_guard",
       "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_lb_guard",
+        "name": "马府随从",
+        "description": "马府随从",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_fork"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_guard_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_lb_guard",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -4788,6 +4908,47 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch03_lb_hint_guanyin",
+      "name": "观音堂",
+      "description": "观音堂",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_fork"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_lb_hint_guanyin"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_parted"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_lb_hint_guanyin",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch03_fork_road_v1_story_b": [
@@ -4817,6 +4978,37 @@
         "target": "ch03_zhu_stele",
         "value": {
          "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch03_lb_stele",
+      "name": "十八里碑",
+      "description": "十八里碑",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_fork"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_lb_stele",
+        "value": {
+         "ap": 1,
          "kind": "look"
         }
        }
@@ -4853,6 +5045,47 @@
        {
         "type": "start_dialogue",
         "target": "ch03_zhu_token",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch03_lb_token",
+      "name": "阶脚",
+      "description": "阶脚",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_fork"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_token_done"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_parted"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_lb_token",
         "value": {
          "ap": 1,
          "kind": "look"

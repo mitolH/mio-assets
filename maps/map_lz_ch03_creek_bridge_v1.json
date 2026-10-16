@@ -565,6 +565,48 @@
      "persona": {
       "npcId": "zhuyingtai",
       "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_lb_zhu_creek",
+        "name": "与祝贤弟说话",
+        "description": "与祝贤弟说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_creek"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_parted"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_lb_zhu_creek",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -625,6 +667,53 @@
      "refId": "map_lz_ch03_creek_bridge_v1_actor_mawencai_3",
      "persona": {
       "npcId": "mawencai"
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_lb_ma_bow",
+        "name": "桥上的马文才",
+        "description": "桥上的马文才",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_creek"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_bowed"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "c3_ma_rode_off"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_lb_ma_bow",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -5083,6 +5172,47 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch03_lb_hint_reflection",
+      "name": "观鱼石",
+      "description": "观鱼石",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_creek"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_lb_hint_reflection"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_parted"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_lb_hint_reflection",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch03_creek_bridge_v1_goose_6_22": [
@@ -5115,6 +5245,47 @@
        {
         "type": "start_dialogue",
         "target": "ch03_zhu_goose",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch03_lb_hint_geese",
+      "name": "白鹅",
+      "description": "白鹅",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_creek"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_lb_hint_geese"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_parted"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_lb_hint_geese",
         "value": {
          "ap": 1,
          "kind": "look"

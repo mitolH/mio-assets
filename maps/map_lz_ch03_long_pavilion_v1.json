@@ -722,6 +722,48 @@
      "persona": {
       "npcId": "zhuyingtai",
       "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_lb_zhu_pavilion",
+        "name": "与祝贤弟说话",
+        "description": "与祝贤弟说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_pavilion"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_parted"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_lb_zhu_pavilion",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -834,6 +876,42 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch03_lb_pedlar",
+        "name": "行商",
+        "description": "行商",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_pavilion"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_hears_rumor"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_lb_pedlar",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -847,6 +925,48 @@
      "refId": "map_lz_ch03_long_pavilion_v1_actor_boatman",
      "persona": {
       "npcId": "boatman"
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_lb_boatman",
+        "name": "船家",
+        "description": "船家",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_pavilion"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_card_sent"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_lb_boatman",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -5118,6 +5238,47 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch03_lb_hint_magpies2",
+      "name": "栈桥柳梢",
+      "description": "栈桥柳梢",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_pavilion"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_lb_hint_magpies2"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_parted"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_lb_hint_magpies2",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch03_long_pavilion_v1_story_a": [
@@ -5150,6 +5311,47 @@
        {
         "type": "start_dialogue",
         "target": "ch03_zhu_willow",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch03_lb_willow",
+      "name": "折柳",
+      "description": "折柳",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_pavilion"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_willow_given"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_willow_alone"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_lb_willow",
         "value": {
          "ap": 1,
          "kind": "talk"
@@ -5194,6 +5396,42 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch03_lb_wine",
+      "name": "饯别酒",
+      "description": "饯别酒",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_pavilion"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_wine_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_lb_wine",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch03_long_pavilion_v1_story_route": [
@@ -5221,6 +5459,37 @@
        {
         "type": "start_dialogue",
         "target": "ch03_zhu_board",
+        "value": {
+         "ap": 0,
+         "kind": "talk"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch03_lb_board",
+      "name": "话别",
+      "description": "话别",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_pavilion"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_lb_board",
         "value": {
          "ap": 0,
          "kind": "talk"

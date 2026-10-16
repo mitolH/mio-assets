@@ -755,6 +755,48 @@
        }
       ],
       "speed": 1
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_lb_zhu_mulberry",
+        "name": "与祝贤弟说话",
+        "description": "与祝贤弟说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_mulberry"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_parted"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_lb_zhu_mulberry",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -876,6 +918,42 @@
          {
           "type": "start_dialogue",
           "target": "ch03_zhu_old_woman",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch03_lb_old_woman",
+        "name": "老妇",
+        "description": "老妇",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_mulberry"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_oldwoman_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_lb_old_woman",
           "value": {
            "ap": 1,
            "kind": "talk"
@@ -4258,6 +4336,47 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch03_lb_hint_jiumei",
+      "name": "桑枝白茧",
+      "description": "桑枝白茧",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_mulberry"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_lb_hint_jiumei"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_parted"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_lb_hint_jiumei",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch03_mulberry_path_v1_well_38_10": [
@@ -4296,6 +4415,47 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch03_lb_hint_well",
+      "name": "水井",
+      "description": "水井",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_mulberry"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_lb_hint_well"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_parted"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_lb_hint_well",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch03_mulberry_path_v1_knotweed_40_22": [
@@ -4328,6 +4488,47 @@
        {
         "type": "start_dialogue",
         "target": "ch03_zhu_hint_herdboy",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch03_lb_hint_herdboy",
+      "name": "塘边水牛",
+      "description": "塘边水牛",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_mulberry"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_lb_hint_herdboy"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_parted"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_lb_hint_herdboy",
         "value": {
          "ap": 1,
          "kind": "look"

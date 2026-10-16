@@ -290,7 +290,12 @@
      "componentId": "comp_lz_ch03_book_chest_dawn_v1",
      "tileX": 9,
      "tileY": 21,
-     "refId": "map_lz_ch03_academy_gate_v1_book_chest_9_21"
+     "refId": "map_lz_ch03_academy_gate_v1_book_chest_9_21",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -705,6 +710,42 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch03_lb_teacher",
+        "name": "辞先生",
+        "description": "辞先生",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_gate"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_curfew"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_lb_teacher",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -718,6 +759,48 @@
      "refId": "map_lz_ch03_academy_gate_v1_actor_sixjiu",
      "persona": {
       "npcId": "page_boy"
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_lb_sixjiu",
+        "name": "四九",
+        "description": "四九",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_gate"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_sixjiu_carry"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_lb_sixjiu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -815,6 +898,48 @@
      "persona": {
       "npcId": "zhuyingtai",
       "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_lb_zhu_gate",
+        "name": "与祝贤弟说话",
+        "description": "与祝贤弟说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_gate"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_parted"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_lb_zhu_gate",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -6386,6 +6511,37 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch03_lb_register",
+      "name": "离院登记册",
+      "description": "离院登记册",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_gate"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_lb_register",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch03_academy_gate_v1_story_b": [
@@ -6418,6 +6574,47 @@
        {
         "type": "start_dialogue",
         "target": "ch03_zhu_hint_magpie",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch03_lb_hint_magpie",
+      "name": "东岸折柳",
+      "description": "东岸折柳",
+      "type": "talk",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_gate"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "c3_lb_hint_magpie"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_parted"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_lb_hint_magpie",
         "value": {
          "ap": 1,
          "kind": "talk"
@@ -6486,6 +6683,49 @@
         "target": "ch03_zhu_look_bundle",
         "value": {
          "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_academy_gate_v1_book_chest_9_21": [
+     {
+      "id": "lz_ch03_lb_chest",
+      "name": "她的书箱",
+      "description": "她的书箱",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_gate"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_chest_done"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_parted"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_lb_chest",
+        "value": {
+         "ap": 1,
          "kind": "look"
         }
        }
