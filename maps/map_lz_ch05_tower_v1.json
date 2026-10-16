@@ -592,7 +592,12 @@
      "componentId": "comp_lz_ch05_tower_rockery_v1",
      "tileX": 0,
      "tileY": 25,
-     "refId": "map_lz_ch05_tower_v1_scene_fixture_right"
+     "refId": "map_lz_ch05_tower_v1_scene_fixture_right",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -742,6 +747,104 @@
      "refId": "map_lz_ch05_tower_v1_actor_zhuyingtai_1",
      "persona": {
       "npcId": "zhuyingtai"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_lb_tw_up",
+        "name": "上楼见她",
+        "description": "上楼见她",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "tower_dusk"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_upstairs"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_lb_tw_up",
+          "value": {
+           "ap": 0,
+           "kind": "sneak"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_lb_tw_zhu",
+        "name": "与她说话",
+        "description": "与她说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "tower_meet"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_zhu_talked"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_lb_tw_zhu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_lb_tw_zhu_look",
+        "name": "祝英台",
+        "description": "祝英台",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_lb_tw_zhu_look",
+          "value": {
+           "ap": 0,
+           "kind": "look"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -1059,6 +1162,69 @@
          {
           "type": "start_dialogue",
           "target": "ch05_zt_bd_maid_look",
+          "value": {
+           "ap": 0,
+           "kind": "look"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_lb_tw_maid",
+        "name": "侍女",
+        "description": "侍女",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "tower_dusk"
+         },
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "ch05_maid_fetch"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_upstairs"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_lb_tw_maid",
+          "value": {
+           "ap": 1,
+           "kind": "sneak"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_lb_tw_maid_look",
+        "name": "侍女",
+        "description": "侍女",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_lb_tw_maid_look",
           "value": {
            "ap": 0,
            "kind": "look"
@@ -2519,7 +2685,8 @@
   "slice": {
    "sliceId": "lz_ch05",
    "roles": [
-    "zhuyingtai"
+    "zhuyingtai",
+    "liangshanbo"
    ],
    "objectInteractions": {
     "map_lz_ch05_tower_v1_story_a": [
@@ -2705,6 +2872,69 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch05_lb_tw_token",
+      "name": "她的信物",
+      "description": "她的信物",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "tower_meet"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "lb_token_offered"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_token_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_tw_token",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_lb_tw_table",
+      "name": "花几",
+      "description": "花几",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_tw_table",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch05_tower_v1_story_b": [
@@ -2798,6 +3028,30 @@
        {
         "type": "start_dialogue",
         "target": "ch05_zt_bd_window",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_lb_tw_lamp",
+      "name": "平座夜灯",
+      "description": "平座夜灯",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_tw_lamp",
         "value": {
          "ap": 0,
          "kind": "look"
@@ -2908,6 +3162,40 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch05_lb_tw_vow",
+      "name": "倚栏立誓",
+      "description": "倚栏立誓",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "tower_meet"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch05_vow"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_tw_vow",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch05_tower_v1_story_route": [
@@ -2965,6 +3253,100 @@
         "value": {
          "ap": 0,
          "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_lb_tw_umbrella",
+      "name": "园门边的油纸伞",
+      "description": "园门边的油纸伞",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "tower_dusk"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_umbrella_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_tw_umbrella",
+        "value": {
+         "ap": 1,
+         "kind": "sneak"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_lb_tw_route",
+      "name": "油纸伞",
+      "description": "油纸伞",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_tw_route",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_tower_v1_scene_fixture_right": [
+     {
+      "id": "lz_ch05_lb_tw_rockery",
+      "name": "假山",
+      "description": "假山",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "tower_dusk"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_hid"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_tw_rockery",
+        "value": {
+         "ap": 1,
+         "kind": "sneak"
         }
        }
       ]

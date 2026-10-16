@@ -2249,7 +2249,8 @@
   "slice": {
    "sliceId": "lz_ch05",
    "roles": [
-    "zhuyingtai"
+    "zhuyingtai",
+    "liangshanbo"
    ],
    "objectInteractions": {
     "map_lz_ch05_grave_v1_finale_reference_gravestone": [
@@ -2275,6 +2276,35 @@
        {
         "type": "start_dialogue",
         "target": "ch05_zt_gr_tablet",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_lb_gr_tablet",
+      "name": "碑上的名字",
+      "description": "碑上的名字",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_gr_tablet",
         "value": {
          "ap": 0,
          "kind": "look"
@@ -2346,6 +2376,40 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch05_lb_gr_candle",
+      "name": "让烛重燃",
+      "description": "让烛重燃",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_candle_lit"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_gr_candle",
+        "value": {
+         "ap": 1,
+         "kind": "wind"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch05_grave_v1_story_a": [
@@ -2411,6 +2475,40 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch05_lb_gr_veil",
+      "name": "红盖头",
+      "description": "红盖头",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch05_veil"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_gr_veil",
+        "value": {
+         "ap": 1,
+         "kind": "wind"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch05_grave_v1_story_route": [
@@ -2467,6 +2565,35 @@
        {
         "type": "start_dialogue",
         "target": "ch05_zt_gr_call",
+        "value": {
+         "ap": 1,
+         "kind": "climax"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_lb_gr_answer",
+      "name": "回应",
+      "description": "回应",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "grave"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_gr_answer",
         "value": {
          "ap": 1,
          "kind": "climax"

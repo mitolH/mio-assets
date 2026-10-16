@@ -864,8 +864,8 @@
            "tileY": 21
           },
           {
-           "tileX": 25,
-           "tileY": 20
+           "tileX": 26,
+           "tileY": 21
           }
          ]
         }
@@ -960,6 +960,47 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch03_mw_old_woman",
+        "name": "老妇",
+        "description": "老妇",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_mulberry"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_oldwoman_done"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw3_old_woman"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_mw_old_woman",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -1020,6 +1061,53 @@
        }
       ],
       "speed": 1
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_mw_picker",
+        "name": "采桑女",
+        "description": "采桑女",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_mulberry"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_picker_done"
+         },
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "mw_show_mulberry"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_mw_picker",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -4529,6 +4617,120 @@
        {
         "type": "start_dialogue",
         "target": "ch03_lb_hint_herdboy",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_mulberry_path_v1_listen_far": [
+     {
+      "id": "lz_ch03_mw_listen_far",
+      "name": "桑行",
+      "description": "桑行",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_mw_listen"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_listen_far_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_mw_listen_far",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_mulberry_path_v1_listen_mid": [
+     {
+      "id": "lz_ch03_mw_listen_mid",
+      "name": "桑行",
+      "description": "桑行",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_mw_listen"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_listen_mid_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_mw_listen_mid",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch03_mulberry_path_v1_listen_near": [
+     {
+      "id": "lz_ch03_mw_listen_near",
+      "name": "桑行",
+      "description": "桑行",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_mw_listen"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_listen_near_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_mw_listen_near",
         "value": {
          "ap": 1,
          "kind": "look"

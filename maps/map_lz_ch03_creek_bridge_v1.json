@@ -654,6 +654,42 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch03_mw_bridge",
+        "name": "桥下的梁山伯",
+        "description": "桥下的梁山伯",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_creek"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_bridge_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_mw_bridge",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -760,6 +796,47 @@
          {
           "type": "start_dialogue",
           "target": "ch03_zhu_washer",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch03_mw_washer",
+        "name": "浣衣妇",
+        "description": "浣衣妇",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_creek"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_washer_done"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw3_washer"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_mw_washer",
           "value": {
            "ap": 1,
            "kind": "talk"
@@ -5210,6 +5287,42 @@
         "value": {
          "ap": 1,
          "kind": "talk"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch03_mw_reflection",
+      "name": "观鱼石",
+      "description": "观鱼石",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_creek"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_reflection_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_mw_reflection",
+        "value": {
+         "ap": 1,
+         "kind": "look"
         }
        }
       ]

@@ -811,6 +811,42 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch03_mw_liang",
+        "name": "梁山伯",
+        "description": "梁山伯",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_pavilion"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_liang_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_mw_liang",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -906,6 +942,42 @@
          {
           "type": "start_dialogue",
           "target": "ch03_lb_pedlar",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch03_mw_pedlar",
+        "name": "行商",
+        "description": "行商",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_pavilion"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_pedlar_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_mw_pedlar",
           "value": {
            "ap": 1,
            "kind": "talk"
@@ -1039,6 +1111,43 @@
      "persona": {
       "npcId": "ma_guard",
       "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_mw_wait",
+        "name": "随从",
+        "description": "随从",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_pavilion"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_mw_wait",
+          "value": {
+           "ap": 0,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -5493,6 +5602,42 @@
         "value": {
          "ap": 0,
          "kind": "talk"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch03_mw_bundle",
+      "name": "栈桥口的行囊",
+      "description": "栈桥口的行囊",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_pavilion"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_bundle_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_mw_bundle",
+        "value": {
+         "ap": 1,
+         "kind": "look"
         }
        }
       ]

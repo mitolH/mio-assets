@@ -772,6 +772,42 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch03_mw_letter",
+        "name": "车夫",
+        "description": "车夫",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_fork"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_letter_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_mw_letter",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -4949,6 +4985,42 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch03_mw_guanyin",
+      "name": "观音堂",
+      "description": "观音堂",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_fork"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_guanyin_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_mw_guanyin",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch03_fork_road_v1_story_b": [
@@ -5009,6 +5081,37 @@
         "target": "ch03_lb_stele",
         "value": {
          "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch03_mw_stele",
+      "name": "十八里碑",
+      "description": "十八里碑",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_fork"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_mw_stele",
+        "value": {
+         "ap": 0,
          "kind": "look"
         }
        }
@@ -5119,6 +5222,37 @@
        {
         "type": "start_dialogue",
         "target": "ch03_zhu_signpost",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch03_mw_signpost",
+      "name": "指路牌",
+      "description": "指路牌",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_fork"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_mw_signpost",
         "value": {
          "ap": 0,
          "kind": "look"

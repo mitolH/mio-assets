@@ -746,6 +746,42 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch03_mw_teacher",
+        "name": "先生",
+        "description": "先生",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_gate"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_teacher_ok"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_mw_teacher",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -884,6 +920,42 @@
           }
          }
         ]
+       },
+       {
+        "id": "lz_ch03_mw_yinxin",
+        "name": "她的书童",
+        "description": "她的书童",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_gate"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_yinxin_pried"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_mw_yinxin",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
        }
       ]
      }
@@ -935,6 +1007,42 @@
           "value": {
            "ap": 0,
            "kind": "chat"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch03_mw_zhu_gate",
+        "name": "祝九",
+        "description": "祝九",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_gate"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_gate_talked"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_mw_zhu_gate",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
           }
          }
         ]
@@ -1036,6 +1144,48 @@
      "refId": "map_lz_ch03_academy_gate_v1_actor_student_b",
      "persona": {
       "npcId": "scholar"
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_mw_scholar",
+        "name": "送行的书生",
+        "description": "送行的书生",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_gate"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_scholar_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_mw_scholar",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -1048,6 +1198,48 @@
      "persona": {
       "npcId": "ma_guard",
       "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_mw_guard_gate",
+        "name": "随从",
+        "description": "随从",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_gate"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_guard_sent_creek"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_mw_guard_gate",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -6542,6 +6734,42 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch03_mw_register",
+      "name": "离院登记册",
+      "description": "离院登记册",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_gate"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_register_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_mw_register",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch03_academy_gate_v1_story_b": [
@@ -6618,6 +6846,42 @@
         "value": {
          "ap": 1,
          "kind": "talk"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch03_mw_willow",
+      "name": "东岸柳下",
+      "description": "东岸柳下",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "c3_gate"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_willow_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch03_mw_willow",
+        "value": {
+         "ap": 1,
+         "kind": "look"
         }
        }
       ]

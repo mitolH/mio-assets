@@ -650,6 +650,46 @@
      "refId": "map_lz_ch05_wedding_road_v1_actor_ma_guard_4",
      "persona": {
       "npcId": "ma_guard"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_lb_rd_guard",
+        "name": "马府随从",
+        "description": "马府随从",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "wedding_road"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_guard_slowed"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_lb_rd_guard",
+          "value": {
+           "ap": 1,
+           "kind": "wind"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -758,6 +798,40 @@
           "value": {
            "ap": 0,
            "kind": "look"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch05_lb_rd_messenger",
+        "name": "引信使快走",
+        "description": "引信使快走",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "wedding_road"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_wind_messenger"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_lb_rd_messenger",
+          "value": {
+           "ap": 1,
+           "kind": "wind"
           }
          }
         ]
@@ -5399,7 +5473,8 @@
   "slice": {
    "sliceId": "lz_ch05",
    "roles": [
-    "zhuyingtai"
+    "zhuyingtai",
+    "liangshanbo"
    ],
    "objectInteractions": {
     "map_lz_ch05_wedding_road_v1_story_composition": [
@@ -5428,6 +5503,40 @@
         "value": {
          "ap": 0,
          "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_lb_rd_stele",
+      "name": "道旁碑",
+      "description": "道旁碑",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "wedding_road"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_stele_clear"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_rd_stele",
+        "value": {
+         "ap": 1,
+         "kind": "wind"
         }
        }
       ]
@@ -5496,6 +5605,40 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch05_lb_rd_sedan",
+      "name": "吹开轿帘",
+      "description": "吹开轿帘",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "wedding_road"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zt_saw_stele"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_rd_sedan",
+        "value": {
+         "ap": 1,
+         "kind": "wind"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch05_wedding_road_v1_story_b": [
@@ -5524,6 +5667,40 @@
         "value": {
          "ap": 1,
          "kind": "climax"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_lb_rd_fork",
+      "name": "纸钱岔口",
+      "description": "纸钱岔口",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "wedding_road"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch05_detour"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_rd_fork",
+        "value": {
+         "ap": 1,
+         "kind": "wind"
         }
        }
       ]

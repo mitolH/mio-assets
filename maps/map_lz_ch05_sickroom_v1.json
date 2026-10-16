@@ -518,14 +518,24 @@
      "componentId": "comp_lz_ch05_sickroom_robe_rack_v1",
      "tileX": 32,
      "tileY": 8,
-     "refId": "map_lz_ch05_sickroom_v1_story_composition"
+     "refId": "map_lz_ch05_sickroom_v1_story_composition",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
      "componentId": "comp_lz_ch05_sickroom_herb_stove_v1",
      "tileX": 40,
      "tileY": 17,
-     "refId": "map_lz_ch05_sickroom_v1_story_tableau"
+     "refId": "map_lz_ch05_sickroom_v1_story_tableau",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "sparkle",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -652,6 +662,41 @@
      "refId": "map_lz_ch05_sickroom_v1_actor_servant_3",
      "persona": {
       "npcId": "servant"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_lb_sk_servant",
+        "name": "老仆",
+        "description": "老仆",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 2
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_lb_sk_servant",
+          "value": {
+           "ap": 1,
+           "kind": "rest"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -663,6 +708,50 @@
      "animationId": "idle-left",
      "persona": {
       "npcId": "messenger"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_lb_sk_messenger",
+        "name": "送信人",
+        "description": "送信人",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 2
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": [
+           "ch05_letter_route_messenger",
+           "ch05_letter_route_sijiu",
+           "ch05_letter_route_teacher"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_lb_sk_messenger",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -674,6 +763,41 @@
      "refId": "map_lz_ch05_sickroom_v1_actor_page_boy_5",
      "persona": {
       "npcId": "page_boy"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_lb_sk_sijiu",
+        "name": "四九",
+        "description": "四九",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "day",
+          "operator": "eq",
+          "value": 2
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_lb_sk_sijiu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -685,6 +809,41 @@
      "refId": "map_lz_ch05_sickroom_v1_actor_teacher_6",
      "persona": {
       "npcId": "teacher"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_lb_sk_teacher",
+        "name": "先生",
+        "description": "先生",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "sick_day"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_lb_sk_teacher",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -696,6 +855,46 @@
      "refId": "map_lz_ch05_sickroom_v1_actor_mawencai_7",
      "persona": {
       "npcId": "mawencai"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_lb_sk_ma",
+        "name": "马文才",
+        "description": "马文才",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "sick_day"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_ma_talked"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_lb_sk_ma",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     }
    ]
@@ -3759,7 +3958,8 @@
   "slice": {
    "sliceId": "lz_ch05",
    "roles": [
-    "zhuyingtai"
+    "zhuyingtai",
+    "liangshanbo"
    ],
    "objectInteractions": {
     "map_lz_ch05_sickroom_v1_story_b": [
@@ -3793,6 +3993,35 @@
         "value": {
          "ap": 1,
          "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_lb_sk_letter",
+      "name": "提笔",
+      "description": "提笔",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 2
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_sk_letter",
+        "value": {
+         "ap": 1,
+         "kind": "write"
         }
        }
       ]
@@ -3832,6 +4061,35 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch05_lb_sk_medicine",
+      "name": "药碗",
+      "description": "药碗",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 2
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_sk_medicine",
+        "value": {
+         "ap": 1,
+         "kind": "rest"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch05_sickroom_v1_scene_fixture_right": [
@@ -3865,6 +4123,40 @@
         "value": {
          "ap": 1,
          "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_lb_sk_books",
+      "name": "书卷",
+      "description": "书卷",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 2
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_books_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_sk_books",
+        "value": {
+         "ap": 1,
+         "kind": "study"
         }
        }
       ]
@@ -3904,6 +4196,40 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch05_lb_sk_willow",
+      "name": "折柳",
+      "description": "折柳",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 2
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_willow_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_sk_willow",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch05_sickroom_v1_story_route": [
@@ -3929,6 +4255,136 @@
        {
         "type": "start_dialogue",
         "target": "ch05_zt_dr_route",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_lb_sk_route",
+      "name": "药渣",
+      "description": "药渣",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_sk_route",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_sickroom_v1_story_composition": [
+     {
+      "id": "lz_ch05_lb_sk_robe",
+      "name": "旧儒衫",
+      "description": "旧儒衫",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "sick_day"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "lb_teacher_here"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_robe_returned"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_sk_robe",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_lb_sk_robe_look",
+      "name": "旧儒衫",
+      "description": "旧儒衫",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 2
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_sk_robe_look",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch05_sickroom_v1_story_tableau": [
+     {
+      "id": "lz_ch05_lb_sk_window",
+      "name": "望祝府方向",
+      "description": "望祝府方向",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "day",
+        "operator": "eq",
+        "value": 2
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "daily_lb_window"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_sk_window",
         "value": {
          "ap": 0,
          "kind": "look"

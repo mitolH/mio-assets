@@ -635,6 +635,41 @@
      "refId": "map_lz_ch05_butterfly_end_v1_actor_zhuyingtai_butterfly_1",
      "persona": {
       "npcId": "zhuyingtai"
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch05_lb_bf_sky",
+        "name": "飞向天际",
+        "description": "飞向天际",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "butterfly"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch05_lb_bf_sky",
+          "value": {
+           "ap": 0,
+           "kind": "climax"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
@@ -2981,7 +3016,8 @@
   "slice": {
    "sliceId": "lz_ch05",
    "roles": [
-    "zhuyingtai"
+    "zhuyingtai",
+    "liangshanbo"
    ],
    "objectInteractions": {
     "map_lz_ch05_butterfly_end_v1_story_a": [
@@ -3007,6 +3043,35 @@
        {
         "type": "start_dialogue",
         "target": "ch05_zt_bf_follow",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_lb_bf_follow",
+      "name": "花上双蝶",
+      "description": "花上双蝶",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "butterfly"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_bf_follow",
         "value": {
          "ap": 0,
          "kind": "look"
@@ -3044,6 +3109,35 @@
         }
        }
       ]
+     },
+     {
+      "id": "lz_ch05_lb_bf_fan",
+      "name": "扇上的光",
+      "description": "扇上的光",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "butterfly"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_bf_fan",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
      }
     ],
     "map_lz_ch05_butterfly_end_v1_story_route": [
@@ -3069,6 +3163,35 @@
        {
         "type": "start_dialogue",
         "target": "ch05_zt_bf_doc",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch05_lb_bf_doc",
+      "name": "湿婚书",
+      "description": "湿婚书",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "butterfly"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch05_lb_bf_doc",
         "value": {
          "ap": 0,
          "kind": "look"
