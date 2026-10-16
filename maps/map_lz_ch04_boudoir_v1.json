@@ -230,7 +230,12 @@
      "componentId": "comp_lz_xiulou_v1",
      "tileX": 9,
      "tileY": 0,
-     "refId": "map_lz_ch04_boudoir_v1_anchor_xiulou"
+     "refId": "map_lz_ch04_boudoir_v1_anchor_xiulou",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -265,7 +270,12 @@
      "componentId": "comp_lz_ch04_boudoir_back_gate_v1",
      "tileX": 20,
      "tileY": 27,
-     "refId": "map_lz_ch04_boudoir_v1_ch04_boudoir_back_gate_v1_20_27"
+     "refId": "map_lz_ch04_boudoir_v1_ch04_boudoir_back_gate_v1_20_27",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -328,7 +338,12 @@
      "componentId": "comp_lz_ch04_boudoir_table_folding_v1",
      "tileX": 27,
      "tileY": 24,
-     "refId": "map_lz_ch04_boudoir_v1_anchor_fan"
+     "refId": "map_lz_ch04_boudoir_v1_anchor_fan",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -623,7 +638,12 @@
      "componentId": "comp_lz_prop_clothes_chest_story_v2",
      "tileX": 16,
      "tileY": 26,
-     "refId": "map_lz_ch04_boudoir_v1_prop_clothes_chest_story_v2_16_26"
+     "refId": "map_lz_ch04_boudoir_v1_prop_clothes_chest_story_v2_16_26",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -743,7 +763,16 @@
      "animationId": "idle-down",
      "tileX": 20,
      "tileY": 24,
-     "refId": "map_lz_ch04_boudoir_v1_actor_zhuyingtai_1"
+     "refId": "map_lz_ch04_boudoir_v1_actor_zhuyingtai_1",
+     "persona": {
+      "npcId": "zhuyingtai",
+      "periods": []
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "sprite",
@@ -751,7 +780,85 @@
      "animationId": "idle-down",
      "tileX": 14,
      "tileY": 22,
-     "refId": "map_lz_ch04_boudoir_v1_actor_zhufu_mother_2"
+     "refId": "map_lz_ch04_boudoir_v1_actor_zhufu_mother_2",
+     "persona": {
+      "npcId": "mother",
+      "periods": [
+       "bd_airing",
+       "bd_window",
+       "lb_window"
+      ],
+      "mobile": true
+     },
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 12,
+        "toSlot": 47,
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 14,
+           "tileY": 22
+          },
+          {
+           "tileX": 26,
+           "tileY": 24
+          }
+         ]
+        }
+       }
+      ],
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 1
+        },
+        "face": "player"
+       }
+      ],
+      "speed": 1
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_zy_mother_garden",
+        "name": "陪娘晒书",
+        "description": "陪娘晒书",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "bd_airing",
+           "bd_window"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_zy_mother_garden",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -759,7 +866,91 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch04_boudoir_v1_actor_zhufu_maid_3",
      "tileX": 13,
-     "tileY": 25
+     "tileY": 25,
+     "persona": {
+      "npcId": "maid",
+      "periods": [
+       "bd_airing",
+       "bd_window",
+       "xl_lamp",
+       "xl_lamp2",
+       "lb_window"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_zy_maid_garden",
+        "name": "与银心说话",
+        "description": "与银心说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "bd_airing",
+           "bd_window",
+           "xl_lamp",
+           "xl_lamp2"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_zy_maid_garden",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch04_lb_maid",
+        "name": "银心",
+        "description": "银心",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "lb_window"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_maid_whisper"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_lb_maid",
+          "value": {
+           "ap": 0,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -767,7 +958,58 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch04_boudoir_v1_actor_ma_guard_4",
      "tileX": 24,
-     "tileY": 31
+     "tileY": 31,
+     "persona": {
+      "npcId": "ma_guard",
+      "periods": [
+       "bd_airing",
+       "bd_window",
+       "xl_lamp",
+       "xl_lamp2",
+       "lb_window"
+      ],
+      "mobile": true
+     },
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 12,
+        "toSlot": 47,
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 24,
+           "tileY": 31
+          },
+          {
+           "tileX": 22,
+           "tileY": 28
+          },
+          {
+           "tileX": 26,
+           "tileY": 26
+          }
+         ]
+        }
+       }
+      ],
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 1
+        },
+        "face": "player"
+       }
+      ],
+      "speed": 1.5
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     }
    ]
   },
@@ -2964,6 +3206,376 @@
   "schemaVersion": 1,
   "roleSprites": {
    "zhuyingtai": "sprite_zhuyingtai_home_48x96_story_v1"
+  },
+  "locationTapZones": false,
+  "slice": {
+   "sliceId": "lz_ch04",
+   "roles": [
+    "zhuyingtai",
+    "liangshanbo"
+   ],
+   "objectInteractions": {
+    "map_lz_ch04_boudoir_v1_story_a": [
+     {
+      "id": "lz_ch04_zy_bookchest",
+      "name": "晒书旧书箱",
+      "description": "晒书旧书箱",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "bd_airing",
+         "bd_window"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zy_chest_opened"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_bookchest",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch04_boudoir_v1_prop_clothes_chest_story_v2_16_26": [
+     {
+      "id": "lz_ch04_zy_robe",
+      "name": "衣箱里的书生衣",
+      "description": "衣箱里的书生衣",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "bd_airing",
+         "bd_window"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zy_robe_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_robe",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch04_boudoir_v1_anchor_xiulou": [
+     {
+      "id": "lz_ch04_zy_mirror",
+      "name": "楼下妆台",
+      "description": "楼下妆台",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "bd_airing"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zy_mirror_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_mirror",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch04_zy_window",
+      "name": "上楼到窗前",
+      "description": "上楼到窗前",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "bd_window"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "ch04_window_open"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zy_window_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_window",
+        "value": {
+         "ap": 1,
+         "kind": "window"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch04_zy_lamp",
+      "name": "绣楼灯下",
+      "description": "绣楼灯下",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "xl_lamp",
+         "xl_lamp2"
+        ]
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_lamp",
+        "value": {
+         "ap": 1,
+         "kind": "lamp"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch04_lb_knock",
+      "name": "叩窗",
+      "description": "叩窗",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "lb_window"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_window_closed"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_lb_knock",
+        "value": {
+         "ap": 1,
+         "kind": "window"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch04_boudoir_v1_anchor_fan": [
+     {
+      "id": "lz_ch04_zy_write",
+      "name": "石桌折扇：写信",
+      "description": "石桌折扇：写信",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "bd_airing"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zy_write_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_write",
+        "value": {
+         "ap": 1,
+         "kind": "write"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch04_boudoir_v1_story_b": [
+     {
+      "id": "lz_ch04_zy_jade",
+      "name": "石桌上的玉佩",
+      "description": "石桌上的玉佩",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "bd_airing",
+         "bd_window"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zy_jade_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_jade",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch04_boudoir_v1_ch04_boudoir_back_gate_v1_20_27": [
+     {
+      "id": "lz_ch04_zy_backgate",
+      "name": "后门",
+      "description": "后门",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "bd_airing"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zy_guard_distracted"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_backgate",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "cover": [
+    {
+     "id": "bd_rockery",
+     "rects": [
+      {
+       "x": 36,
+       "y": 15,
+       "w": 3,
+       "h": 3
+      }
+     ],
+     "hiddenFrom": [
+      "ma_guard"
+     ]
+    },
+    {
+     "id": "bd_bamboo_w",
+     "rects": [
+      {
+       "x": 6,
+       "y": 15,
+       "w": 3,
+       "h": 5
+      }
+     ],
+     "hiddenFrom": [
+      "ma_guard"
+     ]
+    }
+   ]
   }
  }
 }

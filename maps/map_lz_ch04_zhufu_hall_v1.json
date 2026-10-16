@@ -232,7 +232,12 @@
      "componentId": "comp_lz_ch04_zhufu_hall_hall_shrine_v1",
      "tileX": 20,
      "tileY": 10,
-     "refId": "map_lz_ch04_zhufu_hall_v1_anchor_shrine"
+     "refId": "map_lz_ch04_zhufu_hall_v1_anchor_shrine",
+     "interaction": {
+      "interactionRange": 3,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -400,14 +405,24 @@
      "componentId": "comp_lz_interior_folding_screen_v1",
      "tileX": 10,
      "tileY": 10,
-     "refId": "map_lz_ch04_zhufu_hall_v1_anchor_screen_w"
+     "refId": "map_lz_ch04_zhufu_hall_v1_anchor_screen_w",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
      "componentId": "comp_lz_interior_folding_screen_v1",
      "tileX": 14,
      "tileY": 10,
-     "refId": "map_lz_ch04_zhufu_hall_v1_anchor_screen_e"
+     "refId": "map_lz_ch04_zhufu_hall_v1_anchor_screen_e",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -789,7 +804,12 @@
      "componentId": "comp_lz_betrothal_goose_cage_v1",
      "tileX": 25,
      "tileY": 25,
-     "refId": "map_lz_ch04_zhufu_hall_v1_betrothal_goose_cage_v1_25_25"
+     "refId": "map_lz_ch04_zhufu_hall_v1_betrothal_goose_cage_v1_25_25",
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -804,7 +824,119 @@
      "animationId": "idle-down",
      "tileX": 20,
      "tileY": 15,
-     "refId": "map_lz_ch04_zhufu_hall_v1_actor_zhufu_father_2"
+     "refId": "map_lz_ch04_zhufu_hall_v1_actor_zhufu_father_2",
+     "persona": {
+      "npcId": "zhufu_father",
+      "periods": [
+       "zf_xiaoding",
+       "zf_naji",
+       "lb_gate",
+       "lb_screen",
+       "lb_zhufu_late",
+       "mw_xiaoding"
+      ],
+      "mobile": true
+     },
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 12,
+        "toSlot": 47,
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 20,
+           "tileY": 15
+          },
+          {
+           "tileX": 23,
+           "tileY": 15
+          }
+         ]
+        }
+       }
+      ],
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 1
+        },
+        "face": "player"
+       }
+      ],
+      "speed": 1
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_zy_father",
+        "name": "与爹说家门",
+        "description": "与爹说家门",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "zf_naji"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_zy_father",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch04_mw_father",
+        "name": "祝伯父",
+        "description": "祝伯父",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "mw_xiaoding"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_father_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_mw_father",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -812,7 +944,90 @@
      "animationId": "idle-down",
      "tileX": 11,
      "tileY": 14,
-     "refId": "map_lz_ch04_zhufu_hall_v1_actor_zhufu_mother_3"
+     "refId": "map_lz_ch04_zhufu_hall_v1_actor_zhufu_mother_3",
+     "persona": {
+      "npcId": "mother",
+      "periods": [
+       "zf_xiaoding",
+       "zf_naji",
+       "lb_gate",
+       "lb_screen",
+       "lb_zhufu_late",
+       "mw_xiaoding"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_zy_mother_screen",
+        "name": "与娘屏后说话",
+        "description": "与娘屏后说话",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "zf_xiaoding",
+           "zf_naji"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_zy_mother_screen",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch04_mw_mother",
+        "name": "向祝母问安",
+        "description": "向祝母问安",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "mw_xiaoding"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_mother_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_mw_mother",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -820,7 +1035,90 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch04_zhufu_hall_v1_actor_zhufu_maid_6",
      "tileX": 15,
-     "tileY": 17
+     "tileY": 17,
+     "persona": {
+      "npcId": "maid",
+      "periods": [
+       "zf_xiaoding",
+       "zf_naji",
+       "lb_gate",
+       "lb_screen",
+       "lb_zhufu_late",
+       "mw_xiaoding"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_zy_yinxin",
+        "name": "吩咐银心",
+        "description": "吩咐银心",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "zf_xiaoding",
+           "zf_naji"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_zy_yinxin",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch04_lb_yinxin",
+        "name": "“书童”银心",
+        "description": "“书童”银心",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "lb_gate"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_yinxin_met"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_lb_yinxin",
+          "value": {
+           "ap": 0,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -828,7 +1126,122 @@
      "animationId": "idle-down",
      "tileX": 28,
      "tileY": 15,
-     "refId": "map_lz_ch04_zhufu_hall_v1_actor_matchmaker_4"
+     "refId": "map_lz_ch04_zhufu_hall_v1_actor_matchmaker_4",
+     "persona": {
+      "npcId": "matchmaker",
+      "periods": [
+       "zf_xiaoding",
+       "zf_naji",
+       "lb_gate",
+       "lb_screen",
+       "lb_zhufu_late",
+       "mw_xiaoding"
+      ],
+      "mobile": true
+     },
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 12,
+        "toSlot": 47,
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 28,
+           "tileY": 15
+          },
+          {
+           "tileX": 25,
+           "tileY": 15
+          }
+         ]
+        }
+       }
+      ],
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 1
+        },
+        "face": "player"
+       }
+      ],
+      "speed": 1
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_zy_matchmaker",
+        "name": "应对媒人",
+        "description": "应对媒人",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "zf_xiaoding",
+           "zf_naji"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_zy_matchmaker",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch04_mw_matchmaker",
+        "name": "嘱咐媒人",
+        "description": "嘱咐媒人",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "mw_xiaoding"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_mm_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_mw_matchmaker",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -836,7 +1249,19 @@
      "animationId": "idle-down",
      "tileX": 25,
      "tileY": 16,
-     "refId": "map_lz_ch04_zhufu_hall_v1_actor_zhuyingtai_1"
+     "refId": "map_lz_ch04_zhufu_hall_v1_actor_zhuyingtai_1",
+     "persona": {
+      "npcId": "zhuyingtai",
+      "periods": [
+       "lb_screen",
+       "mw_xiaoding"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "sprite",
@@ -844,7 +1269,48 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch04_zhufu_hall_v1_actor_mawencai_5",
      "tileX": 21,
-     "tileY": 22
+     "tileY": 22,
+     "persona": {
+      "npcId": "mawencai",
+      "periods": [
+       "zf_xiaoding"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_zy_ma",
+        "name": "屏外见马文才",
+        "description": "屏外见马文才",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "zf_xiaoding"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_zy_ma",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -852,7 +1318,122 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch04_zhufu_hall_v1_actor_ma_guard_7",
      "tileX": 16,
-     "tileY": 26
+     "tileY": 26,
+     "persona": {
+      "npcId": "ma_guard",
+      "periods": [
+       "zf_xiaoding",
+       "zf_naji",
+       "lb_gate",
+       "lb_screen",
+       "lb_zhufu_late",
+       "mw_xiaoding"
+      ],
+      "mobile": true
+     },
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 12,
+        "toSlot": 47,
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 16,
+           "tileY": 26
+          },
+          {
+           "tileX": 16,
+           "tileY": 23
+          }
+         ]
+        }
+       }
+      ],
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 1
+        },
+        "face": "player"
+       }
+      ],
+      "speed": 1.5
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_lb_guard",
+        "name": "马府随从",
+        "description": "马府随从",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "lb_gate",
+           "lb_zhufu_late"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_guard_asked"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_lb_guard",
+          "value": {
+           "ap": 0,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch04_mw_hall_guard",
+        "name": "随从",
+        "description": "随从",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "mw_xiaoding"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_mw_hall_guard",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -860,7 +1441,93 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch04_zhufu_hall_v1_actor_ma_guard_8",
      "tileX": 28,
-     "tileY": 24
+     "tileY": 24,
+     "persona": {
+      "npcId": "ma_guard",
+      "periods": [
+       "zf_xiaoding",
+       "zf_naji",
+       "lb_gate",
+       "lb_screen",
+       "lb_zhufu_late",
+       "mw_xiaoding"
+      ],
+      "mobile": true
+     },
+     "autonomy": {
+      "schedule": [
+       {
+        "fromSlot": 12,
+        "toSlot": 47,
+        "behavior": {
+         "type": "patrol",
+         "points": [
+          {
+           "tileX": 28,
+           "tileY": 24
+          },
+          {
+           "tileX": 26,
+           "tileY": 19
+          }
+         ]
+        }
+       }
+      ],
+      "reactions": [
+       {
+        "trigger": {
+         "type": "playerNear",
+         "radius": 1
+        },
+        "face": "player"
+       }
+      ],
+      "speed": 1.5
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_lb_guard_b",
+        "name": "马府随从",
+        "description": "马府随从",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "lb_gate",
+           "lb_zhufu_late"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_guard_asked"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_lb_guard",
+          "value": {
+           "ap": 0,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -868,7 +1535,93 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch04_zhufu_hall_v1_actor_servant_9",
      "tileX": 9,
-     "tileY": 28
+     "tileY": 28,
+     "persona": {
+      "npcId": "old_servant",
+      "periods": [
+       "zf_xiaoding",
+       "zf_naji",
+       "lb_gate",
+       "lb_screen",
+       "lb_zhufu_late",
+       "mw_xiaoding"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_zy_porter",
+        "name": "福伯",
+        "description": "福伯",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "zf_xiaoding",
+           "zf_naji"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_zy_porter",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch04_lb_porter",
+        "name": "门房福伯",
+        "description": "门房福伯",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "lb_gate",
+           "lb_zhufu_late"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_porter_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_lb_porter",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     }
    ]
   },
@@ -1532,6 +2285,578 @@
   "schemaVersion": 1,
   "roleSprites": {
    "zhuyingtai": "sprite_zhuyingtai_home_48x96_story_v1"
+  },
+  "locationTapZones": false,
+  "slice": {
+   "sliceId": "lz_ch04",
+   "roles": [
+    "zhuyingtai",
+    "liangshanbo",
+    "mawencai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch04_zhufu_hall_v1_anchor_screen_e": [
+     {
+      "id": "lz_ch04_zy_screen_listen",
+      "name": "屏后听议",
+      "description": "屏后听议",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "zf_xiaoding"
+       },
+       {
+        "type": "player_in_zone",
+        "operator": "eq",
+        "value": "zf_screen_back"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zy_heard_3"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_screen_listen",
+        "value": {
+         "ap": 1,
+         "kind": "listen"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch04_zy_screen_peek",
+      "name": "从屏风缺口探头",
+      "description": "从屏风缺口探头",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "zf_xiaoding"
+       },
+       {
+        "type": "player_in_zone",
+        "operator": "not_in",
+        "value": "zf_screen_back"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zy_heard_3"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_screen_peek",
+        "value": {
+         "ap": 1,
+         "kind": "peek"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch04_zy_shadow",
+      "name": "屏后人影",
+      "description": "屏后人影",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "zf_naji"
+       },
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "ch04_liang_at_gate"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zy_shadow_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_shadow",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch04_lb_peek",
+      "name": "从屏缝里看",
+      "description": "从屏缝里看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "lb_screen"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_seen_her"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_lb_peek",
+        "value": {
+         "ap": 1,
+         "kind": "peek"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch04_zhufu_hall_v1_anchor_shrine": [
+     {
+      "id": "lz_ch04_zy_shrine",
+      "name": "祖宗牌位",
+      "description": "祖宗牌位",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "zf_xiaoding",
+         "zf_naji"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zy_shrine_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_shrine",
+        "value": {
+         "ap": 1,
+         "kind": "duel"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch04_mw_shrine",
+      "name": "祝家牌位",
+      "description": "祝家牌位",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "mw_xiaoding"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_shrine_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_mw_shrine",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch04_zhufu_hall_v1_story_b": [
+     {
+      "id": "lz_ch04_zy_desk",
+      "name": "婚书草案",
+      "description": "婚书草案",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "zf_xiaoding",
+         "zf_naji"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "card_zy_draft"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_desk",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch04_lb_desk",
+      "name": "婚书草案",
+      "description": "婚书草案",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "lb_screen"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_desk_seen"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_lb_desk",
+        "value": {
+         "ap": 1,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch04_mw_desk",
+      "name": "婚书草案",
+      "description": "婚书草案",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "mw_xiaoding"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_desk_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_mw_desk",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch04_zhufu_hall_v1_story_a": [
+     {
+      "id": "lz_ch04_zy_giftlist",
+      "name": "聘礼礼单",
+      "description": "聘礼礼单",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "zf_naji"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zy_giftlist_seen"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_giftlist",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch04_lb_giftlist",
+      "name": "聘礼礼单",
+      "description": "聘礼礼单",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "in",
+        "value": [
+         "lb_gate",
+         "lb_screen",
+         "lb_zhufu_late"
+        ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_wake_giftlist"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_lb_giftlist",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch04_mw_gifts",
+      "name": "聘礼",
+      "description": "聘礼",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "mw_xiaoding"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_gifts_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_mw_gifts",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch04_zhufu_hall_v1_anchor_screen_w": [
+     {
+      "id": "lz_ch04_mw_screen",
+      "name": "西廊屏风",
+      "description": "西廊屏风",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "mw_xiaoding"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_screen_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_mw_screen",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch04_zhufu_hall_v1_betrothal_goose_cage_v1_25_25": [
+     {
+      "id": "lz_ch04_mw_goose",
+      "name": "奠雁笼",
+      "description": "奠雁笼",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "mw_xiaoding"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_goose_seen"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_mw_goose",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "cover": [
+    {
+     "id": "zf_screen_back",
+     "rects": [
+      {
+       "x": 10,
+       "y": 14,
+       "w": 7,
+       "h": 1
+      }
+     ],
+     "hiddenFrom": [
+      "matchmaker",
+      "mawencai",
+      "ma_guard",
+      "ma_steward",
+      "county_clerk",
+      "zhufu_father"
+     ]
+    },
+    {
+     "id": "zf_gift",
+     "rects": [
+      {
+       "x": 17,
+       "y": 17,
+       "w": 3,
+       "h": 1
+      },
+      {
+       "x": 24,
+       "y": 17,
+       "w": 3,
+       "h": 1
+      },
+      {
+       "x": 24,
+       "y": 20,
+       "w": 3,
+       "h": 1
+      }
+     ],
+     "hiddenFrom": [
+      "ma_guard",
+      "matchmaker"
+     ]
+    }
+   ]
   }
  }
 }

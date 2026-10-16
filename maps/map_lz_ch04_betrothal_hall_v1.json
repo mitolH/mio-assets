@@ -538,7 +538,12 @@
      "componentId": "comp_lz_betrothal_candle_stand_v1",
      "tileX": 15,
      "tileY": 9,
-     "refId": "map_lz_ch04_betrothal_hall_v1_betrothal_candle_stand_v1_15_9"
+     "refId": "map_lz_ch04_betrothal_hall_v1_betrothal_candle_stand_v1_15_9",
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "component",
@@ -791,7 +796,128 @@
      "animationId": "idle-down",
      "tileX": 26,
      "tileY": 10,
-     "refId": "map_lz_ch04_betrothal_hall_v1_actor_county_clerk_3"
+     "refId": "map_lz_ch04_betrothal_hall_v1_actor_county_clerk_3",
+     "persona": {
+      "npcId": "county_clerk",
+      "periods": [
+       "xy_rite",
+       "lb_yamen",
+       "mw_yamen"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_zy_clerk",
+        "name": "问县吏程序",
+        "description": "问县吏程序",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "xy_rite"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "card_zy_procedure"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_zy_clerk",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch04_lb_clerk_copy",
+        "name": "替书办誊写",
+        "description": "替书办誊写",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "lb_yamen"
+         },
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "lb_in_hall"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_copied_hunshu"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_lb_clerk_copy",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch04_mw_clerk",
+        "name": "县吏",
+        "description": "县吏",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "mw_yamen"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_clerk_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_mw_clerk",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -799,7 +925,50 @@
      "animationId": "idle-down",
      "tileX": 20,
      "tileY": 14,
-     "refId": "map_lz_ch04_betrothal_hall_v1_actor_matchmaker_2"
+     "refId": "map_lz_ch04_betrothal_hall_v1_actor_matchmaker_2",
+     "persona": {
+      "npcId": "matchmaker",
+      "periods": [
+       "xy_rite",
+       "lb_yamen",
+       "mw_yamen"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_zy_mm_yamen",
+        "name": "媒人",
+        "description": "媒人",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "xy_rite"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_zy_mm_yamen",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -807,7 +976,55 @@
      "animationId": "idle-down",
      "tileX": 10,
      "tileY": 16,
-     "refId": "map_lz_ch04_betrothal_hall_v1_actor_zhufu_father_4"
+     "refId": "map_lz_ch04_betrothal_hall_v1_actor_zhufu_father_4",
+     "persona": {
+      "npcId": "zhufu_father",
+      "periods": [
+       "xy_rite",
+       "lb_yamen",
+       "mw_yamen"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_zy_father_last",
+        "name": "最后求父亲",
+        "description": "最后求父亲",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "xy_rite"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "zy_father_last_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_zy_father_last",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -815,7 +1032,94 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch04_betrothal_hall_v1_actor_zhuyingtai_5",
      "tileX": 13,
-     "tileY": 18
+     "tileY": 18,
+     "persona": {
+      "npcId": "zhuyingtai",
+      "periods": [
+       "xy_rite",
+       "lb_yamen",
+       "mw_yamen"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_lb_bow",
+        "name": "向她远远一揖",
+        "description": "向她远远一揖",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "lb_yamen"
+         },
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "lb_in_hall"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch04_last_bow"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_lb_bow",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch04_mw_zhu",
+        "name": "走到她面前",
+        "description": "走到她面前",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "mw_yamen"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_zhu_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_mw_zhu",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -823,7 +1127,94 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch04_betrothal_hall_v1_actor_zhufu_maid_6",
      "tileX": 15,
-     "tileY": 19
+     "tileY": 19,
+     "persona": {
+      "npcId": "maid",
+      "periods": [
+       "xy_rite",
+       "lb_yamen",
+       "mw_yamen"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_zy_umbrella",
+        "name": "银心：送伞",
+        "description": "银心：送伞",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "xy_rite"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "zy_lb_never"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "zy_umbrella_yamen"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_zy_umbrella",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch04_lb_call",
+        "name": "高声一问",
+        "description": "高声一问",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "lb_yamen"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_called"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_lb_call",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -831,7 +1222,89 @@
      "animationId": "idle-down",
      "tileX": 31,
      "tileY": 16,
-     "refId": "map_lz_ch04_betrothal_hall_v1_actor_mawencai_1"
+     "refId": "map_lz_ch04_betrothal_hall_v1_actor_mawencai_1",
+     "persona": {
+      "npcId": "mawencai",
+      "periods": [
+       "xy_rite",
+       "lb_yamen",
+       "mw_yamen"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_zy_ma_last",
+        "name": "走过厅去对马文才说一句",
+        "description": "走过厅去对马文才说一句",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "xy_rite"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "zy_ma_last_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_zy_ma_last",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch04_lb_ma",
+        "name": "马文才",
+        "description": "马文才",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "lb_yamen"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_ma_yamen_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_lb_ma",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -839,7 +1312,50 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch04_betrothal_hall_v1_actor_ma_steward_7",
      "tileX": 33,
-     "tileY": 20
+     "tileY": 20,
+     "persona": {
+      "npcId": "ma_steward",
+      "periods": [
+       "xy_rite",
+       "lb_yamen",
+       "mw_yamen"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_mw_steward_yamen",
+        "name": "管家",
+        "description": "管家",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "mw_yamen"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_mw_steward_yamen",
+          "value": {
+           "ap": 0,
+           "kind": "chat"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -847,7 +1363,60 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch04_betrothal_hall_v1_actor_yamen_runner_8",
      "tileX": 21,
-     "tileY": 24
+     "tileY": 24,
+     "persona": {
+      "npcId": "yamen_runner",
+      "periods": [
+       "xy_rite",
+       "lb_yamen",
+       "mw_yamen"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch04_lb_runner",
+        "name": "求衙役",
+        "description": "求衙役",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "eq",
+          "value": "lb_yamen"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_in_hall"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "lb_runner_done"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch04_lb_runner",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "assetType": "sprite",
@@ -855,7 +1424,20 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch04_betrothal_hall_v1_actor_yamen_runner_9",
      "tileX": 14,
-     "tileY": 10
+     "tileY": 10,
+     "persona": {
+      "npcId": "yamen_runner",
+      "periods": [
+       "xy_rite",
+       "lb_yamen",
+       "mw_yamen"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "sprite",
@@ -863,7 +1445,20 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch04_betrothal_hall_v1_actor_yamen_runner_10",
      "tileX": 30,
-     "tileY": 10
+     "tileY": 10,
+     "persona": {
+      "npcId": "yamen_runner",
+      "periods": [
+       "xy_rite",
+       "lb_yamen",
+       "mw_yamen"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     },
     {
      "assetType": "sprite",
@@ -871,7 +1466,20 @@
      "animationId": "idle-down",
      "refId": "map_lz_ch04_betrothal_hall_v1_actor_liangshanbo_11",
      "tileX": 22,
-     "tileY": 27
+     "tileY": 27,
+     "persona": {
+      "npcId": "liangshanbo",
+      "periods": [
+       "xy_rite",
+       "lb_yamen",
+       "mw_yamen"
+      ]
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": []
+     }
     }
    ]
   },
@@ -1432,7 +2040,29 @@
   }
  ],
  "itemDefs": [],
- "teleports": [],
+ "teleports": [
+  {
+   "id": "tp_lz_ch04_yamen_to_ch05",
+   "name": "南院 · 出县衙",
+   "sourceTileX": 21,
+   "sourceTileY": 31,
+   "target": {
+    "mapId": "map_lz_ch05_tower_v1",
+    "tileX": 22,
+    "tileY": 29
+   },
+   "bidirectional": false,
+   "conditions": [
+    {
+     "type": "flag",
+     "operator": "eq",
+     "value": "ch04_complete"
+    }
+   ],
+   "visualType": "door",
+   "scenarioOnly": true
+  }
+ ],
  "createdAt": 1782325200000,
  "updatedAt": 1791000000000,
  "version": 3,
@@ -1475,6 +2105,193 @@
   "schemaVersion": 1,
   "roleSprites": {
    "zhuyingtai": "sprite_zhuyingtai_home_48x96_story_v1"
+  },
+  "locationTapZones": false,
+  "slice": {
+   "sliceId": "lz_ch04",
+   "roles": [
+    "zhuyingtai",
+    "liangshanbo",
+    "mawencai"
+   ],
+   "objectInteractions": {
+    "map_lz_ch04_betrothal_hall_v1_betrothal_candle_stand_v1_15_9": [
+     {
+      "id": "lz_ch04_zy_candle",
+      "name": "红烛",
+      "description": "红烛",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "xy_rite"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "card_zy_red"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_candle",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch04_betrothal_hall_v1_story_route": [
+     {
+      "id": "lz_ch04_zy_rain",
+      "name": "雨中衙院",
+      "description": "雨中衙院",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_zhuyingtai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "xy_rite"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "zy_rain_glance"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_zy_rain",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch04_lb_rain",
+      "name": "站在雨里看",
+      "description": "站在雨里看",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_liangshanbo"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "lb_yamen"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "lb_rain_stood"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_lb_rain",
+        "value": {
+         "ap": 0,
+         "kind": "look"
+        }
+       }
+      ]
+     },
+     {
+      "id": "lz_ch04_mw_liang_rain",
+      "name": "雨中衙院",
+      "description": "雨中衙院",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "mw_yamen"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_rain_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_mw_liang_rain",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     }
+    ],
+    "map_lz_ch04_betrothal_hall_v1_story_a": [
+     {
+      "id": "lz_ch04_mw_giftwall",
+      "name": "东侧聘礼墙",
+      "description": "东侧聘礼墙",
+      "type": "examine",
+      "weight": 1,
+      "conditions": [
+       {
+        "type": "flag",
+        "operator": "eq",
+        "value": "role_mawencai"
+       },
+       {
+        "type": "period",
+        "operator": "eq",
+        "value": "mw_yamen"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "mw_giftwall_done"
+       }
+      ],
+      "effects": [
+       {
+        "type": "start_dialogue",
+        "target": "ch04_mw_giftwall",
+        "value": {
+         "ap": 1,
+         "kind": "talk"
+        }
+       }
+      ]
+     }
+    ]
+   }
   }
  }
 }
