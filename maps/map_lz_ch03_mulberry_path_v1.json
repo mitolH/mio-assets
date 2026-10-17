@@ -1120,6 +1120,48 @@
      "persona": {
       "npcId": "ma_guard",
       "mobile": true
+     },
+     "interaction": {
+      "interactionRange": 1,
+      "indicatorType": "question",
+      "interactions": [
+       {
+        "id": "lz_ch03_mw_guard_mulberry",
+        "name": "随从",
+        "description": "随从",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_mawencai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_mulberry"
+          ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "mw_harass_mulberry"
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_mw_guard_mulberry",
+          "value": {
+           "ap": 1,
+           "kind": "talk"
+          }
+         }
+        ]
+       }
+      ]
      }
     },
     {
