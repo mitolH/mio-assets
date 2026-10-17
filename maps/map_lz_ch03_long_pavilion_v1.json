@@ -1003,6 +1003,37 @@
       "indicatorType": "question",
       "interactions": [
        {
+        "id": "lz_ch03_board_boatman",
+        "name": "船家：开船",
+        "description": "船家：开船",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_zhuyingtai"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_pavilion"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_zhu_board",
+          "value": {
+           "ap": 0,
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
         "id": "lz_ch03_lb_boatman",
         "name": "船家",
         "description": "船家",
@@ -1057,9 +1088,9 @@
       "indicatorType": "question",
       "interactions": [
        {
-        "id": "lz_ch03_yinxin_pavilion",
-        "name": "与银心说话",
-        "description": "与银心说话",
+        "id": "lz_ch03_board_yinxin",
+        "name": "银心：该上船了",
+        "description": "银心：该上船了",
         "type": "talk",
         "weight": 1,
         "conditions": [
@@ -1079,10 +1110,41 @@
         "effects": [
          {
           "type": "start_dialogue",
-          "target": "ch03_zhu_yinxin_chat",
+          "target": "ch03_zhu_board",
           "value": {
            "ap": 0,
-           "kind": "chat"
+           "kind": "talk"
+          }
+         }
+        ]
+       },
+       {
+        "id": "lz_ch03_lb_board_yinxin",
+        "name": "银心：要开船了",
+        "description": "银心：要开船了",
+        "type": "talk",
+        "weight": 1,
+        "conditions": [
+         {
+          "type": "flag",
+          "operator": "eq",
+          "value": "role_liangshanbo"
+         },
+         {
+          "type": "period",
+          "operator": "in",
+          "value": [
+           "c3_pavilion"
+          ]
+         }
+        ],
+        "effects": [
+         {
+          "type": "start_dialogue",
+          "target": "ch03_lb_board",
+          "value": {
+           "ap": 0,
+           "kind": "talk"
           }
          }
         ]
