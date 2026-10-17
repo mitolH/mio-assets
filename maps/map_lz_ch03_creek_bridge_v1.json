@@ -593,6 +593,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "lb_parted"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -642,6 +647,11 @@
           "value": [
            "c3_creek"
           ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -678,6 +688,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "mw_bridge_done"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -731,6 +746,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "c3_ma_rode_off"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -772,6 +792,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "c3_ma_rode_off"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -826,6 +851,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "c3_washer_turned"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -867,6 +897,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "mw3_washer"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -939,6 +974,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "c3_yinxin_led"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -970,6 +1010,11 @@
           "value": [
            "c3_creek"
           ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -5273,6 +5318,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "c3_hint_reflection"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -5314,6 +5364,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "lb_parted"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -5350,6 +5405,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "mw_reflection_done"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -5388,6 +5448,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "c3_goose_done"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -5429,6 +5494,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "lb_parted"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [

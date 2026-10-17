@@ -783,6 +783,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "lb_parted"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -832,6 +837,11 @@
           "value": [
            "c3_mulberry"
           ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -912,6 +922,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "c3_oldwoman_away"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -948,6 +963,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "lb_oldwoman_done"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -989,6 +1009,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "mw3_old_woman"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -1094,6 +1119,11 @@
           "type": "flag",
           "operator": "eq",
           "value": "mw_show_mulberry"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -1148,6 +1178,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "mw_harass_mulberry"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -1208,6 +1243,11 @@
           "value": [
            "c3_mulberry"
           ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -4454,6 +4494,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "c3_hint_jiumei"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -4495,6 +4540,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "lb_parted"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -4533,6 +4583,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "c3_hint_well"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -4574,6 +4629,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "lb_parted"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -4612,6 +4672,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "c3_hint_herdboy"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -4653,6 +4718,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "lb_parted"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -4686,6 +4756,11 @@
         "value": [
          "c3_mw_listen"
         ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        },
        {
         "type": "flag",
@@ -4728,6 +4803,11 @@
        {
         "type": "flag",
         "operator": "not_in",
+        "value": "ch03_complete"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
         "value": "mw_listen_mid_done"
        }
       ],
@@ -4762,6 +4842,11 @@
         "value": [
          "c3_mw_listen"
         ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        },
        {
         "type": "flag",

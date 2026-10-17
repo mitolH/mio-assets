@@ -698,6 +698,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "c3_teacher_farewell"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -734,6 +739,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "lb_curfew"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -770,6 +780,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "mw_teacher_ok"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -823,6 +838,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "lb_sixjiu_carry"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -877,6 +897,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "yinxin_coached"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -908,6 +933,11 @@
           "value": [
            "c3_gate"
           ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -944,6 +974,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "mw_yinxin_pried"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -998,6 +1033,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "lb_parted"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -1034,6 +1074,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "mw_gate_talked"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -1088,6 +1133,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "c3_liang_asked"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -1119,6 +1169,11 @@
           "value": [
            "c3_gate"
           ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -1172,6 +1227,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "mw_scholar_done"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -1230,6 +1290,11 @@
            "mw_guard_sent_creek",
            "mw_harass_gate"
           ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -6695,6 +6760,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "c3_register_done"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -6726,6 +6796,11 @@
         "value": [
          "c3_gate"
         ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -6762,6 +6837,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "mw_register_done"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -6800,6 +6880,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "c3_hint_magpie"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -6841,6 +6926,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "lb_parted"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -6877,6 +6967,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "mw_willow_done"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -6910,6 +7005,11 @@
         "value": [
          "c3_gate"
         ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -6943,6 +7043,11 @@
         "value": [
          "c3_gate"
         ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -6986,6 +7091,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "lb_parted"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [

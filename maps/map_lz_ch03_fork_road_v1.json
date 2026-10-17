@@ -561,6 +561,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "lb_parted"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -610,6 +615,11 @@
           "value": [
            "c3_fork"
           ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -659,6 +669,11 @@
           "value": [
            "c3_fork"
           ]
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -724,6 +739,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "c3_carter_gone"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -760,6 +780,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "lb_rode_cart"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -796,6 +821,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "mw_letter_done"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -850,6 +880,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "lb_guard_done"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -886,6 +921,11 @@
           "type": "flag",
           "operator": "not_in",
           "value": "mw_harass_fork"
+         },
+         {
+          "type": "flag",
+          "operator": "not_in",
+          "value": "ch03_complete"
          }
         ],
         "effects": [
@@ -4968,6 +5008,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "c3_guanyin_done"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -5009,6 +5054,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "lb_parted"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -5045,6 +5095,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "mw_guanyin_done"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -5078,6 +5133,11 @@
         "value": [
          "c3_fork"
         ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -5109,6 +5169,11 @@
         "value": [
          "c3_fork"
         ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -5140,6 +5205,11 @@
         "value": [
          "c3_fork"
         ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -5178,6 +5248,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "c3_token_done"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -5219,6 +5294,11 @@
         "type": "flag",
         "operator": "not_in",
         "value": "lb_parted"
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -5252,6 +5332,11 @@
         "value": [
          "c3_fork"
         ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
@@ -5283,6 +5368,11 @@
         "value": [
          "c3_fork"
         ]
+       },
+       {
+        "type": "flag",
+        "operator": "not_in",
+        "value": "ch03_complete"
        }
       ],
       "effects": [
