@@ -5299,8 +5299,8 @@
   {
    "id": "tp_lz_ch03_pavilion_boat_to_ch04",
    "name": "栈桥 · 登船回祝家庄",
-   "sourceTileX": 34,
-   "sourceTileY": 9,
+   "sourceTileX": 36,
+   "sourceTileY": 6,
    "target": {
     "mapId": "map_lz_ch04_zhufu_hall_v1",
     "tileX": 22,
