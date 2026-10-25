@@ -56,6 +56,8 @@
     "sprite_ma_steward_48x96_story_v2",
     "sprite_matchmaker_48x96_story_v2",
     "sprite_mawencai_48x96_story_v1",
+    "sprite_page_boy_48x96_story_v1",
+    "sprite_student_b_48x96_story_v1",
     "sprite_yamen_runner_48x96_story_v1",
     "sprite_zhufu_father_48x96_story_v1",
     "sprite_zhufu_maid_48x96_story_v1",
@@ -1479,6 +1481,34 @@
       "interactionRange": 1,
       "indicatorType": "question",
       "interactions": []
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_page_boy_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 24,
+     "tileY": 27,
+     "refId": "map_lz_ch04_betrothal_hall_v1_actor_page_boy_12",
+     "persona": {
+      "npcId": "page_boy",
+      "periods": [
+       "lb_after_seal"
+      ]
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_student_b_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 29,
+     "tileY": 18,
+     "refId": "map_lz_ch04_betrothal_hall_v1_actor_student_b_13",
+     "persona": {
+      "npcId": "lu_huaian",
+      "periods": [
+       "mw_after"
+      ]
      }
     }
    ]

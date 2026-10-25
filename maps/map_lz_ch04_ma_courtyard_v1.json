@@ -56,9 +56,11 @@
    ],
    "spriteIds": [
     "sprite_boatman_48x96_story_v1",
+    "sprite_county_clerk_48x96_story_v2",
     "sprite_liangshanbo_48x96_story_v2",
     "sprite_ma_guard_48x96_story_v1",
     "sprite_ma_steward_48x96_story_v2",
+    "sprite_ma_taishou_48x96_story_v1",
     "sprite_mawencai_48x96_story_v1"
    ],
    "mapIds": [
@@ -1155,6 +1157,35 @@
          }
         ]
        }
+      ]
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_ma_taishou_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 24,
+     "tileY": 13,
+     "refId": "map_lz_ch04_ma_courtyard_v1_actor_ma_taishou_9",
+     "persona": {
+      "npcId": "ma_taishou",
+      "periods": [
+       "mw_father",
+       "mw_night"
+      ]
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_county_clerk_48x96_story_v2",
+     "animationId": "idle-down",
+     "tileX": 20,
+     "tileY": 15,
+     "refId": "map_lz_ch04_ma_courtyard_v1_actor_county_clerk_10",
+     "persona": {
+      "npcId": "county_clerk",
+      "periods": [
+       "mw_clerk"
       ]
      }
     }

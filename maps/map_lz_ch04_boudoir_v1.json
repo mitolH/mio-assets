@@ -57,6 +57,9 @@
    ],
    "spriteIds": [
     "sprite_ma_guard_48x96_story_v1",
+    "sprite_matchmaker_48x96_story_v2",
+    "sprite_washerwoman_48x96_story_v1",
+    "sprite_zhufu_father_48x96_story_v1",
     "sprite_zhufu_maid_48x96_story_v1",
     "sprite_zhufu_mother_48x96_story_v1",
     "sprite_zhuyingtai_home_48x96_story_v1"
@@ -1009,6 +1012,48 @@
       "interactionRange": 1,
       "indicatorType": "question",
       "interactions": []
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_zhufu_father_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 21,
+     "tileY": 23,
+     "refId": "map_lz_ch04_boudoir_v1_actor_zhufu_father_5",
+     "persona": {
+      "npcId": "zhufu_father",
+      "periods": [
+       "xl_father"
+      ]
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_matchmaker_48x96_story_v2",
+     "animationId": "idle-down",
+     "tileX": 23,
+     "tileY": 23,
+     "refId": "map_lz_ch04_boudoir_v1_actor_matchmaker_6",
+     "persona": {
+      "npcId": "matchmaker",
+      "periods": [
+       "xl_lamp2"
+      ]
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_washerwoman_48x96_story_v1",
+     "animationId": "idle-down",
+     "tileX": 24,
+     "tileY": 24,
+     "refId": "map_lz_ch04_boudoir_v1_actor_tailor_7",
+     "persona": {
+      "npcId": "tailor",
+      "periods": [
+       "xl_lamp2"
+      ]
      }
     }
    ]
