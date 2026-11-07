@@ -922,6 +922,11 @@
        "pavilion",
        "inn_night"
       ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
      }
     },
     {
@@ -937,6 +942,11 @@
        "pavilion",
        "inn_dawn"
       ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
      }
     },
     {

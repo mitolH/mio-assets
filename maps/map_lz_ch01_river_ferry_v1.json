@@ -9533,6 +9533,11 @@
       "periods": [
        "ferry"
       ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
      }
     },
     {

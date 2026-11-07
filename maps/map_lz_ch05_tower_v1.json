@@ -66,7 +66,8 @@
     "sprite_ma_steward_48x96_story_v2",
     "sprite_zhufu_maid_48x96_story_v1",
     "sprite_zhufu_mother_48x96_story_v1",
-    "sprite_ma_guard_48x96_story_v1"
+    "sprite_ma_guard_48x96_story_v1",
+    "sprite_zhufu_father_48x96_story_v1"
    ],
    "mapIds": [
     "map_lz_ch05_tower_v1"
@@ -1482,6 +1483,23 @@
        }
       ],
       "speed": 1
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_zhufu_father_48x96_story_v1",
+     "animationId": "idle-left",
+     "tileX": 23,
+     "tileY": 11,
+     "refId": "map_lz_ch05_tower_v1_actor_zhufu_father_8",
+     "persona": {
+      "npcId": "zhufu_father",
+      "periods": []
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
      }
     }
    ]

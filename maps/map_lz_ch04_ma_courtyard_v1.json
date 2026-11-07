@@ -1173,6 +1173,11 @@
        "mw_father",
        "mw_night"
       ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
      }
     },
     {
@@ -1187,6 +1192,11 @@
       "periods": [
        "mw_clerk"
       ]
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
      }
     }
    ]

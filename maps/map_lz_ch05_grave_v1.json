@@ -61,7 +61,8 @@
     "sprite_zhuyingtai_butterfly_48x96_story_v1",
     "sprite_zhuyingtai_wedding_48x96_story_v1",
     "sprite_matchmaker_48x96_story_v2",
-    "sprite_wedding_bearer_48x96_story_v1"
+    "sprite_wedding_bearer_48x96_story_v1",
+    "sprite_ma_steward_48x96_story_v2"
    ],
    "mapIds": [
     "map_lz_ch05_grave_v1"
@@ -917,6 +918,23 @@
      "animationId": "idle-left",
      "persona": {
       "npcId": "wedding_bearer"
+     }
+    },
+    {
+     "assetType": "sprite",
+     "spriteId": "sprite_ma_steward_48x96_story_v2",
+     "animationId": "idle-right",
+     "tileX": 12,
+     "tileY": 26,
+     "refId": "map_lz_ch05_grave_v1_actor_ma_steward_8",
+     "persona": {
+      "npcId": "ma_steward",
+      "periods": []
+     },
+     "interaction": {
+      "interactionRange": 2,
+      "indicatorType": "question",
+      "interactions": []
      }
     }
    ]
