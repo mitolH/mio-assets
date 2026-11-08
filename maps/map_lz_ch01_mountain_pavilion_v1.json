@@ -934,7 +934,7 @@
      "spriteId": "sprite_tea_seller_48x96_story_v1",
      "animationId": "idle-down",
      "tileX": 36,
-     "tileY": 22,
+     "tileY": 23,
      "refId": "map_lz_ch01_mountain_pavilion_v1_actor_villager_3",
      "persona": {
       "npcId": "tea_seller",
