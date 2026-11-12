@@ -54415,9 +54415,9 @@
       "path": "music/mus_bgm_academy.json",
       "mood": "端正、明亮",
       "bpm": 80,
-      "durationSec": 60,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "durationSec": 72,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_bamboo",
@@ -54425,9 +54425,9 @@
       "path": "music/mus_bgm_bamboo.json",
       "mood": "空灵、清风",
       "bpm": 66,
-      "durationSec": 58.2,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "durationSec": 72.7,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_betrothal",
@@ -54436,8 +54436,8 @@
       "mood": "礼数之下的暗流",
       "bpm": 58,
       "durationSec": 66.2,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_boudoir",
@@ -54445,9 +54445,9 @@
       "path": "music/mus_bgm_boudoir.json",
       "mood": "孤独而温柔",
       "bpm": 54,
-      "durationSec": 53.3,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "durationSec": 71.1,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_butterfly",
@@ -54456,8 +54456,8 @@
       "mood": "轻盈、超脱",
       "bpm": 76,
       "durationSec": 63.2,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_classroom",
@@ -54466,8 +54466,8 @@
       "mood": "专注、安静",
       "bpm": 72,
       "durationSec": 66.7,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_courtyard",
@@ -54475,19 +54475,19 @@
       "path": "music/mus_bgm_courtyard.json",
       "mood": "安稳、家的温度",
       "bpm": 66,
-      "durationSec": 58.2,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "durationSec": 72.7,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_dorm",
       "name": "廊下 · 私语",
       "path": "music/mus_bgm_dorm.json",
       "mood": "亲近、小心",
-      "bpm": 60,
-      "durationSec": 64,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "bpm": 66,
+      "durationSec": 72.7,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_ferry",
@@ -54495,19 +54495,19 @@
       "path": "music/mus_bgm_ferry.json",
       "mood": "轻快、水波",
       "bpm": 84,
-      "durationSec": 51.4,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "durationSec": 68.6,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_grave",
       "name": "坟前 · 默",
       "path": "music/mus_bgm_grave.json",
       "mood": "寂静、悼",
-      "bpm": 46,
-      "durationSec": 62.6,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "bpm": 44,
+      "durationSec": 87.3,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_hall",
@@ -54515,9 +54515,9 @@
       "path": "music/mus_bgm_hall.json",
       "mood": "端正、隐有压力",
       "bpm": 60,
-      "durationSec": 64,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "durationSec": 80,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_library",
@@ -54526,8 +54526,8 @@
       "mood": "屏息、纸页声",
       "bpm": 56,
       "durationSec": 68.6,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_mountain",
@@ -54535,9 +54535,9 @@
       "path": "music/mus_bgm_mountain.json",
       "mood": "明朗、赶路",
       "bpm": 88,
-      "durationSec": 65.5,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "durationSec": 76.4,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_night",
@@ -54545,9 +54545,9 @@
       "path": "music/mus_bgm_night.json",
       "mood": "静夜、安睡前",
       "bpm": 54,
-      "durationSec": 53.3,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "durationSec": 71.1,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_parting",
@@ -54555,9 +54555,9 @@
       "path": "music/mus_bgm_parting.json",
       "mood": "依依、欲言又止",
       "bpm": 62,
-      "durationSec": 77.4,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "durationSec": 85.2,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_rain",
@@ -54566,8 +54566,8 @@
       "mood": "微凉、思绪绵长",
       "bpm": 58,
       "durationSec": 66.2,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_sickroom",
@@ -54575,9 +54575,9 @@
       "path": "music/mus_bgm_sickroom.json",
       "mood": "沉郁、气息微弱",
       "bpm": 50,
-      "durationSec": 57.6,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "durationSec": 76.8,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_tower",
@@ -54585,9 +54585,9 @@
       "path": "music/mus_bgm_tower.json",
       "mood": "思念、含蓄",
       "bpm": 66,
-      "durationSec": 72.7,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "durationSec": 80,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_bgm_wedding",
@@ -54596,8 +54596,8 @@
       "mood": "庄严的哀，仪仗声",
       "bpm": 72,
       "durationSec": 66.7,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_choice_soft",
@@ -54606,8 +54606,8 @@
       "mood": "克制、悬而未决",
       "bpm": 56,
       "durationSec": 51.4,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_choice_tense",
@@ -54616,8 +54616,8 @@
       "mood": "紧张（疑高时）",
       "bpm": 84,
       "durationSec": 45.7,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_end_bittersweet",
@@ -54625,9 +54625,9 @@
       "path": "music/mus_end_bittersweet.json",
       "mood": "苦尽微甘",
       "bpm": 56,
-      "durationSec": 68.6,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "durationSec": 77.1,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_end_reunion",
@@ -54635,19 +54635,19 @@
       "path": "music/mus_end_reunion.json",
       "mood": "轻盈、释然",
       "bpm": 72,
-      "durationSec": 53.3,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "durationSec": 60,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_end_sorrow",
       "name": "终章 · 迟蝶",
       "path": "music/mus_end_sorrow.json",
       "mood": "哀而不伤",
-      "bpm": 48,
-      "durationSec": 60,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "bpm": 50,
+      "durationSec": 86.4,
+      "version": 2,
+      "updatedAt": 1794960000000
     },
     {
       "id": "mus_title_theme",
@@ -54655,9 +54655,9 @@
       "path": "music/mus_title_theme.json",
       "mood": "庄重而温柔",
       "bpm": 66,
-      "durationSec": 58.2,
-      "version": 1,
-      "updatedAt": 1794800000000
+      "durationSec": 65.5,
+      "version": 2,
+      "updatedAt": 1794960000000
     }
   ]
 }
