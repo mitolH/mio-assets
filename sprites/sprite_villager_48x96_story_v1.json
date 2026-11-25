@@ -1,324 +1,377 @@
 {
-  "id": "sprite_villager_48x96_story_v1",
-  "name": "村民路人 48x96 story v1",
-  "category": "character",
-  "description": "村民路人 48x96 story v1，统一 48x96 写实比例像素漫画风主角。",
-  "tags": [
-    "liangzhu-story-v1",
-    "liangzhu",
-    "villager",
-    "48x96",
-    "tier-b",
-    "supporting-cast-v3",
-    "general-supporting-cast-v3",
-    "villager-bamboo-basket-v3"
+ "id": "sprite_villager_48x96_story_v1",
+ "name": "村民路人 48x96 story v1",
+ "category": "character",
+ "description": "村民路人 48x96 story v1，统一 48x96 写实比例像素漫画风主角。",
+ "tags": [
+  "liangzhu-story-v1",
+  "liangzhu",
+  "villager",
+  "48x96",
+  "tier-b",
+  "supporting-cast-v3",
+  "general-supporting-cast-v3",
+  "villager-bamboo-basket-v3"
+ ],
+ "styleProfile": {
+  "storyId": "liangzhu",
+  "visualStyle": "semi-realistic pixel comic",
+  "baseTileSize": 16,
+  "characterScale": "48x96",
+  "detailTier": "B",
+  "characterMotifs": [
+   "earth-tone village robe",
+   "bamboo basket and travel bundle",
+   "general supporting actor depth"
   ],
-  "styleProfile": {
-    "storyId": "liangzhu",
-    "visualStyle": "semi-realistic pixel comic",
-    "baseTileSize": 16,
-    "characterScale": "48x96",
-    "detailTier": "B",
-    "characterMotifs": [
-      "earth-tone village robe",
-      "bamboo basket and travel bundle",
-      "general supporting actor depth"
-    ],
-    "detailPass": "supporting-cast-v3",
-    "sourceQuality": "animated-general-supporting-cast-v3"
-  },
-  "width": 48,
-  "height": 96,
-  "tileWidth": 3,
-  "tileHeight": 6,
-  "anchorX": 24,
-  "anchorY": 96,
-  "footprint": {
-    "tileWidth": 1,
-    "tileHeight": 1,
-    "offsetTileX": 0,
-    "offsetTileY": 0
-  },
-  "layers": [
+  "detailPass": "supporting-cast-v3",
+  "sourceQuality": "animated-general-supporting-cast-v3"
+ },
+ "width": 48,
+ "height": 96,
+ "tileWidth": 3,
+ "tileHeight": 6,
+ "anchorX": 24,
+ "anchorY": 96,
+ "footprint": {
+  "tileWidth": 1,
+  "tileHeight": 1,
+  "offsetTileX": 0,
+  "offsetTileY": 0
+ },
+ "layers": [
+  {
+   "id": "body",
+   "name": "Body",
+   "zOrder": 0,
+   "defaultComponentId": "comp_villager_idle_down_f1_story_v1",
+   "defaultOffsetX": -24,
+   "defaultOffsetY": -96,
+   "visible": true
+  }
+ ],
+ "animations": [
+  {
+   "id": "idle-down",
+   "name": "idle-down",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
     {
-      "id": "body",
-      "name": "Body",
-      "zOrder": 0,
-      "defaultComponentId": "comp_villager_idle_down_f1_story_v1",
-      "defaultOffsetX": -24,
-      "defaultOffsetY": -96,
-      "visible": true
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_idle_down_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_idle_down_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_idle_down_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_idle_down_f4_story_v1"
+      }
+     ]
     }
-  ],
-  "animations": [
+   ]
+  },
+  {
+   "id": "walk-down",
+   "name": "walk-down",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
     {
-      "id": "idle-down",
-      "name": "idle-down",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 0,
-      "frames": [
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_idle_down_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_idle_down_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_idle_down_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 180,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_idle_down_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_down_f1_story_v1"
+      }
+     ]
     },
     {
-      "id": "walk-down",
-      "name": "walk-down",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_down_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_down_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_down_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_down_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_down_f2_story_v1"
+      }
+     ]
     },
     {
-      "id": "walk-left",
-      "name": "walk-left",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_left_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_left_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_left_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_left_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_down_f3_story_v1"
+      }
+     ]
     },
     {
-      "id": "walk-right",
-      "name": "walk-right",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_right_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_right_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_right_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_right_f4_story_v1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "walk-up",
-      "name": "walk-up",
-      "loop": true,
-      "interruptPolicy": "interruptible",
-      "priority": 1,
-      "frames": [
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_up_f1_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_up_f2_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_up_f3_story_v1"
-            }
-          ]
-        },
-        {
-          "duration": 140,
-          "layerStates": [
-            {
-              "layerId": "body",
-              "offsetX": 0,
-              "offsetY": 0,
-              "componentId": "comp_villager_walk_up_f4_story_v1"
-            }
-          ]
-        }
-      ]
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_down_f4_story_v1"
+      }
+     ]
     }
-  ],
-  "defaultAnimationId": "idle-down",
-  "createdAt": 1782325200000,
-  "updatedAt": 1782325200000,
-  "version": 1
+   ]
+  },
+  {
+   "id": "walk-left",
+   "name": "walk-left",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_left_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_left_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_left_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_left_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-right",
+   "name": "walk-right",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_right_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_right_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_right_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_right_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "walk-up",
+   "name": "walk-up",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 1,
+   "frames": [
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_up_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_up_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_up_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 140,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_walk_up_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "idle-up",
+   "name": "idle-up",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_idle_up_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_idle_up_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_idle_up_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_villager_idle_up_f4_story_v1"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "defaultAnimationId": "idle-down",
+ "createdAt": 1782325200000,
+ "updatedAt": 1795601287464,
+ "version": 1
 }

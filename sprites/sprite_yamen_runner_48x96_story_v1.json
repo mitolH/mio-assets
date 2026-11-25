@@ -429,10 +429,63 @@
      ]
     }
    ]
+  },
+  {
+   "id": "idle-up",
+   "name": "idle-up",
+   "loop": true,
+   "interruptPolicy": "interruptible",
+   "priority": 0,
+   "frames": [
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_yamen_runner_idle_up_f1_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_yamen_runner_idle_up_f2_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_yamen_runner_idle_up_f3_story_v1"
+      }
+     ]
+    },
+    {
+     "duration": 180,
+     "layerStates": [
+      {
+       "layerId": "body",
+       "offsetX": 0,
+       "offsetY": 0,
+       "componentId": "comp_yamen_runner_idle_up_f4_story_v1"
+      }
+     ]
+    }
+   ]
   }
  ],
  "defaultAnimationId": "idle-down",
  "createdAt": 1791000000000,
- "updatedAt": 1791000000000,
+ "updatedAt": 1795601287464,
  "version": 1
 }
