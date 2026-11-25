@@ -65,3 +65,24 @@ test('地面/地形 tile：颜色数与可平铺性', (t) => {
   }
   assertNoNewViolations(t, v);
 });
+
+test('角色精灵：必须有 idle-up（引擎 idle-up→idle→idle-down 查找，缺失会转成正面）；f1=f4=walk-up f1，f2/f3 为呼吸帧', (t) => {
+  const v = [];
+  const sameRows = (a, b) => a.pixels.length === b.pixels.length && a.pixels.every((r, y) => r.every((p, x) => p === b.pixels[y][x]));
+  for (const { data: s } of repo.sprites) {
+    if (s.category !== 'character' || s.width !== 48) continue;
+    const idle = s.animations?.find((a) => a.id === 'idle-up');
+    const walk = s.animations?.find((a) => a.id === 'walk-up');
+    if (!idle) { v.push(`idle-up-missing|${s.id}|缺少 idle-up 片段`); continue; }
+    if (idle.frames.length !== 4 || !idle.loop || idle.frames.some((f) => f.duration !== 180)) v.push(`idle-up-shape|${s.id}|应为 4 帧、180ms、loop`);
+    if (!walk) continue;
+    const comp = (f) => repo.components.get(f?.layerStates?.[0]?.componentId);
+    const w1 = comp(walk.frames[0]); const [i1, i2, i3, i4] = idle.frames.map(comp);
+    if (!w1 || !i1 || !i2 || !i3 || !i4) continue;
+    if (!sameRows(i1, w1) || !sameRows(i4, w1)) v.push(`idle-up-f1f4|${s.id}|f1/f4 应与 walk-up f1 像素相同`);
+    if (sameRows(i2, w1) || !sameRows(i2, i3)) v.push(`idle-up-breath|${s.id}|f2=f3 且应不同于 f1（呼吸帧）`);
+    if (!/_idle_up_f\d_/.test(i1.id)) v.push(`idle-up-id|${s.id}|组件 id 应含 _idle_up_f{n}_`);
+    if (!repo.manifest?.components?.some((c) => c.id === i1.id)) v.push(`idle-up-manifest|${i1.id}|未登记到 manifest`);
+  }
+  assertNoNewViolations(t, v);
+});
